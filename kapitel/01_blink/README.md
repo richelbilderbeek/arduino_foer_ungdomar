@@ -51,7 +51,7 @@ Du ser nu Arduino IDE:
 
 \pagebreak
 
-## 1.4 Blink: vårt första program
+## 1.4 Blink: Vårt första program
 
 Detta är (en version av) koden för `Blink`:
 
@@ -90,7 +90,7 @@ Tips: LED är nu 1000 millisekunder på och 1000 millisekunder av.
 
 \pagebreak
 
-## 1.6 Blink: lösning 2
+## 1.6 Blink: Lösning 2
 
 ```c++
 void setup()
