@@ -192,7 +192,7 @@ Anslut nu din LED till stift 12.
 
 ## 1.11 Blink: Lösning 4
 
-![Blinka med LED på stift 12](1_blink_op_12.png)
+![Blinka med LED på stift 12](1_blink_paa_12.png)
 
 ## 1.12 Blink: Uppgift 5
 
