@@ -1,12 +1,12 @@
-# Les 2: Blink Blink Blink
+# Lektion 2: Blink Blink Blink
 
-Deze les heet 'Blink Blink Blink', omdat het de les Blink is, maar dan met drie lampjes.
+Den här lektionen kallas 'Blink Blink Blink', eftersom det är Blink lektionen, men med tre lampor.
 
-## 2.1: Blink Blink Blink: Blink 
+## 2.1: Blink Blink Blink: Blink
 
 ![Blink](02_blink_blink_blink_blink.png)
 
-Dit is de code van Blink op een andere manier:
+Här är Blinks kod på ett annat sätt:
 
 ```c++
 const int pin_led = 13;
@@ -25,23 +25,23 @@ void loop()
 }
 ```
 
-`pin_led` wordt een variabele genoemd: een stukje computergeheugen met een naam.
+`pin_led` kallas en variabel: en bit datorminne med ett namn.
 
 ![](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------------:|:----------------------------------------: 
-`const int pin_led = 13;`|'Lieve computer, onthoud een heel getal met de naam `pin_led` met beginwaarde 13.'
+:-------------:|:----------------------------------------: 
+`const int pin_led = 13;`|'Bästa dator, kom ihåg ett heltal som heter `pin_led` med initialvärdet 13.'
 
-## 2.2: Blink Blink Blink: Opdracht 1
+## 2.2: Blink Blink Blink: Uppgift 1
 
-Sluit de LED aan op pin 12 en verander de code zodat deze gaat knipperen.
+Anslut lysdioden till stift 12 och ändra koden så att den blinkar.
 
 \pagebreak
 
-## 2.3: Blink Blink Blink: Oplossing 1
+## 2.3: Blink Blink Blink: Lösning 1
 
-![Blink met LEDje op 12](02_blink_blink_blink_blink_op_12.png)
+![Blinka med LED på 12](02_blink_blink_blink_blink_on_12.png)
 
-Je hoeft maar een regel te veranderen:
+Du behöver bara ändra en rad:
 
 ```c++
 const int pin_led = 12;
@@ -57,18 +57,18 @@ void loop()
 }
 ```
 
-## 2.4: Blink Blink Blink: Opdracht 2
+## 2.4: Blink Blink Blink: Uppgift 2
 
-Maak zelf een nieuwe variabele met de naam `wachttijd`. 
-`wachttijd` is een heel getal met beginwaarde 1000.
-Gebruik `wachttijd` in de regels met `delay`.
+Skapa en ny variabel som heter "väntetid" själv.
+"väntetid" är ett heltal med initialt värde 1000.
+Använd "väntetid" i raderna med "fördröjning".
 
-![](EmojiSunglasses.png) | Slim! Als je `wachttijd` leest, weet je waar het voor is. Bij `1000` weet je dat niet
+![](EmojiSunglasses.png) | Smart! Om du läser "väntetid" vet du vad det är till för. Vid `1000` vet du inte det
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## 2.5: Blink Blink Blink: Oplossing 2
+##2.5: Blink Blink Blink: Lösning 2
 
 ```c++
 // ... [maak pin_led met waarde 12]
@@ -88,26 +88,26 @@ void loop()
 }
 ```
 
-![](EmojiBowtie.png)| `// ... [wat]` betekent 'De code die je daar al hebt staan die gaat over wat er tussen blokhaken staat'
+![](EmojiBowtie.png)| `// ... [vad]` betyder 'koden du redan har där som handlar om vad som står inom parentes'
 :-------------:|:----------------------------------------: 
 
-## 2.6: Blink Blink Blink: Blink Blink Blink aansluiten
+##2.6: Blink Blink Blink: Ansluter Blink Blink Blink
 
-Nu is het tijd 'Blink Blink Blink' aan te sluiten:
+Nu är det dags att ansluta "Blink Blink Blink":
 
 ![BlinkBlinkBlink](02_blink_blink_blink.png)
 
- * Haal het USB snoer uit de computer, zodat de Arduino geen spanning meer heeft
- * Sluit de onderdelen aan zoals op de tekening
+ * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+ * Anslut delarna enligt bilden
 
-## 2.7: Blink Blink Blink: Opdracht 3
+## 2.7: Blink Blink Blink: Uppgift 3
 
-Sluit 'Blink Blink Blink' aan. Hernoem de variable `pin_led` naar `pin_led_1`
-en zorg dat 'ie de juiste beginwaarde heeft.
+Koppla in 'Blink Blink Blink'. Byt namn på variabeln "pin_led" till "pin_led_1".
+och se till att det har rätt startvärde.
 
 \pagebreak
 
-## Oplossing 3
+## Lösning 3
 
 ```c++
 const int pin_led_1 = 11;
@@ -127,26 +127,26 @@ void loop()
 }
 ```
 
-![](EmojiSunglasses.png) | Programmeurs gebruiken veel variabelen, omdat de code dan beter te snappen is.
+![](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå.
 :-------------:|:----------------------------------------: 
 
-## 2.8: Blink Blink Blink: Opdracht 4
+##2.8: Blink Blink Blink: Uppgift 4
 
-Maak een nieuwe variable `pin_led_2`. 
-Laat dan eerst het eerste LEDje aan en uit gaan, laat dan het tweede LEDje aan en uit gaan.
+Skapa en ny variabel `pin_led_2`.
+Låt först den första lysdioden tändas och släckas, låt sedan den andra lysdioden tändas och släckas.
 
-![](EmojiSunglasses.png) | De schrijfwijze `pin_led_2` wordt 'snake case' genoemd: 'snake' is Engels voor slang
+![](EmojiSunglasses.png) | Stavningen 'pin_led_2' kallas 'snake case': 'snake' är engelska för snake
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | Zou je schijven `pinLed2`, dan wordt dat 'camel case' genoemd: 'camel' is Engels voor kameel
+![](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för camel
 :-------------:|:----------------------------------------: 
 
-![](EmojiComputer.png) | Mij maakt het niet uit welke je kiest
+![](EmojiComputer.png) | Jag bryr mig inte om vilken du väljer
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## 2.9: Blink Blink Blink: Oplossing 4
+## 2.9: Blink Blink Blink: Lösning 4
 
 ```c++
 const int pin_led_1 = 11;
@@ -172,19 +172,19 @@ void loop()
 }
 ```
 
-## 2.10: Blink Blink Blink: Opdracht 5
+## 2.10: Blink Blink Blink: Uppgift 5
 
-Maak een derde variabele `pin_led_3`. Laat nu steeds alle lampjes tegelijk knipperen: allemaal aan, dan allemaal uit.
+Skapa en tredje variabel `pin_led_3`. Låt nu alla lampor blinka samtidigt: alla på, sedan alla av.
 
-![](EmojiSunglasses.png) | Dit is best veel typewerk! Later leer je hoe dit slimmer kan
+![](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | Klopt! Met arrays kun je meerdere getallen in een variabele opslaan
+![](EmojiBowtie.png) | Korrekt! Matriser låter dig lagra flera tal i en variabel
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## 2.11: Blink Blink Blink: Oplossing 5
+## 2.11: Blink Blink Blink: Lösning 5
 
 ```c++
 // ... [maak wachttijd, pin_led_1 en pin_led_2]
@@ -207,12 +207,11 @@ void loop()
 }
 ```
 
-## 2.12: Blink Blink Blink: Eindopdracht
+## 2.12: Blink Blink Blink: Final Assignment
 
-Laat de lampjes nu in een 'Knight Rider patroon' gaan: 1-2-3-2. Er moet altijd precies een lampje branden.
+Låt nu lamporna gå i ett 'Knight Rider-mönster': 1-2-3-2. Det måste alltid finnas exakt ett ljus.
 
-![Sunglasses](EmojiSunglasses.png) | Knight Rider was een TV serie met een pratende auto.
+![Solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
 :-------------:|:----------------------------------------: 
 
 ![Knight Rider](KnightRider.png)
-
