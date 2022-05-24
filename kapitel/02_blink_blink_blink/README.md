@@ -1,12 +1,13 @@
 # Lektion 2: Blink Blink Blink
 
-Den här lektionen kallas 'Blink Blink Blink', eftersom det är Blink lektionen, men med tre lampor.
+Den här lektionen kallas 'Blink Blink Blink', 
+eftersom det är Blink lektionen, men med tre lampor.
 
 ## 2.1: Blink Blink Blink: Blink
 
 ![Blink](02_blink_blink_blink_blink.png)
 
-Här är Blinks kod på ett annat sätt:
+Här är `Blink`s kod på ett annat sätt:
 
 ```c++
 const int pin_led = 13;
