@@ -51,11 +51,9 @@ void loop()
 
 När du trycker på knappen, släcks eller tänds lysdioden?
 
-\sidbrytning
-
 ## 3.4. Knapp if ... else: Svara
 
-Lysdioden tänds då
+Lysdioden tänds då.
 
 ![](EmojiSunglasses.png) | Lysdioden tänds då
 :-------------:|:----------------------------------------: 
@@ -88,7 +86,7 @@ Annars (`else`) tar Arduino spänningen från `led_stift_gron`.
 
 \pagebreak
 
-\sidbrytning
+
 
 ##3.6. Knapp if ... else: Kommando 1
 
