@@ -39,7 +39,7 @@ void loop()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`digitalRead(knapp_stift)` |'Ge mig HIGH om `knapp_stift` har spänning. Annars ge LOW'
+`digitalRead(knapp_stift)` |'Ge mig `HIGH` om `knapp_stift` har spänning. Annars ge `LOW`'
 `digitalWrite(led_stift, digitalRead(knapp_stift))`|'Sätt spänningen till `led_stift` om `knapp_stift` har spänning'
 
 ![](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
@@ -88,7 +88,7 @@ Annars (`else`) tar Arduino spänningen från `led_stift_gron`.
 
 
 
-##3.6. Knapp if ... else: Kommando 1
+## 3.6. Knapp if ... else: Uppgift 1
 
 Detta är exempelkoden, som inte är helt färdig:
 
@@ -158,7 +158,7 @@ void loop()
 :-------------:|:----------------------------------------: 
 
 
-## 3.8. Knapp if ... else: Kommando 2
+## 3.8. Knapp if ... else: Uppgift 2
 
 Anslut en andra grön lysdiod. Gör koden så att:
 
@@ -235,4 +235,5 @@ Anslut en andra knapp. Göra koden så att
 ![](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm
 :-------------:|:----------------------------------------: 
 
-![Avsluta uppdrag](3_knop_if_else_final_assignment.png)
+![Avsluta uppdrag](3_knop_if_else_slutuppgift.png)
+

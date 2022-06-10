@@ -122,13 +122,14 @@ void loop()
 :-------------:|:----------------------------------------: 
 `delay(1000);`|'Vänta 1000 millisekunder'
 
-##1.7 Blink: Uppgift 3
+
+## 1.7 Blink: Uppgift 3
 
 Låt lysdioden blinka så snabbt du kan. Vad ser du?
 
 \pagebreak
 
-##1.8 Blink: Lösning 3
+## 1.8 Blink: Lösning 3
 
 Det finns fler lösningar, det här är en:
 

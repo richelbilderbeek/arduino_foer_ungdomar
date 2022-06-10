@@ -253,7 +253,7 @@ if (vilken_led_pa == 2)
 
 ## 4.9. Knapp flip: styr två LEDer: lösning
 
-![4.9 Knapp flip: styr två LEDer: lösning](04_button_flip_2_zoom.png)
+![4.9 Knapp flip: styr två LEDer: lösning](04_knapp_flip_2_zoom.png)
 
 
 ```c++

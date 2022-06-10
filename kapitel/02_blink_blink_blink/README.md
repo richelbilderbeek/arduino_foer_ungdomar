@@ -40,7 +40,7 @@ Anslut LEDen till stift 12 och ändra koden så att den blinkar.
 
 ## 2.3: Blink Blink Blink: Lösning 1
 
-![Blinka med LED på 12](02_blink_blink_blink_blink_on_12.png)
+![Blinka med LED på 12](02_blink_blink_blink_blink_pa_12.png)
 
 Du behöver bara ändra en rad:
 
@@ -69,7 +69,7 @@ Använd `vantetid` i raderna med `delay`.
 
 \pagebreak
 
-##2.5: Blink Blink Blink: Lösning 2
+## 2.5: Blink Blink Blink: Lösning 2
 
 ```c++
 // ... [gör led_stift att vara 12]
@@ -92,7 +92,7 @@ void loop()
 ![](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom parentes'
 :-------------:|:----------------------------------------: 
 
-##2.6: Blink Blink Blink: Ansluter Blink Blink Blink
+## 2.6: Blink Blink Blink: Ansluter Blink Blink Blink
 
 Nu är det dags att ansluta `Blink Blink Blink`:
 
@@ -108,7 +108,7 @@ och se till att det har rätt startvärde.
 
 \pagebreak
 
-## Lösning 3
+## 2.8: Lösning 3
 
 ```c++
 const int led_stift_1 = 11;
@@ -131,7 +131,7 @@ void loop()
 ![](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå.
 :-------------:|:----------------------------------------: 
 
-##2.8: Blink Blink Blink: Uppgift 4
+## 2.9: Blink Blink Blink: Uppgift 4
 
 Skapa en ny variabel `led_stift_2`.
 Låt först den första LEDen tändas och släckas, låt sedan den andra LEDen tändas och släckas.
@@ -147,7 +147,7 @@ Låt först den första LEDen tändas och släckas, låt sedan den andra LEDen t
 
 \pagebreak
 
-## 2.9: Blink Blink Blink: Lösning 4
+## 2.10: Blink Blink Blink: Lösning 4
 
 ```c++
 const int led_stift_1 = 11;
@@ -173,19 +173,19 @@ void loop()
 }
 ```
 
-## 2.10: Blink Blink Blink: Uppgift 5
+## 2.11: Blink Blink Blink: Uppgift 5
 
 Skapa en tredje variabel `led_stift_3`. Låt nu alla lampor blinka samtidigt: alla på, sedan alla av.
 
 ![](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | Korrekt! Matriser låter dig lagra flera tal i en variabel
+![](EmojiBowtie.png) | Korrekt! Arrays låter dig lagra flera tal i en variabel
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## 2.11: Blink Blink Blink: Lösning 5
+## 2.12: Blink Blink Blink: Lösning 5
 
 ```c++
 // ... [skapa vantetid, led_stift_1 en led_stift_2]
@@ -208,7 +208,7 @@ void loop()
 }
 ```
 
-## 2.12: Blink Blink Blink: Slutuppgift
+## 2.13: Blink Blink Blink: Slutuppgift
 
 Låt nu lamporna gå i ett 'Knight Rider-mönster': 1-2-3-2. 
 Det måste alltid finnas exakt ett ljus som brinner.
