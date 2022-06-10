@@ -1,4 +1,4 @@
-# Lektion 3: Knapp om ... annat
+# Lektion 3: Knapp if ... else
 
 I den här lektionen låter vi Arduino ställa frågor till sig själv.
 
@@ -6,88 +6,82 @@ I den här lektionen låter vi Arduino ställa frågor till sig själv.
 :-------------:|:----------------------------------------: 
 
 
-## 3.1. Om ... annan knapp: Anslut
+## 3.1. Knapp if ... else: Anslut
 
 ![Flödesschema](3_knop_if_else.png)
 
-![](EmojiSunglasses.png) | Motståndet mot ratten kallas ett 'Pull Down'-motstånd
+![](EmojiSunglasses.png) | Motståndet mot jord kallas ett 'Pull Down'-motstånd
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-\sidbrytning
-
-## 3.2. Knapp om ... annat: Kod
+## 3.2. Knapp if ... else: Kod
 
 Här är koden för att få ljuset att tändas,
 när knappen trycks in:
 
 ```c++
-const int pin_led = 13;
-const int pin_knop = 2;
+const int led_stift = 13;
+const int knapp_stift = 2;
 
 void setup() 
 {
-  pinMode(pin_led, OUTPUT);
-  pinMode(pin_knop, INPUT);
+  pinMode(led_stift, OUTPUT);
+  pinMode(knapp_stift, INPUT);
 }
 
 void loop()
 {
-  digitalWrite(pin_led, digitalRead(pin_knop));
+  digitalWrite(led_stift, digitalRead(knapp_stift));
 }
 ```
 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-
-`digitalRead(pin_button)` |'Ge mig HIGH om `pin_button` har spänning. Annars ge LÅG'
-`digitalWrite(pin_led, digitalRead(pin_button))`|'Sätt spänningen till `pin_led` om `pin_button` har spänning'
+`digitalRead(knapp_stift)` |'Ge mig HIGH om `knapp_stift` har spänning. Annars ge LOW'
+`digitalWrite(led_stift, digitalRead(knapp_stift))`|'Sätt spänningen till `led_stift` om `knapp_stift` har spänning'
 
 ![](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## 3.3. Om ... annan knapp: Fråga
+## 3.3. Knapp if ... else: Fråga
 
 När du trycker på knappen, släcks eller tänds lysdioden?
 
 \sidbrytning
 
-## 3.4. Om ... annan knapp: Svara
+## 3.4. Knapp if ... else: Svara
 
 Lysdioden tänds då
 
 ![](EmojiSunglasses.png) | Lysdioden tänds då
 :-------------:|:----------------------------------------: 
 
+## 3.5. Knapp if ... else: `if`
 
-## 3.5. Om ... annan knapp: `if`
-
-Med 'om' kan du få Arduino att göra något, om något så här:
+Med `if` kan du få Arduino att göra något, om något så här:
 
 ```c++
-if (digitalRead(pin_knop) == HIGH)
+if (digitalRead(knapp_stift) == HIGH)
 {
-  digitalWrite(pin_led_rood, HIGH);
+  digitalWrite(led_stift_rod, HIGH);
 }
 else
 {
-  digitalWrite(pin_led_groen, LOW);
+  digitalWrite(led_stift_gron, LOW);
 }
 ```
 
-Denna kod kontrollerar om det finns spänning på `pin_button`.
-Om ja, lägg sedan Arduino
-spänning på `pin_led_red`.
-Annars (`else`) tar Arduino spänningen från `pin_led_green`.
+Denna kod kontrollerar om det finns spänning på `knapp_stift`.
+Om ja, lägg sedan Arduino spänning på `led_stift_red`.
+Annars (`else`) tar Arduino spänningen från `led_stift_gron`.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-
-`if (digitalRead(pin_button) == HIGH) {}`|'Bästa dator, om det finns spänning på `pin_button`, sätt den inom parentes'
+`if (digitalRead(knapp_stift) == HIGH) {}`|'Kära dator, om det finns spänning på `knapp_stift`, sätt den inom parentes'
 
 ![](EmojiSunglasses.png) | `=` kan uttalas som "sätta på". "==" kan uttalas som "lika med"
 :-------------:|:----------------------------------------: 
@@ -96,7 +90,7 @@ Annars (`else`) tar Arduino spänningen från `pin_led_green`.
 
 \sidbrytning
 
-##3.6. Knapp om ... annat: Kommando 1
+##3.6. Knapp if ... else: Kommando 1
 
 Detta är exempelkoden, som inte är helt färdig:
 
@@ -115,7 +109,6 @@ void loop()
 
   if (digitalRead(4) == HIGH)
   {
-
     digitalWrite(5, HIGH);
   }
   else
@@ -125,30 +118,18 @@ void loop()
 }
 ```
 
-  annan
-  :-------------:|:----------------------------------------: 
-
-    digitalWrite(6, LÅG);
-  :-------------:|:----------------------------------------: 
-
-:-------------:|:----------------------------------------: 
-
-:-------------:|:----------------------------------------: 
-
-
 Avsluta koden så att:
 
  * När du trycker på knappen tänds lampan
  * om du inte trycker på knappen slocknar lampan
  * använd variabler för att namnge stiften
 
-![](EmojiBowtie.png) | Det finns inget semikolon efter de runda parenteserna för "om".
+![](EmojiBowtie.png) | Det finns inget semikolon efter de runda parenteserna för `if`.
 :-------------:|:----------------------------------------: 
 
+\pagebreak
 
-\sidbrytning
-
-## 3.7. Om ... annan knapp: Lösning 1
+## 3.7. Knapp if ... else: Lösning 1
 
 ```c++
 // ...
@@ -162,48 +143,41 @@ void setup()
 
 void loop()
 {
-  if (digitalRead(pin_knop) == HIGH)
+  if (digitalRead(knapp_stift) == HIGH)
   {
 
-    digitalWrite(pin_led, HIGH);
+    digitalWrite(led_stift, HIGH);
   }
   else
   {
 
-    digitalWrite(pin_led, LOW);
+    digitalWrite(led_stift, LOW);
   }
 }
 ```
-
-:-------------:|:----------------------------------------: 
-
-:-------------:|:----------------------------------------: 
-
 
 ![](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
 :-------------:|:----------------------------------------: 
 
 
-## 3.8. Knapp om ... annat: Kommando 2
+## 3.8. Knapp if ... else: Kommando 2
 
 Anslut en andra grön lysdiod. Gör koden så att:
 
  * när du trycker på knappen tänds den första lampan och den andra lysdioden släcks
  * om du inte trycker på knappen slocknar den första lampan och den andra lysdioden slocknar
- * Namnge variabeln för stiftet på den röda lysdioden `pin_led_rood`, för
-   grön LED `pin_led_green`
+ * Namnge variabeln för stiftet på den röda lysdioden `led_stift_rod`, för
+   grön LED `led_stift_gron`
 
-![](EmojiSunglasses.png)| Du kan skriva flera rader inom de krulliga parenteserna av ett "om". Precis som mellan hängslen i `setup` och `loop`!
+![](EmojiSunglasses.png)| Du kan skriva flera rader inom de krulliga parenteserna av ett `if`. Precis som mellan hängslen i `setup` och `loop`!
 :-------------:|:----------------------------------------: 
 
-
-![](EmojiBowtie.png) | Glöm inte 'annat' ('gör annorlunda')!
+![](EmojiBowtie.png) | Glöm inte `else` ('annars')!
 :-------------:|:----------------------------------------: 
 
+\pagebreak
 
-\sidbrytning
-
-## 3.9. Knapp om ... annat: Lösning 2
+## 3.9. Knapp if ... else: Lösning 2
 
 Bild `Lösning för 'Knapp med två lysdioder'` visar hur man ansluter detta.
 
@@ -212,15 +186,15 @@ Bild `Lösning för 'Knapp med två lysdioder'` visar hur man ansluter detta.
 Det här är koden:
 
 ```c++
-const int pin_led_rood = 13;
-const int pin_led_groen = 12;
+const int led_stift_rod = 13;
+const int led_stift_gron = 12;
 // ...
 
 
 void setup() 
 {
-  pinMode(pin_led_rood, OUTPUT);
-  pinMode(pin_led_groen, OUTPUT);
+  pinMode(led_stift_rod, OUTPUT);
+  pinMode(led_stift_gron, OUTPUT);
   // ...
 }
 
@@ -229,14 +203,14 @@ void loop()
 {
   if (/* ... */)
   {
-    digitalWrite(pin_led_groen, LOW);
-    digitalWrite(pin_led_rood, HIGH);
+    digitalWrite(led_stift_gron, LOW);
+    digitalWrite(led_stift_rod, HIGH);
   }
 
   else
   {
-    digitalWrite(pin_led_groen, HIGH);
-    digitalWrite(pin_led_rood, LOW);
+    digitalWrite(led_stift_gron, HIGH);
+    digitalWrite(led_stift_rod, LOW);
   }
   delay(10);
 }
@@ -244,19 +218,10 @@ void loop()
 
 \pagebreak
 
-  fördröjning(10);
-:-------------:|:----------------------------------------: 
-
-:-------------:|:----------------------------------------: 
-
-
-\sidbrytning
-
 ![](EmojiBowtie.png)| `/* ... */` betyder också 'koden du redan har där'
 :-------------:|:----------------------------------------: 
 
-
-## 3.10. Om ... annan knapp: Avsluta kommando
+## 3.10. Knapp if ... else: Avsluta kommando
 
 Anslut en andra knapp. Göra koden så att
 
@@ -265,12 +230,11 @@ Anslut en andra knapp. Göra koden så att
   * om du trycker på den andra knappen slocknar den andra lampan
   * om du inte trycker på den andra knappen tänds den andra lampan
 
-![](EmojiSunglasses.png)| Du kan sätta "om" mer än en gång
+![](EmojiSunglasses.png)| Du kan sätta `if` mer än en gång
 :-------------:|:----------------------------------------: 
 
 
 ![](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm
 :-------------:|:----------------------------------------: 
-
 
 ![Avsluta uppdrag](3_knop_if_else_final_assignment.png)
