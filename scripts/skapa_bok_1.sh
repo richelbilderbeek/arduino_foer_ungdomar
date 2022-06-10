@@ -13,11 +13,11 @@ if [ ! -d $build_folder ]; then
   exit 1
 fi
 
-cp ../hoofdstukken/Voorwoord/*.* $build_folder           ; mv $build_folder/README.md $build_folder/README_00.md
-cp ../hoofdstukken/01_blink/*.* $build_folder            ; mv $build_folder/README.md $build_folder/README_01.md
-cp ../hoofdstukken/02_blink_blink_blink/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
-cp ../hoofdstukken/03_knop_if_else/*.* $build_folder     ; mv $build_folder/README.md $build_folder/README_03.md
-cp ../hoofdstukken/04_knop_flip/*.* $build_folder        ; mv $build_folder/README.md $build_folder/README_04.md
+cp ../kapitel/foerord/*.* $build_folder             ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../kapitel/01_blink/*.* $build_folder            ; mv $build_folder/README.md $build_folder/README_01.md
+cp ../kapitel/02_blink_blink_blink/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
+cp ../kapitel/03_knapp_if_else/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_03.md
+cp ../kapitel/04_knapp_flip/*.* $build_folder       ; mv $build_folder/README.md $build_folder/README_04.md
 
 cd $build_folder
 
@@ -31,16 +31,16 @@ cat README_04.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> READM
 # Code has highlights following the tango color scheme
 # Thinner margin of 0.5 inch
 # Do not cut code blocks
-pandoc README.md -o boek.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
 
-cp boek.pdf ../../boeken/boek_1_zonder_voorpagina.pdf
+cp bok.pdf ../../boecker/bok_1_utan_framsida.pdf
 
-cd ../../boeken
-pdfunite voorpagina_1.pdf boek_1_zonder_voorpagina.pdf boek_1.pdf
+cd ../../boecker
+pdfunite framsida_1.pdf bok_1_utan_framsida.pdf bok_1.pdf
 
 # Make booklet
-bookletimposer -a boek_1.pdf -o boekje_1.pdf
+bookletimposer -a bok_1.pdf -o haefte_1.pdf
 
 # Cleanup
-rm boek_1_zonder_voorpagina.pdf
+rm bok_1_utan_framsida.pdf
 

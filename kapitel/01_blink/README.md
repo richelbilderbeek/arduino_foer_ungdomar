@@ -38,7 +38,7 @@ Starta Arduino IDE genom att:
 
 ![Logotyp för Arduino IDE](1_blink_ide_logo.png)
 
-![Win key](1_win_key.jpg)
+![Win tangent](1_win_tangent.jpg)
 
 \pagebreak
 
