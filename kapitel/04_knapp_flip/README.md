@@ -5,6 +5,8 @@ I den här lektionen kommer vi att lära oss hur man använder en variabel.
 ![](EmojiBowtie.png) | Lektionen kallas 'knappflip' eftersom du programmerar med en flip-flop
 :-------------:|:----------------------------------------:
 
+\pagebreak
+
 ## 4.1. Knapp flip: Intro
 
 Vi börjar med denna krets:
@@ -43,6 +45,8 @@ void loop()
 
 ![](EmojiSunglasses.png) | Hej, jag känner igen den här koden!
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 4.2. Knapp flip: Button forever on: uppgift 1
 
@@ -109,6 +113,8 @@ void loop()
 
 När du trycker på knappen lyser LEDen för evig.
 
+\pagebreak
+
 ## 4.4. Knapp flip: lyser LEDen för evig: uppgift 2
 
 Vi ska nu säga:
@@ -171,6 +177,8 @@ void loop()
 ![](EmojiSunglasses.png) | Detta beror på att Arduino snabbt och ofta tänder och släcker ljuset
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 4.6. Knapp flip: Knappen på för alltid med finkontroll: uppgift 2
 
 Låt oss göra knappen mer lyhörd:
@@ -203,6 +211,8 @@ void loop()
 
 }
 ```
+
+\pagebreak
 
 ## 4.8. Knapp flip: styr två LEDer: uppgift
 
@@ -255,6 +265,7 @@ if (vilken_led_pa == 2)
 
 ![4.9 Knapp flip: styr två LEDer: lösning](04_knapp_flip_2_zoom.png)
 
+\pagebreak
 
 ```c++
 const int led_stift_rod = 13;

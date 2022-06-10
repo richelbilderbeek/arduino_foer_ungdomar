@@ -7,6 +7,8 @@ eftersom det är Blink lektionen, men med tre LEDs.
 
 ![Blink](02_blink_blink_blink_blink.png)
 
+\pagebreak
+
 Här är `Blink`s kod på ett annat sätt:
 
 ```c++
@@ -31,6 +33,8 @@ void loop()
 ![](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
 `const int led_stift = 13;`|'Bästa dator, kom ihåg ett heltal som heter `led_stift` med initialvärdet 13.'
+
+\pagebreak
 
 ## 2.2: Blink Blink Blink: Uppgift 1
 
@@ -101,6 +105,8 @@ Nu är det dags att ansluta `Blink Blink Blink`:
  * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
  * Anslut delarna enligt bilden
 
+\pagebreak
+
 ## 2.7: Blink Blink Blink: Uppgift 3
 
 Koppla in `Blink Blink Blink`. Byt namn på variabeln `led_stift` till `led_stift_1`.
@@ -130,6 +136,8 @@ void loop()
 
 ![](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå.
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ## 2.9: Blink Blink Blink: Uppgift 4
 
@@ -173,6 +181,8 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## 2.11: Blink Blink Blink: Uppgift 5
 
 Skapa en tredje variabel `led_stift_3`. Låt nu alla lampor blinka samtidigt: alla på, sedan alla av.
@@ -208,6 +218,8 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## 2.13: Blink Blink Blink: Slutuppgift
 
 Låt nu lamporna gå i ett 'Knight Rider-mönster': 1-2-3-2. 
@@ -217,3 +229,4 @@ Det måste alltid finnas exakt ett ljus som brinner.
 :-------------:|:----------------------------------------: 
 
 ![Knight Rider](KnightRider.png)
+

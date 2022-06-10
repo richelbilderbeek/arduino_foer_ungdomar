@@ -82,6 +82,8 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 ![Här kan du klicka på 'Upload'](1_blink_upload.png)
 
+\pagebreak
+
 ## 1.5 Blink: Uppgift 2
 
 Få lysdioden att blinka 10 gånger så snabbt.
@@ -127,6 +129,9 @@ void loop()
 
 Låt lysdioden blinka så snabbt du kan. Vad ser du?
 
+![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade!
+:-------------:|:----------------------------------------: 
+
 \pagebreak
 
 ## 1.8 Blink: Lösning 3
@@ -152,6 +157,8 @@ Du kommer inte längre att se lampan blinka.
 
 ![](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
 :-------------:|:----------------------------------------: 
+
+\pagebreak
 
 ![](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte titta tillräckligt snabbt för att se det.
 :-------------:|:----------------------------------------: 
@@ -179,6 +186,8 @@ Nu är det dags att ansluta Blink:
 ![](EmojiBowtie.png) | Om lysdioden inte lyser, vänd på den
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 1.10 Blink: Uppgift 4
 
 Anslut nu din LED till stift 12.
@@ -194,6 +203,8 @@ Anslut nu din LED till stift 12.
 ## 1.11 Blink: Lösning 4
 
 ![Blinka med LED på stift 12](1_blink_paa_12.png)
+
+\pagebreak
 
 ## 1.12 Blink: Uppgift 5
 

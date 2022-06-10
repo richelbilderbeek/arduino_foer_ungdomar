@@ -58,6 +58,8 @@ Lysdioden tänds då.
 ![](EmojiSunglasses.png) | Lysdioden tänds då
 :-------------:|:----------------------------------------: 
 
+\pagebreak
+
 ## 3.5. Knapp if ... else: `if`
 
 Med `if` kan du få Arduino att göra något, om något så här:
@@ -85,8 +87,6 @@ Annars (`else`) tar Arduino spänningen från `led_stift_gron`.
 :-------------:|:----------------------------------------: 
 
 \pagebreak
-
-
 
 ## 3.6. Knapp if ... else: Uppgift 1
 
@@ -157,6 +157,7 @@ void loop()
 ![](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
 :-------------:|:----------------------------------------: 
 
+\pagebreak
 
 ## 3.8. Knapp if ... else: Uppgift 2
 
@@ -180,6 +181,8 @@ Anslut en andra grön lysdiod. Gör koden så att:
 Bild `Lösning för 'Knapp med två lysdioder'` visar hur man ansluter detta.
 
 ![Lösning för 'Knapp med två lysdioder'](3_knop_if_else_2.png)
+
+\pagebreak
 
 Det här är koden:
 
@@ -214,12 +217,14 @@ void loop()
 }
 ```
 
-\pagebreak
-
 ![](EmojiBowtie.png)| `/* ... */` betyder också 'koden du redan har där'
 :-------------:|:----------------------------------------: 
 
-## 3.10. Knapp if ... else: Avsluta kommando
+\pagebreak
+
+## 3.10. Knapp if ... else: slutuppgift
+
+![Avsluta uppdrag](3_knop_if_else_slutuppgift.png)
 
 Anslut en andra knapp. Göra koden så att
 
@@ -231,9 +236,7 @@ Anslut en andra knapp. Göra koden så att
 ![](EmojiSunglasses.png)| Du kan sätta `if` mer än en gång
 :-------------:|:----------------------------------------: 
 
-
 ![](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm
 :-------------:|:----------------------------------------: 
 
-![Avsluta uppdrag](3_knop_if_else_slutuppgift.png)
 
