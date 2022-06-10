@@ -1,163 +1,162 @@
-# Les 4: Knop flip
+# Lektion 4: Knapp flip
 
-In deze les leren we een variabele te gebruiken.
+I den här lektionen kommer vi att lära oss hur man använder en variabel.
 
-![](EmojiBowtie.png) | De les heet 'knop flip' omdat je met een flip-flop programmeert 
-:-------------:|:----------------------------------------: 
+![](EmojiBowtie.png) | Lektionen kallas 'knappflip' eftersom du programmerar med en flip-flop
+:-------------:|:----------------------------------------:
 
-## 4.1. Knop flip: Intro
+## 4.1. Knapp flip: Intro
 
-We beginnen met deze schakeling:
+Vi börjar med denna krets:
 
-![Stroomschema](04_knop_flip.png)
+![Flödesschema](04_knop_flip.png)
 
-![](EmojiSunglasses.png) | Hee, deze schakeling herken ik!
-:-------------:|:----------------------------------------: 
+![](EmojiSunglasses.png) | Hej, jag känner igen den här kretsen!
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
-En we gebruiken deze code:
+Och vi använder den här koden:
 
 ```c++
-const int pin_led = 13;
-const int pin_knop = 2;
+const int led_stift = 13;
+const int knapp_stift = 2;
 
 void setup() 
 {
-  pinMode(pin_led, OUTPUT);
-  pinMode(pin_knop, INPUT);
+  pinMode(led_stift, OUTPUT);
+  pinMode(knapp_stift, INPUT);
 }
 
 void loop()
 {
-  if (digitalRead(pin_knop) == HIGH)
+  if (digitalRead(knapp_stift) == HIGH)
   {
-    digitalWrite(pin_led, HIGH);
+    digitalWrite(led_stift, HIGH);
   }
   else
   {
-    digitalWrite(pin_led, LOW);
+    digitalWrite(led_stift, LOW);
   }
 }
 ```
 
-![](EmojiSunglasses.png) | Hee, deze code herken ik!
+![](EmojiSunglasses.png) | Hej, jag känner igen den här koden!
 :-------------:|:----------------------------------------: 
 
-## 4.2. Knop flip: Knop eeuwig aan: opdracht 1
+## 4.2. Knapp flip: Button forever on: uppgift 1
 
-Zet bovenaan de code, boven `setup`:
+Överst i koden, ovanför `setup`, lägg:
 
 ```c++
-boolean is_aan = false;
+boolean ar_pa = false;
 ```
 
-In het begin van `loop`, gebruik een `if` om te kijken of de knop is
-ingedrukt. Zo ja, zet `is_aan` op `true`:
+I början av `loop`, använd ett `if` för att se om knappen är det
+nedtryckt. Om så är fallet, ställ in `ar_pa` till `true`:
 
 ```c++
-if (/* de knop is ingedrukt */)
+if (/* knappen är druckit */)
 {
-  is_aan = true;
+  ar_pa = true;
 }
 ``` 
 
-Na de eerste `if` in `loop`, gebruik een `if` om te kijken of `is_aan`
-gelijk is aan `true`. Zo ja, zet zet de LED aan. Zo nee, zet de LED uit.
+Efter det första `if` i `loop`, använd ett `if` för att se om `ar_pa`
+är lika med `true`. Om ja, slå på LEDen. Om inte, stäng av LEDen.
 
 ```c++
-if (is_aan == true)
+if (ar_pa == true)
 {
-  //Zet de LED aan
+  // slå på LEDen
 }
 else
 {
-  //Zet de LED uit
+  // stäng av LEDen
 }
 ```
 
-Wat zie je?
+Vad ser du?
 
 \pagebreak
 
-## 4.3. Knop flip: Knop eeuwig aan: oplossing 2
+## 4.3. Knapp flip: Button forever on: lösning 2
 
 
 ```c++
 // ...
-boolean is_aan = false;
+boolean ar_pa = false;
 
 // ...
 
 void loop()
 {
-  if (digitalRead(pin_knop) == HIGH)
+  if (digitalRead(knapp_stift) == HIGH)
   {
-    is_aan = true;
+    ar_pa = true;
   }
 
-  if (is_aan == true)
+  if (ar_pa == true)
   {
-    digitalWrite(pin_led, HIGH);
+    digitalWrite(led_stift, HIGH);
   }
   else
   {
-    digitalWrite(pin_led, LOW);
+    digitalWrite(led_stift, LOW);
   }
 }
 ```
 
-Als je op de knop drukt, blijft de LED eeuwig aan.
+När du trycker på knappen lyser LEDen för evig.
 
-## 4.4. Knop flip: Knop eeuwig aan: opdracht 2
+## 4.4. Knapp flip: lyser LEDen för evig: uppgift 2
 
-We gaan nu zeggen:
+Vi ska nu säga:
   
- * Als je de knop indrukt, gaat de LED aan en blijft aan
- * Als je de knop dan weer indrukt, gaat de LED uit en blijft uit
- * Als je de knop dan weer indrukt, gaat de LED aan en blijft aan
- * Enzovoorts
+ * När du trycker på knappen tänds LEDen och förblir tänd
+ * När du sedan trycker på knappen igen kommer LEDen att släckas och förbli släckt
+ * När du sedan trycker på knappen igen kommer LEDen att tändas och förbli tänd
+ * Och så vidare
 
-Pas de `if` aan die kijkt of de knop is ingedrukt:
+Justera `if` som kontrollerar om knappen trycks ned:
 
 ```c++
-if (digitalRead(pin_knop) == HIGH)
+if (digitalRead(knapp_stift) == HIGH)
 {
-  if (is_aan == true)
+  if (ar_pa == true)
   {
-    is_aan = false;
+    ar_pa = false;
   }
   else
   {
-    is_aan = true;
+    ar_pa = true;
   }
 }
 ```
 
-Upload de code. Wat zie je? Als je iets raars ziet, klopt dat!
+Ladda upp koden. Vad ser du? Om du ser något konstigt så stämmer det!
 
-![](EmojiBowtie.png) | Wat zie je?|![](EmojiSunglasses.png) | Als je iets raars ziet, klopt dat!
+![](EmojiBowtie.png) | Vad ser du?|![](EmojiSunglasses.png) | Om du ser något konstigt så stämmer det!
 :-------------:|:----------------:|:-------------:|:----------------------------------------: 
 
-
 \pagebreak
 
-## 4.5. Knop flip: Knop eeuwig aan: oplossing 2
+## 4.5. Knapp flip: lyser LEDen för evig: lösning 2
 
 ```c++
 // ...
 
 void loop()
 {
-  if (digitalRead(pin_knop) == HIGH)
+  if (digitalRead(knapp_stift) == HIGH)
   {
-    if (is_aan == true)
+    if (ar_pa == true)
     {
-      is_aan = false;
+      ar_pa = false;
     }
     else
     {
-      is_aan = true;
+      ar_pa = true;
     }
   }
 
@@ -166,38 +165,38 @@ void loop()
 }
 ```
 
-![](EmojiBowtie.png) | Als je de knop indrukt, dimt het LEDje. Laat je de knop los, dan blijft het LEDje of eeuwig aan of eeuwig uit
+![](EmojiBowtie.png) | När du trycker på knappen dimmer LEDen. När du släpper knappen kommer LEDen antingen att vara tänd eller släckt för alltid
 :-------------:|:----------------------------------------: 
 
-![](EmojiSunglasses.png) | Dit komt omdat de Arduino snel en vaak het lampje aan en uit zet
+![](EmojiSunglasses.png) | Detta beror på att Arduino snabbt och ofta tänder och släcker ljuset
 :-------------:|:----------------------------------------: 
 
-## 4.6. Knop flip: Knop eeuwig aan met fijne besturing: opdracht 2
+## 4.6. Knapp flip: Knappen på för alltid med finkontroll: uppgift 2
 
-We gaan ervoor zorgen dat de knop beter reageert:
-als de knop ingedrukt wordt, laat de Arduino dan
-200 milliseconden wachten.
+Låt oss göra knappen mer lyhörd:
+släpp Arduino när knappen trycks ned
+200 millisekunders väntan.
 
 \pagebreak
 
-## 4.7. Knop flip: Knop eeuwig aan met fijne besturing: oplossing 2
+## 4.7. Knapp flip: Knappen på för alltid med finkontroll: lösning 2
 
-In de `if` van als de knop wordt ingedrukt, voeg
-een `delay(200);` regel toe. Dit kan voor of na de `if` statements
-met `is_aan`.
+I `if` när knappen trycks ned, lägg till
+en `delay(200);`-regel. Detta kan göras före eller efter `if`-satserna
+med `är_på`.
 
 ```c++
 // ...
 
 void loop()
 {
-  if (digitalRead(pin_knop) == HIGH)
+  if (digitalRead(knapp_stift) == HIGH)
   {
-    // ... [if (is_aan == true) ...]
+    // ... [if (ar_pa == true) ...]
 
     delay(200);
 
-    // ... [if (is_aan == true) ...]
+    // ... [if (ar_pa == true) ...]
   }
 
   // ...
@@ -205,100 +204,99 @@ void loop()
 }
 ```
 
-## 4.8. Knop flip: twee LEDs besturen: opdracht
+## 4.8. Knapp flip: styr två LEDer: uppgift
 
-We gaan een tweede LED aansluiten. Door de knop in te drukken, kun je wisselen
-tussen leds.
+Vi kommer att ansluta en andra LED. Du kan byta genom att trycka på knappen
+mellan LEDer.
 
- * Sluit een tweede, groene LED aan op pin 12
- * In de code, verander bovenaan:
+ * Anslut en andra grön LED till stift 12
+ * I koden, ändra längst upp:
 
 ```c++
-// pin_led gaat weg
-const int pin_led_rood = /* pin nummer */;
-const int pin_led_groen = /* pin nummer */;
-// ... [pin_knop blijft hetzelfde]
-// is_aan gaat weg
-int welke_led_aan = 1;
+// led_stift gaat weg
+const int led_stift_rod = /* stift numret */;
+const int led_stift_gron = /* stift numret */;
+// ... [knapp_stift stanner samma]
+// ar_pa är tappat bort
+int vilken_led_pa = 1;
 ```
 
- * In de code, in `setup`, zorg dat de twee LEDs en de knop worden gevonden.
- * In de code, in `loop`, reageer anders op de knop:
+ * Se till att de två LEDerna och knappen hittas i koden, i `setup`.
+ * I koden, i `loop`, reagera annorlunda på knappen:
 
 ```c++
-if (/* de knop is ingedrukt */)
+if (/* knappen är druckit */)
 {
-  welke_led_aan = welke_led_aan + 1;
-  if (welke_led_aan == 3)
+  vilken_led_pa = vilken_led_pa + 1;
+  if (vilken_led_pa == 3)
   {
-    welke_led_aan = 1;
+    vilken_led_pa = 1;
   }
 
-  // ... [wacht 200 milliseconden]
+  // ... [vänta 200 millisecond]
 }
 ```
-
- * In de code, in `loop`, reageer nu op `welke_led_aan`:
+ * I koden, i `loop`, reagerar nu på 'vilken_led_pa':
 
 ```c++
-if (welke_led_aan == 1)
+if (vilken_led_pa == 1)
 {
-  // Zet rode LED aan, zet groene LED uit
+  // Tänder på röd LEDen, släcker av gron LEDen
 }
-if (welke_led_aan == 2)
+if (vilken_led_pa == 2)
 {
-  // Zet rode LED uit, zet groene LED aan
+  // Släcker av röd LEDen, tänder på gron LEDen, 
 }
 ```
 
 \pagebreak
 
-## 4.9. Knop flip: twee LEDs besturen: oplossing
+## 4.9. Knapp flip: styr två LEDer: lösning
 
-![4.9 Knop flip: twee LEDs besturen: oplossing](04_knop_flip_2_zoom.png)
+![4.9 Knapp flip: styr två LEDer: lösning](04_button_flip_2_zoom.png)
 
 
 ```c++
-const int pin_led_rood = 13;
-const int pin_led_groen = 12;
-const int pin_knop = 2;
-int welke_led_aan = 1;
+const int led_stift_rod = 13;
+const int led_stift_gron = 12;
+const int knapp_stift = 2;
+int vilken_led_pa = 1;
 
 void setup() 
 {
-  pinMode(pin_led_rood, OUTPUT);
-  pinMode(pin_led_groen, OUTPUT);
-  pinMode(pin_knop, INPUT);
+  pinMode(led_stift_rod, OUTPUT);
+  pinMode(led_stift_gron, OUTPUT);
+  pinMode(knapp_stift, INPUT);
 }
 
 void loop()
 {
-  if (/* de knop is ingedrukt */)
+  if (/* knappen är druckit */)
   {
-    welke_led_aan = welke_led_aan + 1;
-    if (welke_led_aan == 3)
+    vilken_led_pa = vilken_led_pa + 1;
+    if (vilken_led_pa == 3)
     {
-      welke_led_aan = 1;
+      vilken_led_pa = 1;
     }
 
-    // ... [wacht 200 milliseconden]
+    // ... [vänta 200 millisecond]
   }
   
-  if (welke_led_aan == 1)
+  if (vilken_led_pa == 1)
   {
-    digitalWrite(pin_led_rood, HIGH);
-    digitalWrite(pin_led_groen, LOW);
+    digitalWrite(led_stift_rod, HIGH);
+    digitalWrite(led_stift_gron, LOW);
   }
-  if (welke_led_aan == 2)
+  if (vilken_led_pa == 2)
   {
-    digitalWrite(pin_led_rood, LOW);
-    digitalWrite(pin_led_groen, HIGH);
+    digitalWrite(led_stift_rod, LOW);
+    digitalWrite(led_stift_gron, HIGH);
   }
 }
 ```
 
-## 4.10. Knop flip: eindopdracht
+## 4.10. Knapp flip: avsluta uppgift
 
-We gaan een derde LED aansluiten. Door de knop in te drukken, kun je wisselen
-van eerste, naar tweede, naar derde LED.
+Vi kommer att ansluta en tredje LED. Du kan byta genom att trycka på knappen
+från första, till andra, till tredje LED.
 
