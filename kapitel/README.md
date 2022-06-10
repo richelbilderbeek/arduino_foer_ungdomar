@@ -9,7 +9,7 @@ Kpt|Beskrivning
 .  |**Bok 1**
 1  |[Blink](./01_blink/README.md)
 2  |[Blink Blink Blink](./02_blink_blink_blink/README.md)
-3  |[Knapp, `if`, `else` och Serial](./03_knapp_if_else/README.md)
+3  |[Knapp, `if`, `else`](./03_knapp_if_else/README.md)
 4  |[Knapp flip](./04_knapp_flip/README.md)
 .  |**Bok 2**
 5  |[Blink 4](05_blink_4/README.md)
