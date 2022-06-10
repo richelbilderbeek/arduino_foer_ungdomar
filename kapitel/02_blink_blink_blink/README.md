@@ -1,7 +1,7 @@
 # Lektion 2: Blink Blink Blink
 
 Den här lektionen kallas 'Blink Blink Blink', 
-eftersom det är Blink lektionen, men med tre lampor.
+eftersom det är Blink lektionen, men med tre LEDs.
 
 ## 2.1: Blink Blink Blink: Blink
 
@@ -10,31 +10,31 @@ eftersom det är Blink lektionen, men med tre lampor.
 Här är `Blink`s kod på ett annat sätt:
 
 ```c++
-const int pin_led = 13;
+const int led_stift = 13;
 
 void setup() 
 {
-  pinMode(pin_led, OUTPUT);
+  pinMode(led_stift, OUTPUT);
 }
 
 void loop() 
 {
-  digitalWrite(pin_led, HIGH);
+  digitalWrite(led_stift, HIGH);
   delay(1000);
-  digitalWrite(pin_led, LOW);
+  digitalWrite(led_stift, LOW);
   delay(1000);
 }
 ```
 
-`pin_led` kallas en variabel: en bit datorminne med ett namn.
+`led_stift` kallas en variabel: en bit datorminne med ett namn.
 
 ![](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`const int pin_led = 13;`|'Bästa dator, kom ihåg ett heltal som heter `pin_led` med initialvärdet 13.'
+`const int led_stift = 13;`|'Bästa dator, kom ihåg ett heltal som heter `led_stift` med initialvärdet 13.'
 
 ## 2.2: Blink Blink Blink: Uppgift 1
 
-Anslut lysdioden till stift 12 och ändra koden så att den blinkar.
+Anslut LEDen till stift 12 och ändra koden så att den blinkar.
 
 \pagebreak
 
@@ -45,7 +45,7 @@ Anslut lysdioden till stift 12 och ändra koden så att den blinkar.
 Du behöver bara ändra en rad:
 
 ```c++
-const int pin_led = 12;
+const int led_stift = 12;
 
 void setup() 
 {
@@ -60,11 +60,11 @@ void loop()
 
 ## 2.4: Blink Blink Blink: Uppgift 2
 
-Skapa en ny variabel som heter "väntetid" själv.
-"väntetid" är ett heltal med initialt värde 1000.
-Använd "väntetid" i raderna med "fördröjning".
+Skapa en ny variabel för väntetiden, kallad `vantetid`, själv.
+`vantetid` är ett heltal med initialt värde `1000`.
+Använd `vantetid` i raderna med `delay`.
 
-![](EmojiSunglasses.png) | Smart! Om du läser "väntetid" vet du vad det är till för. Vid `1000` vet du inte det
+![](EmojiSunglasses.png) | Smart! Om du läser `vantetid` vet du vad det är till för. Vid `1000` vet du inte det
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -72,8 +72,8 @@ Använd "väntetid" i raderna med "fördröjning".
 ##2.5: Blink Blink Blink: Lösning 2
 
 ```c++
-// ... [maak pin_led met waarde 12]
-const int wachttijd = 1000;
+// ... [gör led_stift att vara 12]
+const int vantetid = 1000;
 
 void setup() 
 {
@@ -82,19 +82,19 @@ void setup()
 
 void loop() 
 {
-  // ... [zet spanning op pin_led]
-  delay(wachttijd);
-  // ... [geen spanning op pin_led af]
-  delay(wachttijd);
+  // ... [sätter spänning på led_stift]
+  delay(vantetid);
+  // ... [stanger av spänning från led_stift]
+  delay(vantetid);
 }
 ```
 
-![](EmojiBowtie.png)| `// ... [vad]` betyder 'koden du redan har där som handlar om vad som står inom parentes'
+![](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom parentes'
 :-------------:|:----------------------------------------: 
 
 ##2.6: Blink Blink Blink: Ansluter Blink Blink Blink
 
-Nu är det dags att ansluta "Blink Blink Blink":
+Nu är det dags att ansluta `Blink Blink Blink`:
 
 ![BlinkBlinkBlink](02_blink_blink_blink.png)
 
@@ -103,7 +103,7 @@ Nu är det dags att ansluta "Blink Blink Blink":
 
 ## 2.7: Blink Blink Blink: Uppgift 3
 
-Koppla in 'Blink Blink Blink'. Byt namn på variabeln "pin_led" till "pin_led_1".
+Koppla in `Blink Blink Blink`. Byt namn på variabeln `led_stift` till `led_stift_1`.
 och se till att det har rätt startvärde.
 
 \pagebreak
@@ -111,20 +111,20 @@ och se till att det har rätt startvärde.
 ## Lösning 3
 
 ```c++
-const int pin_led_1 = 11;
-// ... [onthoud wachttijd]
+const int led_stift_1 = 11;
+// ... [min väntetid]
 
 void setup() 
 {
-  pinMode(pin_led_1, OUTPUT);
+  pinMode(led_stift_1, OUTPUT);
 }
 
 void loop() 
 {
-  digitalWrite(pin_led_1, HIGH);
-  // [wacht wachttijd milliseconden]
-  digitalWrite(pin_led_1, LOW);
-  // [wacht wachttijd milliseconden]
+  digitalWrite(led_stift_1, HIGH);
+  // [vänta vantetid millisecond]
+  digitalWrite(led_stift_1, LOW);
+  // [vänta vantetid millisecond]
 }
 ```
 
@@ -133,13 +133,13 @@ void loop()
 
 ##2.8: Blink Blink Blink: Uppgift 4
 
-Skapa en ny variabel `pin_led_2`.
-Låt först den första lysdioden tändas och släckas, låt sedan den andra lysdioden tändas och släckas.
+Skapa en ny variabel `led_stift_2`.
+Låt först den första LEDen tändas och släckas, låt sedan den andra LEDen tändas och släckas.
 
-![](EmojiSunglasses.png) | Stavningen 'pin_led_2' kallas 'snake case': 'snake' är engelska för snake
+![](EmojiSunglasses.png) | Stavningen 'led_stift_2' kallas 'snake case': 'snake' är engelska för orm
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för camel
+![](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för kamel
 :-------------:|:----------------------------------------: 
 
 ![](EmojiComputer.png) | Jag bryr mig inte om vilken du väljer
@@ -150,32 +150,32 @@ Låt först den första lysdioden tändas och släckas, låt sedan den andra lys
 ## 2.9: Blink Blink Blink: Lösning 4
 
 ```c++
-const int pin_led_1 = 11;
-const int pin_led_2 = 10;
+const int led_stift_1 = 11;
+const int led_stift_2 = 10;
 // ...
 
 void setup() 
 {
-  pinMode(pin_led_1, OUTPUT);
-  pinMode(pin_led_2, OUTPUT);
+  pinMode(led_stift_1, OUTPUT);
+  pinMode(led_stift_2, OUTPUT);
 }
 
 void loop() 
 {
-  digitalWrite(pin_led_1, HIGH);
-  // ... [wacht wachttijd milliseconden]
-  digitalWrite(pin_led_1, LOW);
-  // ... [wacht wachttijd milliseconden]
-  digitalWrite(pin_led_2, HIGH);
-  // ... [wacht wachttijd milliseconden]
-  digitalWrite(pin_led_2, LOW);
-  // ... [wacht wachttijd milliseconden]
+  digitalWrite(led_stift_1, HIGH);
+  // ... [vänta vantetid millisecond]
+  digitalWrite(led_stift_1, LOW);
+  // ... [vänta vantetid millisecond]
+  digitalWrite(led_stift_2, HIGH);
+  // ... [vänta vantetid millisecond]
+  digitalWrite(led_stift_2, LOW);
+  // ... [vänta vantetid millisecond]
 }
 ```
 
 ## 2.10: Blink Blink Blink: Uppgift 5
 
-Skapa en tredje variabel `pin_led_3`. Låt nu alla lampor blinka samtidigt: alla på, sedan alla av.
+Skapa en tredje variabel `led_stift_3`. Låt nu alla lampor blinka samtidigt: alla på, sedan alla av.
 
 ![](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
 :-------------:|:----------------------------------------: 
@@ -188,29 +188,30 @@ Skapa en tredje variabel `pin_led_3`. Låt nu alla lampor blinka samtidigt: alla
 ## 2.11: Blink Blink Blink: Lösning 5
 
 ```c++
-// ... [maak wachttijd, pin_led_1 en pin_led_2]
-const int pin_led_3 = 9;
+// ... [skapa vantetid, led_stift_1 en led_stift_2]
+const int led_stift_3 = 9;
 
 void setup() 
 {
-  // ... [pin_led_1 en pin_led_2 geven spanning]
-  pinMode(pin_led_3, OUTPUT);
+  // ... [led_stift_1 en led_stift_2 ger spänning]
+  pinMode(led_stift_3, OUTPUT);
 }
 
 void loop() 
 {
-  // ... [zet spanning op LED 1 en 2]
-  digitalWrite(pin_led_3, HIGH);
-  // ... [wacht wachttijd milliseconden]
-  // ... [zet spanning op LED 1 en 2]
-  digitalWrite(pin_led_3, LOW);
-  // ... [wacht wachttijd milliseconden]
+  // ... [sätter spänning på LED 1 och 2]
+  digitalWrite(led_stift_3, HIGH);
+  // ... [vänta vantetid millisecond]
+  // ... [släck spanning av från LED 1 en 2]
+  digitalWrite(led_stift_3, LOW);
+  // ... [vänta vantetid millisecond]
 }
 ```
 
-## 2.12: Blink Blink Blink: Final Assignment
+## 2.12: Blink Blink Blink: Slutuppgift
 
-Låt nu lamporna gå i ett 'Knight Rider-mönster': 1-2-3-2. Det måste alltid finnas exakt ett ljus.
+Låt nu lamporna gå i ett 'Knight Rider-mönster': 1-2-3-2. 
+Det måste alltid finnas exakt ett ljus som brinner.
 
 ![Solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
 :-------------:|:----------------------------------------: 
