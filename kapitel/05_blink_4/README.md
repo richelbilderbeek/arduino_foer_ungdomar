@@ -1,18 +1,18 @@
 # Les 5: Blink 4
 
-In deze les gebruiken we 4 LEDs en functies
+I dessa läs använder vi 4 lysdioder och funktioner
 
-## 5.1 Blink 6: Opdracht
+## 5.1 Blink 6: Uppdrag
 
- * Maak een schakeling met 2 LEDs, elk met een weerstand van 1000 Ohm in serie
- * Sluit de 1e LED aan op pin 2
- * Sluit de 2e LED aan op pin 3
- * Upload deze code:
+ * Gör en koppling med 2 lysdioder, el med en motståndsbil 1000 Ohm i serie
+ * Slut de 1e LED på stift 2
+ * Slut de 2e LED på stift 3
+ * Ladda upp denna kod:
 
 ```c++
 const int pin_led_1 = 2;
 const int pin_led_2 = 3;
-const int wachttijd = 1000;
+const int wachttid = 1000;
 
 void setup()
 {
@@ -24,10 +24,10 @@ void loop()
 {
   digitalWrite(pin_led_1, HIGH);
   digitalWrite(pin_led_2, LOW);
-  delay(wachttijd);
+  delay(wachttid);
   digitalWrite(pin_led_1, LOW);
   digitalWrite(pin_led_2, HIGH);
-  delay(wachttijd);
+  delay(wachttid);
 }
 ```
 
@@ -35,22 +35,22 @@ void loop()
 
 ![5.2 Blink 6: Oplossing](5_2.png)
 
-## 5.3 Blink 6: `effe_wachten`, opdracht
+## 5.3 Blink 6: `effe_wachten`, uppdrag
 
-We gaan onze eerste functie schrijven!
+Vi skriver vår första funktion!
 
- * Voeg aan je code toe, boven `loop`:
+ * Lägg till en kod tå, ovan `loop`:
 
 ```c++
 void effe_wachten()
 {
-  delay(wachttijd);
+  fördröjning (vakttid);
 }
 ```
 
- * In `loop`, vervang twee keer `delay(wachttijd);` door `effe_wachten();`
+ * I `loop`, ersätt två gånger `delay(wachttid);` genom `effe_wachten();`
 
-## 5.4 Blink 6: `effe_wachten`, oplossing
+## 5.4 Blink 6: `effe_wachten`, lösning
 
 ```c++
 // ...
@@ -62,26 +62,26 @@ void setup()
 
 void effe_wachten()
 {
-  delay(wachttijd);
+  delay(wachttid);
 }
 
 void loop()
 {
-  // ... [zet alleen LED 1 aan]
+  // ... [sätt bara LED 1 till]
   effe_wachten();
-  // ... [zet alleen LED 2 aan]
+  // ... [zet bara LED 2 till]
   effe_wachten();
 }
 ```
 
-## 5.5 Blink 6: `zet_alleen_led_1_aan`, opdracht
+## 5.5 Blink 6: `zet_alleen_led_1_aan`, uppdrag
 
- * Schrijf een functie, `zet_alleen_led_1_aan`,
-   die ervoor zorgt dat alleen LED 1 brandt (oftewel:
-   LED 2 moet uit)
- * Gebruik `zet_alleen_led_1_aan` in `loop`
+ * Skriv en funktion, `zet_alleen_led_1_aan`,
+   för att säkerställa att enbart LED 1 märket (ofta:
+   LED 2 måste ut)
+ * Använd `zet_alleen_led_1_aan` i `loop`
 
-## 5.6 Blink 6: `zet_alleen_led_1_aan`, oplossing
+## 5.6 Blink 6: `zet_alleen_led_1_aan`, lösning
 
 ```c++
 void zet_alleen_led_1_aan()
@@ -97,14 +97,14 @@ void loop()
 }
 ```
 
-## 5.7 Blink 6: `zet_alleen_led_2_aan`, opdracht
+## 5.7 Blink 6: `zet_alleen_led_2_aan`, uppdrag
 
- * Schrijf een functie, `zet_alleen_led_2_aan`,
-   die ervoor zorgt dat alleen LED 2 brandt (oftewel:
-   LED 1 moet uit)
- * Gebruik `zet_alleen_led_2_aan` in `loop`
+ * Skriv en funktion, `zet_alleen_led_2_aan`,
+   för att säkerställa att enbart LED 2 märket (ofta:
+   LED 1 måste ut)
+ * Använd `zet_alleen_led_2_aan` i `loop`
 
-## 5.8 Blink 6: `zet_alleen_led_2_aan`, oplossing
+## 5.8 Blink 6: `zet_alleen_led_2_aan`, lösning
 
 ```c++
 void zet_alleen_led_2_aan()
@@ -120,20 +120,20 @@ void loop()
 }
 ```
 
-## 5.7 Blink 6: `zet_alleen_led_3_aan`, opdracht
+## 5.7 Blink 6: `zet_alleen_led_3_aan`, uppdrag
 
- * Sluit een derde LEDje aan, op pin 4
- * Maak een nieuwe variabele `pin_led_3` voor deze LED
- * Schrijf een functie, `zet_alleen_led_3_aan`,
-   die ervoor zorgt dat alleen LED 3 brandt (oftewel:
-   LEDs 1 en 2 moeten uit)
- * Gebruik `zet_alleen_led_3_aan` in `loop`
- * In `loop`, laat eerst alleen LED 1 branden, wacht effe, 
-   laat eerst alleen LED 2 branden, wacht effe, 
-   laat eerst alleen LED 3 branden, wacht effe
+ * Stäng en tredje LED-lampa på stift 4
+ * Gör en ny variabel `pin_led_3` för denna LED
+ * Skriv en funktion, `zet_alleen_led_3_aan`,
+   för att säkerställa att enbart LED 3 märket (ofta:
+   Lysdioder 1 och 2 måste ut)
+ * Använd `zet_alleen_led_3_aan` i `loop`
+ * I `loop`, låt först enbart LED 1 branden, wacht effe,
+   låt först bara LED 2 branden, vänta effektivt,
+   låt först bara LED 3 branden, vänta effektivt
 
 
-## 5.8 Blink 6: `zet_alleen_led_3_aan`, oplossing
+## 5.8 Blink 6: `zet_alleen_led_3_aan`, lösning
 
 ```c++
 // ...
@@ -174,13 +174,11 @@ void loop()
 
 ## 5.9 Blink 6: eindopdracht
 
- * Sluit een vierde LEDje aan, op pin 5
- * Maak een nieuwe variabele `pin_led_4` voor deze LED
- * Schrijf een functie, `zet_alleen_led_4_aan`,
-   die ervoor zorgt dat alleen LED 4 brandt (oftewel:
-   LEDs 1 en 2 en 3 moeten uit)
- * Gebruik `zet_alleen_led_4_aan` in `loop`
- * In `loop`, maak een Nightrider patroon: laat omstebeurt branden
-   LEDs 1, 2, 3, 4, 3, 2, 1. Steeds ertussen even wachten
-
-
+ * Slut en fyra LEDje till, på stift 5
+ * Gör en ny variabel `pin_led_4` för denna LED
+ * Skriv en funktion, `zet_alleen_led_4_aan`,
+   för att säkerställa att enbart LED 4 märket (ofta:
+   Lysdioder 1 och 2 och 3 måste ut)
+ * Använd `zet_alleen_led_4_aan` i `loop`
+ * I `loop`, gör ett Nightrider-mönster: laat omstebeurt branden
+   Lysdioder 1, 2, 3, 4, 3, 2, 1. Steeds ertussen väntar även
