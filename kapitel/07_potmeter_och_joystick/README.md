@@ -1,25 +1,26 @@
 # Lektion 7: Potentiometer och joystick
 
-I den här lektionen kommer vi att använda en potentiometer, en joystick och en funktion som returnerar ett värde.
+I den här lektionen kommer vi att använda en potentiometer, 
+en joystick och en funktion som returnerar ett värde.
 
-## 7.1 Potentiometer: anslut, kommando
+## 7.1 Potentiometer: anslut, uppgift
 
  * Anslut en potentiometer. Gör följande anslutningar:
 
 Potentiometer | Arduino
------------------|--------
-Vänster ben | 5V
-Mellanben | A0
-Höger ben | GND
+--------------|--------
+Vänster ben   | 5V
+Mellanben     | A0
+Höger ben     | GND
 
 ## 7.2 Potentiometer: anslut, lösning
 
 [schema här]
 
-## 7.3 Potentiometer: start, kommando
+## 7.3 Potentiometer: start, uppgift
 
  * I `setup` startar den seriella monitorn vid 9600 baud
- * Skapa en variabel "väntetid" med ett värde på 100
+ * Skapa en variabel `vantetid` med ett värde på 100
  * Skapa en funktion 'effe_wait' som programmerar 'väntetid' i millisekunder
    sen väntan
  * Skapa en funktion `show_potentiometer_see`, som tar ordet `potentiometer` till
@@ -29,40 +30,40 @@ Höger ben | GND
 ## 7.4 Potentiometer: uppstart, lösning
 
 ```c++
-const int wachttijd = 100; //milliseconden
+const int vantatid = 100; //milliseconden
 
 void setup() 
 {
   Serial.begin(9600);
 }
 
-void laat_potmeter_zien()
+void visar_potmeter()
 {
   Serial.print("potmeter");
 }
 
-void effe_wachten()
+void vanta_lite()
 {
-  delay(wachttijd);  
+  delay(vantatid);  
 }
 
 void loop() 
 {
-  laat_potmeter_zien();
-  effe_wachten();
+  visar_potmeter();
+  vanta_lite();
 }
 ```
 
-## 7.5 Potentiometer: läs, kommando
+## 7.5 Potentiometer: läs, uppgift
 
- * Skapa en variabel 'pin_potmeter' med värdet 'A0'.
- * I "setup", ställ in "pinMode" för "pin_potmeter" till "INPUT".
+ * Skapa en variabel 'potmeter_stift' med värdet 'A0'.
+ * I "setup", ställ in "pinMode" för "potmeter_stift" till "INPUT".
  * Lägg till denna funktion:
 
 ```
-int lees_potmeter()
+int lasa_potmeter()
 {
-  return analogRead(pin_potmeter);
+  return analogRead(potmeter_stift);
 }
 ```
 
@@ -72,37 +73,37 @@ int lees_potmeter()
 ## 7.6 Potentiometer: avläsning, lösning
 
 ```
-const int pin_potmeter = A0;
+const int potmeter_stift = A0;
 //...
 
 void setup() 
 {
   // ...
-  pinMode(pin_potmeter, INPUT);
+  pinMode(potmeter_stift, INPUT);
 }
 
-int lees_potmeter()
+int lasa_potmeter()
 {
-  return analogRead(pin_potmeter);
+  return analogRead(potmeter_stift);
 }
 
-void laat_potmeter_zien()
+void visar_potmeter()
 {
-  Serial.print(lees_potmeter());
+  Serial.print(lasa_potmeter());
 }
 ```
 
 Siffrorna som kommer från "read_potentiometer" är mellan noll och 1024.
 
-##7.7 Potentiometer: styrning, kommando
+## 7.7 Potentiometer: styrning, uppgift
 
  * Anslut en lysdiod till stift 11
- * Skapa en variabel 'pin_led' med rätt värde
- * I "setup", ställ in "pinMode" för "pin_led" till "OUTPUT".
+ * Skapa en variabel 'led_stift' med rätt värde
+ * I "setup", ställ in "pinMode" för "led_stift" till "OUTPUT".
  * I `show_potentiometer_see` lägg till denna rad:
 
 ```c++
-analogWrite(pin_led, lees_potmeter());
+analogWrite(led_stift, lasa_potmeter());
 ```
 
  * Ladda upp och vrid potentiometern. Vad ser du?
@@ -111,18 +112,18 @@ analogWrite(pin_led, lees_potmeter());
 
 ```c++
 // ...
-const int pin_led = 11;
+const int led_stift = 11;
 
 void setup() 
 {
   // ...
-  pinMode(pin_led, OUTPUT);
+  pinMode(led_stift, OUTPUT);
 }
 
-void laat_potmeter_zien()
+void visar_potmeter()
 {
   // ...
-  analogWrite(pin_led, lees_potmeter());
+  analogWrite(led_stift, lasa_potmeter());
 }
 ```
 
@@ -130,18 +131,18 @@ Om du vrider på potentiometern ser du att lysdioden lyser fyra gånger
 sätter på.
 
 
-## 7.9 Potentiometer: bra styrning, kommando
+## 7.9 Potentiometer: bra styrning, uppgift
 
  * Ändra följande kod...
  
 ```c++
-analogWrite(pin_led, lees_potmeter());
+analogWrite(led_stift, lasa_potmeter());
 ```
 
 ... till detta:
 
 ```c++
-analogWrite(pin_led, lees_potmeter() / 4);
+analogWrite(led_stift, lasa_potmeter() / 4);
 ```
 
  * Vad ser du?
@@ -156,16 +157,16 @@ analogWrite(pin_led, lees_potmeter() / 4);
  * `/` betyder "delat med". Detta är samma indelningslinje som med
    bråk och procent!
 
-## 7.11 Potentiometer: anslut joystick, kommando
+## 7.11 Potentiometer: anslut joystick, uppgift
 
  * Byt ut potentiometern mot en joystick. Gör följande anslutningar:
 
 Joystick | Arduino
 ---------|--------
-VCC | 5V
-V | A0
-H | A1
-GND | GND
+VCC      | 5V
+V        | A0
+H        | A1
+GND      | GND
 
  * Om du har anslutit denna rätt kan du nu styra lysdioden med joysticken
 
@@ -173,45 +174,45 @@ GND | GND
 
 [flödesschema]
 
-##7.12 Potentiometer: läs joystick, kommando
+## 7.12 Potentiometer: läs joystick, uppgift
 
-I koden ersätter du texten "potentiometer" med "joystick_vertical".
-För att göra detta, använd 'Sök' (CTRL-F eller 'Redigera | Sök') och använd 'Ersätt
-Alla" ("Ersätt alla").
+I koden ersätter du texten `potentiometer` med `joystick_vertical`.
+För att göra detta, använd 'Find' (CTRL-F eller 'Edit | Find') och 
+använd 'Replace All' ("Ersätt alla").
 
 ![Sök, klicka här på 'Ersätt alla'](7_edit_find.png)
 
 ## 7.12 Potentiometer: läs joystick, lösning
 
 ```c++
-const int pin_joystick_verticaal = A0;
+const int vertikal_joystick_stift = A0;
 // ...
 
 void setup() 
 {
-  pinMode(pin_joystick_verticaal, INPUT);
+  pinMode(vertikal_joystick_stift, INPUT);
   // ...
 }
 
-int lees_joystick_verticaal()
+int lasa_joystick_vertikalt()
 {
-  return analogRead(pin_joystick_verticaal);
+  return analogRead(vertikal_joystick_stift);
 }
 
-void laat_joystick_verticaal_zien()
+void visar_joystick_vertikalt()
 {
-  Serial.print(lees_joystick_verticaal());
-  analogWrite(pin_led, lees_joystick_verticaal() / 4);
+  Serial.print(lasa_joystick_vertikalt());
+  analogWrite(led_stift, lasa_joystick_vertikalt() / 4);
 }
 
 void loop() 
 {
-  laat_joystick_verticaal_zien();
+  visar_joystick_vertikalt();
   // ...
 }
 ```
 
-##7.12 Potentiometer: slutuppgift
+## 7.12 Potentiometer: slutuppgift
 
  * Anslut en andra lysdiod
  * Denna andra lysdiod ska reagera som den första lysdioden, men som
