@@ -1,32 +1,32 @@
-# Les 7: Potmeter en joystick
+# Lektion 7: Potentiometer och joystick
 
-In deze les gebruiken we een potmeter, een joystick en een functie die een waarde teruggeeft.
+I den här lektionen kommer vi att använda en potentiometer, en joystick och en funktion som returnerar ett värde.
 
-## 7.1 Potmeter: aansluiten, opdracht
+## 7.1 Potentiometer: anslut, kommando
 
- * Sluit een potmeter aan. Leg de volgende verbindingen:
+ * Anslut en potentiometer. Gör följande anslutningar:
 
-Potmeter         | Arduino
+Potentiometer | Arduino
 -----------------|--------
-Linker pootje    | 5V
-Middelste pootje | A0
-Rechter pootje   | GND
+Vänster ben | 5V
+Mellanben | A0
+Höger ben | GND
 
-## 7.2 Potmeter: aansluiten, oplossing
+## 7.2 Potentiometer: anslut, lösning
 
-[schema hier]
+[schema här]
 
-## 7.3 Potmeter: opstarten, opdracht
+## 7.3 Potentiometer: start, kommando
 
- * In `setup`, start de seriele monitor op 9600 baud
- * Maak een variabele `wachttijd` met een waarde van 100
- * Maak een functie `effe_wachten` die het programma `wachttijd` milliseconde
-   laat wachten
- * Maak een functie `laat_potmeter_zien`, die het woord `potmeter` naar de
-   seriele monitor stuurt
- * In `loop`, gebruik `laat_potmeter_zien` en `effe_wachten`
+ * I `setup` startar den seriella monitorn vid 9600 baud
+ * Skapa en variabel "väntetid" med ett värde på 100
+ * Skapa en funktion 'effe_wait' som programmerar 'väntetid' i millisekunder
+   sen väntan
+ * Skapa en funktion `show_potentiometer_see`, som tar ordet `potentiometer` till
+   seriella monitorkontroller
+ * I `loop`, använd `show potentiometer` och `effe_wait`
 
-## 7.4 Potmeter: opstarten, oplossing
+## 7.4 Potentiometer: uppstart, lösning
 
 ```c++
 const int wachttijd = 100; //milliseconden
@@ -53,11 +53,11 @@ void loop()
 }
 ```
 
-## 7.5 Potmeter: lezen, opdracht
+## 7.5 Potentiometer: läs, kommando
 
- * Maak een variabele `pin_potmeter` met als waarde `A0`.
- * In `setup`, zet de `pinMode` van `pin_potmeter` op `INPUT`
- * Voeg deze functie toe:
+ * Skapa en variabel 'pin_potmeter' med värdet 'A0'.
+ * I "setup", ställ in "pinMode" för "pin_potmeter" till "INPUT".
+ * Lägg till denna funktion:
 
 ```
 int lees_potmeter()
@@ -66,10 +66,10 @@ int lees_potmeter()
 }
 ```
 
- * In `laat_potmeter_zien` vervang de tekst `"potmeter"` door `lees_potmeter()`
- * Upload het programma en draai aan de potmeter. Welke getallen komen uit?
+ * I `show_potentiometer_see` ersätt texten `"potentiometer"` med `read_potentiometer()`
+ * Ladda upp programmet och vrid potentiometern. Vilka siffror kommer ut?
 
-## 7.6 Potmeter: lezen, oplossing
+## 7.6 Potentiometer: avläsning, lösning
 
 ```
 const int pin_potmeter = A0;
@@ -92,22 +92,22 @@ void laat_potmeter_zien()
 }
 ```
 
-De getallen die uit `lees_potmeter` komen zitten tussen nul en 1024 in. 
+Siffrorna som kommer från "read_potentiometer" är mellan noll och 1024.
 
-## 7.7 Potmeter: sturen, opdracht
+##7.7 Potentiometer: styrning, kommando
 
- * Sluit een LED aan op pin 11
- * Maak een variabele `pin_led` met de juiste waarde
- * In `setup`, zet de `pinMode` van `pin_led` op `OUTPUT`
- * In `laat_potmeter_zien` voeg deze regel toe:
+ * Anslut en lysdiod till stift 11
+ * Skapa en variabel 'pin_led' med rätt värde
+ * I "setup", ställ in "pinMode" för "pin_led" till "OUTPUT".
+ * I `show_potentiometer_see` lägg till denna rad:
 
 ```c++
 analogWrite(pin_led, lees_potmeter());
 ```
 
- * Upload en draai aan de potmeter. Wat zie je?
+ * Ladda upp och vrid potentiometern. Vad ser du?
 
-## 7.8 Potmeter: sturen, oplossing
+## 7.8 Potentiometer: styrning, lösning
 
 ```c++
 // ...
@@ -126,62 +126,62 @@ void laat_potmeter_zien()
 }
 ```
 
-Als je aan de potmeter draait, zie je dat het LEDje vier keer vloeiend
-aan gaat.
+Om du vrider på potentiometern ser du att lysdioden lyser fyra gånger
+sätter på.
 
 
-## 7.9 Potmeter: goed sturen, opdracht
+## 7.9 Potentiometer: bra styrning, kommando
 
- * Verander de volgende code ...
+ * Ändra följande kod...
  
 ```c++
 analogWrite(pin_led, lees_potmeter());
 ```
 
-... naar dit:
+... till detta:
 
 ```c++
 analogWrite(pin_led, lees_potmeter() / 4);
 ```
 
- * Wat zie je?
- * Wat denk je dat `/` betekent? Tip: waar zie je dit soort strepen 
-   bij rekenen?
+ * Vad ser du?
+ * Vad tror du att `/` betyder? Tips: var ser du sådana här ränder?
+   i matte?
 
 
-## 7.10 Potmeter: goed sturen, oplossing
+## 7.10 Potentiometer: bra styrning, lösning
 
- * Je ziet dat het LEDje nu mooi van uit naar aan gaat als je aan de 
-   potmeter draait
- * De `/` betekent 'gedeeld door'. Dit is dezelfde deelstreep als bij
-   breuken en procenten!
+ * Du kan se att lysdioden nu går från av till tänd när du slår på
+   potentiometern vrider sig
+ * `/` betyder "delat med". Detta är samma indelningslinje som med
+   bråk och procent!
 
-## 7.11 Potmeter: joystick aansluiten, opdracht
+## 7.11 Potentiometer: anslut joystick, kommando
 
- * Vervang de potmeter door een joystick. Leg de volgende verbindingen:
+ * Byt ut potentiometern mot en joystick. Gör följande anslutningar:
 
 Joystick | Arduino
 ---------|--------
-VCC      | 5V
-V        | A0
-H        | A1
-GND      | GND
+VCC | 5V
+V | A0
+H | A1
+GND | GND
 
- * Als je dit goed hebt aangesloten, kun je met de joystick nu het LEDje besturen
+ * Om du har anslutit denna rätt kan du nu styra lysdioden med joysticken
 
-## 7.11 Potmeter: joystick aansluiten, oplossing
+## 7.11 Potentiometer: anslut joystick, lösning
 
-[stroomschema]
+[flödesschema]
 
-## 7.12 Potmeter: joystick lezen, opdracht
+##7.12 Potentiometer: läs joystick, kommando
 
-In de code, vervang de tekst `potmeter` door `joystick_verticaal`
-Gebruik hiervoor 'Find' (CTRL-F of `Edit | Find`) en gebruik 'Replace 
-All' ('Vervang alles').
+I koden ersätter du texten "potentiometer" med "joystick_vertical".
+För att göra detta, använd 'Sök' (CTRL-F eller 'Redigera | Sök') och använd 'Ersätt
+Alla" ("Ersätt alla").
 
-![Find, klik hier op 'Replace All'](7_edit_find.png)
+![Sök, klicka här på 'Ersätt alla'](7_edit_find.png)
 
-## 7.12 Potmeter: joystick lezen, oplossing
+## 7.12 Potentiometer: läs joystick, lösning
 
 ```c++
 const int pin_joystick_verticaal = A0;
@@ -211,10 +211,8 @@ void loop()
 }
 ```
 
-## 7.12 Potmeter: eindopdracht
+##7.12 Potentiometer: slutuppgift
 
- * Sluit een tweede LEDje aan
- * Dit tweede LEDje moet reageren zoals het eerste LEDje, maar dan als
-   de joystick horizontaal wordt bewogen
-
-
+ * Anslut en andra lysdiod
+ * Denna andra lysdiod ska reagera som den första lysdioden, men som
+   joysticken flyttas horisontellt
