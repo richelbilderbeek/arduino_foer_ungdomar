@@ -1,11 +1,11 @@
-# Les 6: Oplaadknop
+# Lektion 6: Laddningsknapp
 
-In deze les gebruiken we een knop, LEDs en een functie die een waarde teruggeeft.
+I den här lektionen kommer vi att använda en knapp, lysdioder och en funktion som returnerar ett värde.
 
-## 6.1 Oplaadknop: Hoi, opdracht
+## 6.1 Laddningsknapp: Hej kommando
 
- * Je hoeft niks aan te sluiten!
- * Upload deze code:
+ * Du behöver inte ansluta någonting!
+ * Ladda upp denna kod:
 
 ```c++
 const int wachttijd = 1000;
@@ -21,27 +21,29 @@ void loop()
   delay(wachttijd);
 }
 ```
- * Na het uploaden, klik op 'Serial Monitor'
 
-![Klik op 'Serial Monitor'](6_serial_monitor.png)
+†
+ * Efter uppladdning, klicka på "Serial Monitor"
 
-Wat zie je?
+![Klicka på 'Serial Monitor'](6_serial_monitor.png)
 
-## 6.2 Oplaadknop: Hoi, oplossing
+Vad ser du?
 
-Je ziet dat de Arduino 'Hoi' zegt!
+## 6.2 Laddningsknapp: Hej, lösning
+
+Du ser Arduino säga "Hej"!
 
 ![](6_serial_monitor_output.png)
 
-## 6.3 Oplaadknop: `wacht_effe` en `laat_knop_zien`, opdracht
+## 6.3 Ladda knapp: `wait_effe` och `show_button_see`, kommando
 
- * Schrijf een functie `wacht_effe`: in deze functie wacht de Arduino 
-   `wachttijd` milliseconden
- * Schrijf een functie `laat_knop_zien`: in deze functie zegt de 
-   Arduino (nu nog) 'Hoi'
- * Gebruik `laat_knop_zien` en dan `wacht_effe` in `loop` 
+ * Skriv en funktion `wait_effe`: i denna funktion väntar Arduino
+   "väntetid" millisekunder
+ * Skriv en funktion `show_button_see`: i denna funktion säger
+   Arduino (fortfarande) "Hej"
+ * Använd `show_button_see` och sedan `wait_effe` i `loop`
 
-## 6.4 Oplaadknop: `wacht_effe` en `laat_knop_zien`, oplossing
+## 6.4 Laddningsknapp: `wait_effe` och `show_button_see`, lösning
 
 ```c++
 // ...
@@ -70,12 +72,12 @@ void loop()
 ```
 
 
-## 6.5 Oplaadknop: knop, opdracht
+## 6.5 Laddningsknapp: Knapp, Kommando
 
- * Sluit een knop aan op pin 2
- * Maak een variabele `pin_knop`
- * In `setup`, zeg met `pinMode` dat `pin_knop` een `INPUT` is
- * Vervang `laat_knop_zien` door deze code: 
+ * Anslut en knapp till stift 2
+ * Skapa variabel 'pin_button'
+ * I "setup", säg med "pinMode" att "pin_button" är en "INPUT"
+ * Ersätt `show_button_see` med denna kod:
 
 ```c++
 void laat_knop_zien()
@@ -87,9 +89,9 @@ void laat_knop_zien()
 }
 ```
 
-## 6.6 Oplaadknop: knop, oplossing
+##6.6 Laddningsknapp: Knapp, lösning
 
-![6.6 Oplaadknop: knop, oplossing](6_6.png)
+![6.6 Ladda knapp: knapp, lösning](6_6.png)
 
 ```c++
 // ...
@@ -120,13 +122,13 @@ void loop()
 }
 ```
 
-## 6.7 Oplaadknop: knop los, opdracht
+## 6.7 Laddningsknapp: släppknapp, kommando
 
- * In `laat_knop_zien`, als de knop niet is ingedrukt, laat de
-   Arduino dan 'Knop is niet ingedrukt' zeggen
- * Verander `wachttijd` naar 100 milliseconden
+ * I `show_button_show`, om knappen inte är nedtryckt, visa
+   Arduino säg sedan "Knappen inte nedtryckt"
+ * Ändra "väntetid" till 100 millisekunder
 
-## 6.8 Oplaadknop: knop los, oplossing
+## 6.8 Laddningsknapp: släppknapp, lösning
 
 ```c++
 const int wachttijd = 100;
@@ -147,21 +149,21 @@ void laat_knop_zien()
 }
 ```
 
-## 6.9 Oplaadknop: `aantal,` opdracht
+## 6.9 Ladda knapp: `nummer,` kommando
 
- * Maak een variabele `aantal`. Dit is een heel getal dat kan veranderen,
-   met beginwaarde nul
- * Maak een nieuwe functie, `laat_aantal_zien`. In deze functie wordt
-   de waarde van `aantal` naar de seriele monitor gestuurd. 
-   Dit programmeer je met:
+ * Skapa en variabel `nummer`. Detta är ett heltal som kan ändras,
+   med initialt värde noll
+ * Skapa en ny funktion, `show_number_display`. I denna funktion,
+   värdet på "nummer" som skickas till den seriella monitorn.
+   Du programmerar detta med:
 
 ```
 Serial.println(aantal);
 ```
 
- * Gebruik `laat_knop_zien`, dan `laat_aantal_zien` en dan `wacht_effe` in `loop` 
+ * Använd `show_button', sedan `show_number' och sedan `wait_effe` i `loop`
 
-## 6.10 Oplaadknop: `aantal`, oplossing
+## 6.10 Ladda knapp: `nummer`, lösning
 
 ```c++
 // ...
@@ -180,21 +182,21 @@ void loop()
 }
 ```
 
-## 6.11 Oplaadknop: `reageer_op_knop`, opdracht
+## 6.11 Uppladdningsknapp: `svara_på_knapp`, kommando
 
- * Maak een nieuwe functie, `reageer_op_knop`. 
-   In `reageer_op_knop`: als de knop is ingedrukt, 
-   wordt `aantal` 1 meer. Dit programmeer je met:
+ * Skapa en ny funktion, "svara_på_knapp".
+   I `svara_på_knapp`: om knappen trycks ned,
+   blir `nummer` 1 till. Du programmerar detta med:
 
 ```
 aantal = aantal + 1;
 ```
 
- * Gebruik `reageer_op_knop` tussen `laat_knop_zien` en `laat_aantal_zien` 
-   in `loop` 
+ * Använd `reagera_på_knapp` mellan `show_button` och `show_number`
+   i `loop`
 
 
-## 6.12 Oplossing
+## 6.12 Lösning
 
 ```c++
 void reageer_op_knop()
@@ -213,11 +215,11 @@ void loop()
 }
 ```
 
-## 6.13: Eindopdracht
+## 6.13: Slutuppgift
 
- * In `reageer_op_knop`: als de knop is losgelated, wordt `aantal` weer nul
- * Sluit een LED aan op pin 13
- * De LED brandt alleen als `aantal` meer is dan tien. Gebruik dit `if` statement:
+ * I `svara_på_knapp`: om knappen släpps blir `nummer` noll igen
+ * Anslut en lysdiod till stift 13
+ * Lysdioden tänds endast när `nummer` är mer än tio. Använd detta `if`-sats:
 
 ```c++
 if (aantal > 10)
