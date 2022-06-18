@@ -15,7 +15,7 @@ Kpt|Beskrivning
 5  |[Blink 4](05_blink_4/README.md)
 6  |[Uppladdningsknapp](06_uppladdningsknapp/README.md)
 7  |[Potmeter och joystick](07_potmeter_och_joystick/README.md)
-8  |[LDR som väljer LED](08_ldr_vaeljer/README.md)
+8  |[LDR](08_ldr/README.md)
 .  |**Bok 3**
 9  |[RGB LED](09_rgb_led/README.md)
 10 |[Potmeter RGB](10_potmeter_rgb/README.md)

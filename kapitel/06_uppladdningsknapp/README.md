@@ -23,12 +23,13 @@ void loop()
 }
 ```
 
-†
  * Efter uppladdning, klicka på "Serial Monitor"
 
 ![Klicka på 'Serial Monitor'](6_serial_monitor.png)
 
 Vad ser du?
+
+\pagebreak
 
 ## 6.2 Laddningsknapp: Lösning 1
 
@@ -43,6 +44,8 @@ Du ser Arduino säga "Hej"!
  * Skriv en funktion `visar_knapp_varde`: i denna funktion säger
    Arduino (fortfarande) "Hej"
  * Använd `visar_knapp_varde` och sedan `vanta_lite` i `loop`
+
+\pagebreak
 
 ## 6.4 Laddningsknapp: `vanta_lite` och `visar_knapp_varde`, lösning
 
@@ -72,6 +75,7 @@ void loop()
 }
 ```
 
+\pagebreak
 
 ## 6.5 Laddningsknapp: Knapp, Uppgift
 
@@ -90,7 +94,9 @@ void visar_knapp_varde()
 }
 ```
 
-##6.6 Laddningsknapp: Knapp, lösning
+\pagebreak
+
+## 6.6 Laddningsknapp: Knapp, lösning
 
 ![6.6 Ladda knapp: knapp, lösning](6_6.png)
 
@@ -123,11 +129,15 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## 6.7 Laddningsknapp: släppknapp, uppgift
 
  * I `visar_knapp_varde`, om knappen inte är nedtryckt, visa
    Arduino säg sedan "Knappen ar inte druckit"
  * Ändra `vantetid` till 100 millisekunder
+
+\pagebreak
 
 ## 6.8 Laddningsknapp: släppknapp, lösning
 
@@ -150,6 +160,8 @@ void visar_knapp_varde()
 }
 ```
 
+\pagebreak
+
 ## 6.9 Ladda knapp: `lastning,` uppgift
 
  * Skapa en variabel `lastning`. Detta är ett heltal som kan ändras,
@@ -163,6 +175,8 @@ Serial.println(lastning);
 ```
 
  * Använd `visar_knapp_varde', sedan `visar_lastning' och sedan `vanta_lite` i `loop`
+
+\pagebreak
 
 ## 6.10 Ladda knapp: `lastning`, lösning
 
@@ -183,6 +197,8 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## 6.11 Uppladdningsknapp: `reagera_pa_knappen`, uppgift
 
  * Skapa en ny funktion, `reagera_pa_knappen`.
@@ -196,6 +212,7 @@ lastning = lastning + 1;
  * Använd `reagera_pa_knapp` mellan `visar_knapp_varde` och `visar_lastning`
    i `loop`
 
+\pagebreak
 
 ## 6.12 Lösning
 
@@ -216,11 +233,13 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## 6.13: Slutuppgift
 
  * I `reagera_pa_knappen`: om knappen släpps blir `lastning` noll igen
- * Anslut en lysdiod till stift 13
- * Lysdioden tänds endast när `lastning` är mer än tio. Använd detta `if`-sats:
+ * Anslut en LED till stift 13
+ * LEDen tänds endast när `lastning` är mer än tio. Använd detta `if`-sats:
 
 ```c++
 if (lastning > 10)
@@ -228,3 +247,4 @@ if (lastning > 10)
   // ...
 }
 ```
+

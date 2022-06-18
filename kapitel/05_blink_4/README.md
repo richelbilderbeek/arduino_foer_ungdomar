@@ -1,10 +1,10 @@
-# Les 5: Blink 4
+# Lekgtion 5: Blink 4
 
 I dessa läs använder vi 4 lysdioder och funktioner
 
-## 5.1 Blink 6: Uppgift
+## 5.1 Uppgift
 
- * Gör en koppling med 2 lysdioder, el med en motståndsbil 1000 Ohm i serie
+ * Gör en koppling med 2 LEDs, varje LED skulle ha en egen motstånd från 1000 Ohm
  * Slut den 1:e LED på stift 2
  * Slut den 2:e LED på stift 3
  * Ladda upp denna kod:
@@ -31,11 +31,15 @@ void loop()
 }
 ```
 
-## 5.2 Blink 6: Lösning
+\pagebreak
 
-![5.2 Blink 6: Lösning](5_2.png)
+## 5.2 Lösning
 
-## 5.3 Blink 6: `vanta_lite`, uppgift
+![5.2 Lösning](5_2.png)
+
+\pagebreak
+
+## 5.3 `vanta_lite`, uppgift
 
 Vi skriver vår första funktion!
 
@@ -50,7 +54,9 @@ void vanta_lite()
 
  * I `loop`, ersätt två gånger `delay(vantetid);` genom `vanta_lite();`
 
-## 5.4 Blink 6: `vanta_lite`, lösning
+\pagebreak
+
+## 5.4 `vanta_lite`, lösning
 
 ```c++
 // ...
@@ -74,14 +80,18 @@ void loop()
 }
 ```
 
-## 5.5 Blink 6: `ljuser_bara_led_1`, uppgift
+\pagebreak
+
+## 5.5 `ljuser_bara_led_1`, uppgift
 
  * Skriv en funktion, `ljuser_bara_led_1`,
    för att säkerställa att enbart LED 1 märket (ofta:
    LED 2 måste ut)
  * Använd `ljuser_bara_led_1` i `loop`
 
-## 5.6 Blink 6: `ljuser_bara_led_1`, lösning
+\pagebreak
+
+## 5.6 `ljuser_bara_led_1`, lösning
 
 ```c++
 void ljuser_bara_led_1()
@@ -97,14 +107,16 @@ void loop()
 }
 ```
 
-## 5.7 Blink 6: `ljuser_bara_led_2`, uppgift
+## 5.7 `ljuser_bara_led_2`, uppgift
 
  * Skriv en funktion, `ljuser_bara_led_2`,
    för att säkerställa att enbart LED 2 märket (ofta:
    LED 1 måste ut)
  * Använd `ljuser_bara_led_2` i `loop`
 
-## 5.8 Blink 6: `ljuser_bara_led_2`, lösning
+\pagebreak
+
+## 5.8 `ljuser_bara_led_2`, lösning
 
 ```c++
 void ljuser_bara_led_2()
@@ -120,7 +132,7 @@ void loop()
 }
 ```
 
-## 5.7 Blink 6: `ljuser_bara_led_3`, uppgift
+## 5.7 `ljuser_bara_led_3`, uppgift
 
  * Bygg upp en tredje LED-lampa på stift 4
  * Gör en ny variabel `stift_led_3` för denna LED
@@ -132,8 +144,9 @@ void loop()
    låt bara LED 2 brinna, vänta lite,
    låt bara LED 3 brinna, vänta lite
 
+\pagebreak
 
-## 5.8 Blink 6: `ljuser_bara_led_3`, lösning
+## 5.8 `ljuser_bara_led_3`, lösning
 
 ```c++
 // ...
@@ -172,7 +185,10 @@ void loop()
 }
 ```
 
-## 5.9 Blink 6: slutuppgift
+\pagebreak
+
+
+## 5.9 slutuppgift
 
  * Slut en fyra LEDje till, på stift 5
  * Gör en ny variabel `stift_led_4` för denna LED

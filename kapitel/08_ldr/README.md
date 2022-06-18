@@ -1,21 +1,150 @@
-# Les 8: Vier sensoren
+# 8. LDR som väljer LED
 
-In deze les gebruiken we 4 sensoren en leren we `map`
+Under den här lektionen använder vi en ljusberoende motstånd, kallas LDR.
 
-## 8.1 vier sensoren: LDR, opdracht
+## 8.1 Uppgift
 
-## 8.2 vier sensoren: LDR, oplossing
+Bygg up:
 
-## 8.1 vier sensoren: FSR, opdracht
+ * en potmeter, på A0
 
-## 8.2 vier sensoren: FSR, oplossing
+Programmerar:
 
-## 8.1 vier sensoren: ultrasone afstandssensor, opdracht
+ * en `const` variabel `potmeter_stift` på riktigt stift
+ * att få värd av potmetern med `analogRead`
+ * att skrivar värd av potmetern till Serial Monitor
+ * vänta 100 millisecond varje `loop`
 
-## 8.2 vier sensoren: ultrasone afstandssensor, oplossing
+\pagebreak
 
-## 8.1 vier sensoren: infrarode afstandssensor, opdracht
+## 8.2 Lösning
 
-## 8.2 vier sensoren: infrarode afstandssensor, oplossing
+```
+5V --- potmeter --- GND
+           |
+           +------ A0
+```
 
-## 8.2 vier sensoren: eindopdracht
+```
+const int potmeter_stift = A0;
+
+void setup() 
+{
+  pinMode(potmeter_stift, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() 
+{
+  Serial.print(analogRead(potmeter_stift));
+  delay(100);  
+}
+```
+
+\pagebreak
+
+## 8.3 Uppgift
+
+Skriv om programmet litegran för att ha en funktion som häter `visar_potmeter`.
+
+`visar_potmeter` kan redan:
+
+ * att få värd av potmetern med `analogRead`
+ * att skrivar värd av potmetern till Serial Monitor
+
+Addera till `visar_potmeter`:
+
+```
+if (analogRead(potmeter_stift) < 512)
+{
+  Serial.print("Potmeter ar till vanster");
+} 
+else 
+{
+  Serial.print("Potmeter ar till hoger");
+}
+```
+
+DATOR and SMILEY
+`<` 'litare än'
+
+SMILEY: `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
+
+\pagebreak
+
+## 8.4 Lösning
+
+```
+const int potmeter_stift = A0;
+
+void setup() 
+{
+  pinMode(potmeter_stift, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() 
+{
+  visar_potmeter();
+  delay(100);  
+}
+
+void visar_potmeter() 
+{
+  Serial.print(analogRead(potmeter_stift));
+  if (analogRead(potmeter_stift) < 512)
+  {
+    Serial.print("Potmeter ar till vanster");
+  } 
+  else 
+  {
+    Serial.print("Potmeter ar till hoger");
+  }
+}
+```
+
+\pagebreak
+
+## 8.5 Uppgift
+
+Byter potmeter om för en LDR.
+En LDR är ansluten sannalikt än en knapp:
+
+ * den första ben åker till 5V
+ * den andra ben går till en motstand från 10 kOhm, som går till GND
+ * den andra ben går till A0
+ 
+Kör programmet med samma kod.
+
+Vilken värder har LDR om du sta ljus iväg med din hand?
+Vilken värder har LDR om ljus är helt på den?
+
+\pagebreak
+
+## 8.6 Lösning
+
+```
+                +-----+
+5V --- LDR --+--+ 10k +--- GND
+             |  +-----+
+             |
+             +-------------- A0
+```
+
+\pagebreak
+
+## 8.7 Slutuppgift
+
+Addera en LED på 13.
+
+Om du håller din hand över LDRen:
+
+  * LEDen skulle ljuser upp 
+  * Serial monitor skull säga 'Det ar morkt'
+
+Om du inte håller din hand över LDRen:
+
+  * LEDen skulle vara släckt
+  * Serial monitor skull säga 'Det ar ljus'
+
+

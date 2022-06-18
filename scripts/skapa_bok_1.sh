@@ -19,6 +19,8 @@ cp ../kapitel/02_blink_blink_blink/*.* $build_folder; mv $build_folder/README.md
 cp ../kapitel/03_knapp_if_else/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_03.md
 cp ../kapitel/04_knapp_flip/*.* $build_folder       ; mv $build_folder/README.md $build_folder/README_04.md
 
+cp arduino_book_style.theme $build_folder
+
 cd $build_folder
 
 cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
@@ -31,7 +33,7 @@ cat README_04.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> READM
 # Code has highlights following the tango color scheme
 # Thinner margin of 0.5 inch
 # Do not cut code blocks
-pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=tango -V geometry:margin=0.5in
+pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=arduino_book_style.theme -V geometry:margin=0.5in
 
 cp bok.pdf ../../boecker/bok_1_utan_framsida.pdf
 

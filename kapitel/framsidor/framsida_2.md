@@ -2,6 +2,8 @@
 
 `#`|Beskriving
 ---|---
-5|`line` och `stroke`
-6|Låt bollen åka åt höger i all evighet
-7|`rect` och `fill`
+5  |Blink 4
+6  |Uppladdningsknapp
+7  |Potmeter och joystick
+8  |LDR
+

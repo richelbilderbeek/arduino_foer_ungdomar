@@ -13,9 +13,13 @@ Vänster ben   | 5V
 Mellanben     | A0
 Höger ben     | GND
 
+\pagebreak
+
 ## 7.2 Potentiometer: anslut, lösning
 
 [schema här]
+
+\pagebreak
 
 ## 7.3 Potentiometer: start, uppgift
 
@@ -26,6 +30,8 @@ Höger ben     | GND
  * Skapa en funktion `show_potentiometer_see`, som tar ordet `potentiometer` till
    seriella monitorkontroller
  * I `loop`, använd `show potentiometer` och `effe_wait`
+
+\pagebreak
 
 ## 7.4 Potentiometer: uppstart, lösning
 
@@ -54,6 +60,8 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## 7.5 Potentiometer: läs, uppgift
 
  * Skapa en variabel 'potmeter_stift' med värdet 'A0'.
@@ -69,6 +77,8 @@ int lasa_potmeter()
 
  * I `show_potentiometer_see` ersätt texten `"potentiometer"` med `read_potentiometer()`
  * Ladda upp programmet och vrid potentiometern. Vilka siffror kommer ut?
+
+\pagebreak
 
 ## 7.6 Potentiometer: avläsning, lösning
 
@@ -93,7 +103,9 @@ void visar_potmeter()
 }
 ```
 
-Siffrorna som kommer från "read_potentiometer" är mellan noll och 1024.
+Siffrorna som kommer från `lasa_potmeter` är mellan noll och 1024.
+
+\pagebreak
 
 ## 7.7 Potentiometer: styrning, uppgift
 
@@ -107,6 +119,8 @@ analogWrite(led_stift, lasa_potmeter());
 ```
 
  * Ladda upp och vrid potentiometern. Vad ser du?
+
+\pagebreak
 
 ## 7.8 Potentiometer: styrning, lösning
 
@@ -130,6 +144,7 @@ void visar_potmeter()
 Om du vrider på potentiometern ser du att lysdioden lyser fyra gånger
 sätter på.
 
+\pagebreak
 
 ## 7.9 Potentiometer: bra styrning, uppgift
 
@@ -149,6 +164,7 @@ analogWrite(led_stift, lasa_potmeter() / 4);
  * Vad tror du att `/` betyder? Tips: var ser du sådana här ränder?
    i matte?
 
+\pagebreak
 
 ## 7.10 Potentiometer: bra styrning, lösning
 
@@ -156,6 +172,8 @@ analogWrite(led_stift, lasa_potmeter() / 4);
    potentiometern vrider sig
  * `/` betyder "delat med". Detta är samma indelningslinje som med
    bråk och procent!
+
+\pagebreak
 
 ## 7.11 Potentiometer: anslut joystick, uppgift
 
@@ -170,9 +188,13 @@ GND      | GND
 
  * Om du har anslutit denna rätt kan du nu styra lysdioden med joysticken
 
+\pagebreak
+
 ## 7.11 Potentiometer: anslut joystick, lösning
 
 [flödesschema]
+
+\pagebreak
 
 ## 7.12 Potentiometer: läs joystick, uppgift
 
@@ -212,8 +234,11 @@ void loop()
 }
 ```
 
+\pagebreak
+
 ## 7.12 Potentiometer: slutuppgift
 
  * Anslut en andra lysdiod
  * Denna andra lysdiod ska reagera som den första lysdioden, men som
    joysticken flyttas horisontellt
+
