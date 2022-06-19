@@ -165,7 +165,7 @@ Du kommer inte längre att se lampan blinka.
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`digitalWrite(13, LOW);`|'Koppla ur stift 13'
+`digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
 ![](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
 :-------------:|:----------------------------------------: 

@@ -223,7 +223,7 @@ mellan LEDer.
  * I koden, ändra längst upp:
 
 ```c++
-// led_stift gaat weg
+// led_stift är bort
 const int led_stift_rod = /* stift numret */;
 const int led_stift_gron = /* stift numret */;
 // ... [knapp_stift stanner samma]

@@ -40,6 +40,10 @@ void loop()
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
 `digitalRead(knapp_stift)` |'Ge mig `HIGH` om `knapp_stift` har spänning. Annars ge `LOW`'
+
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
 `digitalWrite(led_stift, digitalRead(knapp_stift))`|'Sätt spänningen till `led_stift` om `knapp_stift` har spänning'
 
 ![](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
@@ -49,7 +53,7 @@ void loop()
 
 ## 3.3. Knapp if ... else: Fråga
 
-När du trycker på knappen, släcks eller tänds lysdioden?
+När du trycker på knappen, släcks eller tänds LEDen?
 
 ## 3.4. Knapp if ... else: Svara
 
@@ -79,9 +83,9 @@ Denna kod kontrollerar om det finns spänning på `knapp_stift`.
 Om ja, lägg sedan Arduino spänning på `led_stift_red`.
 Annars (`else`) tar Arduino spänningen från `led_stift_gron`.
 
-![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`if (digitalRead(knapp_stift) == HIGH) {}`|'Kära dator, om det finns spänning på `knapp_stift`, sätt den inom parentes'
+![Dator](EmojiComputer.png)               | ![Smiley](EmojiSmiley.png)
+:----------------------------------------:|:-----------------------------------: 
+`if (digitalRead(knapp_stift) == HIGH) {}`|'Kära dator, om det finns spänning på `knapp_stift`, gör detta inom parentes'
 
 ![](EmojiSunglasses.png) | `=` kan uttalas som "sätta på". "==" kan uttalas som "lika med"
 :-------------:|:----------------------------------------: 
@@ -161,11 +165,11 @@ void loop()
 
 ## 3.8. Knapp if ... else: Uppgift 2
 
-Anslut en andra grön lysdiod. Gör koden så att:
+Anslut en andra grön LED. Gör koden så att:
 
- * när du trycker på knappen tänds den första lampan och den andra lysdioden släcks
- * om du inte trycker på knappen slocknar den första lampan och den andra lysdioden slocknar
- * Namnge variabeln för stiftet på den röda lysdioden `led_stift_rod`, för
+ * när du trycker på knappen tänds den första lampan och den andra LEDen släcks
+ * om du inte trycker på knappen slocknar den första lampan och den andra LEDen tänds
+ * Namnge variabeln för stiftet på den röda LEDen `led_stift_rod`, för
    grön LED `led_stift_gron`
 
 ![](EmojiSunglasses.png)| Du kan skriva flera rader inom de krulliga parenteserna av ett `if`. Precis som mellan hängslen i `setup` och `loop`!
@@ -178,9 +182,9 @@ Anslut en andra grön lysdiod. Gör koden så att:
 
 ## 3.9. Knapp if ... else: Lösning 2
 
-Bild `Lösning för 'Knapp med två lysdioder'` visar hur man ansluter detta.
+Bild `Lösning för 'Knapp med två LEDer'` visar hur man ansluter detta.
 
-![Lösning för 'Knapp med två lysdioder'](3_knop_if_else_2.png)
+![Lösning för 'Knapp med två LEDer'](3_knop_if_else_2.png)
 
 \pagebreak
 
@@ -207,7 +211,6 @@ void loop()
     digitalWrite(led_stift_gron, LOW);
     digitalWrite(led_stift_rod, HIGH);
   }
-
   else
   {
     digitalWrite(led_stift_gron, HIGH);

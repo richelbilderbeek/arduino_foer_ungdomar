@@ -150,7 +150,7 @@ Låt först den första LEDen tändas och släckas, låt sedan den andra LEDen t
 ![](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för kamel
 :-------------:|:----------------------------------------: 
 
-![](EmojiComputer.png) | Jag bryr mig inte om vilken du väljer
+![](EmojiComputer.png) | Jag tänker båda är jämt bra
 :-------------:|:----------------------------------------: 
 
 \pagebreak
