@@ -19,11 +19,7 @@ Programmerar:
 
 ## 8.2 Lösning
 
-```
-5V --- potmeter --- GND
-           |
-           +------ A0
-```
+![](08_potmeter.png)
 
 ```
 const int potmeter_stift = A0;
@@ -123,13 +119,7 @@ Vilken värder har LDR om ljus är helt på den?
 
 ## 8.6 Lösning
 
-```
-                +-----+
-5V --- LDR --+--+ 10k +--- GND
-             |  +-----+
-             |
-             +-------------- A0
-```
+![](08_ldr.png)
 
 \pagebreak
 
@@ -146,5 +136,4 @@ Om du inte håller din hand över LDRen:
 
   * LEDen skulle vara släckt
   * Serial monitor skull säga 'Det ar ljus'
-
 
