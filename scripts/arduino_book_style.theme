@@ -7,14 +7,14 @@
         "Other": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
         "Attribute": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
@@ -35,14 +35,14 @@
         "Function": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
         "String": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
@@ -68,14 +68,14 @@
             "underline": false
         },
         "BaseN": {
-            "text-color": "#0000cf",
+            "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
         "Alert": {
-            "text-color": "#ef2929",
+            "text-color": "#000000",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -147,21 +147,21 @@
         "DataType": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
         "Float": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },
         "Comment": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": true,
             "underline": false
         },
@@ -175,7 +175,7 @@
         "Constant": {
             "text-color": "#000000",
             "background-color": null,
-            "bold": false,
+            "bold": true,
             "italic": false,
             "underline": false
         },

@@ -36,24 +36,22 @@ void loop()
 }
 ```
 
+![Dator](EmojiComputer.png)|`digitalRead(knapp_stift)` 
+:-----------:|:----------------------------------------: 
+![Smiley](EmojiSmiley.png) |'Ge mig `HIGH` om `knapp_stift` har spänning. Annars ge `LOW`'
 
-![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`digitalRead(knapp_stift)` |'Ge mig `HIGH` om `knapp_stift` har spänning. Annars ge `LOW`'
-
-
-![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`digitalWrite(led_stift, digitalRead(knapp_stift))`|'Sätt spänningen till `led_stift` om `knapp_stift` har spänning'
-
-![](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
-:-------------:|:----------------------------------------: 
+![Dator](EmojiComputer.png)|`digitalWrite(led_stift, digitalRead(knapp_stift))`
+:-----------:|:----------------------------------------: 
+![Smiley](EmojiSmiley.png) |'Sätt spänningen till `led_stift` om `knapp_stift` har spänning'
 
 \pagebreak
 
 ## 3.3. Knapp if ... else: Fråga
 
 När du trycker på knappen, släcks eller tänds LEDen?
+
+![](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
+:-------------:|:----------------------------------------: 
 
 ## 3.4. Knapp if ... else: Svara
 
@@ -83,9 +81,10 @@ Denna kod kontrollerar om det finns spänning på `knapp_stift`.
 Om ja, lägg sedan Arduino spänning på `led_stift_red`.
 Annars (`else`) tar Arduino spänningen från `led_stift_gron`.
 
-![Dator](EmojiComputer.png)               | ![Smiley](EmojiSmiley.png)
-:----------------------------------------:|:-----------------------------------: 
-`if (digitalRead(knapp_stift) == HIGH) {}`|'Kära dator, om det finns spänning på `knapp_stift`, gör detta inom parentes'
+![Dator](EmojiComputer.png) |`if (digitalRead(knapp_stift) == HIGH) {}`
+:------------:|:------------------------------------------: 
+ ![Smiley](EmojiSmiley.png) |'Kära dator, om det finns spänning på `knapp_stift`, gör detta inom parentes'
+
 
 ![](EmojiSunglasses.png) | `=` kan uttalas som "sätta på". "==" kan uttalas som "lika med"
 :-------------:|:----------------------------------------: 
@@ -99,12 +98,10 @@ Detta är exempelkoden, som inte är helt färdig:
 ```c++
 void setup() 
 {
-
   pinMode(4, INPUT );
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
 }
-
 
 void loop()
 {
@@ -136,23 +133,19 @@ Avsluta koden så att:
 ```c++
 // ...
 
-
 void setup() 
 {
   // ...
 }
 
-
 void loop()
 {
   if (digitalRead(knapp_stift) == HIGH)
   {
-
     digitalWrite(led_stift, HIGH);
   }
   else
   {
-
     digitalWrite(led_stift, LOW);
   }
 }
@@ -203,7 +196,6 @@ void setup()
   // ...
 }
 
-
 void loop()
 {
   if (/* ... */)
@@ -241,5 +233,4 @@ Anslut en andra knapp. Göra koden så att
 
 ![](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm
 :-------------:|:----------------------------------------: 
-
 
