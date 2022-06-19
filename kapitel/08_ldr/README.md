@@ -1,4 +1,4 @@
-# 8. LDR som väljer LED
+# 8. LDR
 
 Under den här lektionen använder vi en ljusberoende motstånd, kallas LDR.
 
@@ -61,10 +61,12 @@ else
 }
 ```
 
-DATOR and SMILEY
-`<` 'litare än'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`<`|'litare än'
 
-SMILEY: `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
+![](EmojiBowtie.png) | `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
+:-------------:|:----------------------------------------: 
 
 \pagebreak
 
