@@ -204,6 +204,8 @@ använd 'Replace All' ("Ersätt alla").
 
 ![Sök, klicka här på 'Ersätt alla'](7_edit_find.png)
 
+\pagebreak
+
 ## 7.12 Potentiometer: läs joystick, lösning
 
 ```c++

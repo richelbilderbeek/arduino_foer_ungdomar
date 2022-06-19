@@ -100,6 +100,8 @@ void visar_knapp_varde()
 
 ![6.6 Ladda knapp: knapp, lösning](6_6.png)
 
+\pagebreak
+
 ```c++
 // ...
 const int knapp_stift = 2;
