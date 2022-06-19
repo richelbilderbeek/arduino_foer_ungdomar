@@ -17,7 +17,7 @@ Höger ben     | GND
 
 ## 7.2 Potentiometer: anslut, lösning
 
-[schema här]
+![](7_potmeter.png)
 
 \pagebreak
 
@@ -109,7 +109,7 @@ Siffrorna som kommer från `lasa_potmeter` är mellan noll och 1024.
 
 ## 7.7 Potentiometer: styrning, uppgift
 
- * Anslut en lysdiod till stift 11
+ * Anslut en LED till stift 11
  * Skapa en variabel 'led_stift' med rätt värde
  * I "setup", ställ in "pinMode" för "led_stift" till "OUTPUT".
  * I `show_potentiometer_see` lägg till denna rad:
@@ -141,7 +141,7 @@ void visar_potmeter()
 }
 ```
 
-Om du vrider på potentiometern ser du att lysdioden lyser fyra gånger
+Om du vrider på potentiometern ser du att LEDen lyser fyra gånger
 sätter på.
 
 \pagebreak
@@ -168,7 +168,7 @@ analogWrite(led_stift, lasa_potmeter() / 4);
 
 ## 7.10 Potentiometer: bra styrning, lösning
 
- * Du kan se att lysdioden nu går från av till tänd när du slår på
+ * Du kan se att LEDen nu går från av till tänd när du slår på
    potentiometern vrider sig
  * `/` betyder "delat med". Detta är samma indelningslinje som med
    bråk och procent!
@@ -186,13 +186,13 @@ V        | A0
 H        | A1
 GND      | GND
 
- * Om du har anslutit denna rätt kan du nu styra lysdioden med joysticken
+ * Om du har anslutit denna rätt kan du nu styra LEDen med joysticken
 
 \pagebreak
 
 ## 7.11 Potentiometer: anslut joystick, lösning
 
-[flödesschema]
+![](7_joystick.png)
 
 \pagebreak
 
@@ -238,7 +238,7 @@ void loop()
 
 ## 7.12 Potentiometer: slutuppgift
 
- * Anslut en andra lysdiod
- * Denna andra lysdiod ska reagera som den första lysdioden, men som
+ * Anslut en andra LED
+ * Denna andra LED ska reagera som den första LEDen, men som
    joysticken flyttas horisontellt
 
