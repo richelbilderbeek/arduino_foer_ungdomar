@@ -17,7 +17,7 @@ Kpt|Beskrivning
 7  |[Potmeter och joystick](07_potmeter_och_joystick/README.md)
 8  |[LDR](08_ldr/README.md)
 .  |**Bok 3**
-9  |[RGB LED](09_rgb_led/README.md)
+9  |[RGB LED](09_rgb/README.md)
 10 |[Potmeter RGB](10_potmeter_rgb/README.md)
 11 |[FSR RGB](11_fsr_rgb/README.md) 
 12 |[LDR RGB](12_ldr_rgb/README.md) 
