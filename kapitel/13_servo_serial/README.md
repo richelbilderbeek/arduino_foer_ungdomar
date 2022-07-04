@@ -1,85 +1,83 @@
-# 13. Servo met seriele monitor
+#13. Servo med seriell monitor
 
-Een servo is een motortje die je in een bepaalde hoek kunt zetten.
+En servo är en motor som man kan sätta i en viss vinkel.
 
-![Sunglasses](EmojiSunglasses.png) | Servo's worden veel gebruikt in robots
+![Solglasögon](EmojiSunglasses.png) | Servon används ofta i robotar
 :-------------:|:----------------------------------------: 
 
-## Aansluiten
+## Anslut
 
-Op het plaatje zie je hoe je een servo aansluit:
+Bilden visar hur man ansluter en servo:
 
-![Servo motor aansluiten](3_servo_motor_1.png)
+![Anslut servomotor](3_servo_motor_1.png)
 
-![Sunglasses](EmojiSunglasses.png) | De meeste servo's kunnen niet rond
+![Solglasögon](EmojiSunglasses.png) | De flesta servon kan inte rotera
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Code
+## Kod
 
-Gebruik deze code:
+Använd denna kod:
 
 ```c++
 #include <Servo.h>
 
-Servo mijn_servo;
+Servo min_servo;
 
 void setup()
 {
   Serial.begin(9600);
-  mijn_servo.attach(9);
+  min_servo.attach(9);
 }
 
 void loop()
 {
   if (Serial.available())
   {
-    const int getal = Serial.parseInt();
-    Serial.print("Ik zet de servo op ");
-    Serial.println(getal);
-    mijn_servo.write(getal);
+    const int vard = Serial.parseInt();
+    Serial.print("Jag satter servon pa ");
+    Serial.println(vard);
+    min_servo.write(vard);
     delay(1000);
   }
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:---------------------------:|:-------------------------------------------------: 
-`Servo mijn_servo;`          |'Lieve computer, onthoud een Servo met de naam `mijn_servo`'.
-`mijn_servo.attach(9);`      |'Lieve computer, `mijn_servo` zit aan pin 9'.
-`if (Serial.available()) {}` |'Lieve computer, is er iets in de seriele monitor ingetypt? Zo ja, doe dan dat tussen accolades'.
-`Serial.parseInt()`          |'Lieve computer, lees het getal (niet het woord) dat is ingetypt'.
-`const int getal`            |'Lieve computer, onthoud een heel getal met de naam `getal`, dat alleen maar mag worden gelezen'
-`mijn_servo.write(getal);`   |'Lieve computer, zet de servo op een hoek van `getal` graden'.
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------: 
+`Servo min_servo;` |'Kära dator, kom ihåg en Servo som heter `min_servo`'.
+`min_servo.attach(9);` |'Bästa dator, `min_servo` är på stift 9'.
+`if (Serial.available()) {}` |'Bästa dator, skrevs något in i den seriella monitorn? Om så är fallet, sätt det inom parentes.
+`Serial.parseInt()` |'Bästa dator, läs numret (inte ordet) som skrevs'.
+`const int vard` |'Bästa dator, kom ihåg ett heltal som heter `vard`, som bara bör läsas'
+`min_servo.write(vard);` |'Bästa dator, ställ servo i en vinkel på `vard` grader'.
 
 \pagebreak
 
-## Getallen naar de Arduino sturen
+## Skicka nummer till Arduino
 
-Als je de code op de Arduino hebben gezet, kun je via de `Serial Monitor`
-getallen naar de Arduino sturen. Dit kun je zien op het plaatje
+När du har lagt koden på Arduino kan du använda `Serial Monitor`
+skicka nummer till Arduino. Du kan se detta på bilden
 
-![Getallen naar de Arduino sturen](3_servo_motor_serial.png)
+![Skicka nummer till Arduino](3_servo_motor_serial.png)
 
-![Sunglasses](EmojiSunglasses.png) | Op deze manier kun jij tegen de Arduino praten
+![Solglasögon](EmojiSunglasses.png) | På så sätt kan du prata med Arduino
 :-------------:|:----------------------------------------: 
 
-## Opdracht 1
+## Uppgift 1
 
-  1. Bepaal het laagste en hoogste getal van een servo motor. 
-  2. Bereken het verschil tussen het laagste en hoogste getal
+  1. Bestäm det lägsta och högsta numret för en servomotor.
+  2. Beräkna skillnaden mellan lägsta och högsta siffran
 
 \pagebreak
 
-## Oplossing 1
+## Lösning 1
 
-  1. Ha, dit mag je zelf uitvinden :-)
-  2. Dit zit ergens tussen 80-150 graden, afhankelijk van je servo motor
+  1. Ha, det kan du ta reda på själv :-)
+  2. Detta är någonstans mellan 80-150 grader, beroende på din servomotor
 
-## Eindopdracht
+## Slutuppgift
 
-Stuur een servo motor perfect aan met de seriele monitor. 
-Gebruik hiervoor de minimum en maximum waarde die je hebt gevonden bij jouw servo motor.
-
-
+Styr en servomotor perfekt med den seriella monitorn.
+Använd det lägsta och högsta värdet som du har hittat med din servomotor.
