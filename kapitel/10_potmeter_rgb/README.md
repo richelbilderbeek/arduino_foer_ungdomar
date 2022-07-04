@@ -1,26 +1,26 @@
-# Potmeter
+# 10. Potentiometer
 
-Met een potmeter kun je een spanning naar de Arduino sturen.
-Deze kun je gebruiken als bijvoorbeeld een volumeknop.
+Med en potentiometer kan du skicka en spänning till Arduino.
+Du kan använda denna som till exempel en volymratt.
 
-![Een potmeter](Potmeter_potmeter.jpg)
+![En potentiometer](Potmeter_potmeter.jpg)
 
-In deze les leer je:
+I den här lektionen kommer du att lära dig:
 
- * Wat een potmeter is
- * Hoe je een potmeter gebruikt
+ * Vad en potentiometer är
+ * Hur man använder en potentiometer
 
-## Aansluiten
+## 10.1 Anslut
 
-Eerst sluiten we alleen een Arduino aan:
+Först ansluter vi bara en Arduino:
 
-![Potmeter aansluiten](Potmeter_potmeter.png)
+![Anslut potentiometer](Potmeter_potmeter.png)
 
-Ik denk dat dit wel moet lukken :-)
+Jag tycker att det här borde fungera :-)
 
-## Code: lezen potmeter met seriele monitor
+## 10.2 Kod: avläs potentiometer med seriell monitor
 
-Met deze code meten we de stand van de potmeter:
+Vi mäter potentiometerns position med denna kod:
 
 ```c++
 void setup() 
@@ -36,41 +36,41 @@ void loop()
 }
 ```
 
-Dit doet de code:
+Detta är vad koden gör:
 
- * In de `setup` functie gebeuren twee dingen
-   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
- * In de `loop` functie gebeuren twee dingen
-   * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
-   * `delay(100)`: wacht honderd milliseconden
+ * Två saker händer i "setup"-funktionen
+   * `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
+   * `Serial.begin(9600)`: den seriella monitorn skickar 9600 bitar ('nollor och ettor') per sekund
+ * Två saker händer i 'loop'-funktionen
+   * `Serial.println(analogRead(A0))`: läs stift `A0` och skriv det till seriell monitor
+   * `delay(100)`: vänta hundra millisekunder
 
-## Opdrachten
+## 10.3 Uppgifter
 
- 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- 2. Draai de potmeter helemaal naar links (tegen de klok in). Welke waarde zie je op de seriele monitor?
- 3. Draai de potmeter helemaal naar rechts (met de klok mee). Welke waarde zie je op de seriele monitor?
+ 1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
+ 2. Vrid potentiometern hela vägen åt vänster (moturs). Vilket värde ser du på den seriella monitorn?
+ 3. Vrid potentiometern hela vägen åt höger (medurs). Vilket värde ser du på den seriella monitorn?
 
-## Oplossingen
+## 10.4 Lösningar
 
- 1. Je ziet een getal van nul tot 1024, afhankelijk van de stand van de potmeter
- 2. Je ziet het getal nul
- 3. Je ziet het geal 1023
+ 1. Du ser ett tal från noll till 1024, beroende på potentiometerns position
+ 2. Du ser siffran noll
+ 3. Du ser numret 1023
 
-# Aansluiten potmeter met LED
+## 10.5 Anslutningspotentiometer med LED
 
-Nu sluiten we ook een LED aan:
+Nu ansluter vi även en LED:
 
-![Potmeter met LED](Potmeter_potmeter_en_led.png)
+![Potmeter med LED](Potmeter_potmeter_en_led.png)
 
-Let op:
+OBS:
 
- * het weerstandje aan de LED is duizend Ohm (bruin-zwart-rood-goud)
- * het LEDje moet op een pin met PWM ('een golfje')
+ * resistorn på lysdioden är tusen ohm (brun-svart-röd-guld)
+ * LED-lampan måste vara på ett stift med PWM ('a wave')
 
-## Reageren op potmeter
+## Svara på potentiometern
 
-Nu gaan we het LEDje laten reageren op de potmeter:
+Nu ska vi få lysdioden att reagera på potentiometern:
 
 ```c++
 void setup() 
@@ -86,35 +86,36 @@ void loop()
 }
 ```
 
-Dit doet de code
+Detta är vad koden gör
 
- * In de `setup` functie gebeuren drie dingen:
-   * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-   * `pinMode(9, OUTPUT)`: pin `9` is een pin waar stroom uitkomt, een output
- * In de `loop` functie gebeuren twee dingen:
-   * `analogWrite(9, analogRead(A0) / 8)`: zet op pin 9 een spanning van
-     `analogRead(A0) / 8`. `analogRead(A0) / 8` betekent: de waarde gelezen van A0
-     gedeeld door acht (de `/` is een deelstreep).
-   * `delay(100)`: wacht honderd milliseconden
+ * Tre saker händer i "setup"-funktionen:
+   * `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
+   * `pinMode(9, OUTPUT)`: stift `9` är ett stift där ström kommer ut, en utgång
+ * Två saker händer i "loop"-funktionen:
+   * `analogWrite(9, analogRead(A0) / 8)`: sätt en spänning på stift 9
+     `analogRead(A0) / 8`. `analogRead(A0) / 8` betyder: läs värdet från A0
+     dividerat med åtta ('/' är en divisionsstapel).
+   * `delay(100)`: vänta hundra millisekunder
 
-## Opdracht
+## 10.6 Uppdrag
 
- * Wat gebeurt er als je het getal van de deling verandert?
- * Wat is de beste waarde van het getal voor de deling/
+ * Vad händer om du ändrar divisionsnumret?
+ * Vilket är det bästa värdet av talet för division/
 
-## Oplossingen
+## 10.7 Lösningar
 
- 1. Bij een hoger getal, gaat het lampje steeds minder hard in volle stand.
-    Bij een lager getal dan vier gaat het lampje raar reageren: het lampje gaat eerst harder,
-    dan uit en weer harder, etc
- 2. Het beste getal is vier. Want uit `analogRead` komt hoogstens 1023, terwijl je met `analogWrite`
-    hoogstens 255 kunt schrijven. 1023 gedeeld door 4 is 255 rest 3. De Ardiono maakt daar 255 van
+ 1. Med en högre siffra går ljuset mindre och mindre snabbt i fullt läge.
+    Om siffran är lägre än fyra kommer ljuset att reagera konstigt: ljuset kommer först att gå snabbare,
+    sedan av och högre igen osv
+ 2. Bästa siffran är fyra. Eftersom från `analogRead` kommer som mest 1023, medan med `analogWrite`
+    kan skriva högst 255. 1023 dividerat med 4 är 255 resterande 3. Ardiono gör 255 av det
 
-## Eindopdracht
+## 10.8 Slutuppgift
 
- * Sluit vier LEDjes aan: een rode, gele, groene en blauwe
- * Als de potmeter helemaal naar links is, moet er geen LEDje branden. 
- * Als de potmeter meer naar rechts gedraaid wordt, gaat het groene LEDje branden
- * Als de potmeter nog meer naar rechts gedraaid wordt, gaat het gele LEDje branden
- * Als de potmeter nog meer naar rechts gedraaid wordt, gaat het rode LEDje branden
- * De blauwe LED gaat langzaam aan als er meer naar rechts gedraaid wordt
+ * Anslut fyra lysdioder: en röd, gul, grön och blå
+ * Om potentiometern är ända till vänster ska ingen lysdiod lysa.
+ * När potentiometern vrids mer åt höger tänds den gröna lysdioden
+ * Om potentiometern vrids ännu mer åt höger, tänds den gula lysdioden
+ * Om potentiometern vrids ännu mer åt höger, tänds den röda lysdioden
+ * Den blå lysdioden lyser långsamt när du svänger mer åt höger
+

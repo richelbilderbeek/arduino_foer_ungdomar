@@ -1,14 +1,14 @@
-# 9. LDR
+# 12. LDR
 
-## Alleen Arduino aansluiten
+## 12.1 Anslut endast Arduino
 
-Eerst sluiten we alleen een Arduino aan:
+Först ansluter vi bara en Arduino:
 
 ![](9_LDR_niks.png)
 
-Ik denk dat dit wel moet lukken :-)
+Jag tycker att det här borde fungera :-)
 
-## Code: seriele monitor
+## 12.2 Kod: Serial Monitor
 
 ```c++
 void setup() 
@@ -23,40 +23,40 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+![Solglasögon](EmojiBowtie.png) | Har du glömt vad det här är? Gå till lektion 4 'FSR'
 :-------------:|:----------------------------------------: 
 
-### Opdrachten 1
+### 12.3 Kommandon 1
 
- 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- 2. Kun je de tekst veranderen naar 'Hallo Richel' (of je eigen naam?)
- 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
- 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+ 1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
+ 2. Kan du ändra texten till "Hej Richel" (eller ditt eget namn?)
+ 3. Ändra `Serial.println` till `Serial.print`. Vad ser du?
+ 4. Ändra texten `Serial.begin(9600)` till `Serial.begin(4800)`. Vad ser du? Varför?
 
 \pagebreak
 
-### Oplossingen 1
+### 12.4 Lösningar 1
 
- 1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
- 2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
- 3. De woorden komen na elkaar, in plaats van onder elkaar
- 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
-      stuur naar je computer (4800), dan je computer de tekst leest (9600)
+ 1. Den seriella monitorn visar en extra rad varje sekund, med texten "Hej"
+ 2. Ändra raden `Serial.println("Hello");` till `Serial.println("Hello Ledge");`
+ 3. Orden kommer en efter en, istället för en efter en
+ 4. Nu visar den seriella monitorn oläsbar text. Detta beror på att Arduino är långsammare att texta
+      skicka till din dator (4800), sedan läser din dator texten (9600)
 
-## Aansluiten LDR zonder LED
+## 12.5 Ansluter LDR utan LED
 
-![Sunglasses](EmojiSunglasses.png) | LDR betekent 'Light Dependent Resistance'
+![Solglasögon](EmojiSunglasses.png) | LDR betyder "Ljusberoende motstånd"
 :-------------:|:----------------------------------------: 
 
-Eerst sluiten we alleen een LDR aan:
+Först ansluter vi bara en LDR:
 
-![Stroomschema](9_LDR.png)
+![Flödesschema](9_LDR.png)
 
 \pagebreak
 
-### Code: lezen FSR met seriele monitor
+### 12.6 Kod: Läs FSR med seriell monitor
 
-Met deze code meten we de waarde van de LDR:
+Med den här koden mäter vi värdet på LDR:
 
 ```c++
 void setup() 
@@ -72,46 +72,46 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+![Solglasögon](EmojiBowtie.png) | Har du glömt vad det här är? Gå till lektion 4 'FSR'
 :-------------:|:----------------------------------------: 
 
-### Opdrachten 2
+### 12.7 Uppdrag 2
 
- 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- 2. Houd je vinger boven de LDR terwijl je de seriele monitor bekijkt. Wat zie je?
- 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
- 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
- 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
-      Kijk op de seriele monitor. Wat zie je?
+ 1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
+ 2. Håll fingret över LDR medan du tittar på den seriella monitorn. Vad ser du?
+ 3. Ändra `Serial.println` till `Serial.print`. Vad ser du?
+ 4. Ändra texten `Serial.begin(9600)` till `Serial.begin(4800)`. Vad ser du? Varför?
+ 5. Ta bort kabeln till `A0`. Ja, ta bort kabeln mellan `A0` och LDR.
+      Titta på den seriella monitorn. Vad ser du?
 
 \pagebreak
 
-### Oplossingen 2
+### 12.8 Lösningar 2
 
- 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de LDR
- 2. Je zit de getallen veranderen
- 3. Alle getallen komen na elkaar
- 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
-    stuur naar je computer (4800), dan je computer de tekst leest (9600)
- 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
+ 1. Du kommer att se ett tal från noll till 1024, beroende på värdet på LDR
+ 2. Du ändrar siffrorna
+ 3. Alla nummer kommer efter varandra
+ 4. Nu visar den seriella monitorn oläsbar text. Detta beror på att Arduino är långsammare att texta
+    skicka till din dator (4800), sedan läser din dator texten (9600)
+ 5. Nu kommer du att se siffran ändras slumpmässigt. Detta kallas en flytande ingång
 
-![Sunglasses](EmojiBowtie.png) | Heb je een zwevende input? Dan heb je vaak iets fout aangesloten 
+![Solglasögon](EmojiBowtie.png) | Har du en flytande ingång? Då har man ofta kopplat något fel
 :-------------:|:----------------------------------------: 
 
-## Aansluiten LDR met LED
+## 12.9 Ansluter LDR med LED
 
-![Sunglasses](EmojiSunglasses.png) | 'Light Dependent Resistance' betekent 'lichtafhankelijke weerstand'
+![Solglasögon](EmojiSunglasses.png) | "Ljusberoende motstånd" betyder "ljusberoende motstånd"
 :-------------:|:----------------------------------------: 
 
-Nu sluiten we ook een LED aan:
+Nu ansluter vi även en LED:
 
-![Stroomschema](9_LDR_met_LED.png)
+![Flödesschema](9_LDR_with_LED.png)
 
 \pagebreak
 
-### Reageren op LDR
+### 12.10 Svar till LDR
 
-Nu gaan we het LEDje laten reageren op de LDR:
+Nu ska vi få lysdioden att reagera på LDR:
 
 ```c++
 void setup() 
@@ -134,28 +134,28 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+![Solglasögon](EmojiBowtie.png) | Har du glömt vad det här är? Gå till lektion 4 'FSR'
 :-------------:|:----------------------------------------: 
 
-### Opdracht 3
+### 12.11 Uppgift 3
 
- 1. Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
- 2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
-    in rust?
- 3. Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
-    woord `UIT` als de LED uit wordt gezet
+ 1. Vad händer om du ökar `512`? Vad händer om du sänker `512`?
+ 2. Se till att den seriella monitorn också mäter och visar "A0". Vilket nummer mäter FSR?
+    i fred?
+ 3. Se till att den seriella monitorn visar ordet "ON" när lysdioden tänds, och att
+    ordet "OFF" när lysdioden är avstängd
 
 \pagebreak
 
-### Oplossingen 3
+### 12.12 Lösningar 3
 
- 1. Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd aan, hoe hard/zacht je ook drukt.
-    Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd uit, hoe hard/zacht je ook drukt
- 2. Hiervoor gebruik je de code van de vorige opdracht: voeg in de `setup` function toe `Serial.begin(9600);`,
-    in de `loop` functie voeg je `Serial.println(analogRead(A0));` toe. De waarde die je gaat zien is
-    afhankelijk van de weerstand, LDR en hoeveelheid licht
- 3. Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
-    Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
+ 1. Om `512` ändras till en siffra som är för hög, kommer lampan alltid att lysa oavsett hur hårt/mjukt du trycker.
+    Om `512` ändras till ett för högt nummer kommer lampan alltid att vara släckt, oavsett hur hårt/mjukt du trycker
+ 2. För detta använd koden från föregående kommando: lägg till i `setup`-funktionen `Serial.begin(9600);`,
+    i `loop`-funktionen lägg till `Serial.println(analogRead(A0));`. Värdet du kommer att se är
+    beroende på resistans, LDR och ljusmängd
+ 3. Detta kan göras genom att sätta `Serial.println("ON");` i den första delen av `if`-satsen.
+    Sätt `Serial.println("OFF");` i den andra delen av `if`-satsen.
 
 ```c++
 void setup() 
@@ -182,20 +182,19 @@ void loop()
 }
 ```
 
-### Opdracht 4
+### 12.13 Uppgift 4
 
-Sluit een extra LEDje aan. Als de LDR in normaal licht is, moet er geen LEDje branden. 
-Als je de LDR een beetje donkerder maakt met je hand, gaat er een LEDje branden. 
-Als je de LDR helemaal donker maakt twee. 
+Anslut en extra LED. Om LDR är i normalt ljus bör ingen lysdiod lysa.Om du gör LDR lite mörkare med handen kommer en lysdiod att tändas.
+Om du gör LDR helt mörk två.
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik twee `if` statements
+![Bowtie](EmojiBowtie.png) | Tips: använd två "om"-satser
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-### Oplossing 4
+### 12.14 Lösning 4
 
-De getallen in de `if` statement moeten goed ingesteld worden.
+Siffrorna i `if`-satsen måste vara korrekt inställda.
 
 ```c++
 void setup() 
@@ -223,15 +222,16 @@ void loop()
 
 \pagebreak
 
-## Eindopdracht
+## 12.15 Slutuppgift
 
- * Sluit drie LEDjes aan: een rode, gele en groene 
- * Als de LDR in het licht is, moet er geen LEDje branden. 
- * Als je de LDR een beetje verduisterd wordt, gaat het groene LEDje branden
- * Als je de LDR meer verduisterd wordt, gaan de groene en gele LEDjes branden
- * Als je de LDR helemaal verduisterd wordt, gaan alle LEDjes branden
+ * Anslut tre lysdioder: en röd, gul och grön
+ * När LDR är i ljuset ska ingen lysdiod lysa.
+ * Om du mörkar LDR en aning kommer den gröna lysdioden att lysa
+ * Om du gör LDR mörkare mer kommer de gröna och gula lysdioderna att lysa
+ * Om du gör LDR helt mörkare kommer alla lysdioder att lysa
 
-![LDR eindopdracht](9_LDR_eindopdracht.png)
+![LDR final assignment](9_LDR_final assignment.png)
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik drie of vier keer `if`
+![Bowtie](EmojiBowtie.png) | Tips: använd `if` tre eller fyra gånger
 :-------------:|:----------------------------------------: 
+

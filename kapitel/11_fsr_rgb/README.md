@@ -1,28 +1,28 @@
-# 4. FSR
+#4. FSR
 
-## Seriele monitor
+## Seriell monitor
 
-![Sunglasses](EmojiSunglasses.png) | Seriele monitor: de plek waar je de Arduino kunt laten praten via een seriele poort
+![Solglasögon](EmojiSunglasses.png) | Seriell monitor: platsen där du kan få Arduino att prata genom en seriell port
 :-------------:|:----------------------------------------: 
 
-Met de seriele monitor kunnen we de Arduino laten praten.
-Of precies: dat deze tekst naar de seriele monitor stuurt.
-De seriele monitor laat deze tekst op je computer zien.
+Den seriella monitorn låter oss få Arduino att prata.
+Eller mer exakt: att denna text skickas till den seriella monitorn.
+Den seriella monitorn visar denna text på din dator.
 
-### Alleen Arduino aansluiten
+### Anslut endast Arduino
 
-Eerst sluiten we alleen een Arduino aan:
+Först ansluter vi bara en Arduino:
 
 ![](4_FSR_niks.png)
 
-Ik denk dat dit wel moet lukken :-)
+Jag tycker att det här borde fungera :-)
 
-![Sunglasses](EmojiSunglasses.png) | De seriele monitor gaat via het USB snoer tussen Arduino naar computer
+![Solglasögon](EmojiSunglasses.png) | Den seriella bildskärmen går via USB-kabeln mellan Arduino till dator
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-### Code: seriele monitor
+### Kod: Serial Monitor
 
 ```c++
 void setup() 
@@ -37,52 +37,52 @@ void loop()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`Serial.begin(9600);`|'Lieve computer, laat de Arduino praten met 9600 bits per seconde'
-`Serial.print("Hallo");`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen'
-`Serial.println("Hallo");`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen en een nieuwe regel beginnen`'
+`Serial.begin(9600);`|'Bästa dator, låt Arduino prata med 9600 bitar per sekund'
+`Serial.print("Hej");`|'Bästa dator, låt Arduino säga ordet 'Hej''
+`Serial.println("Hello");`|'Bästa dator, låt Arduino säga ordet 'Hej' och starta en ny rad''
 
-### Opdrachten 1
+### Kommandon 1
 
-![De seriele monitor zit hier](4_FSR_SerialMonitor.png)
+![Den seriella monitorn är här](4_FSR_SerialMonitor.png)
 
-![De seriele monitor met getallen](4_FSR_SerialMonitorMetGetallen.png)
+![Den seriella monitorn med siffror](4_FSR_SerialMonitorMetNumbers.png)
 
- 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- 2. Kun je de tekst veranderen naar 'Hallo Richel' (of je eigen naam?)
- 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
- 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
+ 1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
+ 2. Kan du ändra texten till "Hej Richel" (eller ditt eget namn?)
+ 3. Ändra `Serial.println` till `Serial.print`. Vad ser du?
+ 4. Ändra texten `Serial.begin(9600)` till `Serial.begin(4800)`. Vad ser du? Varför?
 
 \pagebreak
 
-### Antwoorden 1
+### Svar 1
 
- 1. De seriele monitor laat elke second een extra regel zien, met de tekst 'Hallo'
- 2. Verander de regel `Serial.println("Hallo");` naar `Serial.println("Hallo Richel");`
- 3. De woorden komen na elkaar, in plaats van onder elkaar
- 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
-      stuur naar je computer (4800), dan je computer de tekst leest (9600)
-
-\pagebreak
-
-## Aansluiten FSR zonder LED
-
-![Sunglasses](EmojiSunglasses.png) | FSR betekent 'Force Sensitive Resistance'
-:-------------:|:----------------------------------------: 
-
-Eerst sluiten we alleen een FSR aan:
-
-![Stroomschema](4_FSR.png)
-
-![Bowtie](EmojiBowtie.png) | Is er geen FSR, gebruik dan een LDR
-:-------------:|:----------------------------------------: 
+ 1. Den seriella monitorn visar en extra rad varje sekund, med texten "Hej"
+ 2. Ändra raden `Serial.println("Hello");` till `Serial.println("Hello Ledge");`
+ 3. Orden kommer en efter en, istället för en efter en
+ 4. Nu visar den seriella monitorn oläsbar text. Detta beror på att Arduino är långsammare att texta
+      skicka till din dator (4800), sedan läser din dator texten (9600)
 
 \pagebreak
 
-## Code: lezen FSR met seriele monitor
+## Ansluter FSR utan LED
 
-Met deze code meten we de waarde van de FSR:
+![Solglasögon](EmojiSunglasses.png) | FSR betyder "Force Sensitive Resistance"
+:-------------:|:----------------------------------------: 
+
+Först ansluter vi bara en FSR:
+
+![Flödesschema](4_FSR.png)
+
+![Bowtie](EmojiBowtie.png) | Om det inte finns någon FSR, använd en LDR
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
+## Kod: läs FSR med seriell monitor
+
+Med denna kod mäter vi värdet på FSR:
 
 ```c++
 void setup() 
@@ -98,52 +98,52 @@ void loop()
 }
 ```
 
-![Computer](EmojiComputer.png)  | ![Smiley](EmojiSmiley.png)
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :------------------------------:|:----------------------------------------: 
-`Serial.println(analogRead(A0))`|'Lieve computer, laat de waarde van pin `A0` op de seriele monitor zien'
+`Serial.println(analogRead(A0))`|'Bästa dator, visa värdet på stiftet `A0` på den seriella monitorn'
 
-## Opdrachten 2
+## Kommandon 2
 
- 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
-    terwijl je de seriele monitor bekijkt. Wat zie je?
- 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
- 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
- 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
-    Kijk op de seriele monitor. Wat zie je?
+ 1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
+ 2. Tryck på FSR med fingrarna (eller, med en LDR: håll fingret över LDR)
+    medan du tittar på den seriella monitorn. Vad ser du?
+ 3. Ändra `Serial.println` till `Serial.print`. Vad ser du?
+ 4. Ändra texten `Serial.begin(9600)` till `Serial.begin(4800)`. Vad ser du? Varför?
+ 5. Ta bort kabeln till `A0`. Ja, ta bort kabeln mellan `A0` och LDR.
+    Titta på den seriella monitorn. Vad ser du?
 
-![Sunglasses](EmojiSunglasses.png) | De weerstand tussen A0 en LDR een 'Pull Down' weerstand genoemd
+![Solglasögon](EmojiSunglasses.png) | Motståndet mellan A0 och LDR kallas ett 'Pull Down'-motstånd
 :-------------:|:----------------------------------------: 
 
 
 \pagebreak
 
-## Oplossingen 2
+## Lösningar 2
 
- 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
- 2. Je zit de getallen veranderen
- 3. Alle getallen komen na elkaar
- 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
-    stuur naar je computer (4800), dan je computer de tekst leest (9600)
- 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
+ 1. Du kommer att se ett tal från noll till 1024, beroende på värdet på FSR
+ 2. Du ändrar siffrorna
+ 3. Alla nummer kommer efter varandra
+ 4. Nu visar den seriella monitorn oläsbar text. Detta beror på att Arduino är långsammare att texta
+    skicka till din dator (4800), sedan läser din dator texten (9600)
+ 5. Nu kommer du att se siffran ändras slumpmässigt. Detta kallas en flytande ingång
 
-![Sunglasses](EmojiSunglasses.png) | Een 'Pull Down' weerstand voorkomt een zwevende input
+![Solglasögon](EmojiSunglasses.png) | Ett 'Pull Down'-motstånd förhindrar en flytande ingång
 :-------------:|:----------------------------------------: 
 
-## Aansluiten FSR met LED, aan/uit
+## Ansluter FSR med LED, på/av
 
-![Sunglasses](EmojiSunglasses.png) | 'Force Sensitive Resistance' betekent 'Kracht afhankelijke weerstand'
+![Solglasögon](EmojiSunglasses.png) | "Kraftkänsligt motstånd" betyder "Kraftberoende motstånd"
 :-------------:|:----------------------------------------: 
 
-Nu sluiten we ook een LED aan:
+Nu ansluter vi även en LED:
 
-![Stroomschema](4_FSR_met_LED.png)
+![Flödesschema](4_FSR_with_LED.png)
 
 \pagebreak
 
-### Reageren op FSR, aan/uit
+### Svara på FSR, på/av
 
-Nu gaan we het LEDje laten reageren op de LED:
+Nu ska vi få lysdioden att reagera på lysdioden:
 
 ```c++
 void setup() 
@@ -166,29 +166,29 @@ void loop()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`if (analogRead(A0) < 512) {}`|'Lieve computer, als op A0 minder dan 2,5 Volt staat, doe dan datgeen tussen accolades'
+`if (analogRead(A0) < 512) {}`|'Bästa dator, om A0 läser mindre än 2,5 volt, sätt det inom parentes.
 
-### Opdrachten 3
+### Uppdrag 3
 
- 1. Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
- 2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
-    in rust?
- 3. Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
-    woord `UIT` als de LED uit wordt gezet
+ 1. Vad händer om du ökar `512`? Vad händer om du sänker `512`?
+ 2. Se till att den seriella monitorn också mäter och visar "A0". Vilket nummer mäter FSR?
+    i fred?
+ 3. Se till att den seriella monitorn visar ordet "ON" när lysdioden tänds, och att
+    ordet "OFF" när lysdioden är avstängd
 
 \pagebreak
 
-### Oplossingen 3
+### Lösningar 3
 
- 1. Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd aan, hoe hard/zacht je ook drukt.
-    Als `512` wordt veranderd naar een te hoog getal, is het lampje altijd uit, hoe hard/zacht je ook drukt
- 2. Hiervoor gebruik je de code van de vorige opdracht: voeg in de `setup` function toe `Serial.begin(9600);`,
-    in de `loop` functie voeg je `Serial.println(analogRead(A0));` toe. De waarde die je gaat zien is
-    afhankelijk van de weerstand, FSR en situatie
- 3. Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
-    Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
+ 1. Om `512` ändras till en siffra som är för hög, kommer lampan alltid att lysa oavsett hur hårt/mjukt du trycker.
+    Om `512` ändras till ett för högt nummer kommer lampan alltid att vara släckt, oavsett hur hårt/mjukt du trycker
+ 2. För detta använd koden från föregående kommando: lägg till i `setup`-funktionen `Serial.begin(9600);`,
+    i `loop`-funktionen lägg till `Serial.println(analogRead(A0));`. Värdet du kommer att se är
+    beroende på motstånd, FSR och situation
+ 3. Detta kan göras genom att sätta `Serial.println("ON");` i den första delen av `if`-satsen.
+    Sätt `Serial.println("OFF");` i den andra delen av `if`-satsen.
 
 ```c++
 void setup() 
@@ -217,9 +217,9 @@ void loop()
 
 \pagebreak
 
-### Reageren op FSR, dimmen
+### Svara på FSR, Dim
 
-Nu gaan we het LEDje laten reageren op de LED. Dit keer *dimt* het LEDje.
+Nu ska vi få lysdioden att reagera på lysdioden. Denna gång *dimper* lysdioden.
 
 ```c++
 void setup() 
@@ -242,38 +242,38 @@ void loop()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`analogWrite(  0, 9)`|'Lieve computer, zet pin 9 uit'
-`analogWrite(128, 9)`|'Lieve computer, zet pin 9 halfvol aan'
-`analogWrite(255, 9)`|'Lieve computer, zet pin 9 vol aan'
-`map(analogRead(A0),0,1023,0,255)` |'Lieve computer, lees de spanning van `A0`. Dit is een waarde van 0 tot en met 1023. Bouw de gelezen waarde om tussen 0 en 255.'.
+`analogWrite( 0, 9)`|'Bästa dator, stäng av stift 9'
+`analogWrite(128, 9)`|'Bästa dator, vrid stift 9 till halvfullt'
+`analogWrite(255, 9)`|'Bästa dator, slå på stift 9 fullt ut'
+`map(analogRead(A0),0,1023,0,255)` |'Bästa dator, läs spänningen för `A0`. Detta är ett värde från 0 till 1023. Konvertera det avlästa värdet mellan 0 och 255.'.
 
-### Opdrachten 4
+### Uppdrag 4
 
- 1. Het LEDje zit op een andere pin. Kijk in de code en sluit de LED aan op de juiste pin 
- 2. Welke pinnen kunnen we gebruiken om een LEDje te dimmen?
+ 1. Lysdioden är på ett annat stift. Titta i koden och anslut lysdioden till rätt stift
+ 2. Vilka stift kan vi använda för att dämpa en lysdiod?
 
 \pagebreak
 
-### Oplossingen 4
+### Lösningar 4
 
- 1. Het LEDje moet nu op pin 9 aangesloten worden
- 2. Alle pinnen met een golfje (`~`) voor het getal. Dit zijn 3, 5, 6, 9, 10, 11.
+ 1. Lysdioden måste nu kopplas till stift 9
+ 2. Alla stift med en våg (`~`) före numret. Dessa är 3, 5, 6, 9, 10, 11.
 
-### Opdracht 5
+### Uppgift 5
 
-Sluit twee LEDjes aan op pinnen 12 en 13. Als de FSR in rust is, moet er geen LEDje branden. Als je de FSR zacht indrukt,
-gaat er een LEDje branden. Als je de FSR hard indrukt twee. 
+Anslut två lysdioder till stift 12 och 13. När FSR är i vila ska ingen lysdiod lysa. Om du trycker försiktigt på FSR,
+en LED tänds. Om du trycker hårt på FSR, två.
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik twee `if` statements
+![Bowtie](EmojiBowtie.png) | Tips: använd två "om"-satser
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-### Oplossing 5
+### Lösning 5
 
-De getallen in de `if` statement moeten goed ingesteld worden.
+Siffrorna i "if"-satsen måste vara korrekt inställda.
 
 ```c++
 void setup() 
@@ -299,30 +299,30 @@ void loop()
 }
 ```
 
-### Opdracht 6
+### Uppgift 6
 
-Je kunt een LEDje ook laten reageren op een FSR door deze te faden/dimmer
+Du kan också få en LED att reagera på en FSR genom att bleka/dimma den
 
- 1. Met welk commando deed je dat ook alweer?
- 2. Kan dat met elke pin? Zo nee, met welke wel/niet?
- 3. Wat is de hoogste waarde waarmee je een LEDje kunt laten branden? 
- 4. Wat is de hoogste waarde die de FSR kan meten?
- 5. Stel je wil een LED laten branden afhankelijk van een FSR waarde. Hoe zou je dit kunnen doen?
- 6. Hoe laat je code een deling doen?
- 7. Laat de LED branden afhankelijk van de FSR waarde
+ 1. Vilket kommando gjorde du det med igen?
+ 2. Är det möjligt med vilken stift som helst? Om inte, med vilket ja/nej?
+ 3. Vilket är det högsta värdet som du kan tända en LED med?
+ 4. Vilket är det högsta värdet FSR kan mäta?
+ 5. Antag att du vill tända en lysdiod beroende på ett FSR-värde. Hur kunde du göra detta?
+ 6. Hur får man kod att göra en division?
+ 7. Slå på lysdioden beroende på FSR-värdet
 
 \pagebreak
 
-### Oplossingen 6
+### Lösningar 6
 
- 1. Een LEDje kun je laten faden met `analogWrite`, bijvoorbeeld `analogWrite(11, 255);`
- 2. Je kunt een LEDje alleen laten dimmen met PWM pinnen. Dit zijn de pinnen met een golfje
-   (`~`) naast hun getal. Op de Arduino Uno zijn dit de pinnen 3, 5, 6, 9, 10 en 11
- 3. Met `analogWrite` kun je maximaal 255 geven, bijvoorbeeld `analogWrite(11, 255);`
- 4. Met `analogRead` kun je maximaal 1023 meten
- 5. Je leest een waarde, deelt deze door vier (1024 gedeeld door 256 is vier) en laat de LED zo hard branden
- 6. Met de deelstreep, `/`. 
- 7. Zie hieronder. Vergeet niet een LEDje op pin 11 te zetten
+ 1. Du kan tona en lysdiod med `analogWrite`, till exempel `analogWrite(11, 255);`
+ 2. Du kan bara dimma en lysdiod med PWM-stift. Det här är stiften med en våg
+   (`~`) bredvid deras nummer. På Arduino Uno är dessa stift 3, 5, 6, 9, 10 och 11
+ 3. Med `analogWrite` kan du ge upp till 255, till exempel `analogWrite(11, 255);`
+ 4. Med `analogRead` kan du mäta upp till 1023
+ 5. Du läser ett värde, dividerar det med fyra (1024 dividerat med 256 är fyra) och låter lysdioden lysa så
+ 6. Med divisionsfältet, `/`.
+ 7. Se nedan. Glöm inte att sätta en lysdiod på stift 11
 
 ```c++
 void setup() 
@@ -339,21 +339,21 @@ void loop()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`analogWrite(11, analogRead(A0) / 4)`|'Lieve computer, dim pin 11 op de waarde van pin A0 (dit moet je delen door vier)'
+`analogWrite(11, analogRead(A0) / 4)`|'Bästa dator, dämpa stift 11 till värdet av stift A0 (diva detta med fyra)'
 
 \pagebreak
 
-## Eindopdracht
+## Einorder
 
- * Sluit vier LEDjes aan: een witte, een rode, een gele en een groene 
- * Als de FSR in rust is, moet er geen LEDje branden. 
- * Als je de FSR zacht indrukt gaat het groene LEDje branden
- * Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
- * Als je de FSR hard indrukt gaan de groene, gele en rode LEDjes branden
- * Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
+  * Anslut fyra lysdioder: en vit, en röd, en gul och en grön
+  * När FSR är i vila ska ingen lysdiod lysa.
+  * När du trycker lätt på FSR tänds den gröna lysdioden
+  * Om du trycker hårdare på FSR kommer de gröna och gula lysdioderna att tändas
+  * När du trycker hårt på FSR tänds de gröna, gula och röda lysdioderna
+  * Den vita lysdioden lyser starkare och mjukare beroende på FSR
 
-Als je geen wit LEDje hebt, gebruik dan een andere kleur.
+Om du inte har en vit LED, använd en annan färg.
 
-![FSR eindopdracht](4_FSR_eindopdracht.png)
+![FSR final assignment](4_FSR_final assignment.png)
