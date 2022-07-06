@@ -27,9 +27,9 @@ Höger ben     | GND
  * Skapa en variabel `vantetid` med ett värde på 100
  * Skapa en funktion `vanta_lite` som programmerar 'väntetid' i millisekunder
    sen väntan
- * Skapa en funktion `show_potentiometer_see`, som tar ordet `potentiometer` till
+ * Skapa en funktion `visar_potmeter`, som tar ordet `potentiometer` till
    seriella monitorkontroller
- * I `loop`, använd `show potentiometer` och `vanta_lite`
+ * I `loop`, använd `visar_potmeter` och `vanta_lite`
 
 \pagebreak
 
@@ -64,8 +64,8 @@ void loop()
 
 ## 7.5 Potentiometer: läs, uppgift
 
- * Skapa en variabel 'potmeter_stift' med värdet 'A0'.
- * I "setup", ställ in "pinMode" för "potmeter_stift" till "INPUT".
+ * Skapa en variabel `potmeter_stift` med värdet `A0`.
+ * I `setup`, ställ in `pinMode` för `potmeter_stift` till `INPUT`.
  * Lägg till denna funktion:
 
 ```
@@ -75,7 +75,7 @@ int lasa_potmeter()
 }
 ```
 
- * I `show_potentiometer_see` ersätt texten `"potentiometer"` med `read_potentiometer()`
+ * I `visar_potmeter` ersätt texten `"potentiometer"` med `lasa_potmeter()`
  * Ladda upp programmet och vrid potentiometern. Vilka siffror kommer ut?
 
 \pagebreak
@@ -112,7 +112,7 @@ Siffrorna som kommer från `lasa_potmeter` är mellan noll och 1024.
  * Anslut en LED till stift 11
  * Skapa en variabel 'led_stift' med rätt värde
  * I "setup", ställ in "pinMode" för "led_stift" till "OUTPUT".
- * I `show_potentiometer_see` lägg till denna rad:
+ * I `visar_potmeter` lägg till denna rad:
 
 ```c++
 analogWrite(led_stift, lasa_potmeter());
