@@ -8,16 +8,16 @@ I den här lektionen låter vi Arduino ställa frågor till sig själv.
 
 ## 3.1. Knapp if ... else: Anslut
 
-![Flödesschema](3_knop_if_else.png)
+![Strömkretsen](3_knop_if_else.png)
 
-![](EmojiSunglasses.png) | Motståndet mot jord kallas ett 'Pull Down'-motstånd
+![](EmojiSunglasses.png) | Motståndet till jord kallas ett 'Pull Down'-motstånd
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
 ## 3.2. Knapp if ... else: Kod
 
-Här är koden för att få ljuset att tändas,
+Här är koden för att få LEDen att tändas,
 när knappen trycks in:
 
 ```c++
@@ -42,7 +42,7 @@ void loop()
 
 ![Dator](EmojiComputer.png)|`digitalWrite(led_stift, digitalRead(knapp_stift))`
 :-----------:|:----------------------------------------: 
-![Smiley](EmojiSmiley.png) |'Sätt spänningen till `led_stift` om `knapp_stift` har spänning'
+![Smiley](EmojiSmiley.png) |'Ger spänning till `led_stift` om `knapp_stift` har spänning'
 
 \pagebreak
 
@@ -55,16 +55,17 @@ När du trycker på knappen, släcks eller tänds LEDen?
 
 ## 3.4. Knapp if ... else: Svara
 
-Lysdioden tänds då.
+LEDen tänds när du trycker på knappen.
 
-![](EmojiSunglasses.png) | Lysdioden tänds då
+![](EmojiSunglasses.png) | LEDen tänds när du trycker på knappen
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
 ## 3.5. Knapp if ... else: `if`
 
-Med `if` kan du få Arduino att göra något, om något så här:
+Med en `if`-sats kan du få Arduino att göra något, 
+t.ex. så här:
 
 ```c++
 if (digitalRead(knapp_stift) == HIGH)
@@ -78,15 +79,15 @@ else
 ```
 
 Denna kod kontrollerar om det finns spänning på `knapp_stift`.
-Om ja, lägg sedan Arduino spänning på `led_stift_red`.
-Annars (`else`) tar Arduino spänningen från `led_stift_gron`.
+Om ja, ge Arduino spänning på `led_stift`.
+Annars (`else`) stänger Arduino av spänningen på `led_stift`.
 
 ![Dator](EmojiComputer.png) |`if (digitalRead(knapp_stift) == HIGH) {}`
 :------------:|:------------------------------------------: 
- ![Smiley](EmojiSmiley.png) |'Kära dator, om det finns spänning på `knapp_stift`, gör detta inom parentes'
+ ![Smiley](EmojiSmiley.png) |'Kära dator, om det finns spänning på `knapp_stift`, gör det inom parentes'
 
 
-![](EmojiSunglasses.png) | `=` kan uttalas som "sätta på". "==" kan uttalas som "lika med"
+![](EmojiSunglasses.png) | `=` kan tolkas som "blir". "==" kan tolkas som "är det lika med?"
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -117,13 +118,13 @@ void loop()
 }
 ```
 
-Avsluta koden så att:
+Ändra koden så att:
 
  * När du trycker på knappen tänds lampan
- * om du inte trycker på knappen slocknar lampan
+ * om du inte trycker på knappen förblir lampan släckt
  * använd variabler för att namnge stiften
 
-![](EmojiBowtie.png) | Det finns inget semikolon efter de runda parenteserna för `if`.
+![](EmojiBowtie.png) | Det används inget semikolon efter de runda parenteserna för `if`.
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -158,14 +159,14 @@ void loop()
 
 ## 3.8. Knapp if ... else: Uppgift 2
 
-Anslut en andra grön LED. Gör koden så att:
+Anslut en andra grön LED. Ändra koden så att:
 
- * när du trycker på knappen tänds den första lampan och den andra LEDen släcks
- * om du inte trycker på knappen slocknar den första lampan och den andra LEDen tänds
+ * när du trycker på knappen tänds den första LEDen och den andra LEDen släcks
+ * om du inte trycker på knappen slocknar den första LEDen och den andra LEDen tänds
  * Namnge variabeln för stiftet på den röda LEDen `led_stift_rod`, för
    grön LED `led_stift_gron`
 
-![](EmojiSunglasses.png)| Du kan skriva flera rader inom de krulliga parenteserna av ett `if`. Precis som mellan hängslen i `setup` och `loop`!
+![](EmojiSunglasses.png)| Du kan skriva flera rader inom måsvingarna i en `if` sats. Precis som mellan måsvingarna i `setup` och `loop`!
 :-------------:|:----------------------------------------: 
 
 ![](EmojiBowtie.png) | Glöm inte `else` ('annars')!
@@ -221,14 +222,14 @@ void loop()
 
 ![Avsluta uppdrag](3_knop_if_else_slutuppgift.png)
 
-Anslut en andra knapp. Göra koden så att
+Anslut en andra knapp. Ändra koden så att
 
-  * om du trycker på den första knappen tänds den första lampan
-  * om du inte trycker på den första knappen slocknar den första lampan
-  * om du trycker på den andra knappen slocknar den andra lampan
-  * om du inte trycker på den andra knappen tänds den andra lampan
+  * om du trycker på den första knappen tänds den första LEDen
+  * om du släpper första knappen ska första LEDen slockna
+  * om du trycker på den andra knappen slocknar den andra LEDen
+  * om du inte trycker på den andra knappen tänds den andra LEDen
 
-![](EmojiSunglasses.png)| Du kan sätta `if` mer än en gång
+![](EmojiSunglasses.png)| Du kan änvanda mer än en `if` sats
 :-------------:|:----------------------------------------: 
 
 ![](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm

@@ -28,17 +28,18 @@ void loop()
 }
 ```
 
-`led_stift` kallas en variabel: en bit datorminne med ett namn.
+`led_stift` kallas en variabel: en plats i datorns minne med ett namn.
 
 ![](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`const int led_stift = 13;`|'Bästa dator, kom ihåg ett heltal som heter `led_stift` med initialvärdet 13.'
+`const int led_stift = 13;`|'Kära dator, kom ihåg ett heltal som heter `led_stift` med startvärdet 13.'
 
 \pagebreak
 
 ## 2.2: Blink Blink Blink: Uppgift 1
 
-Anslut LEDen till stift 12 och ändra koden så att den blinkar.
+Anslut Blinkkretsen (ser uppåt) till stift 12 
+och ändra koden så att den blinkar.
 
 \pagebreak
 
@@ -66,7 +67,7 @@ void loop()
 
 Skapa en ny variabel för väntetiden, kallad `vantetid`, själv.
 `vantetid` är ett heltal med initialt värde `1000`.
-Använd `vantetid` i raderna med `delay`.
+Använd `vantetid` som värde i `delay`.
 
 ![](EmojiSunglasses.png) | Smart! Om du läser `vantetid` vet du vad det är till för. Vid `1000` vet du inte det
 :-------------:|:----------------------------------------: 
@@ -76,7 +77,7 @@ Använd `vantetid` i raderna med `delay`.
 ## 2.5: Blink Blink Blink: Lösning 2
 
 ```c++
-// ... [gör led_stift att vara 12]
+// ... [ange led_stift att vara 12]
 const int vantetid = 1000;
 
 void setup() 
@@ -93,7 +94,7 @@ void loop()
 }
 ```
 
-![](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom parentes'
+![](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom hårdparentes'
 :-------------:|:----------------------------------------: 
 
 ## 2.6: Blink Blink Blink: Ansluter Blink Blink Blink
@@ -103,13 +104,14 @@ Nu är det dags att ansluta `Blink Blink Blink`:
 ![BlinkBlinkBlink](02_blink_blink_blink.png)
 
  * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Anslut delarna enligt bilden
+ * Bygg kretsen enligt bilden
 
 \pagebreak
 
 ## 2.7: Blink Blink Blink: Uppgift 3
 
-Koppla in `Blink Blink Blink`. Byt namn på variabeln `led_stift` till `led_stift_1`.
+Koppla in `Blink Blink Blink`kretsen. 
+Byt namn på variabeln `led_stift` till `led_stift_1`.
 och se till att det har rätt startvärde.
 
 \pagebreak
@@ -118,7 +120,7 @@ och se till att det har rätt startvärde.
 
 ```c++
 const int led_stift_1 = 11;
-// ... [min väntetid]
+// ... [väntetid]
 
 void setup() 
 {
@@ -128,13 +130,13 @@ void setup()
 void loop() 
 {
   digitalWrite(led_stift_1, HIGH);
-  // [vänta vantetid millisecond]
+  // [vänta vantetid millisekunder]
   digitalWrite(led_stift_1, LOW);
-  // [vänta vantetid millisecond]
+  // [vänta vantetid millisekunder]
 }
 ```
 
-![](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå.
+![](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå och ändra.
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -142,15 +144,16 @@ void loop()
 ## 2.9: Blink Blink Blink: Uppgift 4
 
 Skapa en ny variabel `led_stift_2`.
-Låt först den första LEDen tändas och släckas, låt sedan den andra LEDen tändas och släckas.
+Få först den första LEDen att tändas och släckas, 
+få sedan den andra LEDen tändas och släckas efter den första.
 
-![](EmojiSunglasses.png) | Stavningen 'led_stift_2' kallas 'snake case': 'snake' är engelska för orm
+![](EmojiSunglasses.png) | Sättet att skriva, med "_" i stället för mellanslag t.ex. 'led_stift_2' kallas 'snake case': 'snake' är engelska för orm
 :-------------:|:----------------------------------------: 
 
 ![](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för kamel
 :-------------:|:----------------------------------------: 
 
-![](EmojiComputer.png) | Jag tänker båda är jämt bra
+![](EmojiComputer.png) | Jag tänker båda är lika bra
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -171,13 +174,13 @@ void setup()
 void loop() 
 {
   digitalWrite(led_stift_1, HIGH);
-  // ... [vänta vantetid millisecond]
+  // ... [vänta vantetid millisekunder]
   digitalWrite(led_stift_1, LOW);
-  // ... [vänta vantetid millisecond]
+  // ... [vänta vantetid millisekunder]
   digitalWrite(led_stift_2, HIGH);
-  // ... [vänta vantetid millisecond]
+  // ... [vänta vantetid millisekunder]
   digitalWrite(led_stift_2, LOW);
-  // ... [vänta vantetid millisecond]
+  // ... [vänta vantetid millisekunder]
 }
 ```
 
@@ -185,7 +188,8 @@ void loop()
 
 ## 2.11: Blink Blink Blink: Uppgift 5
 
-Skapa en tredje variabel `led_stift_3`. Låt nu alla lampor blinka samtidigt: alla på, sedan alla av.
+Skapa en tredje variabel `led_stift_3`. 
+Få nu alla lampor blinka samtidigt: alla på, sedan alla av.
 
 ![](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
 :-------------:|:----------------------------------------: 
@@ -198,12 +202,12 @@ Skapa en tredje variabel `led_stift_3`. Låt nu alla lampor blinka samtidigt: al
 ## 2.12: Blink Blink Blink: Lösning 5
 
 ```c++
-// ... [skapa vantetid, led_stift_1 en led_stift_2]
+// ... [skapa vantetid, led_stift_1 och led_stift_2]
 const int led_stift_3 = 9;
 
 void setup() 
 {
-  // ... [led_stift_1 en led_stift_2 ger spänning]
+  // ... [led_stift_1 och led_stift_2 avger spänning]
   pinMode(led_stift_3, OUTPUT);
 }
 
@@ -211,10 +215,10 @@ void loop()
 {
   // ... [sätter spänning på LED 1 och 2]
   digitalWrite(led_stift_3, HIGH);
-  // ... [vänta vantetid millisecond]
-  // ... [släck spanning av från LED 1 en 2]
+  // ... [vänta vantetid millisekund]
+  // ... [stäng av spänning på LED 1 en 2]
   digitalWrite(led_stift_3, LOW);
-  // ... [vänta vantetid millisecond]
+  // ... [vänta vantetid millisekund]
 }
 ```
 
@@ -222,8 +226,8 @@ void loop()
 
 ## 2.13: Blink Blink Blink: Slutuppgift
 
-Låt nu lamporna gå i ett 'Knight Rider-mönster': 1-2-3-2. 
-Det måste alltid finnas exakt ett ljus som brinner.
+Få nu LEDs lysa i ett 'Knight Rider-mönster': 1-2-3-2. 
+Det måste alltid finnas exakt en LED som lyser.
 
 ![Solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
 :-------------:|:----------------------------------------: 

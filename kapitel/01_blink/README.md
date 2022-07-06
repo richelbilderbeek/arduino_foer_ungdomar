@@ -11,13 +11,13 @@ Anslut en Arduino så här:
 
 ![Blink utan lysdiod](1_blink_zonder_led.png)
 
-Anslut en USB-kabel till din Arduino och till din bärbara dator.
+Anslut en USB-kabel till din Arduino och till din dator.
 
 ## 1.2 Blink: Uppgift 1
 
 Koppla in Arduino.
 
-![](EmojiSunglasses.png) | Arduino har redan ett ljus som du kan programmera.
+![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -27,7 +27,7 @@ Koppla in Arduino.
 ![](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | 'IDE' uttalas som 'ie-dee-ee'
+![](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
 :-------------:|:----------------------------------------: 
 
 Starta Arduino IDE genom att:
@@ -42,11 +42,11 @@ Starta Arduino IDE genom att:
 
 \pagebreak
 
-Du ser nu Arduino IDE:
+Nu ser du Arduino IDEn:
 
 ![Arduino IDE](1_blink_ide.png)
 
-![Solglasögon](EmojiSunglasses.png) | IDE betyder 'Integrated Development Environment', programmet du använder för att programmera.
+![Solglasögon](EmojiSunglasses.png) | IDE betyder 'Integrated Development Environment', mjukvaran du använder för att programmera.
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -72,7 +72,7 @@ void loop()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`void setup() { }`|'Kära dator, gör vad som än står inom måsvingarna'
+`void setup() { }`|'Kära dator, gör vad som än står inom måsvingarna i början av programmet'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
@@ -86,9 +86,9 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 ## 1.5 Blink: Uppgift 2
 
-Få lysdioden att blinka 10 gånger så snabbt.
+Få LEDen att blinka snabbt 10 gånger.
 
-Tips: LED är nu 1000 millisekunder på och 1000 millisekunder av.
+Tips: LED är nu 1000 millisekunder (1 sekund) på och 1000 millisekunder (1 sekund) av.
 
 \pagebreak
 
@@ -127,9 +127,9 @@ void loop()
 
 ## 1.7 Blink: Uppgift 3
 
-Låt lysdioden blinka så snabbt du kan. Vad ser du?
+Få LEDen blinka så snabbt du kan. Vad ser du?
 
-![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade!
+![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -174,16 +174,16 @@ Du kommer inte längre att se lampan blinka.
 
 ## 1.9 Blink: Anslut LED
 
-Nu är det dags att ansluta Blink:
+Nu är det dags att bygga kretsen till Blink:
 
 ![Blink](1_blink.png)
 
  * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Anslut Blink enligt bilden
- * Sätt tillbaka strömmen till Arduino
- * Om allt är bra kommer nu den röda lysdioden att blinka tillsammans med lysdioden på Arduino.
+ * Montera Blinkkretsen enligt bild
+ * Montera tillbaka USB kabel till datorn
+ * Om allt är bra kommer nu den röda LED att blinka tillsammans med LEDen på Arduinon.
 
-![](EmojiBowtie.png) | Om lysdioden inte lyser, vänd på den
+![](EmojiBowtie.png) | Om LEDen inte lyser, vänd på den
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -192,10 +192,10 @@ Nu är det dags att ansluta Blink:
 
 Anslut nu din LED till stift 12.
 
-![](EmojiSunglasses.png) | Det är coolt att ta tag i stift 12 efter stift 13
+![](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | Detta beror också på att stift 0 och 1 är speciella
+![](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -208,7 +208,7 @@ Anslut nu din LED till stift 12.
 
 ## 1.12 Blink: Uppgift 5
 
-Se nu till att lysdioden på stift 12 börjar blinka den andra.
+Se nu till att LEDen på stift 12 börjar blinka dubbel så fort.
 
 ![](EmojiSunglasses.png) | LED är en förkortning av 'Light Emitting Diode'
 :-------------:|:----------------------------------------: 
@@ -216,7 +216,7 @@ Se nu till att lysdioden på stift 12 börjar blinka den andra.
 ![](EmojiBowtie.png) | Bra sagt! Bättre sent än aldrig!
 :-------------:|:----------------------------------------: 
 
-![](EmojiBowtie.png) | LED menar på svensk: 'Ljus givande diod'
+![](EmojiBowtie.png) | LED betyder på svenska: 'Ljus givande diod'
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -240,8 +240,8 @@ void loop()
 
 ## 1.14 Blink: Slutuppgift
 
-Anslut lysdioden till stift 11 och få den att blinka 2 gånger per sekund.
+Anslut LEDen till stift 11 och få den att blinka 2 gånger per sekund.
 
-![Solglasögon](EmojiSunglasses.png) | Framgång? Visa detta för en vuxen för initialer!
+![Solglasögon](EmojiSunglasses.png) | Lyckades det? Visa detta för en vuxen för signatur!
 :-------------:|:----------------------------------------: 
 
