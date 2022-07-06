@@ -1,12 +1,12 @@
-# Servo motor met potmeter
+# Servomotor med potentiometer
 
-Sluit een potmeter aan. De middelste pin moet naar `A0`. Zie figuur 'Servo motor en potmeter'
+Anslut en potentiometer. Mittstiftet ska gå till 'A0'. Se figur 'Servomotor och potentiometer'
 
-![Servo motor en potmeter](3_servo_motor_met_potmeter.png)
+![Servomotor och potentiometer](3_servo_motor_with_potmeter.png)
 
 \pagebreak
 
-Gebruik deze code:
+Använd denna kod:
 
 ```c++
 #include <Servo.h>
@@ -29,14 +29,12 @@ void loop()
 }
 ```
 
-![Computer](EmojiComputer.png)    | ![Smiley](EmojiSmiley.png)
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :--------------------------------:|:----------------------------------------: 
-`map(analogRead(A0),0,1024,45,135)` |'Lieve computer, lees de spanning van `A0`. Dit is een waarde van 0 tot 1024. Bouw de gelezen waarde om tussen 45 en 135.'.
+`map(analogRead(A0),0,1024,45,135)` |'Bästa dator, läs spänningen för `A0`. Detta är ett värde från 0 till 1024. Konvertera det avlästa värdet mellan 45 och 135.'.
 
 
-## Eindopdracht
+## Slutuppgift
 
-Stuur een servo motor perfect aan met een potmeter. 
-Gebruik hiervoor de minimum en maximum waarde die je hebt gevonden bij jouw servo motor.
-
-
+Styr en servomotor perfekt med en potentiometer.
+Använd det lägsta och högsta värdet som du har hittat med din servomotor.

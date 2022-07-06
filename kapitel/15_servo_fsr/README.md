@@ -1,73 +1,73 @@
-# 4. FSR met servo
+# 4. FSR med servo
 
-In deze les sturen we een servo aan met een FSR.
+I den här lektionen kommer vi att styra en servo med en FSR.
 
-## Aansluiten FSR zonder servo
+## Ansluter FSR utan servo
 
-Eerst sluiten we alleen een FSR aan:
+Först ansluter vi bara en FSR:
 
-![FSR](4_FSR_met_servo_zonder_servo.png)
+![FSR](4_FSR_with_servo_without_servo.png)
 
-![Bowtie](EmojiBowtie.png) | Is er geen FSR? gebruik dan een LDR
+![Bowtie](EmojiBowtie.png) | Finns det ingen FSR? använd sedan en LDR
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Code: lezen FSR met seriele monitor
+## Kod: läs FSR med seriell monitor
 
-Met deze code meten we de waarde van de FSR:
+Med denna kod mäter vi värdet på FSR:
 
 ```c++
-void setup() 
-{
+void setup()
+†
   pinMode(A0, INPUT);
   Serial.begin(9600);
-}
+†
 
 void loop()
-{
+†
   Serial.println(analogRead(A0));
-  delay(100);
-}
-```
+  fördröjning(100);
+†
+†
 
-![Sunglasses](EmojiSunglasses.png) | Vergeten wat dit doet? Zie les `9. LDR`
+![Solglasögon](EmojiSunglasses.png) | Har du glömt vad det här gör? Se lektion `9. LDR`
 :-------------:|:----------------------------------------: 
 
-## Opdrachten 1
+## Kommandon 1
 
- 1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
-      terwijl je de seriele monitor bekijkt. Wat zie je?
- 3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
- 4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
- 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
-      Kijk op de seriele monitor. Wat zie je?
-
-\pagebreak
-
-## Oplossingen 1
-
- 1. Je ziet een getal van nul tot 1024, afhankelijk van de waarde van de FSR
- 2. Je zit de getallen veranderen
- 3. Alle getallen komen na elkaar
- 4. Nu laat de seriele monitor onleesbare tekst zien. Dit komt omdat de Arduino langzamer tekst
-      stuur naar je computer (4800), dan je computer de tekst leest (9600)
- 5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
-
-## Aansluiten FSR met servo
-
-Nu sluiten we ook een servo aan. Als je wilt spieken: zie figuur 'Aansluiten FSR met servo'.
-
-![Aansluiten FSR met servo](4_FSR_met_servo.png)
+ 1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
+ 2. Tryck på FSR med fingrarna (eller, med en LDR: håll fingret över LDR)
+      medan du tittar på den seriella monitorn. Vad ser du?
+ 3. Ändra `Serial.println` till `Serial.print`. Vad ser du?
+ 4. Ändra texten `Serial.begin(9600)` till `Serial.begin(4800)`. Vad ser du? Varför?
+ 5. Ta bort kabeln till `A0`. Ja, ta bort kabeln mellan `A0` och LDR.
+      Titta på den seriella monitorn. Vad ser du?
 
 \pagebreak
 
-### Reageren op FSR
+## Lösningar 1
 
-Nu gaan we de servo laten reageren op de FSR:
+ 1. Du kommer att se ett tal från noll till 1024, beroende på värdet på FSR
+ 2. Du ändrar siffrorna
+ 3. Alla nummer kommer efter varandra
+ 4. Nu visar den seriella monitorn oläsbar text. Detta beror på att Arduino är långsammare att texta
+      skicka till din dator (4800), sedan läser din dator texten (9600)
+ 5. Nu kommer du att se siffran ändras slumpmässigt. Detta kallas en flytande ingång
 
-Gebruik deze code:
+## Ansluter FSR med servo
+
+Nu kopplar vi även in en servo. Om du vill fuska: se figuren 'Ansluter FSR med servo'.
+
+![Anslut FSR med servo](4_FSR_with_servo.png)
+
+\pagebreak
+
+### Svar till FSR
+
+Nu ska vi få servo att svara på FSR:
+
+Använd denna kod:
 
 ```c++
 #include <Servo.h>
@@ -90,11 +90,10 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | Vergeten wat dit doet? Zie les `4. Meer Servo Motoren`
+![Solglasögon](EmojiSunglasses.png) | Har du glömt vad det här gör? Se lektion `4. Fler servomotorer`
 :-------------:|:----------------------------------------: 
 
-### Eindopdracht
+### Slutuppgift
 
-Zorg dat de servo perfect reageert op de FSR. 
-Je zult zelf de minimum en maximumwaarde uit moeten vinden.
-
+Se till att servo svarar perfekt på FSR.
+Du måste själv räkna ut lägsta och högsta värde.
