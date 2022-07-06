@@ -132,7 +132,7 @@ void loop()
 }
 ```
 
-## 5.7 `ljuser_bara_led_3`, uppgift
+## 5.9 `ljuser_bara_led_3`, uppgift
 
  * Bygg upp en tredje LED-lampa på stift 4
  * Gör en ny variabel `stift_led_3` för denna LED
@@ -146,7 +146,7 @@ void loop()
 
 \pagebreak
 
-## 5.8 `ljuser_bara_led_3`, lösning
+## 5.10 `ljuser_bara_led_3`, lösning
 
 ```c++
 // ...
@@ -188,7 +188,7 @@ void loop()
 \pagebreak
 
 
-## 5.9 slutuppgift
+## 5.11 slutuppgift
 
  * Slut en fyra LEDje till, på stift 5
  * Gör en ny variabel `stift_led_4` för denna LED
