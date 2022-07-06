@@ -5,7 +5,7 @@ en joystick och en funktion som returnerar ett värde.
 
 ## 7.1 Potentiometer: anslut, uppgift
 
- * Anslut en potentiometer. Gör följande anslutningar:
+Anslut en potentiometer. Gör följande anslutningar:
 
 Potentiometer | Arduino
 --------------|--------
@@ -25,11 +25,11 @@ Höger ben     | GND
 
  * I `setup` startar den seriella monitorn vid 9600 baud
  * Skapa en variabel `vantetid` med ett värde på 100
- * Skapa en funktion 'effe_wait' som programmerar 'väntetid' i millisekunder
+ * Skapa en funktion `vanta_lite` som programmerar 'väntetid' i millisekunder
    sen väntan
  * Skapa en funktion `show_potentiometer_see`, som tar ordet `potentiometer` till
    seriella monitorkontroller
- * I `loop`, använd `show potentiometer` och `effe_wait`
+ * I `loop`, använd `show potentiometer` och `vanta_lite`
 
 \pagebreak
 
