@@ -69,11 +69,11 @@ Med `if` kan du få Arduino att göra något, om något så här:
 ```c++
 if (digitalRead(knapp_stift) == HIGH)
 {
-  digitalWrite(led_stift_rod, HIGH);
+  digitalWrite(led_stift, HIGH);
 }
 else
 {
-  digitalWrite(led_stift_gron, LOW);
+  digitalWrite(led_stift, LOW);
 }
 ```
 
