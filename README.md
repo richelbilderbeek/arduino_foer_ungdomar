@@ -2,7 +2,7 @@
 
 Kurs 'Arduino för ungdomar'.
 
-  * [bocker](bocker/README.md): ladda ner böckerna här i A4- eller A5-format
+  * [böcker](boecker/README.md): ladda ner böckerna här i A4- eller A5-format
   * [kapitel](kapitel/README.md): det här är de enskilda kapitlen
   * [scripts](scripts/README.md): det här är manus för att förvandla kapitlen till böcker
   * [vanliga frågor](faq.md): här är de vanligaste frågorna
