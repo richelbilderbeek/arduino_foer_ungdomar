@@ -1,13 +1,13 @@
-# Lektion 4: Knapp flip
+# Lektion 4: Knappflipp
 
 I den här lektionen kommer vi att lära oss hur man använder en variabel.
 
-![](EmojiBowtie.png) | Lektionen kallas 'knappflip' eftersom du programmerar med en flip-flop
+![](EmojiBowtie.png) | Lektionen kallas 'knappflipp' eftersom du programmerar med en så kallad flip-flop
 :-------------:|:----------------------------------------:
 
 \pagebreak
 
-## 4.1. Knapp flip: Intro
+## 4.1. Knappflipp: Intro
 
 Vi börjar med denna krets:
 
@@ -48,25 +48,25 @@ void loop()
 
 \pagebreak
 
-## 4.2. Knapp flip: Button forever on: uppgift 1
+## 4.2. Knappflipp: Uppgift 1, tänd lampan 
 
-Överst i koden, ovanför `setup`, lägg:
+Överst i koden, ovanför `setup`, lägg till:
 
 ```c++
 boolean ar_pa = false;
 ```
 
-I början av `loop`, använd ett `if` för att se om knappen är det
+I början av `loop`, använd ett `if` för att se om knappen är 
 nedtryckt. Om så är fallet, ställ in `ar_pa` till `true`:
 
 ```c++
-if (/* knappen är druckit */)
+if (/* knappen är nedtryckt */)
 {
   ar_pa = true;
 }
 ``` 
 
-Efter det första `if` i `loop`, använd ett `if` för att se om `ar_pa`
+Efter det första `if` i `loop`, använd ett andra `if` för att se om `ar_pa`
 är lika med `true`. Om ja, slå på LEDen. Om inte, stäng av LEDen.
 
 ```c++
@@ -84,7 +84,7 @@ Vad ser du?
 
 \pagebreak
 
-## 4.3. Knapp flip: Button forever on: lösning 2
+## 4.3. Knappflipp: Lösning
 
 
 ```c++
@@ -111,13 +111,13 @@ void loop()
 }
 ```
 
-När du trycker på knappen lyser LEDen för evig.
+När du trycker på knappen lyser LEDen för alltid.
 
 \pagebreak
 
-## 4.4. Knapp flip: lyser LEDen för evig: uppgift 2
+## 4.4. Knappflipp: Uppgift 2, låt lampan vara fortsatt tänd eller släckt
 
-Vi ska nu säga:
+Vi ska nu programmera att:
   
  * När du trycker på knappen tänds LEDen och förblir tänd
  * När du sedan trycker på knappen igen kommer LEDen att släckas och förbli släckt
@@ -147,7 +147,7 @@ Ladda upp koden. Vad ser du? Om du ser något konstigt så stämmer det!
 
 \pagebreak
 
-## 4.5. Knapp flip: lyser LEDen för evig: lösning 2
+## 4.5. Knappflipp: Lösning 2
 
 ```c++
 // ...
@@ -171,7 +171,7 @@ void loop()
 }
 ```
 
-![](EmojiBowtie.png) | När du trycker på knappen dimmer LEDen. När du släpper knappen kommer LEDen antingen att vara tänd eller släckt för alltid
+![](EmojiBowtie.png) | När du trycker på knappen dimrar LEDen. När du släpper knappen kommer LEDen antingen att vara tänd eller släckt för alltid
 :-------------:|:----------------------------------------: 
 
 ![](EmojiSunglasses.png) | Detta beror på att Arduino snabbt och ofta tänder och släcker ljuset
@@ -179,19 +179,17 @@ void loop()
 
 \pagebreak
 
-## 4.6. Knapp flip: Knappen på för alltid med finkontroll: uppgift 2
+## 4.6. Knappflipp: Finjustering av knappfunktionen, uppgift 2
 
-Låt oss göra knappen mer lyhörd:
-släpp Arduino när knappen trycks ned
-200 millisekunders väntan.
+Låt oss finjustera knappen:
+När knappen trycks ned, låt Arduino vänta 200 millisekunder innan den kör igång loopen igen.
 
 \pagebreak
 
-## 4.7. Knapp flip: Knappen på för alltid med finkontroll: lösning 2
+## 4.7. Knappflipp: Finjustering av knappfunktionen, lösning 
 
-I `if` när knappen trycks ned, lägg till
-en `delay(200);`-regel. Detta kan göras före eller efter `if`-satserna
-med `är_på`.
+När knappen trycks ned, lägg till en `delay(200);`-regel inuti `if`. 
+Detta kan göras före eller efter `if`-satserna med `ar_pa`.
 
 ```c++
 // ...
@@ -214,28 +212,28 @@ void loop()
 
 \pagebreak
 
-## 4.8. Knapp flip: styr två LEDer: uppgift
+## 4.8. Knappflipp: Uppgift 3, styr två LEDar
 
-Vi kommer att ansluta en andra LED. Du kan byta genom att trycka på knappen
-mellan LEDer.
+Vi kommer att ansluta en andra LED. Du kan byta LED genom att trycka på knappen
+mellan LEDarna.
 
  * Anslut en andra grön LED till stift 12
  * I koden, ändra längst upp:
 
 ```c++
-// led_stift är bort
+// led_stift är bortkopplat
 const int led_stift_rod = /* stift numret */;
 const int led_stift_gron = /* stift numret */;
-// ... [knapp_stift stanner samma]
-// ar_pa är tappat bort
+// ... [knapp_stift ändras inte]
+// ar_pa är bortkopplat
 int vilken_led_pa = 1;
 ```
 
- * Se till att de två LEDerna och knappen hittas i koden, i `setup`.
- * I koden, i `loop`, reagera annorlunda på knappen:
+ * Se till att de två LEDarna och knappen hittas i koden, i `setup`.
+ * I koden, i `loop`, ändra funktionen på knappen:
 
 ```c++
-if (/* knappen är druckit */)
+if (/* knappen är nedtryckt */)
 {
   vilken_led_pa = vilken_led_pa + 1;
   if (vilken_led_pa == 3)
@@ -243,7 +241,7 @@ if (/* knappen är druckit */)
     vilken_led_pa = 1;
   }
 
-  // ... [vänta 200 millisecond]
+  // ... [vänta 200 millisekunder]
 }
 ```
  * I koden, i `loop`, reagerar nu på 'vilken_led_pa':
@@ -251,19 +249,19 @@ if (/* knappen är druckit */)
 ```c++
 if (vilken_led_pa == 1)
 {
-  // Tänder på röd LEDen, släcker av gron LEDen
+  // Tänder röda LEDen, släcker gröna LEDen
 }
 if (vilken_led_pa == 2)
 {
-  // Släcker av röd LEDen, tänder på gron LEDen, 
+  // Släcker röda LEDen, tänder gröna LEDen, 
 }
 ```
 
 \pagebreak
 
-## 4.9. Knapp flip: styr två LEDer: lösning
+## 4.9. Knappflipp: Styr två LEDar, lösning
 
-![4.9 Knapp flip: styr två LEDer: lösning](04_knapp_flip_2_zoom.png)
+![4.9 Knappflipp: styr två LEDar: lösning](04_knapp_flip_2_zoom.png)
 
 \pagebreak
 
@@ -282,7 +280,7 @@ void setup()
 
 void loop()
 {
-  if (/* knappen är druckit */)
+  if (/* knappen är nedtryckt */)
   {
     vilken_led_pa = vilken_led_pa + 1;
     if (vilken_led_pa == 3)
@@ -306,7 +304,7 @@ void loop()
 }
 ```
 
-## 4.10. Knapp flip: avsluta uppgift
+## 4.10. Knappflipp: avsluta uppgift
 
 Vi kommer att ansluta en tredje LED. Du kan byta genom att trycka på knappen
 från första, till andra, till tredje LED.
