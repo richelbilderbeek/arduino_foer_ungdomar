@@ -1,8 +1,8 @@
-# 4. FSR med servo
+# 15. FSR med servo
 
 I den här lektionen kommer vi att styra en servo med en FSR.
 
-## Ansluter FSR utan servo
+## 15.1 Ansluter FSR utan servo
 
 Först ansluter vi bara en FSR:
 
@@ -13,28 +13,28 @@ Först ansluter vi bara en FSR:
 
 \pagebreak
 
-## Kod: läs FSR med seriell monitor
+## 15.2 Kod: läs FSR med seriell monitor
 
 Med denna kod mäter vi värdet på FSR:
 
 ```c++
-void setup()
-†
+void setup() 
+{
   pinMode(A0, INPUT);
   Serial.begin(9600);
-†
+}
 
 void loop()
-†
+{
   Serial.println(analogRead(A0));
-  fördröjning(100);
-†
-†
+  delay(100);
+}
+```
 
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt vad det här gör? Se lektion `9. LDR`
 :-------------:|:----------------------------------------: 
 
-## Kommandon 1
+## 15.3 Kommandon 1
 
  1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
  2. Tryck på FSR med fingrarna (eller, med en LDR: håll fingret över LDR)
@@ -46,7 +46,7 @@ void loop()
 
 \pagebreak
 
-## Lösningar 1
+## 15.4 Lösningar 1
 
  1. Du kommer att se ett tal från noll till 1024, beroende på värdet på FSR
  2. Du ändrar siffrorna
@@ -55,7 +55,7 @@ void loop()
       skicka till din dator (4800), sedan läser din dator texten (9600)
  5. Nu kommer du att se siffran ändras slumpmässigt. Detta kallas en flytande ingång
 
-## Ansluter FSR med servo
+## 15.5 Ansluter FSR med servo
 
 Nu kopplar vi även in en servo. Om du vill fuska: se figuren 'Ansluter FSR med servo'.
 
@@ -63,7 +63,7 @@ Nu kopplar vi även in en servo. Om du vill fuska: se figuren 'Ansluter FSR med 
 
 \pagebreak
 
-### Svar till FSR
+### 15.6 Svar till FSR
 
 Nu ska vi få servo att svara på FSR:
 
@@ -93,7 +93,7 @@ void loop()
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt vad det här gör? Se lektion `4. Fler servomotorer`
 :-------------:|:----------------------------------------: 
 
-### Slutuppgift
+### 15.7 Slutuppgift
 
 Se till att servo svarar perfekt på FSR.
 Du måste själv räkna ut lägsta och högsta värde.
