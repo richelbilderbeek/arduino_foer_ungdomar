@@ -1,4 +1,6 @@
-# Servomotor med potentiometer
+# 14. Servomotor med potentiometer
+
+## 14.1 Uppgift
 
 Anslut en potentiometer. 
 Mittstiftet ska gå till `A0`. 
@@ -36,7 +38,7 @@ void loop()
 `map(analogRead(A0),0,1024,45,135)` |'Kära dator, läs spänningen för `A0`. Detta är ett värde från 0 till 1024. Konvertera det avlästa värdet mellan 45 och 135.'.
 
 
-## Slutuppgift
+## 14.2 Slutuppgift
 
 Styr en servomotor perfekt med en potentiometer.
 Använd det lägsta och högsta värdet som du har hittat med din servomotor.
