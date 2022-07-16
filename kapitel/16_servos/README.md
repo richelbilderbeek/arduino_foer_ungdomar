@@ -3,9 +3,9 @@
 I den här lektionen ska vi koppla ihop fler servomotorer.
 Vi behöver också batterier för detta
 
-## Batteridriven servomotor med seriell monitor
+## 16.1 Batteridriven servomotor med seriell monitor
 
-### Anslut
+### 16.1.1 Anslut
 
 Anslut en servomotor till batteriet enligt bilden 'Servomotor på batteri med seriell monitor'.
 
@@ -19,7 +19,7 @@ Anslut en servomotor till batteriet enligt bilden 'Servomotor på batteri med se
 
 \pagebreak
 
-### Kod
+### 16.1.2 Kod
 
 ```c++
 #include <Servo.h>
@@ -48,19 +48,19 @@ void loop()
 ![Sunglasses](EmojiSunglasses.png) | Vergeten wat dit deed? Zie les `3. Servo`
 :-------------:|:----------------------------------------: 
 
-## Uppgift 1
+## 16.1.3 Uppgift 1
 
  1. Ta reda på servots lägsta och högsta värde
 
 \pagebreak
 
-## Lösning 1
+## 16.1.4 Lösning 1
 
  1. Ha, det kan du ta reda på själv :-)
 
-## Servomotor på batteri med knapp
+## 16.2 Servomotor på batteri med knapp
 
-### Anslut
+### 16.2.1 Anslut
 
 Koppla nu in en tryckknapp, såsom figuren 'Servomotor på batteri med knapp'.
 
@@ -68,7 +68,7 @@ Koppla nu in en tryckknapp, såsom figuren 'Servomotor på batteri med knapp'.
 
 \pagebreak
 
-### Kod
+### 16.2.2 Kod
 
 Denna kod låter servo svara på knappen:
 
@@ -97,28 +97,28 @@ void loop()
 }
 ```
 
-### Uppgift 1
+### 16.2.3 Uppgift 1
 
  * Justera koden så att servo rör sig perfekt
 
 \pagebreak
 
-### Lösning 1
+### 16.2.4 Lösning 1
 
 Samma kod, förutom:
 
   * 45:an har ersatts av servos minimivärde
   * 135:an har ersatts av servos maximala värde
 
-## Batteridrivna servomotorer med knapp
+## 16.3 Batteridrivna servomotorer med knapp
 
-### Anslut
+### 16.3.1 Anslut
 
 Anslut nu en extra servomotor, som figuren 'Servomotorer på batteri med knapp'.
 
 ![Servomotorer på batteri med knapp](3_meer_servo_motors_3.png)
 
-### Övning 2
+### 16.3.2 Övning 2
 
  1. Ta reda på det minsta och högsta värdet på den nya servo
  2. Ändra koden så att båda servon rör sig perfekt *motsatt*.
@@ -127,7 +127,7 @@ Anslut nu en extra servomotor, som figuren 'Servomotorer på batteri med knapp'.
 
 \pagebreak
 
-### Lösningar 2
+### 16.3.3 Lösningar 2
 
  1. Detta kan göras genom att använda den första koden igen.
     Du kan justera stiftet på servo i koden,
@@ -163,7 +163,7 @@ void loop()
 }
 ```
 
-## Slutuppgift
+## 16.4 Slutuppgift
 
 Anslut nu en andra knapp.
 När den första knappen trycks in ska den första servo gå till maximalt läge.
