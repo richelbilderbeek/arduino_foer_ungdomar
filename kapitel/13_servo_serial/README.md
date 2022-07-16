@@ -1,11 +1,11 @@
-#13. Servo med seriell monitor
+# 13. Servo med seriell monitor
 
 En servo är en motor som man kan sätta i en viss vinkel.
 
 ![Solglasögon](EmojiSunglasses.png) | Servon används ofta i robotar
 :-------------:|:----------------------------------------: 
 
-## Anslut
+## 13.1 Anslut
 
 Bilden visar hur man ansluter en servo:
 
@@ -16,7 +16,7 @@ Bilden visar hur man ansluter en servo:
 
 \pagebreak
 
-## Kod
+## 13.2 Kod
 
 Använd denna kod:
 
@@ -55,7 +55,7 @@ void loop()
 
 \pagebreak
 
-## Skicka nummer till Arduino
+## 13.3 Skicka nummer till Arduino
 
 När du har lagt koden på Arduino kan du använda `Serial Monitor`
 skicka nummer till Arduino. Du kan se detta på bilden
@@ -65,19 +65,19 @@ skicka nummer till Arduino. Du kan se detta på bilden
 ![Solglasögon](EmojiSunglasses.png) | På så sätt kan du prata med Arduino
 :-------------:|:----------------------------------------: 
 
-## Uppgift 1
+## 13.4 Uppgift 1
 
   1. Bestäm det lägsta och högsta numret för en servomotor.
   2. Beräkna skillnaden mellan lägsta och högsta siffran
 
 \pagebreak
 
-## Lösning 1
+## 13.5 Lösning 1
 
   1. Ha, det kan du ta reda på själv :-)
   2. Detta är någonstans mellan 80-150 grader, beroende på din servomotor
 
-## Slutuppgift
+## 13.6 Slutuppgift
 
 Styr en servomotor perfekt med den seriella monitorn.
 Använd det lägsta och högsta värdet som du har hittat med din servomotor.
