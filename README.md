@@ -14,3 +14,11 @@ Kurs 'Arduino för ungdomar'.
 ```
 (C) Richèl Bilderbeek
 ```
+
+
+## Översättning
+
+Engelska   |Svenska
+-----------|--------------------------------------
+Breadboard |Kopplingsdäck, labbplatta, brödplanka
+Jumper wire|Hopparvajer, byglingsledning
