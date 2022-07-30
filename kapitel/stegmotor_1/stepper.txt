@@ -1,0 +1,92 @@
+#define INPUTPIN A0
+#define ARRSIZE 2
+
+long int tid = micros(), current_pos = 100;
+
+long int motor_pin = D0, direction_pin = D1, t1, t2, high = 0, power_n = 0, dir = 1;
+long int led_max = 0, led_min = 9999, counter = 0;
+int pinstatus = false, webrequest = false;
+int value = 0, old_value[ARRSIZE];
+
+int meanValue() {
+  int answer = 0;
+  for (int i = 0; i < ARRSIZE; i++) {
+    answer += old_value[i];
+  }
+  return (answer / ARRSIZE);
+}
+
+int gotoPos(int wanted_pos) {
+
+  if (micros() - tid > 5000) {
+    tid = micros();
+    if (abs(current_pos-wanted_pos)>1 ) {
+      if (current_pos > wanted_pos) {
+        dir = -1;
+        digitalWrite(direction_pin, HIGH);
+      }
+      else
+      {
+        dir = 1;
+        digitalWrite(direction_pin, LOW);
+      }
+      digitalWrite(motor_pin, pinstatus = !pinstatus);
+      digitalWrite(LED_BUILTIN, pinstatus);   // GET /H turns the LED on
+      if ((pinstatus)) {
+        current_pos += dir;
+      }
+    }
+  }
+  return (current_pos);
+}
+
+
+void setup()
+{
+  Serial.begin(2000000);
+  pinMode(INPUTPIN, INPUT);      // set the LED pin mode
+  pinMode(LED_BUILTIN, OUTPUT);      // set the LED pin mode
+  pinMode(motor_pin, OUTPUT);      // set the LED pin mode
+  pinMode(direction_pin, OUTPUT);      // set the LED pin mode
+
+  t1 = millis();
+  t2 = t1;
+}
+
+
+void loop() {
+
+  {
+    gotoPos(meanValue());
+  }
+  if (millis() - t2 > 10) {
+    counter++;
+    t2 = millis();
+    value = analogRead(INPUTPIN)/2;
+    old_value[counter % ARRSIZE] = value;
+    if (value != meanValue()) {
+      Serial.print("Value:");
+      Serial.print(value);
+      Serial.print(" MeanValue:");
+      Serial.println(meanValue());           // print a message out the serial port
+      if (led_max < value)
+        led_max = value;
+      if (led_min > value)
+        led_min = value;
+    }
+  }
+
+  if (millis() - t1 > 1000) {
+    t1 = millis();
+    Serial.print("Position: ");
+    Serial.print(current_pos);           // print a message out the serial port
+    Serial.print(" Read:");  // print a message out the serial port
+
+    Serial.print(value);           // print a message out the serial port
+    Serial.print(" Min:");
+    Serial.print(led_min);           // print a message out the serial port
+    Serial.print(" Max:");
+    Serial.println(led_max);           // print a message out the serial port
+
+  }
+}
