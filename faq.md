@@ -1,70 +1,70 @@
-# Veelgestelde vragen
+# Vanliga frågor
 
-## Waar kan ik de boeken vinden?
+## Var kan jag hitta böckerna?
 
-In de map '[boeken](boeken/README.md)'.
+I mappen '[boecker](boecker/README.md)'.
 
-## Zijn er cursussen die deze boeken gebruiken?
+## Finns det några kurser som använder dessa böcker?
 
-Jazeker:
+Japp:
 
- * [Appingedam, maandagavond](https://github.com/richelbilderbeek/damster_dojo)
- * [Groningen, vrijdagavond](https://github.com/richelbilderbeek/ArduinoCourse)
+ * [Uppsala](https://github.com/richelbilderbeek/arduinokurs)
 
-## Wat is de licensie op de boeken?
+## Vad är licensen på böckerna?
 
-De boeken hebben allemaal een [CC-BY-NC-SA](https://nl.wikipedia.org/wiki/Creative_Commons-licenties) licensie:
+Böckerna har alla en [CC-BY-NC-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
 
-![De licensie van dit boek](pics/CC-BY-NC-SA.png)
+![Licensen för den här boken](pics/CC-BY-NC-SA.png)
 
-Letters|Betekenis|Vertaling
----|---|---
-CC|Creative Commons|Het type license
-BY|By|Deze website moet genoemd worden als bron
-NC|Non-Commercial|Er mag geen winst worden gemaakt met dit materiaal
-SA|Share alike|Het materiaal moet met dezelfde licensie verspreidt worden
+Bokstäver|Mening          |Översättning
+---------|----------------|-----------------------------------------------
+CC       |Creative Commons|Licenstypen
+BY       |Av              |Denna webbplats bör citeras som källa
+NC       |Icke-kommersiell|Ingen vinst får göras på detta material
+SA       |Dela lika       |Materialet måste distribueras med samma licens
 
-Het copyright van deze boeken staat op:
+Upphovsrätten till dessa böcker finns på:
 
 ```
-(C) Richèl Bilderbeek en alle docenten en alle leerlingen
+(C) Richèl Bilderbeek och alla lärare och alla elever
 ```
 
-Dit zijn veel mensen, waardoor dit boekje altijd gratis, vrij en open zal blijven.
+Det här är många människor, så det här häftet kommer alltid att förbli gratis, gratis och öppet.
 
-## Mag ik deze boeken verspreiden?
+## Får jag distribuera dessa böcker?
 
-Ja, graag zelfs!
+Ja tack!
 
-## Hoe geef ik een suggestie door?
+## Hur skickar jag in ett förslag?
 
-Fijn!
+Trevlig!
 
-Er zijn meerdere mogelijkheden:
+Det finns flera alternativ:
 
- * Stuur @richelbilderbeek een email, zoek op 'Richel Bilderbeek contact'
- * Maak een Issue aan
- * Maak een Pull Request aan
+ * Skicka ett e-postmeddelande till @richelbilderbeek, sök efter "Richel Bilderbeek email"
+ * Skapa en Issue
+ * Skapa en Pull Request
 
-## Mag ik deze boeken wijzigen?
+## Kan jag ändra dessa böcker?
 
-Ja, op voorwaarde dat deze website als bron wordt vermeld
-en dezelfde vrije licensie handhaaft.
+Ja, förutsatt att den här webbplatsen anges som källa
+och upprätthåller samma fria licens.
 
-## Mag ik deze boeken verkopen?
+## Kan jag sälja dessa böcker?
 
-Verkopen is hier niet het goede woord.
+Att sälja är inte rätt ord här.
 
-De boeken mogen vrij gedrukt worden.
-Hier zitten printkosten aan.
-Voor deze kosten mogen de boekjes verkocht worden.
-Op deze manier kun je de prijs van de boekjes als servicekosten zien.
-Er mag geen winst gemaakt worden op de boekjes.
+Böckerna får tryckas fritt.
+Detta ger tryckkostnader.
+Böckerna kan säljas för dessa kostnader.
+På så sätt kan du se priset på häften som servicekostnader.
+Ingen vinst får göras på bokföringen.
 
-## Waarom staat het logo van De Jonge Onderzoekers Groningen op de kaft?
+## Varför finns Uppsala Makerspacets logotyp på omslaget?
 
-Deze boekjes zijn voor het eerst zijn gebruikt bij 
-Stichting De Jonge Onderzoekers Groningen. Omdat zij de boekjes printen,
-staat dit logo op de kaft.
+Dessa häften användes för första gången 
+hos Uppsala Makerspace. Eftersom de trycker häften,
+denna logotyp finns på omslaget.
 
-Het is prima mogelijk om de kaften te veranderen, zonder of met een ander logo.
+Det är fullt möjligt att byta omslag, utan eller med annan logotyp.
+
