@@ -14,7 +14,7 @@ Så här fungerar en regnbåge:
 ![Solglasögon](EmojiSunglasses.png) | Gult ljus är rött och grönt ljus tillsammans.
 :-------------:|:----------------------------------------: 
 
-\sidbrytning
+\pagebreak
 
 ## 9.2 Uppgift 1
 
