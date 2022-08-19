@@ -13,7 +13,7 @@ Den seriella monitorn visar denna text på din dator.
 
 Först ansluter vi bara en Arduino:
 
-![](4_FSR_niks.png)
+![](11_fsr_rbg_ingenting.png)
 
 Jag tycker att det här borde fungera :-)
 
@@ -39,15 +39,15 @@ void loop()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`Serial.begin(9600);`|'Bästa dator, låt Arduino prata med 9600 bitar per sekund'
-`Serial.print("Hej");`|'Bästa dator, låt Arduino säga ordet 'Hej''
-`Serial.println("Hello");`|'Bästa dator, låt Arduino säga ordet 'Hej' och starta en ny rad''
+`Serial.begin(9600);`     |'Bästa dator, låt Arduino prata med 9600 bitar per sekund'
+`Serial.print("Hej");`    |'Bästa dator, låt Arduino säga ordet 'Hej''
+`Serial.println("Hej");`  |'Bästa dator, låt Arduino säga ordet 'Hej' och starta en ny rad'
 
 ### Kommandon 1
 
-![Den seriella monitorn är här](4_FSR_SerialMonitor.png)
+![Den seriella monitorn är här](11_fsr_rbg_seriel_monitor.png)
 
-![Den seriella monitorn med siffror](4_FSR_SerialMonitorMetNumbers.png)
+![Den seriella monitorn med siffror](11_fsr_rbg_serial_monitor_med_siffor.png)
 
  1. Ladda upp programmet. I Arduino IDE, klicka på "Serial Monitor" uppe till höger. Vad ser du?
  2. Kan du ändra texten till "Hej Richel" (eller ditt eget namn?)
@@ -73,7 +73,7 @@ void loop()
 
 Först ansluter vi bara en FSR:
 
-![Flödesschema](4_FSR.png)
+![Flödesschema](11_fsr_rbg_fsr.png)
 
 ![Bowtie](EmojiBowtie.png) | Om det inte finns någon FSR, använd en LDR
 :-------------:|:----------------------------------------: 
@@ -137,7 +137,7 @@ void loop()
 
 Nu ansluter vi även en LED:
 
-![Flödesschema](4_FSR_with_LED.png)
+![Flödesschema](11_fsr_rbg_med_led.png)
 
 \pagebreak
 
@@ -266,7 +266,7 @@ void loop()
 Anslut två lysdioder till stift 12 och 13. När FSR är i vila ska ingen lysdiod lysa. Om du trycker försiktigt på FSR,
 en LED tänds. Om du trycker hårt på FSR, två.
 
-![Bowtie](EmojiBowtie.png) | Tips: använd två "om"-satser
+![Bowtie](EmojiBowtie.png) | Tips: använd två `if`-satser
 :-------------:|:----------------------------------------: 
 
 \pagebreak
@@ -356,4 +356,4 @@ void loop()
 
 Om du inte har en vit LED, använd en annan färg.
 
-![FSR final assignment](4_FSR_final assignment.png)
+![FSR final assignment](11_fsr_rbg_slutuppgift.png)
