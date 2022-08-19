@@ -4,7 +4,7 @@
 
 Först ansluter vi bara en Arduino:
 
-![](9_LDR_niks.png)
+![](12_ldr_rgb_ingenting.png)
 
 Jag tycker att det här borde fungera :-)
 
@@ -50,7 +50,7 @@ void loop()
 
 Först ansluter vi bara en LDR:
 
-![Flödesschema](9_LDR.png)
+![Flödesschema](12_ldr_rgb_ldr.png)
 
 \pagebreak
 
@@ -105,7 +105,7 @@ void loop()
 
 Nu ansluter vi även en LED:
 
-![Flödesschema](9_LDR_with_LED.png)
+![Flödesschema](12_ldr_rgb_med_led.png)
 
 \pagebreak
 
@@ -230,7 +230,7 @@ void loop()
  * Om du gör LDR mörkare mer kommer de gröna och gula lysdioderna att lysa
  * Om du gör LDR helt mörkare kommer alla lysdioder att lysa
 
-![LDR final assignment](9_LDR_final assignment.png)
+![LDR final assignment](12_ldr_rgb_slutuppgift.png)
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd `if` tre eller fyra gånger
 :-------------:|:----------------------------------------: 
