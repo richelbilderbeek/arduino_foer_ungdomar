@@ -1,26 +1,26 @@
-# Les 17: Simpele Melodie
+# Lektion 17: Enkel melodi
 
-In deze les gaan we een simpele melodie maken, namelijk Vader Jacob!
+I den här lektionen ska vi göra en enkel melodi, som är Fader Jakob!
 
-!['Vader Jacob' was een hit in 1975 van de Nederlandse band H2OR](17_vader_jacob.jpg)
+!['Vader Jacob' var en hit 1975 av det holländska bandet H2OR](17_vader_jacob.jpg)
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Opdracht 1
+## Lektion 17: Enkel melodi: Uppgift 1
 
-Sluit figuur 'Aansluiten van een speaker' aan.
+Anslut figuren 'Ansluta en högtalare'.
 
-![Aansluiten van een speaker](17_aansluiten.png)
+![Ansluta en högtalare](17_connecting.png)
 
-Zet deze code op je Arduino:
+Sätt den här koden på din Arduino:
 
 ```c++
 const int speaker_pin = 8;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(300);
+  ton(speaker_pin, 131, 250); // Va
+  fördröjning(300);
 }
 
 void loop()
@@ -29,51 +29,51 @@ void loop()
 }
 ```
 
-Wat hoor je?
+Vad hör du?
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Oplossing 1
+## Lektion 17: Enkel melodi: Lösning 1
 
-Je hoort de eerste noot van Vader Jacob!
+Du hör den första tonen av fader Jakob!
 
-In figuur 'De eerste noot van Vader Jacob' zie je de eerste noot als bladmuziek.
-Onder de noot staat de tekst, daaronder de toonhoogte in Hertz.
+I figuren 'The first not of Father Jacob' ser du den första tonen som noter.
+Under noten finns texten, därunder tonhöjden i Hertz.
 
-![De eerste noot van Vader Jacob](17_va.png)
+![Fader Jacobs första ton](17_va.png)
 
-![Sunglasses](EmojiSunglasses.png) | 131 Hertz is de toonhoogte van de noot C.
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | 131 Hertz är tonhöjden för tonen C.
+:-----------------:|:---------------------- ------- :
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`tone(..., 131, ...);`| (zingt) do!
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`tone(..., 131, ...);`| (sjunger) gör!
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Opdracht 2
+## Lektion 17: Enkel melodi: Uppgift 2
 
-De eerste noot van Vader Jacob heeft een toonhoogte van 131 Hertz.
-De tweede noot van Vader Jacob heeft een toonhoogte van 147 Hertz.
-Programmeer de eerste twee noten van Vader Jacob.
+Den första tonen av Vader Jacob har en tonhöjd på 131 Hertz.
+Den andra tonen av Vader Jacob har en tonhöjd på 147 Hertz.
+Programmera de två första tonerna av Vader Jacob.
 
-![De eerste twee noten van Vader Jacob](17_vader.png)
+![De två första tonerna av Vader Jacob](17_vader.png)
 
-![Nee, het nummer gaat niet over hem](17_darth-vader.jpg)
+![Nej, låten handlar inte om honom](17_darth-vader.jpg)
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Oplossing 2
+## Lektion 17: Enkel melodi: Lösning 2
 
 ```c++
 const int speaker_pin = 8;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(300);
-  tone(speaker_pin, 147, 250); // der
-  delay(300);
+  ton(speaker_pin, 131, 250); // Va
+  fördröjning(300);
+  ton(speaker_pin, 147, 250); // der
+  fördröjning(300);
 }
 
 void loop()
@@ -82,39 +82,39 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | 147 Hertz is de toonhoogte van de noot D.
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | 147 Hertz är tonhöjden för tonen D.
+:-----------------:|:---------------------- ------- :
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`tone(..., 147, ...);`| (zingt) re!
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`tone(..., 147, ...);`| (sjunger) re!
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Opdracht 3
+## Lektion 17: Enkel melodi: Uppgift 3
 
-De derde noot van Vader Jacob heeft een toonhoogte van 165 Hertz.
-Programmeer de eerste drie noten van Vader Jacob.
+Den tredje tonen av Vader Jacob har en tonhöjd på 165 Hertz.
+Programmera de tre första tonerna av Fader Jakob.
 
-![De eerste drie noten van Vader Jacob](17_vader_ja.png)
+![De tre första tonerna av Vader Jacob](17_vader_ja.png)
 
-![Een echte Groninger eindigt de meeste zinnen met 'ja'](17_kim_feenstra.jpg)
+![En riktig Groninger avslutar de flesta meningar med 'ja'](17_kim_feenstra.jpg)
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Oplossing 3
+## Lektion 17: Enkel melodi: Lösning 3
 
 ```c++
 const int speaker_pin = 8;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(300);
-  tone(speaker_pin, 147, 250); // der
-  delay(300);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(300);
+  ton(speaker_pin, 131, 250); // Va
+  fördröjning(300);
+  ton(speaker_pin, 147, 250); // der
+  fördröjning(300);
+  ton(speaker_pin, 165, 250); // Ja
+  fördröjning(300);
 }
 
 void loop()
@@ -123,41 +123,41 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | 165 Hertz is de toonhoogte van de noot E.
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | 165 Hertz är tonhöjden för noten E.
+:-----------------:|:---------------------- ------- :
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`tone(..., 165, ...);`| (zingt) mi!
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`tone(..., 165, ...);`| (sjunger) mig!
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Opdracht 4
+## Lektion 17: Enkel melodi: Uppgift 4
 
-De vierde noot van Vader Jacob heeft dezelfde toonhoogte als de eerste.
-Programmeer de vierde noot van Vader Jacob.
+Den fjärde tonen av Vader Jacob har samma tonhöjd som den första.
+Programmera den fjärde tonen av Fader Jakob.
 
-![De eerste vier noten van Vader Jacob](17_vader_jacob.png)
+![De första fyra tonerna av Vader Jacob](17_vader_jacob.png)
 
-![Jacob Black kan in een wolf veranderen](17_jacob_black.jpg)
+![Jacob Black kan förvandlas till en varg](17_jacob_black.jpg)
 
-\pagebreak
+\sidbrytning
 
-## Oplossing 4
+## Lösning 4
 
 ```c++
 const int speaker_pin = 8;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(300);
-  tone(speaker_pin, 147, 250); // der
-  delay(300);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(300);
-  tone(speaker_pin, 131, 250); // cob
-  delay(300);
+  ton(speaker_pin, 131, 250); // Va
+  fördröjning(300);
+  ton(speaker_pin, 147, 250); // der
+  fördröjning(300);
+  ton(speaker_pin, 165, 250); // Ja
+  fördröjning(300);
+  ton(speaker_pin, 131, 250); // cob
+  fördröjning(300);
 }
 
 void loop()
@@ -166,45 +166,45 @@ void loop()
 }
 ```
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`tone(..., 147, ...);`| (zingt) re!
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`tone(..., 147, ...);`| (sjunger) re!
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Opdracht 5
+## Lektion 17: Enkel melodi: Uppgift 5
 
-De vijfde, zesde, zevende en achtste noot zijn dezelfde als de eerste vier. Programmeer dit.
+De femte, sjätte, sjunde och åttonde noterna är desamma som de fyra första. Programmera detta.
 
-![De eerste acht noten van Vader Jacob](17_vader_jacob_2x.png)
+![De första åtta tonerna av Vader Jacob](17_vader_jacob_2x.png)
 
-![Een tweeling is een soort van herhaalde eenling](17_twins.jpeg)
+![Tvillingar är typ av återkommande ensamvargar](17_twins.jpeg)
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Oplossing 5
+## Lektion 17: Enkel melodi: Lösning 5
 
 ```c++
 const int speaker_pin = 8;
 
 void setup()
 {
-  tone(speaker_pin, 131, 250); // Va
-  delay(300);
-  tone(speaker_pin, 147, 250); // der
-  delay(300);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(300);
-  tone(speaker_pin, 131, 250); // cob
-  delay(300);
-  tone(speaker_pin, 131, 250); // Va
-  delay(300);
-  tone(speaker_pin, 147, 250); // der
-  delay(300);
-  tone(speaker_pin, 165, 250); // Ja
-  delay(300);
-  tone(speaker_pin, 131, 250); // cob
-  delay(300);
+  ton(speaker_pin, 131, 250); // Va
+  fördröjning(300);
+  ton(speaker_pin, 147, 250); // der
+  fördröjning(300);
+  ton(speaker_pin, 165, 250); // Ja
+  fördröjning(300);
+  ton(speaker_pin, 131, 250); // cob
+  fördröjning(300);
+  ton(speaker_pin, 131, 250); // Va
+  fördröjning(300);
+  ton(speaker_pin, 147, 250); // der
+  fördröjning(300);
+  ton(speaker_pin, 165, 250); // Ja
+  fördröjning(300);
+  ton(speaker_pin, 131, 250); // cob
+  fördröjning(300);
 }
 
 void loop()
@@ -213,112 +213,17 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | Je mag de herhaling ook in een `for` loop zetten!
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
+:-----------------:|:---------------------- ------- :
 
-![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
-`for (int i = 0; i < 2; ++i) { ... }`| 'Doe wat tussen accolades staat twee keer'
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-----------------:|:---------------------- ------- :
+`för (int i = 0; i < 2; ++i) { ... }`| "Gör vad som står i hängslen två gånger"
 
-\pagebreak
+\sidbrytning
 
-## Les 17: Simpele Melodie: Opdracht 6
+## Lektion 17: Enkel melodi: Uppgift 6
 
-Nu komt twee keer 'Slaapt gij nog'. 'Slaapt' dezelfde hoogte als 'Ja', 'gij' is 175 Hertz, 'nog' is 196 Hertz.
-Tot nu toe duurden alle noten 250 milliseconden.
-De derde noot, 'nog' moet 500 milliseconden duren.
-
-![Slaapt gij nog](17_slaapt_gij_nog_2x.png)
-
-![Sommige mensen zijn erg beroemd geworden door ... te slapen?](17_sleeping_beauty.jpg)
-
-\pagebreak
-
-## Les 17: Simpele Melodie: Oplossing 6
-
-In de code staat nu `//...`. Dit betekent dat daar de oude code moet blijven staan.
-
-```c++
-const int speaker_pin = 8;
-
-void setup()
-{
-  //...
-  tone(speaker_pin, 165, 250); // Slaapt
-  delay(300);
-  tone(speaker_pin, 175, 250); // gij
-  delay(300);
-  tone(speaker_pin, 196, 500); // nog
-  delay(500);
-  tone(speaker_pin, 165, 250); // Slaapt
-  delay(300);
-  tone(speaker_pin, 175, 250); // gij
-  delay(300);
-  tone(speaker_pin, 196, 500); // nog
-  delay(500);
-}
-
-void loop()
-{
-
-}
-```
-
-![Sunglasses](EmojiSunglasses.png) | Je mag de herhaling ook in een `for` loop zetten!
-:-------------:|:----------------------------------------: 
-
-\pagebreak
-
-## Les 17: Simpele Melodie: Opdracht 7
-
-Nu komt twee keer 'Alle klokken luiden'. 
-In de figuur 'Alle klokken luiden' staan de toonhoogten.
-De noten die aan elkaar vastzitten ('Alle klokken') duren elk 125 milliseconden.
-
-![Alle klokken luiden](17_alle_klokken_2x.png)
-
-![Ook met klokken luiden kun je beroemd worden](17_klokkenluider.png)
-
-\pagebreak
-
-## Les 17: Simpele Melodie: Oplossing 7
-
-```c++
-const int speaker_pin = 8;
-
-void setup()
-{
-  //...
-  tone(speaker_pin, 131, 125); // Al
-  delay(125);
-  tone(speaker_pin, 147, 125); // le
-  delay(125);
-  tone(speaker_pin, 165, 125); // klok
-  delay(125);
-  tone(speaker_pin, 131, 125); // ken
-  delay(125);
-  tone(speaker_pin, 131, 250); // lui
-  delay(300);
-  tone(speaker_pin, 147, 250); // den
-  delay(300);
-}
-
-void loop()
-{
-
-}
-```
-
-![Bowtie](EmojiBowtie.png) | (zingt) Vader Jacob, Vader Jacob! (maar niet erg goed)
-:-------------:|:----------------------------------------: 
-
-\pagebreak
-
-## Les 17: Simpele Melodie: Eindopdracht
-
-Maak het liedje Vader Jacob af. Zie figuur 'Vader Jacob bladmuziek' hoe de laatste noten moeten.
-
-![Vader Jacob bladmuziek](17_compleet.png)
-
-![Frequenties](17_frequenties.png)
-
+Nu kommer två gånger 'Sover du fortfarande'. 'Sov' samma höjd som 'Ja', 'du' är 175 Hertz, 'fortfarande' är 196 Hertz.
+Fram till nu varade alla anteckningar i 250 millisekunder.
+Den tredje
