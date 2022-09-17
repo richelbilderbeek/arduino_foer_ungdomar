@@ -34,8 +34,8 @@ Kpt|Beskrivning
 .  | **Bok 5**
 17 |[Enkel melodi](17_enkel_melodi/README.md)
 18 |[7-stift-piano](18_7_stift_piano/README.md)
-19 |[1-stift-7-parallella-motstånd-piano](19_1_pin_7_parallella_motstaand_piano/README.md)
-20 |[1-stift-7-motstånd-i-serie-piano](20_1_pin_7_motstaand_in_serie_piano/README.md)
+19 |[1-stift-7-parallella-motstånd-piano](19_1_stift_7_parallella_motstaand_piano/README.md)
+20 |[1-stift-7-motstånd-i-serie-piano](20_1_stift_7_motstaand_in_serie_piano/README.md)
 .  | **Bok 6**
 21 |[Theremin med potmeter](21_theremin_potmeters/README.md)
 22 |[Theremin med LDR](22_theremin_ldr/README.md)
