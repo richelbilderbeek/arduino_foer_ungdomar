@@ -4,7 +4,7 @@ I den här lektionen ska vi göra en enkel melodi, som är Fader Jakob!
 
 !['Vader Jacob' var en hit 1975 av det holländska bandet H2OR](17_vader_jacob.jpg)
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Uppgift 1
 
@@ -19,8 +19,8 @@ const int speaker_pin = 8;
 
 void setup()
 {
-  ton(speaker_pin, 131, 250); // Va
-  fördröjning(300);
+  tone(speaker_pin, 131, 250); // Va
+  delay(300);
 }
 
 void loop()
@@ -31,7 +31,7 @@ void loop()
 
 Vad hör du?
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Lösning 1
 
@@ -43,13 +43,13 @@ Under noten finns texten, därunder tonhöjden i Hertz.
 ![Fader Jacobs första ton](17_va.png)
 
 ![Solglasögon](EmojiSunglasses.png) | 131 Hertz är tonhöjden för tonen C.
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 `tone(..., 131, ...);`| (sjunger) gör!
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Uppgift 2
 
@@ -61,7 +61,7 @@ Programmera de två första tonerna av Vader Jacob.
 
 ![Nej, låten handlar inte om honom](17_darth-vader.jpg)
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Lösning 2
 
@@ -70,10 +70,10 @@ const int speaker_pin = 8;
 
 void setup()
 {
-  ton(speaker_pin, 131, 250); // Va
-  fördröjning(300);
-  ton(speaker_pin, 147, 250); // der
-  fördröjning(300);
+  tone(speaker_pin, 131, 250); // Va
+  delay(300);
+  tone(speaker_pin, 147, 250); // der
+  delay(300);
 }
 
 void loop()
@@ -83,13 +83,13 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | 147 Hertz är tonhöjden för tonen D.
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 `tone(..., 147, ...);`| (sjunger) re!
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Uppgift 3
 
@@ -100,7 +100,7 @@ Programmera de tre första tonerna av Fader Jakob.
 
 ![En riktig Groninger avslutar de flesta meningar med 'ja'](17_kim_feenstra.jpg)
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Lösning 3
 
@@ -109,12 +109,12 @@ const int speaker_pin = 8;
 
 void setup()
 {
-  ton(speaker_pin, 131, 250); // Va
-  fördröjning(300);
-  ton(speaker_pin, 147, 250); // der
-  fördröjning(300);
-  ton(speaker_pin, 165, 250); // Ja
-  fördröjning(300);
+  tone(speaker_pin, 131, 250); // Va
+  delay(300);
+  tone(speaker_pin, 147, 250); // der
+  delay(300);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(300);
 }
 
 void loop()
@@ -124,13 +124,13 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | 165 Hertz är tonhöjden för noten E.
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 `tone(..., 165, ...);`| (sjunger) mig!
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Uppgift 4
 
@@ -141,7 +141,7 @@ Programmera den fjärde tonen av Fader Jakob.
 
 ![Jacob Black kan förvandlas till en varg](17_jacob_black.jpg)
 
-\sidbrytning
+\pagebreak
 
 ## Lösning 4
 
@@ -150,14 +150,14 @@ const int speaker_pin = 8;
 
 void setup()
 {
-  ton(speaker_pin, 131, 250); // Va
-  fördröjning(300);
-  ton(speaker_pin, 147, 250); // der
-  fördröjning(300);
-  ton(speaker_pin, 165, 250); // Ja
-  fördröjning(300);
-  ton(speaker_pin, 131, 250); // cob
-  fördröjning(300);
+  tone(speaker_pin, 131, 250); // Va
+  delay(300);
+  tone(speaker_pin, 147, 250); // der
+  delay(300);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(300);
+  tone(speaker_pin, 131, 250); // cob
+  delay(300);
 }
 
 void loop()
@@ -167,10 +167,10 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 `tone(..., 147, ...);`| (sjunger) re!
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Uppgift 5
 
@@ -180,7 +180,7 @@ De femte, sjätte, sjunde och åttonde noterna är desamma som de fyra första. 
 
 ![Tvillingar är typ av återkommande ensamvargar](17_twins.jpeg)
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Lösning 5
 
@@ -189,22 +189,22 @@ const int speaker_pin = 8;
 
 void setup()
 {
-  ton(speaker_pin, 131, 250); // Va
-  fördröjning(300);
-  ton(speaker_pin, 147, 250); // der
-  fördröjning(300);
-  ton(speaker_pin, 165, 250); // Ja
-  fördröjning(300);
-  ton(speaker_pin, 131, 250); // cob
-  fördröjning(300);
-  ton(speaker_pin, 131, 250); // Va
-  fördröjning(300);
-  ton(speaker_pin, 147, 250); // der
-  fördröjning(300);
-  ton(speaker_pin, 165, 250); // Ja
-  fördröjning(300);
-  ton(speaker_pin, 131, 250); // cob
-  fördröjning(300);
+  tone(speaker_pin, 131, 250); // Va
+  delay(300);
+  tone(speaker_pin, 147, 250); // der
+  delay(300);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(300);
+  tone(speaker_pin, 131, 250); // cob
+  delay(300);
+  tone(speaker_pin, 131, 250); // Va
+  delay(300);
+  tone(speaker_pin, 147, 250); // der
+  delay(300);
+  tone(speaker_pin, 165, 250); // Ja
+  delay(300);
+  tone(speaker_pin, 131, 250); // cob
+  delay(300);
 }
 
 void loop()
@@ -214,16 +214,110 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 `för (int i = 0; i < 2; ++i) { ... }`| "Gör vad som står i hängslen två gånger"
 
-\sidbrytning
+\pagebreak
 
 ## Lektion 17: Enkel melodi: Uppgift 6
 
 Nu kommer två gånger 'Sover du fortfarande'. 'Sov' samma höjd som 'Ja', 'du' är 175 Hertz, 'fortfarande' är 196 Hertz.
 Fram till nu varade alla anteckningar i 250 millisekunder.
-Den tredje
+Den tredje tonen, "ännu", bör vara i 500 millisekunder.
+
+![Sover du fortfarande](17_sleeps_you_nog_2x.png)
+
+![Vissa människor har blivit mycket kända för att sova?](17_sleeping_beauty.jpg)
+
+\pagebreak
+
+## Lektion 17: Enkel melodi: Lösning 6
+
+Koden läser nu `//...`. Det betyder att den gamla koden måste finnas kvar.
+
+```c++
+const int speaker_pin = 8;
+
+void setup()
+{
+  //...
+  tone(speaker_pin, 165, 250); // Slaapt
+  delay(300);
+  tone(speaker_pin, 175, 250); // gij
+  delay(300);
+  tone(speaker_pin, 196, 500); // nog
+  delay(500);
+  tone(speaker_pin, 165, 250); // Slaapt
+  delay(300);
+  tone(speaker_pin, 175, 250); // gij
+  delay(300);
+  tone(speaker_pin, 196, 500); // nog
+  delay(500);
+}
+
+void loop()
+{
+
+}
+```
+
+![Solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
+## Lektion 17: Enkel melodi: Uppgift 7
+
+Nu kommer två gånger "Alla klockor ringer".
+Platserna visas i figuren 'Alla klockor ringer'.
+De toner som är sammanfogade ('Alla klockor') är var och en 125 millisekunder långa.
+
+![Alla klockor ringer](17_alle_kloks_2x.png)
+
+![Du kan också bli berömd genom att ringa klockor](17_klokluider.png)
+
+\pagebreak
+
+## Lektion 17: Enkel melodi: Lösning 7
+
+```c++
+const int speaker_pin = 8;
+
+void setup()
+{
+  //...
+  tone(speaker_pin, 131, 125); // Al
+  delay(125);
+  tone(speaker_pin, 147, 125); // le
+  delay(125);
+  tone(speaker_pin, 165, 125); // klok
+  delay(125);
+  tone(speaker_pin, 131, 125); // ken
+  delay(125);
+  tone(speaker_pin, 131, 250); // lui
+  delay(300);
+  tone(speaker_pin, 147, 250); // den
+  delay(300);
+}
+
+void loop()
+{
+
+}
+```
+
+![Bowtie](EmojiBowtie.png) | (sjunger) Fader Jakob, Fader Jakob! (men inte särskilt bra)
+:-------------:|:----------------------------------------: 
+
+\pagebreak
+
+## Lektion 17: Enkel melodi: Slutuppgift
+
+Komplettera låten Fader Jacob. Se figur 'Fader Jacob noter' hur de sista tonerna ska vara.
+
+![Fader Jacob noter](17_complete.png)
+
+![Frequency](17_frequency.png)
