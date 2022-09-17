@@ -73,7 +73,7 @@ void loop()
 
 Först ansluter vi bara en FSR:
 
-![Flödesschema](11_fsr_rbg_fsr.png)
+![Flödesschema](11_fsr_rbg_fsr_svenska.png)
 
 ![Bowtie](EmojiBowtie.png) | Om det inte finns någon FSR, använd en LDR
 :-------------:|:----------------------------------------: 
