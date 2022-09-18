@@ -26,16 +26,16 @@ Dessa är kopplingarna:
 Detta är koden för din Arduino:
 
 ```c++
-void setup()
+void setup() 
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
 }
 
-void loop()
+void loop() 
 {
   Serial.write(analogRead(A0) / 4);
-  fördröjning(10);
+  delay(10);
 }
 ```
 
@@ -70,20 +70,25 @@ Detta är koden för bearbetning:
 
 ```
 import processing.serial.*;
-serieport;
+Serial port;
+
+int x = 0;
 
 void setup()
 {
-  storlek (500, 500);
+  size(1000, 256);
   println(Serial.list());
   port = new Serial(this, Serial.list()[0], 9600);
+  background(255, 255, 255);
 }
 
 void draw()
 {
   while(port.available() > 0) {
-    int nummer = port.read();
-    bakgrund(nummer);
+    final int y = port.read();
+    point(x, y);
+    ++x;
+    if (x > 1000) x = 0;
   }
 }
 ```

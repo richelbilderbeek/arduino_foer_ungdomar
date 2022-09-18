@@ -59,6 +59,7 @@ Kpt|Beskrivning
 .  | **Bok 9**
 33 |[RFID 1](RFID1/README.md)
 34 |[RFID 2](RFID2/README.md)
+34 |[Arduino till Processing](arduino_till_processing/README.md)
 35 |[ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
 36 |[Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
 .  | **Bok 10**
