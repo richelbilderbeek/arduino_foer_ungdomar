@@ -1,33 +1,33 @@
-# Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano
+# Lektion 19: 1-Pin-7-Parallell Resistors-Piano
 
-In deze les gaan we een simpele piano maken, die 1 pin gebruikt en 7 parallelle weerstanden.
+I den här lektionen ska vi göra ett enkelt piano som använder 1 stift och 7 parallella motstånd.
 
-We bouwen de piano stap voor stap op en testen elke stap apart.
+Vi bygger pianot steg för steg och testar varje steg för sig.
 
-Het uitlezen van de knoppen hebben we al eerder gezien in lesboekje 2, bladzijde 16.
-Het afspelen van een geluidje hebben we al eerder gezien in lesboekje 3, bladzijde 17.
+Vi har redan sett hur man läser knapparna i lektionshäfte 2, sidan 16.
+Vi har redan sett uppspelningen av ett ljud i lektionshäfte 3, sidan 17.
 
-![Piano](18_frequenties.png) | We beginnen met de middelste toets met frequentie 247. Dan bouwen we naar links 3 toetsen erbij. Daarna bouwen we rechts 3 toetsen erbij. De frequenties staan in dit plaatje,
-:-------------:|:----------------------------------------: 
+![Piano](18_frequency.png) | Vi börjar med mittentangenten med frekvens 247. Sedan lägger vi till 3 tangenter till vänster. Sedan lägger vi till 3 nycklar till höger. Frekvenserna finns på den här bilden,
+:-----------------:|:---------------------- ------- :
 
-![In les 231763256 maken we een parallelle universa piano!](19_parallel-universes.jpg)
-
-\pagebreak
-
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 1 aansluiten
-
-Sluit de eerste knop aan volgens het plaatje. Zet de knop in het midden van je breadboard!
-
-![Een pin](19_fig_1_bb.png)
-
-![Bowtie](EmojiSunglasses.png) | De 'Pull Down' weerstand zorgt dat pin 2 verbonden is met GND als de knop niet ingedrukt is
-:-------------:|:----------------------------------------: 
+![I lektion 231763256 kommer vi att göra ett piano med parallella universum!](19_parallel-universes.jpg)
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 1 code
+## Lektion 19: 1-Pin-7-Parallel Resistors-Piano: Anslutningsuppgift 1
 
-Zet deze code op je Arduino:
+Anslut den första knappen enligt bilden. Sätt knappen i mitten av din brödbräda!
+
+![En nål](19_fig_1_bb.png)
+
+![Bowtie](EmojiSunglasses.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
+:-----------------:|:---------------------- ------- :
+
+\pagebreak
+
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Kommando 1-kod
+
+Sätt den här koden på din Arduino:
 
 ```c++
 const int speaker_pin = 8;
@@ -53,39 +53,39 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | '>' betekent 'groter dan'. De waarde A0 is nooit precies een getal.In de seriële monitor lezen we het getal dat bij de knop hoort af en testen  dan op een getal dat daar net iets onder ligt.
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | '>' betyder 'större än'. Värdet A0 är aldrig exakt en siffra.I seriemonitorn läser vi av siffran som motsvarar knappen och testar sedan efter en siffra som ligger strax under det.
+:-----------------:|:---------------------- ------- :
 
-Krijg je een geluid als je op de knop drukt? Dan kun je door naar opdracht 2.
+Får du ett ljud när du trycker på knappen? Sedan kan du gå vidare till uppgift 2.
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 2
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Uppgift 2
 
-Sluit een tweede knop aan **links** van de eerste, met twee weerstanden ervoor die parallel staan [dus 5k], zie plaatje.
+Anslut en andra knapp **till vänster** om den första, med två motstånd framför sig som är parallella [alltså 5k], se bild.
 
-![parallel](parallel.PNG) | Twee parallele weerstanden van 10k geeft een weerstand van 5k.
-:-------------:|:----------------------------------------: 
+![parallell](parallell.PNG) | Två 10k motstånd parallellt ger ett 5k motstånd.
+:-----------------:|:---------------------- ------- :
 
-![serie](serie.PNG) | Twee weerstanden van 10k in serie geeft een weerstand van 20k.
-:-------------:|:----------------------------------------: 
+![series](series.PNG) | Två 10k motstånd i serie ger ett 20k motstånd.
+:-----------------:|:---------------------- ------- :
 
-![Een pin](19_fig_2_bb.png)
+![En nål](19_fig_2_bb.png)
 
 
-![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
+:-----------------:|:---------------------- ------- :
 
-![Sunglasses](EmojiSunglasses.png) | De nieuwe waarde is hoger dan de waarde van de andere knop. Het nieuwe if-statement moet bovenaan komen.
-:-------------:|:----------------------------------------: 
+![Solglasögon](EmojiSunglasses.png) | Det nya värdet är högre än värdet på den andra knappen. Den nya if-satsen bör komma överst.
+:-----------------:|:---------------------- ------- :
 
-![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
+:-----------------:|:---------------------- ------- :
 
-Gebruik deze code:
+Använd denna kod:
 
-![denk](EmojiThinking.png) | Is het nodig om de hele code opnieuwe in te voeren?
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Är det nödvändigt att ange hela koden igen?
+:-----------------:|:---------------------- ------- :
 
 
 
@@ -124,23 +124,23 @@ void loop()
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 3
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Uppgift 3
 
-Bouw nu een derde toets, links van de vorige. 
+Bygg nu en tredje nyckel, till vänster om den föregående.
 
-Gebruik nu 3 parallele weerstanden.
+Använd nu 3 parallella motstånd.
 
-![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
+:-----------------:|:---------------------- ------- :
 
-![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 3
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 3
 
-![Een pin](19_fig_3_bb.png)
+![En nål](19_fig_3_bb.png)
 
 ```c++
 const int speaker_pin = 8;
@@ -183,23 +183,23 @@ void loop()
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 4
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Uppgift 4
 
-Bouw nu een vierde toets, links van de vorige. 
+Bygg nu en fjärde nyckel, till vänster om den föregående.
 
-Gebruik nu 4 parallele weerstanden.
+Använd nu 4 parallella motstånd.
 
-![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
-:-------------:|:----------------------------------------: 
+![tänk](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
+:-----------------:|:---------------------- ------- :
 
-![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
+:-----------------:|:---------------------- ------- :
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 4
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 4
 
-![Een pin](19_fig_4_bb.png)
+![En nål](19_fig_4_bb.png)
 
 ```c++
 const int speaker_pin = 8;
@@ -227,23 +227,23 @@ void loop()
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 5
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Uppgift 5
 
-Bouw nu de 5e toets rechts van de vorige toetsen. Gebruik nu geen parallele weerstanden, maar 2 in serie geschakelde weerstanden van 10k Ohm.
+Bygg nu den 5:e tangenten till höger om de föregående tangenterna. Använd nu inte parallella motstånd, utan 2 motstånd på 10k Ohm kopplade i serie.
 
-![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
+:-----------------:|:---------------------- ------- :
 
-![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
+:-----------------:|:---------------------- ------- :
 
-De schakeling komt er zo uit te zien.
+Kretsen kommer att se ut så här.
 
-![Een pin](19_fig_5_bb.png)
+![En nål](19_fig_5_bb.png)
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 5
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 5
 
 ```c++
 const int speaker_pin = 8;
@@ -269,27 +269,27 @@ void loop()
 }
 ```
 
-![Nu kan elk lid van de succesvolle boyband 5ive een knop van je piano bespelen!](19_5ive.jpeg)
+![Nu kan alla medlemmar i det framgångsrika pojkbandet 5ive spela en knapp på ditt piano!](19_5ive.jpeg)
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Opdracht 6
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Uppgift 6
 
-Bouw nu de 6e toets rechts van de vorige toetsen. Gebruik ook nu geen parallele weerstanden, maar 3 in serie geschakelde weerstanden van 10k Ohm.
+Bygg nu den 6:e tangenten till höger om de föregående tangenterna. Använd inte heller parallella motstånd utan 3 10k Ohm seriekopplade motstånd.
 
-![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
+:-----------------:|:---------------------- ------- :
 
-![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
+:-----------------:|:---------------------- ------- :
 
-De schakeling komt er zo uit te zien.
+Kretsen kommer att se ut så här.
 
-![Een pin](19_fig_6_bb.png)
+![En nål](19_fig_6_bb.png)
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Oplossing 6
+## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 6
 
 ```c++
 const int speaker_pin = 8;
@@ -315,18 +315,18 @@ void loop()
 }
 ```
 
-![Het subphylum van de zespotigen (hexapoda) kan nu met een poot per toets op jouw piano spelen!](19_hexapod.jpg)
+![Den sexbenta subfilen (hexapoda) kan nu spela med ett ben per tangent på ditt piano!](19_hexapod.jpg)
 
 \pagebreak
 
-## Les 19: 1-Pin-7-Parallelle-Weerstanden-Piano: Eindopdracht
+## Lektion 19: 1-Pin-7-Parallel Resistors-Piano: Final Assignment
 
-Maak een piano van zeven toetsen af door de 7e knop rechts bij te zetten. Gebruik nu 4 in serie geschakelde weerstanden van 10 kOhm.
+Komplettera ett piano med sju tangenter genom att lägga till den sjunde knappen till höger. Använd nu 4 motstånd på 10 kOhm kopplade i serie.
 
-![denk](EmojiThinking.png) | Gebruik de seriële monitor om de waarde van de nieuwe knop te bepalen.
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
+:-----------------:|:---------------------- ------- :
 
-![denk](EmojiThinking.png) | Welke frequentie krijgt de nieuwe knop?
-:-------------:|:----------------------------------------: 
+![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
+:-----------------:|:---------------------- ------- :
 
-![Wibi Soerjadi gebruikt meestal meer dan zeven toetsen](19_wibi_soerjadi.png)
+![Wibi Soerjadi använder vanligtvis fler än sju nycklar](19_wibi_soerjadi.png)
