@@ -13,7 +13,7 @@ På Nederländsk häter den låt 'Vader Jacob'.
 
 Anslut figuren 'Ansluta en högtalare'.
 
-![](17_connecting.png)
+![](17_aansluiten.png)
 
 > Ansluta en högtalare
 
