@@ -1,8 +1,11 @@
 # Lektion 17: Enkel melodi
 
 I den här lektionen ska vi göra en enkel melodi, som är Fader Jakob!
+På Nederländsk häter den låt 'Vader Jacob'.
 
-!['Vader Jacob' var en hit 1975 av det holländska bandet H2OR](17_vader_jacob.jpg)
+![](17_vader_jacob.jpg)
+
+> 'Vader Jacob' var en hit 1975 av det holländska bandet H2OR
 
 \pagebreak
 
@@ -10,7 +13,9 @@ I den här lektionen ska vi göra en enkel melodi, som är Fader Jakob!
 
 Anslut figuren 'Ansluta en högtalare'.
 
-![Ansluta en högtalare](17_connecting.png)
+![](17_connecting.png)
+
+> Ansluta en högtalare
 
 Sätt den här koden på din Arduino:
 
@@ -37,17 +42,19 @@ Vad hör du?
 
 Du hör den första tonen av fader Jakob!
 
-I figuren 'The first not of Father Jacob' ser du den första tonen som noter.
+I figuren 'Fader Jacobs första ton' ser du den första tonen som noter.
 Under noten finns texten, därunder tonhöjden i Hertz.
 
-![Fader Jacobs första ton](17_va.png)
+![](17_va.png)
+
+> Fader Jacobs första ton
 
 ![Solglasögon](EmojiSunglasses.png) | 131 Hertz är tonhöjden för tonen C.
 :-------------:|:----------------------------------------: 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`tone(..., 131, ...);`| (sjunger) gör!
+`tone(..., 131, ...);`| (sjunger) do!
 
 \pagebreak
 
@@ -59,7 +66,11 @@ Programmera de två första tonerna av Vader Jacob.
 
 ![De två första tonerna av Vader Jacob](17_vader.png)
 
+> De två första tonerna av Vader Jacob
+
 ![Nej, låten handlar inte om honom](17_darth-vader.jpg)
+
+> Nej, låten handlar inte om honom
 
 \pagebreak
 
@@ -96,9 +107,13 @@ void loop()
 Den tredje tonen av Vader Jacob har en tonhöjd på 165 Hertz.
 Programmera de tre första tonerna av Fader Jakob.
 
-![De tre första tonerna av Vader Jacob](17_vader_ja.png)
+![De tre första tonerna av Fader Jacob](17_vader_ja.png)
+
+> De tre första tonerna av Fader Jacob
 
 ![En riktig Groninger avslutar de flesta meningar med 'ja'](17_kim_feenstra.jpg)
+
+> En riktig Groninger avslutar de flesta meningar med 'ja'
 
 \pagebreak
 
@@ -128,7 +143,7 @@ void loop()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`tone(..., 165, ...);`| (sjunger) mig!
+`tone(..., 165, ...);`| (sjunger) mi!
 
 \pagebreak
 
@@ -139,7 +154,11 @@ Programmera den fjärde tonen av Fader Jakob.
 
 ![De första fyra tonerna av Vader Jacob](17_vader_jacob.png)
 
+> De första fyra tonerna av Vader Jacob
+
 ![Jacob Black kan förvandlas till en varg](17_jacob_black.jpg)
+
+> Jacob Black kan förvandlas till en varg
 
 \pagebreak
 
@@ -178,7 +197,11 @@ De femte, sjätte, sjunde och åttonde noterna är desamma som de fyra första. 
 
 ![De första åtta tonerna av Vader Jacob](17_vader_jacob_2x.png)
 
+> De första åtta tonerna av Vader Jacob
+
 ![Tvillingar är typ av återkommande ensamvargar](17_twins.jpeg)
+
+> Tvillingar är typ av återkommande ensamvargar
 
 \pagebreak
 
@@ -230,7 +253,11 @@ Den tredje tonen, "ännu", bör vara i 500 millisekunder.
 
 ![Sover du fortfarande](17_sleeps_you_nog_2x.png)
 
-![Vissa människor har blivit mycket kända för att sova?](17_sleeping_beauty.jpg)
+> Sover du fortfarande
+
+![Vissa människor har blivit mycket kända för att sova](17_sleeping_beauty.jpg)
+
+> Vissa människor har blivit mycket kända för att sova
 
 \pagebreak
 
@@ -277,7 +304,11 @@ De toner som är sammanfogade ('Alla klockor') är var och en 125 millisekunder 
 
 ![Alla klockor ringer](17_alle_kloks_2x.png)
 
+> Alla klockor ringer
+
 ![Du kan också bli berömd genom att ringa klockor](17_klokluider.png)
+
+> Du kan också bli berömd genom att ringa klockor
 
 \pagebreak
 
@@ -320,4 +351,8 @@ Komplettera låten Fader Jacob. Se figur 'Fader Jacob noter' hur de sista tonern
 
 ![Fader Jacob noter](17_complete.png)
 
-![Frequency](17_frequency.png)
+> Fader Jacob noter
+
+![Frekvenser](17_frequency.png)
+
+> Frekvenser
