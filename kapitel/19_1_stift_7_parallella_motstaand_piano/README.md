@@ -277,7 +277,9 @@ void loop()
 }
 ```
 
-![Nu kan alla medlemmar i det framgångsrika pojkbandet 5ive spela en knapp på ditt piano!](19_5ive.jpeg)
+![](19_5ive.jpeg)
+
+> Nu kan alla medlemmar i det framgångsrika pojkbandet 5ive spela en knapp på ditt piano!
 
 \pagebreak
 
@@ -293,7 +295,7 @@ Bygg nu den 6:e tangenten till höger om de föregående tangenterna. Använd in
 
 Kretsen kommer att se ut så här.
 
-![En nål](19_fig_6_bb.png)
+![](19_fig_6_bb.png)
 
 > Kretsen för uppgift 6
 
