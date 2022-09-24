@@ -170,6 +170,6 @@ void loop()
 
 Gör ett piano med sju tangenter. Se figur 'Frekvenser' för övriga nummer.
 
-![Frequency](18_frequency.png)
+![Frequenser](18_frequenties.png)
 
 ![Pianister går vilda på ditt piano!](18_jan_vayne.jpeg)
