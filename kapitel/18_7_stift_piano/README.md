@@ -62,7 +62,7 @@ void loop()
 ```
 
 ![Bowtie](EmojiBowtie.png) | Ah, 'digitalRead' ska vara 'HIGH' istället för 'LOW'!
-:-----------------:|:---------------------- ------- :
+:-------------:|:----------------------------------------: 
 
 ![Solglasögon](EmojiSunglasses.png) | Om koden *fungerade*, vände du GND och 5V
 :-------------:|:----------------------------------------: 
