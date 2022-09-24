@@ -7,10 +7,12 @@ Vi bygger pianot steg för steg och testar varje steg för sig.
 Vi har redan sett hur man läser knapparna i lektionshäfte 2, sidan 16.
 Vi har redan sett uppspelningen av ett ljud i lektionshäfte 3, sidan 17.
 
-![Piano](18_frequency.png) | Vi börjar med mittentangenten med frekvens 247. Sedan lägger vi till 3 tangenter till vänster. Sedan lägger vi till 3 nycklar till höger. Frekvenserna finns på den här bilden,
+![Piano](18_frequenties.png) | Vi börjar med mittentangenten med frekvens 247. Sedan lägger vi till 3 tangenter till vänster. Sedan lägger vi till 3 nycklar till höger. Frekvenserna finns på den här bilden,
 :-------------:|:----------------------------------------: 
 
-![I lektion 231763256 kommer vi att göra ett piano med parallella universum!](19_parallel-universes.jpg)
+![](19_parallel-universes.jpg)
+
+> I lektion 231763256 kommer vi att göra ett piano med parallella universum!
 
 \pagebreak
 
@@ -18,7 +20,9 @@ Vi har redan sett uppspelningen av ett ljud i lektionshäfte 3, sidan 17.
 
 Anslut den första knappen enligt bilden. Sätt knappen i mitten av din brödbräda!
 
-![En nål](19_fig_1_bb.png)
+![](19_fig_1_bb.png)
+
+> Lösning 1
 
 ![Bowtie](EmojiSunglasses.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
 :-------------:|:----------------------------------------: 
@@ -53,7 +57,7 @@ void loop()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | '>' betyder 'större än'. Värdet A0 är aldrig exakt en siffra.I seriemonitorn läser vi av siffran som motsvarar knappen och testar sedan efter en siffra som ligger strax under det.
+![Solglasögon](EmojiSunglasses.png) | '>' betyder 'större än'. Värdet `A0` är aldrig exakt en siffra. I seriemonitorn läser vi av siffran som motsvarar knappen och testar sedan efter en siffra som ligger strax under det.
 :-------------:|:----------------------------------------: 
 
 Får du ett ljud när du trycker på knappen? Sedan kan du gå vidare till uppgift 2.
@@ -70,8 +74,9 @@ Anslut en andra knapp **till vänster** om den första, med två motstånd framf
 ![series](series.PNG) | Två 10k motstånd i serie ger ett 20k motstånd.
 :-------------:|:----------------------------------------: 
 
-![En nål](19_fig_2_bb.png)
+![](19_fig_2_bb.png)
 
+> Kretsen för uppgift 2
 
 ![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
 :-------------:|:----------------------------------------: 
@@ -86,9 +91,6 @@ Använd denna kod:
 
 ![think](EmojiThinking.png) | Är det nödvändigt att ange hela koden igen?
 :-------------:|:----------------------------------------: 
-
-
-
 
 ```c++
 const int speaker_pin = 8;
@@ -140,7 +142,9 @@ Använd nu 3 parallella motstånd.
 
 ## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 3
 
-![En nål](19_fig_3_bb.png)
+![](19_fig_3_bb.png)
+
+> Lösning 3
 
 ```c++
 const int speaker_pin = 8;
@@ -199,7 +203,9 @@ Använd nu 4 parallella motstånd.
 
 ## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 4
 
-![En nål](19_fig_4_bb.png)
+![](19_fig_4_bb.png)
+
+> Lösning 4
 
 ```c++
 const int speaker_pin = 8;
@@ -239,7 +245,9 @@ Bygg nu den 5:e tangenten till höger om de föregående tangenterna. Använd nu
 
 Kretsen kommer att se ut så här.
 
-![En nål](19_fig_5_bb.png)
+![](19_fig_5_bb.png)
+
+> Krets för uppgift 5
 
 \pagebreak
 
@@ -287,6 +295,8 @@ Kretsen kommer att se ut så här.
 
 ![En nål](19_fig_6_bb.png)
 
+> Kretsen för uppgift 6
+
 \pagebreak
 
 ## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 6
@@ -315,7 +325,9 @@ void loop()
 }
 ```
 
-![Den sexbenta subfilen (hexapoda) kan nu spela med ett ben per tangent på ditt piano!](19_hexapod.jpg)
+![](19_hexapod.jpg)
+
+> Den sexbenta subfilen (hexapoda) kan nu spela med ett ben per tangent på ditt piano!
 
 \pagebreak
 
@@ -329,4 +341,6 @@ Komplettera ett piano med sju tangenter genom att lägga till den sjunde knappen
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
 :-------------:|:----------------------------------------: 
 
-![Wibi Soerjadi använder vanligtvis fler än sju nycklar](19_wibi_soerjadi.png)
+![](19_wibi_soerjadi.png)
+
+> Wibi Soerjadi använder vanligtvis fler än sju fingrag
