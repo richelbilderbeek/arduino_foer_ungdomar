@@ -251,7 +251,7 @@ Nu kommer två gånger 'Sover du fortfarande'. 'Sov' samma höjd som 'Ja', 'du' 
 Fram till nu varade alla anteckningar i 250 millisekunder.
 Den tredje tonen, "ännu", bör vara i 500 millisekunder.
 
-![Sover du fortfarande](17_sleeps_you_nog_2x.png)
+![Sover du fortfarande](17_slaapt_gij_nog_2x.png)
 
 > Sover du fortfarande
 
@@ -302,11 +302,11 @@ Nu kommer två gånger "Alla klockor ringer".
 Platserna visas i figuren 'Alla klockor ringer'.
 De toner som är sammanfogade ('Alla klockor') är var och en 125 millisekunder långa.
 
-![Alla klockor ringer](17_alle_kloks_2x.png)
+![Alla klockor ringer](17_alle_klokken_2x.png)
 
 > Alla klockor ringer
 
-![Du kan också bli berömd genom att ringa klockor](17_klokluider.png)
+![Du kan också bli berömd genom att ringa klockor](17_klokkenluider.png)
 
 > Du kan också bli berömd genom att ringa klockor
 
@@ -349,10 +349,10 @@ void loop()
 
 Komplettera låten Fader Jacob. Se figur 'Fader Jacob noter' hur de sista tonerna ska vara.
 
-![Fader Jacob noter](17_complete.png)
+![Fader Jacob noter](17_compleet.png)
 
 > Fader Jacob noter
 
-![Frekvenser](17_frequency.png)
+![Frekvenser](17_frequenties.png)
 
 > Frekvenser
