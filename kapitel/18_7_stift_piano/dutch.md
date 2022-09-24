@@ -1,18 +1,18 @@
-# Lektion 18: 7-stifts piano
+# Les 18: 7-Pin Piano
 
-I den här lektionen ska vi göra ett enkelt piano som använder 7 stift.
+In deze les gaan we een simpele piano maken, die 7 pinnen gebruikt.
 
-![En pino](18_pino.jpg)
+![Een pino](18_pino.jpg)
 
 \pagebreak
 
-## Lektion 18: 7-stifts piano: Uppgift 1
+## Les 18: 7-Pin Piano: Opdracht 1
 
-Anslut figuren 'A pin'.
+Sluit figuur 'Een pin' aan.
 
-![En nål](18_7_pin_piano_1.png)
+![Een pin](18_7_pin_piano_1.png)
 
-Sätt den här koden på din Arduino:
+Zet deze code op je Arduino:
 
 ```c++
 const int speaker_pin = 8;
@@ -34,12 +34,12 @@ void loop()
 }
 ```
 
-Vi gör ett piano. Detta är den första tangenten med en tonhöjd på 175 Hertz.
-Men det finns ett fel i koden! Fixa koden.
+We maken een piano. Dit is de eerste toets met een toonhoogte van 175 Hertz.
+Maar er zit een fout in de code! Repareer de code.
 
 \pagebreak
 
-## Lektion 18: 7-stifts piano: Lösning 1
+## Les 18: 7-Pin Piano: Oplossing 1
 
 ```c++
 const int speaker_pin = 8;
@@ -61,31 +61,31 @@ void loop()
 }
 ```
 
-![Bowtie](EmojiBowtie.png) | Ah, 'digitalRead' ska vara 'HIGH' istället för 'LOW'!
-:-----------------:|:---------------------- ------- :
+![Bowtie](EmojiBowtie.png) | Ah, `digitalRead` moet `HIGH` zijn, inplaats van `LOW`!
+:-------------:|:----------------------------------------: 
 
-![Solglasögon](EmojiSunglasses.png) | Om koden *fungerade*, vände du GND och 5V
+![Sunglasses](EmojiSunglasses.png) | Als de code het *wel* deed, heb je GND en 5V omgedraaid
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Lektion 18: 7-stifts piano: Uppgift 2
+## Les 18: 7-Pin Piano: Opdracht 2
 
-Bygg en andra nyckel på stift 3.
-Den behöver också ett eget motstånd.
-Detta bör ha en tonhöjd på 196 Hertz.
+Bouw een tweede toets erbij, op pin 3. 
+Deze heeft ook een eigen weestandje nodig. 
+Deze moet een toonhoogte krijgen van 196 Hertz.
 
-![Bowtie](EmojiBowtie.png) | Att bygga en andra knapp är precis som den första
+![Bowtie](EmojiBowtie.png) | Een tweede knop bouwen gaat net als de eerste
 :-------------:|:----------------------------------------: 
 
-![Solglasögon](EmojiSunglasses.png) | Koden för den andra knappen går också som den första
+![Sunglasses](EmojiSunglasses.png) | De code voor de tweede knop gaat ook net als de eerste
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Lektion 18: 7-stifts piano: Lösning 2
+## Les 18: 7-Pin Piano: Oplossing 2
 
-![Lösning 2](18_7_pin_piano_2.png)
+![Oplossing 2](18_7_pin_piano_2.png)
 
 ```c++
 const int speaker_pin = 8;
@@ -116,19 +116,19 @@ void loop()
 
 \pagebreak
 
-## Lektion 18: 7-stifts piano: Uppgift 3
+## Les 18: 7-Pin Piano: Opdracht 3
 
-Bygg en tredje nyckel på stift 4.
-Den behöver också ett eget motstånd.
-Nyckeln ska ha en stigning på 220 Hertz.
+Bouw een derde toets erbij, op pin 4. 
+Deze heeft ook een eigen weerstandje nodig. 
+De toets moet een toonhoogte krijgen van 220 Hertz.
 
-![En riktig Grunninger kan redan bli vild!](18_kim_feenstra_vader_ja.png)
+![Een echte Grunninger kan nu al los!](18_kim_feenstra_vader_ja.png)
 
 \pagebreak
 
-## Lektion 18: 7-stifts piano: Lösning 3
+## Les 18: 7-Pin Piano: Oplossing 3
 
-![Lösning 3](18_7_pin_piano_3.png)
+![Oplossing 3](18_7_pin_piano_3.png)
 
 ```c++
 const int speaker_pin = 8;
@@ -166,10 +166,10 @@ void loop()
 
 \pagebreak
 
-## Lektion 18: 7-pin Piano: Final Assignment
+## Les 18: 7-Pin Piano: Eindopdracht
 
-Gör ett piano med sju tangenter. Se figur 'Frekvenser' för övriga nummer.
+Maak een piano van zeven toetsen. Zie figuur 'Frequenties' voor de andere getallen.
 
-![Frequency](18_frequency.png)
+![Frequenties](18_frequenties.png)
 
-![Pianister går vilda på ditt piano!](18_jan_vayne.jpeg)
+![Pianisten kunnen los op je piano!](18_jan_vayne.jpeg)
