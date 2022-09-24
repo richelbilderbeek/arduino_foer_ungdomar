@@ -116,7 +116,7 @@ Samma kod, förutom:
 
 Anslut nu en extra servomotor, som figuren 'Servomotorer på batteri med knapp'.
 
-![Servomotorer på batteri med knapp](3_meer_servo_motors_3.png)
+![Servomotorer på batteri med knapp](3_meer_servo_motoren_3.png)
 
 ### 16.3.2 Övning 2
 

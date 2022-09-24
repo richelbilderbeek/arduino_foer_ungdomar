@@ -6,7 +6,9 @@ I den här lektionen kommer vi att styra en servo med en FSR.
 
 Först ansluter vi bara en FSR:
 
-![FSR](4_FSR_with_servo_without_servo.png)
+![FSR](4_FSR_met_servo_zonder_servo.png)
+
+> FSR
 
 ![Bowtie](EmojiBowtie.png) | Finns det ingen FSR? använd sedan en LDR
 :-------------:|:----------------------------------------: 
@@ -59,7 +61,9 @@ void loop()
 
 Nu kopplar vi även in en servo. Om du vill fuska: se figuren 'Ansluter FSR med servo'.
 
-![Anslut FSR med servo](4_FSR_with_servo.png)
+![Anslut FSR med servo](4_FSR_met_servo.png)
+
+> Anslut FSR med servo
 
 \pagebreak
 

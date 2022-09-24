@@ -6,7 +6,7 @@ Anslut en potentiometer.
 Mittstiftet ska gå till `A0`. 
 Se figur 'Servomotor och potentiometer'
 
-![Servomotor och potentiometer](3_servo_motor_with_potmeter.png)
+![Servomotor och potentiometer](3_servo_motor_met_potmeter.png)
 
 \pagebreak
 

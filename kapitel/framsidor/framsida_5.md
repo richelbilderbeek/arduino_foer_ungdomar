@@ -1,8 +1,8 @@
 ![Bok 5: tangentbord](framsida_5.png)
 
 `#`|Beskriving
----|----------------------------
-17 |Tangentbord 1: Qix
-18 |Tangentbord 2: Tron
-19 |Tangentbord 3: Terminator II
-20 |Tangentbord 4: Paratrooper
+---|-----------------------------------
+17 |Enkel melodi
+18 |7-stift-piano
+19 |1-stift-7-parallella-motstånd-piano
+20 |1-stift-7-motstånd-i-serie-piano
