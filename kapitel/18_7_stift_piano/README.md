@@ -4,6 +4,8 @@ I den här lektionen ska vi göra ett enkelt piano som använder 7 stift.
 
 ![En pino](18_pino.jpg)
 
+> En pino
+
 \pagebreak
 
 ## Lektion 18: 7-stifts piano: Uppgift 1
@@ -124,6 +126,8 @@ Nyckeln ska ha en stigning på 220 Hertz.
 
 ![En riktig Grunninger kan redan bli vild!](18_kim_feenstra_vader_ja.png)
 
+> En riktig Grunninger kan redan bli vild!
+
 \pagebreak
 
 ## Lektion 18: 7-stifts piano: Lösning 3
@@ -172,4 +176,8 @@ Gör ett piano med sju tangenter. Se figur 'Frekvenser' för övriga nummer.
 
 ![Frequenser](18_frequenties.png)
 
+> Frequenser
+
 ![Pianister går vilda på ditt piano!](18_jan_vayne.jpeg)
+
+> Pianister går vilda på ditt piano!
