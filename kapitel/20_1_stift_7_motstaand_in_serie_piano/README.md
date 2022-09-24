@@ -1,24 +1,24 @@
-# Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano
+# Lektion 20: 1-pin-7-motstånd-i-serien-piano
 
-In deze les gaan we een piano maken die maar een pin nodig heeft en 8 weerstanden.
+I den här lektionen ska vi göra ett piano som bara behöver en stift och 8 motstånd.
 
-![Met deze serie van breuken kun je pi berekenen](20_leibniz.png)
+![Med den här bråkserien kan du beräkna pi](20_leibniz.png)
 
-![Bowtie](EmojiSunglasses.png) | pi is een beroemd getal tussen de drie en vier
+![Bowtie](EmojiSunglasses.png) | pi är ett känt tal mellan tre och fyra
 :-------------:|:----------------------------------------: 
 
-![Sunglasses](EmojiSunglasses.png) | Dit heeft niks met piano's te maken...
+![Solglasögon](EmojiSunglasses.png) | Det har inget med pianon att göra...
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 1
+## Lektion 20: 1-stift-7-motstånd-i-serien-piano: Uppgift 1
 
-Bouw 'Opdracht 1' na:
+Bygg 'Uppdrag 1':
 
-![Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 1](20_1.png)
+![Lektion 20: 1-Pin-7-Resistors-In-Series-Piano: Uppgift 1](20_1.png)
 
-Zet deze code op je Arduino:
+Sätt den här koden på din Arduino:
 
 ```c++
 const int speaker_pin = 8;
@@ -39,33 +39,37 @@ void loop()
 
 ```
 
- * Welke waarde krijgt de Arduino als de knop is ingedrukt?
- * Welke waarde krijgt de Arduino als de knop niet is ingedrukt?
+ * Vilket värde får Arduino när man trycker på knappen?
+ * Vilket värde får Arduino om knappen inte trycks in?
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Oplossing 1
+## Lektion 20: 1-Pin-7-Resistors-I-Series-Piano: Lösning 1
 
-Als de knop is ingedrukt krijg je waarde 0.
-Als de knop niet is ingedrukt krijg je waarde 1023.
+När du trycker på knappen får du värdet 0.
+Om knappen inte trycks in får du värdet 1023.
 
-![Als de knop is ingedrukt](20_1_aan.png)
+![](20_1_on.png)
 
-![Als de knop niet is ingedrukt](20_1_uit.png)
+> När knappen trycks in
+
+![](20_1_out.png)
+
+> Om knappen inte trycks in
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 2
+## Lektion 20: 1-Pin-7-Resistors-In-Series-Piano: Uppgift 2
 
-Als de knop is ingedrukt, laat dan de piezo 250 milliseconden piepen op een frequentie van 175 Hertz.
-Laat de Arduino aan het eind van `loop` 1 milliseconde wachten.
+När knappen trycks ned, gör piezopip i 250 millisekunder med en frekvens på 175 Hertz.
+I slutet av "loop", låt Arduino vänta i 1 millisekund.
 
-![Bowtie](EmojiBowtie.png) | Als je dit niet meer weet, spiek dan bij de vorige les!
+![Bowtie](EmojiBowtie.png) | Om du inte kommer ihåg detta, kolla föregående lektion!
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Oplossing 2
+## Lektion 20: 1-stift-7-motstånd-i-serien-piano: Lösning 2
 
 ```c++
 const int speaker_pin = 8;
@@ -90,22 +94,22 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | Oh ja, zo moest het!
+![Solglasögon](EmojiSunglasses.png) | Åh ja, det var så det fick bli!
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 3
+## Lektion 20: 1-Pin-7-Resistors-In-Series-Piano: Uppgift 3
 
-Bouw het volgende na:
+Bygg följande:
 
-![Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 3](20_2.png)
+![Lektion 20: 1-Pin-7-Resistors-In-Series-Piano: Uppgift 3](20_2.png)
 
-Programmeer dat de tweede knop een toon maakt van 196 Hertz.
+Programmera den andra knappen för att skapa en 196 Hertz-ton.
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Oplossing 3
+## Lektion 20: 1-Pin-7-Resistors-I-Series-Piano: Lösning 3
 
 ```c++
 const int speaker_pin = 8;
@@ -137,17 +141,19 @@ void loop()
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 4
+## Lektion 20: 1-stift-7-motstånd-i-serien-piano: Uppgift 4
 
-Bouw het volgende na:
+Bygg följande:
 
-![Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 4](20_3.png)
+![Uppgift 4](20_3.png)
 
-Programmeer dat de derde knop een toon maakt van 220 Hertz.
+> Uppgift 4
+
+Programmera den tredje knappen för att skapa en ton på 220 Hertz.
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Oplossing 4
+## Lektion 20: 1-Pin-7-Resistors-I-Series-Piano: Lösning 4
 
 ```c++
 const int speaker_pin = 8;
@@ -184,19 +190,21 @@ void loop()
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 5
+## Lektion 20: 1-Pin-7-Resistors-In-Series-Piano: Uppgift 5
 
-Bouw nu zelf een vierde knop. 
+Bygg nu en fjärde knapp själv.
 
-Programmeer dat de vierde knop een toon maakt van 247 Hertz.
+Programmera den fjärde knappen för att skapa en ton på 247 Hertz.
 
-![Een NES controller heeft ook 4 knoppen](20_nes_controller.jpeg)
+![En NES-kontroller har också 4 knappar](20_nes_controller.jpeg)
+
+> En NES-kontroller har också 4 knappar
 
 \pagebreak
 
-## Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Oplossing 5
+## Lektion 20: 1-stift-7-motstånd-i-serien-piano: Lösning 5
 
-![Les 20: 1-Pin-7-Weerstanden-In-Serie-Piano: Opdracht 5](20_4.png)
+![Lektion 20: 1-Pin-7-Resistors-In-Series-Piano: Uppgift 5](20_4.png)
 
 ```c++
 const int speaker_pin = 8;
@@ -222,9 +230,11 @@ void loop()
 
 \pagebreak
 
-## Eindopdracht
+## Slutuppgift
 
-Maak de piano af met zeven knoppen.
-De laatste tonen zijn 262, 294 en 330 Hertz.
+Komplettera pianot med sju knappar.
+De sista tonerna är 262, 294 och 330 Hertz.
 
-![Amina Figarova heeft echt niet genoeg aan zeven toetsen](20_amina_figarova.jpeg)
+![](20_amina_figarova.jpeg)
+
+> Amina Figarova behöver verkligen använder mer än sju fingrar
