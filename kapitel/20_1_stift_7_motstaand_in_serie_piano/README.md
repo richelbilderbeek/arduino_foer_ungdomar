@@ -49,11 +49,11 @@ void loop()
 När du trycker på knappen får du värdet 0.
 Om knappen inte trycks in får du värdet 1023.
 
-![](20_1_on.png)
+![](20_1_aan.png)
 
 > När knappen trycks in
 
-![](20_1_out.png)
+![](20_1_uit.png)
 
 > Om knappen inte trycks in
 
