@@ -68,10 +68,10 @@ Får du ett ljud när du trycker på knappen? Sedan kan du gå vidare till uppgi
 
 Anslut en andra knapp **till vänster** om den första, med två motstånd framför sig som är parallella [alltså 5k], se bild.
 
-![parallell](parallell.PNG) | Två 10k motstånd parallellt ger ett 5k motstånd.
+![parallell](parallell.png) | Två 10k motstånd parallellt ger ett 5k motstånd.
 :-------------:|:----------------------------------------: 
 
-![series](series.PNG) | Två 10k motstånd i serie ger ett 20k motstånd.
+![serie](serie.png) | Två 10k motstånd i serie ger ett 20k motstånd.
 :-------------:|:----------------------------------------: 
 
 ![](19_fig_2_bb.png)
