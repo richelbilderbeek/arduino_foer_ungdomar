@@ -39,13 +39,13 @@ Kpt|Beskrivning
 .  | **Bok 6**
 21 |[Theremin med potmeter](21_theremin_potmeters/README.md)
 22 |[Theremin med LDR](22_theremin_ldr/README.md)
-23 |[Theremin med infraröd distanssensor](23_theremin_infraroed/README.md)
+23 |[Theremin med ultraljud distanssensor](23_theremin_infraroed/README.md)
 24 |[Theremin med joystick](24_theremin_joystick/README.md)
 .  | **Bok 7**
-25 |[Kapacitiv sensor 1: een](kapacitiv_sensor_1/README.md)
-26 |[Kapacitiv sensor 2: twee losse](kapacitiv_sensor_2/README.md)
-27 |[Kapacitiv sensor 3: twee gekoppelde](kapacitiv_sensor_3/README.md)
-28 |Kapacitiv sensor 4: drie gekoppelde voor Arduino Invaders
+25 |[Kapacitiv sensor 1: ett](kapacitiv_sensor_1/README.md)
+26 |[Kapacitiv sensor 2: två seperata](kapacitiv_sensor_2/README.md)
+27 |[Kapacitiv sensor 3: två kopplade](kapacitiv_sensor_3/README.md)
+28 |Kapacitiv sensor 4: tre kopplade för Arduino Invaders
 .  | **Bok 8**
 29 |[7 segment display](sju_segment_display/README.md)
 30 |[LCD 1](LCD1/README.md)
