@@ -60,8 +60,8 @@ Kpt|Beskrivning
 33 |[RFID 1](RFID1/README.md)
 34 |[RFID 2](RFID2/README.md)
 34 |[Arduino till Processing](arduino_till_processing/README.md)
-35 |[ArduinoISP](ArduinoISP/README.md): bootloader branden met de Arduino als ISP
-36 |[Bare-bone Arduino](BareBoneArduino/README.md): de Arduino zonder printplaat
+35 |[Arduino som ISP](arduino_som_isp/README.md): bränner bootloader
+36 |[Bare-bone Arduino](bare_bone_arduino/README.md): bare bone Arduino
 .  | **Bok 10**
 37 |Skiftregister 1: en skiftregister
 38 |Skiftregister 2: två skiftregistrar
