@@ -88,4 +88,5 @@ andere stijl dan wij gebruiken in het boek. Toch is deze code net zo goed.
 ## Links
 
  * [Adafruit page about the MiFare card](https://learn.adafruit.com/adafruit-pn532-rfid-nfc/mifare)
- * [MiFare 1k datasheet](http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf)
+ * [MiFare 1k datasheet](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf)
+                         
