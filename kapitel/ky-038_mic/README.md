@@ -2,7 +2,7 @@
 
 Under den här lektionen använder vi en KY-038 microfon.
 
-![](ky-038_microfon)
+![](ky-038_microfon.png)
 
 ## X.1 Uppgift
 

@@ -24,7 +24,8 @@ Om naar een blok te schrijven kan je het voorbeeld `rfid | ReadAndWrite` gebruik
 
 **Hoe zit het nou precies?**
 
-Bytes 0-3 van blok 0 is het UID, voor sommige chips is dit byte 0-7. Het laatste blok van elke sector is de sector trailer, hier staan twee keys en de access bits. Byte 0-5 van de sector trailer vormen key A, bytes 10-15 key B. Welke blokken vergrendeld zijn met welke key en wat je wel/niet met de blokken mag doen wordt bepaald met de access bits (byte 6-9 van de sector trailer). Als je wil weten hoe je de access bits moet zetten om blokken te vergrendelen e.d. lees dan section 8 van het [datasheet](http://cache.nxp.com/documents/data_sheet/MF1S50YYX_V1.pdf), hier staat alles wat je zou willen weten over MiFare geheugen.
+Bytes 0-3 van blok 0 is het UID, voor sommige chips is dit byte 0-7. Het laatste blok van elke sector is de sector trailer, hier staan twee keys en de access bits. Byte 0-5 van de sector trailer vormen key A, bytes 10-15 key B. Welke blokken vergrendeld zijn met welke key en wat je wel/niet met de blokken mag doen wordt bepaald met de access bits (byte 6-9 van de sector trailer). Als je wil weten hoe je de access bits moet zetten om blokken te vergrendelen e.d. 
+lees dan section 8 van de datasheet, hier staat alles wat je zou willen weten over MiFare geheugen.
 
 ## Opdracht
 
@@ -39,4 +40,3 @@ Bytes 0-3 van blok 0 is het UID, voor sommige chips is dit byte 0-7. Het laatste
 ## Links
 
  * [Adafruit page about the MiFare card](https://learn.adafruit.com/adafruit-pn532-rfid-nfc/mifare)
- * [MiFare 1k datasheet](http://www.nxp.com/documents/data_sheet/MF1S50YYX.pdf)
