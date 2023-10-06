@@ -23,11 +23,11 @@ cp arduino_book_style.theme $build_folder
 
 cd "${build_folder}" || exit 41
 
-cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_02.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_03.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
-cat README_04.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
+{ cat README_00.md ; echo " " ; echo "\pagebreak" ; echo " "; } >> README.md
+{ cat README_01.md ; echo " " ; echo "\pagebreak" ; echo " "; } >> README.md
+{ cat README_02.md ; echo " " ; echo "\pagebreak" ; echo " "; } >> README.md
+{ cat README_03.md ; echo " " ; echo "\pagebreak" ; echo " "; } >> README.md
+{ cat README_04.md ; echo " " ; echo "\pagebreak" ; echo " "; } >> README.md
 
 # Table of Content
 # Code has highlights following the tango color scheme
