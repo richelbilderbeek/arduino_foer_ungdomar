@@ -65,7 +65,7 @@ Kpt|Beskrivning
 .  | **Bok 10**
 37 |Skiftregister 1: en skiftregister
 38 |Skiftregister 2: två skiftregistrar
-39 |[NeoPixels 1: blink op een LEDje](NeoPixel1/README.md)
+39 |[NeoPixels 1: blink](neo_pixel_1/README.md)
 40 |[NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
 .  | **Boek 11**
 33 |[DC motor med motstånd](dc_motor_met_transistor/README.md)
