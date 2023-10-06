@@ -54,8 +54,21 @@ void loop()
 }
 ```
 
+![Solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
+:-------------:|:----------------------------------------: 
+
+![](faergcirkel.png)
+
+> Färgcirkel. Här kan du ser att gul är en blandning av röd och grön.
+
+Färg  |Röd|Grön|Blå
+------|---|----|----
+Röd   |255|0   |0
+Gul   |255|255 |0
+Blå   |0  |0   |255
+
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:---------------------------------------- -------:
+:-------------:|:------------------------------------------------:
 `pixels.show()`|'Bästa dator, låt lysdioderna visa sina färger.'
 
 Skriv in koden i Arduino IDE och klicka på "Ladda upp".
