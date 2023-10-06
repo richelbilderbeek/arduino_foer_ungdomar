@@ -21,7 +21,7 @@ cp ../kapitel/12_ldr_rgb/*.* $build_folder      ; mv $build_folder/README.md $bu
 
 cp arduino_book_style.theme $build_folder
 
-cd $build_folder
+cd "${build_folder}" || exit 41
 
 cat README_00.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
 cat README_01.md >> README.md; echo " " >> README.md; echo "\pagebreak" >> README.md; echo " " >> README.md
@@ -37,7 +37,7 @@ pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=arduino_book_s
 
 cp bok.pdf ../../boecker/bok_3_utan_framsida.pdf
 
-cd ../../boecker
+cd ../../boecker || exit 42
 pdfunite framsida_3.pdf bok_3_utan_framsida.pdf bok_3.pdf
 
 # Make booklet
