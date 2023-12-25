@@ -7,6 +7,29 @@ Här är alla kapitel av Arduinokursen.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**
+1  |Anslutning av en lysdiod
+2  |Användning av en lysdiod
+3  |Anslutning av fler lysdioder
+4  |Användning av fler lysdioder
+.  |**Bok 2**
+5  |Anslutning av en knapp
+6  |Användning av en knap
+7  |Anslutning av en potmeter
+8  |Användning av en potmeter
+.  |**Bok 3**
+9  |Anslutning av en joystick
+10 |Användning av en joystick
+11 |Anslutning av en LDR
+12 |Användning av en LDR
+.  |**Bok 4**
+13 |Knapp som minns om den är tryckit
+14 |Knapp som minns om den är tryckit länge
+
+### Lektionskort 1: Bas
+
+Kpt|Beskrivning
+---|---------------------------------------------------------------
+.  |**Bok 1**
 1  |[Blink](./01_blink/README.md)
 2  |[Blink Blink Blink](./02_blink_blink_blink/README.md)
 3  |[Knapp, `if`, `else`](./03_knapp_if_else/README.md)
