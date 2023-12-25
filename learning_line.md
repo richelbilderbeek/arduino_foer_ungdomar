@@ -142,4 +142,19 @@ flowchart TD
     sub_use_ldr --> 
     sub_respond_to_button_on_action --> 
     sub_respond_to_button_in_time
+
+    lesson_can_connect_a_led ~~~
+    lesson_can_control_a_led ~~~
+    lesson_can_connect_many_leds ~~~
+    lesson_can_control_many_leds ~~~
+    lesson_can_connect_a_led_and_button ~~~
+    lesson_can_respond_to_a_button ~~~
+    lesson_can_connect_a_led_and_potmeter_in_series ~~~
+    lesson_can_respond_to_a_potmeter ~~~
+    lesson_can_connect_a_led_and_joystick_in_series ~~~
+    lesson_can_respond_to_a_joystick ~~~
+    lesson_can_connect_a_led_and_ldr_in_series ~~~
+    lesson_can_respond_to_an_ldr ~~~
+    lesson_can_respond_to_a_button_on_action ~~~
+    lesson_can_respond_to_a_button_in_time
 ```
