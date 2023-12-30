@@ -23,3 +23,6 @@ Engelska   |Svenska
 -----------|--------------------------------------
 Breadboard |Kopplingsdäck, labbplatta, brödplanka
 Jumper wire|Hopparvajer, byglingsledning
+LED        |Lysdiod
+Potmeter   |Vridmotstånd
+Resistor   |Motstånd

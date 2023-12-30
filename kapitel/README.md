@@ -7,23 +7,23 @@ Här är alla kapitel av Arduinokursen.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**
-1  |Anslutning av en lysdiod
-2  |Användning av en lysdiod
-3  |Anslutning av flera lysdioder
-4  |Användning av flera lysdioder
+1  |[Anslutning av en lysdiod](01_anslutning_av_en_lysdiod/README.md)
+2  |[Användning av en lysdiod](02_anvaendning_av_en_lysdiod/README.md)
+3  |[Anslutning av flera lysdioder](03_anslutning_av_flera_lysdioder/README.md)
+4  |[Användning av flera lysdioder](04_anvaendning_av_flera_lysdioder/README.md)
 .  |**Bok 2**
-5  |Anslutning av en knapp
-6  |Användning av en knap
-7  |Anslutning av en vridmotstånd
-8  |Användning av en vridmotstånd
+5  |[Anslutning av en knapp](05_anslutning_av_en_knapp/README.md)
+6  |[Användning av en knapp](06_anvaendning_av_en_knapp/README.md)
+7  |[Anslutning av en vridmotstånd](07_anslutning_av_en_vridmotstaand/README.md)
+8  |[Användning av en vridmotstånd](08_anvaendning_av_en_vridmotstaand/README.md)
 .  |**Bok 3**
-9  |Anslutning av en joystick
-10 |Användning av en joystick
-11 |Anslutning av en LDR
-12 |Användning av en LDR
+9  |[Anslutning av en joystick](09_anslutning_av_en_joystick/README.md)
+10 |[Användning av en joystick](10_anvaendning_av_en_joystick/README.md)
+11 |[Anslutning av en LDR](11_anslutning_av_en_ldr/README.md)
+12 |[Användning av en LDR](12_anvaendning_av_en_ldr/README.md)
 .  |**Bok 4**
-13 |Knapp som minns om den är tryckt
-14 |Knapp som minns om den är tryckt länge
+13 |[Knapp som minns om den är tryckt](13_knapp_som_minns_om_den_aer_tryckt/README.md)
+14 |[Knapp som minns om den är tryckt länge](14_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
 
 ### Lektionskort 1: Bas
 
