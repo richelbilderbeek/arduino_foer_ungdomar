@@ -169,21 +169,35 @@ Du kommer inte längre att se lampan blinka.
 
 \pagebreak
 
-## 2.9. Anslut LED
 
-Nu är det dags att bygga kretsen till Blink:
 
-![Blink](1_blink.png)
+## 2.1. Anslutning av en lysdiod på 5V
 
- * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Montera Blinkkretsen enligt bild
- * Montera tillbaka USB kabel till datorn
- * Om allt är bra kommer nu den röda LED att blinka tillsammans med LEDen på Arduinon.
+Anslut en lysdiod och 1.000 motstånd på 5V.
 
-![](EmojiBowtie.png) | Om LEDen inte lyser, vänd på den
+![Blink utan lysdiod](1_blink_zonder_led.png)
+
+Anslut en USB-kabel till din Arduino och till din dator.
+Din lysdiod måste lyser! Om inte, fixar mojänget.
+
+![](EmojiSunglasses.png) | Nu har du testat att allt funkar. Bra jobbat!
+:-------------:|:----------------------------------------: 
+
+## 2.9. Uppgift 1
+
+Arduino hålet kallat `5V` alltid funkar: den ger alltid fem volt spänning.
+Vad är cool av en Arduino är att det är möjligt att programmera dem.
+Här ska vi använder hål `13` som vi kan programmera at ger spännning eller ej.
+
+Flytt sladdstift från `5V` till `13`.
+
+![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
 :-------------:|:----------------------------------------: 
 
 \pagebreak
+
+
+
 
 ## 2.10. Uppgift 4
 
