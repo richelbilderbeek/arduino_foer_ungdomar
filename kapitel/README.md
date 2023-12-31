@@ -7,7 +7,7 @@ Här är alla kapitel av Arduinokursen.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**
-1  |[Användning av en multimeter](00_anvaendning_av_en_multimeter/README.md)
+1  |[Användning av en multimeter](01_anvaendning_av_en_multimeter/README.md)
 2  |[Användning av den inbyggda lysdioden](00_anvaendning_av_den_inbyggda_lysdioden/README.md)
 1  |[Anslutning av en lysdiod](01_anslutning_av_en_lysdiod/README.md)
 2  |[Användning av en lysdiod](02_anvaendning_av_en_lysdiod/README.md)

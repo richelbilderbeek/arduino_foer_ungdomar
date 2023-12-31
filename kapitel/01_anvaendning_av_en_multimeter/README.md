@@ -1,4 +1,4 @@
-# Lektion 0: Användning av en multimeter
+# Lektion 1: Användning av en multimeter
 
 Under den här lektionen ska vi använda en multimeter.
 
