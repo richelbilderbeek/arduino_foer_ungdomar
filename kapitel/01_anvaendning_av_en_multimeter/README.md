@@ -2,9 +2,8 @@
 
 Under den här lektionen ska vi använda en multimeter.
 
-![](EmojiSunglasses.png) 
-
-> Ingen spaning, ingen aning!
+![](EmojiSunglasses.png) | Ingen spaning, ingen aning!
+|-------------|----------------------------------------|
 
 ## 1.1. Mätning av ingen motstånd
 
