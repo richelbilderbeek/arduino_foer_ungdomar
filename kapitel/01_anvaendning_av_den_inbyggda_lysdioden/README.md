@@ -1,4 +1,4 @@
-# Lektion 2: Användning av den inbyggda lysdioden
+# Lektion 1: Användning av den inbyggda lysdioden
 
 Under den här lektionen ska vi använda den inbyggda lysdioden
 i Arduino.
@@ -6,7 +6,7 @@ i Arduino.
 ![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
 :-------------:|:----------------------------------------: 
 
-## 2.1. Ansluta en Arduino
+## 1.1. Ansluta en Arduino
 
 Anslut en Arduino så här:
 
@@ -16,7 +16,7 @@ Anslut en USB-kabel till din Arduino och till din dator.
 
 \pagebreak
 
-## 2.3. Startar Arduino IDE
+## 1.2. Startar Arduino IDE
 
 ![](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
 :-------------:|:----------------------------------------: 
@@ -45,7 +45,7 @@ Nu ser du Arduino IDEn:
 
 \pagebreak
 
-## 2.4. Vårt första program
+## 1.3. Vårt första program
 
 Detta är (en version av) koden för `Blink`:
 
@@ -90,7 +90,7 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 \pagebreak
 
-## 2.5. Uppgift 2
+## 1.4. Uppgift 2
 
 Få LEDen att blinka snabbt 10 gånger.
 
@@ -98,7 +98,7 @@ Tips: LED är nu 1000 millisekunder (1 sekund) på och 1000 millisekunder (1 sek
 
 \pagebreak
 
-## 2.6. Lösning 2
+## 1.5. Lösning 2
 
 ```c++
 void setup()
@@ -115,7 +115,7 @@ void loop()
 }
 ```
 
-## 2.7. Uppgift 3
+## 1.6. Uppgift 3
 
 Få LEDen blinka så snabbt du kan. Vad ser du?
 
@@ -124,7 +124,7 @@ Få LEDen blinka så snabbt du kan. Vad ser du?
 
 \pagebreak
 
-## 2.8. Lösning 3
+## 1.7. Lösning 3
 
 Det finns fler lösningar, det här är en:
 
@@ -162,7 +162,7 @@ Du kommer inte längre att se lampan blinka.
 
 \pagebreak
 
-## 2.14. Slutuppgift
+## 1.8. Slutuppgift
 
 Få lysdioden att blinka så snabbt som en mänklig öga kan ser.
 

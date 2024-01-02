@@ -1,11 +1,11 @@
-# Lektion 1: Användning av en multimeter
+# Lektion 2: Användning av en multimeter
 
 Under den här lektionen ska vi använda en multimeter.
 
 ![](EmojiSunglasses.png) | Ingen spaning, ingen aning!
 :-------------:|:----------------------------------------: 
 
-## 1.1. Mätning av ingen motstånd
+## 2.1. Mätning av ingen motstånd
 
 ![](anvaendning_av_en_multimeter_kortslutning.png)
 
@@ -29,7 +29,7 @@ Det stämmer: el kan gå från ena mätare till andra utan motstånd.
 ![](EmojiBowtie.png) | En motstånd åv 0 Ohm är också kallad kortslutning!
 :-------------:|:----------------------------------------: 
 
-## 1.2. Mätning av oäntligt motstånd
+## 2.2. Mätning av oäntligt motstånd
 
 ![](anvaendning_av_en_multimeter_luft.png)
 
@@ -48,7 +48,7 @@ Det är svårt för el att gå igenom luften!
 ![](EmojiBowtie.png) | Ett oäntligt motstånd är också kallad ingen förbindning
 :-------------:|:----------------------------------------: 
 
-## 1.3. Mätning av ett tusenohms motstånd
+## 2.3. Mätning av ett tusenohms motstånd
 
 ![](anvaendning_av_en_multimeter_1000_1.png)
 
@@ -70,7 +70,7 @@ Motstånder har ej sin egen värde perfecta, så det stämmer!
 ![](EmojiBowtie.png) | Motstånder har ej sin egen värde perfecta!
 :-------------:|:----------------------------------------: 
 
-## 1.4. Mätning av ett tusenohms motstånd i andra riktning
+## 2.4. Mätning av ett tusenohms motstånd i andra riktning
 
 ![](anvaendning_av_en_multimeter_1000_2.png)
 
@@ -89,7 +89,7 @@ Rikting av motståndet är oviktigt.
 ![](EmojiBowtie.png) | Rikting av motståndet är oviktigt!
 :-------------:|:----------------------------------------: 
 
-## 1.5. Mätning av ett tiotusenohms motstånd
+## 2.5. Mätning av ett tiotusenohms motstånd
 
 ![](anvaendning_av_en_multimeter_10000_1.png)
 
@@ -111,7 +111,7 @@ Motstånder är inte perfecta, så det stämmer!
 ![](EmojiBowtie.png) | Motstånder har ej sin egen värde perfecta!
 :-------------:|:----------------------------------------: 
 
-## 1.6. Mätning av ett tiotusenohms motstånd i andra riktning
+## 2.6. Mätning av ett tiotusenohms motstånd i andra riktning
 
 ![](anvaendning_av_en_multimeter_10000_2.png)
 
@@ -130,7 +130,7 @@ Igen, rikting av motståndet är oviktigt.
 ![](EmojiBowtie.png) | Rikting av motståndet är oviktigt!
 :-------------:|:----------------------------------------: 
 
-## 1.7. Mätning av ett lysdiod
+## 2.7. Mätning av ett lysdiod
 
 ![](anvaendning_av_en_multimeter_lysdiod_1.png)
 
@@ -153,7 +153,7 @@ Det är möjligt att lysdiod brinner litegrann!
 ![](EmojiBowtie.png) | Exacta motståndet av en lysdiod är ej jätteviktigt
 :-------------:|:----------------------------------------: 
 
-## 1.8. Mätning av ett lysdiod i andra riktning
+## 2.8. Mätning av ett lysdiod i andra riktning
 
 ![](anvaendning_av_en_multimeter_lysdiod_2.png)
 
@@ -173,7 +173,7 @@ Värden skulle vara oäntligt.
 Det betyder at el kan gå ej igenom en lysdiod in den där riktning.
 Lysdiod brinner ej.
 
-## 1.9. Slutuppgift
+## 2.9. Slutuppgift
 
 Försammla:
 
