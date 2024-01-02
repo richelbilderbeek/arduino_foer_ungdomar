@@ -1,56 +1,47 @@
-# Lektion 2: Användning av en lysdiod
+# Lektion 4: Användning av en lysdiod
 
 Under den här lektionen ska vi använda en lysdiod med en Arduino!
 
-## 2.1. Ansluta en Arduino
+## 4.1. Anslutning på 5V
 
-Anslut en Arduino så här:
+Anslut en Arduino, lysdiod och motstånd så här:
 
-![Blink utan lysdiod](1_blink_zonder_led.png)
+![](anvaendning_av_en_lysdiod_5v.png)
 
-Anslut en USB-kabel till din Arduino och till din dator.
+Avänd 5V hålet av Arduino. Funkar detta?
 
-## 2.2. Uppgift 1
+### Svaret
 
-Koppla in Arduino.
+Absolut skulle det funkar! 
+Glöm inte att längre benet av lysdioden skulle var
+förbunden med `5V` hålet av Arduino.
 
-![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
-:-------------:|:----------------------------------------: 
+Om det inte funkar än, fråga om hjälp!
 
-\pagebreak
+## 4.2. Anslutning på 13
 
-## 2.3. Startar Arduino IDE
+Arduino hålet kallat `5V` alltid funkar: den ger alltid fem volt spänning.
+Vad är cool av en Arduino är att det är möjligt att programmera dem.
+Här ska vi använder hål `13` som vi kan programmera at ger spännning eller ej.
 
-![](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
-:-------------:|:----------------------------------------: 
+Anslut en Arduino, lysdiod och motstånd så här:
 
-![](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
-:-------------:|:----------------------------------------: 
+![](anvaendning_av_en_lysdiod_13.png)
 
-Starta Arduino IDE genom att:
+Nu är lysdioden kopplat till hålet `13` på Arduino.
 
- * Klicka på genvägen på skrivbordet
- * Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Typ
-   sedan `arduino` (små bokstäver) och sedan Enter
+Funkar detta?
 
-![Logotyp för Arduino IDE](1_blink_ide_logo.png)
+### Svaret
 
-![Win tangent](1_win_tangent.jpg)
-
-\pagebreak
-
-Nu ser du Arduino IDEn:
-
-![Arduino IDE](1_blink_ide.png)
-
-![Solglasögon](EmojiSunglasses.png) | IDE betyder 'Integrated Development Environment', mjukvaran du använder för att programmera.
-:-------------:|:----------------------------------------: 
+Detta vit vi inte än! Det beror på om det finns en program i Ardunuinon
+kvar som använder hålet `13`. Bara fortsätt!
 
 \pagebreak
 
-## 2.4. Vårt första program
+## 4.4. Vårt första program
 
-Detta är (en version av) koden för `Blink`:
+Starta Arduino IDEn och använder den här kod:
 
 ```c++
 void setup() 
@@ -75,40 +66,6 @@ void loop()
 :-------------:|:----------------------------------------: 
 `void loop() { }`|'Kära dator, gör vad som än står inom måsvingarna hela tiden.'
 
-Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
-
-![Här kan du klicka på 'Upload'](1_blink_upload.png)
-
-\pagebreak
-
-## 2.5. Uppgift 2
-
-Få LEDen att blinka snabbt 10 gånger.
-
-Tips: LED är nu 1000 millisekunder (1 sekund) på och 1000 millisekunder (1 sekund) av.
-
-\pagebreak
-
-## 2.6. Lösning 2
-
-```c++
-void setup()
-{
-  // ...
-}
-
-void loop() 
-{
-  digitalWrite(13, HIGH);
-  delay(100);
-  digitalWrite(13, LOW);
-  delay(100);
-}
-```
-
-![](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
-:-------------:|:----------------------------------------: 
-
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
 `pinMode(13, OUTPUT);`|'Se till att spänning kan komma ut ur stift 13'
@@ -121,8 +78,43 @@ void loop()
 :-------------:|:----------------------------------------: 
 `delay(1000);`|'Vänta 1000 millisekunder'
 
+Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
-## 2.7. Uppgift 3
+Funkar det? Vad gör lysdioden? Vad gör inbyggda lysdioden?
+
+### Svaret
+
+Det skulle absolut funkar! Båda lysdioden och inbyggda lysdioden skulle lysa
+samtidigt. Båda ska slås av och på varje sekund.
+
+\pagebreak
+
+## 4.5. Uppgift 2
+
+Få LEDen att blinka snabbt 10 gånger.
+
+Tips: LED är nu 1000 millisekunder (1 sekund) på och 1000 millisekunder (1 sekund) av.
+
+\pagebreak
+
+## 4.6. Lösning 2
+
+```c++
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop() 
+{
+  digitalWrite(13, HIGH);
+  delay(100);
+  digitalWrite(13, LOW);
+  delay(100);
+}
+```
+
+## 4.7. Uppgift 3
 
 Få LEDen blinka så snabbt du kan. Vad ser du?
 
@@ -131,14 +123,14 @@ Få LEDen blinka så snabbt du kan. Vad ser du?
 
 \pagebreak
 
-## 2.8. Lösning 3
+## 4.8. Lösning 3
 
 Det finns fler lösningar, det här är en:
 
 ```c++
 void setup()
 {
-  // ...
+  pinMode(13, OUTPUT);
 }
 
 void loop() 
@@ -169,39 +161,11 @@ Du kommer inte längre att se lampan blinka.
 
 \pagebreak
 
+## 4.10. Uppgift 4
 
+Anslut nu lysdioden till Arduino stift `12`.
 
-## 2.1. Anslutning av en lysdiod på 5V
-
-Anslut en lysdiod och 1.000 motstånd på 5V.
-
-![Blink utan lysdiod](1_blink_zonder_led.png)
-
-Anslut en USB-kabel till din Arduino och till din dator.
-Din lysdiod måste lyser! Om inte, fixar mojänget.
-
-![](EmojiSunglasses.png) | Nu har du testat att allt funkar. Bra jobbat!
-:-------------:|:----------------------------------------: 
-
-## 2.9. Uppgift 1
-
-Arduino hålet kallat `5V` alltid funkar: den ger alltid fem volt spänning.
-Vad är cool av en Arduino är att det är möjligt att programmera dem.
-Här ska vi använder hål `13` som vi kan programmera at ger spännning eller ej.
-
-Flytt sladdstift från `5V` till `13`.
-
-![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
-:-------------:|:----------------------------------------: 
-
-\pagebreak
-
-
-
-
-## 2.10. Uppgift 4
-
-Anslut nu din LED till stift 12.
+![](anvaendning_av_en_lysdiod_12.png)
 
 ![](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
 :-------------:|:----------------------------------------: 
@@ -209,30 +173,45 @@ Anslut nu din LED till stift 12.
 ![](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
 :-------------:|:----------------------------------------: 
 
-\pagebreak
+Vad gör lysdioden? Vad gör inbyggda lysdioden?
 
-## 2.11. Lösning 4
+### Svaret
 
-![Blinka med LED på stift 12](1_blink_paa_12.png)
-
-\pagebreak
-
-## 2.12. Uppgift 5
-
-Se nu till att LEDen på stift 12 börjar blinka dubbel så fort.
-
-![](EmojiSunglasses.png) | LED är en förkortning av 'Light Emitting Diode'
-:-------------:|:----------------------------------------: 
-
-![](EmojiBowtie.png) | Bra sagt! Bättre sent än aldrig!
-:-------------:|:----------------------------------------: 
-
-![](EmojiBowtie.png) | LED betyder på svenska: 'Ljus givande diod'
-:-------------:|:----------------------------------------: 
+Lysdioden gör (antagligen!) ingenting,
+för det finns aldrig spänning på stift 12!
+Inbyggda lysdioden blinkar som vanligt.
 
 \pagebreak
 
-## 2.13. Lösning 5
+## 4.12. Uppgift 5
+
+Ändra programmet så att lysdioden på stift 12 blir använd.
+Tip: ändra `13` till `12` för tre gånger.
+
+### Svaret
+
+```c++
+void setup() 
+{
+  pinMode(12, OUTPUT);
+}
+
+void loop() 
+{
+  digitalWrite(12, HIGH);
+  delay(1000);
+  digitalWrite(12, LOW);
+  delay(1000);
+}
+```
+
+## 4.12. Uppgift 5
+
+Se nu till att lysdioden på stift 12 börjar blinka dubbel så fort.
+
+\pagebreak
+
+## 4.13. Lösning 5
 
 ```c++
 void setup() 
@@ -249,10 +228,30 @@ void loop()
 }
 ```
 
-## 2.14. Slutuppgift
+## 4.14. Slutuppgift
 
-Anslut LEDen till stift 11 och få den att blinka 2 gånger per sekund.
+Försammla:
 
-![Solglasögon](EmojiSunglasses.png) | Lyckades det? Visa detta för en vuxen för signatur!
-:-------------:|:----------------------------------------: 
+ * 1 dator
+ * 1 Arduino
+ * 1 USB sladd
+ * 1 kopplingsdäck
+ * 1 1.000 Ohm motstånd
+ * 1 lysdiod
+ * 3 sladdar
+
+På dator: har redo koden!
+
+Läs slutuppgift först, för att du har 5 minuten.
+
+1. Fråga någon för att examinera. Den där person får inte hjälpa dig,
+bara fråga frågor.
+
+Start en timer och gör följande:
+
+2. Får lysdioden att lysa på `5V` hålet
+
+3. Examinerare väljar en slumpmässigt hål med numret mellan 2 och 11 
+   (så 2 och 11 är också tilllåten).
+   Får lysdioden att blinka på den där hålet
 
