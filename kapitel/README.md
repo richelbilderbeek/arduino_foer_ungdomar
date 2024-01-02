@@ -10,22 +10,22 @@ Kpt|Beskrivning
 1  |[Användning av den inbyggda lysdioden](01_anvaendning_av_den_inbyggda_lysdioden/README.md)
 2  |[Användning av en multimeter](02_anvaendning_av_en_multimeter/README.md)
 3  |[Anslutning av en lysdiod](03_anslutning_av_en_lysdiod/README.md)
-.  |[Användning av en lysdiod](02_anvaendning_av_en_lysdiod/README.md)
-3  |[Anslutning av flera lysdioder](03_anslutning_av_flera_lysdioder/README.md)
-4  |[Användning av flera lysdioder](04_anvaendning_av_flera_lysdioder/README.md)
+4  |[Användning av en lysdiod](04_anvaendning_av_en_lysdiod/README.md)
 .  |**Bok 2**
-5  |[Anslutning av en knapp](05_anslutning_av_en_knapp/README.md)
-6  |[Användning av en knapp](06_anvaendning_av_en_knapp/README.md)
-7  |[Anslutning av en vridmotstånd](07_anslutning_av_en_vridmotstaand/README.md)
-8  |[Användning av en vridmotstånd](08_anvaendning_av_en_vridmotstaand/README.md)
+5  |[Anslutning av flera lysdioder](05_anslutning_av_flera_lysdioder/README.md)
+6  |[Användning av flera lysdioder](06_anvaendning_av_flera_lysdioder/README.md)
+7  |[Anslutning av en knapp](07_anslutning_av_en_knapp/README.md)
+8  |[Användning av en knapp](08_anvaendning_av_en_knapp/README.md)
+9  |[Anslutning av en vridmotstånd](09_anslutning_av_en_vridmotstaand/README.md)
+10 |[Användning av en vridmotstånd](10_anvaendning_av_en_vridmotstaand/README.md)
 .  |**Bok 3**
-9  |[Anslutning av en joystick](09_anslutning_av_en_joystick/README.md)
-10 |[Användning av en joystick](10_anvaendning_av_en_joystick/README.md)
-11 |[Anslutning av en LDR](11_anslutning_av_en_ldr/README.md)
-12 |[Användning av en LDR](12_anvaendning_av_en_ldr/README.md)
+11 |[Anslutning av en joystick](11_anslutning_av_en_joystick/README.md)
+12 |[Användning av en joystick](12_anvaendning_av_en_joystick/README.md)
+13 |[Anslutning av en LDR](13_anslutning_av_en_ldr/README.md)
+14 |[Användning av en LDR](14_anvaendning_av_en_ldr/README.md)
 .  |**Bok 4**
-13 |[Knapp som minns om den är tryckt](13_knapp_som_minns_om_den_aer_tryckt/README.md)
-14 |[Knapp som minns om den är tryckt länge](14_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
+15 |[Knapp som minns om den är tryckt](15_knapp_som_minns_om_den_aer_tryckt/README.md)
+16 |[Knapp som minns om den är tryckt länge](16_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
 
 ### Lektionskort 1: Bas
 
@@ -35,25 +35,25 @@ hence we split it up.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**
-1  |[Blink](./01_blink/README.md)
-2  |[Blink Blink Blink](./02_blink_blink_blink/README.md)
-3  |[Knapp, `if`, `else`](./03_knapp_if_else/README.md)
-4  |[Knapp flip](./04_knapp_flip/README.md)
+1  |[Blink](./x01_blink/README.md)
+2  |[Blink Blink Blink](./x02_blink_blink_blink/README.md)
+3  |[Knapp, `if`, `else`](./x03_knapp_if_else/README.md)
+4  |[Knapp flip](./x04_knapp_flip/README.md)
 .  |**Bok 2**
-5  |[Blink 4](05_blink_4/README.md)
-6  |[Uppladdningsknapp](06_uppladdningsknapp/README.md)
-7  |[Potmeter och joystick](07_potmeter_och_joystick/README.md)
-8  |[LDR](08_ldr/README.md)
+5  |[Blink 4](x05_blink_4/README.md)
+6  |[Uppladdningsknapp](x06_uppladdningsknapp/README.md)
+7  |[Potmeter och joystick](x07_potmeter_och_joystick/README.md)
+8  |[LDR](x08_ldr/README.md)
 .  |**Bok 3**
-9  |[RGB LED](09_rgb/README.md)
-10 |[Potmeter RGB](10_potmeter_rgb/README.md)
-11 |[FSR RGB](11_fsr_rgb/README.md) 
-12 |[LDR RGB](12_ldr_rgb/README.md) 
+9  |[RGB LED](x09_rgb/README.md)
+10 |[Potmeter RGB](x10_potmeter_rgb/README.md)
+11 |[FSR RGB](x11_fsr_rgb/README.md) 
+12 |[LDR RGB](x12_ldr_rgb/README.md) 
 .  |**Bok 4**
-13 |[Servo med seriell monitor](13_servo_serial/README.md)
-14 |[Servo med potmeter](14_servo_potmeter/README.md)
-15 |[FSR med servo](15_servo_fsr/README.md)
-16 |[Servor](16_servos/README.md)
+13 |[Servo med seriell monitor](x13_servo_serial/README.md)
+14 |[Servo med potmeter](x14_servo_potmeter/README.md)
+15 |[FSR med servo](x15_servo_fsr/README.md)
+16 |[Servor](x16_servos/README.md)
 
 ### Lektionskort 2: Avancerade
 
