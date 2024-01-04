@@ -16,6 +16,11 @@ Kurs 'Arduino för ungdomar'.
 (C) Richèl Bilderbeek
 ```
 
+## Contributors
+
+ * [Björn Engström](https://github.com/bEPHen)
+ * [Herman Berg](https://github.com/hha2011)
+ * [Sofia Bryntse](https://github.com/Bryntse)
 
 ## Översättning
 
