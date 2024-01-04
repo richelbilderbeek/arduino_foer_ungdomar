@@ -1,30 +1,30 @@
-# Lektion 3: Anslutning av en lysdiod
+# Lektion 3: Ansluta en lysdiod
 
 Under den här lektionen ska vi ansluta en lysdiod till en Arduino!
 
 ## 3.1. Kopplingsdäcket
 
-Vi använder ett kopplingsdäcket för att ansluta grejer till Arduino.
+Vi använder ett kopplingsdäck för att ansluta grejer till Arduino.
 
-Här ser vi en:
+Här ser vi ett:
 
 ![Image from https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_en_lysdiod_breadboard_frontside.jpg)
 
-Och här ar baksida av samma kopplingsdäcket:
+Och här är baksidan av samma kopplingsdäck:
 
 ![Image from https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_en_lysdiod_breadboard_backside.jpg)
 
-Minn baksida av kopplingsdäcket och kolla här:
+Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
 ![](anslutning_av_en_lysdiod_breadboard_schematic_with_dots.png)
 
-Vilken av den här hålar är förbundna?
+Vilka av hålen är sammanlänkade?
 
 ### Svaret
 
- * 1 är förbunden med 2
- * 3 är förbunden med 4
- * 5 är ensamma
+ * 1 är sammanlänkat med 2
+ * 3 är sammanlänkat med 4
+ * 5 är ensamt
 
 ## 3.2. Anslut motstånden och lysdioden
 
@@ -32,13 +32,13 @@ Kolla på den här bilden:
 
 ![](anslutning_av_en_lysdiod_1_with_dots.png)
 
-Det finns sex färgarde hålar. Vilken av dem är förbundna?
+Det finns sex färgade hål. Vilka av dem är sammanlänkade?
 
 ### Svaret
 
- * röd är förbunden med orange
- * gult är förbunden med grönt
- * blå är förbunden med lila
+ * rött är sammanlänkat med orange
+ * gult är sammanlänkat med grönt
+ * blått är sammanlänkat med lila
 
 ## 3.3. Anslut motstånden och lysdioden
 
@@ -48,25 +48,25 @@ Nu är det dags att bygga kretsen på riktigt:
 
  * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
  * Montera kretsen enligt bild:
-   * Koppla en röd sladd från 5V hålet till hålet helt på toppen-vänster 
+   * Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster 
      i kopplingsdäcket
-   * Koppla långa ben av lysdioden nedåt **två** hål av röda sladd i kopplingsdäcket.
-     Det skulle finnas en tomt hål mellan långa ben av lysdioden och 
-     röda sladd i kopplingsdäcket.
-   * Sätt korta ben av lysdioden i hålet åt höger av sin långa ben
-   * Koppla sida med brun bant av en motstånd uppåt ett hål av korta ben av lysdioden
-   * Koppla sida med guld bant av en motstånd fyra hål till höger än
-     sida med brun bant.
-     Det skulle finnas tre tomma hål mellan båda sidor av motståndet i kopplingsdäcket.
-   * Koppla en svart sladd ett hål uppåt av sida med guld bant av motstånden
-     till GND hål i Arduino
- * Montera tillbaka USB kabel till datorn
- * Om allt är bra kommer nu den röda LED att blinka tillsammans med LEDen på Arduinon.
+   * Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden i kopplingsdäcket.
+     Det ska finnas en tomt hål mellan det långa benet på lysdioden och 
+     den röda sladden i kopplingsdäcket.
+   * Sätt det korta benet på lysdioden i hålet till höger om det långa benet
+   * Koppla in sidan med brun rand på ett motstånd ett hål ovanför det korta benet på lysdioden
+   * Koppla in sidan med guldig rand på ett motstånd fyra hål till höger om
+     motståndet med brun rand.
+     Det ska finnas tre tomma hål mellan båda sidorna av motstånden i kopplingsdäcket.
+   * Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
+     till GND-hålet i Arduino
+ * Sätt tillbaka USB-kabeln i datorn
+ * Om allt är rätt så kommer nu den röda LED-lampan att blinka tillsammans med LEDen på Arduinon.
 
-![](EmojiBowtie.png) | Det böjda benet i ritningen betyder det längre benet av en lysdiod
+![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------: 
 
-Brinner lysdioden?
+Lyser lysdioden?
 
 ### Svaret
 
@@ -83,17 +83,17 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_2.png)
 
-Nu är lysdioden vridat tvärtom!
+Nu är lysdioden vriden tvärtom!
 
-Tycker du om att lysdioden ska brinna? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg ihop kretsen och kontrollera!
 
 ### Svaret
 
-Lysdioden ska inte brinna, för att riktningen av lysdioden är fel.
+Lysdioden ska inte lysa, för att riktningen på lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
 
-Det långa benet av en lysdiod skull vara kopplat till 5V.
+Det långa benet på en lysdiod ska vara kopplat till 5V.
 
 ## 3.5. Krets 3
 
@@ -101,15 +101,15 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_3.png)
 
-Lysdioden är kopplat bra igen, men motståndet är vridat tvärtom!
+Lysdioden är kopplad rätt igen, men motståndet är vridet tvärtom!
 
-Tycker du om att lysdioden ska brinna? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg ihop kretsen och kontrollera!
 
 ### Svaret
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
-Så ja, lysdioden ska brinna, för att riktningen av motståndt är inte viktigt.
+Så ja, lysdioden ska lysa, för att riktningen av motståndet inte spelar någon roll.
 
 ## 3.6. Krets 4
 
@@ -117,10 +117,10 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_4.png)
 
-Nu är båda lysdioden och motståndet är vridat tvärtom!
+Nu är både lysdioden och motståndet vridna tvärtom!
 
-Tycker du om att lysdioden ska brinna? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg ihop kretsen och kontrollera!
 
 ### Svaret
 

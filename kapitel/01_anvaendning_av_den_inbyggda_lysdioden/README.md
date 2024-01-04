@@ -27,8 +27,8 @@ Anslut en USB-kabel till din Arduino och till din dator.
 Starta Arduino IDE genom att:
 
  * Klicka på genvägen på skrivbordet
- * Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Typ
-   sedan `arduino` (små bokstäver) och sedan Enter
+ * Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Skriv
+   sedan `arduino` (små bokstäver) och tryck sedan Enter
 
 ![Logotyp för Arduino IDE](anvaendning_av_den_inbyggda_lysdioden_ide_logo.png)
 
@@ -94,7 +94,7 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 Få LEDen att blinka snabbt 10 gånger.
 
-Tips: LED är nu 1000 millisekunder (1 sekund) på och 1000 millisekunder (1 sekund) av.
+Tips: LED är nu på i 1000 millisekunder (1 sekund) och av i 1000 millisekunder (1 sekund).
 
 \pagebreak
 
@@ -117,7 +117,7 @@ void loop()
 
 ## 1.6. Uppgift 3
 
-Få LEDen blinka så snabbt du kan. Vad ser du?
+Få LEDen att blinka så snabbt du kan. Vad ser du?
 
 ![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------: 
@@ -143,14 +143,14 @@ void loop()
 }
 ```
 
-Du kommer inte längre att se lampan blinka.
+Du kommer inte längre att kunna se lampan blinka.
 
-![](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
+![](EmojiSunglasses.png) | Du kommer inte längre att kunna se lampan blinka!
 :-------------:|:----------------------------------------: 
 
 \pagebreak
 
-![](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte titta tillräckligt snabbt för att se det.
+![](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte uppfatta det tillräckligt snabbt för att se det.
 :-------------:|:----------------------------------------: 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -164,7 +164,7 @@ Du kommer inte längre att se lampan blinka.
 
 ## 1.8. Slutuppgift
 
-Få lysdioden att blinka så snabbt som en mänklig öga kan ser.
+Få lysdioden att blinka så snabbt som ett mänskligt öga kan se.
 
 ![Solglasögon](EmojiSunglasses.png) | Lyckades det? Visa detta för en vuxen för signatur!
 :-------------:|:----------------------------------------: 
