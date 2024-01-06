@@ -61,7 +61,6 @@ Nu är det dags att bygga kretsen på riktigt:
    * Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
      till GND-hålet i Arduino
  * Sätt tillbaka USB-kabeln i datorn
- * Om allt är rätt så kommer nu den röda LED-lampan att blinka tillsammans med LEDen på Arduinon.
 
 ![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------: 
