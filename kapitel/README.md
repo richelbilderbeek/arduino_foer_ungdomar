@@ -10,7 +10,7 @@ Kpt|Beskrivning
 1  |[Användning av den inbyggda lysdioden](01_anvaendning_av_den_inbyggda_lysdioden/README.md)
 2  |[Användning av en multimeter](02_anvaendning_av_en_multimeter/README.md)
 3  |[Anslutning av en lysdiod](03_anslutning_av_en_lysdiod/README.md)
-4  |[Användning av en lysdiod](04_anvaendning_av_en_lysdiod/README.md)
+4  |[Programmering av en lysdiod](04_anvaendning_av_en_lysdiod/README.md)
 .  |**Bok 2**
 5  |[Anslutning av flera lysdioder](05_anslutning_av_flera_lysdioder/README.md)
 6  |[Användning av flera lysdioder](06_anvaendning_av_flera_lysdioder/README.md)
