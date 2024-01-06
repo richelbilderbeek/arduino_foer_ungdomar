@@ -83,7 +83,7 @@ Funkar det? Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
 ### Lösning
 
-Det ska absolut funka! Båda lysdioden och den inbyggda lysdioden ska lysa
+Det ska absolut funka! Både lysdioden och den inbyggda lysdioden ska lysa
 samtidigt. Båda ska slås av och på varje sekund.
 
 \pagebreak
