@@ -20,7 +20,7 @@ Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
 Vilka av hålen är sammanlänkade?
 
-### Svaret
+### Svar
 
  * 1 är sammanlänkat med 2
  * 3 är sammanlänkat med 4
@@ -34,7 +34,7 @@ Kolla på den här bilden:
 
 Det finns sex färgade hål. Vilka av dem är sammanlänkade?
 
-### Svaret
+### Svar
 
  * rött är sammanlänkat med orange
  * gult är sammanlänkat med grönt
@@ -67,7 +67,7 @@ Nu är det dags att bygga kretsen på riktigt:
 
 Lyser lysdioden?
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det funkar!
@@ -87,7 +87,7 @@ Nu är lysdioden vriden tvärtom!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
-### Svaret
+### Svar
 
 Lysdioden ska inte lysa, för att riktningen på lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -105,7 +105,7 @@ Lysdioden är kopplad rätt igen, men motståndet är vridet tvärtom!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, lysdioden ska lysa, för att riktningen av motståndet inte spelar någon roll.
@@ -121,7 +121,7 @@ Nu är både lysdioden och motståndet vridna tvärtom!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
-### Svaret
+### Svar
 
 Lysdioden ska inte brinna, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -140,7 +140,7 @@ Nu är alla komponenter på en sträck!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Lysdioden ska inte brinna, för el kann inte gå igenom lysdioden:
 röda sladden är inte förbunden med lysdioden alls!
@@ -156,7 +156,7 @@ Nu är alla komponenter som första krets, men alla är flyttad till höger.
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det skulle funkar! Det är inte viktigt hur mycket till höger/vänster
@@ -173,7 +173,7 @@ Nu finns det mer tomma hål mellan ben av lysdioden!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, dett skulle funkar! Det är inte viktigt hur många hål (eller ej) 
@@ -190,7 +190,7 @@ Nu går lysdioden över mitt i kopplingsdäcket!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det skulle funkar! Komponent får hoppa över översta och nedaste del
@@ -208,7 +208,7 @@ men korta benet.
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Nej, det funkar inte. Elet går ej genom motståndet, men istället
 går direct igenom motståndet. Stackars lysdioden!
@@ -222,7 +222,7 @@ Kolla på den här kretsen:
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Lysdioden ska inte brinna, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -240,7 +240,7 @@ Nu är motståndet kopplat före lysdioden!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Lysdioden ska inte brinna, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -258,7 +258,7 @@ Nu är motståndet kopplat före lysdioden!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Lysdioden ska inte brinna, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -276,7 +276,7 @@ Nu är motståndet kopplat före lysdioden!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, den funkar!
@@ -293,7 +293,7 @@ men är tillkoplat med en sladd!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, den funkar!
@@ -311,7 +311,7 @@ men är tillkoplat med en sladd!
 Tycker du om att lysdioden ska brinna? Varför?
 Bygga upp kretsen och kontrolerar!
 
-### Svaret
+### Svar
 
 Lysdioden ska inte brinna, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.

@@ -39,7 +39,7 @@ void loop()
 
 Vad gissar du att koden gör? Vad händer? Varför?
 
-### Svaret
+### Svar
 
 Koden lyser upp lysdioden på hålor 11, 12 och 13,
 väntar en second (dws. tusen millisecond),

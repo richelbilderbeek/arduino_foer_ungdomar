@@ -10,7 +10,7 @@ Anslut en Arduino, lysdiod och motstånd så här:
 
 Avänd 5V hålet av Arduino. Funkar detta?
 
-### Svaret
+### Svar
 
 Absolut skulle det funkar! 
 Glöm inte att längre benet av lysdioden skulle var
@@ -32,7 +32,7 @@ Nu är lysdioden kopplat till hålet `13` på Arduino.
 
 Funkar detta?
 
-### Svaret
+### Svar
 
 Detta vit vi inte än! Det beror på om det finns en program i Ardunuinon
 kvar som använder hålet `13`. Bara fortsätt!
@@ -82,7 +82,7 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 Funkar det? Vad gör lysdioden? Vad gör inbyggda lysdioden?
 
-### Svaret
+### Svar
 
 Det skulle absolut funkar! Båda lysdioden och inbyggda lysdioden skulle lysa
 samtidigt. Båda ska slås av och på varje sekund.
@@ -175,7 +175,7 @@ Anslut nu lysdioden till Arduino stift `12`.
 
 Vad gör lysdioden? Vad gör inbyggda lysdioden?
 
-### Svaret
+### Svar
 
 Lysdioden gör (antagligen!) ingenting,
 för det finns aldrig spänning på stift 12!
@@ -188,7 +188,7 @@ Inbyggda lysdioden blinkar som vanligt.
 Ändra programmet så att lysdioden på stift 12 blir använd.
 Tip: ändra `13` till `12` för tre gånger.
 
-### Svaret
+### Svar
 
 ```c++
 void setup() 

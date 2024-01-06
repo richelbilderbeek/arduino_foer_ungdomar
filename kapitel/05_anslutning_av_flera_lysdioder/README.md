@@ -20,7 +20,7 @@ Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
 Vilka av hålen är sammanlänkade?
 
-### Svaret
+### Svar
 
  * 1 är sammanlänkat med 5
  * 2 är sammanlänkat med 6
@@ -48,7 +48,7 @@ Försök svara:
  * Vad gör sladden mellan GND kraftremsor?
 
 
-### Svaret
+### Svar
 
 Sladden mellan 5V av Arduino och kopplingsdäcket
 få att kopplingsdäck har 5V spänning.
@@ -79,7 +79,7 @@ Lyser lysdioden?
 
 Bygg ihop kretsen och kontrollera!
 
-### Svaret
+### Svar
 
 Elen kan gå från `5V` till 5 voltskraftrems, igenom lysdioden och motståndet,
 till jordenskraftrems och till `GND`.
@@ -100,7 +100,7 @@ Tror du att lysdioder kommer att lysa? Varför?
 
 Bygg ihop kretsen och kontrollera!
 
-### Svaret
+### Svar
 
 Lysdioder kommer båda att lysa, för att varje en
 har tillgång till `5V` och jord tack vore kraftremsorna.
@@ -118,7 +118,7 @@ Lysdioden är kopplad rätt igen, men motståndet är vridet tvärtom!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
-### Svaret
+### Svar
 
 Lysdioder kommer alla tre att lysa, för att varje en
 har tillgång till `5V` och jord tack vore kraftremsorna.
