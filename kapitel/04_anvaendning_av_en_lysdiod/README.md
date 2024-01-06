@@ -1,6 +1,6 @@
 # Lektion 4: Programmering av en lysdiod
 
-Under den här lektionen ska vi använda en lysdiod med en Arduino!
+Under den här lektionen ska vi programmera en lysdiod med en Arduino!
 
 ## 4.1. Anslutning på 5V
 
@@ -13,14 +13,14 @@ Avänd 5V hålet av Arduino. Funkar detta?
 ### Svar
 
 Absolut skulle det funka! 
-Glöm inte att det längre benet av lysdioden skulle vara
+Glöm inte att det längre benet av lysdioden ska vara
 kopplat till `5V` hålet på Arduino.
 
 Om det inte funkar än, fråga om hjälp!
 
 ## 4.2. Anslutning till hål 13
 
-Arduino hålet kallat `5V` är alltid igång: den ger alltid fem volt spänning.
+Arduinohålet kallat `5V` är alltid igång: den ger alltid en fem volt spänning.
 Vad som är coolt med Arduino är att det är möjligt att programmera dem.
 Här ska vi använda hål `13` som vi kan programmera att ge spännning eller ej.
 
@@ -34,14 +34,13 @@ Funkar detta?
 
 ### Svar
 
-Det vet vi inte än! Det beror på om det finns ett program i Arduinon
-kvar som använder hålet `13`. Bara fortsätt!
+Det vet vi inte än! Det beror på om det finns ett program i Arduinon som använder hålet `13`. Bara fortsätt!
 
 \pagebreak
 
 ## 4.4. Vårt första program
 
-Starta Arduino IDEn och använder denna kod:
+Starta Arduino IDEn och använd dig av denna kod:
 
 ```c++
 void setup() 
@@ -60,11 +59,11 @@ void loop()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`void setup() { }`|'Kära dator, gör vad som än står inom måsvingarna i början av programmet'
+`void setup() { }`|'Kära dator, gör allt skrivet inom måsvingarna i början av programmet'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`void loop() { }`|'Kära dator, gör vad som än står inom måsvingarna hela tiden.'
+`void loop() { }`|'Kära dator, gör allt skrivet inom måsvingarna hela tiden.'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
@@ -76,13 +75,13 @@ void loop()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`delay(1000);`|'Vänta 1000 millisekunder'
+`delay(1000);`|'Vänta i 1000 millisekunder'
 
 Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 Funkar det? Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
-### Svar
+### Lösning
 
 Det ska absolut funka! Båda lysdioden och den inbyggda lysdioden ska lysa
 samtidigt. Båda ska slås av och på varje sekund.
