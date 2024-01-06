@@ -288,14 +288,10 @@ Bygg upp kretsen och kontrollera!
 
 ### Svar
 
-Lysdioden ska inte lysa, för att riktningen av lysdioden är fel.
-Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
 
-Det långa benet av en lysdiod skall vara kopplat till 5V.
-
-
-
-
+Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
+Så ja, den funkar!
+Var motståndet är i kretsen spelar ingen roll
 
 ## 3.17. Krets 15
 
