@@ -73,7 +73,7 @@ Bygg om till den här kretsen:
 
 Den tre lysdioden på vänster skull blinka. Om inte, fråga om hjälp!
 
-## 6.13: Annat kode
+## 6.6: Et nytt monster
 
 Andra koden till den som är här nere:
 
@@ -101,7 +101,18 @@ void loop()
 
 Vad ser du?
 
-## 6.13: en monster
+### Svar
+
+Monstret upprepar:
+
+ * lysdioden i 11 och 12 lyser
+ * en secund händer ingenting
+ * lysdioden 13 lyser, lysdioden 11 släcker
+ * en secund händer ingenting
+ * lysdioden 12 och 13 släcker
+ * en secund händer ingenting
+
+## 6.13: Knight Rider monstret
 
 Förbereda kod:
 
@@ -112,6 +123,35 @@ Det måste alltid finnas exakt en LED som lyser.
 :-------------:|:----------------------------------------: 
 
 ![Knight Rider](KnightRider.png)
+
+
+### Svar
+
+```c++
+void setup() 
+{
+  pinMode(11, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+}
+
+void loop() 
+{
+  digitalWrite(11, HIGH);
+  delay(1000);
+  digitalWrite(11, LOW);
+  digitalWrite(12, HIGH);
+  delay(1000);
+  digitalWrite(12, LOW);
+  digitalWrite(13, HIGH);
+  delay(1000);
+  digitalWrite(13, LOW);
+  digitalWrite(12, HIGH);
+  delay(1000);
+  digitalWrite(12, LOW);
+}
+```
+
 
 ## 6.13: Slutuppgift
 
@@ -133,4 +173,4 @@ Läs slutuppgift först, för att du har 10 minuten.
 
 Start en timer och gör följande:
 
-2. Bygg upp kretsen
+2. Bygg upp kretsen från början, uploada koden och visar Knight Rider monstret!
