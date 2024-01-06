@@ -5,7 +5,7 @@ Under den här lektionen ska vi använda en multimeter.
 ![](EmojiSunglasses.png) | Ingen spaning, ingen aning!
 :-------------:|:----------------------------------------: 
 
-## 2.1. Mätning av ingen motstånd
+## 2.1. Mätning av inget motstånd
 
 ![](anvaendning_av_en_multimeter_kortslutning.png)
 
@@ -16,12 +16,12 @@ Koppla in den röda mätkabeln i det röda hålet på multimetern som har ett V 
 Ohm symbol (Ω) ovanför sig.
 Koppla in den svarta mätkabeln i det svarta hålet på multimetern som har ordet 'COM' ovanför sig.
 
-Sätt på multimetern och håll röda mätpinnen ihop med svarta mätpinnen.
+Sätt på multimetern och håll ihop den röda och svarta mätpinnen.
 Vad visar mätningen?
 
 ### Svaret
 
-Skärmen skulle visa ett motstånd på 0 Ohm.
+Skärmen ska visa ett motstånd på 0 Ohm.
 
 Ett motstånd på 0 Ohm betyder att det inte finns någonting emellan mätpunkterna.
 Det stämmer: el kan gå från ena mätpunkten till den andra utan motstånd.
@@ -29,7 +29,7 @@ Det stämmer: el kan gå från ena mätpunkten till den andra utan motstånd.
 ![](EmojiBowtie.png) | En motstånd på 0 Ohm kallas också för kortslutning!
 :-------------:|:----------------------------------------: 
 
-## 2.2. Mätning av oäntligt motstånd
+## 2.2. Mätning av oändligt motstånd
 
 ![](anvaendning_av_en_multimeter_luft.png)
 
