@@ -201,8 +201,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_9.png)
 
-Nu går lysdioden över mitt i kopplingsdäcket,
-men korta benet.
+Nu går lysdioden över mitt i kopplingsdäcket, men med motståndet ovanför.
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
@@ -222,10 +221,10 @@ Bygg upp kretsen och kontrollera!
 
 ### Svar
 
-Lysdioden ska inte lysa, för att riktningen av lysdioden är fel.
+Lysdioden ska inte lysa, för att riktningen på lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
 
-Det långa benet av en lysdiod skall vara kopplat till 5V.
+Det långa benet på lysdioden skall vara kopplat till 5V.
 
 ## 3.13. Krets 11
 
