@@ -1,4 +1,4 @@
-# Lektion 4: Användning av en lysdiod
+# Lektion 4: Programmering av en lysdiod
 
 Under den här lektionen ska vi använda en lysdiod med en Arduino!
 
