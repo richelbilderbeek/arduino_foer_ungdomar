@@ -2,44 +2,9 @@
 
 Under den här lektionen ska vi ansluta en knapp till en Arduino!
 
-## 7.2. Anslut motstånden och lysdioden
+## 7.1. Anslut lysdioden och knapp
 
-Kolla på den här bilden:
-
-![](anslutning_av_en_knapp_1.png)
-
-Den fyra långa horizontella rad av hål är kallad 'kraftremsor'.
-
- * Två remsor levererar 5V spänning. 
-   Ofta har den an linje brevid sig med som är röd
- * Två remsor fungerarar som jord eller GND.
-   Ofta har den an linje brevid sig med som är svart eller blå
-
-Försök svara:
-
- * Vad gör sladden mellan 5V av Arduino och kopplingsdäcket?
- * Vad gör sladden mellan GND av Arduino och kopplingsdäcket?
- * Vad gör sladden mellan 5V kraftremsor?
- * Vad gör sladden mellan GND kraftremsor?
-
-
-### Svar
-
-Sladden mellan 5V av Arduino och kopplingsdäcket
-få att kopplingsdäck har 5V spänning.
-
-Sladden mellan GND av Arduino och kopplingsdäcket
-få att kopplingsdäck har tillgång till jord/GND.
-
-Sladden mellan 5V kraftremsor gör 
-att båda 5V kraftremsor har 5V spänning.
-
-Sladden mellan GND kraftremsor gör 
-att båda GND kraftremsor har jord/GND.
-
-## 7.3. Anslut motstånden och lysdioden
-
-Nu är det dags att bygga kretsen på riktigt:
+Bygg den här kretsen:
 
 ![](anslutning_av_en_knapp_1.png)
 
@@ -50,7 +15,7 @@ Nu är det dags att bygga kretsen på riktigt:
 ![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------: 
 
-Lyser lysdioden?
+Lyser lysdioden? Går knappen nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
@@ -59,7 +24,9 @@ Bygg ihop kretsen och kontrollera!
 Elen kan gå från `5V` till 5 voltskraftrems, igenom lysdioden och motståndet,
 till jordenskraftrems och till `GND`.
 
-Så ja, det funkar! Om inte, fråga om hjälp!
+Så ja, lysdioden lyser! Om inte, fråga om hjälp!
+
+Knappen, dock, gör ingenting: om du trycker den eller inte gör det ingen skillnad.
 
 \pagebreak
 
@@ -69,36 +36,40 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_2.png)
 
-Nu finns två lysdioder!
+Nu är knappen användt! 
 
-Tror du att lysdioder kommer att lysa? Varför?
+Lyser lysdioden? Går knappen nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer båda att lysa, för att varje en
-har tillgång till `5V` och jord tack vore kraftremsorna.
+Lysdioder kommer alltid att lysa: den vänstra ben av knappen är sammanlänkat!
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
-## 7.5. Krets 3
+
+## 7.4. Krets 3
 
 Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_3.png)
 
-Lysdioden är kopplad rätt igen, men motståndet är vridet tvärtom!
+Nu är knappen användt! 
 
-Tror du att lysdioden kommer att lysa? Varför?
+Lyser lysdioden? Går knappen nåt? Varför tror du det?
+
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer alla tre att lysa, för att varje en
-har tillgång till `5V` och jord tack vore kraftremsorna.
+Lysdioder kommer alltid att lysa: den vänstra ben av knappen är sammanlänkat!
 
 Så ja, det funkar! Om inte, fråga om hjälp!
+
+
+
+
 
 ## 7.6. Slutuppgift
 
