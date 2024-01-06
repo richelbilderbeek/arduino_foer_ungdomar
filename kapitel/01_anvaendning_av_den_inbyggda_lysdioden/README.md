@@ -1,6 +1,6 @@
-# Lektion 1: Användning av den inbyggda lysdioden
+# Lektion 1: Programmering av den inbyggda lysdioden
 
-Under den här lektionen ska vi använda den inbyggda lysdioden
+Under den här lektionen ska vi programmera den inbyggda lysdioden
 i Arduino.
 
 ![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
