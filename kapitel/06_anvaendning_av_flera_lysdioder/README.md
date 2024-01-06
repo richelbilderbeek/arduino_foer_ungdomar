@@ -2,105 +2,108 @@
 
 Under den här lektionen ska vi ansluta flera lysdioder till en Arduino!
 
-## 6.1: Blink Blink Blink: Blink
+## 6.1: Anslutning
 
-![Blink](02_blink_blink_blink_blink.png)
+Bygg upp den här kretsen:
+
+![](anvaendning_av_flera_lysdioder_0.png)
+
+Alla lysdioder skulle brinna. Om inte, fråga hjälp!
 
 \pagebreak
 
-Här är `Blink`s kod på ett annat sätt:
+## 6.2: Koden
+
+Uploada den här koden:
 
 ```c++
 void setup() 
 {
-  pinMode(13, OUTPUT);
-}
-
-void loop() 
-{
-  digitalWrite(13, HIGH);
-  delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-}
-```
-
-\pagebreak
-
-## 6.2: Blink Blink Blink: Uppgift 1
-
-Anslut Blinkkretsen (ser uppåt) till stift 12 
-och ändra koden så att den blinkar.
-
-\pagebreak
-
-## 6.3: Blink Blink Blink: Lösning 1
-
-![Blinka med LED på 12](02_blink_blink_blink_blink_pa_12.png)
-
-Du behöver bara ändra en rad:
-
-```c++
-void setup() 
-{
-  pinMode(12, OUTPUT);
-}
-
-void loop() 
-{
-  digitalWrite(12, HIGH);
-  delay(1000);
-  digitalWrite(12, LOW);
-  delay(1000);
-}
-```
-
-## 6.6: Blink Blink Blink: Ansluter Blink Blink Blink
-
-Nu är det dags att ansluta `Blink Blink Blink`:
-
-![BlinkBlinkBlink](02_blink_blink_blink.png)
-
- * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Bygg kretsen enligt bilden
-
-\pagebreak
-
-## 6.7: Blink Blink Blink: Uppgift 3
-
-Koppla in `Blink Blink Blink`kretsen. 
-Byt namn på variabeln `led_stift` till `led_stift_1`.
-och se till att det har rätt startvärde.
-
-\pagebreak
-
-## 6.8: Lösning 3
-
-```c++
-void setup() 
-{
+  pinMode(11, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
 }
 
 void loop() 
 {
+  digitalWrite(11, HIGH);
+  digitalWrite(12, HIGH);
   digitalWrite(13, HIGH);
   delay(1000);
-  digitalWrite(13, LOW);
-  delay(1000);
-  digitalWrite(12, HIGH);
-  delay(1000);
+  digitalWrite(11, LOW);
   digitalWrite(12, LOW);
+  digitalWrite(13, LOW);
   delay(1000);
 }
 ```
 
-\pagebreak
+Vad gissar du att koden gör? Vad händer? Varför?
 
-## 6.9: Blink Blink Blink: Uppgift 4
+### Svaret
 
-## 6.13: Blink Blink Blink: Slutuppgift
+Koden lyser upp lysdioden på hålor 11, 12 och 13,
+väntar en second (dws. tusen millisecond),
+släckar alla lysdioden
+och väntar en second. 
+Efter det blir det uprepad.
+
+Men ingenting händer, för att det finns ingen sladdar i hålorna.
+
+## 6.3: Anslutning
+
+Bygg om till den här kretsen:
+
+![](anvaendning_av_flera_lysdioder_1.png)
+
+Lysdioden på vänster skull blinka. Om inte, fråga om hjälp!
+
+## 6.4: Anslutning
+
+Bygg om till den här kretsen:
+
+![](anvaendning_av_flera_lysdioder_2.png)
+
+Den tå lysdioden på vänster skull blinka. Om inte, fråga om hjälp!
+
+## 6.5: Anslutning
+
+Bygg om till den här kretsen:
+
+![](anvaendning_av_flera_lysdioder_3.png)
+
+Den tre lysdioden på vänster skull blinka. Om inte, fråga om hjälp!
+
+## 6.13: Annat kode
+
+Andra koden till den som är här nere:
+
+```c++
+void setup() 
+{
+  pinMode(11, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(13, OUTPUT);
+}
+
+void loop() 
+{
+  digitalWrite(11, HIGH);
+  digitalWrite(12, HIGH);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  digitalWrite(11, LOW);
+  delay(1000);
+  digitalWrite(12, LOW);
+  digitalWrite(13, LOW);
+  delay(1000);
+}
+```
+
+Vad ser du?
+
+## 6.13: en monster
+
+Förbereda kod:
 
 Få nu LEDs lysa i ett 'Knight Rider-mönster': 1-2-3-2. 
 Det måste alltid finnas exakt en LED som lyser.
@@ -110,3 +113,24 @@ Det måste alltid finnas exakt en LED som lyser.
 
 ![Knight Rider](KnightRider.png)
 
+## 6.13: Slutuppgift
+
+Försammla:
+
+ * 1 dator
+ * 1 Arduino
+ * 1 USB sladd
+ * 1 kopplingsdäck
+ * 3 1.000 Ohm motstånd
+ * 3 lysdiod
+ * tillräckligt mycket sladdar
+
+På dator: har redo koden!
+
+Läs slutuppgift först, för att du har 10 minuten.
+
+1. Fråga någon för att examinera. Den där person får inte hjälpa dig!
+
+Start en timer och gör följande:
+
+2. Bygg upp kretsen
