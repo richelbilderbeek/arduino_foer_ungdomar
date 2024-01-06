@@ -187,8 +187,8 @@ Kolla på den här kretsen:
 
 Nu går lysdioden över mitt i kopplingsdäcket!
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
@@ -205,8 +205,8 @@ Kolla på den här kretsen:
 Nu går lysdioden över mitt i kopplingsdäcket,
 men korta benet.
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
@@ -219,8 +219,8 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_10.png)
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
@@ -237,8 +237,8 @@ Kolla på den här kretsen:
 
 Nu är motståndet kopplat före lysdioden! 
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
@@ -255,8 +255,8 @@ Kolla på den här kretsen:
 
 Nu är motståndet kopplat före lysdioden! 
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
@@ -273,8 +273,8 @@ Kolla på den här kretsen:
 
 Nu är motståndet kopplat före lysdioden! 
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
@@ -290,8 +290,8 @@ Kolla på den här kretsen:
 Nu är lysdioden och motståndet inte förbundna direct,
 men är tillkoplat med en sladd!
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
@@ -308,8 +308,8 @@ Kolla på den här kretsen:
 Nu är lysdioden och motståndet inte förbundna direct,
 men är tillkoplat med en sladd!
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
