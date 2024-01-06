@@ -173,19 +173,19 @@ Anslut nu lysdioden till Arduino stift `12`.
 ![](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
 :-------------:|:----------------------------------------: 
 
-Vad gör lysdioden? Vad gör inbyggda lysdioden?
+Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
 ### Svar
 
 Lysdioden gör (antagligen!) ingenting,
-för det finns aldrig spänning på stift 12!
-Inbyggda lysdioden blinkar som vanligt.
+för det finns inte spänning på stift 12!
+Den inbyggda lysdioden blinkar som vanligt.
 
 \pagebreak
 
 ## 4.12. Uppgift 5
 
-Ändra programmet så att lysdioden på stift 12 blir använd.
+Ändra programmet så att lysdioden på stift 12 används.
 Tip: ändra `13` till `12` för tre gånger.
 
 ### Svar
@@ -207,7 +207,7 @@ void loop()
 
 ## 4.12. Uppgift 5
 
-Se nu till att lysdioden på stift 12 börjar blinka dubbel så fort.
+Se nu till att lysdioden på stift 12 börjar blinka dubbelt så fort.
 
 \pagebreak
 
@@ -244,14 +244,13 @@ På dator: har koden redo!
 
 Läs hela slutuppgiften noga först, efter det har du 5 minuter.
 
-1. Fråga någon för att examinera. Den personen får inte hjälpa dig,
-bara ställa frågor.
+1. Be någon om hjälp för att examinera. 
 
-Starta en timer och gör följande:
+Starta en timer med 5 min och gör följande:
 
 2. Få lysdioden att lysa på `5V` hålet
 
 3. Examinerare väljer ett slumpmässigt hål med nummer mellan 2 och 11 
    (så 2 och 11 är också tilllåtna).
-   Få lysdioden att blinka vid det valda hålet
+   Du ska få lysdioden att blinka vid det valda hålet.
 
