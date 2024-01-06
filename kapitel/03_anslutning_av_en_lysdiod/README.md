@@ -250,8 +250,6 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_13.png)
 
-Nu är motståndet kopplat före lysdioden! 
-
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
@@ -266,8 +264,8 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_14.png)
 
-Nu är lysdioden och motståndet inte förbundna direct,
-men är tillkoplat med en sladd!
+Nu är lysdioden och motståndet inte direkt kopplade,
+utan sammankopplade med en sladd!
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
@@ -283,7 +281,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_12.png)
 
-Nu är motståndet kopplat före lysdioden! 
+Nu är motståndet inkopplat före lysdioden! 
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
@@ -305,8 +303,6 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_15.png)
 
-Nu är lysdioden och motståndet inte förbundna direct,
-men är tillkoplat med en sladd!
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
