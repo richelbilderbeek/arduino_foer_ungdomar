@@ -141,4 +141,4 @@ Försammla:
 
 Start en timer på 10 minuten och gör följande:
 
-2. Får 7 lysdioden att brinna
+2. Får 7 lysdioden att lysa

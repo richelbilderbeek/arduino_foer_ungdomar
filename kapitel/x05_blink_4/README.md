@@ -140,9 +140,9 @@ void loop()
    för att säkerställa att enbart LED 3 ljuser (pa annan sätt:
    lysdioder 1 och 2 måste vara avstängad)
  * Använd `ljuser_bara_led_3` i `loop`
- * I `loop`, låt först enbart LED 1 brinna, vänta lite,
-   låt bara LED 2 brinna, vänta lite,
-   låt bara LED 3 brinna, vänta lite
+ * I `loop`, låt först enbart LED 1 lysa, vänta lite,
+   låt bara LED 2 lysa, vänta lite,
+   låt bara LED 3 lysa, vänta lite
 
 \pagebreak
 

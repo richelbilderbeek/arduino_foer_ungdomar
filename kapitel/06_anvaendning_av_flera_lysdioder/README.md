@@ -8,7 +8,7 @@ Bygg upp den här kretsen:
 
 ![](anvaendning_av_flera_lysdioder_0.png)
 
-Alla lysdioder skulle brinna. Om inte, fråga hjälp!
+Alla lysdioder skulle lysa. Om inte, fråga hjälp!
 
 \pagebreak
 
