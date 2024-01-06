@@ -138,12 +138,12 @@ Kolla på den här kretsen:
 Nu är alla komponenter på en rad!
 
 Tror du att lysdioden kommer att lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Bygga upp kretsen och kontrolera!
 
 ### Svar
 
-Lysdioden ska inte lysa, för el kann inte gå igenom lysdioden:
-röda sladden är inte förbunden med lysdioden alls!
+Lysdioden ska inte lysa, för el kan inte gå igenom lysdioden:
+den röda sladden är inte förbunden med lysdioden alls!
 
 ## 3.8. Krets 6
 
@@ -151,15 +151,15 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_6.png)
 
-Nu är alla komponenter som första krets, men alla är flyttad till höger.
+Nu är alla komponenter som i den första kretsen, men alla är flyttade till höger.
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden ska kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
-Så ja, det skulle funkar! Det är inte viktigt hur mycket till höger/vänster
+Så ja, det fungerar! Det är inte viktigt hur mycket till höger/vänster
 på kopplingsdäcket man jobbar.
 
 ## 3.9. Krets 7
@@ -168,10 +168,10 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_7.png)
 
-Nu finns det mer tomma hål mellan ben av lysdioden!
+Nu finns det fler tomma hål mellan benen på lysdioden!
 
-Tycker du om att lysdioden ska lysa? Varför?
-Bygga upp kretsen och kontrolerar!
+Tror du att lysdioden kommer att lysa? Varför?
+Bygg upp kretsen och kontrolera!
 
 ### Svar
 
