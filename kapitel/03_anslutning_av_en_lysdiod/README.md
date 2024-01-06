@@ -108,7 +108,7 @@ Bygg ihop kretsen och kontrollera!
 ### Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
-Så ja, lysdioden ska lysa, för att riktningen av motståndet inte spelar någon roll.
+Så ja, lysdioden ska lysa, då riktningen av motståndet inte spelar någon roll.
 
 ## 3.6. Krets 4
 
@@ -123,11 +123,11 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioden ska inte brinna, för att riktningen av lysdioden är fel.
+Lysdioden ska inte lysa, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
 
-Det långa benet av en lysdiod skull vara kopplat till 5V.
-Riktningen av motståndt är inte viktigt.
+Det långa benet av en lysdiod ska vara kopplat till 5V.
+Riktningen av motståndet är inte viktigt.
 
 ## 3.7. Krets 5
 
@@ -135,14 +135,14 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_5.png)
 
-Nu är alla komponenter på en sträck!
+Nu är alla komponenter på en rad!
 
-Tycker du om att lysdioden ska brinna? Varför?
+Tror du att lysdioden kommer att lysa? Varför?
 Bygga upp kretsen och kontrolerar!
 
 ### Svar
 
-Lysdioden ska inte brinna, för el kann inte gå igenom lysdioden:
+Lysdioden ska inte lysa, för el kann inte gå igenom lysdioden:
 röda sladden är inte förbunden med lysdioden alls!
 
 ## 3.8. Krets 6
