@@ -12,36 +12,36 @@ Avänd 5V hålet av Arduino. Funkar detta?
 
 ### Svar
 
-Absolut skulle det funkar! 
-Glöm inte att längre benet av lysdioden skulle var
-förbunden med `5V` hålet av Arduino.
+Absolut skulle det funka! 
+Glöm inte att det längre benet av lysdioden skulle vara
+kopplat till `5V` hålet på Arduino.
 
 Om det inte funkar än, fråga om hjälp!
 
-## 4.2. Anslutning på 13
+## 4.2. Anslutning till hål 13
 
-Arduino hålet kallat `5V` alltid funkar: den ger alltid fem volt spänning.
-Vad är cool av en Arduino är att det är möjligt att programmera dem.
-Här ska vi använder hål `13` som vi kan programmera at ger spännning eller ej.
+Arduino hålet kallat `5V` är alltid igång: den ger alltid fem volt spänning.
+Vad som är coolt med Arduino är att det är möjligt att programmera dem.
+Här ska vi använda hål `13` som vi kan programmera att ge spännning eller ej.
 
 Anslut en Arduino, lysdiod och motstånd så här:
 
 ![](anvaendning_av_en_lysdiod_13.png)
 
-Nu är lysdioden kopplat till hålet `13` på Arduino.
+Nu är lysdioden kopplad till hålet `13` på Arduino.
 
 Funkar detta?
 
 ### Svar
 
-Detta vit vi inte än! Det beror på om det finns en program i Ardunuinon
+Det vet vi inte än! Det beror på om det finns ett program i Arduinon
 kvar som använder hålet `13`. Bara fortsätt!
 
 \pagebreak
 
 ## 4.4. Vårt första program
 
-Starta Arduino IDEn och använder den här kod:
+Starta Arduino IDEn och använder denna kod:
 
 ```c++
 void setup() 
@@ -80,11 +80,11 @@ void loop()
 
 Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
-Funkar det? Vad gör lysdioden? Vad gör inbyggda lysdioden?
+Funkar det? Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
 ### Svar
 
-Det skulle absolut funkar! Båda lysdioden och inbyggda lysdioden skulle lysa
+Det ska absolut funka! Båda lysdioden och den inbyggda lysdioden ska lysa
 samtidigt. Båda ska slås av och på varje sekund.
 
 \pagebreak
@@ -116,7 +116,7 @@ void loop()
 
 ## 4.7. Uppgift 3
 
-Få LEDen blinka så snabbt du kan. Vad ser du?
+Få LEDen att blinka så snabbt du kan. Vad ser du?
 
 ![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------: 
@@ -149,7 +149,7 @@ Du kommer inte längre att se lampan blinka.
 
 \pagebreak
 
-![](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte titta tillräckligt snabbt för att se det.
+![](EmojiBowtie.png) | Ljuset blinkar, men det blinkar för fort för att våra ögon ska kunna uppfatta det.
 :-------------:|:----------------------------------------: 
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -230,7 +230,7 @@ void loop()
 
 ## 4.14. Slutuppgift
 
-Försammla:
+Material som krävs:
 
  * 1 dator
  * 1 Arduino
@@ -240,18 +240,18 @@ Försammla:
  * 1 lysdiod
  * 3 sladdar
 
-På dator: har redo koden!
+På dator: har koden redo!
 
-Läs slutuppgift först, för att du har 5 minuten.
+Läs hela slutuppgiften noga först, efter det har du 5 minuter.
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig,
-bara fråga frågor.
+1. Fråga någon för att examinera. Den personen får inte hjälpa dig,
+bara ställa frågor.
 
-Start en timer och gör följande:
+Starta en timer och gör följande:
 
-2. Får lysdioden att lysa på `5V` hålet
+2. Få lysdioden att lysa på `5V` hålet
 
-3. Examinerare väljar en slumpmässigt hål med numret mellan 2 och 11 
-   (så 2 och 11 är också tilllåten).
-   Får lysdioden att blinka på den där hålet
+3. Examinerare väljer ett slumpmässigt hål med nummer mellan 2 och 11 
+   (så 2 och 11 är också tilllåtna).
+   Få lysdioden att blinka vid det valda hålet
 
