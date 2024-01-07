@@ -20,7 +20,7 @@ Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
 Vilka av hålen är sammanlänkade?
 
-### Svar
+### 3.1. Svar
 
  * 1 är sammanlänkat med 2
  * 3 är sammanlänkat med 4
@@ -34,7 +34,9 @@ Kolla på den här bilden:
 
 Det finns sex färgade hål. Vilka av dem är sammanlänkade?
 
-### Svar
+\pagebreak
+
+### 3.2. Svar
 
  * rött är sammanlänkat med orange
  * gult är sammanlänkat med grönt
@@ -67,7 +69,9 @@ Nu är det dags att bygga kretsen på riktigt:
 
 Lyser lysdioden?
 
-### Svar
+\pagebreak
+
+### 3.3. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det funkar!
@@ -87,7 +91,9 @@ Nu är lysdioden vriden tvärtom!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.4. Svar
 
 Lysdioden ska inte lysa, för att riktningen på lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -105,7 +111,9 @@ Lysdioden är kopplad rätt igen, men motståndet är vridet tvärtom!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.5. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, lysdioden ska lysa, då riktningen av motståndet inte spelar någon roll.
@@ -121,7 +129,9 @@ Nu är både lysdioden och motståndet vridna tvärtom!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.6. Svar
 
 Lysdioden ska inte lysa, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -140,7 +150,9 @@ Nu är alla komponenter på en rad!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.7. Svar
 
 Lysdioden ska inte lysa, för el kan inte gå igenom lysdioden:
 den röda sladden är inte kopplad till lysdioden alls!
@@ -156,7 +168,9 @@ Nu är alla komponenter som i den första kretsen, men alla är flyttade till h�
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.8. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det fungerar! Det är inte viktigt hur mycket till höger/vänster
@@ -173,7 +187,9 @@ Nu finns det fler tomma hål mellan benen på lysdioden!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.9. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det skulle funka! Det är inte viktigt hur många hål (eller avsaknad av) 
@@ -190,7 +206,9 @@ Nu är lysdioden kopplad rakt över kopplingsdäcket!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.10. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det ska funka! En komponent kan kopplas mellan den övre och nedre delen på ett koppplingsdäck.
@@ -206,7 +224,9 @@ Nu går lysdioden över mitt i kopplingsdäcket, men med motståndet ovanför.
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.11. Svar
 
 Nej, det funkar inte. Elen går ej genom lysdioden, utan tar den kortare vägen direkt genom motståndet. Stackars lysdioden!
 
@@ -219,7 +239,9 @@ Kolla på den här kretsen:
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.12. Svar
 
 Lysdioden ska inte lysa, för att riktningen på lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -237,7 +259,9 @@ Nu är motståndet kopplat före lysdioden!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.13. Svar
 
 Lysdioden ska inte lysa, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet. Att motståndet är kopplat framför gör ingen skillnad.
@@ -253,7 +277,9 @@ Kolla på den här kretsen:
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.14. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, den funkar!
@@ -270,7 +296,9 @@ utan sammankopplade med en sladd!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.15. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, den funkar!
@@ -286,8 +314,9 @@ Nu är motståndet inkopplat före lysdioden!
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
 
+### 3.16. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, den funkar!
@@ -299,11 +328,12 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_15.png)
 
-
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
 
-### Svar
+\pagebreak
+
+### 3.17. Svar
 
 Lysdioden ska inte lysa, för att riktningen av lysdioden är fel.
 Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
@@ -321,4 +351,3 @@ Upprepa fem gånger:
    Bygg upp kretsen för att kontrollera ditt svar.
 
 Klarar du minst fyra av fem, har du klarat slutuppgiften!
-

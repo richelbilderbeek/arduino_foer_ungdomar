@@ -17,7 +17,6 @@ cp ../kapitel/foerord/*.*                                  $build_folder; mv $bu
 cp ../kapitel/01_anvaendning_av_den_inbyggda_lysdioden/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
 cp ../kapitel/02_anvaendning_av_en_multimeter/*.*          $build_folder; mv $build_folder/README.md $build_folder/README_02.md
 cp ../kapitel/03_anslutning_av_en_lysdiod/*.*              $build_folder; mv $build_folder/README.md $build_folder/README_03.md
-cp ../kapitel/04_programmering_av_en_lysdiod/*.*           $build_folder; mv $build_folder/README.md $build_folder/README_04.md
 
 cp arduino_book_style.theme $build_folder
 
@@ -28,7 +27,6 @@ cd "${build_folder}" || exit 41
   cat README_01.md ; echo " " ; echo "\pagebreak" ; echo " "; \
   cat README_02.md ; echo " " ; echo "\pagebreak" ; echo " "; \
   cat README_03.md ; echo " " ; echo "\pagebreak" ; echo " "; \
-  cat README_04.md ; echo " " ; echo "\pagebreak" ; echo " "; \
 } >> README.md
 
 # Table of Content

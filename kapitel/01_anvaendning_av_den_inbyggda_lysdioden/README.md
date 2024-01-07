@@ -115,8 +115,6 @@ void loop()
 }
 ```
 
-\pagebreak
-
 ## 1.6. Uppgift 3
 
 Få LEDen att blinka så snabbt du kan. Vad ser du?
