@@ -13,19 +13,21 @@ Kpt|Beskrivning
 4  |[Programmering av en lysdiod](04_anvaendning_av_en_lysdiod/README.md)
 .  |**Bok 2**
 5  |[Anslutning av flera lysdioder](05_anslutning_av_flera_lysdioder/README.md)
-6  |[Användning av flera lysdioder](06_anvaendning_av_flera_lysdioder/README.md)
-7  |[Anslutning av en knapp](07_anslutning_av_en_knapp/README.md)
-8  |[Användning av en knapp](08_anvaendning_av_en_knapp/README.md)
-9  |[Anslutning av en vridmotstånd](09_anslutning_av_en_vridmotstaand/README.md)
-10 |[Användning av en vridmotstånd](10_anvaendning_av_en_vridmotstaand/README.md)
+6  |[Programmering av flera lysdioder](06_anvaendning_av_flera_lysdioder/README.md)
+7  |[Mätning av en knapp](07_maetning_av_en_knapp/README.md)
+8  |[Anslutning av en knapp](08_anslutning_av_en_knapp/README.md)
 .  |**Bok 3**
-11 |[Anslutning av en joystick](11_anslutning_av_en_joystick/README.md)
-12 |[Användning av en joystick](12_anvaendning_av_en_joystick/README.md)
-13 |[Anslutning av en LDR](13_anslutning_av_en_ldr/README.md)
-14 |[Användning av en LDR](14_anvaendning_av_en_ldr/README.md)
+9  |[Användning av en knapp](09_anvaendning_av_en_knapp/README.md)
+10 |[Anslutning av en vridmotstånd](10_anslutning_av_en_vridmotstaand/README.md)
+11 |[Användning av en vridmotstånd](11_anvaendning_av_en_vridmotstaand/README.md)
+12 |[Anslutning av en joystick](12_anslutning_av_en_joystick/README.md)
 .  |**Bok 4**
-15 |[Knapp som minns om den är tryckt](15_knapp_som_minns_om_den_aer_tryckt/README.md)
-16 |[Knapp som minns om den är tryckt länge](16_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
+13 |[Användning av en joystick](13_anvaendning_av_en_joystick/README.md)
+14 |[Anslutning av en LDR](14_anslutning_av_en_ldr/README.md)
+15 |[Användning av en LDR](15_anvaendning_av_en_ldr/README.md)
+16 |[Knapp som minns om den är tryckt](16_knapp_som_minns_om_den_aer_tryckt/README.md)
+.  |**Bok 5**
+17 |[Knapp som minns om den är tryckt länge](17_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
 
 ### Lektionskort 1: Bas
 
@@ -60,7 +62,7 @@ Kpt|Beskrivning
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  | **Bok 5**
-17 |[Enkel melodi](17_enkel_melodi/README.md)
+17 |[Enkel melodi](x17_enkel_melodi/README.md)
 18 |[7-stift-piano](18_7_stift_piano/README.md)
 19 |[1-stift-7-parallella-motstånd-piano](19_1_stift_7_parallella_motstaand_piano/README.md)
 20 |[1-stift-7-motstånd-i-serie-piano](20_1_stift_7_motstaand_in_serie_piano/README.md)

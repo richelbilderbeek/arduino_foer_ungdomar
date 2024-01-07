@@ -1,8 +1,8 @@
-# Lektion 7: Anslutning av en knapp
+# Lektion 8: Anslutning av en knapp
 
 Under den här lektionen ska vi ansluta en knapp till en Arduino!
 
-## 7.1. Anslut lysdioden och knapp
+## 8.1. Anslut lysdioden och knapp
 
 Bygg den här kretsen:
 
@@ -30,7 +30,7 @@ Knappen, dock, gör ingenting: om du trycker den eller inte gör det ingen skill
 
 \pagebreak
 
-## 7.2. Krets 2
+## 8.2. Krets 2
 
 Kolla på den här kretsen:
 
@@ -49,7 +49,7 @@ Lysdioder kommer alltid att lysa: den vänstra ben av knappen är sammanlänkat!
 Så ja, det funkar! Om inte, fråga om hjälp!
 
 
-## 7.3. Krets 3
+## 8.3. Krets 3
 
 Kolla på den här kretsen:
 
@@ -67,7 +67,7 @@ Nu funkar knappen bra: lysdioder kommer att lysa om du trycker knappen.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
-## 7.4. Krets 4
+## 8.4. Krets 4
 
 Kolla på den här kretsen:
 
@@ -85,7 +85,7 @@ Knappen funkar fortfarande bra: lysdioder kommer att lysa om du trycker knappen.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
-## 7.5. Krets 5
+## 8.5. Krets 5
 
 Kolla på den här kretsen:
 
@@ -103,7 +103,7 @@ Knappen funkar fortfarande bra: lysdioder kommer att lysa om du trycker knappen.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
-## 7.6. Krets 6
+## 8.6. Krets 6
 
 Kolla på den här kretsen:
 
@@ -122,7 +122,7 @@ kommer lysdioden att lysa.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
-## 7.7. Krets 7
+## 8.7. Krets 7
 
 Kolla på den här kretsen:
 
@@ -142,7 +142,7 @@ kommer lysdioden att lysa.
 Så ja, det funkar! Om inte, fråga om hjälp!
 
 
-## 7.8. Krets 8
+## 8.8. Krets 8
 
 Kolla på den här kretsen:
 
@@ -160,7 +160,7 @@ Bygg ihop kretsen och kontrollera!
 Om du trycker en knapp, kommer alltid två lysdioden att lysa.
 
 
-## 7.9. Slutuppgift
+## 8.9. Slutuppgift
 
 Försammla:
 
