@@ -94,7 +94,7 @@ Så här funkar vridmotståndet bra på en annat vis.
 
 ## 10.4. Att mäta en vridmotstånd 4
 
-![](maetning_av_en_vridmotstaand_4.png)
+![](maetning_av_en_vridmotstaand_4_annotated.png)
 
  * vrida vridmotståndet någonstans in mitten av vridning
  * mäta motstand mellan stift 1 och 2 av vridmotståndet
