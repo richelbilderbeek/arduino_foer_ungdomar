@@ -6,7 +6,7 @@ Under den här lektionen ska vi mäta en knapp!
 
 ![](maetning_av_en_knapp_1.png)
 
-Vrid knappen på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den toppen-vänstra benen av knappen
@@ -29,7 +29,7 @@ Smart!
 
 ![](maetning_av_en_knapp_2.png)
 
-Vrid knappen på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den toppen-vänstra benen av knappen
@@ -49,7 +49,7 @@ Det är samma beteede än före gång.
 
 ![](maetning_av_en_knapp_3.png)
 
-Vrid knappen på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den toppen-vänstra benen av knappen
@@ -67,7 +67,7 @@ Man skulle inte koppla en knapp på den här vis.
 
 ![](maetning_av_en_knapp_4.png)
 
-Vrid knappen på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den nere-vänstra benen av knappen
@@ -90,7 +90,7 @@ Smart!
 
 ![](maetning_av_en_knapp_2.png)
 
-Vrid knappen på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den nere-vänstra benen av knappen
@@ -110,7 +110,7 @@ Det är samma beteede än före gång.
 
 ![](maetning_av_en_knapp_3.png)
 
-Vrid knappen på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den nere-vänstra benen av knappen

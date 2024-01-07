@@ -10,10 +10,10 @@ Under den här lektionen ska vi använda en multimeter.
 ![](anvaendning_av_en_multimeter_kortslutning.png)
 
 Leta efter en multimeter och två tillhörande mätkablar: en röd och en svart.
-Vrid knappen på multimetern till Ohm symbolen (ser ut så här: Ω),
+Vrid knappen på multimetern till Ohm symbolen,
 och om det står nummer så ska du ha 20K.
 Koppla in den röda mätkabeln i det röda hålet på multimetern som har ett V och en
-Ohm symbol (Ω) ovanför sig.
+Ohm symbol ovanför sig.
 Koppla in den svarta mätkabeln i det svarta hålet på multimetern som har ordet 'COM' ovanför sig.
 
 Sätt på multimetern och håll ihop den röda och svarta mätpinnen.

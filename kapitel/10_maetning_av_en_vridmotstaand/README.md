@@ -6,7 +6,7 @@ Under den här lektionen ska vi mäta en vridmotstånd!
 
 ![](maetning_av_en_vridmotstaand_1.png)
 
-Vrid vridknappen på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid vridknappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den vänstra benen av vridmotstånden
@@ -38,7 +38,7 @@ Så här funkar vridmotståndet bra! Mätningar skull vara så här (om inte: fr
 
 ![](maetning_av_en_vridmotstaand_2.png)
 
-Vrid vridmotstånden på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid vridmotstånden på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den vänstra benen av vridmotstånden
@@ -62,7 +62,7 @@ Så här funkar vridmotståndet inte :-)
 
 ![](maetning_av_en_vridmotstaand_3.png)
 
-Vrid vridmotstånden på multimetern till Ohm symbolen (ser ut så här: Ω).
+Vrid vridmotstånden på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
  * röda mätpinnen på den mittna benen av vridmotstånden
