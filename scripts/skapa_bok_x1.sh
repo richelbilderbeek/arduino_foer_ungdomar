@@ -12,12 +12,11 @@ if [ ! -d $build_folder ]; then
   exit 1
 fi
 
-
-cp ../kapitel/foerord/*.*                                  $build_folder; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/01_anvaendning_av_den_inbyggda_lysdioden/*.* $build_folder; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/02_anvaendning_av_en_multimeter/*.*          $build_folder; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/03_anslutning_av_en_lysdiod/*.*              $build_folder; mv $build_folder/README.md $build_folder/README_03.md
-cp ../kapitel/04_programmering_av_en_lysdiod/*.*           $build_folder; mv $build_folder/README.md $build_folder/README_04.md
+cp ../kapitel/foerord/*.* $build_folder             ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../kapitel/01_blink/*.* $build_folder            ; mv $build_folder/README.md $build_folder/README_01.md
+cp ../kapitel/02_blink_blink_blink/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
+cp ../kapitel/03_knapp_if_else/*.* $build_folder    ; mv $build_folder/README.md $build_folder/README_03.md
+cp ../kapitel/04_knapp_flip/*.* $build_folder       ; mv $build_folder/README.md $build_folder/README_04.md
 
 cp arduino_book_style.theme $build_folder
 
@@ -47,3 +46,4 @@ bookletimposer -a bok_1.pdf -o haefte_1.pdf
 
 # Cleanup
 rm bok_1_utan_framsida.pdf
+
