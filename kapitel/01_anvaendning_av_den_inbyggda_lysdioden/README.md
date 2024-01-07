@@ -47,7 +47,7 @@ Nu ser du Arduino IDEn:
 
 ## 1.3. Vårt första program
 
-Detta är (en version av) koden för `Blink`:
+Här är kod för Arduino:
 
 ```c++
 void setup() 
@@ -66,11 +66,11 @@ void loop()
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`void setup() { }`|'Kära dator, gör vad som än står inom måsvingarna i början av programmet'
+`void setup() { }`|'Kära dator, gör allt inom måsvingarna i början av programmet'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
-`void loop() { }`|'Kära dator, gör vad som än står inom måsvingarna hela tiden.'
+`void loop() { }`|'Kära dator, gör allt inom måsvingarna hela tiden.'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------: 
@@ -114,6 +114,8 @@ void loop()
   delay(100);
 }
 ```
+
+\pagebreak
 
 ## 1.6. Uppgift 3
 

@@ -1,9 +1,9 @@
 ![Bok 1](framsida_1.png)
 
 `#`|Beskriving
----|---
-1|Blink
-2|Blink Blink Blink
-3|Knapp, `if`, `else`
-4|Knapp flip
+---|------------------------------------
+1  |Användning av den inbyggda lysdioden
+2  |Användning av en multimeter
+3  |Anslutning av en lysdiod
+4  |Programmering av en lysdiod
 
