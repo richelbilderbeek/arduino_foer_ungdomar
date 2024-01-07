@@ -1,8 +1,8 @@
-# Lektion 8: Användning av en knapp
+# Lektion 9: Användning av en knapp
 
 Under den här lektionen ska vi ansluta knappar till en Arduino!
 
-## 8.1: Krets 1
+## 9.1: Krets 1
 
 Bygg upp den här kretsen:
 
@@ -19,7 +19,7 @@ Lysioderna åt höger skulle lysa om du trycker knappen den är anslutna till.
 
 Om inte, fråga om hjälp!
 
-## 8.2: Krets 2
+## 9.2: Krets 2
 
 Bygg upp den här kretsen:
 
@@ -37,7 +37,7 @@ Lysioderna åt höger skulle lysa om du trycker knappen den är anslutna till.
 
 Om inte, fråga om hjälp!
 
-## 8.3: Kod 1
+## 9.3: Kod 1
 
 Uploada den här koden:
 
@@ -65,7 +65,7 @@ På början lyser lysdioden inte.
 Om du trycker på vänsterknappen lyser upp lysdioden för evigt.
 Högerknappen gör ingenting.
 
-## 8.3: Kod 2
+## 9.3: Kod 2
 
 Uploada den här koden:
 
@@ -94,7 +94,7 @@ Om du trycker på högerknappen lyser upp lysdioden för evigt.
 Vänsterknappen gör ingenting.
 
 
-## 8.3: Kod 3
+## 9.3: Kod 3
 
 Uploada den här koden:
 
@@ -123,7 +123,7 @@ På början lyser lysdioden.
 Om du trycker på vänsterknappen släcker lysdioden för evigt.
 Högerknappen gör ingenting.
 
-## 8.4: Kod 4
+## 9.4: Kod 4
 
 Uploada den här koden:
 
@@ -154,7 +154,7 @@ På början lyser lysdioden inte.
 Om du du trycker på vänsterknappen, lyser lysdioden för evigt.
 Om du du trycker på högerknappen, släcker lysdioden för evigt.
 
-## 8.5: Kod 5
+## 9.5: Kod 5
 
 Uploada den här koden:
 
@@ -183,7 +183,7 @@ På början lyser lysdioden inte.
 Om du du trycker på vänsterknappen, lyser lysdioden så länge du håller knappen intryckt.
 Högerknappen gör ingenting.
 
-## 8.6: Kod 6
+## 9.6: Kod 6
 
 Uploada den här koden:
 
@@ -213,7 +213,7 @@ Vad gissar du att koden gör? Vad händer? Varför?
 På början lyser lysdioden inte.
 Om du du trycker på båda knappor, lyser lysdioden så länge du håller båda intryckt.
 
-## 8.7: Kod 7
+## 9.7: Kod 7
 
 Uploada den här koden:
 
@@ -245,7 +245,7 @@ På början lyser lysdioden inte.
 Om du du trycker på en av båda knappor, 
 lyser lysdioden så länge du håller en av båda intryckt.
 
-## 8.8: Kod 8
+## 9.8: Kod 8
 
 Uploada den här koden:
 
@@ -277,7 +277,7 @@ På början lyser lysdioden.
 Om du du trycker på en av båda knappor, 
 släcker lysdioden så länge du håller en av båda intryckt.
 
-## 8.13: Slutuppgift
+## 9.13: Slutuppgift
 
 Försammla:
 
