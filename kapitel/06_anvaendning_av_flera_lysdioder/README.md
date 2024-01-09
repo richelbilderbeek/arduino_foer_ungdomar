@@ -1,6 +1,6 @@
-# Lektion 6: Användning av flera lysdioder
+# Lektion 6: Programmering av flera lysdioder
 
-Under den här lektionen ska vi ansluta flera lysdioder till en Arduino!
+Under den här lektionen ska vi programmera flera lysdioder med en Arduino!
 
 ## 6.1: Anslutning
 
@@ -8,13 +8,13 @@ Bygg upp den här kretsen:
 
 ![](anvaendning_av_flera_lysdioder_0.png)
 
-Alla lysdioder skulle lysa. Om inte, fråga hjälp!
+Alla lysdioder ska lysa. Om de inte gör det, be om hjälp!
 
 \pagebreak
 
 ## 6.2: Koden
 
-Uploada den här koden:
+Ladda upp denna kod:
 
 ```c++
 void setup() 
@@ -37,45 +37,45 @@ void loop()
 }
 ```
 
-Vad gissar du att koden gör? Vad händer? Varför?
+Vad tror du att koden gör? Vad händer? Varför?
 
 ### Svar
 
-Koden lyser upp lysdioden på hålor 11, 12 och 13,
-väntar en second (dws. tusen millisecond),
-släckar alla lysdioden
-och väntar en second. 
-Efter det blir det uprepad.
+Koden tänder lysdioden vid hål 11, 12 och 13,
+väntar en sekund (dvs. tusen millisekunder),
+släcker alla lysdioder
+och väntar en sekund. 
+Efter det upprepas koden.
 
-Men ingenting händer, för att det finns ingen sladdar i hålorna.
+Men ingenting händer, eftersom det inte sitter några sladdar i hålen.
 
-## 6.3: Anslutning
+## 6.3: Anslutning 1
 
 Bygg om till den här kretsen:
 
 ![](anvaendning_av_flera_lysdioder_1.png)
 
-Lysdioden på vänster skull blinka. Om inte, fråga om hjälp!
+Lysdioden till vänster skall blinka. Om inte, fråga om hjälp!
 
-## 6.4: Anslutning
+## 6.4: Anslutning 2
 
 Bygg om till den här kretsen:
 
 ![](anvaendning_av_flera_lysdioder_2.png)
 
-Den tå lysdioden på vänster skull blinka. Om inte, fråga om hjälp!
+De två lysdioderna till vänster skall blinka. Om inte, fråga om hjälp!
 
-## 6.5: Anslutning
+## 6.5: Anslutning 3
 
 Bygg om till den här kretsen:
 
 ![](anvaendning_av_flera_lysdioder_3.png)
 
-Den tre lysdioden på vänster skull blinka. Om inte, fråga om hjälp!
+Den tre lysdioderna skall blinka. Om inte, fråga om hjälp!
 
-## 6.6: Et nytt monster
+## 6.6: Ett nytt mönster
 
-Andra koden till den som är här nere:
+Ändra koden till koden nedan:
 
 ```c++
 void setup() 
@@ -103,21 +103,21 @@ Vad ser du?
 
 ### Svar
 
-Monstret upprepar:
+Mönstret upprepar:
 
- * lysdioden i 11 och 12 lyser
- * en secund händer ingenting
- * lysdioden 13 lyser, lysdioden 11 släcker
- * en secund händer ingenting
- * lysdioden 12 och 13 släcker
- * en secund händer ingenting
+ * lysdioderna i 11 och 12 lyser
+ * en sekund händer ingenting
+ * lysdioden i 13 lyser, lysdioden i 11 släcker
+ * en sekund händer ingenting
+ * lysdioden i 12 och i 13 släcker
+ * en sekund händer ingenting
 
-## 6.13: Knight Rider monstret
+## 6.13: Knight Rider mönstret
 
-Förbereda kod:
+Förbered kod:
 
 Få nu LEDs lysa i ett 'Knight Rider-mönster': 1-2-3-2. 
-Det måste alltid finnas exakt en LED som lyser.
+Det ska alltid vara exakt en LED som lyser.
 
 ![Solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
 :-------------:|:----------------------------------------: 
@@ -155,22 +155,22 @@ void loop()
 
 ## 6.13: Slutuppgift
 
-Försammla:
+Material som krävs:
 
  * 1 dator
  * 1 Arduino
  * 1 USB sladd
  * 1 kopplingsdäck
  * 3 1.000 Ohm motstånd
- * 3 lysdiod
- * tillräckligt mycket sladdar
+ * 3 lysdioder
+ * lagom många sladdar
 
-På dator: har redo koden!
+På datorn: har koden redo!
 
-Läs slutuppgift först, för att du har 10 minuten.
+Läs slutuppgiften först, efter det har du 10 minuter på dig.
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig!
+1. Fråga någon för att examinera. Personen får inte hjälpa dig!
 
-Start en timer och gör följande:
+Starta en timer och gör följande:
 
-2. Bygg upp kretsen från början, uploada koden och visar Knight Rider monstret!
+2. Bygg upp kretsen från början, ladda upp koden och visa Knight Rider mönstret!
