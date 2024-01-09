@@ -113,9 +113,9 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_flera_lysdioder_3.png)
 
-Lysdioden är kopplad rätt igen, men motståndet är vridet tvärtom!
+Nu finns tre lysdioder!
 
-Tror du att lysdioden kommer att lysa? Varför?
+Tror du att nya lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
