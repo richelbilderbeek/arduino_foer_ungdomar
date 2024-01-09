@@ -19,6 +19,8 @@ Koppla in den svarta mätkabeln i det svarta hålet på multimetern som har orde
 Sätt på multimetern och håll ihop den röda och svarta mätpinnen.
 Vad visar mätningen?
 
+\pagebreak
+
 ### Svar
 
 Skärmen ska visa ett motstånd på 0 Ohm.
@@ -70,7 +72,7 @@ Motstånd är inte perfekta, så det stämmer!
 ![](EmojiBowtie.png) | Motstånd är inte perfekta!
 :-------------:|:----------------------------------------: 
 
-## 2.4. Mätning av ett 100 Ohms motstånd i andra riktningen
+## 2.4. Mätning av ett tusenohms motstånd i andra riktningen
 
 ![](anvaendning_av_en_multimeter_1000_2.png)
 
@@ -81,6 +83,8 @@ Vänd på motståndet och mät motståndet igen:
 
 Vad visar mätningen?
 
+\pagebreak
+
 ### Svar
 
 Värdena skulle vara mellan 950 och 1050 Ohm!
@@ -89,11 +93,11 @@ Riktningen på motståndet spelar ingen roll.
 ![](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
 :-------------:|:----------------------------------------: 
 
-## 2.5. Mätning av ett 10 000 Ohms motstånd
+## 2.5. Mätning av ett tiotusenohms motstånd
 
 ![](anvaendning_av_en_multimeter_10000_1.png)
 
-Leta efter ett **10**-1000 Ohms motstånd.
+Leta efter ett **tio**-tusen Ohms motstånd.
 Det har ränder i brunt, svart, **orange** och guld, i den ordningen.
 
 Sätt på multimetern och koppla:
@@ -103,6 +107,8 @@ Sätt på multimetern och koppla:
 
 Vad visar mätningen?
 
+\pagebreak
+
 ### Svar
 
 Värdena skulle vara mellan 9 500 och 10 500 Ohm!
@@ -111,7 +117,7 @@ Motstånd är inte perfekta, så det stämmer!
 ![](EmojiBowtie.png) | Motstånd är inte perfekta!
 :-------------:|:----------------------------------------: 
 
-## 2.6. Mätning av ett 10 000 Ohms motstånd i andra riktning
+## 2.6. Mätning av ett tiotusenohms motstånd i andra riktning
 
 ![](anvaendning_av_en_multimeter_10000_2.png)
 
@@ -121,6 +127,8 @@ Vänd på motståndet och mät motståndet igen:
  * svarta mätpinnen på andra sidan av motståndet
 
 Vad visar mätningen?
+
+\pagebreak
 
 ### Svar
 
@@ -143,6 +151,8 @@ Sätt på multimetern och koppla:
 
 Vad visar mätningen? Lyser lysdioden litegrann?
 
+\pagebreak
+
 ### Svar
 
 Värdet är inte oändligt!
@@ -164,14 +174,16 @@ Vänd på lysdioden och mät motståndet igen:
 
 Vad visar mätningen? Lyser lysdioden litegrann?
 
-![](EmojiBowtie.png) | Riktningen på en lysdiod är viktigt!
-:-------------:|:----------------------------------------: 
+\pagebreak
 
 ### Svar
 
 Värdet skulle vara oändligt.
 Det betyder att el inte kan gå igenom en lysdiod i den riktningen.
 Lysdioden lyser inte.
+
+![](EmojiBowtie.png) | Riktningen på en lysdiod är viktigt!
+:-------------:|:----------------------------------------: 
 
 ## 2.9. Slutuppgift
 

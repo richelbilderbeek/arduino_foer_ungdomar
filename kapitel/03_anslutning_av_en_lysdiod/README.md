@@ -8,17 +8,19 @@ Vi använder ett kopplingsdäck för att ansluta grejer till Arduino.
 
 Här ser vi ett:
 
-![Image from https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_en_lysdiod_breadboard_frontside.jpg)
+![Bild från https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_en_lysdiod_breadboard_frontside.jpg)
 
 Och här är baksidan av samma kopplingsdäck:
 
-![Image from https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_en_lysdiod_breadboard_backside.jpg)
+![Bild från https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_en_lysdiod_breadboard_backside.jpg)
 
 Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
 ![](anslutning_av_en_lysdiod_breadboard_schematic_with_dots.png)
 
 Vilka av hålen är sammanlänkade?
+
+\pagebreak
 
 ### 3.1. Svar
 
@@ -342,7 +344,11 @@ Det långa benet av en lysdiod skall vara kopplat till 5V.
 
 ## 3.18. Slutuppgift
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig.
+Läs igenom slutuppgiften först, för du har 15 minuter på dig.
+
+1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+
+Starta en timer och gör följande:
 
 Upprepa fem gånger:
 
