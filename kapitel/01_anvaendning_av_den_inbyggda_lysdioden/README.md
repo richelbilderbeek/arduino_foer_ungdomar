@@ -164,7 +164,21 @@ Du kommer inte längre att kunna se lampan blinka.
 
 ## 1.8. Slutuppgift
 
-Få lysdioden att blinka så snabbt som ett mänskligt öga kan se.
+Hämta:
 
-![Solglasögon](EmojiSunglasses.png) | Lyckades det? Visa detta för en vuxen för signatur!
-:-------------:|:----------------------------------------: 
+ * 1 st dator
+ * 1 st USB sladd
+ * 1 st Arduino
+
+Läs igenom slutuppgiften först, för du har 5 minuter på dig.
+
+1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+
+2. Stäng av dator helt. Starta dator. Starta timern när Arduino IDE är startat
+
+3. Få lysdioden att blinka varje sekund,
+   dvs lysdioden är på i 1 sekund och av i 1 sekund.
+   Du får använda kod som redan finns!
+
+4. Få lysdioden att blinka så snabbt som möjligt.
+   Förklara varför vi kann inte ser det
