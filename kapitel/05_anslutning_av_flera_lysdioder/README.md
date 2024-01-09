@@ -39,7 +39,8 @@ Den fyra långa horisontella raderna av hål kallas 'kraftremsor'.
    Ofta har de en röd linje brevid sig.
  * Två remsor fungerarar som jord eller GND.
    Ofta har den en svart eller blå linje brevid sig
-Försök svara:
+
+Försök förklara:
 
  * Vad gör sladden mellan 5V på Arduino och kopplingsdäcket?
  * Vad gör sladden mellan GND på Arduino och kopplingsdäcket?
@@ -50,17 +51,17 @@ Försök svara:
 ### Svar
 
 Sladden mellan 5V på Arduino och kopplingsdäcket
-gör kopplingsdäcket kopplat till 5V spänning.
+gör så att kopplingsdäcket är kopplat till 5V spänning.
 
-Sladden mellan GND av Arduino och kopplingsdäcket
-gör kopplingsdäcket kopplat till jord/GND.
+Sladden mellan GND på Arduino och kopplingsdäcket
+gör så att kopplingsdäcket är kopplat till jord/GND.
 
-Sladden mellan 5V och kraftremsorna ger båda kraftremsorna 5V spänning.
+Sladden mellan 5V och kraftremsorna gör så att båda kraftremsorna kopplade dit har 5V spänning.
 
-Sladden mellan GND kraftremsor gör 
-att båda GND kraftremsor har jord/GND.
+Sladden mellan GND och kraftremsorna gör 
+så att båda kraftremsorna kopplade dit är jordade.
 
-## 5.3. Anslut motstånden och lysdioden
+## 5.3. Krets 1: Anslut motstånden och lysdioden
 
 Nu är det dags att bygga kretsen på riktigt:
 
@@ -79,8 +80,8 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Elen kan gå från `5V` till 5 voltskraftrems, igenom lysdioden och motståndet,
-till jordenskraftrems och till `GND`.
+Elen kan gå från `5V` till 5 voltskraftremsa, igenom lysdioden och motståndet,
+till jordningskraftremsa och fram till `GND`.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -94,14 +95,13 @@ Kolla på den här kretsen:
 
 Nu finns två lysdioder!
 
-Tror du att lysdioder kommer att lysa? Varför?
+Tror du att lysdioderna kommer att lysa? Varför?
 
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer båda att lysa, för att varje en
-har tillgång till `5V` och jord tack vore kraftremsorna.
+Lysdioderna kommer båda att lysa, då båda har tillgång till `5V` och jord tack vare kraftremsorna.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -118,8 +118,8 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer alla tre att lysa, för att varje en
-har tillgång till `5V` och jord tack vore kraftremsorna.
+Lysdioderna kommer alla tre att lysa, för att varje
+har tillgång till `5V` och jord tack vare kraftremsorna.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -132,11 +132,11 @@ Försammla:
  * 1 USB sladd
  * 1 kopplingsdäck
  * 7 1.000 Ohm motstånd
- * 7 lysdiod
- * tillräckligt mycket sladdar
+ * 7 lysdioder
+ * lagom många sladdar
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig.
+1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
 
-Start en timer på 10 minuten och gör följande:
+Starta en timer på 10 minuter och gör följande:
 
-2. Får 7 lysdioden att lysa
+2. Får 7 lysdioder att lysa
