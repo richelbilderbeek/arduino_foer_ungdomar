@@ -1,6 +1,6 @@
 # Lektion 5: Anslutning av flera lysdioder
 
-Under den här lektionen ska vi ansluta en lysdiod till en Arduino!
+Under den här lektionen ska vi ansluta flera lysdioder till en Arduino!
 
 ## 5.1. Kopplingsdäcket
 
@@ -33,31 +33,29 @@ Kolla på den här bilden:
 
 ![](anslutning_av_flera_lysdioder_0.png)
 
-Den fyra långa horizontella rad av hål är kallad 'kraftremsor'.
+Den fyra långa horisontella raderna av hål kallas 'kraftremsor'.
 
  * Två remsor levererar 5V spänning. 
-   Ofta har den an linje brevid sig med som är röd
+   Ofta har de en röd linje brevid sig.
  * Två remsor fungerarar som jord eller GND.
-   Ofta har den an linje brevid sig med som är svart eller blå
-
+   Ofta har den en svart eller blå linje brevid sig
 Försök svara:
 
- * Vad gör sladden mellan 5V av Arduino och kopplingsdäcket?
- * Vad gör sladden mellan GND av Arduino och kopplingsdäcket?
- * Vad gör sladden mellan 5V kraftremsor?
- * Vad gör sladden mellan GND kraftremsor?
+ * Vad gör sladden mellan 5V på Arduino och kopplingsdäcket?
+ * Vad gör sladden mellan GND på Arduino och kopplingsdäcket?
+ * Vad gör sladden mellan 5V och kraftremsorna?
+ * Vad gör sladden mellan GND kraftremsorna?
 
 
 ### Svar
 
-Sladden mellan 5V av Arduino och kopplingsdäcket
-få att kopplingsdäck har 5V spänning.
+Sladden mellan 5V på Arduino och kopplingsdäcket
+gör kopplingsdäcket kopplat till 5V spänning.
 
 Sladden mellan GND av Arduino och kopplingsdäcket
-få att kopplingsdäck har tillgång till jord/GND.
+gör kopplingsdäcket kopplat till jord/GND.
 
-Sladden mellan 5V kraftremsor gör 
-att båda 5V kraftremsor har 5V spänning.
+Sladden mellan 5V och kraftremsorna ger båda kraftremsorna 5V spänning.
 
 Sladden mellan GND kraftremsor gör 
 att båda GND kraftremsor har jord/GND.
