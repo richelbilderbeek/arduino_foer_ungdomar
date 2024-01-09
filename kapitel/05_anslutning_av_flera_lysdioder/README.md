@@ -125,7 +125,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 ## 5.6. Slutuppgift
 
-Försammla:
+Material som krävs:
 
  * 1 dator
  * 1 Arduino
