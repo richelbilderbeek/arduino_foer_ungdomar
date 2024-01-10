@@ -86,7 +86,7 @@ Smart!
 
 ## 7.5. Att mäta en knapp 5
 
-![](maetning_av_en_knapp_2.png)
+![](maetning_av_en_knapp_5.png)
 
 Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -106,7 +106,7 @@ Det är samma resultat som förra gången.
 
 ## 7.6. Att mäta en knapp 6
 
-![](maetning_av_en_knapp_3.png)
+![](maetning_av_en_knapp_6.png)
 
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
