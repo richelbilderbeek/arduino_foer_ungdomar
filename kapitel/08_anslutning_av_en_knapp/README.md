@@ -21,12 +21,12 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Elen kan gå från `5V` till 5voltskraftremsorna, igenom lysdioden och motståndet,
-till jordkraftrems och till `GND`.
+Elen kan gå från `5V` till 5voltsskenorna, igenom lysdioden och motståndet,
+till jordskenor och till `GND`.
 
 Så ja, lysdioden lyser! Om inte, fråga om hjälp!
 
-Knappen, dock, gör ingenting: om du trycker den eller inte gör det ingen skillnad.
+Knappen, dock, gör ingenting: om du trycker ner den eller inte gör ingen skillnad.
 
 \pagebreak
 
@@ -36,15 +36,15 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_2.png)
 
-Nu är knappen användt! 
+Nu används knappen! 
 
-Lyser lysdioden? Går knappen nåt? Varför tror du det?
+Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer alltid att lysa: den vänstra ben av knappen är sammanlänkat!
+Lysdioden kommer alltid att lysa: de vänstra benen på knappen är sammanlänkae!
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -57,7 +57,7 @@ Kolla på den här kretsen:
 
 Nu är sladden mellan lysdioden och knappen sammanlänkat på höger-nedåt ställe av knappen. 
 
-Lyser lysdioden? Går knappen nåt? Varför tror du det?
+Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
@@ -75,7 +75,7 @@ Kolla på den här kretsen:
 
 Nu är sladden mellan lysdioden och knappen sammanlänkat på höger-uppåt ställe av knappen. 
 
-Lyser lysdioden? Går knappen nåt? Varför tror du det?
+Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
@@ -93,7 +93,7 @@ Kolla på den här kretsen:
 
 Nu är sladden mellan 5V kraftremsen och knappen sammanlänkat på vänster-nedåt ställe av knappen. 
 
-Lyser lysdioden? Går knappen nåt? Varför tror du det?
+Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
@@ -111,7 +111,7 @@ Kolla på den här kretsen:
 
 Nu finns det två knappar!
  
-Lyser lysdioden? Går knapparna nåt? Varför tror du det?
+Lyser lysdioden? gör knapparna något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
@@ -130,13 +130,13 @@ Kolla på den här kretsen:
 
 Nu finns det två knappar med en annat sammanlänkning.
  
-Lyser lysdioden? Går knapparna nåt? Varför tror du det?
+Lyser lysdioden? gör knapparna något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-knapparna funkar så dem skulle: om du trycker **en av båda**
+knapparna funkar så de ska: om du trycker **en av båda**
 kommer lysdioden att lysa.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
@@ -148,16 +148,16 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_8.png)
 
-Nu finns det två lysdioder till!.
+Nu finns det två lysdioder till!
 
-Kann du förutspå när vilken lysdioder lyser? 
+Kan du förutspå när vilka av dem lyser? 
 Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Om du trycker en knapp, kommer alltid två lysdioden att lysa.
+Om du trycker en knapp, kommer alltid två lysdioder att lysa.
 
 
 ## 8.9. Slutuppgift
@@ -177,4 +177,4 @@ Material som krävs:
 
 Starta en timer på 10 minuter och gör följande:
 
-2. Bygga upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder att lysa.
+2. Bygga upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder lysa.
