@@ -1,6 +1,6 @@
 # Lektion 7: Mätning av en knapp
 
-Under den här lektionen ska vi mäta en knapp!
+Under den här lektionen ska vi lära oss hur knappar fungerar!
 
 ## 7.1. Att mäta en knapp 1
 
