@@ -26,7 +26,7 @@ genom jordskenorna och till `GND`.
 
 Så ja, lysdioden lyser! Om inte, fråga om hjälp!
 
-Knappen, dock, gör ingenting: om du trycker ner den eller inte gör ingen skillnad.
+Knappen, gör dock ingenting: om du trycker ner den eller inte gör ingen skillnad.
 
 \pagebreak
 
@@ -73,7 +73,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_4.png)
 
-Nu är sladden mellan lysdioden och knappen sammanlänkad på höger-uppåt ställe av knappen. 
+Nu sitter den blå sladden mellan lysdioden och knappen vid det övra högra hörnet på knappen. 
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
