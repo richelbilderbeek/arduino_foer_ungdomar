@@ -22,7 +22,7 @@ Bygg ihop kretsen och kontrollera!
 ### Svar
 
 Elen kan gå från `5V` till 5voltsskenorna, igenom lysdioden och motståndet,
-till jordskenor och till `GND`.
+genom jordskenorna och till `GND`.
 
 Så ja, lysdioden lyser! Om inte, fråga om hjälp!
 
@@ -44,7 +44,7 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioden kommer alltid att lysa: de vänstra benen på knappen är sammanlänkae!
+Lysdioden kommer alltid att lysa: de vänstra benen på knappen är sammanlänkade!
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -55,7 +55,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_3.png)
 
-Nu är sladden mellan lysdioden och knappen sammanlänkat på höger-nedåt ställe av knappen. 
+Nu är sladden mellan lysdioden och knappen sammanlänkade vid det nedre högra hörnet på knappen. 
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
@@ -73,7 +73,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_4.png)
 
-Nu är sladden mellan lysdioden och knappen sammanlänkat på höger-uppåt ställe av knappen. 
+Nu är sladden mellan lysdioden och knappen sammanlänkad på höger-uppåt ställe av knappen. 
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
