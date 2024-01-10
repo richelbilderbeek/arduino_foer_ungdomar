@@ -128,7 +128,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_7.png)
 
-Nu finns det två knappar med en annat sammanlänkning.
+Nu finns det två knappar med en annan sammanlänkning.
  
 Lyser lysdioden? gör knapparna något? Varför tror du det?
 
@@ -170,11 +170,11 @@ Material som krävs:
  * 1 kopplingsdäck
  * 2 knapp
  * 3 1.000 Ohm motstånd
- * 3 lysdiod
+ * 3 lysdioder
  * lagom många sladdar
 
 1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
 
 Starta en timer på 10 minuter och gör följande:
 
-2. Bygga upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder lysa.
+2. Bygg upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder lysa.
