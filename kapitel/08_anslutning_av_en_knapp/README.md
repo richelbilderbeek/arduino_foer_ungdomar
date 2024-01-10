@@ -109,9 +109,9 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_6.png)
 
-Nu finns det två knappor!
+Nu finns det två knappar!
  
-Lyser lysdioden? Går knapporna nåt? Varför tror du det?
+Lyser lysdioden? Går knapparna nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
@@ -128,15 +128,15 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_7.png)
 
-Nu finns det två knappor med en annat sammanlänkning.
+Nu finns det två knappar med en annat sammanlänkning.
  
-Lyser lysdioden? Går knapporna nåt? Varför tror du det?
+Lyser lysdioden? Går knapparna nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Knapporna funkar så dem skulle: om du trycker **en av båda**
+knapparna funkar så dem skulle: om du trycker **en av båda**
 kommer lysdioden att lysa.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
@@ -162,7 +162,7 @@ Om du trycker en knapp, kommer alltid två lysdioden att lysa.
 
 ## 8.9. Slutuppgift
 
-Försammla:
+Material som krävs:
 
  * 1 dator
  * 1 Arduino
@@ -171,10 +171,10 @@ Försammla:
  * 2 knapp
  * 3 1.000 Ohm motstånd
  * 3 lysdiod
- * tillräckligt mycket sladdar
+ * lagom många sladdar
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig.
+1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
 
-Start en timer på 10 minuten och gör följande:
+Starta en timer på 10 minuter och gör följande:
 
-2. Bygga up sista krets från början. Om du trycker en knapp, kommer alltid två lysdioden att lysa.
+2. Bygga upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder att lysa.
