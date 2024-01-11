@@ -33,19 +33,19 @@ Kolla på den här bilden:
 
 ![](anslutning_av_flera_lysdioder_0.png)
 
-Den fyra långa horisontella raderna av hål kallas 'kraftremsor'.
+Den fyra långa horisontella raderna av hål kallas 'skenor'.
 
- * Två remsor levererar 5V spänning. 
+ * Två skenor levererar 5V spänning. 
    Ofta har de en röd linje brevid sig.
- * Två remsor fungerarar som jord eller GND.
+ * Två skenor fungerarar som jord eller GND.
    Ofta har den en svart eller blå linje brevid sig
 
 Försök förklara:
 
  * Vad gör sladden mellan 5V på Arduino och kopplingsdäcket?
  * Vad gör sladden mellan GND på Arduino och kopplingsdäcket?
- * Vad gör sladden mellan 5V och kraftremsorna?
- * Vad gör sladden mellan GND kraftremsorna?
+ * Vad gör sladden mellan +skenorna?
+ * Vad gör sladden mellan -skenorna?
 
 
 ### Svar
@@ -56,10 +56,10 @@ gör så att kopplingsdäcket är kopplat till 5V spänning.
 Sladden mellan GND på Arduino och kopplingsdäcket
 gör så att kopplingsdäcket är kopplat till jord/GND.
 
-Sladden mellan 5V och kraftremsorna gör så att båda kraftremsorna kopplade dit har 5V spänning.
+Sladden mellan 5V och skenorna gör så att båda skenorna kopplade dit har 5V spänning.
 
-Sladden mellan GND och kraftremsorna gör 
-så att båda kraftremsorna kopplade dit är jordade.
+Sladden mellan GND och skenorna gör 
+så att båda skenorna kopplade dit är jordade.
 
 ## 5.3. Krets 1: Anslut motstånden och lysdioden
 
@@ -80,8 +80,8 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Elen kan gå från `5V` till 5 voltskraftremsa, igenom lysdioden och motståndet,
-till jordningskraftremsa och fram till `GND`.
+Elen kan gå från `5V` till 5 voltsskena, igenom lysdioden och motståndet,
+till jordningsskena och fram till `GND`.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -101,7 +101,7 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioderna kommer båda att lysa, då båda har tillgång till `5V` och jord tack vare kraftremsorna.
+Lysdioderna kommer båda att lysa, då båda har tillgång till `5V` och jord tack vare skenorna.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -119,7 +119,7 @@ Bygg ihop kretsen och kontrollera!
 ### Svar
 
 Lysdioderna kommer alla tre att lysa, för att varje
-har tillgång till `5V` och jord tack vare kraftremsorna.
+har tillgång till `5V` och jord tack vare skenorna.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
