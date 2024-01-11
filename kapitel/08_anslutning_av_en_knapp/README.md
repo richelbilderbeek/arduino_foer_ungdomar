@@ -26,7 +26,7 @@ genom jordskenorna och till `GND`.
 
 Så ja, lysdioden lyser! Om inte, fråga om hjälp!
 
-Knappen, gör dock ingenting: om du trycker ner den eller inte gör ingen skillnad.
+Knappen gör dock ingenting: om du trycker ner den eller inte gör ingen skillnad.
 
 \pagebreak
 
@@ -44,9 +44,9 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioden kommer alltid att lysa: de vänstra benen på knappen är sammanlänkade!
+Lysdioden ska alltid att lysa: de vänstra benen på knappen är sammanlänkade!
 
-Så ja, det funkar! Om inte, fråga om hjälp!
+Om inte, fråga om hjälp!
 
 
 ## 8.3. Krets 3
@@ -63,7 +63,7 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Nu funkar knappen bra: lysdioder kommer att lysa om du trycker knappen.
+Nu funkar knappen som tänkt: lysdioder kommer att lysa om du trycker knappen.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -91,7 +91,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_5.png)
 
-Nu är sladden mellan 5V kraftremsen och knappen sammanlänkat på vänster-nedåt ställe av knappen. 
+Nu är sladden mellan +skenan och knappen sammanlänkade vid det nedre vänstra hörnet på knappen. 
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
@@ -99,9 +99,9 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Knappen funkar fortfarande bra: lysdioder kommer att lysa om du trycker knappen.
+Knappen funkar fortfarande bra: lysdioden kommer att lysa om du trycker knappen.
 
-Så ja, det funkar! Om inte, fråga om hjälp!
+ Om den inte gör det, fråga om hjälp!
 
 ## 8.6. Krets 6
 
