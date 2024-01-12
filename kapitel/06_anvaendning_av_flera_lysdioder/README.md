@@ -51,6 +51,8 @@ Efter det upprepas koden.
 
 Men ingenting händer, eftersom det inte sitter några sladdar i hålen.
 
+\pagebreak
+
 ## 6.3: Anslutning 1
 
 Bygg om till den här kretsen:
@@ -58,6 +60,8 @@ Bygg om till den här kretsen:
 ![](anvaendning_av_flera_lysdioder_1.png)
 
 Lysdioden till vänster skall blinka. Om inte, fråga om hjälp!
+
+\pagebreak
 
 ## 6.4: Anslutning 2
 
@@ -67,6 +71,8 @@ Bygg om till den här kretsen:
 
 De två lysdioderna till vänster skall blinka. Om inte, fråga om hjälp!
 
+\pagebreak
+
 ## 6.5: Anslutning 3
 
 Bygg om till den här kretsen:
@@ -74,6 +80,8 @@ Bygg om till den här kretsen:
 ![](anvaendning_av_flera_lysdioder_3.png)
 
 Den tre lysdioderna skall blinka. Om inte, fråga om hjälp!
+
+\pagebreak
 
 ## 6.6: Ett nytt mönster
 

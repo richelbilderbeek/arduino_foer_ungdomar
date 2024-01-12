@@ -15,7 +15,8 @@ fi
 cp ../kapitel/framsidor/*.* "${build_folder}"
 cd $build_folder || exit 42
 
-pandoc framsida_1.md -o ../../boecker/framsida_1.pdf
+#pandoc framsida_1.md -o ../../boecker/framsida_1.pdf
+pandoc framsida_2.md -o ../../boecker/framsida_2.pdf
 
 pandoc framsida_x1.md -o ../../boecker/framsida_x1.pdf
 pandoc framsida_x2.md -o ../../boecker/framsida_x2.pdf
