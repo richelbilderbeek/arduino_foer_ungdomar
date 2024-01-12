@@ -14,6 +14,8 @@ Och här är baksidan av samma kopplingsdäck:
 
 ![Image from https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_flera_lysdioder_breadboard_backside.jpg)
 
+\pagebreak
+
 Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
 ![](anslutning_av_flera_lysdioder_breadboard_schematic_with_dots.png)
@@ -77,9 +79,7 @@ Nu är det dags att bygga kretsen på riktigt:
 ![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------: 
 
-Lyser lysdioden?
-
-Bygg ihop kretsen och kontrollera!
+Lyser lysdioden? Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
@@ -89,8 +89,6 @@ Elen kan gå från `5V` till 5 voltskraftremsa, igenom lysdioden och motståndet
 till jordningskraftremsa och fram till `GND`.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
-
-\pagebreak
 
 ## 5.4. Krets 2
 
