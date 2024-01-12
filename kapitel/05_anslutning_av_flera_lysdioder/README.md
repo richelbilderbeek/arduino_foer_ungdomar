@@ -20,6 +20,8 @@ Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
 Vilka av hålen är sammanlänkade?
 
+\pagebreak
+
 ### Svar
 
  * 1 är sammanlänkat med 5
@@ -47,6 +49,7 @@ Försök förklara:
  * Vad gör sladden mellan 5V och kraftremsorna?
  * Vad gör sladden mellan GND kraftremsorna?
 
+\pagebreak
 
 ### Svar
 
@@ -78,6 +81,8 @@ Lyser lysdioden?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Elen kan gå från `5V` till 5 voltskraftremsa, igenom lysdioden och motståndet,
@@ -99,6 +104,8 @@ Tror du att lysdioderna kommer att lysa? Varför?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Lysdioderna kommer båda att lysa, då båda har tillgång till `5V` och jord tack vare kraftremsorna.
@@ -115,6 +122,8 @@ Nu finns tre lysdioder!
 
 Tror du att nya lysdioden kommer att lysa? Varför?
 Bygg ihop kretsen och kontrollera!
+
+\pagebreak
 
 ### Svar
 

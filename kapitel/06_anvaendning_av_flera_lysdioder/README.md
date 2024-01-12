@@ -39,6 +39,8 @@ void loop()
 
 Vad tror du att koden gör? Vad händer? Varför?
 
+\pagebreak
+
 ### Svar
 
 Koden tänder lysdioden vid hål 11, 12 och 13,
@@ -101,6 +103,8 @@ void loop()
 
 Vad ser du?
 
+\pagebreak
+
 ### Svar
 
 Mönstret upprepar:
@@ -124,6 +128,7 @@ Det ska alltid vara exakt en LED som lyser.
 
 ![Knight Rider](KnightRider.png)
 
+\pagebreak
 
 ### Svar
 
@@ -152,6 +157,7 @@ void loop()
 }
 ```
 
+\pagebreak
 
 ## 6.13: Slutuppgift
 

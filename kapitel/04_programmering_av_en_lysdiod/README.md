@@ -10,6 +10,8 @@ Anslut en Arduino, lysdiod och motstånd så här:
 
 Avänd 5V hålet av Arduino. Funkar detta?
 
+\pagebreak
+
 ### Svar
 
 Absolut skulle det funka! 
@@ -32,13 +34,13 @@ Nu är lysdioden kopplad till hålet `13` på Arduino.
 
 Funkar detta?
 
+\pagebreak
+
 ### Svar
 
 Det vet vi inte än! Det beror på om det finns ett program i Arduinon som använder hålet `13`. Bara fortsätt!
 
-\pagebreak
-
-## 4.4. Vårt första program
+## 4.3. Vårt första program
 
 Starta Arduino IDEn och använd dig av denna kod:
 
@@ -81,14 +83,14 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 Funkar det? Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
-### Lösning
+\pagebreak
+
+### Svar
 
 Det ska absolut funka! Både lysdioden och den inbyggda lysdioden ska lysa
 samtidigt. Båda ska slås av och på varje sekund.
 
-\pagebreak
-
-## 4.5. Uppgift 2
+## 4.4. Uppgift 2
 
 Få LEDen att blinka snabbt 10 gånger.
 
@@ -96,7 +98,7 @@ Tips: LED är nu 1000 millisekunder (1 sekund) på och 1000 millisekunder (1 sek
 
 \pagebreak
 
-## 4.6. Lösning 2
+### Svar
 
 ```c++
 void setup()
@@ -113,7 +115,7 @@ void loop()
 }
 ```
 
-## 4.7. Uppgift 3
+## 4.5. Uppgift 3
 
 Få LEDen att blinka så snabbt du kan. Vad ser du?
 
@@ -122,7 +124,7 @@ Få LEDen att blinka så snabbt du kan. Vad ser du?
 
 \pagebreak
 
-## 4.8. Lösning 3
+### Svar
 
 Det finns fler lösningar, det här är en:
 
@@ -143,10 +145,10 @@ void loop()
 
 Du kommer inte längre att se lampan blinka.
 
+\pagebreak
+
 ![](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
 :-------------:|:----------------------------------------: 
-
-\pagebreak
 
 ![](EmojiBowtie.png) | Ljuset blinkar, men det blinkar för fort för att våra ögon ska kunna uppfatta det.
 :-------------:|:----------------------------------------: 
@@ -160,11 +162,13 @@ Du kommer inte längre att se lampan blinka.
 
 \pagebreak
 
-## 4.10. Uppgift 4
+## 4.6. Uppgift 4
 
 Anslut nu lysdioden till Arduino stift `12`.
 
 ![](programmering_av_en_lysdiod_12.png)
+
+\pagebreak
 
 ![](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
 :-------------:|:----------------------------------------: 
@@ -174,18 +178,20 @@ Anslut nu lysdioden till Arduino stift `12`.
 
 Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
+\pagebreak
+
 ### Svar
 
 Lysdioden gör (antagligen!) ingenting,
 för det finns inte spänning på stift 12!
 Den inbyggda lysdioden blinkar som vanligt.
 
-\pagebreak
-
-## 4.12. Uppgift 5
+## 4.7. Uppgift 5
 
 Ändra programmet så att lysdioden på stift 12 används.
 Tip: ändra `13` till `12` för tre gånger.
+
+\pagebreak
 
 ### Svar
 
@@ -204,13 +210,13 @@ void loop()
 }
 ```
 
-## 4.12. Uppgift 5
+## 4.8. Uppgift 5
 
 Se nu till att lysdioden på stift 12 börjar blinka dubbelt så fort.
 
 \pagebreak
 
-## 4.13. Lösning 5
+### Svar
 
 ```c++
 void setup() 
@@ -227,7 +233,7 @@ void loop()
 }
 ```
 
-## 4.14. Slutuppgift
+## 4.9. Slutuppgift
 
 Material som krävs:
 
