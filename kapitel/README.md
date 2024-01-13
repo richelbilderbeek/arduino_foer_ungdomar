@@ -11,7 +11,7 @@ Kpt|Beskrivning
 2  |[Användning av en multimeter](02_anvaendning_av_en_multimeter/README.md)
 3  |[Anslutning av en lysdiod](03_anslutning_av_en_lysdiod/README.md)
 .  |**Bok 2**
-4  |[Programmering av en lysdiod](04_anvaendning_av_en_lysdiod/README.md)
+4  |[Programmering av en lysdiod](04_programmering_av_en_lysdiod/README.md)
 5  |[Anslutning av flera lysdioder](05_anslutning_av_flera_lysdioder/README.md)
 6  |[Programmering av flera lysdioder](06_anvaendning_av_flera_lysdioder/README.md)
 .  |**Bok 3**
