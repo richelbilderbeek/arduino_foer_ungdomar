@@ -10,24 +10,30 @@ Kpt|Beskrivning
 1  |[Användning av den inbyggda lysdioden](01_anvaendning_av_den_inbyggda_lysdioden/README.md)
 2  |[Användning av en multimeter](02_anvaendning_av_en_multimeter/README.md)
 3  |[Anslutning av en lysdiod](03_anslutning_av_en_lysdiod/README.md)
-4  |[Programmering av en lysdiod](04_anvaendning_av_en_lysdiod/README.md)
 .  |**Bok 2**
+4  |[Programmering av en lysdiod](04_anvaendning_av_en_lysdiod/README.md)
 5  |[Anslutning av flera lysdioder](05_anslutning_av_flera_lysdioder/README.md)
 6  |[Programmering av flera lysdioder](06_anvaendning_av_flera_lysdioder/README.md)
+.  |**Bok 3**
 7  |[Mätning av en knapp](07_maetning_av_en_knapp/README.md)
 8  |[Anslutning av en knapp](08_anslutning_av_en_knapp/README.md)
-.  |**Bok 3**
 9  |[Användning av en knapp](09_anvaendning_av_en_knapp/README.md)
-10 |[Anslutning av en vridmotstånd](10_anslutning_av_en_vridmotstaand/README.md)
-11 |[Användning av en vridmotstånd](11_anvaendning_av_en_vridmotstaand/README.md)
-12 |[Anslutning av en joystick](12_anslutning_av_en_joystick/README.md)
 .  |**Bok 4**
-13 |[Användning av en joystick](13_anvaendning_av_en_joystick/README.md)
-14 |[Anslutning av en LDR](14_anslutning_av_en_ldr/README.md)
-15 |[Användning av en LDR](15_anvaendning_av_en_ldr/README.md)
-16 |[Knapp som minns om den är tryckt](16_knapp_som_minns_om_den_aer_tryckt/README.md)
+10 |[Mätning av en vridmotstånd](10_maetning_av_en_vridmotstaand/README.md)
+11 |[Anslutning av en vridmotstånd](11_anslutning_av_en_vridmotstaand/README.md)
+12 |[Användning av en vridmotstånd](12_anvaendning_av_en_vridmotstaand/README.md)
 .  |**Bok 5**
-17 |[Knapp som minns om den är tryckt länge](17_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
+13 |[Mätning av en joystick](13_maetning_av_en_joystick/README.md)
+14 |[Anslutning av en joystick](14_anslutning_av_en_joystick/README.md)
+15 |[Användning av en joystick](15_anvaendning_av_en_joystick/README.md)
+.  |**Bok 6**
+16 |[Mätning av en LDR](16_maetning_av_en_ldr/README.md)
+17 |[Anslutning av en LDR](17_anslutning_av_en_ldr/README.md)
+18 |[Användning av en LDR](18_anvaendning_av_en_ldr/README.md)
+.  |**Bok 7**
+19 |[Knapp som minns om den är tryckt](19_knapp_som_minns_om_den_aer_tryckt/README.md)
+20 |[Knapp som minns om den är tryckt länge](20_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
+21 |?
 
 ### Lektionskort 1: Bas
 
