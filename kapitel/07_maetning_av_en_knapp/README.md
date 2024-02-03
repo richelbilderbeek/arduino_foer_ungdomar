@@ -14,6 +14,8 @@ Sätt på multimetern och koppla:
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
 
+\pagebreak
+
 ### Svar
 
 När du inte trycker på knappen ska skärmen visa 'Inf' eller 'OL'. 'Inf' är an förkortning av 'Infinity', som är engelska för oändligt.
@@ -36,6 +38,8 @@ Sätt på multimetern och koppla:
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
 
+\pagebreak
+
 ### Svar
 
 När du inte trycker på knappen ska skärmen visa 'Inf' eller 'OL'.
@@ -56,6 +60,8 @@ Sätt på multimetern och koppla:
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
 
+\pagebreak
+
 ### Svar
 
 Skärmen visar alltid ett motstånd på 0 Ohm.
@@ -72,6 +78,8 @@ Sätt på multimetern och koppla:
  * den svarta mätpinnen till det övre högra benet på knappen
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
+
+\pagebreak
 
 ### Svar
 
@@ -96,6 +104,8 @@ Sätt på multimetern och koppla:
 
 Vad visar mätningen? Och om du trycker på knappen?
 
+\pagebreak
+
 ### Svar
 
 När du inte trycker på knappen skulle skärmen visar 'Inf' eller 'OL'.
@@ -115,6 +125,8 @@ Sätt på multimetern och koppla:
  * svarta mätpinnen till det övre vänstra benet på knappen
 
 Vad visar mätningen? Och om du trycker på knappen?
+
+\pagebreak
 
 ### Svar
 

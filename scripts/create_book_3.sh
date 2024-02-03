@@ -13,11 +13,10 @@ if [ ! -d $build_folder ]; then
   exit 1
 fi
 
-cp ../kapitel/foerord/*.* $build_folder         ; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/09_rgb/*.* $build_folder          ; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/10_potmeter_rgb/*.* $build_folder ; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/11_fsr_rgb/*.* $build_folder      ; mv $build_folder/README.md $build_folder/README_03.md
-cp ../kapitel/12_ldr_rgb/*.* $build_folder      ; mv $build_folder/README.md $build_folder/README_04.md
+cp ../kapitel/foerord/*.*                    $build_folder ; mv $build_folder/README.md $build_folder/README_00.md
+cp ../kapitel/07_maetning_av_en_knapp/*.*    $build_folder ; mv $build_folder/README.md $build_folder/README_01.md
+cp ../kapitel/08_anslutning_av_en_knapp/*.*  $build_folder ; mv $build_folder/README.md $build_folder/README_02.md
+cp ../kapitel/09_anvaendning_av_en_knapp/*.* $build_folder ; mv $build_folder/README.md $build_folder/README_03.md
 
 cp arduino_book_style.theme $build_folder
 
@@ -28,7 +27,6 @@ cd "${build_folder}" || exit 41
   cat README_01.md ; echo " " ; echo "\pagebreak" ; echo " "; \
   cat README_02.md ; echo " " ; echo "\pagebreak" ; echo " "; \
   cat README_03.md ; echo " " ; echo "\pagebreak" ; echo " "; \
-  cat README_04.md ; echo " " ; echo "\pagebreak" ; echo " "; \
 } >> README.md
 
 # Table of Content
