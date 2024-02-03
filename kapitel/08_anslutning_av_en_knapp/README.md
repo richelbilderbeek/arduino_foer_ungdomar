@@ -19,6 +19,8 @@ Lyser lysdioden? Gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Elen kan gå från `5V` till 5voltsskenorna, igenom lysdioden och motståndet,
@@ -42,12 +44,13 @@ Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Lysdioden ska alltid att lysa: de vänstra benen på knappen är sammanlänkade!
 
 Om inte, fråga om hjälp!
-
 
 ## 8.3. Krets 3
 
@@ -60,6 +63,8 @@ Nu är sladden mellan lysdioden och knappen sammanlänkade vid det nedre högra 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
+
+\pagebreak
 
 ### Svar
 
@@ -79,6 +84,8 @@ Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Knappen funkar fortfarande bra: lysdioder kommer att lysa om du trycker knappen.
@@ -97,11 +104,13 @@ Lyser lysdioden? gör knappen något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Knappen funkar fortfarande bra: lysdioden kommer att lysa om du trycker knappen.
 
- Om den inte gör det, fråga om hjälp!
+Om den inte gör det, fråga om hjälp!
 
 ## 8.6. Krets 6
 
@@ -114,6 +123,8 @@ Nu finns det två knappar!
 Lyser lysdioden? gör knapparna något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
+
+\pagebreak
 
 ### Svar
 
@@ -134,13 +145,14 @@ Lyser lysdioden? gör knapparna något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 knapparna funkar så de ska: om du trycker **en av båda**
 kommer lysdioden att lysa.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
-
 
 ## 8.8. Krets 8
 
@@ -155,10 +167,11 @@ Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Om du trycker en knapp, kommer alltid två lysdioder att lysa.
-
 
 ## 8.9. Slutuppgift
 

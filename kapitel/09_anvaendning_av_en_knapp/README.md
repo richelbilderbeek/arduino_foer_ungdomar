@@ -59,6 +59,8 @@ void loop()
 
 Vad gissar du att koden gör? Vad händer? Varför?
 
+\pagebreak
+
 ### Svar
 
 På början lyser lysdioden inte.
@@ -86,6 +88,8 @@ void loop()
 ```
 
 Vad gissar du att koden gör? Vad händer? Varför?
+
+\pagebreak
 
 ### Svar
 
@@ -116,6 +120,8 @@ void loop()
 ```
 
 Vad gissar du att koden gör? Vad händer? Varför?
+
+\pagebreak
 
 ### Svar
 
@@ -148,6 +154,8 @@ void loop()
 
 Vad gissar du att koden gör? Vad händer? Varför?
 
+\pagebreak
+
 ### Svar
 
 På början lyser lysdioden inte.
@@ -176,6 +184,8 @@ void loop()
 ```
 
 Vad gissar du att koden gör? Vad händer? Varför?
+
+\pagebreak
 
 ### Svar
 
@@ -208,6 +218,8 @@ void loop()
 
 Vad gissar du att koden gör? Vad händer? Varför?
 
+\pagebreak
+
 ### Svar
 
 På början lyser lysdioden inte.
@@ -238,6 +250,8 @@ void loop()
 ```
 
 Vad gissar du att koden gör? Vad händer? Varför?
+
+\pagebreak
 
 ### Svar
 
@@ -271,6 +285,8 @@ void loop()
 
 Vad gissar du att koden gör? Vad händer? Varför?
 
+\pagebreak
+
 ### Svar
 
 På början lyser lysdioden.
@@ -299,7 +315,7 @@ Start en timer och gör följande:
 
 2. Bygg upp krets 2 från början
 
-3. Fråga examinerare hur lysdiod skulle reagera. Examinerare får väljer en av den här:
+3. Fråga examinerare hur lysdiod skulle reagera och programmera detta. Examinerare får väljer en av den här:
 
 - På början lyser lysdioden inte. Om du du trycker på vänsterknappen, lyser lysdioden för evigt. Om du du trycker på högerknappen, släcker lysdioden för evigt.
 - På början lyser lysdioden inte. Om du du trycker på båda knappor, lyser lysdioden så länge du håller båda intryckt.
