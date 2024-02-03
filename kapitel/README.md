@@ -88,7 +88,7 @@ Kpt|Beskrivning
 31 |[LCD 2](LCD2/README.md)
 32 |[LCD 3](LCD3/README.md)
 
-### Leskaart 3: Hi-Tech
+### Lektionskort 3: Hi-Tech
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
@@ -108,3 +108,8 @@ Kpt|Beskrivning
 34 |[DC motor med relä](dc_motor_met_relais/README.md)
 35 |[Vagn som undviker hinder](vagn_som_undviker_hinder/README.md)
 
+Kpt|Beskrivning
+---|---------------------------------------------------------------
+.  |**Bok 99**
+998|[Arduino som ISP](arduino_som_isp/README.md)
+999|[Bare-bone Arduino](bare_bone_arduino/README.md)

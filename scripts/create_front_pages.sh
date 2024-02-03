@@ -17,7 +17,8 @@ cd $build_folder || exit 42
 
 #pandoc framsida_1.md -o ../../boecker/framsida_1.pdf
 #pandoc framsida_2.md -o ../../boecker/framsida_2.pdf
-pandoc framsida_3.md -o ../../boecker/framsida_3.pdf
+#pandoc framsida_3.md -o ../../boecker/framsida_3.pdf
+pandoc framsida_99.md -o ../../boecker/framsida_99.pdf
 
 #pandoc framsida_x1.md -o ../../boecker/framsida_x1.pdf
 #pandoc framsida_x2.md -o ../../boecker/framsida_x2.pdf
