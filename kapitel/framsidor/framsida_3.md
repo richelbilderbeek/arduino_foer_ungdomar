@@ -1,8 +1,7 @@
 ![Bok 3](framsida_3.png)
 
 `#`|Beskriving
----|------------
-  9|RGB LED
- 10|Potmeter RGB
- 11|FSR RGB
- 12|LDR RGB
+---|----------------------
+  7|Mätning av en knapp
+  8|Anslutning av en knapp
+  9|Användning av en knapp
