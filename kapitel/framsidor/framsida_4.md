@@ -2,7 +2,6 @@
 
 `#`|Beskriving
 ---|-------------------------
-13 |Servo med seriell monitor
-14 |Servo med potmeter
-15 |FSR med servo
-16 |Servor
+10 |Mätning av en vridmotstånd
+11 |Anslutning av en vridmotstånd
+12 |Användning av en vridmotstånd
