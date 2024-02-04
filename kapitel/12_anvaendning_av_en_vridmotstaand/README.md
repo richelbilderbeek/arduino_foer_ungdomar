@@ -80,6 +80,8 @@ Vad ser du när du vrider vridmotstånd åt vänster?
 Vad ser du när du vrider vridmotstånd åt höger?
 Varför är det så?
 
+\pagebreak
+
 ### Svar
 
 ![](anvaendning_av_en_vridmotstaand_serial_plot_1.png)
@@ -110,6 +112,8 @@ void loop()
 Vad gissar du att du ska ser när du vrider vänstra vridmotståndet?
 Vad gissar du att du ska ser när du vrider högra vridmotståndet?
 Varför trodde du det?
+
+\pagebreak
 
 ### Svar
 
@@ -146,6 +150,8 @@ void loop()
 
 Vad gissar du att koden gör? Vad händer? Varför?
 
+\pagebreak
+
 ### Svar
 
 ![](anvaendning_av_en_vridmotstaand_serial_plot_3.png)
@@ -160,6 +166,8 @@ Bygg upp den här kretsen:
 
 Upload koden igen och kolla i Serial Plotter.
 Kan du gissar hur Serial Plotter ser ut nu? Varför?
+
+\pagebreak
 
 \pagebreak
 
@@ -178,6 +186,8 @@ Bygg upp den här kretsen:
 
 Upload koden igen och kolla i Serial Plotter.
 Kan du gissar vad lysdioder ska göra nu? Varför?
+
+\pagebreak
 
 ### Svar
 
@@ -205,6 +215,8 @@ void loop()
 ```
 
 Vad gissar du att koden gör? Vad händer? Varför?
+
+\pagebreak
 
 ### Svar
 

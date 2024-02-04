@@ -6,6 +6,8 @@ Under den här lektionen ska vi mäta en vridmotstånd!
 
 ![](maetning_av_en_vridmotstaand_1.png)
 
+\pagebreak
+
 Vrid vridknappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
@@ -19,6 +21,8 @@ Sätt på multimetern och koppla:
 3. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet igen. Nu, vridar vridmotstånden till höger (dws med klockan) under mätningen. Vad visar mätningen? 
 
 4. Vridar vridmotstånden tillbaka till vänster (dws emot klockan) under mätningen. Vad visar mätningen? 
+
+\pagebreak
 
 ### Svar
 
@@ -38,6 +42,8 @@ Så här funkar vridmotståndet bra! Mätningar skull vara så här (om inte: fr
 
 ![](maetning_av_en_vridmotstaand_2.png)
 
+\pagebreak
+
 Vrid vridmotstånden på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
@@ -52,6 +58,8 @@ Sätt på multimetern och koppla:
 
 4. Vridar vridmotstånden tillbaka till vänster (dws emot klockan) under mätningen. Vad visar mätningen? 
 
+\pagebreak
+
 ### Svar
 
 Vad du än gör, skärmet visar högsta värd du har hittat under före mätningen.
@@ -61,6 +69,8 @@ Så här funkar vridmotståndet inte :-)
 ## 10.3. Att mäta en vridmotstånd 3
 
 ![](maetning_av_en_vridmotstaand_3.png)
+
+\pagebreak
 
 Vrid vridmotstånden på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -75,6 +85,8 @@ Sätt på multimetern och koppla:
 3. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet igen. Nu, vridar vridmotstånden till höger (dws med klockan) under mätningen. Vad visar mätningen? 
 
 4. Vridar vridmotstånden tillbaka till vänster (dws emot klockan) under mätningen. Vad visar mätningen? 
+
+\pagebreak
 
 ### Svar
 
@@ -92,6 +104,8 @@ Nu mäter du tvartomna värd av första mätningar:
 
 Så här funkar vridmotståndet bra på en annat vis.
 
+\pagebreak
+
 ## 10.4. Att mäta en vridmotstånd 4
 
 ![](maetning_av_en_vridmotstaand_4_annotated.png)
@@ -103,6 +117,8 @@ Så här funkar vridmotståndet bra på en annat vis.
 
 Vilka mätningar får du? Kan du hitta nån monster i mätningen?
 Vridar motstandet igen för att kontrollera dig själva!
+
+\pagebreak
 
 ### Svar
 

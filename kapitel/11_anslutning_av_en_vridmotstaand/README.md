@@ -19,6 +19,8 @@ Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Elen kan gå från `5V` till 5 voltskraftrems, igenom lysdioden och motståndet,
@@ -27,8 +29,6 @@ till jordenskraftrems och till `GND`.
 Så ja, lysdioden lyser! Om inte, fråga om hjälp!
 
 Vridmotstånd, dock, gör ingenting: vad du än gör, gör det ingen skillnad.
-
-\pagebreak
 
 ## 11.2. Krets 2
 
@@ -41,6 +41,8 @@ Nu är vridmotstånden användt!
 Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
+
+\pagebreak
 
 ### Svar
 
@@ -64,6 +66,8 @@ Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Nu funkar det inte: lysdioder kommer aldrig att lysa. Om du har tur, lyser lysdioden
@@ -84,6 +88,8 @@ och framföra elet med högra ben till lysdioden.
 Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
+
+\pagebreak
 
 ### Svar
 
@@ -106,6 +112,8 @@ Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
 
+\pagebreak
+
 ### Svar
 
 Lysdioder kommer alltid att lysa när du vrider **båda vridmotstånden** helt till 
@@ -124,6 +132,8 @@ Kolla på den här kretsen:
 Lyser lysdioden? Går vridmotståndorna nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
+
+\pagebreak
 
 ### Svar
 
@@ -146,6 +156,8 @@ Nu finns det två vridmotståndor med en annat sammanlänkning.
 Lyser lysdioden? Går vridmotståndorna nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
+
+\pagebreak
 
 ### Svar
 
