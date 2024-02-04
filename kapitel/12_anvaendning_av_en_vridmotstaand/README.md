@@ -1,4 +1,4 @@
-# Lektion 12: Användning av en knapp
+# Lektion 12: Användning av en vridmotstånd
 
 Under den här lektionen ska vi ansluta vridmotstånd till en Arduino!
 
