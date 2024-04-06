@@ -23,7 +23,7 @@ Kpt|Beskrivning
 11 |[Anslutning av en vridmotstånd](11_anslutning_av_en_vridmotstaand/README.md)
 12 |[Användning av en vridmotstånd](12_anvaendning_av_en_vridmotstaand/README.md)
 .  |**Bok 5**
-13 |[Mätning av en joystick](13_maetning_av_en_joystick/README.md)
+13 |[Mätning av en joystick](13_maetning_av_en_joystick/README.md) och PWN LED
 14 |[Anslutning av en joystick](14_anslutning_av_en_joystick/README.md)
 15 |[Användning av en joystick](15_anvaendning_av_en_joystick/README.md)
 .  |**Bok 6**

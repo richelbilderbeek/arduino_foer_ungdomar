@@ -1,140 +1,146 @@
-# Lektion 10: Mätning av en vridmotstånd
+# Lektion 10: Mätning av en joystick
 
-Under den här lektionen ska vi mäta en vridmotstånd!
+Under den här lektionen ska vi mäta en joystick med en oscilloskop!
 
-## 10.1. Att mäta en vridmotstånd 1
+## 10.1. Att koppla en joystick till en skop
 
-![](maetning_av_en_vridmotstaand_1.png)
+![](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
 
-Vrid vridknappen på multimetern till Ohm symbolen.
-Sätt på multimetern och koppla:
+> en joystick
 
- * röda mätpinnen på den vänstra benen av vridmotstånden
- * svarta mätpinnen på den mittna benen av vridmotstånden
+![](maetening_av_en_joystick_verkligheten_anslutning.jpg)
 
-1. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet. Vad visar mätningen? 
+> en joystick i en kopplingsdäck
 
-2. Vridar vridmotstånden till höger (dws. med klockan) till slutet. Vad visar mätningen? 
+![](maetening_av_en_joystick_scope_verkligheten.jpg)
 
-3. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet igen. Nu, vridar vridmotstånden till höger (dws med klockan) under mätningen. Vad visar mätningen? 
+> en oscilloskop
 
-4. Vridar vridmotstånden tillbaka till vänster (dws emot klockan) under mätningen. Vad visar mätningen? 
+![](maetening_av_en_joystick_schema_1.png)
 
-### Svar
+> Schemat av kopplingen
 
-Så här funkar vridmotståndet bra! Mätningar skull vara så här (om inte: fråga hjälp!):
+Kopplar tillsammans:
 
-1. Om vridmotstånden är till mest vänster (dws. emot klockan) blir motståndet lågt,
-   till exempel noll eller ett Ohm
+- Arduino USB till en dator
+- Arduino 5V till joystick 5V
+- Arduino GND till joystick GND
+- Arduino GND till svart prob
+- Joystick VRx till röd prob
 
-2. Om vridmotstånden är till mest högra (dws. med klockan) blir motståndet högst,
-   till exempel tusen eller tiotusen Ohm. Värden beror på vridmotståndet.
+Startar skopen. Trycker på knapp 'CH1' av 'Vertical' till den lyser:
 
-3. Under vridning till höger (dws med klockan) ska skärmen visar en ökning av värdet.
+![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
-4. Under vridning till vänster (dws emot klockan) ska skärmen visar en nedring av värdet.
-
-## 10.2. Att mäta en vridmotstånd 2
-
-![](maetning_av_en_vridmotstaand_2.png)
-
-Vrid vridmotstånden på multimetern till Ohm symbolen.
-Sätt på multimetern och koppla:
-
- * röda mätpinnen på den vänstra benen av vridmotstånden
- * svarta mätpinnen på den högra benen av vridmotstånden
-
-1. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet. Vad visar mätningen? 
-
-2. Vridar vridmotstånden till höger (dws. med klockan) till slutet. Vad visar mätningen? 
-
-3. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet igen. Nu, vridar vridmotstånden till höger (dws med klockan) under mätningen. Vad visar mätningen? 
-
-4. Vridar vridmotstånden tillbaka till vänster (dws emot klockan) under mätningen. Vad visar mätningen? 
+Vad visar skopen? Vad händer om du vrider joysticken?
 
 ### Svar
 
-Vad du än gör, skärmet visar högsta värd du har hittat under före mätningen.
+![](maetening_av_en_joystick_verkligheten_1.jpg)
 
-Så här funkar vridmotståndet inte :-)
+> hur det ska ser ut
 
-## 10.3. Att mäta en vridmotstånd 3
+Vad skopen visar är svårt att förutspå.
+Antagligen ska du ser ett gult horisontellt linje,
+kanske som här:
 
-![](maetning_av_en_vridmotstaand_3.png)
+![](maetening_av_en_joystick_bild_2_5v.jpg)
 
-Vrid vridmotstånden på multimetern till Ohm symbolen.
-Sätt på multimetern och koppla:
+Om du vrider joysticken in rätt riktning, om du har tur, 
+flyttas linje uppåt och nedåt.
 
- * röda mätpinnen på den mittna benen av vridmotstånden
- * svarta mätpinnen på den högra benen av vridmotstånden
+## 10.2. Att välja tidskalan av skopen
 
-1. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet. Vad visar mätningen? 
+Vad du än ser beror på tidskalan av skopen.
 
-2. Vridar vridmotstånden till höger (dws. med klockan) till slutet. Vad visar mätningen? 
+![](maetening_av_en_joystick_hor_skaleringsknapp.jpg)
 
-3. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet igen. Nu, vridar vridmotstånden till höger (dws med klockan) under mätningen. Vad visar mätningen? 
+Om du vridar den högre knapp av 'Horizontal' ändrar du tidskalan.
+Du kann också ser det på skärmen av skopen:
+om du vridar knappen änder sig vita text på nedåt av skärmen.
 
-4. Vridar vridmotstånden tillbaka till vänster (dws emot klockan) under mätningen. Vad visar mätningen? 
-
-### Svar
-
-Nu mäter du tvartomna värd av första mätningar:
-
-1. Om vridmotstånden är till mest vänster (dws. emot klockan) blir motståndet högst,
-   till exempel tusen eller tiotusen Ohm. Värden beror på vridmotståndet.
-
-2. Om vridmotstånden är till mest högra (dws. med klockan) blir motståndet lågt,
-   till exempel noll eller ett Ohm
-
-3. Under vridning till höger (dws med klockan) ska skärmen visar en nedring av värdet.
-
-4. Under vridning till vänster (dws emot klockan) ska skärmen visar en ökning av värdet.
-
-Så här funkar vridmotståndet bra på en annat vis.
-
-## 10.4. Att mäta en vridmotstånd 4
-
-![](maetning_av_en_vridmotstaand_4_annotated.png)
-
- * vrida vridmotståndet någonstans in mitten av vridning
- * mäta motstand mellan stift 1 och 2 av vridmotståndet
- * mäta motstand mellan stift 1 och 3 av vridmotståndet
- * mäta motstand mellan stift 2 och 3 av vridmotståndet
-
-Vilka mätningar får du? Kan du hitta nån monster i mätningen?
-Vridar motstandet igen för att kontrollera dig själva!
+Vridar den högre knapp av 'Horizontal' tills att den visar 'M 1.00s'.
+Hur ser gula linje ut?
 
 ### Svar
 
-Mätet motstand mellan stift 1 och 3 av vridmotståndet är **summan**
-av den andra två!
+Så här kann det ser ut:
 
-Nedåt finns fler exampler:
+![](maetening_av_en_joystick_bild.jpg)
 
-1 och 3|1 och 2|2 och 3
--------|-------|-------
-1000   |400    |600
-1000   |500    |500
-1000   |600    |400
-10000  |4000   |6000
-10000  |5000   |5000
-10000  |6000   |4000
+Akta den text 'M 1.00s', som betyder att varje ruta horisontellt
+är ett sekund. Du kann ser att den gula linje långsamt rör sig.
+
+## 10.3. Att välja spänningskalan av skopen
+
+Vad du än ser nu beror på spänningskalan av skopen också.
+
+![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
+
+Om du vridar den högre knapp av 'Vertical' på vänstra sida
+ändrar du spänningsskalan.
+Du kann också ser det på skärmen av skopen:
+om du vridar knappen änder sig gula text på nedåt av skärmen.
+
+Vridar den vänstra-högre knapp av 'Vertical' tills att den visar 'CH1 2.00V'.
+Hur ser gula linje ut? Vridar också joysticken för att ser nåt cool!
+
+### Svar
+
+Så här kann det ser ut:
+
+![](maetening_av_en_joystick_bild.jpg)
+
+Akta den text 'CH1 2.00V', som betyder att varje ruta horisontellt
+är två volt spänning.
+
+När du vrider joysticken i rätt riktning gå gula linje uppåt och nedåt.
+
+## 10.4. Att koppla joysticken igen till skopen
+
+Nu ska vi kopplar en stift till av joysticken till skopen:
+
+![](maetening_av_en_joystick_schema_2.png)
+
+> Schemat av kopplingen
+
+Letar eften en prob till.
+
+Kopplar till:
+
+- Joystick VRy till röda klamme av andra proben
+- Ingenting till svarta klamme av andra proben
+
+Startar skopen. 
+
+Trycker på knapp 'CH2' av 'Vertical' till den lyser.
+Vridar den högra-högre knapp av 'Vertical' tills att den visar 'CH2 2.00V'.
+
+Vad visar skopen? Vad händer om du vrider joysticken?
+
+### Svar
+
+Så här kann det ser ut:
+
+![](maetening_av_en_joystick_bild_2_chs.jpg)
+
+Akta den text 'CH1 2.00V', som betyder att varje ruta horisontellt
+är två volt spänning.
+
+När du vrider joysticken ser du gula och blåa linjer gå uppåt och nedåt.
 
 ## 10.5. Slutuppgift
 
-Hämta:
+Ta bort alla sladdar.
 
- * 1 st multimeter
- * 1 st vridmotstånd
-
-Läs igenom slutuppgiften först, för du har 5 minuter på dig.
+Läs igenom slutuppgiften först, för du har 10 minuter på dig.
 
 1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+1. Den person vridar eller trycker fler gånger på alla den här fem knappar:
+
+![](maetening_av_en_joystick_knappar_att_aendra.jpg)
 
 Starta en timer och gör följande:
 
-2. Visar när vridmotstånden funkar bra
-
-3. Visar när vridmotstånden är användt på fel sätt
-
-4. Visar hur tre värd man kann mäta av en vridmotstånd forhålla sig med varann
+1. Koppla allt tillsammans igen
+1. Mät joysticksen VRx och VRy samtidigt igen
