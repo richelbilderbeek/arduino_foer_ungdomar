@@ -1,8 +1,8 @@
 # Lektion 10: Mätning av en joystick
 
-Under den här lektionen ska vi mäta en joystick med en oscilloskop!
+Under den här lektionen ska vi mäta en joystick med ett oscilloskop!
 
-## 10.1. Att koppla en joystick till en skop
+## 10.1. Att koppla en joystick till ett skop
 
 ![](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
 
@@ -10,11 +10,11 @@ Under den här lektionen ska vi mäta en joystick med en oscilloskop!
 
 ![](maetening_av_en_joystick_verkligheten_anslutning.jpg)
 
-> en joystick i en kopplingsdäck
+> en joystick i ett kopplingsdäck
 
 ![](maetening_av_en_joystick_scope_verkligheten.jpg)
 
-> en oscilloskop
+> ett oscilloskop
 
 ![](maetening_av_en_joystick_schema_1.png)
 
@@ -28,11 +28,11 @@ Kopplar tillsammans:
 - Arduino GND till svart prob
 - Joystick VRx till röd prob
 
-Startar skopen. Trycker på knapp 'CH1' av 'Vertical' till den lyser:
+Startar skopet. Trycker på knapp 'CH1' av 'Vertical' tills det lyser:
 
 ![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
-Vad visar skopen? Vad händer om du vrider joysticken?
+Vad visar skopet? Vad händer om du vrider på joysticken?
 
 ### Svar
 
@@ -40,14 +40,14 @@ Vad visar skopen? Vad händer om du vrider joysticken?
 
 > hur det ska ser ut
 
-Vad skopen visar är svårt att förutspå.
-Antagligen ska du ser ett gult horisontellt linje,
+Vad skopet visar är svårt att förutspå.
+Antagligen ska du ser e gul horisontell linje,
 kanske som här:
 
 ![](maetening_av_en_joystick_bild_2_5v.jpg)
 
 Om du vrider joysticken in rätt riktning, om du har tur, 
-flyttas linje uppåt och nedåt.
+flyttas linjen uppåt och nedåt.
 
 ## 10.2. Att välja tidskalan av skopen
 
