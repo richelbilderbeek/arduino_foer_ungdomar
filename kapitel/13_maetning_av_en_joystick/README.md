@@ -41,12 +41,11 @@ Vad visar skopet? Vad händer om du vrider på joysticken?
 > hur det ska ser ut
 
 Vad skopet visar är svårt att förutspå.
-Antagligen ska du ser e gul horisontell linje,
-kanske som här:
+Kanske ser du ser en gul horisontell linje, som här:
 
 ![](maetening_av_en_joystick_bild_2_5v.jpg)
 
-Om du vrider joysticken in rätt riktning, om du har tur, 
+Om du vrider joysticken i rätt riktning, om du har tur, 
 flyttas linjen uppåt och nedåt.
 
 ## 10.2. Att välja tidskalan av skopen
@@ -60,11 +59,11 @@ Du kann också ser det på skärmen av skopen:
 om du vridar knappen änder sig vita text på nedåt av skärmen.
 
 Vridar den högre knapp av 'Horizontal' tills att den visar 'M 1.00s'.
-Hur ser gula linje ut?
+Hur ser den gula linjen ut?
 
 ### Svar
 
-Så här kann det ser ut:
+Så här kan det se ut:
 
 ![](maetening_av_en_joystick_bild.jpg)
 
@@ -87,21 +86,20 @@ Hur ser gula linje ut? Vridar också joysticken för att ser nåt cool!
 
 ### Svar
 
-Så här kann det ser ut:
+Så här kan det ser ut:
 
 ![](maetening_av_en_joystick_bild.jpg)
 
 Akta den text 'CH1 2.00V', som betyder att varje ruta horisontellt
 är två volt spänning.
 
-När du vrider joysticken i rätt riktning gå gula linje uppåt och nedåt.
+När du vrider joysticken i rätt riktning går den gula linjen uppåt och nedåt.
 
 ## 10.4. Att koppla joysticken igen till skopen
 
 Nu ska vi kopplar en stift till av joysticken till skopen:
 
 ![](maetening_av_en_joystick_schema_2.png)
-
 > Schemat av kopplingen
 
 Letar eften en prob till.
@@ -111,16 +109,16 @@ Kopplar till:
 - Joystick VRy till röda klamme av andra proben
 - Ingenting till svarta klamme av andra proben
 
-Startar skopen. 
+Starta ocilloskopet. 
 
-Trycker på knapp 'CH2' av 'Vertical' till den lyser.
+Trycker på knapp 'CH2' av 'Vertical' tills den lyser.
 Vridar den högra-högre knapp av 'Vertical' tills att den visar 'CH2 2.00V'.
 
-Vad visar skopen? Vad händer om du vrider joysticken?
+Vad visar skopet? Vad händer om du vrider joysticken?
 
 ### Svar
 
-Så här kann det ser ut:
+Så här kan det se ut:
 
 ![](maetening_av_en_joystick_bild_2_chs.jpg)
 
