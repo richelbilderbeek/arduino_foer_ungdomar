@@ -68,7 +68,7 @@ Så här kan det se ut:
 ![](maetening_av_en_joystick_bild.jpg)
 
 Akta den text 'M 1.00s', som betyder att varje ruta horisontellt
-är ett sekund. Du kann ser att den gula linje långsamt rör sig.
+är ett sekund. Du kann ser att den gula linjen långsamt rör sig.
 
 ## 10.3. Att välja spänningskalan av skopen
 
@@ -76,17 +76,17 @@ Vad du än ser nu beror på spänningskalan av skopen också.
 
 ![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
-Om du vridar den högre knapp av 'Vertical' på vänstra sida
+Om du vrider den högre knapp av 'Vertical' på vänstra sida
 ändrar du spänningsskalan.
 Du kann också ser det på skärmen av skopen:
-om du vridar knappen änder sig gula text på nedåt av skärmen.
+om du vrider knappen änder sig gula text på nedåt av skärmen.
 
 Vridar den vänstra-högre knapp av 'Vertical' tills att den visar 'CH1 2.00V'.
-Hur ser gula linje ut? Vridar också joysticken för att ser nåt cool!
+Hur ser gula linje ut? Vrid också joysticken för att se något coolt!
 
 ### Svar
 
-Så här kan det ser ut:
+Så här kan det se ut:
 
 ![](maetening_av_en_joystick_bild.jpg)
 
