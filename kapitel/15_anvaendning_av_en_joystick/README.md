@@ -2,7 +2,7 @@
 
 Under den här lektionen ska vi använda en joystick!
 
-## 15.1. Att förbereda
+## 15.1. Elkretsen
 
 ![](anvaendning_av_en_joystick_schema.png)
 
@@ -13,7 +13,152 @@ Det er den långsta ben av RGB ljusdiod som skulle kopplades till GND.
 
 \pagebreak
 
+## 15.2. Ett lysdiod
+
 Ladda upp den här koden:
+
+```c++
+const int pin_joy_x{A0};
+const int pin_led_r{9};
+
+void setup() {
+  pinMode(pin_joy_x, INPUT);
+  pinMode(pin_led_r, OUTPUT);
+}
+
+void loop() {
+  const int joy_x{analogRead(pin_joy_x)};
+  const int ljus_styrka_r{joy_x / 4};
+  analogWrite(pin_led_r, ljus_styrka_r);
+}
+```
+
+Kör koden och rör joysticken. Vad ser du?
+
+### Svar
+
+Om du inte rör joysticken är färgen [...].
+Om du rör joysticken i ena rikting kan du ändra ljusstyrka.
+Om du rör joysticken i andra rikting ändrar färgen sig inte.
+
+## 15.3. Vad koden betyder
+
+Kolla igenom kod. 
+
+Kan du översätta varje mening till svenska?
+
+### Svar
+
+```c++
+const int pin_joy_x{A0};
+```
+
+> Kära dator, minns en variabel kallades `pin_joy_x`, som
+> är en helvärtstal som kan inte ändrar sig, med initiälvärd `A0`
+
+
+```c++
+const int pin_led_r{9};
+```
+
+> Kära dator, minns en variabel kallades `pin_led_r`, som
+> är en helvärtstal som kan inte ändrar sig, med initiälvärd `9`
+
+```
+void setup() {}
+```
+
+> Kära dator, göra detta mellan parantheser 
+> ett gång i början av programmet
+
+```
+pinMode(pin_joy_x, INPUT);
+```
+
+> Kära dator, Arduino stift `pin_joy_x` är för att mäta el
+
+```
+pinMode(pin_led_r, OUTPUT);
+```
+
+> Kära dator, Arduino stift `pin_led_r` är för att schicka el
+
+```
+void loop() {}
+```
+
+> Kära dator, göra detta mellan parantheser 
+> för evigt, efter `setup` är färdigt
+
+
+```
+const int joy_x{analogRead(pin_joy_x)};
+```
+
+> Kära dator, minns en variabel kallades `joy_x`, som
+> är en helvärtstal som kan inte ändrar sig, med initiälvärd
+> det som Arduino läser av stift `pin_joy_x`
+
+```
+const int ljus_styrka_r{joy_x / 4};
+```
+
+> Kära dator, minns en variabel kallades `ljus_styrka_r`, som
+> är en helvärtstal som kan inte ändrar sig, med initiälvärd
+> `ljus_styrka_r` delad med fyra
+
+
+```
+analogWrite(pin_led_r, ljus_styrka_r);
+```
+
+> Kära dator, schick `ljus_styrka_r` el till Arduino stiften `pin_led_r`
+
+## 15.4. Två lysdiod
+
+Lägga till:
+
+- en variabel kallades `pin_joy_y` med initiälvärde `A1`
+- en variabel kallades `pin_led_g` med initiälvärde `10`
+- Få andra riktning av joysticken att ändra en annat färg,
+  likadant första riktning med första färg
+
+### Svar
+
+```
+const int pin_joy_x{A0};
+const int pin_joy_y{A1};
+const int pin_led_r{9};
+const int pin_led_g{10};
+
+
+void setup() {
+  pinMode(pin_joy_x, INPUT);
+  pinMode(pin_joy_y, INPUT);
+  pinMode(pin_led_r, OUTPUT);
+  pinMode(pin_led_g, OUTPUT);
+}
+
+void loop() {
+  const int joy_x{analogRead(pin_joy_x)};
+  const int joy_y{analogRead(pin_joy_y)};
+  const int ljus_styrka_r{joy_x / 4};
+  const int ljus_styrka_g{joy_y / 4};
+  analogWrite(pin_led_r, ljus_styrka_r);
+  analogWrite(pin_led_g, ljus_styrka_g);
+}
+```
+
+## 15.5. Tre lysdiod
+
+Lägga till:
+
+- en variabel kallades `pin_joy_sw` med initiälvärde `A2`
+- en variabel kallades `pin_led_b` med initiälvärde `11`
+- Få knappen av joysticken att ändra en annat färg,
+  likadant första riktning med första färg
+
+### Svar
 
 ```
 const int pin_joy_x{A0};
@@ -46,69 +191,7 @@ void loop() {
 }
 ```
 
-Kör koden och rör joysticken. Vad ser du?
-
-### Svar
-
-Om du inte rör joysticken är färgen ljusgrönblå
-
-Om du rör joysticken ändrar färgerna sig till röd eller grön eller släckar.
-
-Om du tryck joysticken är grönt bort.
-
-HIERO
-
-## 14.2. Att koppla en joystick till en RGB ljusdiod igen
-
-Vad du än ser beror på tidskalan av skopen.
-
-![](anslutning_av_en_joystick_smart.png)
-
-Förändrar elkretsen till den här bilden.
-
-Funkar knappen av joysticken nu?
-
-### Svar
-
-Japp, nu funkar knappen av joysticken.
-
-## 14.3. Hur funkar knappen av joysticken?
-
-Kolla på den här bild:
-
-![](anslutning_av_en_joystick_knapp_annotated.png)
-
-> Allt el kommer igenom sladd 1. 
-> Där väljer den den väg med lågsta motstånd.
-> Om knapper är tryckt, sladd 2 har lågsta motstånd.
-> Om knapper är inte tryckt, sladd 3 har lågsta motstånd.
-
-Här kann du ser motstånd mellan SW (av joysticken) 
-och GND (av joysticken), beroende om joysticken är tryckt:
-
-Tryckt?|Motstånd mellan GND och SW
--------|--------------------------
-Nej    |Stor
-Ja     |Låg
-
-El föredra vägen med minsta motstånd.
-Om knappen är tryckt, är vägen med minsta motstånd igenom ljusdioden.
-Om knappen är ej tryckt, är vägen med minsta motstånd igenom joysticken.
-
-Gör:
-
-- Tar ur joystick (eller tar en andra)
-- kontrollera den här berättelse med en multimeter
-
-### Svar
-
-Om du mäter motståndet mellan GND (av joysticken) och SW (av joysticken),
-mäter du:
-
-- om knapper är tryckt: en lite värd, typ 0,5 Ohm
-- om knapper är ej tryckt: 'Inf' eller en hög värd
-
-## 14.5. Slutuppgift
+## 15.6. Slutuppgift
 
 Ta bort alla sladdar.
 
@@ -120,9 +203,3 @@ Starta en timer och gör följande:
 
 1. Koppla allt tillsammans igen
 1. Visar att joystick funkar: båda om du vrider och om du trycker på knappen
-1. Berätta hur elen gå igenom kretsen om du trycker knappen eller ej
-
-
-
-
-
