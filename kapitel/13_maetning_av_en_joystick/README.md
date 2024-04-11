@@ -1,8 +1,8 @@
-# Lektion 10: Mätning av en joystick
+# Lektion 13: Mätning av en joystick
 
 Under den här lektionen ska vi mäta en joystick med ett oscilloskop!
 
-## 10.1. Att koppla en joystick till ett skop
+## 13.1. Att koppla en joystick till ett skop
 
 ![](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
 
@@ -48,7 +48,7 @@ Kanske ser du ser en gul horisontell linje, som här:
 Om du vrider joysticken i rätt riktning, om du har tur, 
 flyttas linjen uppåt och nedåt.
 
-## 10.2. Att välja tidskalan av skopen
+## 13.2. Att välja tidskalan av skopen
 
 Vad du än ser beror på tidskalan av skopen.
 
@@ -70,7 +70,7 @@ Så här kan det se ut:
 Akta den text 'M 1.00s', som betyder att varje ruta horisontellt
 är ett sekund. Du kann ser att den gula linjen långsamt rör sig.
 
-## 10.3. Att välja spänningskalan av skopen
+## 13.3. Att välja spänningskalan av skopen
 
 Vad du än ser nu beror på spänningskalan av skopen också.
 
@@ -95,7 +95,7 @@ Akta den text 'CH1 2.00V', som betyder att varje ruta horisontellt
 
 När du vrider joysticken i rätt riktning går den gula linjen uppåt och nedåt.
 
-## 10.4. Att koppla joysticken igen till skopen
+## 13.4. Att koppla joysticken igen till skopen
 
 Nu ska vi kopplar en stift till av joysticken till skopen:
 
@@ -127,7 +127,7 @@ Akta den text 'CH1 2.00V', som betyder att varje ruta horisontellt
 
 När du vrider joysticken ser du gula och blåa linjer gå uppåt och nedåt.
 
-## 10.5. Slutuppgift
+## 13.5. Slutuppgift
 
 Ta bort alla sladdar.
 
