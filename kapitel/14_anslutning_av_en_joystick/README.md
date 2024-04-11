@@ -2,128 +2,79 @@
 
 Under den här lektionen ska vi ansluta en joystick!
 
-## 14.1. Att koppla en joystick till en skop
+## 14.1. Att koppla en joystick till en RGB ljusdiod
 
-![](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
-
-> en joystick
-
-![](maetening_av_en_joystick_verkligheten_anslutning.jpg)
-
-> en joystick i en kopplingsdäck
-
-![](anslutning_av_en_joystick_schema.png)
+![](anslutning_av_en_joystick_naiv.png)
 
 > Schemat av kopplingen
 
-Kopplar tillsammans:
+Koppla tillsammans som schemat och förbind Arduino till en dator.
+Det er den långsta ben av RGB ljusdiod som skulle kopplades till GND.
 
-- Arduino USB till en dator
-- Arduino 5V till joystick 5V
-- Arduino GND till joystick GND
-- Arduino A0 till joystick VRX
-- Arduino A1 till joystick VRY
-- Arduino A2 till joystick SW
-
-
-![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
-
-Vad visar skopen? Vad händer om du vrider joysticken?
+- Vad tycker du ska hända?
+- Om du använder joysticken, vad händer på verkligheten?
+- Funkar vridningen av joysticken?
+- Funkar knappen av joysticken?
 
 ### Svar
 
-![](maetening_av_en_joystick_verkligheten_1.jpg)
+Vridningen av joysick gör van mesta tänkar sig:
+du ska ser att ljusdioder ger röd, grönt eller en
+blanding av båda.
 
-> hur det ska ser ut
+Om du trycker på joysticken händer ingenting.
+Det är för att knappen i joysticken funkar annorlunda
+än mesta tänker sig.
 
-Vad skopen visar är svårt att förutspå.
-Antagligen ska du ser ett gult horisontellt linje,
-kanske som här:
-
-![](maetening_av_en_joystick_bild_2_5v.jpg)
-
-Om du vrider joysticken in rätt riktning, om du har tur, 
-flyttas linje uppåt och nedåt.
-
-## 14.2. Att välja tidskalan av skopen
+## 14.2. Att koppla en joystick till en RGB ljusdiod igen
 
 Vad du än ser beror på tidskalan av skopen.
 
-![](maetening_av_en_joystick_hor_skaleringsknapp.jpg)
+![](anslutning_av_en_joystick_smart.png)
 
-Om du vridar den högre knapp av 'Horizontal' ändrar du tidskalan.
-Du kann också ser det på skärmen av skopen:
-om du vridar knappen änder sig vita text på nedåt av skärmen.
+Förändrar elkretsen till den här bilden.
 
-Vridar den högre knapp av 'Horizontal' tills att den visar 'M 1.00s'.
-Hur ser gula linje ut?
+Funkar knappen av joysticken nu?
 
 ### Svar
 
-Så här kann det ser ut:
+Japp, nu funkar knappen av joysticken.
 
-![](maetening_av_en_joystick_bild.jpg)
+## 14.3. Hur funkar knappen av joysticken?
 
-Akta den text 'M 1.00s', som betyder att varje ruta horisontellt
-är ett sekund. Du kann ser att den gula linje långsamt rör sig.
+Kolla på den här bild:
 
-## 14.3. Att välja spänningskalan av skopen
+![](anslutning_av_en_joystick_knapp_annotated.png)
 
-Vad du än ser nu beror på spänningskalan av skopen också.
+> Allt el kommer igenom sladd 1. 
+> Där väljer den den väg med lågsta motstånd.
+> Om knapper är tryckt, sladd 2 har lågsta motstånd.
+> Om knapper är inte tryckt, sladd 3 har lågsta motstånd.
 
-![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
+Här kann du ser motstånd mellan SW (av joysticken) 
+och GND (av joysticken), beroende om joysticken är tryckt:
 
-Om du vridar den högre knapp av 'Vertical' på vänstra sida
-ändrar du spänningsskalan.
-Du kann också ser det på skärmen av skopen:
-om du vridar knappen änder sig gula text på nedåt av skärmen.
+Tryckt?|Motstånd mellan GND och SW
+-------|--------------------------
+Nej    |Stor
+Ja     |Låg
 
-Vridar den vänstra-högre knapp av 'Vertical' tills att den visar 'CH1 2.00V'.
-Hur ser gula linje ut? Vridar också joysticken för att ser nåt cool!
+El föredra vägen med minsta motstånd.
+Om knappen är tryckt, är vägen med minsta motstånd igenom ljusdioden.
+Om knappen är ej tryckt, är vägen med minsta motstånd igenom joysticken.
 
-### Svar
+Gör:
 
-Så här kann det ser ut:
-
-![](maetening_av_en_joystick_bild.jpg)
-
-Akta den text 'CH1 2.00V', som betyder att varje ruta horisontellt
-är två volt spänning.
-
-När du vrider joysticken i rätt riktning gå gula linje uppåt och nedåt.
-
-## 14.4. Att koppla joysticken igen till skopen
-
-Nu ska vi kopplar en stift till av joysticken till skopen:
-
-![](maetening_av_en_joystick_schema_2.png)
-
-> Schemat av kopplingen
-
-Letar eften en prob till.
-
-Kopplar till:
-
-- Joystick VRy till röda klamme av andra proben
-- Ingenting till svarta klamme av andra proben
-
-Startar skopen. 
-
-Trycker på knapp 'CH2' av 'Vertical' till den lyser.
-Vridar den högra-högre knapp av 'Vertical' tills att den visar 'CH2 2.00V'.
-
-Vad visar skopen? Vad händer om du vrider joysticken?
+- Tar ur joystick (eller tar en andra)
+- kontrollera den här berättelse med en multimeter
 
 ### Svar
 
-Så här kann det ser ut:
+Om du mäter motståndet mellan GND (av joysticken) och SW (av joysticken),
+mäter du:
 
-![](maetening_av_en_joystick_bild_2_chs.jpg)
-
-Akta den text 'CH1 2.00V', som betyder att varje ruta horisontellt
-är två volt spänning.
-
-När du vrider joysticken ser du gula och blåa linjer gå uppåt och nedåt.
+- om knapper är tryckt: en lite värd, typ 0,5 Ohm
+- om knapper är ej tryckt: 'Inf' eller en hög värd
 
 ## 14.5. Slutuppgift
 
@@ -132,11 +83,10 @@ Ta bort alla sladdar.
 Läs igenom slutuppgiften först, för du har 10 minuter på dig.
 
 1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
-1. Den person vridar eller trycker fler gånger på alla den här fem knappar:
-
-![](maetening_av_en_joystick_knappar_att_aendra.jpg)
 
 Starta en timer och gör följande:
 
 1. Koppla allt tillsammans igen
-1. Mät joysticksen VRx och VRy samtidigt igen
+1. Visar att joystick funkar: båda om du vrider och om du trycker på knappen
+1. Berätta hur elen gå igenom kretsen om du trycker knappen eller ej
+
