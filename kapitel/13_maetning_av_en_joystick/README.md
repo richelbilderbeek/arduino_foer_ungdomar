@@ -18,21 +18,16 @@ Under den här lektionen ska vi mäta en joystick med ett oscilloskop!
 
 ![](maetening_av_en_joystick_schema_1.png)
 
-> Schemat av kopplingen
+> Schemat på kopplingen
 
-Kopplar tillsammans:
+Koppla ihop efter schemat:
 
-- Arduino USB till en dator
-- Arduino 5V till joystick 5V
-- Arduino GND till joystick GND
-- Arduino GND till svart prob
-- Joystick VRx till röd prob
 
-Startar skopet. Trycker på knapp 'CH1' av 'Vertical' tills det lyser:
+Starta skopet. Trycker på knapp 'CH1' i rutan 'Vertical' tills den lyser:
 
 ![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
-Vad visar skopet? Vad händer om du vrider på joysticken?
+Vad visar skopet? Vad händer om du drar joysticken i olika riktningar?
 
 ### Svar
 
@@ -41,7 +36,7 @@ Vad visar skopet? Vad händer om du vrider på joysticken?
 > hur det ska ser ut
 
 Vad skopet visar är svårt att förutspå.
-Kanske ser du ser en gul horisontell linje, som här:
+Kanske ser du en gul horisontell linje, som här:
 
 ![](maetening_av_en_joystick_bild_2_5v.jpg)
 
