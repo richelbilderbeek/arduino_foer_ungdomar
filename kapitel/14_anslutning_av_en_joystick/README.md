@@ -1,6 +1,6 @@
 # Lektion 14: Anslutning av en joystick
 
-Under den här lektionen ska vi ansluta en joystick!
+Under den här lektionen ska vi ansluta en joystick till en RGB lysdiod!
 
 ## 14.1. Att koppla en joystick till en RGB ljusdiod
 
@@ -8,31 +8,28 @@ Under den här lektionen ska vi ansluta en joystick!
 
 > Schemat av kopplingen
 
-Koppla tillsammans som schemat och förbind Arduino till en dator.
-Det er den långsta ben av RGB ljusdiod som skulle kopplades till GND.
+Koppla tillsammans som schemat och koppla Arduino till en dator.
+Det längsta benet på RGB ljusdioden ska kopplas till GND.
 
-- Vad tycker du ska hända?
-- Om du använder joysticken, vad händer på verkligheten?
-- Funkar vridningen av joysticken?
-- Funkar knappen av joysticken?
+- Vad tror du kommer att hända?
+- Om du använder joysticken, vad händer i verkligheten?
+- Händer något om du drar i joysticken?
+- Händer något om du trycker på joysticken?
 
 ### Svar
 
-Vridningen av joysick gör van mesta tänkar sig:
-du ska ser att ljusdioder ger röd, grönt eller en
+Rörandet på joysicken gör vad man kan föreställa sig:
+du ska ser att ljusdioder byter färg mellan röd, grön och en
 blanding av båda.
 
 Om du trycker på joysticken händer ingenting.
-Det är för att knappen i joysticken funkar annorlunda
-än mesta tänker sig.
+Det är för att knappen i joysticken funkar på ett annat sätt.
 
-## 14.2. Att koppla en joystick till en RGB ljusdiod igen
-
-Vad du än ser beror på tidskalan av skopen.
+## 14.2. Att koppla en joystick till en RGB ljusdiod, igen
 
 ![](anslutning_av_en_joystick_smart.png)
 
-Förändrar elkretsen till den här bilden.
+Bygg om strömkretsen till den här bilden.
 
 Funkar knappen av joysticken nu?
 
