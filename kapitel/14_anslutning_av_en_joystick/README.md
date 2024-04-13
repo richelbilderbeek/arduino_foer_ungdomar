@@ -16,6 +16,8 @@ Det längsta benet på RGB ljusdioden ska kopplas till GND.
 - Händer något om du drar i joysticken?
 - Händer något om du trycker på joysticken?
 
+\pagebreak
+
 ### Svar
 
 Rörandet på joysicken gör vad man kan föreställa sig:
@@ -32,6 +34,8 @@ Det är för att knappen i joysticken funkar på ett annat sätt.
 Bygg om strömkretsen till den här bilden.
 
 Funkar knappen av joysticken nu?
+
+\pagebreak
 
 ### Svar
 
@@ -64,6 +68,8 @@ Gör:
 
 - Tar ur joystick (eller tar en andra)
 - kontrollera den här berättelse med en multimeter
+
+\pagebreak
 
 ### Svar
 

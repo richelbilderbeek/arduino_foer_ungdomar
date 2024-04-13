@@ -35,6 +35,8 @@ void loop() {
 
 Kör koden och rör joysticken. Vad ser du?
 
+\pagebreak
+
 ### Svar
 
 Om du inte rör joysticken är färgen [...].
@@ -70,6 +72,8 @@ void setup() {}
 
 > Kära dator, göra detta mellan parantheser 
 > ett gång i början av programmet
+
+\pagebreak
 
 ```
 pinMode(pin_joy_x, INPUT);
@@ -123,6 +127,8 @@ Lägga till:
 - Få andra riktning av joysticken att ändra en annat färg,
   likadant första riktning med första färg
 
+\pagebreak
+
 ### Svar
 
 ```
@@ -158,6 +164,8 @@ Lägga till:
 - Få knappen av joysticken att ändra en annat färg,
   likadant första riktning med första färg
 
+\pagebreak
+
 ### Svar
 
 ```
@@ -190,6 +198,8 @@ void loop() {
   analogWrite(pin_led_b, ljus_styrka_b);
 }
 ```
+
+\pagebreak
 
 ## 15.6. Slutuppgift
 

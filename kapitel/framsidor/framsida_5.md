@@ -1,8 +1,7 @@
-![Bok 5: tangentbord](framsida_5.png)
+![Bok 5: joystick](framsida_5.png)
 
 `#`|Beskriving
 ---|-----------------------------------
-17 |Enkel melodi
-18 |7-stift-piano
-19 |1-stift-7-parallella-motstånd-piano
-20 |1-stift-7-motstånd-i-serie-piano
+13 |Mätning av en joystick
+14 |Anslutning av en joystick
+15 |Användning av en joystick

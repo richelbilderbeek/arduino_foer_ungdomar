@@ -4,30 +4,30 @@ Under den här lektionen ska vi mäta spänningen på en joystick med ett oscill
 
 ## 13.1. Att koppla en joystick till ett skop
 
-![](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
+![en joystick](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
 
-> en joystick
+![en joystick i ett kopplingsdäck](maetening_av_en_joystick_verkligheten_anslutning.jpg)
 
-![](maetening_av_en_joystick_verkligheten_anslutning.jpg)
+![ett oscilloskop](maetening_av_en_joystick_scope_verkligheten.jpg)
 
-> en joystick i ett kopplingsdäck
+![Schemat på kopplingen](maetening_av_en_joystick_schema_1.png)
 
-![](maetening_av_en_joystick_scope_verkligheten.jpg)
+\pagebreak
 
-> ett oscilloskop
+Gör foljande:
 
-![](maetening_av_en_joystick_schema_1.png)
-
-> Schemat på kopplingen
-
-Koppla ihop efter schemat:
-
-
-Starta skopet. Trycker på knapp 'CH1' i rutan 'Vertical' tills den lyser:
+- koppla ihop efter schemat ovanpå.
+- starta skopet
+- trycker på knapp 'CH1' i rutan 'Vertical' tills den lyser (ser en bild nedåt)
 
 ![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
-Vad visar skopet? Vad händer om du drar joysticken i olika riktningar?
+Frågor:
+
+- Vad visar skopet? 
+- Vad händer om du drar joysticken i olika riktningar?
+
+\pagebreak
 
 ### Svar
 
@@ -43,6 +43,8 @@ Kanske ser du en gul horisontell linje, som här:
 Om du drar joysticken i en specifik riktning, om du har tur, 
 flyttas linjen uppåt och nedåt.
 
+\pagebreak
+
 ## 13.2. Att välja tidskalan av skopen
 
 Vad du ser beror på inställningen av tidskalan på skopet.
@@ -56,6 +58,8 @@ om du vridar knappen änder sig vita text på nedåt av skärmen.
 Vrid på den översta knappen i rutan 'Horizontal' tills att den visar 'M 1.00s'.
 Hur ser den gula linjen ut nu?
 
+\pagebreak
+
 ### Svar
 
 Så här kan det se ut:
@@ -64,6 +68,8 @@ Så här kan det se ut:
 
 Lägg märke till texten 'M 1.00s', som betyder att varje ruta horisontellt betyder en sekund. 
 Du kan se att den gula linjen långsamt rör sig.
+
+\pagebreak
 
 ## 13.3. Att välja spänningskalan av skopen
 
@@ -79,6 +85,8 @@ om du vrider knappen änras den gula texten i botten av skärmen.
 Vrid den övre vänstra knappen i 'Vertical' tills att den visar 'CH1 2.00V'.
 Hur ser gula linje ut nu? Dra också på joysticken för att se något coolt!
 
+\pagebreak
+
 ### Svar
 
 Så här kan det se ut:
@@ -89,6 +97,8 @@ Lägg märke till texten 'CH1 2.00V', som betyder att varje ruta horisontellt
 betyder två volt spänning.
 
 När du drar joysticken i olika riktningar rör sig den gula linjen uppåt och nedåt.
+
+\pagebreak
 
 ## 13.4. Att koppla joysticken igen till skopet
 
@@ -108,6 +118,8 @@ Vridar den övre högra knappen i 'Vertical' tills den visar 'CH2 2.00V'.
 
 Vad visar skopet? Vad händer om du rör på joysticken?
 
+\pagebreak
+
 ### Svar
 
 Så här kan det se ut:
@@ -118,6 +130,8 @@ Lägg märke till texten 'CH1 2.00V', som betyder att varje ruta horisontellt
 står för två volt spänning.
 
 När du rör joysticken ska du se gula och blåa linjer gå uppåt och nedåt.
+
+\pagebreak
 
 ## 13.5. Slutuppgift
 
