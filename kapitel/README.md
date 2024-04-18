@@ -74,10 +74,10 @@ Kpt|Beskrivning
 19 |[1-stift-7-parallella-motstånd-piano](x19_1_stift_7_parallella_motstaand_piano/README.md)
 20 |[1-stift-7-motstånd-i-serie-piano](x20_1_stift_7_motstaand_in_serie_piano/README.md)
 .  | **Bok 6**
-21 |[Theremin med potmeter](21_theremin_potmeters/README.md)
 22 |[Theremin med LDR](22_theremin_ldr/README.md)
-23 |[Theremin med ultraljud distanssensor](23_theremin_infraroed/README.md)
-24 |[Theremin med joystick](24_theremin_joystick/README.md)
+23 |[Theremin med potmeter](23_theremin_potmeters/README.md)
+24 |[Theremin med infraröd](24_theremin_infraroed/README.md)
+25 |[Theremin med joystick](25_theremin_joystick/README.md)
 .  | **Bok 7**
 25 |[Kapacitiv sensor 1: ett](kapacitiv_sensor_1/README.md)
 26 |[Kapacitiv sensor 2: två seperata](kapacitiv_sensor_2/README.md)
