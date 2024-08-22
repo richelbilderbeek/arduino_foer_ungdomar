@@ -18,7 +18,7 @@ void setup() {
 
 void loop() { 
   // Kommenterar intervallet för respektive servo
-  // 6 - Styrservo med ett spann av 50-255
+  // 6 - Styrservo med ett spann av 50-230
   // 9 - Joint-servo med ett spann av 120-255
   // 10 - Joint-servo med ett spann av 100-255
   // 11 - Styr öppen/stängd position med ett spann av 170-255
@@ -41,7 +41,7 @@ void loop() {
   }
 
   // Mappning och skrivning av PWM-signaler till servon baserat på potentiometervärden
-  analogWrite(6, map(analogRead(A0), 1023, 0, 50, 255));   // Mappning för servo ansluten till pin 6
+  analogWrite(6, map(analogRead(A0), 1023, 0, 90, 255));   // Mappning för servo ansluten till pin 6
   analogWrite(9, map(analogRead(A1), 1023, 0, 120, 255));  // Mappning för servo ansluten till pin 9
   analogWrite(10, map(analogRead(A2), 1023, 0, 100, 255)); // Mappning för servo ansluten till pin 10
   analogWrite(11, map(analogRead(A3), 1023, 0, 170, 255)); // Mappning för servo ansluten till pin 11
