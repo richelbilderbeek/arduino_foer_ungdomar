@@ -1,59 +1,59 @@
-# LCD les 1
+# LCD-lektion 1
 
-Een LCD is een onderdeel om iets te tonen, zoals letters en symbolen. 
-LCD betekent 'Liquid Crystal Display', dit is Engels voor 'Vloeibare Kristallen Scherm'
+En LCD är en del för att visa något, som bokstäver och symboler.
+LCD betyder "Liquid Crystal Display", detta är engelska för "Liquid Crystal Screen"
 
-![ArduinoInvaders is een spel dat werkt met een LCD](ArduinoInvaders.jpg)
+![ArduinoInvaders är ett spel som fungerar med en LCD](ArduinoInvaders.jpg)
 
-## Aansluiten LCD
+## Anslut LCD
 
-Een LCD scherm aansluiten kan op meer manieren:
+Det finns flera sätt att ansluta en LCD-skärm:
 
-Manier|Contrast instelbaar?|Met backlight?
+Sätt|Kontrastjusterbar?|Med bakgrundsbelysning?
 ---|---|---
-1|Nee|Nee
-2|Ja|Nee
-3|Nee|Ja
+1|Nej|Nej
+2|Ja|Nej
+3|Nej|Ja
 4|Ja|Ja
 
-### Manier 1
+### sätt 1
 
-Dit is de simpelste manier:
+Detta är det enklaste sättet:
 
-![Aansluiten LCD manier 1](LcdBreadboard1.png)
+![Ansluter LCD-väg 1](LcdBreadboard1.png)
 
-Als je de letters niet kunt zien, moet je misschien toch het contrast in kunnen stellen (manier 2), 
-of de backlight aansluiten (manier 3), of beide.
+Om du inte kan se bokstäverna kan du fortfarande behöva justera kontrasten (sätt 2),
+eller anslut bakgrundsbelysningen (väg 3), eller båda.
 
-### Manier 2
+### sätt 2
 
-Hier kun je het contrast instellen met een potmeter.
+Här kan du justera kontrasten med en potentiometer.
 
-![Aansluiten LCD manier 2](LcdBreadboard2.png)
+![Ansluter LCD-väg 2](LcdBreadboard2.png)
 
-Als je de letters niet kunt zien, moet je toch de backlight aansluiten (manier 4).
+Om du inte kan se bokstäverna bör du fortfarande ansluta bakgrundsbelysningen (väg 4).
 
-### Manier 3
+### sätt 3
 
-Hier geef je de backlight spanning.
+Här anger du bakgrundsbelysningens spänning.
 
-![Aansluiten LCD manier 3](LcdBreadboard3.png)
+![Ansluter LCD-väg 3](LcdBreadboard3.png)
 
-Als je de letters niet kunt zien, moet je toch ook het contrast in kunnen stellen (manier 4).
+Om du inte kan se bokstäverna bör du också kunna justera kontrasten (sätt 4).
 
-### Manier 4
+### sätt 4
 
-Deze manier doet het altijd
+Det här sättet fungerar alltid
 
-![Aansluiten LCD manier 4](LcdBreadboard4.png)
+![Ansluter LCD-väg 4](LcdBreadboard4.png)
 
-## Een LCD programmeren
+## Programmera en LCD
 
-Er zijn veel voorbeeldprogramma's in de Arduino IDE, onder `File | Examples | LiquidCrystal`. 
+Det finns många exempelprogram i Arduino IDE, under `File | Exempel | LiquidCrystal`.
 
-### `Hello World`
+### `Hej världen`
 
-De gemakkelijkste is `File | Examples | LiquidCrystal | HelloWorld`:
+Det enklaste är `File | Exempel | LiquidCrystal | HelloWorld`:
 
 ```
 #include <LiquidCrystal.h>
@@ -61,78 +61,79 @@ De gemakkelijkste is `File | Examples | LiquidCrystal | HelloWorld`:
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 void setup() {
-  lcd.begin(16, 2);
-  lcd.print("hello, world!");
+ lcd.begin(16, 2);
+ lcd.print("hej världen!");
 }
 
 void loop() {
-  lcd.setCursor(0, 1);
-  lcd.print(millis()/1000);
+ lcd.setCursor(0, 1);
+ lcd.print(millis()/1000);
 }
 ```
 
-Hiermee kun je tekst op het scherm krijgen.
+Detta gör att du kan få text på skärmen.
 
-### CustomCharacter
+###Custom Character
 
-Een moeilijkere is `File | Examples | LiquidCrystal | CustomCharacter`:
+En svårare är `File | Exempel | LiquidCrystal | CustomCharacter`:
 
 ```
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-byte heart[8] = {
-  0b00000,
-  0b01010,
-  0b11111,
-  0b11111,
-  0b11111,
-  0b01110,
-  0b00100,
-  0b00000
+byte hjärta[8] = {
+ 0b00000,
+ 0b01010,
+ 0b11111,
+ 0b11111,
+ 0b11111,
+ 0b01110,
+ 0b00100,
+ 0b00000
 };
 
 byte smiley[8] = {
-  0b00000,
-  0b00000,
-  0b01010,
-  0b00000,
-  0b00000,
-  0b10001,
-  0b01110,
-  0b00000
+ 0b00000,
+ 0b00000,
+ 0b01010,
+ 0b00000,
+ 0b00000,
+ 0b10001,
+ 0b01110,
+ 0b00000
 };
 
 
 void setup() {
-  lcd.createChar(1, heart);
-  lcd.createChar(2, smiley);
-  lcd.begin(16, 2);
-  lcd.print("I "); 
-  lcd.write(1);
-  lcd.print(" Arduino! ");
-  lcd.write(2);
+ lcd.createChar(1, hjärta);
+ lcd.createChar(2, smiley);
+ lcd.begin(16, 2);
+ lcd.print("Jag");
+ lcd.write(1);
+ lcd.print(" Arduino! ");
+ lcd.write(2);
 
 }
 
 void loop() {}
 ```
 
-Hiermee kun je je eigen figuren op het scherm krijgen.
+Detta gör att du kan få dina egna figurer på skärmen.
 
-## Oefeningen
+## Övningar
 
- * Sluit een LCD aan
- * Zet het programma 'Hello World' op de Arduino
-   * Wat doet `LiquidCrystal lcd(12, 11, 5, 4, 3, 2)`? Tip: naar welke pinnen gaan je draadjes?
-   * Wat doet `lcd.begin(16, 2)`? Tip: hoeveel rechthoekjes zitten er op je LCD?
-   * Wat doet `lcd.print("hello, world!")`? Tip: probeer eens `lcd.print("Richel is top")`
-   * Wat doet `lcd.setCursor(0, 1)`? Tip: zet het eerste getal eens op `1`, zet het tweede getal maar eens op `0`
-   * Wat doet `lcd.print(millis()/1000)`? Tip: doe eens `lcd.print(millis())`
-   * Maak zelf een leuke tekst
- * Zet het programma `CustomCharacter` op de Arduino
-   * Kijk eens goed naar de nulletjes en eentjes van `byte heart`. 'heart' is Engels voor 'hart'. Wat betekenen die nulletjes en eentjes?
-   * Wat doet `lcd.createChar(1, heart)`? Tip: dit werkt samen met `lcd.write(1)`
-   * Wat doet `lcd.createChar(2, smiley)`? Tip: dit werkt samen met `lcd.write(2)`
-   * Maak zelf iets leuks met een eigen figuurtje
+ * Anslut en LCD
+ * Sätt programmet "Hello World" på Arduino
+ * Vad gör `LiquidCrystal lcd(12, 11, 5, 4, 3, 2)`? Tips: vilka stift går dina ledningar till?
+ * Vad gör `lcd.begin(16, 2)`? Tips: hur många rektanglar finns det på din LCD-skärm?
+ * Vad gör `lcd.print("hej, värld!")`? Tips: prova `lcd.print("Edge is top")`
+ * Vad gör `lcd.setCursor(0, 1)`? Tips: ställ in den första siffran till '1', ställ in den andra siffran på '0'
+ * Vad gör `lcd.print(millis()/1000)`? Tips: prova `lcd.print(millis())`
+ * Skapa en fin text själv
+ * Sätt programmet "CustomCharacter" på Arduino
+ * Ta en ordentlig titt på nollorna och ettorna i 'byte heart'. 'hjärta' är engelska för 'hjärta'. Vad betyder dessa nollor och ettor?
+ * Vad gör `lcd.createChar(1, heart)`? Tips: detta fungerar tillsammans med `lcd.write(1)`
+ * Vad gör `lcd.createChar(2, smiley)`? Tips: detta fungerar tillsammans med `lcd.write(2)`
+ * Gör något roligt själv med din egen figur
+
