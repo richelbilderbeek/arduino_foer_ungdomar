@@ -27,14 +27,13 @@ Kpt|Beskrivning
 14 |[Anslutning av en joystick](14_anslutning_av_en_joystick/README.md)
 15 |[Användning av en joystick](15_anvaendning_av_en_joystick/README.md)
 .  |**Bok 6**
-16 |[Användning av en LCD](16_anvaendning_av_en_lcd/README.md)
-17 |[Mätning av en LDR](17_maetning_av_en_ldr/README.md)
-18 |[Anslutning av en LDR](18_anslutning_av_en_ldr/README.md)
-19 |[Användning av en LDR](19_anvaendning_av_en_ldr/README.md)
+16 |[Mätning av en LDR](16_maetning_av_en_ldr/README.md)
+17 |[Anslutning av en LDR](17_anslutning_av_en_ldr/README.md)
+18 |[Användning av en LDR](18_anvaendning_av_en_ldr/README.md)
 .  |**Bok 7**
-20 |[Knapp som minns om den är tryckt](20_knapp_som_minns_om_den_aer_tryckt/README.md)
-21 |[Knapp som minns om den är tryckt länge](21_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
-21 |?
+19 |[Knapp som minns om den är tryckt](19_knapp_som_minns_om_den_aer_tryckt/README.md)
+20 |[Knapp som minns om den är tryckt länge](20_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
+21 |[Användning av en LCD](21_anvaendning_av_en_lcd/README.md)
 
 ### Lektionskort 1: Bas
 
