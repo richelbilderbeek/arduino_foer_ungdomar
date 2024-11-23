@@ -12,28 +12,28 @@ Du kan göra många saker med LCD-skärmar. I den här lektionen kommer vi att p
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 byte smiley[8] = {
- 0b00000,
- 0b00000,
- 0b01010,
- 0b00000,
- 0b00000,
- 0b10001,
- 0b01110,
- 0b00000
+  0b00000,
+  0b00000,
+  0b01010,
+  0b00000,
+  0b00000,
+  0b10001,
+  0b01110,
+  0b00000
 };
 
 int kolumn = 0;
 int rad = 0;
 
 void setup() {
- lcd.begin(16, 2);
- lcd.createChar(1, smiley);
+  lcd.begin(16, 2);
+  lcd.createChar(1, smiley);
 }
 
 void loop() {
- lcd.setCursor(rad, kolumn);
- lcd.write(1);
- fördröjning(1000);
+  lcd.setCursor(rad, kolumn);
+  lcd.write(1);
+  delay(1000);
 }
 ```
 
@@ -66,31 +66,31 @@ void loop() {
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
 byte smiley[8] = {
- 0b00000,
- 0b00000,
- 0b01010,
- 0b00000,
- 0b00000,
- 0b10001,
- 0b01110,
- 0b00000
+  0b00000,
+  0b00000,
+  0b01010,
+  0b00000,
+  0b00000,
+  0b10001,
+  0b01110,
+  0b00000
 };
 
 int kolumn = 0;
 int rad = 0;
 
 void setup() {
- lcd.begin(16, 2);
- lcd.createChar(1, smiley);
+  lcd.begin(16, 2);
+  lcd.createChar(1, smiley);
 }
 
 void loop() {
- ++kolumn;
- if (kolumn == 17) kolumn = 0;
- lcd.clear();
- lcd.setCursor(rad, kolumn);
- lcd.write(1);
- fördröjning(1000);
+  ++kolumn;
+  if (kolumn == 17) kolumn = 0;
+  lcd.clear();
+  lcd.setCursor(rad, kolumn);
+  lcd.write(1);
+  delay(1000);
 }
 ```
 
