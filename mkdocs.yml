@@ -24,7 +24,7 @@ theme:
   palette:
     primary: indigo
 
-  logo: logo/loerdagskurser_logo.png
+  logo: logo/arduino.png
 
   features:
     - toc.integrate

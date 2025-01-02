@@ -1,6 +1,6 @@
 # Arduino för ungdomar
 
-Kurs 'Arduino för ungdomar'.
+Kurs 'Arduino för ungdomar' ![CC-BY-NC-SA](CC-BY-NC-SA.png).
 
 * [böcker](boecker/README.md): ladda ner böckerna här i A4- eller A5-format
 * [kapitel](kapitel/README.md): det här är de enskilda kapitlen
