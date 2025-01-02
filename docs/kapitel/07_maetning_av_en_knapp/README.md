@@ -4,7 +4,7 @@ Under den här lektionen ska vi lära oss hur knappar fungerar!
 
 ## 7.1. Att mäta en knapp 1
 
-![](maetning_av_en_knapp_1.png)
+![Bild](maetning_av_en_knapp_1.png)
 
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -28,7 +28,7 @@ Smart!
 
 ## 7.2. Att mäta en knapp 2
 
-![](maetning_av_en_knapp_2.png)
+![Bild](maetning_av_en_knapp_2.png)
 
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -50,7 +50,7 @@ Det är samma resultat som förra gången.
 
 ## 7.3. Att mäta en knapp 3
 
-![](maetning_av_en_knapp_3.png)
+![Bild](maetning_av_en_knapp_3.png)
 
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -70,7 +70,7 @@ Knappen gör ingen skillnad när man kopplar in den på detta sätt
 
 ## 7.4. Att mäta en knapp 4
 
-![](maetning_av_en_knapp_4.png)
+![Bild](maetning_av_en_knapp_4.png)
 
 Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -95,7 +95,7 @@ Smart!
 
 ## 7.5. Att mäta en knapp 5
 
-![](maetning_av_en_knapp_5.png)
+![Bild](maetning_av_en_knapp_5.png)
 
 Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -117,7 +117,7 @@ Det är samma resultat som förra gången.
 
 ## 7.6. Att mäta en knapp 6
 
-![](maetning_av_en_knapp_6.png)
+![Bild](maetning_av_en_knapp_6.png)
 
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:

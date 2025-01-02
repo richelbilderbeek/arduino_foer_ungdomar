@@ -6,7 +6,7 @@ Under den här lektionen ska vi programmera flera lysdioder med en Arduino!
 
 Bygg upp den här kretsen:
 
-![](anvaendning_av_flera_lysdioder_0.png)
+![Bild](anvaendning_av_flera_lysdioder_0.png)
 
 Alla lysdioder ska lysa. Om de inte gör det, be om hjälp!
 
@@ -57,7 +57,7 @@ Men ingenting händer, eftersom det inte sitter några sladdar i hålen.
 
 Bygg om till den här kretsen:
 
-![](anvaendning_av_flera_lysdioder_1.png)
+![Bild](anvaendning_av_flera_lysdioder_1.png)
 
 Lysdioden till vänster skall blinka. Om inte, fråga om hjälp!
 
@@ -67,7 +67,7 @@ Lysdioden till vänster skall blinka. Om inte, fråga om hjälp!
 
 Bygg om till den här kretsen:
 
-![](anvaendning_av_flera_lysdioder_2.png)
+![Bild](anvaendning_av_flera_lysdioder_2.png)
 
 De två lysdioderna till vänster skall blinka. Om inte, fråga om hjälp!
 
@@ -77,7 +77,7 @@ De två lysdioderna till vänster skall blinka. Om inte, fråga om hjälp!
 
 Bygg om till den här kretsen:
 
-![](anvaendning_av_flera_lysdioder_3.png)
+![Bild](anvaendning_av_flera_lysdioder_3.png)
 
 Den tre lysdioderna skall blinka. Om inte, fråga om hjälp!
 

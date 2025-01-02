@@ -10,7 +10,7 @@ Vi har redan sett uppspelningen av ett ljud i lektionshäfte 3, sidan 17.
 ![Piano](18_frequenties.png) | Vi börjar med mittentangenten med frekvens 247. Sedan lägger vi till 3 tangenter till vänster. Sedan lägger vi till 3 nycklar till höger. Frekvenserna finns på den här bilden,
 :-------------:|:----------------------------------------:
 
-![](19_parallel-universes.jpg)
+![Bild](19_parallel-universes.jpg)
 
 > I lektion 231763256 kommer vi att göra ett piano med parallella universum!
 
@@ -20,7 +20,7 @@ Vi har redan sett uppspelningen av ett ljud i lektionshäfte 3, sidan 17.
 
 Anslut den första knappen enligt bilden. Sätt knappen i mitten av din brödbräda!
 
-![](19_fig_1_bb.png)
+![Bild](19_fig_1_bb.png)
 
 > Lösning 1
 
@@ -74,7 +74,7 @@ Anslut en andra knapp **till vänster** om den första, med två motstånd framf
 ![serie](serie.png) | Två 10k motstånd i serie ger ett 20k motstånd.
 :-------------:|:----------------------------------------:
 
-![](19_fig_2_bb.png)
+![Bild](19_fig_2_bb.png)
 
 > Kretsen för uppgift 2
 
@@ -142,7 +142,7 @@ Använd nu 3 parallella motstånd.
 
 ## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 3
 
-![](19_fig_3_bb.png)
+![Bild](19_fig_3_bb.png)
 
 > Lösning 3
 
@@ -203,7 +203,7 @@ Använd nu 4 parallella motstånd.
 
 ## Lektion 19: 1-Pin-7-Parallell Resistors-Piano: Lösning 4
 
-![](19_fig_4_bb.png)
+![Bild](19_fig_4_bb.png)
 
 > Lösning 4
 
@@ -245,7 +245,7 @@ Bygg nu den 5:e tangenten till höger om de föregående tangenterna. Använd nu
 
 Kretsen kommer att se ut så här.
 
-![](19_fig_5_bb.png)
+![Bild](19_fig_5_bb.png)
 
 > Krets för uppgift 5
 
@@ -277,7 +277,7 @@ void loop()
 }
 ```
 
-![](19_5ive.jpeg)
+![Bild](19_5ive.jpeg)
 
 > Nu kan alla medlemmar i det framgångsrika pojkbandet 5ive spela en knapp på ditt piano!
 
@@ -295,7 +295,7 @@ Bygg nu den 6:e tangenten till höger om de föregående tangenterna. Använd in
 
 Kretsen kommer att se ut så här.
 
-![](19_fig_6_bb.png)
+![Bild](19_fig_6_bb.png)
 
 > Kretsen för uppgift 6
 
@@ -327,7 +327,7 @@ void loop()
 }
 ```
 
-![](19_hexapod.jpg)
+![Bild](19_hexapod.jpg)
 
 > Den sexbenta subfilen (hexapoda) kan nu spela med ett ben per tangent på ditt piano!
 
@@ -343,6 +343,6 @@ Komplettera ett piano med sju tangenter genom att lägga till den sjunde knappen
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
 :-------------:|:----------------------------------------:
 
-![](19_wibi_soerjadi.png)
+![Bild](19_wibi_soerjadi.png)
 
 > Wibi Soerjadi använder vanligtvis fler än sju fingrag

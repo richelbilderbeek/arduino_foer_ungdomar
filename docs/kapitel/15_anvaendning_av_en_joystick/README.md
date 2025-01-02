@@ -4,7 +4,7 @@ Under den här lektionen ska vi använda en joystick!
 
 ## 15.1. Elkretsen
 
-![](anvaendning_av_en_joystick_schema.png)
+![Bild](anvaendning_av_en_joystick_schema.png)
 
 > Schemat av kopplingen
 

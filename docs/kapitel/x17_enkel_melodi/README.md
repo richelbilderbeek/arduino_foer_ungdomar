@@ -3,7 +3,7 @@
 I den här lektionen ska vi göra en enkel melodi, som är Fader Jakob!
 På Nederländsk häter den låt 'Vader Jacob'.
 
-![](17_vader_jacob.jpg)
+![Bild](17_vader_jacob.jpg)
 
 > 'Vader Jacob' var en hit 1975 av det holländska bandet H2OR
 
@@ -13,7 +13,7 @@ På Nederländsk häter den låt 'Vader Jacob'.
 
 Anslut figuren 'Ansluta en högtalare'.
 
-![](17_aansluiten.png)
+![Bild](17_aansluiten.png)
 
 > Ansluta en högtalare
 
@@ -45,7 +45,7 @@ Du hör den första tonen av fader Jakob!
 I figuren 'Fader Jacobs första ton' ser du den första tonen som noter.
 Under noten finns texten, därunder tonhöjden i Hertz.
 
-![](17_va.png)
+![Bild](17_va.png)
 
 > Fader Jacobs första ton
 

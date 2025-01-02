@@ -13,7 +13,7 @@ Den seriella monitorn visar denna text på din dator.
 
 Först ansluter vi bara en Arduino:
 
-![](11_fsr_rbg_ingenting.png)
+![Bild](11_fsr_rbg_ingenting.png)
 
 Jag tycker att det här borde fungera :-)
 

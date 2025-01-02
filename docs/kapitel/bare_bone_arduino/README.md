@@ -4,7 +4,7 @@ En bare bone Arduino
 
 ## Ansluting
 
-![](bare_bone_anslutning.png)
+![Bild](bare_bone_anslutning.png)
 
 > Bare bone Arduino anslutning
 

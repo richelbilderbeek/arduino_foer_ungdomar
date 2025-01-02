@@ -6,7 +6,7 @@ Under den här lektionen ska vi programmera en lysdiod med en Arduino!
 
 Anslut en Arduino, lysdiod och motstånd så här:
 
-![](programmering_av_en_lysdiod_5v.png)
+![Bild](programmering_av_en_lysdiod_5v.png)
 
 Avänd 5V hålet av Arduino. Funkar detta?
 
@@ -28,7 +28,7 @@ Här ska vi använda hål `13` som vi kan programmera att ge spännning eller ej
 
 Anslut en Arduino, lysdiod och motstånd så här:
 
-![](programmering_av_en_lysdiod_13.png)
+![Bild](programmering_av_en_lysdiod_13.png)
 
 Nu är lysdioden kopplad till hålet `13` på Arduino.
 
@@ -119,7 +119,7 @@ void loop()
 
 Få LEDen att blinka så snabbt du kan. Vad ser du?
 
-![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
+![Bild](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -147,17 +147,17 @@ Du kommer inte längre att se lampan blinka.
 
 \pagebreak
 
-![](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
+![Bild](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | Ljuset blinkar, men det blinkar för fort för att våra ögon ska kunna uppfatta det.
+![Bild](EmojiBowtie.png) | Ljuset blinkar, men det blinkar för fort för att våra ögon ska kunna uppfatta det.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------:
 `digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
-![](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
+![Bild](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -166,14 +166,14 @@ Du kommer inte längre att se lampan blinka.
 
 Anslut nu lysdioden till Arduino stift `12`.
 
-![](programmering_av_en_lysdiod_12.png)
+![Bild](programmering_av_en_lysdiod_12.png)
 
 \pagebreak
 
-![](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
+![Bild](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
+![Bild](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
 :-------------:|:----------------------------------------:
 
 Vad gör lysdioden? Vad gör den inbyggda lysdioden?

@@ -17,7 +17,7 @@ Höger ben     | GND
 
 ## 7.2 Potentiometer: anslut, lösning
 
-![](7_potmeter.png)
+![Bild](7_potmeter.png)
 
 \pagebreak
 
@@ -192,7 +192,7 @@ GND      | GND
 
 ## 7.11 Potentiometer: anslut joystick, lösning
 
-![](7_joystick.png)
+![Bild](7_joystick.png)
 
 \pagebreak
 

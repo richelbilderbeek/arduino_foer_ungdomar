@@ -4,7 +4,7 @@ Under den här lektionen ska vi mäta en vridmotstånd!
 
 ## 10.1. Att mäta en vridmotstånd 1
 
-![](maetning_av_en_vridmotstaand_1.png)
+![Bild](maetning_av_en_vridmotstaand_1.png)
 
 \pagebreak
 
@@ -40,7 +40,7 @@ Så här funkar vridmotståndet bra! Mätningar skull vara så här (om inte: fr
 
 ## 10.2. Att mäta en vridmotstånd 2
 
-![](maetning_av_en_vridmotstaand_2.png)
+![Bild](maetning_av_en_vridmotstaand_2.png)
 
 \pagebreak
 
@@ -68,7 +68,7 @@ Så här funkar vridmotståndet inte :-)
 
 ## 10.3. Att mäta en vridmotstånd 3
 
-![](maetning_av_en_vridmotstaand_3.png)
+![Bild](maetning_av_en_vridmotstaand_3.png)
 
 \pagebreak
 
@@ -108,7 +108,7 @@ Så här funkar vridmotståndet bra på en annat vis.
 
 ## 10.4. Att mäta en vridmotstånd 4
 
-![](maetning_av_en_vridmotstaand_4_annotated.png)
+![Bild](maetning_av_en_vridmotstaand_4_annotated.png)
 
 * vrida vridmotståndet någonstans in mitten av vridning
 * mäta motstand mellan stift 1 och 2 av vridmotståndet

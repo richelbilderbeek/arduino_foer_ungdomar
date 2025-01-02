@@ -2,7 +2,7 @@
 
 Under den här lektionen ska vi göra den enklaste kretsen som finns: Blink!
 
-![](EmojiBowtie.png) | Vi börjar lätt!
+![Bild](EmojiBowtie.png) | Vi börjar lätt!
 :-------------:|:----------------------------------------:
 
 ## 1.1 Blink: Ansluta en Arduino
@@ -17,17 +17,17 @@ Anslut en USB-kabel till din Arduino och till din dator.
 
 Koppla in Arduino.
 
-![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
+![Bild](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
 :-------------:|:----------------------------------------:
 
 \pagebreak
 
 ## 1.3 Blink: Startar Arduino IDE
 
-![](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
+![Bild](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
+![Bild](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
 :-------------:|:----------------------------------------:
 
 Starta Arduino IDE genom att:
@@ -109,7 +109,7 @@ void loop()
 }
 ```
 
-![](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
+![Bild](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -129,7 +129,7 @@ void loop()
 
 Få LEDen blinka så snabbt du kan. Vad ser du?
 
-![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
+![Bild](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -155,19 +155,19 @@ void loop()
 
 Du kommer inte längre att se lampan blinka.
 
-![](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
+![Bild](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
 :-------------:|:----------------------------------------:
 
 \pagebreak
 
-![](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte titta tillräckligt snabbt för att se det.
+![Bild](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte titta tillräckligt snabbt för att se det.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------:
 `digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
-![](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
+![Bild](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -183,7 +183,7 @@ Nu är det dags att bygga kretsen till Blink:
 * Montera tillbaka USB kabel till datorn
 * Om allt är bra kommer nu den röda LED att blinka tillsammans med LEDen på Arduinon.
 
-![](EmojiBowtie.png) | Om LEDen inte lyser, vänd på den
+![Bild](EmojiBowtie.png) | Om LEDen inte lyser, vänd på den
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -192,10 +192,10 @@ Nu är det dags att bygga kretsen till Blink:
 
 Anslut nu din LED till stift 12.
 
-![](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
+![Bild](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
+![Bild](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -210,13 +210,13 @@ Anslut nu din LED till stift 12.
 
 Se nu till att LEDen på stift 12 börjar blinka dubbel så fort.
 
-![](EmojiSunglasses.png) | LED är en förkortning av 'Light Emitting Diode'
+![Bild](EmojiSunglasses.png) | LED är en förkortning av 'Light Emitting Diode'
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | Bra sagt! Bättre sent än aldrig!
+![Bild](EmojiBowtie.png) | Bra sagt! Bättre sent än aldrig!
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | LED betyder på svenska: 'Ljus givande diod'
+![Bild](EmojiBowtie.png) | LED betyder på svenska: 'Ljus givande diod'
 :-------------:|:----------------------------------------:
 
 \pagebreak

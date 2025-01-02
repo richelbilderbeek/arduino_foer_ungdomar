@@ -19,7 +19,7 @@ Programmerar:
 
 ## 8.2 Lösning
 
-![](08_potmeter.png)
+![Bild](08_potmeter.png)
 
 ```
 const int potmeter_stift = A0;
@@ -65,7 +65,7 @@ else
 :-------------:|:----------------------------------------:
 `<`|'litare än'
 
-![](EmojiBowtie.png) | `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
+![Bild](EmojiBowtie.png) | `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -121,7 +121,7 @@ Vilken värder har LDR om ljus är helt på den?
 
 ## 8.6 Lösning
 
-![](08_ldr.png)
+![Bild](08_ldr.png)
 
 \pagebreak
 

@@ -35,7 +35,7 @@ Vad ser du?
 
 Du ser Arduino säga "Hej"!
 
-![](6_serial_monitor_output.png)
+![Bild](6_serial_monitor_output.png)
 
 ## 6.3 Ladda knapp: `vanta_lite` och `visar_knapp_varde`, uppgift
 

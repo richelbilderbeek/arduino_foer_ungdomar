@@ -2,7 +2,7 @@
 
 I den här lektionen kommer vi att lära oss hur man använder en variabel.
 
-![](EmojiBowtie.png) | Lektionen kallas 'knappflipp' eftersom du programmerar med en så kallad flip-flop
+![Bild](EmojiBowtie.png) | Lektionen kallas 'knappflipp' eftersom du programmerar med en så kallad flip-flop
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -13,7 +13,7 @@ Vi börjar med denna krets:
 
 ![Flödesschema](04_knop_flip.png)
 
-![](EmojiSunglasses.png) | Hej, jag känner igen den här kretsen!
+![Bild](EmojiSunglasses.png) | Hej, jag känner igen den här kretsen!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -43,7 +43,7 @@ void loop()
 }
 ```
 
-![](EmojiSunglasses.png) | Hej, jag känner igen den här koden!
+![Bild](EmojiSunglasses.png) | Hej, jag känner igen den här koden!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -142,7 +142,7 @@ if (digitalRead(knapp_stift) == HIGH)
 
 Ladda upp koden. Vad ser du? Om du ser något konstigt så stämmer det!
 
-![](EmojiBowtie.png) | Vad ser du?|![](EmojiSunglasses.png) | Om du ser något konstigt så stämmer det!
+![Bild](EmojiBowtie.png) | Vad ser du?|![Bild](EmojiSunglasses.png) | Om du ser något konstigt så stämmer det!
 :-------------:|:----------------:|:-------------:|:----------------------------------------:
 
 \pagebreak
@@ -171,10 +171,10 @@ void loop()
 }
 ```
 
-![](EmojiBowtie.png) | När du trycker på knappen dimrar LEDen. När du släpper knappen kommer LEDen antingen att vara tänd eller släckt för alltid
+![Bild](EmojiBowtie.png) | När du trycker på knappen dimrar LEDen. När du släpper knappen kommer LEDen antingen att vara tänd eller släckt för alltid
 :-------------:|:----------------------------------------:
 
-![](EmojiSunglasses.png) | Detta beror på att Arduino snabbt och ofta tänder och släcker ljuset
+![Bild](EmojiSunglasses.png) | Detta beror på att Arduino snabbt och ofta tänder och släcker ljuset
 :-------------:|:----------------------------------------:
 
 \pagebreak

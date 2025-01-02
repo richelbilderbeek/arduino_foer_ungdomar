@@ -3,7 +3,7 @@
 Under den här lektionen ska vi programmera den inbyggda lysdioden
 i Arduino.
 
-![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
+![Bild](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
 :-------------:|:----------------------------------------:
 
 ## 1.1. Ansluta en Arduino
@@ -18,10 +18,10 @@ Anslut en USB-kabel till din Arduino och till din dator.
 
 ## 1.2. Startar Arduino IDE
 
-![](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
+![Bild](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
+![Bild](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
 :-------------:|:----------------------------------------:
 
 Starta Arduino IDE genom att:
@@ -119,7 +119,7 @@ void loop()
 
 Få LEDen att blinka så snabbt du kan. Vad ser du?
 
-![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
+![Bild](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -145,19 +145,19 @@ void loop()
 
 Du kommer inte längre att kunna se lampan blinka.
 
-![](EmojiSunglasses.png) | Du kommer inte längre att kunna se lampan blinka!
+![Bild](EmojiSunglasses.png) | Du kommer inte längre att kunna se lampan blinka!
 :-------------:|:----------------------------------------:
 
 \pagebreak
 
-![](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte uppfatta det tillräckligt snabbt för att se det.
+![Bild](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte uppfatta det tillräckligt snabbt för att se det.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------:
 `digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
-![](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
+![Bild](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
 :-------------:|:----------------------------------------:
 
 \pagebreak

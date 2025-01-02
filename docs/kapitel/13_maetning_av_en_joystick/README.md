@@ -20,7 +20,7 @@ Gör foljande:
 - starta skopet
 - trycker på knapp 'CH1' i rutan 'Vertical' tills den lyser (ser en bild nedåt)
 
-![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
+![Bild](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
 Frågor:
 
@@ -31,14 +31,14 @@ Frågor:
 
 ### Svar
 
-![](maetening_av_en_joystick_verkligheten_1.jpg)
+![Bild](maetening_av_en_joystick_verkligheten_1.jpg)
 
 > hur det ska ser ut
 
 Vad skopet visar är svårt att förutspå.
 Kanske ser du en gul horisontell linje, som här:
 
-![](maetening_av_en_joystick_bild_2_5v.jpg)
+![Bild](maetening_av_en_joystick_bild_2_5v.jpg)
 
 Om du drar joysticken i en specifik riktning, om du har tur,
 flyttas linjen uppåt och nedåt.
@@ -49,7 +49,7 @@ flyttas linjen uppåt och nedåt.
 
 Vad du ser beror på inställningen av tidskalan på skopet.
 
-![](maetening_av_en_joystick_hor_skaleringsknapp.jpg)
+![Bild](maetening_av_en_joystick_hor_skaleringsknapp.jpg)
 
 Om du vridar den högre knapp av 'Horizontal' ändrar du tidskalan.
 Du kann också ser det på skärmen av skopen:
@@ -64,7 +64,7 @@ Hur ser den gula linjen ut nu?
 
 Så här kan det se ut:
 
-![](maetening_av_en_joystick_bild.jpg)
+![Bild](maetening_av_en_joystick_bild.jpg)
 
 Lägg märke till texten 'M 1.00s', som betyder att varje ruta horisontellt betyder en sekund.
 Du kan se att den gula linjen långsamt rör sig.
@@ -75,7 +75,7 @@ Du kan se att den gula linjen långsamt rör sig.
 
 Vad du ser nu beror på spänningskalan på skopet också.
 
-![](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
+![Bild](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
 Om du vrider den övre vänstra knappen i 'Vertical'
 ändrar du spänningsskalan.
@@ -91,7 +91,7 @@ Hur ser gula linje ut nu? Dra också på joysticken för att se något coolt!
 
 Så här kan det se ut:
 
-![](maetening_av_en_joystick_bild.jpg)
+![Bild](maetening_av_en_joystick_bild.jpg)
 
 Lägg märke till texten 'CH1 2.00V', som betyder att varje ruta horisontellt
 betyder två volt spänning.
@@ -104,7 +104,7 @@ När du drar joysticken i olika riktningar rör sig den gula linjen uppåt och n
 
 Nu ska vi koppla ännu ett stift på joysticken till skopet:
 
-![](maetening_av_en_joystick_schema_2.png)
+![Bild](maetening_av_en_joystick_schema_2.png)
 > Schemat på kopplingen
 
 Leta efter ytterligare en prob.
@@ -124,7 +124,7 @@ Vad visar skopet? Vad händer om du rör på joysticken?
 
 Så här kan det se ut:
 
-![](maetening_av_en_joystick_bild_2_chs.jpg)
+![Bild](maetening_av_en_joystick_bild_2_chs.jpg)
 
 Lägg märke till texten 'CH1 2.00V', som betyder att varje ruta horisontellt
 står för två volt spänning.
@@ -142,7 +142,7 @@ Läs igenom slutuppgiften först, efter det har du 10 minuter på dig att slutf�
 1. Be någon att kontrollera medan du gör provet. Den personen får inte hjälpa dig.
 1. Den personen vrider eller trycker fler gånger på alla dessa fem knappar:
 
-![](maetening_av_en_joystick_knappar_att_aendra.jpg)
+![Bild](maetening_av_en_joystick_knappar_att_aendra.jpg)
 
 Starta en timer och gör följande:
 

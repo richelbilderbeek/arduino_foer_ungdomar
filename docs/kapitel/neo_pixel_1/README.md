@@ -10,7 +10,7 @@ Under den här lektion gör vi Blink med NeoPixels!
 
 ## NeoPixels 1: uppgift 1, anslutning
 
-![](neo_pixel_1_connect.png)
+![Bild](neo_pixel_1_connect.png)
 
 Anslut en Arduino till NeoPixels så här:
 
@@ -57,7 +57,7 @@ void loop()
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
 :-------------:|:----------------------------------------:
 
-![](faergcirkel.png)
+![Bild](faergcirkel.png)
 
 > Färgcirkel. Här kan du ser att gul är en blandning av röd och grön.
 

@@ -13,7 +13,7 @@ De seriele monitor laat deze tekst op je computer zien.
 
 Eerst sluiten we alleen een Arduino aan:
 
-![](4_FSR_niks.png)
+![Bild](4_FSR_niks.png)
 
 Ik denk dat dit wel moet lukken :-)
 

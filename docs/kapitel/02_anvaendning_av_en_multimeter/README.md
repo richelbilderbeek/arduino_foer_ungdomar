@@ -2,12 +2,12 @@
 
 Under den här lektionen ska vi använda en multimeter.
 
-![](EmojiSunglasses.png) | Ingen spaning, ingen aning!
+![Bild](EmojiSunglasses.png) | Ingen spaning, ingen aning!
 :-------------:|:----------------------------------------:
 
 ## 2.1. Mätning av inget motstånd
 
-![](anvaendning_av_en_multimeter_kortslutning.png)
+![Bild](anvaendning_av_en_multimeter_kortslutning.png)
 
 Leta efter en multimeter och två tillhörande mätkablar: en röd och en svart.
 Vrid knappen på multimetern till Ohm symbolen,
@@ -28,12 +28,12 @@ Skärmen ska visa ett motstånd på 0 Ohm.
 Ett motstånd på 0 Ohm betyder att det inte finns någonting emellan mätpunkterna.
 Det stämmer: el kan gå från ena mätpunkten till den andra utan motstånd.
 
-![](EmojiBowtie.png) | En motstånd på 0 Ohm kallas också för kortslutning!
+![Bild](EmojiBowtie.png) | En motstånd på 0 Ohm kallas också för kortslutning!
 :-------------:|:----------------------------------------:
 
 ## 2.2. Mätning av oändligt motstånd
 
-![](anvaendning_av_en_multimeter_luft.png)
+![Bild](anvaendning_av_en_multimeter_luft.png)
 
 Sätt på multimetern och håll den röda mätpinnen långt bort från den svarta mätpinnen.
 Vad visar mätningen?
@@ -47,12 +47,12 @@ Det betyder att det finns oändligt mycket motstånd mellan mätpinnarna.
 Det stämmer: el kan gå från ena mätpinnen till den andra med mycket motstånd!
 Det är svårt för el att gå igenom luften!
 
-![](EmojiBowtie.png) | Ett oändligt motstånd indikerar strömavbrott.
+![Bild](EmojiBowtie.png) | Ett oändligt motstånd indikerar strömavbrott.
 :-------------:|:----------------------------------------:
 
 ## 2.3. Mätning av ett tusenohms motstånd
 
-![](anvaendning_av_en_multimeter_1000_1.png)
+![Bild](anvaendning_av_en_multimeter_1000_1.png)
 
 Leta efter ett 1000 ohms motstånd.
 Det har ränder i brunt, svart, röd och guld, i den ordningen.
@@ -69,12 +69,12 @@ Vad visar mätningen?
 Värdena skulle vara mellan 950 och 1050 Ohm! (du måste multiplicera det multimetern visar med 1000 ibland)
 Motstånd är inte perfekta, så det stämmer!
 
-![](EmojiBowtie.png) | Motstånd är inte perfekta!
+![Bild](EmojiBowtie.png) | Motstånd är inte perfekta!
 :-------------:|:----------------------------------------:
 
 ## 2.4. Mätning av ett tusenohms motstånd i andra riktningen
 
-![](anvaendning_av_en_multimeter_1000_2.png)
+![Bild](anvaendning_av_en_multimeter_1000_2.png)
 
 Vänd på motståndet och mät motståndet igen:
 
@@ -90,12 +90,12 @@ Vad visar mätningen?
 Värdena skulle vara mellan 950 och 1050 Ohm!
 Riktningen på motståndet spelar ingen roll.
 
-![](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
+![Bild](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
 :-------------:|:----------------------------------------:
 
 ## 2.5. Mätning av ett tiotusenohms motstånd
 
-![](anvaendning_av_en_multimeter_10000_1.png)
+![Bild](anvaendning_av_en_multimeter_10000_1.png)
 
 Leta efter ett **tio**-tusen Ohms motstånd.
 Det har ränder i brunt, svart, **orange** och guld, i den ordningen.
@@ -114,12 +114,12 @@ Vad visar mätningen?
 Värdena skulle vara mellan 9 500 och 10 500 Ohm!
 Motstånd är inte perfekta, så det stämmer!
 
-![](EmojiBowtie.png) | Motstånd är inte perfekta!
+![Bild](EmojiBowtie.png) | Motstånd är inte perfekta!
 :-------------:|:----------------------------------------:
 
 ## 2.6. Mätning av ett tiotusenohms motstånd i andra riktning
 
-![](anvaendning_av_en_multimeter_10000_2.png)
+![Bild](anvaendning_av_en_multimeter_10000_2.png)
 
 Vänd på motståndet och mät motståndet igen:
 
@@ -135,12 +135,12 @@ Vad visar mätningen?
 Värdena skulle vara mellan 9 500 och 10 500 Ohm!
 Igen, riktningen på motståndet spelar ingen roll.
 
-![](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
+![Bild](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
 :-------------:|:----------------------------------------:
 
 ## 2.7. Mätning av en lysdiod
 
-![](anvaendning_av_en_multimeter_lysdiod_1.png)
+![Bild](anvaendning_av_en_multimeter_lysdiod_1.png)
 
 Leta efter en lysdiod.
 
@@ -160,12 +160,12 @@ Det betyder att el kan gå igenom en lysdiod.
 
 Det är möjligt att lysdioden lyser litegrann!
 
-![](EmojiBowtie.png) | Exakta motståndet hos en lysdiod spelar inte så stor roll
+![Bild](EmojiBowtie.png) | Exakta motståndet hos en lysdiod spelar inte så stor roll
 :-------------:|:----------------------------------------:
 
 ## 2.8. Mätning av en lysdiod i andra riktningen
 
-![](anvaendning_av_en_multimeter_lysdiod_2.png)
+![Bild](anvaendning_av_en_multimeter_lysdiod_2.png)
 
 Vänd på lysdioden och mät motståndet igen:
 
@@ -182,7 +182,7 @@ Värdet skulle vara oändligt.
 Det betyder att el inte kan gå igenom en lysdiod i den riktningen.
 Lysdioden lyser inte.
 
-![](EmojiBowtie.png) | Riktningen på en lysdiod är viktigt!
+![Bild](EmojiBowtie.png) | Riktningen på en lysdiod är viktigt!
 :-------------:|:----------------------------------------:
 
 ## 2.9. Slutuppgift

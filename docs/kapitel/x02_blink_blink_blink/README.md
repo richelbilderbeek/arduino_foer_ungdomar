@@ -30,7 +30,7 @@ void loop()
 
 `led_stift` kallas en variabel: en plats i datorns minne med ett namn.
 
-![](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+![Bild](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------:
 `const int led_stift = 13;`|'Kära dator, kom ihåg ett heltal som heter `led_stift` med startvärdet 13.'
 
@@ -69,7 +69,7 @@ Skapa en ny variabel för väntetiden, kallad `vantetid`, själv.
 `vantetid` är ett heltal med initialt värde `1000`.
 Använd `vantetid` som värde i `delay`.
 
-![](EmojiSunglasses.png) | Smart! Om du läser `vantetid` vet du vad det är till för. Vid `1000` vet du inte det
+![Bild](EmojiSunglasses.png) | Smart! Om du läser `vantetid` vet du vad det är till för. Vid `1000` vet du inte det
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -94,7 +94,7 @@ void loop()
 }
 ```
 
-![](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom hårdparentes'
+![Bild](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom hårdparentes'
 :-------------:|:----------------------------------------:
 
 ## 2.6: Blink Blink Blink: Ansluter Blink Blink Blink
@@ -136,7 +136,7 @@ void loop()
 }
 ```
 
-![](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå och ändra.
+![Bild](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå och ändra.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -147,13 +147,13 @@ Skapa en ny variabel `led_stift_2`.
 Få först den första LEDen att tändas och släckas,
 få sedan den andra LEDen tändas och släckas efter den första.
 
-![](EmojiSunglasses.png) | Sättet att skriva, med "_" i stället för mellanslag t.ex. 'led_stift_2' kallas 'snake case': 'snake' är engelska för orm
+![Bild](EmojiSunglasses.png) | Sättet att skriva, med "_" i stället för mellanslag t.ex. 'led_stift_2' kallas 'snake case': 'snake' är engelska för orm
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för kamel
+![Bild](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för kamel
 :-------------:|:----------------------------------------:
 
-![](EmojiComputer.png) | Jag tänker båda är lika bra
+![Bild](EmojiComputer.png) | Jag tänker båda är lika bra
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -191,10 +191,10 @@ void loop()
 Skapa en tredje variabel `led_stift_3`.
 Få nu alla lampor blinka samtidigt: alla på, sedan alla av.
 
-![](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
+![Bild](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
 :-------------:|:----------------------------------------:
 
-![](EmojiBowtie.png) | Korrekt! Arrays låter dig lagra flera tal i en variabel
+![Bild](EmojiBowtie.png) | Korrekt! Arrays låter dig lagra flera tal i en variabel
 :-------------:|:----------------------------------------:
 
 \pagebreak

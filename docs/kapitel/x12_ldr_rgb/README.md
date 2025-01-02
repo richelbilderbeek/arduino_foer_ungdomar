@@ -4,7 +4,7 @@
 
 Först ansluter vi bara en Arduino:
 
-![](12_ldr_rgb_ingenting.png)
+![Bild](12_ldr_rgb_ingenting.png)
 
 Jag tycker att det här borde fungera :-)
 

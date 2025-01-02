@@ -6,7 +6,7 @@ Under den här lektionen ska vi ansluta vridmotstånd till en Arduino!
 
 Bygg upp den här kretsen:
 
-![](anvaendning_av_en_vridmotstaand_1.png)
+![Bild](anvaendning_av_en_vridmotstaand_1.png)
 
 Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
@@ -24,7 +24,7 @@ Om inte, fråga om hjälp!
 
 Bygg upp den här kretsen:
 
-![](anvaendning_av_en_vridmotstaand_2.png)
+![Bild](anvaendning_av_en_vridmotstaand_2.png)
 
 Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
@@ -44,7 +44,7 @@ Om inte, fråga om hjälp!
 
 Bygg upp den här kretsen:
 
-![](anvaendning_av_en_vridmotstaand_3.png)
+![Bild](anvaendning_av_en_vridmotstaand_3.png)
 
 Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
@@ -74,7 +74,7 @@ void loop()
 
 Efter uploadning, klick på 'Tools | Serial Plotter':
 
-![](anvaendning_av_en_vridmotstaand_serial_plotter.png)
+![Bild](anvaendning_av_en_vridmotstaand_serial_plotter.png)
 
 Vad ser du när du vrider vridmotstånd åt vänster?
 Vad ser du när du vrider vridmotstånd åt höger?
@@ -84,7 +84,7 @@ Varför är det så?
 
 ### Svar
 
-![](anvaendning_av_en_vridmotstaand_serial_plot_1.png)
+![Bild](anvaendning_av_en_vridmotstaand_serial_plot_1.png)
 
 När du vrider vänstra vridmotståndet ändrar värden i Serial Plotter.
 Det är för att detta vridmotståndet är använt i programmet: den är
@@ -117,7 +117,7 @@ Varför trodde du det?
 
 ### Svar
 
-![](anvaendning_av_en_vridmotstaand_serial_plot_2.png)
+![Bild](anvaendning_av_en_vridmotstaand_serial_plot_2.png)
 
 Vänstervridmotståndet gör ingenting, för att den är inte använt
 i programmet.
@@ -154,7 +154,7 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 ### Svar
 
-![](anvaendning_av_en_vridmotstaand_serial_plot_3.png)
+![Bild](anvaendning_av_en_vridmotstaand_serial_plot_3.png)
 
 Nu ser du båda två linjer i Serial Plotter tillsammans.
 
@@ -162,7 +162,7 @@ Nu ser du båda två linjer i Serial Plotter tillsammans.
 
 Bygg upp den här kretsen:
 
-![](anvaendning_av_en_vridmotstaand_4.png)
+![Bild](anvaendning_av_en_vridmotstaand_4.png)
 
 Upload koden igen och kolla i Serial Plotter.
 Kan du gissar hur Serial Plotter ser ut nu? Varför?
@@ -173,7 +173,7 @@ Kan du gissar hur Serial Plotter ser ut nu? Varför?
 
 ### Svar
 
-![](anvaendning_av_en_vridmotstaand_serial_plot_4.png)
+![Bild](anvaendning_av_en_vridmotstaand_serial_plot_4.png)
 
 Nu har båda vridmotstånd samma effect på värde i Serial Plotter.
 På den här vis funkar vridmotstånd som man tror att det skulle.
@@ -182,7 +182,7 @@ På den här vis funkar vridmotstånd som man tror att det skulle.
 
 Bygg upp den här kretsen:
 
-![](anvaendning_av_en_vridmotstaand_5.png)
+![Bild](anvaendning_av_en_vridmotstaand_5.png)
 
 Upload koden igen och kolla i Serial Plotter.
 Kan du gissar vad lysdioder ska göra nu? Varför?

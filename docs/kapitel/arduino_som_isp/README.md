@@ -5,7 +5,7 @@ med slutmålet att har en 'bare bone Arduino' (som är nästa lektion).
 
 ## Ladda up ISP kod
 
-![](arduino_ide_example.png)
+![Bild](arduino_ide_example.png)
 
 > Den 'ArduinoISP' exempel code
 
@@ -13,7 +13,7 @@ Ladd up 'ArduinoISP' på en Arduino UNO.
 
 ## Anslutning
 
-![](ansluting_allt.png)
+![Bild](ansluting_allt.png)
 
 > Den hela stromkrets
 
@@ -35,7 +35,7 @@ Glöm inte: mottagare skulle ha en löstagbar chip!
 
 ## Bränna bootloader
 
-![](arduino_ide_burn_bootloader.png)
+![Bild](arduino_ide_burn_bootloader.png)
 
 > Bränna bootloader
 

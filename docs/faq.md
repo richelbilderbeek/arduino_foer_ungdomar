@@ -25,7 +25,7 @@ SA       |Dela lika       |Materialet måste distribueras med samma licens
 
 Upphovsrätten till dessa böcker finns på:
 
-```
+```text
 (C) Richèl Bilderbeek och alla lärare och alla elever
 ```
 

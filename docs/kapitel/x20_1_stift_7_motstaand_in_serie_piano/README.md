@@ -49,11 +49,11 @@ void loop()
 När du trycker på knappen får du värdet 0.
 Om knappen inte trycks in får du värdet 1023.
 
-![](20_1_aan.png)
+![Bild](20_1_aan.png)
 
 > När knappen trycks in
 
-![](20_1_uit.png)
+![Bild](20_1_uit.png)
 
 > Om knappen inte trycks in
 
@@ -235,6 +235,6 @@ void loop()
 Komplettera pianot med sju knappar.
 De sista tonerna är 262, 294 och 330 Hertz.
 
-![](20_amina_figarova.jpeg)
+![Bild](20_amina_figarova.jpeg)
 
 > Amina Figarova behöver verkligen använder mer än sju fingrar

@@ -16,7 +16,7 @@ Och här är baksidan av samma kopplingsdäck:
 
 Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
-![](anslutning_av_en_lysdiod_breadboard_schematic_with_dots.png)
+![Bild](anslutning_av_en_lysdiod_breadboard_schematic_with_dots.png)
 
 Vilka av hålen är sammanlänkade?
 
@@ -32,7 +32,7 @@ Vilka av hålen är sammanlänkade?
 
 Kolla på den här bilden:
 
-![](anslutning_av_en_lysdiod_1_with_dots.png)
+![Bild](anslutning_av_en_lysdiod_1_with_dots.png)
 
 Det finns sex färgade hål. Vilka av dem är sammanlänkade?
 
@@ -48,7 +48,7 @@ Det finns sex färgade hål. Vilka av dem är sammanlänkade?
 
 Nu är det dags att bygga kretsen på riktigt:
 
-![](anslutning_av_en_lysdiod_1.png)
+![Bild](anslutning_av_en_lysdiod_1.png)
 
 * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
 * Montera kretsen enligt bild:
@@ -66,7 +66,7 @@ Nu är det dags att bygga kretsen på riktigt:
      till GND-hålet i Arduino
 * Sätt tillbaka USB-kabeln i datorn
 
-![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
+![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
 
 Lyser lysdioden?
@@ -86,7 +86,7 @@ Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_2.png)
+![Bild](anslutning_av_en_lysdiod_2.png)
 
 Nu är lysdioden vriden tvärtom!
 
@@ -106,7 +106,7 @@ Det långa benet på en lysdiod ska vara kopplat till 5V.
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_3.png)
+![Bild](anslutning_av_en_lysdiod_3.png)
 
 Lysdioden är kopplad rätt igen, men motståndet är vridet tvärtom!
 
@@ -124,7 +124,7 @@ Så ja, lysdioden ska lysa, då riktningen av motståndet inte spelar någon rol
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_4.png)
+![Bild](anslutning_av_en_lysdiod_4.png)
 
 Nu är både lysdioden och motståndet vridna tvärtom!
 
@@ -145,7 +145,7 @@ Riktningen av motståndet är inte viktigt.
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_5.png)
+![Bild](anslutning_av_en_lysdiod_5.png)
 
 Nu är alla komponenter på en rad!
 
@@ -163,7 +163,7 @@ den röda sladden är inte kopplad till lysdioden alls!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_6.png)
+![Bild](anslutning_av_en_lysdiod_6.png)
 
 Nu är alla komponenter som i den första kretsen, men alla är flyttade till höger.
 
@@ -182,7 +182,7 @@ på kopplingsdäcket man jobbar.
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_7.png)
+![Bild](anslutning_av_en_lysdiod_7.png)
 
 Nu finns det fler tomma hål mellan benen på lysdioden!
 
@@ -201,7 +201,7 @@ det finns mellan benen på lysdioden.
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_8.png)
+![Bild](anslutning_av_en_lysdiod_8.png)
 
 Nu är lysdioden kopplad rakt över kopplingsdäcket!
 
@@ -219,7 +219,7 @@ Så ja, det ska funka! En komponent kan kopplas mellan den övre och nedre delen
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_9.png)
+![Bild](anslutning_av_en_lysdiod_9.png)
 
 Nu går lysdioden över mitt i kopplingsdäcket, men med motståndet ovanför.
 
@@ -236,7 +236,7 @@ Nej, det funkar inte. Elen går ej genom lysdioden, utan tar den kortare vägen 
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_10.png)
+![Bild](anslutning_av_en_lysdiod_10.png)
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
@@ -254,7 +254,7 @@ Det långa benet på lysdioden skall vara kopplat till 5V.
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_11.png)
+![Bild](anslutning_av_en_lysdiod_11.png)
 
 Nu är motståndet kopplat före lysdioden!
 
@@ -274,7 +274,7 @@ Det långa benet av en lysdiod skall vara kopplat till 5V.
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_13.png)
+![Bild](anslutning_av_en_lysdiod_13.png)
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
@@ -290,7 +290,7 @@ Så ja, den funkar!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_14.png)
+![Bild](anslutning_av_en_lysdiod_14.png)
 
 Nu är lysdioden och motståndet inte direkt kopplade,
 utan sammankopplade med en sladd!
@@ -309,7 +309,7 @@ Så ja, den funkar!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_12.png)
+![Bild](anslutning_av_en_lysdiod_12.png)
 
 Nu är motståndet inkopplat före lysdioden!
 
@@ -328,7 +328,7 @@ Var motståndet är i kretsen spelar ingen roll
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_lysdiod_15.png)
+![Bild](anslutning_av_en_lysdiod_15.png)
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!

@@ -35,5 +35,5 @@ Reden is dat het bestand niet gevonden kan worden.
 Kopieer de bestanden van `/home/arduino/sketches/libraries/Volume/src`
 een folder omhoog naar `/home/arduino/sketches/libraries/Volume`.
 
-![](Volume_in_de_juiste_folder_kopieeren.png)
+![Bild](Volume_in_de_juiste_folder_kopieeren.png)
 

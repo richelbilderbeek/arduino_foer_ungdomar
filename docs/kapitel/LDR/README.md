@@ -4,7 +4,7 @@
 
 Eerst sluiten we alleen een Arduino aan:
 
-![](9_LDR_niks.png)
+![Bild](9_LDR_niks.png)
 
 Ik denk dat dit wel moet lukken :-)
 

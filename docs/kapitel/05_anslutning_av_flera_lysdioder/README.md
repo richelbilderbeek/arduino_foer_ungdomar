@@ -18,7 +18,7 @@ Och här är baksidan av samma kopplingsdäck:
 
 Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
-![](anslutning_av_flera_lysdioder_breadboard_schematic_with_dots.png)
+![Bild](anslutning_av_flera_lysdioder_breadboard_schematic_with_dots.png)
 
 Vilka av hålen är sammanlänkade?
 
@@ -35,7 +35,7 @@ Vilka av hålen är sammanlänkade?
 
 Kolla på den här bilden:
 
-![](anslutning_av_flera_lysdioder_0.png)
+![Bild](anslutning_av_flera_lysdioder_0.png)
 
 Den fyra långa horisontella raderna av hål kallas 'skenor'.
 
@@ -70,13 +70,13 @@ så att båda skenorna kopplade dit är jordade.
 
 Nu är det dags att bygga kretsen på riktigt:
 
-![](anslutning_av_flera_lysdioder_1.png)
+![Bild](anslutning_av_flera_lysdioder_1.png)
 
 * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
 * Montera kretsen enligt bild
 * Sätt tillbaka USB-kabeln i datorn
 
-![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
+![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
 
 Lyser lysdioden? Bygg ihop kretsen och kontrollera!
@@ -94,7 +94,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_flera_lysdioder_2.png)
+![Bild](anslutning_av_flera_lysdioder_2.png)
 
 Nu finns två lysdioder!
 
@@ -114,7 +114,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_flera_lysdioder_3.png)
+![Bild](anslutning_av_flera_lysdioder_3.png)
 
 Nu finns tre lysdioder!
 

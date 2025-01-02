@@ -4,7 +4,7 @@ Under den här lektionen ska vi ansluta en joystick till en RGB lysdiod!
 
 ## 14.1. Att koppla en joystick till en RGB ljusdiod
 
-![](anslutning_av_en_joystick_naiv.png)
+![Bild](anslutning_av_en_joystick_naiv.png)
 
 > Schemat av kopplingen
 
@@ -29,7 +29,7 @@ Det är för att knappen i joysticken funkar på ett annat sätt.
 
 ## 14.2. Att koppla en joystick till en RGB ljusdiod, igen
 
-![](anslutning_av_en_joystick_smart.png)
+![Bild](anslutning_av_en_joystick_smart.png)
 
 Bygg om strömkretsen till den här bilden.
 
@@ -45,7 +45,7 @@ Japp, nu funkar knappen av joysticken.
 
 Kolla på den här bild:
 
-![](anslutning_av_en_joystick_knapp_annotated.png)
+![Bild](anslutning_av_en_joystick_knapp_annotated.png)
 
 > Allt el kommer igenom sladd 1.
 > Där väljer den den väg med lågsta motstånd.

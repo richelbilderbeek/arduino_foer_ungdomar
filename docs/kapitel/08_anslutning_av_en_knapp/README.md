@@ -6,13 +6,13 @@ Under den här lektionen ska vi ansluta en knapp till en Arduino!
 
 Bygg den här kretsen:
 
-![](anslutning_av_en_knapp_1.png)
+![Bild](anslutning_av_en_knapp_1.png)
 
 * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
 * Montera kretsen enligt bilden
 * Sätt tillbaka USB-kabeln i datorn
 
-![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
+![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
 
 Lyser lysdioden? Gör knappen något? Varför tror du det?
@@ -36,7 +36,7 @@ Knappen gör dock ingenting: om du trycker ner den eller inte gör ingen skillna
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_knapp_2.png)
+![Bild](anslutning_av_en_knapp_2.png)
 
 Nu används knappen!
 
@@ -56,7 +56,7 @@ Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_knapp_3.png)
+![Bild](anslutning_av_en_knapp_3.png)
 
 Nu är sladden mellan lysdioden och knappen sammanlänkade vid det nedre högra hörnet på knappen.
 
@@ -76,7 +76,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_knapp_4.png)
+![Bild](anslutning_av_en_knapp_4.png)
 
 Nu sitter den blå sladden mellan lysdioden och knappen vid det övra högra hörnet på knappen.
 
@@ -96,7 +96,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_knapp_5.png)
+![Bild](anslutning_av_en_knapp_5.png)
 
 Nu är sladden mellan +skenan och knappen sammanlänkade vid det nedre vänstra hörnet på knappen.
 
@@ -116,7 +116,7 @@ Om den inte gör det, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_knapp_6.png)
+![Bild](anslutning_av_en_knapp_6.png)
 
 Nu finns det två knappar!
 
@@ -137,7 +137,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_knapp_7.png)
+![Bild](anslutning_av_en_knapp_7.png)
 
 Nu finns det två knappar med en annan sammanlänkning.
 
@@ -158,7 +158,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![](anslutning_av_en_knapp_8.png)
+![Bild](anslutning_av_en_knapp_8.png)
 
 Nu finns det två lysdioder till!
 
