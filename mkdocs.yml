@@ -22,7 +22,7 @@ theme:
     text: Lato
     code: JetBrains Mono
   palette:
-    primary: indigo
+    primary: white
 
   logo: logo/arduino_community_logo.png
 
