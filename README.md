@@ -2,33 +2,20 @@
 
 Kurs 'Arduino för ungdomar'.
 
-  * [böcker](boecker/README.md): ladda ner böckerna här i A4- eller A5-format
-  * [kapitel](kapitel/README.md): det här är de enskilda kapitlen
-  * [lektionkort](kapitel/lektionskort/README.md): det här är lektionskortet
+  * [böcker](docs/boecker/README.md): ladda ner böckerna här i A4- eller A5-format
+  * [kapitel](docs/kapitel/README.md): det här är de enskilda kapitlen
+  * [lektionkort](docs/kapitel/lektionskort/README.md): det här är lektionskortet
   * [scripts](scripts/README.md): det här är manus för att förvandla kapitlen till böcker
-  * [vanliga frågor](faq.md): här är de vanligaste frågorna
+  * [vanliga frågor](docs/faq.md): här är de vanligaste frågorna
 
-## Licens
+## Files used by continuous integration scripts
 
-![CC-BY-NC-SA](pics/CC-BY-NC-SA.png)
+<!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
-```
-(C) Richèl Bilderbeek
-```
+Filename                                  |Descriptions
+------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
+[mlc_config.json](mlc_config.json)        |Configuration of the link checker, use `markdown-link-check --config mlc_config.json --quiet docs/**/*.md` to do link checking locally
+[.markdownlint.jsonc](.markdownlint.jsonc)|Configuration of the markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
+[.markdownlintignore](.markdownlintignore)|Files ignored by the markdown linter, use `markdownlint "**/*.md"` to do markdown linting locally. The name of this file is a default name.
 
-## Contributors
-
- * [Aui Rönnemaa](https://github.com/auironnemaa)
- * [Björn Engström](https://github.com/bEPHen)
- * [Herman Berg](https://github.com/hha2011)
- * [Sofia Bryntse](https://github.com/Bryntse)
-
-## Översättning
-
-Engelska   |Svenska
------------|--------------------------------------
-Breadboard |Kopplingsdäck, labbplatta, brödplanka
-Jumper wire|Hopparvajer, byglingsledning
-LED        |Lysdiod
-Potmeter   |Vridmotstånd
-Resistor   |Motstånd
+<!-- markdownlint-enable MD013 -->
