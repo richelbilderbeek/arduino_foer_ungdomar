@@ -1,6 +1,6 @@
 # Programmering av en robotarm
 
-(kopierad från <https://github.com/richelbilderbeek/arduino_foer_ungdomar/tree/main/kapitel/robot_arm>)
+(kopierad från <https://github.com/richelbilderbeek/arduino_foer_ungdomar/tree/main/docs/kapitel/robot_arm>)
 
 Under den här lektionen ska vi programmera denna coola robotarm
 
