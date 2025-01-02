@@ -8,9 +8,9 @@ Bygg den här kretsen:
 
 ![Bild](anslutning_av_en_knapp_1.png)
 
-* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
-* Montera kretsen enligt bilden
-* Sätt tillbaka USB-kabeln i datorn
+- Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+- Montera kretsen enligt bilden
+- Sätt tillbaka USB-kabeln i datorn
 
 ![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
@@ -177,14 +177,14 @@ Om du trycker en knapp, kommer alltid två lysdioder att lysa.
 
 Material som krävs:
 
-* 1 dator
-* 1 Arduino
-* 1 USB sladd
-* 1 kopplingsdäck
-* 2 knapp
-* 3 1.000 Ohm motstånd
-* 3 lysdioder
-* lagom många sladdar
+- 1 dator
+- 1 Arduino
+- 1 USB sladd
+- 1 kopplingsdäck
+- 2 knapp
+- 3 1.000 Ohm motstånd
+- 3 lysdioder
+- lagom många sladdar
 
 1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
 

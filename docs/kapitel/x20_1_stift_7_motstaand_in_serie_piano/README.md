@@ -39,8 +39,8 @@ void loop()
 
 ```
 
-* Vilket värde får Arduino när man trycker på knappen?
-* Vilket värde får Arduino om knappen inte trycks in?
+- Vilket värde får Arduino när man trycker på knappen?
+- Vilket värde får Arduino om knappen inte trycks in?
 
 \pagebreak
 

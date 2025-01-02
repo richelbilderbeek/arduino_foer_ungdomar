@@ -103,8 +103,8 @@ Nu är det dags att ansluta `Blink Blink Blink`:
 
 ![BlinkBlinkBlink](02_blink_blink_blink.png)
 
-* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
-* Bygg kretsen enligt bilden
+- Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+- Bygg kretsen enligt bilden
 
 \pagebreak
 

@@ -19,15 +19,15 @@ In de Arduino IDE, ga naar `Examples`. Zie je `CapacitiveSensor` ertussen staan?
 
 Is `CapacitiveSensor` niet geinstalleerd, doe dan:
 
-* Klik in de Arduino IDE op `Sketch | Import Library | Add Library`
+- Klik in de Arduino IDE op `Sketch | Import Library | Add Library`
 
 ![Add Library](CapacitieveSensor1AddLibrary.png)
 
-* Klik op de *folder* en op OK
+- Klik op de *folder* en op OK
 
 ![Add Library folder](CapacitieveSensor1AddLibraryFolder.png)
 
-* Nu is de bibliotheek geinstalleerd:
+- Nu is de bibliotheek geinstalleerd:
 
 ![Het is gelukt](CapacitieveSensor1GeluktAnnotated.png)
 
@@ -73,15 +73,15 @@ void loop()
 
 Sluit de capacitieve sensor aan en upload de code. Bekijk de Seriele Monitor.
 
-* Wat is de gemeten waarde als je de knop niet aanraakt?
-* Wat is de gemeten waarde als je de knop wel aanraakt?
+- Wat is de gemeten waarde als je de knop niet aanraakt?
+- Wat is de gemeten waarde als je de knop wel aanraakt?
 
 \pagebreak
 
 ## Oplossing 1
 
-* Als je de knop niet aanraakt, is de waarde tussen 0 en 10. Het vaakst zie je nul en een.
-* Als je de knop wel aanraakt, is de waarde tussen ongeveer 500 en 5000. De getallen wisselen veel
+- Als je de knop niet aanraakt, is de waarde tussen 0 en 10. Het vaakst zie je nul en een.
+- Als je de knop wel aanraakt, is de waarde tussen ongeveer 500 en 5000. De getallen wisselen veel
 
 ![Sunglasses](EmojiBowtie.png) | De knop kan ook op afstand meten!
 :-------------:|:----------------------------------------:
@@ -135,4 +135,4 @@ void loop()
 
 ## Eindopdracht
 
-* Sluit nu ook een tweede LEDje aan. Deze moet juist uit zijn als er op de knop wordt gedrukt.
+- Sluit nu ook een tweede LEDje aan. Deze moet juist uit zijn als er op de knop wordt gedrukt.

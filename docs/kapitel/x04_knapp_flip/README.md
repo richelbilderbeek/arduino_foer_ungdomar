@@ -119,10 +119,10 @@ När du trycker på knappen lyser LEDen för alltid.
 
 Vi ska nu programmera att:
   
-* När du trycker på knappen tänds LEDen och förblir tänd
-* När du sedan trycker på knappen igen kommer LEDen att släckas och förbli släckt
-* När du sedan trycker på knappen igen kommer LEDen att tändas och förbli tänd
-* Och så vidare
+- När du trycker på knappen tänds LEDen och förblir tänd
+- När du sedan trycker på knappen igen kommer LEDen att släckas och förbli släckt
+- När du sedan trycker på knappen igen kommer LEDen att tändas och förbli tänd
+- Och så vidare
 
 Justera `if` som kontrollerar om knappen trycks ned:
 
@@ -217,8 +217,8 @@ void loop()
 Vi kommer att ansluta en andra LED. Du kan byta LED genom att trycka på knappen
 mellan LEDarna.
 
-* Anslut en andra grön LED till stift 12
-* I koden, ändra längst upp:
+- Anslut en andra grön LED till stift 12
+- I koden, ändra längst upp:
 
 ```c++
 // led_stift är bortkopplat
@@ -229,8 +229,8 @@ const int led_stift_gron = /* stift numret */;
 int vilken_led_pa = 1;
 ```
 
-* Se till att de två LEDarna och knappen hittas i koden, i `setup`.
-* I koden, i `loop`, ändra funktionen på knappen:
+- Se till att de två LEDarna och knappen hittas i koden, i `setup`.
+- I koden, i `loop`, ändra funktionen på knappen:
 
 ```c++
 if (/* knappen är nedtryckt */)
@@ -245,7 +245,7 @@ if (/* knappen är nedtryckt */)
 }
 ```
 
-* I koden, i `loop`, reagerar nu på 'vilken_led_pa':
+- I koden, i `loop`, reagerar nu på 'vilken_led_pa':
 
 ```c++
 if (vilken_led_pa == 1)

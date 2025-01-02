@@ -8,7 +8,7 @@ I mappen '[boecker](boecker/README.md)'.
 
 Japp:
 
-* [Uppsala](https://github.com/richelbilderbeek/arduinokurs)
+- [Uppsala](https://github.com/richelbilderbeek/arduinokurs)
 
 ## Vad är licensen på böckerna?
 
@@ -41,9 +41,9 @@ Trevlig!
 
 Det finns flera alternativ:
 
-* Skicka ett e-postmeddelande till @richelbilderbeek, sök efter "Richel Bilderbeek email"
-* Skapa en Issue
-* Skapa en Pull Request
+- Skicka ett e-postmeddelande till @richelbilderbeek, sök efter "Richel Bilderbeek email"
+- Skapa en Issue
+- Skapa en Pull Request
 
 ## Kan jag ändra dessa böcker?
 

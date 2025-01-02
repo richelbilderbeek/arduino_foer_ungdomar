@@ -138,7 +138,7 @@ Upload de code van 'Blink' op de Arduino.
 
 ## Eindopdracht
 
-* Laat de motor reageren op een LDR: als er geen licht is, moet de motor linksom draaien, anders rechtsom
+- Laat de motor reageren op een LDR: als er geen licht is, moet de motor linksom draaien, anders rechtsom
 
 ![Bowtie](EmojiBowtie.png) | Vergeten hoe je een LDR aansluit? Zie les `9. LDR`
 :-------------:|:----------------------------------------:

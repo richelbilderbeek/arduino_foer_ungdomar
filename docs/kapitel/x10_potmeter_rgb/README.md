@@ -7,8 +7,8 @@ Du kan använda denna som till exempel en volymratt.
 
 I den här lektionen kommer du att lära dig:
 
-* Vad en potentiometer är
-* Hur man använder en potentiometer
+- Vad en potentiometer är
+- Hur man använder en potentiometer
 
 ## 10.1 Anslut
 
@@ -38,10 +38,10 @@ void loop()
 
 Detta är vad koden gör:
 
-* Två saker händer i "setup"-funktionen
+- Två saker händer i "setup"-funktionen
     * `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
     * `Serial.begin(9600)`: den seriella monitorn skickar 9600 bitar ('nollor och ettor') per sekund
-* Två saker händer i 'loop'-funktionen
+- Två saker händer i 'loop'-funktionen
     * `Serial.println(analogRead(A0))`: läs stift `A0` och skriv det till seriell monitor
     * `delay(100)`: vänta hundra millisekunder
 
@@ -65,8 +65,8 @@ Nu ansluter vi även en LED:
 
 OBS:
 
-* resistorn på lysdioden är tusen ohm (brun-svart-röd-guld)
-* LED-lampan måste vara på ett stift med PWM ('a wave')
+- resistorn på lysdioden är tusen ohm (brun-svart-röd-guld)
+- LED-lampan måste vara på ett stift med PWM ('a wave')
 
 ## Svara på potentiometern
 
@@ -88,10 +88,10 @@ void loop()
 
 Detta är vad koden gör
 
-* Tre saker händer i "setup"-funktionen:
+- Tre saker händer i "setup"-funktionen:
     * `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
     * `pinMode(9, OUTPUT)`: stift `9` är ett stift där ström kommer ut, en utgång
-* Två saker händer i "loop"-funktionen:
+- Två saker händer i "loop"-funktionen:
     * `analogWrite(9, analogRead(A0) / 8)`: sätt en spänning på stift 9
      `analogRead(A0) / 8`. `analogRead(A0) / 8` betyder: läs värdet från A0
      dividerat med åtta ('/' är en divisionsstapel).
@@ -99,8 +99,8 @@ Detta är vad koden gör
 
 ## 10.6 Uppdrag
 
-* Vad händer om du ändrar divisionsnumret?
-* Vilket är det bästa värdet av talet för division/
+- Vad händer om du ändrar divisionsnumret?
+- Vilket är det bästa värdet av talet för division/
 
 ## 10.7 Lösningar
 
@@ -112,10 +112,10 @@ Detta är vad koden gör
 
 ## 10.8 Slutuppgift
 
-* Anslut fyra lysdioder: en röd, gul, grön och blå
-* Om potentiometern är ända till vänster ska ingen lysdiod lysa.
-* När potentiometern vrids mer åt höger tänds den gröna lysdioden
-* Om potentiometern vrids ännu mer åt höger, tänds den gula lysdioden
-* Om potentiometern vrids ännu mer åt höger, tänds den röda lysdioden
-* Den blå lysdioden lyser långsamt när du svänger mer åt höger
+- Anslut fyra lysdioder: en röd, gul, grön och blå
+- Om potentiometern är ända till vänster ska ingen lysdiod lysa.
+- När potentiometern vrids mer åt höger tänds den gröna lysdioden
+- Om potentiometern vrids ännu mer åt höger, tänds den gula lysdioden
+- Om potentiometern vrids ännu mer åt höger, tänds den röda lysdioden
+- Den blå lysdioden lyser långsamt när du svänger mer åt höger
 

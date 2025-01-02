@@ -19,29 +19,29 @@ Gewoon dit schema nabouwen:
 Merk op: je moet een redelijk nieuwe versie van de Arduino IDE hebben! Anders krijg je
 een foutmelding (`class [iets] not found`).
 
-* In je browser, ga naar [hier](https://github.com/richelbilderbeek/ArduinoCourse/raw/master/Libraries/RFID_1_1_3.zip). Download dit bestand
+- In je browser, ga naar [hier](https://github.com/richelbilderbeek/ArduinoCourse/raw/master/Libraries/RFID_1_1_3.zip). Download dit bestand
 
 ![Download het zip bestand](RFID1_download.png)
 
-* In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand. Deze
+- In de Arduino IDE, kies 'Add library' en dubbelklik op het gedownloade zip bestand. Deze
    kun je vinden in de map 'Downloads'
 
 ![Het zip bestand kiezen](RFID1_add.png)
 
-* Nu verschijnt er een berichtje onderin dat het is gelukt
+- Nu verschijnt er een berichtje onderin dat het is gelukt
 
 ![Gelukt!](RFID1_gelukt.png)
 
-* Nu, in de Arduino IDE, staat er bij de `Voorbeelden`/`Examples` het kopje `RFID_1_1_3`
+- Nu, in de Arduino IDE, staat er bij de `Voorbeelden`/`Examples` het kopje `RFID_1_1_3`
 
 ## Opdracht
 
-* Installeer de RFID bibliotheek. Vraag een volwassenen als je langer dan vijf minuten vast zit
+- Installeer de RFID bibliotheek. Vraag een volwassenen als je langer dan vijf minuten vast zit
 
 ## Eindopdracht
 
-* Upload het voorbeeld `RFID_1_1_3 | dumpInfo` op je Arduino
-* Houd er dan een tag bij. Wat zie je? Welke andere pasjes doen het ook?
+- Upload het voorbeeld `RFID_1_1_3 | dumpInfo` op je Arduino
+- Houd er dan een tag bij. Wat zie je? Welke andere pasjes doen het ook?
 
 ## `dumpinfo`
 
@@ -87,6 +87,6 @@ andere stijl dan wij gebruiken in het boek. Toch is deze code net zo goed.
 
 ## Links
 
-* [Adafruit page about the MiFare card](https://learn.adafruit.com/adafruit-pn532-rfid-nfc/mifare)
-* [MiFare 1k datasheet](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf)
+- [Adafruit page about the MiFare card](https://learn.adafruit.com/adafruit-pn532-rfid-nfc/mifare)
+- [MiFare 1k datasheet](https://www.nxp.com/docs/en/data-sheet/MF1S50YYX_V1.pdf)
 

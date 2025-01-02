@@ -117,12 +117,12 @@ Vad ser du?
 
 Mönstret upprepar:
 
-* lysdioderna i 11 och 12 lyser
-* en sekund händer ingenting
-* lysdioden i 13 lyser, lysdioden i 11 släcker
-* en sekund händer ingenting
-* lysdioden i 12 och i 13 släcker
-* en sekund händer ingenting
+- lysdioderna i 11 och 12 lyser
+- en sekund händer ingenting
+- lysdioden i 13 lyser, lysdioden i 11 släcker
+- en sekund händer ingenting
+- lysdioden i 12 och i 13 släcker
+- en sekund händer ingenting
 
 ## 6.7: Knight Rider mönstret
 
@@ -171,13 +171,13 @@ void loop()
 
 Material som krävs:
 
-* 1 dator
-* 1 Arduino
-* 1 USB sladd
-* 1 kopplingsdäck
-* 3 1.000 Ohm motstånd
-* 3 lysdioder
-* lagom många sladdar
+- 1 dator
+- 1 Arduino
+- 1 USB sladd
+- 1 kopplingsdäck
+- 3 1.000 Ohm motstånd
+- 3 lysdioder
+- lagom många sladdar
 
 På datorn: har koden redo!
 

@@ -11,8 +11,8 @@ Under den här lektionen ska vi mäta en vridmotstånd!
 Vrid vridknappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
-* röda mätpinnen på den vänstra benen av vridmotstånden
-* svarta mätpinnen på den mittna benen av vridmotstånden
+- röda mätpinnen på den vänstra benen av vridmotstånden
+- svarta mätpinnen på den mittna benen av vridmotstånden
 
 1. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet. Vad visar mätningen?
 
@@ -47,8 +47,8 @@ Så här funkar vridmotståndet bra! Mätningar skull vara så här (om inte: fr
 Vrid vridmotstånden på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
-* röda mätpinnen på den vänstra benen av vridmotstånden
-* svarta mätpinnen på den högra benen av vridmotstånden
+- röda mätpinnen på den vänstra benen av vridmotstånden
+- svarta mätpinnen på den högra benen av vridmotstånden
 
 1. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet. Vad visar mätningen?
 
@@ -75,8 +75,8 @@ Så här funkar vridmotståndet inte :-)
 Vrid vridmotstånden på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
-* röda mätpinnen på den mittna benen av vridmotstånden
-* svarta mätpinnen på den högra benen av vridmotstånden
+- röda mätpinnen på den mittna benen av vridmotstånden
+- svarta mätpinnen på den högra benen av vridmotstånden
 
 1. Vridar vridmotstånden till vänster (dws. emot klockan) till slutet. Vad visar mätningen?
 
@@ -110,10 +110,10 @@ Så här funkar vridmotståndet bra på en annat vis.
 
 ![Bild](maetning_av_en_vridmotstaand_4_annotated.png)
 
-* vrida vridmotståndet någonstans in mitten av vridning
-* mäta motstand mellan stift 1 och 2 av vridmotståndet
-* mäta motstand mellan stift 1 och 3 av vridmotståndet
-* mäta motstand mellan stift 2 och 3 av vridmotståndet
+- vrida vridmotståndet någonstans in mitten av vridning
+- mäta motstand mellan stift 1 och 2 av vridmotståndet
+- mäta motstand mellan stift 1 och 3 av vridmotståndet
+- mäta motstand mellan stift 2 och 3 av vridmotståndet
 
 Vilka mätningar får du? Kan du hitta nån monster i mätningen?
 Vridar motstandet igen för att kontrollera dig själva!
@@ -140,8 +140,8 @@ Nedåt finns fler exampler:
 
 Hämta:
 
-* 1 st multimeter
-* 1 st vridmotstånd
+- 1 st multimeter
+- 1 st vridmotstånd
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 

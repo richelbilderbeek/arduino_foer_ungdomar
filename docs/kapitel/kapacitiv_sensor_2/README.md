@@ -244,5 +244,5 @@ void loop()
 
 ## Eindopdracht
 
-* Laat het brandende LEDje nu de andere kant op lopen met de linker knop
+- Laat het brandende LEDje nu de andere kant op lopen met de linker knop
 

@@ -297,13 +297,13 @@ släcker lysdioden så länge du håller en av båda intryckt.
 
 Försammla:
 
-* 1 dator
-* 1 Arduino
-* 1 USB sladd
-* 1 kopplingsdäck
-* 3 1.000 Ohm motstånd
-* 3 lysdiod
-* tillräckligt mycket sladdar
+- 1 dator
+- 1 Arduino
+- 1 USB sladd
+- 1 kopplingsdäck
+- 3 1.000 Ohm motstånd
+- 3 lysdiod
+- tillräckligt mycket sladdar
 
 På dator: har redo koden!
 
@@ -317,8 +317,8 @@ Start en timer och gör följande:
 
 3. Fråga examinerare hur lysdiod skulle reagera och programmera detta. Examinerare får väljer en av den här:
 
-* På början lyser lysdioden inte. Om du du trycker på vänsterknappen, lyser lysdioden för evigt. Om du du trycker på högerknappen, släcker lysdioden för evigt.
-* På början lyser lysdioden inte. Om du du trycker på båda knappor, lyser lysdioden så länge du håller båda intryckt.
-* På början lyser lysdioden. Om du du trycker på en av båda knappor, släcker lysdioden så länge du håller en av båda intryckt.
-* På början lyser lysdioden inte. Om du du trycker på en av båda knappor, lyser lysdioden så länge du håller en av båda intryckt.
+- På början lyser lysdioden inte. Om du du trycker på vänsterknappen, lyser lysdioden för evigt. Om du du trycker på högerknappen, släcker lysdioden för evigt.
+- På början lyser lysdioden inte. Om du du trycker på båda knappor, lyser lysdioden så länge du håller båda intryckt.
+- På början lyser lysdioden. Om du du trycker på en av båda knappor, släcker lysdioden så länge du håller en av båda intryckt.
+- På början lyser lysdioden inte. Om du du trycker på en av båda knappor, lyser lysdioden så länge du håller en av båda intryckt.
 

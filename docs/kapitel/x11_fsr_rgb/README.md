@@ -347,12 +347,12 @@ void loop()
 
 ## Einorder
 
-* Anslut fyra lysdioder: en vit, en röd, en gul och en grön
-* När FSR är i vila ska ingen lysdiod lysa.
-* När du trycker lätt på FSR tänds den gröna lysdioden
-* Om du trycker hårdare på FSR kommer de gröna och gula lysdioderna att tändas
-* När du trycker hårt på FSR tänds de gröna, gula och röda lysdioderna
-* Den vita lysdioden lyser starkare och mjukare beroende på FSR
+- Anslut fyra lysdioder: en vit, en röd, en gul och en grön
+- När FSR är i vila ska ingen lysdiod lysa.
+- När du trycker lätt på FSR tänds den gröna lysdioden
+- Om du trycker hårdare på FSR kommer de gröna och gula lysdioderna att tändas
+- När du trycker hårt på FSR tänds de gröna, gula och röda lysdioderna
+- Den vita lysdioden lyser starkare och mjukare beroende på FSR
 
 Om du inte har en vit LED, använd en annan färg.
 

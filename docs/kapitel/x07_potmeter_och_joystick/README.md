@@ -23,13 +23,13 @@ Höger ben     | GND
 
 ## 7.3 Potentiometer: start, uppgift
 
-* I `setup` startar den seriella monitorn vid 9600 baud
-* Skapa en variabel `vantetid` med ett värde på 100
-* Skapa en funktion `vanta_lite` som programmerar 'väntetid' i millisekunder
+- I `setup` startar den seriella monitorn vid 9600 baud
+- Skapa en variabel `vantetid` med ett värde på 100
+- Skapa en funktion `vanta_lite` som programmerar 'väntetid' i millisekunder
    sen väntan
-* Skapa en funktion `visar_potmeter`, som tar ordet `potentiometer` till
+- Skapa en funktion `visar_potmeter`, som tar ordet `potentiometer` till
    seriella monitorkontroller
-* I `loop`, använd `visar_potmeter` och `vanta_lite`
+- I `loop`, använd `visar_potmeter` och `vanta_lite`
 
 \pagebreak
 
@@ -64,9 +64,9 @@ void loop()
 
 ## 7.5 Potentiometer: läs, uppgift
 
-* Skapa en variabel `potmeter_stift` med värdet `A0`.
-* I `setup`, ställ in `pinMode` för `potmeter_stift` till `INPUT`.
-* Lägg till denna funktion:
+- Skapa en variabel `potmeter_stift` med värdet `A0`.
+- I `setup`, ställ in `pinMode` för `potmeter_stift` till `INPUT`.
+- Lägg till denna funktion:
 
 ```
 int lasa_potmeter()
@@ -75,8 +75,8 @@ int lasa_potmeter()
 }
 ```
 
-* I `visar_potmeter` ersätt texten `"potentiometer"` med `lasa_potmeter()`
-* Ladda upp programmet och vrid potentiometern. Vilka siffror kommer ut?
+- I `visar_potmeter` ersätt texten `"potentiometer"` med `lasa_potmeter()`
+- Ladda upp programmet och vrid potentiometern. Vilka siffror kommer ut?
 
 \pagebreak
 
@@ -109,16 +109,16 @@ Siffrorna som kommer från `lasa_potmeter` är mellan noll och 1024.
 
 ## 7.7 Potentiometer: styrning, uppgift
 
-* Anslut en LED till stift 11
-* Skapa en variabel 'led_stift' med rätt värde
-* I "setup", ställ in "pinMode" för "led_stift" till "OUTPUT".
-* I `visar_potmeter` lägg till denna rad:
+- Anslut en LED till stift 11
+- Skapa en variabel 'led_stift' med rätt värde
+- I "setup", ställ in "pinMode" för "led_stift" till "OUTPUT".
+- I `visar_potmeter` lägg till denna rad:
 
 ```c++
 analogWrite(led_stift, lasa_potmeter());
 ```
 
-* Ladda upp och vrid potentiometern. Vad ser du?
+- Ladda upp och vrid potentiometern. Vad ser du?
 
 \pagebreak
 
@@ -148,7 +148,7 @@ sätter på.
 
 ## 7.9 Potentiometer: bra styrning, uppgift
 
-* Ändra följande kod...
+- Ändra följande kod...
 
 ```c++
 analogWrite(led_stift, lasa_potmeter());
@@ -160,24 +160,24 @@ analogWrite(led_stift, lasa_potmeter());
 analogWrite(led_stift, lasa_potmeter() / 4);
 ```
 
-* Vad ser du?
-* Vad tror du att `/` betyder? Tips: var ser du sådana här ränder?
+- Vad ser du?
+- Vad tror du att `/` betyder? Tips: var ser du sådana här ränder?
    i matte?
 
 \pagebreak
 
 ## 7.10 Potentiometer: bra styrning, lösning
 
-* Du kan se att LEDen nu går från av till tänd när du slår på
+- Du kan se att LEDen nu går från av till tänd när du slår på
    potentiometern vrider sig
-* `/` betyder "delat med". Detta är samma indelningslinje som med
+- `/` betyder "delat med". Detta är samma indelningslinje som med
    bråk och procent!
 
 \pagebreak
 
 ## 7.11 Potentiometer: anslut joystick, uppgift
 
-* Byt ut potentiometern mot en joystick. Gör följande anslutningar:
+- Byt ut potentiometern mot en joystick. Gör följande anslutningar:
 
 Joystick | Arduino
 ---------|--------
@@ -186,7 +186,7 @@ V        | A0
 H        | A1
 GND      | GND
 
-* Om du har anslutit denna rätt kan du nu styra LEDen med joysticken
+- Om du har anslutit denna rätt kan du nu styra LEDen med joysticken
 
 \pagebreak
 
@@ -240,7 +240,7 @@ void loop()
 
 ## 7.12 Potentiometer: slutuppgift
 
-* Anslut en andra LED
-* Denna andra LED ska reagera som den första LEDen, men som
+- Anslut en andra LED
+- Denna andra LED ska reagera som den första LEDen, men som
    joysticken flyttas horisontellt
 

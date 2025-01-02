@@ -39,8 +39,8 @@ void loop() {
 
 ### Opdrachten
 
-* Sluit een LCD scherm aan, zoals in de vorige les
-* Voer de bovenstaande code in.
+- Sluit een LCD scherm aan, zoals in de vorige les
+- Voer de bovenstaande code in.
     * Wat zie je?
     * Wat betekent `#include <LiquidCrystal.h>`? Tip: haal deze regel maar eens weg
     * Wat betekent `byte`? Tip: wat is een bit? Hoe noem je acht bits?
@@ -96,15 +96,15 @@ void loop() {
 
 ### Opdrachten
 
-* Sluit een LCD scherm aan, zoals in de vorige les
-* Upload de bovenstaande code
+- Sluit een LCD scherm aan, zoals in de vorige les
+- Upload de bovenstaande code
     * Wat zie je?
     * Wat betekent `++kolom`? Tip: haal deze regel maar eens weg
     * Wat betekent `if (kolom == 17) kolom = 0`? Tip: haal deze regel maar eens weg
     * Wat betekent `lcd.clear()`? Tip 1: haal deze regel maar eens weg. Tip 2: Wat betekent het Engelse woord 'clear'?
     * Wat gebeurt er als ik `if (kolom == 17) kolom = 0` verander naar `if (kolom == 9) kolom = 0`? Doen!
     * Wat gebeurt er als ik `if (kolom == 17) kolom = 0` verander naar `if (kolom == 17) kolom = 9`? Doen!
-* Laat nu de smiley naar rechts en omlaag gaan! Dit ziet er hetzelfde uit als dat de X op en neer gaat op een schermpje met twee rijen
+- Laat nu de smiley naar rechts en omlaag gaan! Dit ziet er hetzelfde uit als dat de X op en neer gaat op een schermpje met twee rijen
 
 ```
 1*3*5*7*9*1*3*

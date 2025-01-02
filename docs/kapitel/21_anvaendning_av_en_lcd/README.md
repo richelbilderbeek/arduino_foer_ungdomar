@@ -123,16 +123,16 @@ Detta gör att du kan få dina egna figurer på skärmen.
 
 ## Övningar
 
-* Anslut en LCD
-* Sätt programmet "Hello World" på Arduino
-* Vad gör `LiquidCrystal lcd(12, 11, 5, 4, 3, 2)`? Tips: vilka stift går dina ledningar till?
-* Vad gör `lcd.begin(16, 2)`? Tips: hur många rektanglar finns det på din LCD-skärm?
-* Vad gör `lcd.print("hej, värld!")`? Tips: prova `lcd.print("Edge is top")`
-* Vad gör `lcd.setCursor(0, 1)`? Tips: ställ in den första siffran till '1', ställ in den andra siffran på '0'
-* Vad gör `lcd.print(millis()/1000)`? Tips: prova `lcd.print(millis())`
-* Skapa en fin text själv
-* Sätt programmet "CustomCharacter" på Arduino
-* Ta en ordentlig titt på nollorna och ettorna i 'byte heart'. 'heart' är engelska för 'hjärta'. Vad betyder dessa nollor och ettor?
-* Vad gör `lcd.createChar(1, heart)`? Tips: detta fungerar tillsammans med `lcd.write(1)`
-* Vad gör `lcd.createChar(2, smiley)`? Tips: detta fungerar tillsammans med `lcd.write(2)`
-* Gör något roligt själv med din egen figur
+- Anslut en LCD
+- Sätt programmet "Hello World" på Arduino
+- Vad gör `LiquidCrystal lcd(12, 11, 5, 4, 3, 2)`? Tips: vilka stift går dina ledningar till?
+- Vad gör `lcd.begin(16, 2)`? Tips: hur många rektanglar finns det på din LCD-skärm?
+- Vad gör `lcd.print("hej, värld!")`? Tips: prova `lcd.print("Edge is top")`
+- Vad gör `lcd.setCursor(0, 1)`? Tips: ställ in den första siffran till '1', ställ in den andra siffran på '0'
+- Vad gör `lcd.print(millis()/1000)`? Tips: prova `lcd.print(millis())`
+- Skapa en fin text själv
+- Sätt programmet "CustomCharacter" på Arduino
+- Ta en ordentlig titt på nollorna och ettorna i 'byte heart'. 'heart' är engelska för 'hjärta'. Vad betyder dessa nollor och ettor?
+- Vad gör `lcd.createChar(1, heart)`? Tips: detta fungerar tillsammans med `lcd.write(1)`
+- Vad gör `lcd.createChar(2, smiley)`? Tips: detta fungerar tillsammans med `lcd.write(2)`
+- Gör något roligt själv med din egen figur

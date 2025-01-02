@@ -12,10 +12,10 @@ Bygg up den här kretsen:
 
 Programmerar:
 
-* en `const` variabel `microfon_stift` på riktigt stift
-* att få värd av potmetern med `analogRead`
-* att skrivar värd av potmetern till Serial Monitor
-* vänta 100 millisecond varje `loop`
+- en `const` variabel `microfon_stift` på riktigt stift
+- att få värd av potmetern med `analogRead`
+- att skrivar värd av potmetern till Serial Monitor
+- vänta 100 millisecond varje `loop`
 
 Kollar på Serial Monitor eller Serial Plotter:
 

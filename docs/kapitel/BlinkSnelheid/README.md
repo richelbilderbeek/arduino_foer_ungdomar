@@ -7,13 +7,13 @@ Meet met een oscilloscoop de snelheid
 
 ## Vragen
 
-* Waarom heb je een oscilloscoop nodig?
-* Maakt het gebruik van `const` uit? Is `#define` sneller ja/nee?
-* Wat is de snelste versie die je kunt maken?
+- Waarom heb je een oscilloscoop nodig?
+- Maakt het gebruik van `const` uit? Is `#define` sneller ja/nee?
+- Wat is de snelste versie die je kunt maken?
 
 Als je dit hebt geprobeerd, kijk dan hieronder bij de antwoorden.
 
-* Welke truuks worden er gedaan?
+- Welke truuks worden er gedaan?
 
 ## Antwoorden
 

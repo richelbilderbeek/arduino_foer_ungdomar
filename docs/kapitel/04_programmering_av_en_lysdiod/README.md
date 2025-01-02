@@ -237,13 +237,13 @@ void loop()
 
 Material som krävs:
 
-* 1 dator
-* 1 Arduino
-* 1 USB sladd
-* 1 kopplingsdäck
-* 1 1.000 Ohm motstånd
-* 1 lysdiod
-* 3 sladdar
+- 1 dator
+- 1 Arduino
+- 1 USB sladd
+- 1 kopplingsdäck
+- 1 1.000 Ohm motstånd
+- 1 lysdiod
+- 3 sladdar
 
 På dator: har koden redo!
 

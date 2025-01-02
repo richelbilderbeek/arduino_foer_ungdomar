@@ -7,8 +7,8 @@ Deze kun je gebruiken als bijvoorbeeld een volumeknop.
 
 In deze les leer je:
 
-* Wat een potmeter is
-* Hoe je een potmeter gebruikt
+- Wat een potmeter is
+- Hoe je een potmeter gebruikt
 
 ## Aansluiten
 
@@ -38,10 +38,10 @@ void loop()
 
 Dit doet de code:
 
-* In de `setup` functie gebeuren twee dingen
+- In de `setup` functie gebeuren twee dingen
     * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
     * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
-* In de `loop` functie gebeuren twee dingen
+- In de `loop` functie gebeuren twee dingen
     * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
     * `delay(100)`: wacht honderd milliseconden
 
@@ -65,8 +65,8 @@ Nu sluiten we ook een LED aan:
 
 Let op:
 
-* het weerstandje aan de LED is duizend Ohm (bruin-zwart-rood-goud)
-* het LEDje moet op een pin met PWM ('een golfje')
+- het weerstandje aan de LED is duizend Ohm (bruin-zwart-rood-goud)
+- het LEDje moet op een pin met PWM ('een golfje')
 
 ## Reageren op potmeter
 
@@ -88,10 +88,10 @@ void loop()
 
 Dit doet de code
 
-* In de `setup` functie gebeuren drie dingen:
+- In de `setup` functie gebeuren drie dingen:
     * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
     * `pinMode(9, OUTPUT)`: pin `9` is een pin waar stroom uitkomt, een output
-* In de `loop` functie gebeuren twee dingen:
+- In de `loop` functie gebeuren twee dingen:
     * `analogWrite(9, analogRead(A0) / 8)`: zet op pin 9 een spanning van
      `analogRead(A0) / 8`. `analogRead(A0) / 8` betekent: de waarde gelezen van A0
      gedeeld door acht (de `/` is een deelstreep).
@@ -99,8 +99,8 @@ Dit doet de code
 
 ## Opdracht
 
-* Wat gebeurt er als je het getal van de deling verandert?
-* Wat is de beste waarde van het getal voor de deling/
+- Wat gebeurt er als je het getal van de deling verandert?
+- Wat is de beste waarde van het getal voor de deling/
 
 ## Oplossingen
 
@@ -112,9 +112,9 @@ Dit doet de code
 
 ## Eindopdracht
 
-* Sluit vier LEDjes aan: een rode, gele, groene en blauwe
-* Als de potmeter helemaal naar links is, moet er geen LEDje branden.
-* Als de potmeter meer naar rechts gedraaid wordt, gaat het groene LEDje branden
-* Als de potmeter nog meer naar rechts gedraaid wordt, gaat het gele LEDje branden
-* Als de potmeter nog meer naar rechts gedraaid wordt, gaat het rode LEDje branden
-* De blauwe LED gaat langzaam aan als er meer naar rechts gedraaid wordt
+- Sluit vier LEDjes aan: een rode, gele, groene en blauwe
+- Als de potmeter helemaal naar links is, moet er geen LEDje branden.
+- Als de potmeter meer naar rechts gedraaid wordt, gaat het groene LEDje branden
+- Als de potmeter nog meer naar rechts gedraaid wordt, gaat het gele LEDje branden
+- Als de potmeter nog meer naar rechts gedraaid wordt, gaat het rode LEDje branden
+- De blauwe LED gaat langzaam aan als er meer naar rechts gedraaid wordt

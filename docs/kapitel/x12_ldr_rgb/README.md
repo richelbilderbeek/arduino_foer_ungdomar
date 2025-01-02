@@ -224,11 +224,11 @@ void loop()
 
 ## 12.15 Slutuppgift
 
-* Anslut tre lysdioder: en röd, gul och grön
-* När LDR är i ljuset ska ingen lysdiod lysa.
-* Om du mörkar LDR en aning kommer den gröna lysdioden att lysa
-* Om du gör LDR mörkare mer kommer de gröna och gula lysdioderna att lysa
-* Om du gör LDR helt mörkare kommer alla lysdioder att lysa
+- Anslut tre lysdioder: en röd, gul och grön
+- När LDR är i ljuset ska ingen lysdiod lysa.
+- Om du mörkar LDR en aning kommer den gröna lysdioden att lysa
+- Om du gör LDR mörkare mer kommer de gröna och gula lysdioderna att lysa
+- Om du gör LDR helt mörkare kommer alla lysdioder att lysa
 
 ![LDR final assignment](12_ldr_rgb_slutuppgift.png)
 

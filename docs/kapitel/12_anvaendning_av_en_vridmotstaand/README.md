@@ -227,14 +227,14 @@ Det gäller för högra vridmotståndet och lysdioden också.
 
 Försammla:
 
-* 1 dator
-* 1 Arduino
-* 1 USB sladd
-* 1 kopplingsdäck
-* 2 1.000 Ohm motstånd
-* 2 lysdiod
-* 2 vridmotstånd
-* tillräckligt mycket sladdar
+- 1 dator
+- 1 Arduino
+- 1 USB sladd
+- 1 kopplingsdäck
+- 2 1.000 Ohm motstånd
+- 2 lysdiod
+- 2 vridmotstånd
+- tillräckligt mycket sladdar
 
 På dator: har redo koden!
 

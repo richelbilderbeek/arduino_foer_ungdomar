@@ -39,11 +39,11 @@ Glöm inte: mottagare skulle ha en löstagbar chip!
 
 > Bränna bootloader
 
-* I Arduino IDE, sätter 'Programmer' till 'Arduino as ISP'
-* Klick 'Burn Bootloader'
+- I Arduino IDE, sätter 'Programmer' till 'Arduino as ISP'
+- Klick 'Burn Bootloader'
 
 På botten skulle kommer ingen felmeldning.
 
 ## Länker
 
-* [https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP)
+- [https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP)

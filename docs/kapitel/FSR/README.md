@@ -347,12 +347,12 @@ void loop()
 
 ## Eindopdracht
 
-* Sluit vier LEDjes aan: een witte, een rode, een gele en een groene
-* Als de FSR in rust is, moet er geen LEDje branden.
-* Als je de FSR zacht indrukt gaat het groene LEDje branden
-* Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
-* Als je de FSR hard indrukt gaan de groene, gele en rode LEDjes branden
-* Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
+- Sluit vier LEDjes aan: een witte, een rode, een gele en een groene
+- Als de FSR in rust is, moet er geen LEDje branden.
+- Als je de FSR zacht indrukt gaat het groene LEDje branden
+- Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
+- Als je de FSR hard indrukt gaan de groene, gele en rode LEDjes branden
+- Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
 
 Als je geen wit LEDje hebt, gebruik dan een andere kleur.
 

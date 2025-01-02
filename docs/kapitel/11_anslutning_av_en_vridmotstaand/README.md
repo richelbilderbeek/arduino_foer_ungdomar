@@ -8,9 +8,9 @@ Bygg den här kretsen:
 
 ![Bild](anslutning_av_en_vridmotstaand_1.png)
 
-* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
-* Montera kretsen enligt bild
-* Sätt tillbaka USB-kabeln i datorn
+- Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+- Montera kretsen enligt bild
+- Sätt tillbaka USB-kabeln i datorn
 
 ![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
@@ -172,14 +172,14 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Försammla:
 
-* 1 dator
-* 1 Arduino
-* 1 USB sladd
-* 1 kopplingsdäck
-* 2 vridmotstånd
-* 1 1.000 Ohm motstånd
-* 1 lysdiod
-* tillräckligt mycket sladdar
+- 1 dator
+- 1 Arduino
+- 1 USB sladd
+- 1 kopplingsdäck
+- 2 vridmotstånd
+- 1 1.000 Ohm motstånd
+- 1 lysdiod
+- tillräckligt mycket sladdar
 
 1. Fråga någon för att examinera. Den där person får inte hjälpa dig.
 

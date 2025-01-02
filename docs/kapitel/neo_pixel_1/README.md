@@ -79,14 +79,14 @@ Skriv in koden i Arduino IDE och klicka på "Ladda upp".
 
 Blinkar nu
 
-* den första lysdioden: en Arduino börjar räkna från noll
-* i rött: d.v.s. med ett roed_vaerde på 64, grönt värde på 0 och ett blaa_vaerde på 0
+- den första lysdioden: en Arduino börjar räkna från noll
+- i rött: d.v.s. med ett roed_vaerde på 64, grönt värde på 0 och ett blaa_vaerde på 0
 
 Gå nu
 
-* den andra lysdioden
-* grön
-* blinka växelvis
+- den andra lysdioden
+- grön
+- blinka växelvis
 
 \pagebreak
 
@@ -128,9 +128,9 @@ void loop()
 
 Gå nu
 
-* den tredje lysdioden
+- den tredje lysdioden
   *blått
-* blinkar växelvis, efter rött och grönt
+- blinkar växelvis, efter rött och grönt
 
 \pagebreak
 

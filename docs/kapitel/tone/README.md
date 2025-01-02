@@ -98,12 +98,12 @@ void loop()
 
 We gaan nu muziek maken! Programmeer het volgende liedje:
 
-* De eerste toon is 131 Herz
-* De tweede toon is 147 Herz
-* De derde toon is 165 Herz
-* De vierde toon is 131 Herz
-* Alle tonen duren 400 milliseconden
-* Na elke toon is er 100 milliseconden stilte
+- De eerste toon is 131 Herz
+- De tweede toon is 147 Herz
+- De derde toon is 165 Herz
+- De vierde toon is 131 Herz
+- Alle tonen duren 400 milliseconden
+- Na elke toon is er 100 milliseconden stilte
 
 ![Sunglasses](EmojiSunglasses.png) | De toonhoogtes die hier gebruikt worden, zitten ook op een piano
 :-------------:|:----------------------------------------:
@@ -134,9 +134,9 @@ void loop()
 
 Maak het liedje iets verder af. Er komen drie tonen bij:
 
-* De vijfde toon is 165 Herz
-* De zesde toon is 175 Herz
-* De zevende toon is 196 Herz
-* Ook de vijfde en zesde toon duren 400 milliseconden
-* De zevende toon duurt 900 milliseconden
-* Na elke toon is er 100 milliseconden stilte
+- De vijfde toon is 165 Herz
+- De zesde toon is 175 Herz
+- De zevende toon is 196 Herz
+- Ook de vijfde en zesde toon duren 400 milliseconden
+- De zevende toon duurt 900 milliseconden
+- Na elke toon is er 100 milliseconden stilte

@@ -26,8 +26,8 @@ Anslut en USB-kabel till din Arduino och till din dator.
 
 Starta Arduino IDE genom att:
 
-* Klicka på genvägen på skrivbordet
-* Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Skriv
+- Klicka på genvägen på skrivbordet
+- Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Skriv
    sedan `arduino` (små bokstäver) och tryck sedan Enter
 
 ![Logotyp för Arduino IDE](anvaendning_av_den_inbyggda_lysdioden_ide_logo.png)
@@ -166,9 +166,9 @@ Du kommer inte längre att kunna se lampan blinka.
 
 Hämta:
 
-* 1 st dator
-* 1 st USB sladd
-* 1 st Arduino
+- 1 st dator
+- 1 st USB sladd
+- 1 st Arduino
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 

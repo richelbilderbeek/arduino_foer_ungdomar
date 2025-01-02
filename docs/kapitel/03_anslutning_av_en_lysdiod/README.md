@@ -24,9 +24,9 @@ Vilka av hålen är sammanlänkade?
 
 ### 3.1. Svar
 
-* 1 är sammanlänkat med 2
-* 3 är sammanlänkat med 4
-* 5 är ensamt
+- 1 är sammanlänkat med 2
+- 3 är sammanlänkat med 4
+- 5 är ensamt
 
 ## 3.2. Anslut motstånden och lysdioden
 
@@ -40,9 +40,9 @@ Det finns sex färgade hål. Vilka av dem är sammanlänkade?
 
 ### 3.2. Svar
 
-* rött är sammanlänkat med orange
-* gult är sammanlänkat med grönt
-* blått är sammanlänkat med lila
+- rött är sammanlänkat med orange
+- gult är sammanlänkat med grönt
+- blått är sammanlänkat med lila
 
 ## 3.3. Anslut motstånden och lysdioden
 
@@ -50,8 +50,8 @@ Nu är det dags att bygga kretsen på riktigt:
 
 ![Bild](anslutning_av_en_lysdiod_1.png)
 
-* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
-* Montera kretsen enligt bild:
+- Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+- Montera kretsen enligt bild:
     * Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster
      i kopplingsdäcket
     * Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden i kopplingsdäcket.
@@ -64,7 +64,7 @@ Nu är det dags att bygga kretsen på riktigt:
      Det ska finnas tre tomma hål mellan båda sidorna av motstånden i kopplingsdäcket.
     * Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
      till GND-hålet i Arduino
-* Sätt tillbaka USB-kabeln i datorn
+- Sätt tillbaka USB-kabeln i datorn
 
 ![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:

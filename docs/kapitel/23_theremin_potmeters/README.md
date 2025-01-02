@@ -8,8 +8,8 @@ In deze les gaan we een theremin met potmeters maken.
 
 ## 21.1: opdracht: aansluiten piezo
 
-* Sluit een piezo aan op pin 5.
-* Gebruik een weerstand van tienduizend Ohm,
+- Sluit een piezo aan op pin 5.
+- Gebruik een weerstand van tienduizend Ohm,
    kleurcode: bruin-zwart-oranje-goud
 
 \pagebreak
@@ -148,14 +148,14 @@ void loop()
 
 ## 21.6: eindopdracht
 
-* Sluit een tweede potmeter aan op A1.
-* Gebruik:
+- Sluit een tweede potmeter aan op A1.
+- Gebruik:
 
 ```c++
 const int input_volume = /* lees de waarde van A1 */;
 ```
 
-* Gebruik:
+- Gebruik:
 
 ```c++
 const int volume = 1.0 * pow(2.0, 0.0078125 * input_volume);

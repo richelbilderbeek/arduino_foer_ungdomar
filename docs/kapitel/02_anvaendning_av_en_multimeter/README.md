@@ -59,8 +59,8 @@ Det har ränder i brunt, svart, röd och guld, i den ordningen.
 
 Sätt på multimetern och koppla:
 
-* röda mätpinnen till motståndet på sidan med en brunt rand
-* svarta mätpinnen till andra sidan av motståndet
+- röda mätpinnen till motståndet på sidan med en brunt rand
+- svarta mätpinnen till andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -78,8 +78,8 @@ Motstånd är inte perfekta, så det stämmer!
 
 Vänd på motståndet och mät motståndet igen:
 
-* röda mätpinnen på sidan med guldrand på motståndet
-* svarta mätpinnen på andra sidan av motståndet
+- röda mätpinnen på sidan med guldrand på motståndet
+- svarta mätpinnen på andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -102,8 +102,8 @@ Det har ränder i brunt, svart, **orange** och guld, i den ordningen.
 
 Sätt på multimetern och koppla:
 
-* röda mätpinnen till motståndet, på sidan med brun rand
-* svarta mätpinnen till andra sidan av motståndet
+- röda mätpinnen till motståndet, på sidan med brun rand
+- svarta mätpinnen till andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -123,8 +123,8 @@ Motstånd är inte perfekta, så det stämmer!
 
 Vänd på motståndet och mät motståndet igen:
 
-* röda mätpinnen på motståndet, på sidan med guldigt band
-* svarta mätpinnen på andra sidan av motståndet
+- röda mätpinnen på motståndet, på sidan med guldigt band
+- svarta mätpinnen på andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -146,8 +146,8 @@ Leta efter en lysdiod.
 
 Sätt på multimetern och koppla:
 
-* röda mätpinnen på det långa benet på lysdioden
-* svarta mätpinnen på det andra benet
+- röda mätpinnen på det långa benet på lysdioden
+- svarta mätpinnen på det andra benet
 
 Vad visar mätningen? Lyser lysdioden litegrann?
 
@@ -169,8 +169,8 @@ Det är möjligt att lysdioden lyser litegrann!
 
 Vänd på lysdioden och mät motståndet igen:
 
-* röda mätpinnen på det kortare benet på lysdioden
-* svarta mätpinnen på det andra benet
+- röda mätpinnen på det kortare benet på lysdioden
+- svarta mätpinnen på det andra benet
 
 Vad visar mätningen? Lyser lysdioden litegrann?
 
@@ -189,11 +189,11 @@ Lysdioden lyser inte.
 
 Hämta:
 
-* 1 st multimeter
-* 1 st 1000 Ohms motstånd
-* 1 st 10 000 Ohms motstånd
-* 1 st slumpmässigt motstånd
-* 1 st lysdiod
+- 1 st multimeter
+- 1 st 1000 Ohms motstånd
+- 1 st 10 000 Ohms motstånd
+- 1 st slumpmässigt motstånd
+- 1 st lysdiod
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 

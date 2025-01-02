@@ -32,8 +32,8 @@ Koppla in Arduino.
 
 Starta Arduino IDE genom att:
 
-* Klicka på genvägen på skrivbordet
-* Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Typ
+- Klicka på genvägen på skrivbordet
+- Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Typ
    sedan `arduino` (små bokstäver) och sedan Enter
 
 ![Logotyp för Arduino IDE](1_blink_ide_logo.png)
@@ -178,10 +178,10 @@ Nu är det dags att bygga kretsen till Blink:
 
 ![Blink](1_blink.png)
 
-* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
-* Montera Blinkkretsen enligt bild
-* Montera tillbaka USB kabel till datorn
-* Om allt är bra kommer nu den röda LED att blinka tillsammans med LEDen på Arduinon.
+- Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+- Montera Blinkkretsen enligt bild
+- Montera tillbaka USB kabel till datorn
+- Om allt är bra kommer nu den röda LED att blinka tillsammans med LEDen på Arduinon.
 
 ![Bild](EmojiBowtie.png) | Om LEDen inte lyser, vänd på den
 :-------------:|:----------------------------------------:

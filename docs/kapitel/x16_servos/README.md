@@ -99,7 +99,7 @@ void loop()
 
 ### 16.2.3 Uppgift 1
 
-* Justera koden så att servo rör sig perfekt
+- Justera koden så att servo rör sig perfekt
 
 \pagebreak
 
@@ -107,8 +107,8 @@ void loop()
 
 Samma kod, förutom:
 
-* 45:an har ersatts av servos minimivärde
-* 135:an har ersatts av servos maximala värde
+- 45:an har ersatts av servos minimivärde
+- 135:an har ersatts av servos maximala värde
 
 ## 16.3 Batteridrivna servomotorer med knapp
 

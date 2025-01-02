@@ -29,14 +29,14 @@ lees dan section 8 van de datasheet, hier staat alles wat je zou willen weten ov
 
 ## Opdracht
 
-* Zet je naam op een RFID chip
+- Zet je naam op een RFID chip
 
 ## Eindopdracht
 
-* Maak twee RFID passen met verschillende namen
-* Als de eene pas herkent wordt, gaat een groen LEDje branden
-* Als elke andere pas herkent wordt, gaat een rood LEDje branden
+- Maak twee RFID passen met verschillende namen
+- Als de eene pas herkent wordt, gaat een groen LEDje branden
+- Als elke andere pas herkent wordt, gaat een rood LEDje branden
 
 ## Links
 
-* [Adafruit page about the MiFare card](https://learn.adafruit.com/adafruit-pn532-rfid-nfc/mifare)
+- [Adafruit page about the MiFare card](https://learn.adafruit.com/adafruit-pn532-rfid-nfc/mifare)

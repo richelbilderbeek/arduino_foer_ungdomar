@@ -2,7 +2,7 @@
 
 Deze les leren we
 
-* hoe je een autootje maakt die dingen ontwijkt
+- hoe je een autootje maakt die dingen ontwijkt
 
 ## Waarschuwing
 
@@ -115,6 +115,6 @@ Upload de code van 'Blink' op de Arduino.
 
 ![Eindopdracht](8_isooo_compleet.png)
 
-* Maak de schakeling af, volgens figuur 'Eindopdracht'
-* Programmeer de code zelf: als er niks voor de sensor zit, moet de auto vooruit gaan. Anders moet de auto draaien
+- Maak de schakeling af, volgens figuur 'Eindopdracht'
+- Programmeer de code zelf: als er niks voor de sensor zit, moet de auto vooruit gaan. Anders moet de auto draaien
 

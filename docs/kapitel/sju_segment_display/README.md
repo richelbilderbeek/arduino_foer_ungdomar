@@ -50,5 +50,5 @@ void setup()
 
 ## Opdracht
 
-* Probeer een cijfer of letter te maken.
-* Als dat lukt, laat het display dan tellen of woorden maken
+- Probeer een cijfer of letter te maken.
+- Als dat lukt, laat het display dan tellen of woorden maken
