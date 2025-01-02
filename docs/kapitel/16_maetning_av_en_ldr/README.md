@@ -12,19 +12,29 @@ Sätt på multimetern och koppla:
 - röda mätpinnen på den vänstra benen av LDRen
 - svarta mätpinnen på den högra benen av LDRen
 
-- Mätning 1: Vad visar mätningen?
-- Mätning 2: Hålla LDRen nära en lampa. Vad visar mätningen?
-- Mätning 3: Ta bort ljuset till LDRen med, t.ex. din hand. Vad visar mätningen?
+Vad visar mätningen?
 
 ### 16.1. Svar
 
-Så här funkar LDRet bra! Mätningar skull vara så här (om inte: fråga hjälp!):
+Multimetern visar en motstånd för vanligt ljus (om inte: fråga hjälp!).
 
-- Mätning 1: multimetern visar en motstånd för vanligt ljus
-- Mätning 2: I ljuset har en LDR högsta motstånd
-- Mätning 3: I mörkret har en LDR högsta motstånd
+## 16.2. Att mäta en LDR med en multimeter
 
-## 16.2. Att mäta en LDR med en skop
+Hålla LDRen nära en lampa. Vad visar mätningen?
+
+### 16.2. Svar
+
+I ljuset har en LDR högsta motstånd
+
+## 16.3. Att mäta en LDR med en multimeter
+
+Ta bort ljuset till LDRen med, t.ex. din hand. Vad visar mätningen?
+
+### 16.3. Svar
+
+I mörkret har en LDR högsta motstånd
+
+## 16.4. Att mäta en LDR med en skop
 
 Bygga elkretsen nadåt: 
 
@@ -32,27 +42,37 @@ Bygga elkretsen nadåt:
 
 Röda proben gå till en oscilloskop.
 
-Av skopen:
+På skopen gör:
 
 - Sätt tidskalan till 1 sekund
 - Sätt spänningsskalan till 2 volts
 
-Nu är det dags att mäta:
+Vilken spänning visar skopen?
 
-- Mätning 1: Vilken spänning visar skopen?
-- Mätning 2: Hålla LDRen nära en lampa.
-  Vilken spänning visar skopen nu?
-- Mätning 3: Ta bort ljuset till LDRen med, t.ex. din hand.
-  Vilken spänning visar skopen nu?
+### 16.4. Svar
 
-### 16.2. Svar
+Det skulle vara en spänning mellan 0 och 5 volt,
+för att detta är spänningen av Arduinon
 
-- Mätning 1: det skulle vara en spänning mellan 0 och 5 volt,
-  för att detta är spänningen av Arduinon
-- Mätning 2: spänningen öker, men aldrig högre än 5 volt
-- Mätning 3: spänningen sänker,  men aldrig mindre än 0 volt
+## 16.5. Att mäta en LDR med en skop
 
-## 16.5. Slutuppgift
+Hålla LDRen nära en lampa.
+Vilken spänning visar skopen nu?
+
+### 16.5. Svar
+
+Spänningen öker, men aldrig högre än 5 volt
+
+## 16.6. Att mäta en LDR med en skop
+
+Ta bort ljuset till LDRen med, t.ex. din hand.
+Vilken spänning visar skopen nu?
+
+### 16.6. Svar
+
+Spänningen sänker,  men aldrig mindre än 0 volt
+
+## 16.7. Slutuppgift
 
 Hämta:
 
