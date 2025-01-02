@@ -240,9 +240,9 @@ På dator: har redo koden!
 
 Läs slutuppgift först, för att du har 15 minuten.
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig!
+- Steg 1: Fråga någon för att examinera. Den där person får inte hjälpa dig!
 
 Start en timer och gör följande:
 
-2. Bygg upp sista krets från början, uploada koden och visar att allt funkar
+- Steg 2: Bygg upp sista krets från början, uploada koden och visar att allt funkar
 

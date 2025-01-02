@@ -186,8 +186,10 @@ Material som krävs:
 - 3 lysdioder
 - lagom många sladdar
 
-1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
+Läs igenom slutuppgiften först, efter det har du 10 minuter på dig.
+
+- Steg 1: Fråga någon för att examinera. Den personen får inte hjälpa dig.
 
 Starta en timer på 10 minuter och gör följande:
 
-2. Bygg upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder lysa.
+- Steg 2: Bygg upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder lysa.

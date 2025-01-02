@@ -181,8 +181,11 @@ Försammla:
 - 1 lysdiod
 - tillräckligt mycket sladdar
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig.
+Läs igenom slutuppgiften först, för du har 10 minuter på dig.
+
+- Steg 1: Fråga någon för att examinera. Den där person får inte hjälpa dig.
 
 Start en timer på 10 minuten och gör följande:
 
-2. Bygga up sista krets från början och visar att den funkar
+- Steg 2: Bygga up sista krets från början och visar att den funkar
+

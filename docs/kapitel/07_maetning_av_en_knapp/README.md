@@ -150,4 +150,4 @@ Starta en timer på 5 min och gör följande:
 
 - Steg 2: Visa när knappen funkar bra
 
-2. Visar när knappen är ikopplad så att den inte funkar
+- Steg 3: Visar när knappen är ikopplad så att den inte funkar

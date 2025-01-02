@@ -145,12 +145,13 @@ Hämta:
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 
-1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+- Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
 Starta en timer och gör följande:
 
-2. Visar när vridmotstånden funkar bra
+- Steg 2: Visar när vridmotstånden funkar bra
 
-3. Visar när vridmotstånden är användt på fel sätt
+- Steg 3: Visar när vridmotstånden är användt på fel sätt
 
-4. Visar hur tre värd man kann mäta av en vridmotstånd forhålla sig med varann
+- Steg 4: Visar hur tre värd man kann mäta av en vridmotstånd forhålla sig med varann
+

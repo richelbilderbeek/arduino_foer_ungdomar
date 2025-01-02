@@ -309,16 +309,24 @@ På dator: har redo koden!
 
 Läs slutuppgift först, för att du har 15 minuten.
 
-1. Fråga någon för att examinera. Den där person får inte hjälpa dig!
+- Steg 1: Fråga någon för att examinera. Den där person får inte hjälpa dig!
 
 Start en timer och gör följande:
 
-2. Bygg upp krets 2 från början
+- Steg 2: Bygg upp krets 2 från början
 
-3. Fråga examinerare hur lysdiod skulle reagera och programmera detta. Examinerare får väljer en av den här:
+- Steg 3: Fråga examinerare hur lysdiod skulle reagera och programmera detta.
+  Examinerare får väljer en av den här:
 
-- På början lyser lysdioden inte. Om du du trycker på vänsterknappen, lyser lysdioden för evigt. Om du du trycker på högerknappen, släcker lysdioden för evigt.
-- På början lyser lysdioden inte. Om du du trycker på båda knappor, lyser lysdioden så länge du håller båda intryckt.
-- På början lyser lysdioden. Om du du trycker på en av båda knappor, släcker lysdioden så länge du håller en av båda intryckt.
-- På början lyser lysdioden inte. Om du du trycker på en av båda knappor, lyser lysdioden så länge du håller en av båda intryckt.
+    - På början lyser lysdioden inte. Om du du trycker på vänsterknappen,
+      lyser lysdioden för evigt. Om du du trycker på högerknappen,
+      släcker lysdioden för evigt.
+    - På början lyser lysdioden inte. Om du du trycker på båda knappor,
+      lyser lysdioden så länge du håller båda intryckt.
+    - På början lyser lysdioden. Om du du trycker på en av båda knappor,
+      släcker lysdioden så länge du håller en av båda intryckt.
+    - På början lyser lysdioden inte. Om du du trycker på en av båda knappor,
+      lyser lysdioden så länge du håller en av båda intryckt.
+
+
 
