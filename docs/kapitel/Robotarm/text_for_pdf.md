@@ -1,9 +1,10 @@
 # Programmering av en robotarm
 
-(kopierad från <https://github.com/richelbilderbeek/arduino_foer_ungdomar/tree/master/kapitel/Robotarm>)
+(kopierad från <https://github.com/richelbilderbeek/arduino_foer_ungdomar/tree/main/kapitel/Robotarm>)
 
 Under den här lektionen ska vi programmera denna coola robotarm
-![](robotarm.jpg)
+
+![Robotarm](robotarm.jpg)
 
 ## Styra robotarmen
 

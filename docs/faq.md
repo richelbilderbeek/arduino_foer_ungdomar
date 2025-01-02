@@ -14,7 +14,7 @@ Japp:
 
 Böckerna har alla en [CC-BY-NC-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
 
-![Licensen för den här boken](pics/CC-BY-NC-SA.png)
+![Licensen för den här boken](../CC-BY-NC-SA.png)
 
 Bokstäver|Mening          |Översättning
 ---------|----------------|-----------------------------------------------
