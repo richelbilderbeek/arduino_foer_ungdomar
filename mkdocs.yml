@@ -13,6 +13,7 @@ nav:
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
     - Licence: LICENSE
+    - Scripts: scripts/README.md
 
 theme:
   name: material
