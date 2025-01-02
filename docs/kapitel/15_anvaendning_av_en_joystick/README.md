@@ -131,7 +131,7 @@ Lägga till:
 
 ### 15.4. Svar
 
-```
+```c++
 const int pin_joy_x{A0};
 const int pin_joy_y{A1};
 const int pin_led_r{9};

@@ -327,6 +327,3 @@ Start en timer och gör följande:
       släcker lysdioden så länge du håller en av båda intryckt.
     - På början lyser lysdioden inte. Om du du trycker på en av båda knappor,
       lyser lysdioden så länge du håller en av båda intryckt.
-
-
-

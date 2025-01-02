@@ -1,11 +1,11 @@
-# Lektion 16: använding av en LCD
+# Lektion 24: använding av en LCD
 
 En LCD är en del för att visa något, som bokstäver och symboler.
 LCD betyder "Liquid Crystal Display", detta är engelska för "Liquid Crystal Screen"
 
 ![ArduinoInvaders är ett spel som fungerar med en LCD](ArduinoInvaders.jpg)
 
-## 16.1 Anslut LCD
+## 24.1 Anslut LCD
 
 Det finns flera sätt att ansluta en LCD-skärm:
 
@@ -16,7 +16,7 @@ Sätt|Kontrastjusterbar?|Med bakgrundsbelysning?
 3   |Nej               |Ja
 4   |Ja                |Ja
 
-### 16.1.1. Anslut LCD sätt 1
+### 24.1.1. Anslut LCD sätt 1
 
 Detta är det enklaste sättet:
 
@@ -25,7 +25,7 @@ Detta är det enklaste sättet:
 Om du inte kan se bokstäverna kan du fortfarande behöva justera kontrasten (sätt 2),
 eller anslut bakgrundsbelysningen (sätt 3), eller båda.
 
-### 16.1.2. Anslut LCD sätt 2
+### 24.1.2. Anslut LCD sätt 2
 
 Här kan du justera kontrasten med en potentiometer.
 
@@ -33,7 +33,7 @@ Här kan du justera kontrasten med en potentiometer.
 
 Om du inte kan se bokstäverna bör du fortfarande ansluta bakgrundsbelysningen (väg 4).
 
-### 16.1.3. Anslut LCD sätt 3
+### 24.1.3. Anslut LCD sätt 3
 
 Här anger du bakgrundsbelysningens spänning.
 
@@ -41,17 +41,17 @@ Här anger du bakgrundsbelysningens spänning.
 
 Om du inte kan se bokstäverna bör du också kunna justera kontrasten (sätt 4).
 
-### 16.1.4. Anslut LCD sätt 4
+### 24.1.4. Anslut LCD sätt 4
 
 Det här sättet fungerar alltid
 
 ![Ansluter LCD-väg 4](LcdBreadboard4.png)
 
-### 16.2. programmera en LCD
+### 24.2. programmera en LCD
 
 Det finns många exempelprogram i Arduino IDE, under `File | Exempel | LiquidCrystal`.
 
-### 16.2.1. `Hej världen`
+### 24.2.1. `Hej världen`
 
 Det enklaste är `File | Exempel | LiquidCrystal | HelloWorld`:
 
@@ -73,7 +73,7 @@ void loop() {
 
 Detta gör att du kan få text på skärmen.
 
-### 16.2.2. Custom Character
+### 24.2.2. Custom Character
 
 En svårare är `File | Exempel | LiquidCrystal | CustomCharacter`:
 
