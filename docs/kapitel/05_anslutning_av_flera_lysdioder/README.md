@@ -26,10 +26,10 @@ Vilka av hålen är sammanlänkade?
 
 ### Svar
 
- * 1 är sammanlänkat med 5
- * 2 är sammanlänkat med 6
- * 3 är sammanlänkat med 7
- * 4 är sammanlänkat med 8
+* 1 är sammanlänkat med 5
+* 2 är sammanlänkat med 6
+* 3 är sammanlänkat med 7
+* 4 är sammanlänkat med 8
 
 ## 5.2. Anslut motstånden och lysdioden
 
@@ -39,17 +39,17 @@ Kolla på den här bilden:
 
 Den fyra långa horisontella raderna av hål kallas 'skenor'.
 
- * Två skenor levererar 5V spänning. 
+* Två skenor levererar 5V spänning.
    Ofta har de en röd linje brevid sig.
- * Två skenor fungerarar som jord eller GND.
+* Två skenor fungerarar som jord eller GND.
    Ofta har den en svart eller blå linje brevid sig
 
 Försök förklara:
 
- * Vad gör sladden mellan 5V på Arduino och kopplingsdäcket?
- * Vad gör sladden mellan GND på Arduino och kopplingsdäcket?
- * Vad gör sladden mellan +skenorna?
- * Vad gör sladden mellan -skenorna?
+* Vad gör sladden mellan 5V på Arduino och kopplingsdäcket?
+* Vad gör sladden mellan GND på Arduino och kopplingsdäcket?
+* Vad gör sladden mellan +skenorna?
+* Vad gör sladden mellan -skenorna?
 
 \pagebreak
 
@@ -63,7 +63,7 @@ gör så att kopplingsdäcket är kopplat till jord/GND.
 
 Sladden mellan 5V och skenorna gör så att båda skenorna kopplade dit har 5V spänning.
 
-Sladden mellan GND och skenorna gör 
+Sladden mellan GND och skenorna gör
 så att båda skenorna kopplade dit är jordade.
 
 ## 5.3. Krets 1: Anslut motstånden och lysdioden
@@ -72,12 +72,12 @@ Nu är det dags att bygga kretsen på riktigt:
 
 ![](anslutning_av_flera_lysdioder_1.png)
 
- * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Montera kretsen enligt bild
- * Sätt tillbaka USB-kabeln i datorn
+* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+* Montera kretsen enligt bild
+* Sätt tillbaka USB-kabeln i datorn
 
 ![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Lyser lysdioden? Bygg ihop kretsen och kontrollera!
 
@@ -134,13 +134,13 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Material som krävs:
 
- * 1 dator
- * 1 Arduino
- * 1 USB sladd
- * 1 kopplingsdäck
- * 7 1.000 Ohm motstånd
- * 7 lysdioder
- * lagom många sladdar
+* 1 dator
+* 1 Arduino
+* 1 USB sladd
+* 1 kopplingsdäck
+* 7 1.000 Ohm motstånd
+* 7 lysdioder
+* lagom många sladdar
 
 1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
 

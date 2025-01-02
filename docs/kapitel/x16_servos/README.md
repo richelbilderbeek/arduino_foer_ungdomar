@@ -15,7 +15,7 @@ Anslut en servomotor till batteriet enligt bilden 'Servomotor på batteri med se
 :-----------------:|:---------------------- ------- :
 
 ![Solglasögon](EmojiSunglasses.png) | Kom ihåg att det finns en lucka i mitten av de långa linjerna
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -46,7 +46,7 @@ void loop()
 ```
 
 ![Sunglasses](EmojiSunglasses.png) | Glömt vad den kod gjorde? Kollar sista lektion!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 16.1.3 Uppgift 1
 
@@ -99,7 +99,7 @@ void loop()
 
 ### 16.2.3 Uppgift 1
 
- * Justera koden så att servo rör sig perfekt
+* Justera koden så att servo rör sig perfekt
 
 \pagebreak
 
@@ -107,8 +107,8 @@ void loop()
 
 Samma kod, förutom:
 
-  * 45:an har ersatts av servos minimivärde
-  * 135:an har ersatts av servos maximala värde
+* 45:an har ersatts av servos minimivärde
+* 135:an har ersatts av servos maximala värde
 
 ## 16.3 Batteridrivna servomotorer med knapp
 
@@ -170,5 +170,5 @@ När den första knappen trycks in ska den första servo gå till maximalt läge
 Om *även* den andra knappen trycks in bör den andra servo gå till maximalt läge.
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd ett `if` i ett `if`.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 

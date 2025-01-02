@@ -24,7 +24,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiBowtie.png) | Har du glömt vad det här är? Gå till lektion 4 'FSR'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### 12.3 Kommandon 1
 
@@ -46,7 +46,7 @@ void loop()
 ## 12.5 Ansluter LDR utan LED
 
 ![Solglasögon](EmojiSunglasses.png) | LDR betyder "Ljusberoende motstånd"
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Först ansluter vi bara en LDR:
 
@@ -73,7 +73,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiBowtie.png) | Har du glömt vad det här är? Gå till lektion 4 'FSR'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### 12.7 Uppdrag 2
 
@@ -96,12 +96,12 @@ void loop()
  5. Nu kommer du att se siffran ändras slumpmässigt. Detta kallas en flytande ingång
 
 ![Solglasögon](EmojiBowtie.png) | Har du en flytande ingång? Då har man ofta kopplat något fel
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 12.9 Ansluter LDR med LED
 
 ![Solglasögon](EmojiSunglasses.png) | "Ljusberoende motstånd" betyder "ljusberoende motstånd"
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Nu ansluter vi även en LED:
 
@@ -135,7 +135,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiBowtie.png) | Har du glömt vad det här är? Gå till lektion 4 'FSR'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### 12.11 Uppgift 3
 
@@ -188,7 +188,7 @@ Anslut en extra LED. Om LDR är i normalt ljus bör ingen lysdiod lysa.Om du gö
 Om du gör LDR helt mörk två.
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd två "om"-satser
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -224,14 +224,14 @@ void loop()
 
 ## 12.15 Slutuppgift
 
- * Anslut tre lysdioder: en röd, gul och grön
- * När LDR är i ljuset ska ingen lysdiod lysa.
- * Om du mörkar LDR en aning kommer den gröna lysdioden att lysa
- * Om du gör LDR mörkare mer kommer de gröna och gula lysdioderna att lysa
- * Om du gör LDR helt mörkare kommer alla lysdioder att lysa
+* Anslut tre lysdioder: en röd, gul och grön
+* När LDR är i ljuset ska ingen lysdiod lysa.
+* Om du mörkar LDR en aning kommer den gröna lysdioden att lysa
+* Om du gör LDR mörkare mer kommer de gröna och gula lysdioderna att lysa
+* Om du gör LDR helt mörkare kommer alla lysdioder att lysa
 
 ![LDR final assignment](12_ldr_rgb_slutuppgift.png)
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd `if` tre eller fyra gånger
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 

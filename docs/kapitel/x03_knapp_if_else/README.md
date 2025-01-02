@@ -3,7 +3,7 @@
 I den här lektionen låter vi Arduino ställa frågor till sig själv.
 
 ![](EmojiSunglasses.png) | Så Arduino blir en sorts filosof!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 
 ## 3.1. Knapp if ... else: Anslut
@@ -11,7 +11,7 @@ I den här lektionen låter vi Arduino ställa frågor till sig själv.
 ![Strömkretsen](3_knop_if_else.png)
 
 ![](EmojiSunglasses.png) | Motståndet till jord kallas ett 'Pull Down'-motstånd
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -36,12 +36,12 @@ void loop()
 }
 ```
 
-![Dator](EmojiComputer.png)|`digitalRead(knapp_stift)` 
-:-----------:|:----------------------------------------: 
+![Dator](EmojiComputer.png)|`digitalRead(knapp_stift)`
+:-----------:|:----------------------------------------:
 ![Smiley](EmojiSmiley.png) |'Ge mig `HIGH` om `knapp_stift` har spänning. Annars ge `LOW`'
 
 ![Dator](EmojiComputer.png)|`digitalWrite(led_stift, digitalRead(knapp_stift))`
-:-----------:|:----------------------------------------: 
+:-----------:|:----------------------------------------:
 ![Smiley](EmojiSmiley.png) |'Ger spänning till `led_stift` om `knapp_stift` har spänning'
 
 \pagebreak
@@ -51,20 +51,20 @@ void loop()
 När du trycker på knappen, släcks eller tänds LEDen?
 
 ![](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 3.4. Knapp if ... else: Svara
 
 LEDen tänds när du trycker på knappen.
 
 ![](EmojiSunglasses.png) | LEDen tänds när du trycker på knappen
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
 ## 3.5. Knapp if ... else: `if`
 
-Med en `if`-sats kan du få Arduino att göra något, 
+Med en `if`-sats kan du få Arduino att göra något,
 t.ex. så här:
 
 ```c++
@@ -83,12 +83,12 @@ Om ja, ge Arduino spänning på `led_stift`.
 Annars (`else`) stänger Arduino av spänningen på `led_stift`.
 
 ![Dator](EmojiComputer.png) |`if (digitalRead(knapp_stift) == HIGH) {}`
-:------------:|:------------------------------------------: 
+:------------:|:------------------------------------------:
  ![Smiley](EmojiSmiley.png) |'Kära dator, om det finns spänning på `knapp_stift`, gör det inom parentes'
 
 
 ![](EmojiSunglasses.png) | `=` kan tolkas som "blir". "==" kan tolkas som "är det lika med?"
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -120,12 +120,12 @@ void loop()
 
 Ändra koden så att:
 
- * När du trycker på knappen tänds lampan
- * om du inte trycker på knappen förblir lampan släckt
- * använd variabler för att namnge stiften
+* När du trycker på knappen tänds lampan
+* om du inte trycker på knappen förblir lampan släckt
+* använd variabler för att namnge stiften
 
 ![](EmojiBowtie.png) | Det används inget semikolon efter de runda parenteserna för `if`.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -153,7 +153,7 @@ void loop()
 ```
 
 ![](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -161,16 +161,16 @@ void loop()
 
 Anslut en andra grön LED. Ändra koden så att:
 
- * när du trycker på knappen tänds den första LEDen och den andra LEDen släcks
- * om du inte trycker på knappen slocknar den första LEDen och den andra LEDen tänds
- * Namnge variabeln för stiftet på den röda LEDen `led_stift_rod`, för
+* när du trycker på knappen tänds den första LEDen och den andra LEDen släcks
+* om du inte trycker på knappen slocknar den första LEDen och den andra LEDen tänds
+* Namnge variabeln för stiftet på den röda LEDen `led_stift_rod`, för
    grön LED `led_stift_gron`
 
 ![](EmojiSunglasses.png)| Du kan skriva flera rader inom måsvingarna i en `if` sats. Precis som mellan måsvingarna i `setup` och `loop`!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](EmojiBowtie.png) | Glöm inte `else` ('annars')!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -214,7 +214,7 @@ void loop()
 ```
 
 ![](EmojiBowtie.png)| `/* ... */` betyder också 'koden du redan har där'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -224,14 +224,14 @@ void loop()
 
 Anslut en andra knapp. Ändra koden så att
 
-  * om du trycker på den första knappen tänds den första LEDen
-  * om du släpper första knappen ska första LEDen slockna
-  * om du trycker på den andra knappen slocknar den andra LEDen
-  * om du inte trycker på den andra knappen tänds den andra LEDen
+* om du trycker på den första knappen tänds den första LEDen
+* om du släpper första knappen ska första LEDen slockna
+* om du trycker på den andra knappen slocknar den andra LEDen
+* om du inte trycker på den andra knappen tänds den andra LEDen
 
 ![](EmojiSunglasses.png)| Du kan änvanda mer än en `if` sats
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 

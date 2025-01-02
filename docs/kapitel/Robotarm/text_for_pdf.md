@@ -1,6 +1,6 @@
 # Programmering av en robotarm
 
-(kopierad från https://github.com/richelbilderbeek/arduino_foer_ungdomar/tree/master/kapitel/Robotarm)
+(kopierad från <https://github.com/richelbilderbeek/arduino_foer_ungdomar/tree/master/kapitel/Robotarm>)
 
 Under den här lektionen ska vi programmera denna coola robotarm
 ![](robotarm.jpg)
@@ -12,13 +12,13 @@ Observera att du **INTE** behöver koppla något, det är bara att ansluta robot
 
 ![](robot_uno_sketch_bb.png)
 
-Koden nedan är helt fungerande för att styra robotarmen, varje potentiometer rör en led på armen/klon men behöver kompletteras med ett ändamål. 
+Koden nedan är helt fungerande för att styra robotarmen, varje potentiometer rör en led på armen/klon men behöver kompletteras med ett ändamål.
 
 Varje servo har ett spann som man måste vara inom för att servona inte ska köra utanför sitt arbetsområde, det ungefärliga spannet för varje servo är kommenterat i koden och inlagt i mapfunktionen.
-Potentiometrarna är "omvända", det vill säga att om du vrider dem max medsols så returnerar de 0 och max motsols så visar de 1023. 
-Lycka till att erövra världen med din robotarm! 
+Potentiometrarna är "omvända", det vill säga att om du vrider dem max medsols så returnerar de 0 och max motsols så visar de 1023.
+Lycka till att erövra världen med din robotarm!
 
-## Arduinokod för robotarmen:
+## Arduinokod för robotarmen
 
 ```c++
 // Definierar array med stift för potentiometrar (analoga ingångar)

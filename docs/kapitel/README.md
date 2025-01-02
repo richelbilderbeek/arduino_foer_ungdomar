@@ -55,8 +55,8 @@ Kpt|Beskrivning
 .  |**Bok 3**
 9  |[RGB LED](x09_rgb/README.md)
 10 |[Potmeter RGB](x10_potmeter_rgb/README.md)
-11 |[FSR RGB](x11_fsr_rgb/README.md) 
-12 |[LDR RGB](x12_ldr_rgb/README.md) 
+11 |[FSR RGB](x11_fsr_rgb/README.md)
+12 |[LDR RGB](x12_ldr_rgb/README.md)
 .  |**Bok 4**
 13 |[Servo med seriell monitor](x13_servo_serial/README.md)
 14 |[Servo med potmeter](x14_servo_potmeter/README.md)

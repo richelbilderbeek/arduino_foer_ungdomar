@@ -19,15 +19,15 @@ In de Arduino IDE, ga naar `Examples`. Zie je `CapacitiveSensor` ertussen staan?
 
 Is `CapacitiveSensor` niet geinstalleerd, doe dan:
 
- * Klik in de Arduino IDE op `Sketch | Import Library | Add Library`
+* Klik in de Arduino IDE op `Sketch | Import Library | Add Library`
 
 ![Add Library](CapacitieveSensor1AddLibrary.png)
 
- * Klik op de *folder* en op OK
+* Klik op de *folder* en op OK
 
 ![Add Library folder](CapacitieveSensor1AddLibraryFolder.png)
 
- * Nu is de bibliotheek geinstalleerd:
+* Nu is de bibliotheek geinstalleerd:
 
 ![Het is gelukt](CapacitieveSensor1GeluktAnnotated.png)
 
@@ -40,7 +40,7 @@ Sluit een capacitive sensor aan:
 ![Stroomschema](CapacitieveSensor1Aansluiten.png)
 
 De weerstand met zwarte strepen is de knop. De knop
-hoeft geen weerstand met zwarte strepen te zijn. 
+hoeft geen weerstand met zwarte strepen te zijn.
 De knop mag alles zijn waar electriciteit doorheen kan:
 een draadje, een metalen sleutel, aluminiumfolie.
 
@@ -73,27 +73,27 @@ void loop()
 
 Sluit de capacitieve sensor aan en upload de code. Bekijk de Seriele Monitor.
 
- * Wat is de gemeten waarde als je de knop niet aanraakt? 
- * Wat is de gemeten waarde als je de knop wel aanraakt?
+* Wat is de gemeten waarde als je de knop niet aanraakt?
+* Wat is de gemeten waarde als je de knop wel aanraakt?
 
 \pagebreak
 
 ## Oplossing 1
 
- * Als je de knop niet aanraakt, is de waarde tussen 0 en 10. Het vaakst zie je nul en een.
- * Als je de knop wel aanraakt, is de waarde tussen ongeveer 500 en 5000. De getallen wisselen veel
+* Als je de knop niet aanraakt, is de waarde tussen 0 en 10. Het vaakst zie je nul en een.
+* Als je de knop wel aanraakt, is de waarde tussen ongeveer 500 en 5000. De getallen wisselen veel
 
 ![Sunglasses](EmojiBowtie.png) | De knop kan ook op afstand meten!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Sunglasses](EmojiSunglasses.png) | Hoe groter de knop (aluminiumfolie!), hoe verder deze kan meten
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
 ## Opdracht 2
 
-Laat de capacitieve sensor een LEDje aansturen. 
+Laat de capacitieve sensor een LEDje aansturen.
 Het LEDje moet aan gaan als je op de knop drukt
 
 \pagebreak
@@ -135,4 +135,4 @@ void loop()
 
 ## Eindopdracht
 
- * Sluit nu ook een tweede LEDje aan. Deze moet juist uit zijn als er op de knop wordt gedrukt.
+* Sluit nu ook een tweede LEDje aan. Deze moet juist uit zijn als er op de knop wordt gedrukt.

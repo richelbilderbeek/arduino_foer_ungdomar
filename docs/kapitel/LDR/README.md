@@ -24,7 +24,7 @@ void loop()
 ```
 
 ![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### Opdrachten 1
 
@@ -46,7 +46,7 @@ void loop()
 ## Aansluiten LDR zonder LED
 
 ![Sunglasses](EmojiSunglasses.png) | LDR betekent 'Light Dependent Resistance'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Eerst sluiten we alleen een LDR aan:
 
@@ -73,7 +73,7 @@ void loop()
 ```
 
 ![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### Opdrachten 2
 
@@ -81,7 +81,7 @@ void loop()
  2. Houd je vinger boven de LDR terwijl je de seriele monitor bekijkt. Wat zie je?
  3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
  4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
- 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
+ 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg.
       Kijk op de seriele monitor. Wat zie je?
 
 \pagebreak
@@ -95,13 +95,13 @@ void loop()
     stuur naar je computer (4800), dan je computer de tekst leest (9600)
  5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
-![Sunglasses](EmojiBowtie.png) | Heb je een zwevende input? Dan heb je vaak iets fout aangesloten 
-:-------------:|:----------------------------------------: 
+![Sunglasses](EmojiBowtie.png) | Heb je een zwevende input? Dan heb je vaak iets fout aangesloten
+:-------------:|:----------------------------------------:
 
 ## Aansluiten LDR met LED
 
 ![Sunglasses](EmojiSunglasses.png) | 'Light Dependent Resistance' betekent 'lichtafhankelijke weerstand'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Nu sluiten we ook een LED aan:
 
@@ -135,12 +135,12 @@ void loop()
 ```
 
 ![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### Opdracht 3
 
  1. Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
- 2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
+ 2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR
     in rust?
  3. Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
     woord `UIT` als de LED uit wordt gezet
@@ -154,8 +154,8 @@ void loop()
  2. Hiervoor gebruik je de code van de vorige opdracht: voeg in de `setup` function toe `Serial.begin(9600);`,
     in de `loop` functie voeg je `Serial.println(analogRead(A0));` toe. De waarde die je gaat zien is
     afhankelijk van de weerstand, LDR en hoeveelheid licht
- 3. Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
-    Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
+ 3. Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten.
+    Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement.
 
 ```c++
 void setup() 
@@ -184,12 +184,12 @@ void loop()
 
 ### Opdracht 4
 
-Sluit een extra LEDje aan. Als de LDR in normaal licht is, moet er geen LEDje branden. 
-Als je de LDR een beetje donkerder maakt met je hand, gaat er een LEDje branden. 
-Als je de LDR helemaal donker maakt twee. 
+Sluit een extra LEDje aan. Als de LDR in normaal licht is, moet er geen LEDje branden.
+Als je de LDR een beetje donkerder maakt met je hand, gaat er een LEDje branden.
+Als je de LDR helemaal donker maakt twee.
 
 ![Bowtie](EmojiBowtie.png) | Tip: gebruik twee `if` statements
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -225,13 +225,13 @@ void loop()
 
 ## Eindopdracht
 
- * Sluit drie LEDjes aan: een rode, gele en groene 
- * Als de LDR in het licht is, moet er geen LEDje branden. 
- * Als je de LDR een beetje verduisterd wordt, gaat het groene LEDje branden
- * Als je de LDR meer verduisterd wordt, gaan de groene en gele LEDjes branden
- * Als je de LDR helemaal verduisterd wordt, gaan alle LEDjes branden
+* Sluit drie LEDjes aan: een rode, gele en groene
+* Als de LDR in het licht is, moet er geen LEDje branden.
+* Als je de LDR een beetje verduisterd wordt, gaat het groene LEDje branden
+* Als je de LDR meer verduisterd wordt, gaan de groene en gele LEDjes branden
+* Als je de LDR helemaal verduisterd wordt, gaan alle LEDjes branden
 
 ![LDR eindopdracht](9_LDR_eindopdracht.png)
 
 ![Bowtie](EmojiBowtie.png) | Tip: gebruik drie of vier keer `if`
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:

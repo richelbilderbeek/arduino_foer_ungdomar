@@ -1,9 +1,9 @@
-#4. FSR
+# 4. FSR
 
 ## Seriell monitor
 
 ![Solglasögon](EmojiSunglasses.png) | Seriell monitor: platsen där du kan få Arduino att prata genom en seriell port
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Den seriella monitorn låter oss få Arduino att prata.
 Eller mer exakt: att denna text skickas till den seriella monitorn.
@@ -18,7 +18,7 @@ Först ansluter vi bara en Arduino:
 Jag tycker att det här borde fungera :-)
 
 ![Solglasögon](EmojiSunglasses.png) | Den seriella bildskärmen går via USB-kabeln mellan Arduino till dator
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -38,7 +38,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `Serial.begin(9600);`     |'Bästa dator, låt Arduino prata med 9600 bitar per sekund'
 `Serial.print("Hej");`    |'Bästa dator, låt Arduino säga ordet 'Hej''
 `Serial.println("Hej");`  |'Bästa dator, låt Arduino säga ordet 'Hej' och starta en ny rad'
@@ -69,14 +69,14 @@ void loop()
 ## Ansluter FSR utan LED
 
 ![Solglasögon](EmojiSunglasses.png) | FSR betyder "Force Sensitive Resistance"
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Först ansluter vi bara en FSR:
 
 ![Flödesschema](11_fsr_rbg_fsr_svenska.png)
 
 ![Bowtie](EmojiBowtie.png) | Om det inte finns någon FSR, använd en LDR
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -99,7 +99,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:------------------------------:|:----------------------------------------: 
+:------------------------------:|:----------------------------------------:
 `Serial.println(analogRead(A0))`|'Bästa dator, visa värdet på stiftet `A0` på den seriella monitorn'
 
 ## Kommandon 2
@@ -113,7 +113,7 @@ void loop()
     Titta på den seriella monitorn. Vad ser du?
 
 ![Solglasögon](EmojiSunglasses.png) | Motståndet mellan A0 och LDR kallas ett 'Pull Down'-motstånd
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 
 \pagebreak
@@ -128,12 +128,12 @@ void loop()
  5. Nu kommer du att se siffran ändras slumpmässigt. Detta kallas en flytande ingång
 
 ![Solglasögon](EmojiSunglasses.png) | Ett 'Pull Down'-motstånd förhindrar en flytande ingång
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## Ansluter FSR med LED, på/av
 
 ![Solglasögon](EmojiSunglasses.png) | "Kraftkänsligt motstånd" betyder "Kraftberoende motstånd"
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Nu ansluter vi även en LED:
 
@@ -167,7 +167,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `if (analogRead(A0) < 512) {}`|'Bästa dator, om A0 läser mindre än 2,5 volt, sätt det inom parentes.
 
 ### Uppdrag 3
@@ -243,7 +243,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `analogWrite( 0, 9)`|'Bästa dator, stäng av stift 9'
 `analogWrite(128, 9)`|'Bästa dator, vrid stift 9 till halvfullt'
 `analogWrite(255, 9)`|'Bästa dator, slå på stift 9 fullt ut'
@@ -267,7 +267,7 @@ Anslut två lysdioder till stift 12 och 13. När FSR är i vila ska ingen lysdio
 en LED tänds. Om du trycker hårt på FSR, två.
 
 ![Bowtie](EmojiBowtie.png) | Tips: använd två `if`-satser
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -340,19 +340,19 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `analogWrite(11, analogRead(A0) / 4)`|'Bästa dator, dämpa stift 11 till värdet av stift A0 (diva detta med fyra)'
 
 \pagebreak
 
 ## Einorder
 
-  * Anslut fyra lysdioder: en vit, en röd, en gul och en grön
-  * När FSR är i vila ska ingen lysdiod lysa.
-  * När du trycker lätt på FSR tänds den gröna lysdioden
-  * Om du trycker hårdare på FSR kommer de gröna och gula lysdioderna att tändas
-  * När du trycker hårt på FSR tänds de gröna, gula och röda lysdioderna
-  * Den vita lysdioden lyser starkare och mjukare beroende på FSR
+* Anslut fyra lysdioder: en vit, en röd, en gul och en grön
+* När FSR är i vila ska ingen lysdiod lysa.
+* När du trycker lätt på FSR tänds den gröna lysdioden
+* Om du trycker hårdare på FSR kommer de gröna och gula lysdioderna att tändas
+* När du trycker hårt på FSR tänds de gröna, gula och röda lysdioderna
+* Den vita lysdioden lyser starkare och mjukare beroende på FSR
 
 Om du inte har en vit LED, använd en annan färg.
 

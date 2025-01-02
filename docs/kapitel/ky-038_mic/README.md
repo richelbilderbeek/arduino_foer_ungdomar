@@ -12,10 +12,10 @@ Bygg up den här kretsen:
 
 Programmerar:
 
- * en `const` variabel `microfon_stift` på riktigt stift
- * att få värd av potmetern med `analogRead`
- * att skrivar värd av potmetern till Serial Monitor
- * vänta 100 millisecond varje `loop`
+* en `const` variabel `microfon_stift` på riktigt stift
+* att få värd av potmetern med `analogRead`
+* att skrivar värd av potmetern till Serial Monitor
+* vänta 100 millisecond varje `loop`
 
 Kollar på Serial Monitor eller Serial Plotter:
 
@@ -49,12 +49,12 @@ void loop()
 }
 ```
 
-Nadåt ser du en exempel hur Serial Monitor ser ut. 
+Nadåt ser du en exempel hur Serial Monitor ser ut.
 Dina värd är annorlunda:
 
 ![](serial_monitor_vaerd.png)
 
-Nadåt ser du en exempel hur Serial Plotter ser ut. 
+Nadåt ser du en exempel hur Serial Plotter ser ut.
 Din ritning är annorlunda:
 
 ![](serial_plotter_graf.png)

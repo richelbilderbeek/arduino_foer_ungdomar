@@ -10,7 +10,7 @@ Op de cursus hebben we een categorie 2 laser. Deze is
 veilig als je niet expres in de laser kijkt.
 
 ![Sunglasses](EmojiSunglasses.png) | Kijk nooit in de laser.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## Extra opdracht: welke weerstand?
 
@@ -27,7 +27,7 @@ R: Weerstand, in Ohm
 R = U/I
 ```
 
-## Oplossing: welke weerstand? 
+## Oplossing: welke weerstand?
 
 De laser en weerstand samen zullen 5 volt moeten worden.
 De laser gebruikt 3 volt, dus de weerstand zal 2 volt geen krijgen.
@@ -35,8 +35,8 @@ De laser gebruikt 3 volt, dus de weerstand zal 2 volt geen krijgen.
 Door de laser en weerstand gaat dezelfde hoeveelheid stroom.
 De weerstand krigt dus een stroom van 50 milli-Ampere.
 
-Omdat `R = U/I`, en `U = 2 V` en `I = 0.050 Ampere`, 
-dus `R = 2 / 0.050 = 40 Ohm` 
+Omdat `R = U/I`, en `U = 2 V` en `I = 0.050 Ampere`,
+dus `R = 2 / 0.050 = 40 Ohm`
 
 ## Een laser aansluiten
 
@@ -45,7 +45,7 @@ Sluit een laser zo aan:
 ![Laser aansluiten](LaserBreadboard.png)
 
 ![Sunglasses](EmojiSunglasses.png) | Zorg dat de laser niet ver kan schijnen.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## Opdracht
 
@@ -59,7 +59,7 @@ In de ruimte worden (ook) lasers gebruikt, om gegevens te versturen.
 
 ## Opdracht: ontvanger bouwen
 
-Sluit een tweede Arduino aan met een LDR en rood LEDje. 
+Sluit een tweede Arduino aan met een LDR en rood LEDje.
 Als de laser op de LDR schijnt, moet het LEDje gaan branden.
 
 ## Oplossing: ontvanger bouwen
@@ -84,5 +84,4 @@ void loop()
 ```
 
 ## Eindopdracht
-
 

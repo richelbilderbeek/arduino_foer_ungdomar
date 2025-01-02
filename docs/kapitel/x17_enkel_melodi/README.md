@@ -50,10 +50,10 @@ Under noten finns texten, därunder tonhöjden i Hertz.
 > Fader Jacobs första ton
 
 ![Solglasögon](EmojiSunglasses.png) | 131 Hertz är tonhöjden för tonen C.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `tone(..., 131, ...);`| (sjunger) do!
 
 \pagebreak
@@ -94,10 +94,10 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | 147 Hertz är tonhöjden för tonen D.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `tone(..., 147, ...);`| (sjunger) re!
 
 \pagebreak
@@ -139,10 +139,10 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | 165 Hertz är tonhöjden för noten E.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `tone(..., 165, ...);`| (sjunger) mi!
 
 \pagebreak
@@ -186,7 +186,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `tone(..., 147, ...);`| (sjunger) re!
 
 \pagebreak
@@ -237,10 +237,10 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `för (int i = 0; i < 2; ++i) { ... }`| "Gör vad som står i hängslen två gånger"
 
 \pagebreak
@@ -292,7 +292,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -341,7 +341,7 @@ void loop()
 ```
 
 ![Bowtie](EmojiBowtie.png) | (sjunger) Fader Jakob, Fader Jakob! (men inte särskilt bra)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 

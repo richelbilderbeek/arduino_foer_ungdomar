@@ -8,7 +8,7 @@ Vi har redan sett hur man läser knapparna i lektionshäfte 2, sidan 16.
 Vi har redan sett uppspelningen av ett ljud i lektionshäfte 3, sidan 17.
 
 ![Piano](18_frequenties.png) | Vi börjar med mittentangenten med frekvens 247. Sedan lägger vi till 3 tangenter till vänster. Sedan lägger vi till 3 nycklar till höger. Frekvenserna finns på den här bilden,
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](19_parallel-universes.jpg)
 
@@ -25,7 +25,7 @@ Anslut den första knappen enligt bilden. Sätt knappen i mitten av din brödbr�
 > Lösning 1
 
 ![Bowtie](EmojiSunglasses.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -58,7 +58,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | '>' betyder 'större än'. Värdet `A0` är aldrig exakt en siffra. I seriemonitorn läser vi av siffran som motsvarar knappen och testar sedan efter en siffra som ligger strax under det.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Får du ett ljud när du trycker på knappen? Sedan kan du gå vidare till uppgift 2.
 
@@ -69,28 +69,28 @@ Får du ett ljud när du trycker på knappen? Sedan kan du gå vidare till uppgi
 Anslut en andra knapp **till vänster** om den första, med två motstånd framför sig som är parallella [alltså 5k], se bild.
 
 ![parallell](parallell.png) | Två 10k motstånd parallellt ger ett 5k motstånd.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![serie](serie.png) | Två 10k motstånd i serie ger ett 20k motstånd.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](19_fig_2_bb.png)
 
 > Kretsen för uppgift 2
 
 ![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Solglasögon](EmojiSunglasses.png) | Det nya värdet är högre än värdet på den andra knappen. Den nya if-satsen bör komma överst.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Använd denna kod:
 
 ![think](EmojiThinking.png) | Är det nödvändigt att ange hela koden igen?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ```c++
 const int speaker_pin = 8;
@@ -133,10 +133,10 @@ Bygg nu en tredje nyckel, till vänster om den föregående.
 Använd nu 3 parallella motstånd.
 
 ![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -194,10 +194,10 @@ Bygg nu en fjärde nyckel, till vänster om den föregående.
 Använd nu 4 parallella motstånd.
 
 ![tänk](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -238,10 +238,10 @@ void loop()
 Bygg nu den 5:e tangenten till höger om de föregående tangenterna. Använd nu inte parallella motstånd, utan 2 motstånd på 10k Ohm kopplade i serie.
 
 ![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Kretsen kommer att se ut så här.
 
@@ -288,10 +288,10 @@ void loop()
 Bygg nu den 6:e tangenten till höger om de föregående tangenterna. Använd inte heller parallella motstånd utan 3 10k Ohm seriekopplade motstånd.
 
 ![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Kretsen kommer att se ut så här.
 
@@ -338,10 +338,10 @@ void loop()
 Komplettera ett piano med sju tangenter genom att lägga till den sjunde knappen till höger. Använd nu 4 motstånd på 10 kOhm kopplade i serie.
 
 ![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](19_wibi_soerjadi.png)
 

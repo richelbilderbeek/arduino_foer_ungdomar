@@ -8,12 +8,12 @@ Bygg den här kretsen:
 
 ![](anslutning_av_en_knapp_1.png)
 
- * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Montera kretsen enligt bilden
- * Sätt tillbaka USB-kabeln i datorn
+* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+* Montera kretsen enligt bilden
+* Sätt tillbaka USB-kabeln i datorn
 
 ![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Lyser lysdioden? Gör knappen något? Varför tror du det?
 
@@ -38,7 +38,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_2.png)
 
-Nu används knappen! 
+Nu används knappen!
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
@@ -58,7 +58,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_3.png)
 
-Nu är sladden mellan lysdioden och knappen sammanlänkade vid det nedre högra hörnet på knappen. 
+Nu är sladden mellan lysdioden och knappen sammanlänkade vid det nedre högra hörnet på knappen.
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
@@ -78,7 +78,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_4.png)
 
-Nu sitter den blå sladden mellan lysdioden och knappen vid det övra högra hörnet på knappen. 
+Nu sitter den blå sladden mellan lysdioden och knappen vid det övra högra hörnet på knappen.
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
@@ -98,7 +98,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_knapp_5.png)
 
-Nu är sladden mellan +skenan och knappen sammanlänkade vid det nedre vänstra hörnet på knappen. 
+Nu är sladden mellan +skenan och knappen sammanlänkade vid det nedre vänstra hörnet på knappen.
 
 Lyser lysdioden? gör knappen något? Varför tror du det?
 
@@ -119,7 +119,7 @@ Kolla på den här kretsen:
 ![](anslutning_av_en_knapp_6.png)
 
 Nu finns det två knappar!
- 
+
 Lyser lysdioden? gör knapparna något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
@@ -140,7 +140,7 @@ Kolla på den här kretsen:
 ![](anslutning_av_en_knapp_7.png)
 
 Nu finns det två knappar med en annan sammanlänkning.
- 
+
 Lyser lysdioden? gör knapparna något? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
@@ -162,7 +162,7 @@ Kolla på den här kretsen:
 
 Nu finns det två lysdioder till!
 
-Kan du förutspå när vilka av dem lyser? 
+Kan du förutspå när vilka av dem lyser?
 Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
@@ -177,14 +177,14 @@ Om du trycker en knapp, kommer alltid två lysdioder att lysa.
 
 Material som krävs:
 
- * 1 dator
- * 1 Arduino
- * 1 USB sladd
- * 1 kopplingsdäck
- * 2 knapp
- * 3 1.000 Ohm motstånd
- * 3 lysdioder
- * lagom många sladdar
+* 1 dator
+* 1 Arduino
+* 1 USB sladd
+* 1 kopplingsdäck
+* 2 knapp
+* 3 1.000 Ohm motstånd
+* 3 lysdioder
+* lagom många sladdar
 
 1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
 

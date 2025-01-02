@@ -1,6 +1,6 @@
 # 9: RGB
 
-Ibland tänker du "Kan det här göras smartare?". 
+Ibland tänker du "Kan det här göras smartare?".
 En `for`-loop är ett sätt att göra något smartare!
 
 ## 9.1 Regnbåge
@@ -12,7 +12,7 @@ Så här fungerar en regnbåge:
 ![Rainbow](1c_MeerKleurFadeMetFor_regenboog.png)
 
 ![Solglasögon](EmojiSunglasses.png) | Gult ljus är rött och grönt ljus tillsammans.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -44,7 +44,7 @@ void loop()
 }
 ```
 
-Siffrorna bakom `stift_red`, `stift_green` och `stift_blue` är fel. 
+Siffrorna bakom `stift_red`, `stift_green` och `stift_blue` är fel.
 Se till att dessa är rätt siffror.
 Hur? Koppla loss två ledningar och se vilken färg lysdioden får.
 
@@ -79,7 +79,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `for (int i=0; i<256; ++i) { }`|'Bästa dator, låt ett tal `i` sträcka sig från 0 till 256 i steg om 1'
 `analogWrite(9, 255)`|'Bästa dator, slå på stift 9 fullt ut.'
 `analogWrite(9, 127)`|'Bästa dator, slå på stift 9 till hälften.'
@@ -87,7 +87,7 @@ void loop()
 `analogWrite(9, i)`|'Bästa dator, låt stift 9 gå långsamt (måste ligga inom for-slingan ovan).'
 
 ![Solglasögon](EmojiSunglasses.png) | Räknar till tre: '1, 2'. Räknar till tre: '1, 2, 3'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -102,7 +102,7 @@ från 0 till 255 och den blå linjen är noll.
 Justera koden så att ljuset går från rött till gult (rött och grönt).
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `for (int i=0; i<256; ++i) { }`|'Bästa dator, låt ett tal `i` sträcka sig från 0 till 256 i steg om 1'
 `analogWrite(9, 255)`|'Bästa dator, slå på stift 9 fullt ut.'
 `analogWrite(9, 0)`|'Bästa dator, stäng av stift 9.'
@@ -154,10 +154,10 @@ Tips: lägg till denna kod:
     analogWrite(stift_bla, 0);
     delay(30);
   }
-``` 
+```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `for (int i=0; i<256; ++i) { }`|'Bästa dator, låt ett tal `i` sträcka sig från 0 till 256 i steg om 1'
 `analogWrite(9, 255)`|'Bästa dator, slå på stift 9 fullt ut.'
 `analogWrite(9, 0)`|'Bästa dator, stäng av stift 9.'

@@ -181,7 +181,7 @@ if (waarde_2 > 50)
 
 Als `welke_led` vier wordt, zet `welke_led` dan terug naar een:
 
-```c++ 
+```c++
 if (welke_led == 4)
 {
   welke_led = 1;
@@ -244,5 +244,5 @@ void loop()
 
 ## Eindopdracht
 
- * Laat het brandende LEDje nu de andere kant op lopen met de linker knop
+* Laat het brandende LEDje nu de andere kant op lopen met de linker knop
 

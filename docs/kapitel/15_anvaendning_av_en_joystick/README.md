@@ -45,7 +45,7 @@ Om du rör joysticken i andra rikting ändrar färgen sig inte.
 
 ## 15.3. Vad koden betyder
 
-Kolla igenom kod. 
+Kolla igenom kod.
 
 Kan du översätta varje mening till svenska?
 
@@ -70,7 +70,7 @@ const int pin_led_r{9};
 void setup() {}
 ```
 
-> Kära dator, göra detta mellan parantheser 
+> Kära dator, göra detta mellan parantheser
 > ett gång i början av programmet
 
 \pagebreak
@@ -91,7 +91,7 @@ pinMode(pin_led_r, OUTPUT);
 void loop() {}
 ```
 
-> Kära dator, göra detta mellan parantheser 
+> Kära dator, göra detta mellan parantheser
 > för evigt, efter `setup` är färdigt
 
 

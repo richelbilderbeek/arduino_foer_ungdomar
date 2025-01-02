@@ -8,7 +8,7 @@ I mappen '[boecker](boecker/README.md)'.
 
 Japp:
 
- * [Uppsala](https://github.com/richelbilderbeek/arduinokurs)
+* [Uppsala](https://github.com/richelbilderbeek/arduinokurs)
 
 ## Vad är licensen på böckerna?
 
@@ -41,9 +41,9 @@ Trevlig!
 
 Det finns flera alternativ:
 
- * Skicka ett e-postmeddelande till @richelbilderbeek, sök efter "Richel Bilderbeek email"
- * Skapa en Issue
- * Skapa en Pull Request
+* Skicka ett e-postmeddelande till @richelbilderbeek, sök efter "Richel Bilderbeek email"
+* Skapa en Issue
+* Skapa en Pull Request
 
 ## Kan jag ändra dessa böcker?
 
@@ -62,7 +62,7 @@ Ingen vinst får göras på bokföringen.
 
 ## Varför finns Uppsala Makerspacets logotyp på omslaget?
 
-Dessa häften användes för första gången 
+Dessa häften användes för första gången
 hos Uppsala Makerspace. Eftersom de trycker häften,
 denna logotyp finns på omslaget.
 
@@ -70,7 +70,7 @@ Det är fullt möjligt att byta omslag, utan eller med annan logotyp.
 
 ## Vad är historien om kursen?
 
-Denna kurs började som en svensk översättning från en nederländska 
+Denna kurs började som en svensk översättning från en nederländska
 kurs 'Arduino voor jonge tieners'. Efter första översättning,
 var kursen förbättrat tack vore eleverna.
 

@@ -3,7 +3,7 @@
 En servo är en motor som man kan sätta i en viss vinkel.
 
 ![Solglasögon](EmojiSunglasses.png) | Servon används ofta i robotar
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 13.1 Anslut
 
@@ -12,7 +12,7 @@ Bilden visar hur man ansluter en servo:
 ![Anslut servomotor](3_servo_motor_1.png)
 
 ![Solglasögon](EmojiSunglasses.png) | De flesta servon kan inte rotera
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -45,7 +45,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `Servo min_servo;` |'Kära dator, kom ihåg en Servo som heter `min_servo`'.
 `min_servo.attach(9);` |'Bästa dator, `min_servo` är på stift 9'.
 `if (Serial.available()) {}` |'Bästa dator, skrevs något in i den seriella monitorn? Om så är fallet, sätt det inom parentes.
@@ -63,7 +63,7 @@ skicka nummer till Arduino. Du kan se detta på bilden
 ![Skicka nummer till Arduino](3_servo_motor_serial.png)
 
 ![Solglasögon](EmojiSunglasses.png) | På så sätt kan du prata med Arduino
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 13.4 Uppgift 1
 

@@ -6,8 +6,8 @@ In deze les gaan we een theremin met LDRs maken.
 
 ## 22.1: opdracht: aansluiten piezo
 
- * Sluit een piezo aan op pin 5.
- * Gebruik een weerstand van tienduizend Ohm,
+* Sluit een piezo aan op pin 5.
+* Gebruik een weerstand van tienduizend Ohm,
    kleurcode: bruin-zwart-oranje-goud
 
 \pagebreak
@@ -47,8 +47,8 @@ Doet de 'Volume' bibliotheek het niet, ga dan naar de les 'Volume installeren'.
 
 ## 22.3: opdracht: aansluiten LDR
 
-Sluit een LDR aan op A0. 
-Je hebt een LDR en een weerstand van 10k Ohm (bruin-zwart-oranje-goud) nodig. 
+Sluit een LDR aan op A0.
+Je hebt een LDR en een weerstand van 10k Ohm (bruin-zwart-oranje-goud) nodig.
 
 \pagebreak
 
@@ -101,7 +101,7 @@ void loop()
 
 ## 22.5: opdracht: toonhoogte exponentieel
 
-De toonhoogte klinkt nog niet mooi. 
+De toonhoogte klinkt nog niet mooi.
 Dat komt omdat hogere tonen steeds verder van elkaar af gaan zitten.
 Met `pow` kunnen we een machtverheffing doen (wat dat ook is),
 zodat we mooi door de tonen heen kunnen gaan.
@@ -147,14 +147,14 @@ void loop()
 
 ## 22.6: eindopdracht
 
- * Sluit een tweede LDR aan op A1.
- * Gebruik:
+* Sluit een tweede LDR aan op A1.
+* Gebruik:
 
 ```c++
 const int input_volume = /* lees de waarde van A1 */;
 ```
 
- * Gebruik:
+* Gebruik:
 
 ```c++
 const int volume = 1.0 * pow(2.0, 0.0078125 * input_volume);

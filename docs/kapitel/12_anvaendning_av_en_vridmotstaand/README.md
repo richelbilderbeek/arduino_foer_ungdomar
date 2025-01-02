@@ -8,7 +8,7 @@ Bygg upp den här kretsen:
 
 ![](anvaendning_av_en_vridmotstaand_1.png)
 
-Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt? 
+Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
 \pagebreak
 
@@ -26,7 +26,7 @@ Bygg upp den här kretsen:
 
 ![](anvaendning_av_en_vridmotstaand_2.png)
 
-Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt? 
+Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
 \pagebreak
 
@@ -46,7 +46,7 @@ Bygg upp den här kretsen:
 
 ![](anvaendning_av_en_vridmotstaand_3.png)
 
-Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt? 
+Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
 \pagebreak
 
@@ -88,7 +88,7 @@ Varför är det så?
 
 När du vrider vänstra vridmotståndet ändrar värden i Serial Plotter.
 Det är för att detta vridmotståndet är använt i programmet: den är
-sammenkopplat till stiftet `A0`. 
+sammenkopplat till stiftet `A0`.
 
 Vridmotståndet åt höger gör ingenting: vi aldrig använder `A1` i programmet.
 
@@ -124,7 +124,7 @@ i programmet.
 
 När du vrider högra vridmotståndet ändrar värden i Serial Plotter.
 Det är för att detta vridmotståndet är använt i programmet: den är
-sammenkopplat till stiftet `A1`. 
+sammenkopplat till stiftet `A1`.
 Skillnad är att värder i Serial Plotter gå i annat riktning när du vrider
 vridmotståndet i relation med andra vridmotståndet.
 
@@ -227,14 +227,14 @@ Det gäller för högra vridmotståndet och lysdioden också.
 
 Försammla:
 
- * 1 dator
- * 1 Arduino
- * 1 USB sladd
- * 1 kopplingsdäck
- * 2 1.000 Ohm motstånd
- * 2 lysdiod
- * 2 vridmotstånd
- * tillräckligt mycket sladdar
+* 1 dator
+* 1 Arduino
+* 1 USB sladd
+* 1 kopplingsdäck
+* 2 1.000 Ohm motstånd
+* 2 lysdiod
+* 2 vridmotstånd
+* tillräckligt mycket sladdar
 
 På dator: har redo koden!
 

@@ -2,8 +2,8 @@
 
 ## 14.1 Uppgift
 
-Anslut en potentiometer. 
-Mittstiftet ska gå till `A0`. 
+Anslut en potentiometer.
+Mittstiftet ska gå till `A0`.
 Se figur 'Servomotor och potentiometer'
 
 ![Servomotor och potentiometer](3_servo_motor_met_potmeter.png)
@@ -34,7 +34,7 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:--------------------------------:|:----------------------------------------: 
+:--------------------------------:|:----------------------------------------:
 `map(analogRead(A0),0,1024,45,135)` |'Kära dator, läs spänningen för `A0`. Detta är ett värde från 0 till 1024. Konvertera det avlästa värdet mellan 45 och 135.'.
 
 

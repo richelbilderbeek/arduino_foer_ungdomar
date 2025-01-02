@@ -3,7 +3,7 @@
 Under den här lektionen ska vi använda en multimeter.
 
 ![](EmojiSunglasses.png) | Ingen spaning, ingen aning!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.1. Mätning av inget motstånd
 
@@ -29,7 +29,7 @@ Ett motstånd på 0 Ohm betyder att det inte finns någonting emellan mätpunkte
 Det stämmer: el kan gå från ena mätpunkten till den andra utan motstånd.
 
 ![](EmojiBowtie.png) | En motstånd på 0 Ohm kallas också för kortslutning!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.2. Mätning av oändligt motstånd
 
@@ -48,7 +48,7 @@ Det stämmer: el kan gå från ena mätpinnen till den andra med mycket motstån
 Det är svårt för el att gå igenom luften!
 
 ![](EmojiBowtie.png) | Ett oändligt motstånd indikerar strömavbrott.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.3. Mätning av ett tusenohms motstånd
 
@@ -59,8 +59,8 @@ Det har ränder i brunt, svart, röd och guld, i den ordningen.
 
 Sätt på multimetern och koppla:
 
- * röda mätpinnen till motståndet på sidan med en brunt rand 
- * svarta mätpinnen till andra sidan av motståndet
+* röda mätpinnen till motståndet på sidan med en brunt rand
+* svarta mätpinnen till andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -70,7 +70,7 @@ Värdena skulle vara mellan 950 och 1050 Ohm! (du måste multiplicera det multim
 Motstånd är inte perfekta, så det stämmer!
 
 ![](EmojiBowtie.png) | Motstånd är inte perfekta!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.4. Mätning av ett tusenohms motstånd i andra riktningen
 
@@ -78,8 +78,8 @@ Motstånd är inte perfekta, så det stämmer!
 
 Vänd på motståndet och mät motståndet igen:
 
- * röda mätpinnen på sidan med guldrand på motståndet
- * svarta mätpinnen på andra sidan av motståndet
+* röda mätpinnen på sidan med guldrand på motståndet
+* svarta mätpinnen på andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -91,7 +91,7 @@ Värdena skulle vara mellan 950 och 1050 Ohm!
 Riktningen på motståndet spelar ingen roll.
 
 ![](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.5. Mätning av ett tiotusenohms motstånd
 
@@ -102,8 +102,8 @@ Det har ränder i brunt, svart, **orange** och guld, i den ordningen.
 
 Sätt på multimetern och koppla:
 
- * röda mätpinnen till motståndet, på sidan med brun rand 
- * svarta mätpinnen till andra sidan av motståndet
+* röda mätpinnen till motståndet, på sidan med brun rand
+* svarta mätpinnen till andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -115,7 +115,7 @@ Värdena skulle vara mellan 9 500 och 10 500 Ohm!
 Motstånd är inte perfekta, så det stämmer!
 
 ![](EmojiBowtie.png) | Motstånd är inte perfekta!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.6. Mätning av ett tiotusenohms motstånd i andra riktning
 
@@ -123,8 +123,8 @@ Motstånd är inte perfekta, så det stämmer!
 
 Vänd på motståndet och mät motståndet igen:
 
- * röda mätpinnen på motståndet, på sidan med guldigt band 
- * svarta mätpinnen på andra sidan av motståndet
+* röda mätpinnen på motståndet, på sidan med guldigt band
+* svarta mätpinnen på andra sidan av motståndet
 
 Vad visar mätningen?
 
@@ -136,7 +136,7 @@ Värdena skulle vara mellan 9 500 och 10 500 Ohm!
 Igen, riktningen på motståndet spelar ingen roll.
 
 ![](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.7. Mätning av en lysdiod
 
@@ -146,8 +146,8 @@ Leta efter en lysdiod.
 
 Sätt på multimetern och koppla:
 
- * röda mätpinnen på det långa benet på lysdioden
- * svarta mätpinnen på det andra benet
+* röda mätpinnen på det långa benet på lysdioden
+* svarta mätpinnen på det andra benet
 
 Vad visar mätningen? Lyser lysdioden litegrann?
 
@@ -161,7 +161,7 @@ Det betyder att el kan gå igenom en lysdiod.
 Det är möjligt att lysdioden lyser litegrann!
 
 ![](EmojiBowtie.png) | Exakta motståndet hos en lysdiod spelar inte så stor roll
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.8. Mätning av en lysdiod i andra riktningen
 
@@ -169,8 +169,8 @@ Det är möjligt att lysdioden lyser litegrann!
 
 Vänd på lysdioden och mät motståndet igen:
 
- * röda mätpinnen på det kortare benet på lysdioden
- * svarta mätpinnen på det andra benet
+* röda mätpinnen på det kortare benet på lysdioden
+* svarta mätpinnen på det andra benet
 
 Vad visar mätningen? Lyser lysdioden litegrann?
 
@@ -183,17 +183,17 @@ Det betyder att el inte kan gå igenom en lysdiod i den riktningen.
 Lysdioden lyser inte.
 
 ![](EmojiBowtie.png) | Riktningen på en lysdiod är viktigt!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 2.9. Slutuppgift
 
 Hämta:
 
- * 1 st multimeter
- * 1 st 1000 Ohms motstånd
- * 1 st 10 000 Ohms motstånd
- * 1 st slumpmässigt motstånd
- * 1 st lysdiod
+* 1 st multimeter
+* 1 st 1000 Ohms motstånd
+* 1 st 10 000 Ohms motstånd
+* 1 st slumpmässigt motstånd
+* 1 st lysdiod
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 

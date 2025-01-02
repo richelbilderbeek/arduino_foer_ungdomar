@@ -2,17 +2,17 @@
 
 ![LED met transistor](7_dc_motor_met_relais_led.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'LED met transistor' aan.
 Doe op het eind het USB snoer weer in de computer.
 
 ![Sunglasses](EmojiSunglasses.png) | Haal deze les *altijd* het USB snoer uit je computer als je een schakeling aan sluit.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Upload de code van 'Blink' op de Arduino.
 
 ![Bowtie](EmojiBowtie.png) | Vergeten hoe dit werkt? Zie les `5. DC motor met transistor`
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### Vragen 1
 
@@ -27,8 +27,8 @@ Upload de code van 'Blink' op de Arduino.
  1. Als de Arduino spanning op pin 13 zet, gaat het lampje branden
  2. De 5V levert de elektriciteit voor het lampje: deze gaat de linker pin van de transistor in,
     verder door de rechter pin en dan door het lampje. Pin 13 zorgt er enkel voor dat dat kan.
- 3. Als de Arduino spanning zet op de middelste pin van de transistor, 
-    kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het LEDje. 
+ 3. Als de Arduino spanning zet op de middelste pin van de transistor,
+    kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het LEDje.
     Daardoor gaat het LEDje branden
 
 ## Relais
@@ -40,16 +40,16 @@ stromen elkaar nergens tegen komen.
 ![Een relais](7_dc_motor_met_relais_relais_echt.png)
 
 ![Sunglasses](EmojiSunglasses.png) | Een relais is een drukknop die je elektronisch in kunt drukken
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Bowtie](EmojiBowtie.png) | Een relais kan gebruikt worden om meer stroom en spanning te schakelen
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
 ![Een eenzaam relais](7_dc_motor_met_relais_relais.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'Een eenzaam relais' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -74,7 +74,7 @@ We gaan nu kijken, wat een relais doet.
 
 ![Relais met LEDs](7_dc_motor_met_relais_relais_leds.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'Relais met LEDs' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -102,7 +102,7 @@ Nu komt de magie!
 
 ![Relais met DC motor](7_dc_motor_met_relais_relais_dc_motor.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'Relais met DC motor' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -111,7 +111,7 @@ Upload de code van 'Blink' op de Arduino.
 ### Vragen 4
 
  1. Wat zie je?
- 
+
 \pagebreak
 
 ### Oplossingen 4
@@ -126,7 +126,7 @@ Upload de code van 'Blink' op de Arduino.
     kant op gaat. Probeer jezelf uit te leggen hoe het werkt
 
 ![Sunglasses](EmojiSunglasses.png) | Denk hier niet langer dan 5 minuten over na! Dit is een erg moeilijke vraag
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -138,7 +138,7 @@ Upload de code van 'Blink' op de Arduino.
 
 ## Eindopdracht
 
- * Laat de motor reageren op een LDR: als er geen licht is, moet de motor linksom draaien, anders rechtsom
+* Laat de motor reageren op een LDR: als er geen licht is, moet de motor linksom draaien, anders rechtsom
 
 ![Bowtie](EmojiBowtie.png) | Vergeten hoe je een LDR aansluit? Zie les `9. LDR`
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:

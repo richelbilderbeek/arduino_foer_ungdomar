@@ -1,6 +1,6 @@
 # LCD les 1
 
-Een LCD is een onderdeel om iets te tonen, zoals letters en symbolen. 
+Een LCD is een onderdeel om iets te tonen, zoals letters en symbolen.
 LCD betekent 'Liquid Crystal Display', dit is Engels voor 'Vloeibare Kristallen Scherm'
 
 ![ArduinoInvaders is een spel dat werkt met een LCD](ArduinoInvaders.jpg)
@@ -22,7 +22,7 @@ Dit is de simpelste manier:
 
 ![Aansluiten LCD manier 1](LcdBreadboard1.png)
 
-Als je de letters niet kunt zien, moet je misschien toch het contrast in kunnen stellen (manier 2), 
+Als je de letters niet kunt zien, moet je misschien toch het contrast in kunnen stellen (manier 2),
 of de backlight aansluiten (manier 3), of beide.
 
 ### Manier 2
@@ -49,7 +49,7 @@ Deze manier doet het altijd
 
 ## Een LCD programmeren
 
-Er zijn veel voorbeeldprogramma's in de Arduino IDE, onder `File | Examples | LiquidCrystal`. 
+Er zijn veel voorbeeldprogramma's in de Arduino IDE, onder `File | Examples | LiquidCrystal`.
 
 ### `Hello World`
 
@@ -123,16 +123,16 @@ Hiermee kun je je eigen figuren op het scherm krijgen.
 
 ## Oefeningen
 
- * Sluit een LCD aan
- * Zet het programma 'Hello World' op de Arduino
-   * Wat doet `LiquidCrystal lcd(12, 11, 5, 4, 3, 2)`? Tip: naar welke pinnen gaan je draadjes?
-   * Wat doet `lcd.begin(16, 2)`? Tip: hoeveel rechthoekjes zitten er op je LCD?
-   * Wat doet `lcd.print("hello, world!")`? Tip: probeer eens `lcd.print("Richel is top")`
-   * Wat doet `lcd.setCursor(0, 1)`? Tip: zet het eerste getal eens op `1`, zet het tweede getal maar eens op `0`
-   * Wat doet `lcd.print(millis()/1000)`? Tip: doe eens `lcd.print(millis())`
-   * Maak zelf een leuke tekst
- * Zet het programma `CustomCharacter` op de Arduino
-   * Kijk eens goed naar de nulletjes en eentjes van `byte heart`. 'heart' is Engels voor 'hart'. Wat betekenen die nulletjes en eentjes?
-   * Wat doet `lcd.createChar(1, heart)`? Tip: dit werkt samen met `lcd.write(1)`
-   * Wat doet `lcd.createChar(2, smiley)`? Tip: dit werkt samen met `lcd.write(2)`
-   * Maak zelf iets leuks met een eigen figuurtje
+* Sluit een LCD aan
+* Zet het programma 'Hello World' op de Arduino
+    * Wat doet `LiquidCrystal lcd(12, 11, 5, 4, 3, 2)`? Tip: naar welke pinnen gaan je draadjes?
+    * Wat doet `lcd.begin(16, 2)`? Tip: hoeveel rechthoekjes zitten er op je LCD?
+    * Wat doet `lcd.print("hello, world!")`? Tip: probeer eens `lcd.print("Richel is top")`
+    * Wat doet `lcd.setCursor(0, 1)`? Tip: zet het eerste getal eens op `1`, zet het tweede getal maar eens op `0`
+    * Wat doet `lcd.print(millis()/1000)`? Tip: doe eens `lcd.print(millis())`
+    * Maak zelf een leuke tekst
+* Zet het programma `CustomCharacter` op de Arduino
+    * Kijk eens goed naar de nulletjes en eentjes van `byte heart`. 'heart' is Engels voor 'hart'. Wat betekenen die nulletjes en eentjes?
+    * Wat doet `lcd.createChar(1, heart)`? Tip: dit werkt samen met `lcd.write(1)`
+    * Wat doet `lcd.createChar(2, smiley)`? Tip: dit werkt samen met `lcd.write(2)`
+    * Maak zelf iets leuks met een eigen figuurtje

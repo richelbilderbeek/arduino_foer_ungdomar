@@ -3,17 +3,17 @@
 ![Pas op! Haal deze les *altijd* het USB snoer uit je computer als je een schakeling aan sluit!](5_dc_motor_met_transistor_waarschuwing.png)
 
 ![Sunglasses](EmojiSunglasses.png) | Haal deze les *altijd* het USB snoer uit je computer als je een schakeling aan sluit.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Bowtie](EmojiBowtie.png) | Anders gaat de computer misschien stuk!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## LED met drukknop
 
 ![LED met drukknop](5_dc_motor_met_transistor_led_drukknop.png)
 
-Haal het USB snoer uit de computer. 
-Sluit dan figuur 'LED met drukknop' aan. 
+Haal het USB snoer uit de computer.
+Sluit dan figuur 'LED met drukknop' aan.
 Doe op het eind het USB snoer weer in de computer.
 
 ### Vragen 1
@@ -40,14 +40,14 @@ zet je er elektrische spanning op.
 Als er spanning op staat, dan kan er stroom door de transistor.
 
 ![Sunglasses](EmojiSunglasses.png) | Een transistor is een soort drukknop, die je met elektriciteit in kunt drukken
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Bowtie](EmojiBowtie.png) | Met een transistor kun je componenten aansluiten die meer stroom nodig hebben
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![LED met transistor](5_dc_motor_met_transistor_led_transistor.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'LED met transistor' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -65,8 +65,8 @@ Upload de code van 'Blink' op de Arduino.
 
  1. Als de Arduino spanning op pin 13 zet, gaat het lampje branden
  2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
- 3. Als de Arduino spanning zet op de middelste pin van de transistor, 
-    kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het LEDje. 
+ 3. Als de Arduino spanning zet op de middelste pin van de transistor,
+    kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het LEDje.
     Daardoor gaat het LEDje branden
 
 ## DC motor met drukknop
@@ -74,29 +74,29 @@ Upload de code van 'Blink' op de Arduino.
 Een DC motor is een motor die beide kanten rond kan draaien. De Arduino, maar ook batterijen, leveren
 gelijkspanning.
 
-![Sunglasses](EmojiSunglasses.png) | DC is een Engelse afkorting voor 'Direct Current': gelijkspanning. 
-:-------------:|:----------------------------------------: 
+![Sunglasses](EmojiSunglasses.png) | DC is een Engelse afkorting voor 'Direct Current': gelijkspanning.
+:-------------:|:----------------------------------------:
 
 ![Bowtie](EmojiBowtie.png) | Een DC motor wordt ook een gelijkspanningsmotor genoemd
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![DC motor met drukknop](5_dc_motor_met_transistor_motor_drukknop.png)
 
 \pagebreak
 
-We gebruiken twee nieuwe componenten: een diode en een condensator. 
+We gebruiken twee nieuwe componenten: een diode en een condensator.
 Deze zijn nodig omdat een DC motor ook elektriciteit kan maken (!).
-Deze elektriciteit kan je computer stukmaken. 
+Deze elektriciteit kan je computer stukmaken.
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 ![Diode](5_dc_motor_met_transistor_diode.png) | Diode, een eenrichtingsweg voor elektriciteit
 ![Condensator](5_dc_motor_met_transistor_condensator.png) | Condensator, een soort batterij die snel op- en ontlaad
 
 ![Sunglasses](EmojiSunglasses.png) | De diode en condensator zijn nodig omdat een DC motor ook elektriciteit kan maken (!).
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'DC motor met drukknop' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -120,7 +120,7 @@ Doe op het eind het USB snoer weer in de computer.
 
 ![DC motor met transistor](5_dc_motor_met_transistor_motor_transistor.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'DC motor met transistor' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -138,8 +138,8 @@ Upload de code van 'Blink' op de Arduino.
 
  1. Als de Arduino spanning op pin 13 zet, gaat het motortje draaien
  2. De batterijen, omdat de plus van de batterijen aangesloten is op de plus van het LEDje
- 3. Als de Arduino spanning zet op de middelste pin van de transistor, 
-    kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het motortje. 
+ 3. Als de Arduino spanning zet op de middelste pin van de transistor,
+    kan er stroom gaan lopen door de transistor (van linker naar rechterpin) en het motortje.
     Daardoor gaat het motortje draaien
 
 ## Eindopdracht
@@ -147,4 +147,4 @@ Upload de code van 'Blink' op de Arduino.
 Laat de motor reageren op een LDR: als er geen licht is, moet de motor gaan draaien
 
 ![Bowtie](EmojiBowtie.png) | Vergeten hoe je een LDR aansluit? Zie les `9. LDR`
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:

@@ -6,14 +6,14 @@ Under den här lektionen använder vi en ljusberoende motstånd, kallas LDR.
 
 Bygg up:
 
- * en potmeter, på A0
+* en potmeter, på A0
 
 Programmerar:
 
- * en `const` variabel `potmeter_stift` på riktigt stift
- * att få värd av potmetern med `analogRead`
- * att skrivar värd av potmetern till Serial Monitor
- * vänta 100 millisecond varje `loop`
+* en `const` variabel `potmeter_stift` på riktigt stift
+* att få värd av potmetern med `analogRead`
+* att skrivar värd av potmetern till Serial Monitor
+* vänta 100 millisecond varje `loop`
 
 \pagebreak
 
@@ -45,8 +45,8 @@ Skriv om programmet litegran för att ha en funktion som häter `visar_potmeter`
 
 `visar_potmeter` kan redan:
 
- * att få värd av potmetern med `analogRead`
- * att skrivar värd av potmetern till Serial Monitor
+* att få värd av potmetern med `analogRead`
+* att skrivar värd av potmetern till Serial Monitor
 
 Addera till `visar_potmeter`:
 
@@ -62,11 +62,11 @@ else
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `<`|'litare än'
 
 ![](EmojiBowtie.png) | `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -108,10 +108,10 @@ void visar_potmeter()
 Byter potmeter om för en LDR.
 En LDR är ansluten sannalikt än en knapp:
 
- * den första ben åker till 5V
- * den andra ben går till en motstand från 10 kOhm, som går till GND
- * den andra ben går till A0
- 
+* den första ben åker till 5V
+* den andra ben går till en motstand från 10 kOhm, som går till GND
+* den andra ben går till A0
+
 Kör programmet med samma kod.
 
 Vilken värder har LDR om du sta ljus iväg med din hand?
@@ -131,11 +131,11 @@ Addera en LED på 13.
 
 Om du håller din hand över LDRen:
 
-  * LEDen skulle ljuser upp 
-  * Serial monitor skull säga 'Det ar morkt'
+* LEDen skulle ljuser upp
+* Serial monitor skull säga 'Det ar morkt'
 
 Om du inte håller din hand över LDRen:
 
-  * LEDen skulle vara släckt
-  * Serial monitor skull säga 'Det ar ljus'
+* LEDen skulle vara släckt
+* Serial monitor skull säga 'Det ar ljus'
 

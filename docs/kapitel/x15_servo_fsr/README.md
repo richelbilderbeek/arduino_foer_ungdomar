@@ -11,7 +11,7 @@ Först ansluter vi bara en FSR:
 > FSR
 
 ![Bowtie](EmojiBowtie.png) | Finns det ingen FSR? använd sedan en LDR
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -34,7 +34,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt vad det här gör? Se lektion `9. LDR`
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 15.3 Kommandon 1
 
@@ -95,7 +95,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt vad det här gör? Se lektion `4. Fler servomotorer`
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ### 15.7 Slutuppgift
 

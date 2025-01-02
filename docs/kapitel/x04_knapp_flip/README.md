@@ -44,11 +44,11 @@ void loop()
 ```
 
 ![](EmojiSunglasses.png) | Hej, jag känner igen den här koden!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
-## 4.2. Knappflipp: Uppgift 1, tänd lampan 
+## 4.2. Knappflipp: Uppgift 1, tänd lampan
 
 Överst i koden, ovanför `setup`, lägg till:
 
@@ -56,7 +56,7 @@ void loop()
 boolean ar_pa = false;
 ```
 
-I början av `loop`, använd ett `if` för att se om knappen är 
+I början av `loop`, använd ett `if` för att se om knappen är
 nedtryckt. Om så är fallet, ställ in `ar_pa` till `true`:
 
 ```c++
@@ -64,7 +64,7 @@ if (/* knappen är nedtryckt */)
 {
   ar_pa = true;
 }
-``` 
+```
 
 Efter det första `if` i `loop`, använd ett andra `if` för att se om `ar_pa`
 är lika med `true`. Om ja, slå på LEDen. Om inte, stäng av LEDen.
@@ -119,10 +119,10 @@ När du trycker på knappen lyser LEDen för alltid.
 
 Vi ska nu programmera att:
   
- * När du trycker på knappen tänds LEDen och förblir tänd
- * När du sedan trycker på knappen igen kommer LEDen att släckas och förbli släckt
- * När du sedan trycker på knappen igen kommer LEDen att tändas och förbli tänd
- * Och så vidare
+* När du trycker på knappen tänds LEDen och förblir tänd
+* När du sedan trycker på knappen igen kommer LEDen att släckas och förbli släckt
+* När du sedan trycker på knappen igen kommer LEDen att tändas och förbli tänd
+* Och så vidare
 
 Justera `if` som kontrollerar om knappen trycks ned:
 
@@ -143,7 +143,7 @@ if (digitalRead(knapp_stift) == HIGH)
 Ladda upp koden. Vad ser du? Om du ser något konstigt så stämmer det!
 
 ![](EmojiBowtie.png) | Vad ser du?|![](EmojiSunglasses.png) | Om du ser något konstigt så stämmer det!
-:-------------:|:----------------:|:-------------:|:----------------------------------------: 
+:-------------:|:----------------:|:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -172,10 +172,10 @@ void loop()
 ```
 
 ![](EmojiBowtie.png) | När du trycker på knappen dimrar LEDen. När du släpper knappen kommer LEDen antingen att vara tänd eller släckt för alltid
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](EmojiSunglasses.png) | Detta beror på att Arduino snabbt och ofta tänder och släcker ljuset
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -186,9 +186,9 @@ När knappen trycks ned, låt Arduino vänta 200 millisekunder innan den kör ig
 
 \pagebreak
 
-## 4.7. Knappflipp: Finjustering av knappfunktionen, lösning 
+## 4.7. Knappflipp: Finjustering av knappfunktionen, lösning
 
-När knappen trycks ned, lägg till en `delay(200);`-regel inuti `if`. 
+När knappen trycks ned, lägg till en `delay(200);`-regel inuti `if`.
 Detta kan göras före eller efter `if`-satserna med `ar_pa`.
 
 ```c++
@@ -217,8 +217,8 @@ void loop()
 Vi kommer att ansluta en andra LED. Du kan byta LED genom att trycka på knappen
 mellan LEDarna.
 
- * Anslut en andra grön LED till stift 12
- * I koden, ändra längst upp:
+* Anslut en andra grön LED till stift 12
+* I koden, ändra längst upp:
 
 ```c++
 // led_stift är bortkopplat
@@ -229,8 +229,8 @@ const int led_stift_gron = /* stift numret */;
 int vilken_led_pa = 1;
 ```
 
- * Se till att de två LEDarna och knappen hittas i koden, i `setup`.
- * I koden, i `loop`, ändra funktionen på knappen:
+* Se till att de två LEDarna och knappen hittas i koden, i `setup`.
+* I koden, i `loop`, ändra funktionen på knappen:
 
 ```c++
 if (/* knappen är nedtryckt */)
@@ -244,7 +244,8 @@ if (/* knappen är nedtryckt */)
   // ... [vänta 200 millisekunder]
 }
 ```
- * I koden, i `loop`, reagerar nu på 'vilken_led_pa':
+
+* I koden, i `loop`, reagerar nu på 'vilken_led_pa':
 
 ```c++
 if (vilken_led_pa == 1)

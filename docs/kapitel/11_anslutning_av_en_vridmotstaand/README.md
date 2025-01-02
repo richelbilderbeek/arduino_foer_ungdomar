@@ -8,12 +8,12 @@ Bygg den här kretsen:
 
 ![](anslutning_av_en_vridmotstaand_1.png)
 
- * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Montera kretsen enligt bild
- * Sätt tillbaka USB-kabeln i datorn
+* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+* Montera kretsen enligt bild
+* Sätt tillbaka USB-kabeln i datorn
 
 ![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?
 
@@ -36,7 +36,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_vridmotstaand_2.png)
 
-Nu är vridmotstånden användt! 
+Nu är vridmotstånden användt!
 
 Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?
 
@@ -46,10 +46,10 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer alltid att lysa när du vrider vridmotstånden helt till 
+Lysdioder kommer alltid att lysa när du vrider vridmotstånden helt till
 vänster (dws. emot klockan).
 Desto mer du vridmotstånden till höger (dws. med klockan) desto
-mindre lysdioden lyser. 
+mindre lysdioden lyser.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -73,7 +73,7 @@ Bygg ihop kretsen och kontrollera!
 Nu funkar det inte: lysdioder kommer aldrig att lysa. Om du har tur, lyser lysdioden
 litegrann. Vridning gör ingenting.
 
-Vridning gör ingenting för att motståndet mellan vänstra och högra ben 
+Vridning gör ingenting för att motståndet mellan vänstra och högra ben
 av vridmotståndet har alltid samma motstånd.
 
 ## 11.4. Krets 4
@@ -96,7 +96,7 @@ Bygg ihop kretsen och kontrollera!
 Lysdioder kommer alltid att lysa när du vrider vridmotstånden helt till
 höger (dws. med klockan).
 Desto mer du vridmotstånden till vänster (dws. emot klockan) desto
-mindre lysdioden lyser. 
+mindre lysdioden lyser.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -116,10 +116,10 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer alltid att lysa när du vrider **båda vridmotstånden** helt till 
+Lysdioder kommer alltid att lysa när du vrider **båda vridmotstånden** helt till
 vänster (dws. emot klockan).
 Desto mer du vrider en/båda av vridmotstånden till höger (dws. med klockan) desto
-mindre lysdioden lyser. 
+mindre lysdioden lyser.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -137,11 +137,11 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer alltid att lysa när du vrider vänstra vridmotståndet helt till 
-vänster (dws. emot klockan) och högra vridmotståndet helt till 
+Lysdioder kommer alltid att lysa när du vrider vänstra vridmotståndet helt till
+vänster (dws. emot klockan) och högra vridmotståndet helt till
 höger (dws. med klockan).
 Desto mer du vrider vridmotstånden till andra sida desto
-mindre lysdioden lyser. 
+mindre lysdioden lyser.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -152,7 +152,7 @@ Kolla på den här kretsen:
 ![](anslutning_av_en_vridmotstaand_7.png)
 
 Nu finns det två vridmotståndor med en annat sammanlänkning.
- 
+
 Lyser lysdioden? Går vridmotståndorna nåt? Varför tror du det?
 
 Bygg ihop kretsen och kontrollera!
@@ -161,10 +161,10 @@ Bygg ihop kretsen och kontrollera!
 
 ### Svar
 
-Lysdioder kommer alltid att lysa när du vrider **båda vridmotstånden** helt till 
+Lysdioder kommer alltid att lysa när du vrider **båda vridmotstånden** helt till
 höger (dws. med klockan).
 Desto mer du vrider en/båda av vridmotstånden till vänster (dws. emot klockan) desto
-mindre lysdioden lyser. 
+mindre lysdioden lyser.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
@@ -172,14 +172,14 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Försammla:
 
- * 1 dator
- * 1 Arduino
- * 1 USB sladd
- * 1 kopplingsdäck
- * 2 vridmotstånd
- * 1 1.000 Ohm motstånd
- * 1 lysdiod
- * tillräckligt mycket sladdar
+* 1 dator
+* 1 Arduino
+* 1 USB sladd
+* 1 kopplingsdäck
+* 2 vridmotstånd
+* 1 1.000 Ohm motstånd
+* 1 lysdiod
+* tillräckligt mycket sladdar
 
 1. Fråga någon för att examinera. Den där person får inte hjälpa dig.
 

@@ -4,7 +4,7 @@ Under den här lektionen ska vi programmera den inbyggda lysdioden
 i Arduino.
 
 ![](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## 1.1. Ansluta en Arduino
 
@@ -19,15 +19,15 @@ Anslut en USB-kabel till din Arduino och till din dator.
 ## 1.2. Startar Arduino IDE
 
 ![](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Starta Arduino IDE genom att:
 
- * Klicka på genvägen på skrivbordet
- * Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Skriv
+* Klicka på genvägen på skrivbordet
+* Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Skriv
    sedan `arduino` (små bokstäver) och tryck sedan Enter
 
 ![Logotyp för Arduino IDE](anvaendning_av_den_inbyggda_lysdioden_ide_logo.png)
@@ -41,7 +41,7 @@ Nu ser du Arduino IDEn:
 ![Arduino IDE](anvaendning_av_den_inbyggda_lysdioden_ide.png)
 
 ![Solglasögon](EmojiSunglasses.png) | IDE betyder 'Integrated Development Environment', mjukvaran du använder för att programmera.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -65,23 +65,23 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `void setup() { }`|'Kära dator, gör allt inom måsvingarna i början av programmet'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `void loop() { }`|'Kära dator, gör allt inom måsvingarna hela tiden.'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `pinMode(13, OUTPUT);`|'Se till att spänning kan komma ut ur stift 13'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `digitalWrite(13, HIGH);`|'Sätt spänning på stift 13'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `delay(1000);`|'Vänta 1000 millisekunder'
 
 Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
@@ -120,7 +120,7 @@ void loop()
 Få LEDen att blinka så snabbt du kan. Vad ser du?
 
 ![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -146,19 +146,19 @@ void loop()
 Du kommer inte längre att kunna se lampan blinka.
 
 ![](EmojiSunglasses.png) | Du kommer inte längre att kunna se lampan blinka!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
 ![](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte uppfatta det tillräckligt snabbt för att se det.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
 ![](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -166,9 +166,9 @@ Du kommer inte längre att kunna se lampan blinka.
 
 Hämta:
 
- * 1 st dator
- * 1 st USB sladd
- * 1 st Arduino
+* 1 st dator
+* 1 st USB sladd
+* 1 st Arduino
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 

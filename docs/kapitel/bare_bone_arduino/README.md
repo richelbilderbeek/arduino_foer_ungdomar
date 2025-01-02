@@ -22,9 +22,8 @@ Kristal (16 MHz) andra sida      | Kondensator 2 (22 pF) ena sida
 Kondensator 1 (22 pF) andra sida | GND
 Kondensator 2 (22 pF) andra sida | GND
 
-Tips: 
+Tips:
 
- * Du kann får 5V och GND från en vanligt Arduino som är anslutad till en dator
- * Chip toppen 10:e ar stift 13 :-)
-
+* Du kann får 5V och GND från en vanligt Arduino som är anslutad till en dator
+* Chip toppen 10:e ar stift 13 :-)
 

@@ -1,4 +1,4 @@
-# 'Volume' installeren.
+# 'Volume' installeren
 
 'Volume' is een bibliotheek, te downloaden op:
 
@@ -31,7 +31,7 @@ volume_1KHz.ino:4:50: fatal error: Volume.h: No such file or directory
 compilation terminated.
 ```
 
-Reden is dat het bestand niet gevonden kan worden. 
+Reden is dat het bestand niet gevonden kan worden.
 Kopieer de bestanden van `/home/arduino/sketches/libraries/Volume/src`
 een folder omhoog naar `/home/arduino/sketches/libraries/Volume`.
 

@@ -24,7 +24,7 @@ Gör foljande:
 
 Frågor:
 
-- Vad visar skopet? 
+- Vad visar skopet?
 - Vad händer om du drar joysticken i olika riktningar?
 
 \pagebreak
@@ -40,7 +40,7 @@ Kanske ser du en gul horisontell linje, som här:
 
 ![](maetening_av_en_joystick_bild_2_5v.jpg)
 
-Om du drar joysticken i en specifik riktning, om du har tur, 
+Om du drar joysticken i en specifik riktning, om du har tur,
 flyttas linjen uppåt och nedåt.
 
 \pagebreak
@@ -66,7 +66,7 @@ Så här kan det se ut:
 
 ![](maetening_av_en_joystick_bild.jpg)
 
-Lägg märke till texten 'M 1.00s', som betyder att varje ruta horisontellt betyder en sekund. 
+Lägg märke till texten 'M 1.00s', som betyder att varje ruta horisontellt betyder en sekund.
 Du kan se att den gula linjen långsamt rör sig.
 
 \pagebreak
@@ -111,7 +111,7 @@ Leta efter ytterligare en prob.
 
 Följ schemat och bygg vidare på kopplingen:
 
-Starta ocilloskopet. 
+Starta ocilloskopet.
 
 Tryck på knappen 'CH2' i 'Vertical' tills den lyser.
 Vridar den övre högra knappen i 'Vertical' tills den visar 'CH2 2.00V'.

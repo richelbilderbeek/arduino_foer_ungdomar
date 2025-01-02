@@ -28,15 +28,15 @@ void loop()
 }
 ```
 
-De code laat 900 milliseconden de toon A horen, en heeft dan 100 milliseconden rust. 
+De code laat 900 milliseconden de toon A horen, en heeft dan 100 milliseconden rust.
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:------------:|:-------------------------------------------------: 
+:------------:|:-------------------------------------------------:
 `tone(8,220)` |'Lieve computer, speel op pin `8` een toon met toonhoogte 220 Hertz. Dit is de toon `A`'.
 `noTone(8)`   |'Lieve computer, stop met het spelen van een toon op pin `8`'.
 
-![Sunglasses](EmojiSunglasses.png) | De `A` is de toon met toonhoogte 220 Hertz 
-:-------------:|:----------------------------------------: 
+![Sunglasses](EmojiSunglasses.png) | De `A` is de toon met toonhoogte 220 Hertz
+:-------------:|:----------------------------------------:
 
 
 ## Opdracht 1
@@ -67,8 +67,8 @@ void loop()
 ```
 
 ![Sunglasses](EmojiSunglasses.png) | 1 Hertz kan iedereen nog horen
-:-------------:|:----------------------------------------: 
- 
+:-------------:|:----------------------------------------:
+
  2. De hoogste toon is 32767 Hertz. Hieronder staat de code
 
 ```c++
@@ -87,10 +87,10 @@ void loop()
 ```
 
 ![Sunglasses](EmojiSunglasses.png) | 32767 Hertz kan iedereen nog horen
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Bowtie](EmojiBowtie.png) | Hoge onhoorbare tonen worden ultrasoon genoemd
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -98,15 +98,15 @@ void loop()
 
 We gaan nu muziek maken! Programmeer het volgende liedje:
 
- * De eerste toon is 131 Herz
- * De tweede toon is 147 Herz
- * De derde toon is 165 Herz
- * De vierde toon is 131 Herz
- * Alle tonen duren 400 milliseconden
- * Na elke toon is er 100 milliseconden stilte
+* De eerste toon is 131 Herz
+* De tweede toon is 147 Herz
+* De derde toon is 165 Herz
+* De vierde toon is 131 Herz
+* Alle tonen duren 400 milliseconden
+* Na elke toon is er 100 milliseconden stilte
 
 ![Sunglasses](EmojiSunglasses.png) | De toonhoogtes die hier gebruikt worden, zitten ook op een piano
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -128,15 +128,15 @@ void loop()
 ```
 
 ![Bowtie](EmojiBowtie.png) | Herken je het liedje al?
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
-## Eindopdracht 
+## Eindopdracht
 
 Maak het liedje iets verder af. Er komen drie tonen bij:
 
- * De vijfde toon is 165 Herz
- * De zesde toon is 175 Herz
- * De zevende toon is 196 Herz
- * Ook de vijfde en zesde toon duren 400 milliseconden
- * De zevende toon duurt 900 milliseconden
- * Na elke toon is er 100 milliseconden stilte
+* De vijfde toon is 165 Herz
+* De zesde toon is 175 Herz
+* De zevende toon is 196 Herz
+* Ook de vijfde en zesde toon duren 400 milliseconden
+* De zevende toon duurt 900 milliseconden
+* Na elke toon is er 100 milliseconden stilte

@@ -47,12 +47,12 @@ Kolla på den här bild:
 
 ![](anslutning_av_en_joystick_knapp_annotated.png)
 
-> Allt el kommer igenom sladd 1. 
+> Allt el kommer igenom sladd 1.
 > Där väljer den den väg med lågsta motstånd.
 > Om knapper är tryckt, sladd 2 har lågsta motstånd.
 > Om knapper är inte tryckt, sladd 3 har lågsta motstånd.
 
-Här kann du ser motstånd mellan SW (av joysticken) 
+Här kann du ser motstånd mellan SW (av joysticken)
 och GND (av joysticken), beroende om joysticken är tryckt:
 
 Tryckt?|Motstånd mellan GND och SW

@@ -14,7 +14,7 @@ Under den här lektion gör vi Blink med NeoPixels!
 
 Anslut en Arduino till NeoPixels så här:
 
-Stift NeoPixels | Stift Arduino 
+Stift NeoPixels | Stift Arduino
 ----------------|--------------
 GND             | GND
 5V              | 5V
@@ -55,7 +55,7 @@ void loop()
 ```
 
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](faergcirkel.png)
 
@@ -78,15 +78,15 @@ Skriv in koden i Arduino IDE och klicka på "Ladda upp".
 ## Neopixel 1: uppgift 2
 
 Blinkar nu
- 
- * den första lysdioden: en Arduino börjar räkna från noll
- * i rött: d.v.s. med ett roed_vaerde på 64, grönt värde på 0 och ett blaa_vaerde på 0
+
+* den första lysdioden: en Arduino börjar räkna från noll
+* i rött: d.v.s. med ett roed_vaerde på 64, grönt värde på 0 och ett blaa_vaerde på 0
 
 Gå nu
 
- * den andra lysdioden
- * grön
- * blinka växelvis
+* den andra lysdioden
+* grön
+* blinka växelvis
 
 \pagebreak
 
@@ -128,9 +128,9 @@ void loop()
 
 Gå nu
 
-  * den tredje lysdioden
+* den tredje lysdioden
   *blått
-  * blinkar växelvis, efter rött och grönt
+* blinkar växelvis, efter rött och grönt
 
 \pagebreak
 

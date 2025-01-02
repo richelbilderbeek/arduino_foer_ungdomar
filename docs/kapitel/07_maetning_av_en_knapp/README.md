@@ -9,8 +9,8 @@ Under den här lektionen ska vi lära oss hur knappar fungerar!
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
- * den röda mätpinnen till det övre vänstra benet på knappen
- * den svarta mätpinnen till det övre högra benen på knappen
+* den röda mätpinnen till det övre vänstra benet på knappen
+* den svarta mätpinnen till det övre högra benen på knappen
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
 
@@ -33,8 +33,8 @@ Smart!
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
- * den röda mätpinnen till det övre vänstra benet på knappen
- * den svarta mätpinnen till det nedre högra benet på knappen
+* den röda mätpinnen till det övre vänstra benet på knappen
+* den svarta mätpinnen till det nedre högra benet på knappen
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
 
@@ -55,8 +55,8 @@ Det är samma resultat som förra gången.
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
- * den röda mätpinnen till det övre vänstra benet på knappen
- * den svarta mätpinnen till det nedre vänstra benet på knappen
+* den röda mätpinnen till det övre vänstra benet på knappen
+* den svarta mätpinnen till det nedre vänstra benet på knappen
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
 
@@ -67,6 +67,7 @@ Vad visar multimetern? Och vad visar den om du trycker på knappen?
 Skärmen visar alltid ett motstånd på 0 Ohm.
 Det betyder att de vänstra benen alltid är sammankopplade.
 Knappen gör ingen skillnad när man kopplar in den på detta sätt
+
 ## 7.4. Att mäta en knapp 4
 
 ![](maetning_av_en_knapp_4.png)
@@ -74,8 +75,8 @@ Knappen gör ingen skillnad när man kopplar in den på detta sätt
 Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
- * den röda mätpinnen till det nedre vänstra benet på knappen
- * den svarta mätpinnen till det övre högra benet på knappen
+* den röda mätpinnen till det nedre vänstra benet på knappen
+* den svarta mätpinnen till det övre högra benet på knappen
 
 Vad visar multimetern? Och vad visar den om du trycker på knappen?
 
@@ -99,8 +100,8 @@ Smart!
 Vrid knappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
- * den röda mätpinnen till det nedre vänstra benet på knappen
- * den svarta mätpinnen till det nerdre högra benet på knappen
+* den röda mätpinnen till det nedre vänstra benet på knappen
+* den svarta mätpinnen till det nerdre högra benet på knappen
 
 Vad visar mätningen? Och om du trycker på knappen?
 
@@ -121,8 +122,8 @@ Det är samma resultat som förra gången.
 Vrid vredet på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
 
- * röda mätpinnen till det nere vänstra benet på knappen
- * svarta mätpinnen till det övre vänstra benet på knappen
+* röda mätpinnen till det nere vänstra benet på knappen
+* svarta mätpinnen till det övre vänstra benet på knappen
 
 Vad visar mätningen? Och om du trycker på knappen?
 
@@ -138,8 +139,8 @@ Man skulle inte koppla en knapp på den här vis.
 
 Hämta:
 
- * 1 st multimeter
- * 1 st knapp
+* 1 st multimeter
+* 1 st knapp
 
 Läs igenom slutuppgiften först, efter det har du 5 minuter på dig.
 

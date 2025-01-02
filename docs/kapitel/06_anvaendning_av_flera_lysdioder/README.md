@@ -46,7 +46,7 @@ Vad tror du att koden gör? Vad händer? Varför?
 Koden tänder lysdioden vid hål 11, 12 och 13,
 väntar en sekund (dvs. tusen millisekunder),
 släcker alla lysdioder
-och väntar en sekund. 
+och väntar en sekund.
 Efter det upprepas koden.
 
 Men ingenting händer, eftersom det inte sitter några sladdar i hålen.
@@ -117,22 +117,22 @@ Vad ser du?
 
 Mönstret upprepar:
 
- * lysdioderna i 11 och 12 lyser
- * en sekund händer ingenting
- * lysdioden i 13 lyser, lysdioden i 11 släcker
- * en sekund händer ingenting
- * lysdioden i 12 och i 13 släcker
- * en sekund händer ingenting
+* lysdioderna i 11 och 12 lyser
+* en sekund händer ingenting
+* lysdioden i 13 lyser, lysdioden i 11 släcker
+* en sekund händer ingenting
+* lysdioden i 12 och i 13 släcker
+* en sekund händer ingenting
 
 ## 6.13: Knight Rider mönstret
 
 Förbered kod:
 
-Få nu LEDs lysa i ett 'Knight Rider-mönster': 1-2-3-2. 
+Få nu LEDs lysa i ett 'Knight Rider-mönster': 1-2-3-2.
 Det ska alltid vara exakt en LED som lyser.
 
 ![Solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Knight Rider](KnightRider.png)
 
@@ -171,13 +171,13 @@ void loop()
 
 Material som krävs:
 
- * 1 dator
- * 1 Arduino
- * 1 USB sladd
- * 1 kopplingsdäck
- * 3 1.000 Ohm motstånd
- * 3 lysdioder
- * lagom många sladdar
+* 1 dator
+* 1 Arduino
+* 1 USB sladd
+* 1 kopplingsdäck
+* 3 1.000 Ohm motstånd
+* 3 lysdioder
+* lagom många sladdar
 
 På datorn: har koden redo!
 

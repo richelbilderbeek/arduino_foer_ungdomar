@@ -1,8 +1,8 @@
 # 8. Infrarood Sensor Obstakel Ontwijkend Object
 
-Deze les leren we 
+Deze les leren we
 
- * hoe je een autootje maakt die dingen ontwijkt
+* hoe je een autootje maakt die dingen ontwijkt
 
 ## Waarschuwing
 
@@ -55,7 +55,7 @@ Als er spanning op staat, dan kan er stroom door de transistor.
 
 ![LED met transistor](8_isooo_led.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'LED met transistor' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -75,7 +75,7 @@ Upload de code van 'Blink' op de Arduino.
 
 ![Een eenzaam relais](8_isooo_relais.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'Een eenzaam relais' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -95,7 +95,7 @@ Upload de code van 'Blink' op de Arduino.
 
 ![Relais met DC motor](8_isooo_relais_dc_motor.png)
 
-Haal het USB snoer uit de computer. 
+Haal het USB snoer uit de computer.
 Sluit figuur 'Relais met DC motor' aan.
 Doe op het eind het USB snoer weer in de computer.
 
@@ -115,6 +115,6 @@ Upload de code van 'Blink' op de Arduino.
 
 ![Eindopdracht](8_isooo_compleet.png)
 
- * Maak de schakeling af, volgens figuur 'Eindopdracht'
- * Programmeer de code zelf: als er niks voor de sensor zit, moet de auto vooruit gaan. Anders moet de auto draaien
+* Maak de schakeling af, volgens figuur 'Eindopdracht'
+* Programmeer de code zelf: als er niks voor de sensor zit, moet de auto vooruit gaan. Anders moet de auto draaien
 

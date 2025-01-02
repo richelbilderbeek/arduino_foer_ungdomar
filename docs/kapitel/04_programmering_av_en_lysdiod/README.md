@@ -14,7 +14,7 @@ Avänd 5V hålet av Arduino. Funkar detta?
 
 ### Svar
 
-Absolut skulle det funka! 
+Absolut skulle det funka!
 Glöm inte att det längre benet av lysdioden ska vara
 kopplat till `5V` hålet på Arduino.
 
@@ -60,23 +60,23 @@ void loop()
 ```
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `void setup() { }`|'Kära dator, gör allt skrivet inom måsvingarna i början av programmet'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `void loop() { }`|'Kära dator, gör allt skrivet inom måsvingarna hela tiden.'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `pinMode(13, OUTPUT);`|'Se till att spänning kan komma ut ur stift 13'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `digitalWrite(13, HIGH);`|'Sätt spänning på stift 13'
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `delay(1000);`|'Vänta i 1000 millisekunder'
 
 Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
@@ -120,7 +120,7 @@ void loop()
 Få LEDen att blinka så snabbt du kan. Vad ser du?
 
 ![](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -148,17 +148,17 @@ Du kommer inte längre att se lampan blinka.
 \pagebreak
 
 ![](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](EmojiBowtie.png) | Ljuset blinkar, men det blinkar för fort för att våra ögon ska kunna uppfatta det.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
 ![](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -171,10 +171,10 @@ Anslut nu lysdioden till Arduino stift `12`.
 \pagebreak
 
 ![](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ![](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
@@ -237,25 +237,25 @@ void loop()
 
 Material som krävs:
 
- * 1 dator
- * 1 Arduino
- * 1 USB sladd
- * 1 kopplingsdäck
- * 1 1.000 Ohm motstånd
- * 1 lysdiod
- * 3 sladdar
+* 1 dator
+* 1 Arduino
+* 1 USB sladd
+* 1 kopplingsdäck
+* 1 1.000 Ohm motstånd
+* 1 lysdiod
+* 3 sladdar
 
 På dator: har koden redo!
 
 Läs hela slutuppgiften noga först, efter det har du 5 minuter.
 
-1. Be någon om hjälp för att examinera. 
+1. Be någon om hjälp för att examinera.
 
 Starta en timer med 5 min och gör följande:
 
 2. Få lysdioden att lysa på `5V` hålet
 
-3. Examinerare väljer ett slumpmässigt hål med nummer mellan 2 och 11 
+3. Examinerare väljer ett slumpmässigt hål med nummer mellan 2 och 11
    (så 2 och 11 är också tilllåtna).
    Du ska få lysdioden att blinka vid det valda hålet.
 

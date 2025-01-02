@@ -3,7 +3,7 @@
 ## Seriele monitor
 
 ![Sunglasses](EmojiSunglasses.png) | Seriele monitor: de plek waar je de Arduino kunt laten praten via een seriele poort
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Met de seriele monitor kunnen we de Arduino laten praten.
 Of precies: dat deze tekst naar de seriele monitor stuurt.
@@ -18,7 +18,7 @@ Eerst sluiten we alleen een Arduino aan:
 Ik denk dat dit wel moet lukken :-)
 
 ![Sunglasses](EmojiSunglasses.png) | De seriele monitor gaat via het USB snoer tussen Arduino naar computer
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -38,7 +38,7 @@ void loop()
 ```
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `Serial.begin(9600);`|'Lieve computer, laat de Arduino praten met 9600 bits per seconde'
 `Serial.print("Hallo");`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen'
 `Serial.println("Hallo");`|'Lieve computer, laat de Arduino het woord `Hallo` zeggen en een nieuwe regel beginnen`'
@@ -69,14 +69,14 @@ void loop()
 ## Aansluiten FSR zonder LED
 
 ![Sunglasses](EmojiSunglasses.png) | FSR betekent 'Force Sensitive Resistance'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Eerst sluiten we alleen een FSR aan:
 
 ![Stroomschema](4_FSR.png)
 
 ![Bowtie](EmojiBowtie.png) | Is er geen FSR, gebruik dan een LDR
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -99,21 +99,21 @@ void loop()
 ```
 
 ![Computer](EmojiComputer.png)  | ![Smiley](EmojiSmiley.png)
-:------------------------------:|:----------------------------------------: 
+:------------------------------:|:----------------------------------------:
 `Serial.println(analogRead(A0))`|'Lieve computer, laat de waarde van pin `A0` op de seriele monitor zien'
 
 ## Opdrachten 2
 
  1. Upload het programma. In de Arduino IDE, klik rechtsboven op 'Seriele Monitor'. Wat zie je?
- 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR) 
+ 2. Druk de FSR in met je vingers (of, met een LDR: houd je vinger boven de LDR)
     terwijl je de seriele monitor bekijkt. Wat zie je?
  3. Verander `Serial.println` naar `Serial.print`. Wat zie je?
  4. Verander de tekst `Serial.begin(9600)` naar `Serial.begin(4800)`. Wat zie je? Waarom?
- 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg. 
+ 5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg.
     Kijk op de seriele monitor. Wat zie je?
 
 ![Sunglasses](EmojiSunglasses.png) | De weerstand tussen A0 en LDR een 'Pull Down' weerstand genoemd
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 
 \pagebreak
@@ -128,12 +128,12 @@ void loop()
  5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
 ![Sunglasses](EmojiSunglasses.png) | Een 'Pull Down' weerstand voorkomt een zwevende input
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 ## Aansluiten FSR met LED, aan/uit
 
 ![Sunglasses](EmojiSunglasses.png) | 'Force Sensitive Resistance' betekent 'Kracht afhankelijke weerstand'
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Nu sluiten we ook een LED aan:
 
@@ -167,13 +167,13 @@ void loop()
 ```
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `if (analogRead(A0) < 512) {}`|'Lieve computer, als op A0 minder dan 2,5 Volt staat, doe dan datgeen tussen accolades'
 
 ### Opdrachten 3
 
  1. Wat gebeurt er als je `512` hoger zet? Wat gebeurt er als je `512` lager zet?
- 2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR 
+ 2. Zorg dat de seriele monitor ook `A0` meet en laat zien. Welk getal meet de FSR
     in rust?
  3. Zorg dat de seriele monitor het woord `AAN` laat zien als de LED aan gaat, en het
     woord `UIT` als de LED uit wordt gezet
@@ -187,8 +187,8 @@ void loop()
  2. Hiervoor gebruik je de code van de vorige opdracht: voeg in de `setup` function toe `Serial.begin(9600);`,
     in de `loop` functie voeg je `Serial.println(analogRead(A0));` toe. De waarde die je gaat zien is
     afhankelijk van de weerstand, FSR en situatie
- 3. Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten. 
-    Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement. 
+ 3. Dit kan door `Serial.println("AAN");` in het eerste gedeelte van het `if` statement te zetten.
+    Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement.
 
 ```c++
 void setup() 
@@ -243,7 +243,7 @@ void loop()
 ```
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `analogWrite(  0, 9)`|'Lieve computer, zet pin 9 uit'
 `analogWrite(128, 9)`|'Lieve computer, zet pin 9 halfvol aan'
 `analogWrite(255, 9)`|'Lieve computer, zet pin 9 vol aan'
@@ -251,7 +251,7 @@ void loop()
 
 ### Opdrachten 4
 
- 1. Het LEDje zit op een andere pin. Kijk in de code en sluit de LED aan op de juiste pin 
+ 1. Het LEDje zit op een andere pin. Kijk in de code en sluit de LED aan op de juiste pin
  2. Welke pinnen kunnen we gebruiken om een LEDje te dimmen?
 
 \pagebreak
@@ -264,10 +264,10 @@ void loop()
 ### Opdracht 5
 
 Sluit twee LEDjes aan op pinnen 12 en 13. Als de FSR in rust is, moet er geen LEDje branden. Als je de FSR zacht indrukt,
-gaat er een LEDje branden. Als je de FSR hard indrukt twee. 
+gaat er een LEDje branden. Als je de FSR hard indrukt twee.
 
 ![Bowtie](EmojiBowtie.png) | Tip: gebruik twee `if` statements
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -305,7 +305,7 @@ Je kunt een LEDje ook laten reageren op een FSR door deze te faden/dimmer
 
  1. Met welk commando deed je dat ook alweer?
  2. Kan dat met elke pin? Zo nee, met welke wel/niet?
- 3. Wat is de hoogste waarde waarmee je een LEDje kunt laten branden? 
+ 3. Wat is de hoogste waarde waarmee je een LEDje kunt laten branden?
  4. Wat is de hoogste waarde die de FSR kan meten?
  5. Stel je wil een LED laten branden afhankelijk van een FSR waarde. Hoe zou je dit kunnen doen?
  6. Hoe laat je code een deling doen?
@@ -321,7 +321,7 @@ Je kunt een LEDje ook laten reageren op een FSR door deze te faden/dimmer
  3. Met `analogWrite` kun je maximaal 255 geven, bijvoorbeeld `analogWrite(11, 255);`
  4. Met `analogRead` kun je maximaal 1023 meten
  5. Je leest een waarde, deelt deze door vier (1024 gedeeld door 256 is vier) en laat de LED zo hard branden
- 6. Met de deelstreep, `/`. 
+ 6. Met de deelstreep, `/`.
  7. Zie hieronder. Vergeet niet een LEDje op pin 11 te zetten
 
 ```c++
@@ -340,19 +340,19 @@ void loop()
 ```
 
 ![Computer](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 `analogWrite(11, analogRead(A0) / 4)`|'Lieve computer, dim pin 11 op de waarde van pin A0 (dit moet je delen door vier)'
 
 \pagebreak
 
 ## Eindopdracht
 
- * Sluit vier LEDjes aan: een witte, een rode, een gele en een groene 
- * Als de FSR in rust is, moet er geen LEDje branden. 
- * Als je de FSR zacht indrukt gaat het groene LEDje branden
- * Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
- * Als je de FSR hard indrukt gaan de groene, gele en rode LEDjes branden
- * Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
+* Sluit vier LEDjes aan: een witte, een rode, een gele en een groene
+* Als de FSR in rust is, moet er geen LEDje branden.
+* Als je de FSR zacht indrukt gaat het groene LEDje branden
+* Als je de FSR harder indrukt gaan de groene en gele LEDjes branden
+* Als je de FSR hard indrukt gaan de groene, gele en rode LEDjes branden
+* Het witte LEDje gaat harder en zachter branden afhankelijk van de FSR
 
 Als je geen wit LEDje hebt, gebruik dan een andere kleur.
 

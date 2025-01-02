@@ -24,9 +24,9 @@ Vilka av hålen är sammanlänkade?
 
 ### 3.1. Svar
 
- * 1 är sammanlänkat med 2
- * 3 är sammanlänkat med 4
- * 5 är ensamt
+* 1 är sammanlänkat med 2
+* 3 är sammanlänkat med 4
+* 5 är ensamt
 
 ## 3.2. Anslut motstånden och lysdioden
 
@@ -40,9 +40,9 @@ Det finns sex färgade hål. Vilka av dem är sammanlänkade?
 
 ### 3.2. Svar
 
- * rött är sammanlänkat med orange
- * gult är sammanlänkat med grönt
- * blått är sammanlänkat med lila
+* rött är sammanlänkat med orange
+* gult är sammanlänkat med grönt
+* blått är sammanlänkat med lila
 
 ## 3.3. Anslut motstånden och lysdioden
 
@@ -50,24 +50,24 @@ Nu är det dags att bygga kretsen på riktigt:
 
 ![](anslutning_av_en_lysdiod_1.png)
 
- * Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
- * Montera kretsen enligt bild:
-   * Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster 
+* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+* Montera kretsen enligt bild:
+    * Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster
      i kopplingsdäcket
-   * Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden i kopplingsdäcket.
-     Det ska finnas en tomt hål mellan det långa benet på lysdioden och 
+    * Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden i kopplingsdäcket.
+     Det ska finnas en tomt hål mellan det långa benet på lysdioden och
      den röda sladden i kopplingsdäcket.
-   * Sätt det korta benet på lysdioden i hålet till höger om det långa benet
-   * Koppla in sidan med brun rand på ett motstånd ett hål ovanför det korta benet på lysdioden
-   * Koppla in sidan med guldig rand på ett motstånd fyra hål till höger om
+    * Sätt det korta benet på lysdioden i hålet till höger om det långa benet
+    * Koppla in sidan med brun rand på ett motstånd ett hål ovanför det korta benet på lysdioden
+    * Koppla in sidan med guldig rand på ett motstånd fyra hål till höger om
      motståndet med brun rand.
      Det ska finnas tre tomma hål mellan båda sidorna av motstånden i kopplingsdäcket.
-   * Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
+    * Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
      till GND-hålet i Arduino
- * Sätt tillbaka USB-kabeln i datorn
+* Sätt tillbaka USB-kabeln i datorn
 
 ![](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
-:-------------:|:----------------------------------------: 
+:-------------:|:----------------------------------------:
 
 Lyser lysdioden?
 
@@ -194,7 +194,7 @@ Bygg upp kretsen och kontrollera!
 ### 3.9. Svar
 
 Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
-Så ja, det skulle funka! Det är inte viktigt hur många hål (eller avsaknad av) 
+Så ja, det skulle funka! Det är inte viktigt hur många hål (eller avsaknad av)
 det finns mellan benen på lysdioden.
 
 ## 3.10. Krets 8
@@ -216,7 +216,7 @@ Elen kan gå från `5V` till `GND` igenom lysdioden och motståndet!
 Så ja, det ska funka! En komponent kan kopplas mellan den övre och nedre delen på ett koppplingsdäck.
 
 ## 3.11. Krets 9
- 
+
 Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_9.png)
@@ -256,7 +256,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_11.png)
 
-Nu är motståndet kopplat före lysdioden! 
+Nu är motståndet kopplat före lysdioden!
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
@@ -311,7 +311,7 @@ Kolla på den här kretsen:
 
 ![](anslutning_av_en_lysdiod_12.png)
 
-Nu är motståndet inkopplat före lysdioden! 
+Nu är motståndet inkopplat före lysdioden!
 
 Tror du att lysdioden kommer att lysa? Varför?
 Bygg upp kretsen och kontrollera!
