@@ -84,7 +84,6 @@ Kpt|Beskrivning
 28 |Kapacitiv sensor 4: tre kopplade för Arduino Invaders
 .  | **Bok 8**
 29 |[7 segment display](sju_segment_display/README.md)
-30 |[LCD 1](LCD1/README.md)
 31 |[LCD 2](LCD2/README.md)
 32 |[LCD 3](LCD3/README.md)
 

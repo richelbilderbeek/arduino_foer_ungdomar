@@ -1,8 +1,8 @@
 # Programmering av en robotarm
 
 Under den här lektionen ska vi programmera denna coola robotarm
-![Bild](robotarm.jpg)
 
+![Robotarm](robotarm.jpg)
 
 ## Styra robotarmen
 

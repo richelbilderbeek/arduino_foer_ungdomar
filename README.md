@@ -1,12 +1,6 @@
 # Arduino för ungdomar
 
-Kurs 'Arduino för ungdomar'.
-
-* [böcker](docs/boecker/README.md): ladda ner böckerna här i A4- eller A5-format
-* [kapitel](docs/kapitel/README.md): det här är de enskilda kapitlen
-* [lektionkort](docs/kapitel/lektionskort/README.md): det här är lektionskortet
-* [scripts](scripts/README.md): det här är manus för att förvandla kapitlen till böcker
-* [vanliga frågor](docs/faq.md): här är de vanligaste frågorna
+- [Go to the nicely rendered website](https://richelbilderbeek.github.io/arduino_foer_ungdomar/)
 
 ## Files used by continuous integration scripts
 
