@@ -37,7 +37,7 @@ Kör koden och rör joysticken. Vad ser du?
 
 \pagebreak
 
-### Svar
+### 15.2. Svar
 
 Om du inte rör joysticken är färgen [...].
 Om du rör joysticken i ena rikting kan du ändra ljusstyrka.
@@ -49,7 +49,7 @@ Kolla igenom kod.
 
 Kan du översätta varje mening till svenska?
 
-### Svar
+### 15.3. Svar
 
 ```c++
 const int pin_joy_x{A0};
@@ -66,7 +66,7 @@ const int pin_led_r{9};
 > Kära dator, minns en variabel kallades `pin_led_r`, som
 > är en helvärtstal som kan inte ändrar sig, med initiälvärd `9`
 
-```
+```c++
 void setup() {}
 ```
 
@@ -75,19 +75,19 @@ void setup() {}
 
 \pagebreak
 
-```
+```c++
 pinMode(pin_joy_x, INPUT);
 ```
 
 > Kära dator, Arduino stift `pin_joy_x` är för att mäta el
 
-```
+```c++
 pinMode(pin_led_r, OUTPUT);
 ```
 
 > Kära dator, Arduino stift `pin_led_r` är för att schicka el
 
-```
+```c++
 void loop() {}
 ```
 
@@ -95,7 +95,7 @@ void loop() {}
 > för evigt, efter `setup` är färdigt
 
 
-```
+```c++
 const int joy_x{analogRead(pin_joy_x)};
 ```
 
@@ -103,7 +103,7 @@ const int joy_x{analogRead(pin_joy_x)};
 > är en helvärtstal som kan inte ändrar sig, med initiälvärd
 > det som Arduino läser av stift `pin_joy_x`
 
-```
+```c++
 const int ljus_styrka_r{joy_x / 4};
 ```
 
@@ -112,7 +112,7 @@ const int ljus_styrka_r{joy_x / 4};
 > `ljus_styrka_r` delad med fyra
 
 
-```
+```c++
 analogWrite(pin_led_r, ljus_styrka_r);
 ```
 
@@ -129,7 +129,7 @@ Lägga till:
 
 \pagebreak
 
-### Svar
+### 15.4. Svar
 
 ```
 const int pin_joy_x{A0};
@@ -168,7 +168,7 @@ Lägga till:
 
 ### Svar
 
-```
+```c++
 const int pin_joy_x{A0};
 const int pin_joy_y{A1};
 const int pin_joy_sw{A2};

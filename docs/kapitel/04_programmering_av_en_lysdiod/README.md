@@ -12,7 +12,7 @@ Avänd 5V hålet av Arduino. Funkar detta?
 
 \pagebreak
 
-### Svar
+### 4.1. Svar
 
 Absolut skulle det funka!
 Glöm inte att det längre benet av lysdioden ska vara
@@ -36,7 +36,7 @@ Funkar detta?
 
 \pagebreak
 
-### Svar
+### 4.2. Svar
 
 Det vet vi inte än! Det beror på om det finns ett program i Arduinon som använder hålet `13`. Bara fortsätt!
 
@@ -85,7 +85,7 @@ Funkar det? Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
 \pagebreak
 
-### Svar
+### 4.3. Svar
 
 Det ska absolut funka! Både lysdioden och den inbyggda lysdioden ska lysa
 samtidigt. Båda ska slås av och på varje sekund.
@@ -98,7 +98,7 @@ Tips: LED är nu 1000 millisekunder (1 sekund) på och 1000 millisekunder (1 sek
 
 \pagebreak
 
-### Svar
+### 4.4. Svar
 
 ```c++
 void setup()
@@ -124,7 +124,7 @@ Få LEDen att blinka så snabbt du kan. Vad ser du?
 
 \pagebreak
 
-### Svar
+### 4.5. Svar
 
 Det finns fler lösningar, det här är en:
 
@@ -180,7 +180,7 @@ Vad gör lysdioden? Vad gör den inbyggda lysdioden?
 
 \pagebreak
 
-### Svar
+### 4.6. Svar
 
 Lysdioden gör (antagligen!) ingenting,
 för det finns inte spänning på stift 12!
@@ -193,7 +193,7 @@ Tip: ändra `13` till `12` för tre gånger.
 
 \pagebreak
 
-### Svar
+### 4.7. Svar
 
 ```c++
 void setup() 
@@ -216,7 +216,7 @@ Se nu till att lysdioden på stift 12 börjar blinka dubbelt så fort.
 
 \pagebreak
 
-### Svar
+### 4.8. Svar
 
 ```c++
 void setup() 

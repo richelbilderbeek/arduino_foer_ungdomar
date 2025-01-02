@@ -12,7 +12,7 @@ Vila lysdioder skulle alltid lysa? Gör knapporna nåt?
 
 \pagebreak
 
-### Svar
+### 9.1. Svar
 
 Lysioden åt vänster skulle alltid lysa.
 Lysioderna åt höger skulle lysa om du trycker knappen den är anslutna till.
@@ -29,7 +29,7 @@ Vila lysdioder skulle alltid lysa? Gör knapporna nåt?
 
 \pagebreak
 
-### Svar
+### 9.2. Svar
 
 Lysioden åt vänster kanske lyser, kanske inte: det beror på programmet på Arduinon.
 
@@ -61,13 +61,13 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.3. Svar
 
 På början lyser lysdioden inte.
 Om du trycker på vänsterknappen lyser upp lysdioden för evigt.
 Högerknappen gör ingenting.
 
-## 9.3: Kod 2
+## 9.4: Kod 2
 
 Uploada den här koden:
 
@@ -91,14 +91,14 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.4. Svar
 
 På början lyser lysdioden inte.
 Om du trycker på högerknappen lyser upp lysdioden för evigt.
 Vänsterknappen gör ingenting.
 
 
-## 9.3: Kod 3
+## 9.5: Kod 3
 
 Uploada den här koden:
 
@@ -123,13 +123,13 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.5. Svar
 
 På början lyser lysdioden.
 Om du trycker på vänsterknappen släcker lysdioden för evigt.
 Högerknappen gör ingenting.
 
-## 9.4: Kod 4
+## 9.6. Kod 4
 
 Uploada den här koden:
 
@@ -156,13 +156,13 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.6. Svar
 
 På början lyser lysdioden inte.
 Om du du trycker på vänsterknappen, lyser lysdioden för evigt.
 Om du du trycker på högerknappen, släcker lysdioden för evigt.
 
-## 9.5: Kod 5
+## 9.7. Kod 5
 
 Uploada den här koden:
 
@@ -187,13 +187,13 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.7. Svar
 
 På början lyser lysdioden inte.
 Om du du trycker på vänsterknappen, lyser lysdioden så länge du håller knappen intryckt.
 Högerknappen gör ingenting.
 
-## 9.6: Kod 6
+## 9.8. Kod 6
 
 Uploada den här koden:
 
@@ -220,12 +220,12 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.8. Svar
 
 På början lyser lysdioden inte.
 Om du du trycker på båda knappor, lyser lysdioden så länge du håller båda intryckt.
 
-## 9.7: Kod 7
+## 9.9. Kod 7
 
 Uploada den här koden:
 
@@ -253,13 +253,13 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.9. Svar
 
 På början lyser lysdioden inte.
 Om du du trycker på en av båda knappor,
 lyser lysdioden så länge du håller en av båda intryckt.
 
-## 9.8: Kod 8
+## 9.10. Kod 8
 
 Uploada den här koden:
 
@@ -287,13 +287,13 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 9.10. Svar
 
 På början lyser lysdioden.
 Om du du trycker på en av båda knappor,
 släcker lysdioden så länge du håller en av båda intryckt.
 
-## 9.13: Slutuppgift
+## 9.11: Slutuppgift
 
 Försammla:
 

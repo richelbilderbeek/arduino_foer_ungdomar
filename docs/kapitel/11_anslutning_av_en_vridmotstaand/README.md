@@ -21,7 +21,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 11.1. Svar
 
 Elen kan gå från `5V` till 5 voltskraftrems, igenom lysdioden och motståndet,
 till jordenskraftrems och till `GND`.
@@ -44,7 +44,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 11.2. Svar
 
 Lysdioder kommer alltid att lysa när du vrider vridmotstånden helt till
 vänster (dws. emot klockan).
@@ -68,7 +68,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 11.3. Svar
 
 Nu funkar det inte: lysdioder kommer aldrig att lysa. Om du har tur, lyser lysdioden
 litegrann. Vridning gör ingenting.
@@ -91,7 +91,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 11.4. Svar
 
 Lysdioder kommer alltid att lysa när du vrider vridmotstånden helt till
 höger (dws. med klockan).
@@ -114,7 +114,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 11.5. Svar
 
 Lysdioder kommer alltid att lysa när du vrider **båda vridmotstånden** helt till
 vänster (dws. emot klockan).
@@ -135,7 +135,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 11.6. Svar
 
 Lysdioder kommer alltid att lysa när du vrider vänstra vridmotståndet helt till
 vänster (dws. emot klockan) och högra vridmotståndet helt till
@@ -159,7 +159,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 11.7. Svar
 
 Lysdioder kommer alltid att lysa när du vrider **båda vridmotstånden** helt till
 höger (dws. med klockan).
@@ -168,7 +168,7 @@ mindre lysdioden lyser.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
-## 11.9. Slutuppgift
+## 11.8. Slutuppgift
 
 Försammla:
 

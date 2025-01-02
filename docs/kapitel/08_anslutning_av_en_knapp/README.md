@@ -21,7 +21,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.1. Svar
 
 Elen kan gå från `5V` till 5voltsskenorna, igenom lysdioden och motståndet,
 genom jordskenorna och till `GND`.
@@ -46,7 +46,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.2. Svar
 
 Lysdioden ska alltid att lysa: de vänstra benen på knappen är sammanlänkade!
 
@@ -66,7 +66,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.3. Svar
 
 Nu funkar knappen som tänkt: lysdioder kommer att lysa om du trycker knappen.
 
@@ -86,7 +86,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.4. Svar
 
 Knappen funkar fortfarande bra: lysdioder kommer att lysa om du trycker knappen.
 
@@ -106,7 +106,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.5. Svar
 
 Knappen funkar fortfarande bra: lysdioden kommer att lysa om du trycker knappen.
 
@@ -126,7 +126,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.6. Svar
 
 Knappen funkar så dem skulle: om du trycker på båda
 kommer lysdioden att lysa.
@@ -147,7 +147,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.7. Svar
 
 knapparna funkar så de ska: om du trycker **en av båda**
 kommer lysdioden att lysa.
@@ -169,7 +169,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 8.8. Svar
 
 Om du trycker en knapp, kommer alltid två lysdioder att lysa.
 

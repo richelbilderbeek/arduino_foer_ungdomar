@@ -24,7 +24,7 @@ Vilka av hålen är sammanlänkade?
 
 \pagebreak
 
-### Svar
+### 5.1. Svar
 
 * 1 är sammanlänkat med 5
 * 2 är sammanlänkat med 6
@@ -53,7 +53,7 @@ Försök förklara:
 
 \pagebreak
 
-### Svar
+### 5.2. Svar
 
 Sladden mellan 5V på Arduino och kopplingsdäcket
 gör så att kopplingsdäcket är kopplat till 5V spänning.
@@ -83,7 +83,7 @@ Lyser lysdioden? Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 5.3. Svar
 
 Elen kan gå från `5V` till 5 voltsskena, igenom lysdioden och motståndet,
 till jordningsskena och fram till `GND`.
@@ -104,7 +104,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 5.4. Svar
 
 Lysdioderna kommer båda att lysa, då båda har tillgång till `5V` och jord tack vare skenorna.
 
@@ -123,7 +123,7 @@ Bygg ihop kretsen och kontrollera!
 
 \pagebreak
 
-### Svar
+### 5.5. Svar
 
 Lysdioderna kommer alla tre att lysa, för att varje
 har tillgång till `5V` och jord tack vare skenorna.

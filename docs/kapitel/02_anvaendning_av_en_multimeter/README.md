@@ -21,7 +21,7 @@ Vad visar mätningen?
 
 \pagebreak
 
-### Svar
+### 2.1. Svar
 
 Skärmen ska visa ett motstånd på 0 Ohm.
 
@@ -38,7 +38,7 @@ Det stämmer: el kan gå från ena mätpunkten till den andra utan motstånd.
 Sätt på multimetern och håll den röda mätpinnen långt bort från den svarta mätpinnen.
 Vad visar mätningen?
 
-### Svar
+### 2.2. Svar
 
 Skärmen skulle visat 'Inf' eller 'OL'. 'Inf' är an förkortning av 'Infinity',
 som är engelska för oändligt.
@@ -64,7 +64,7 @@ Sätt på multimetern och koppla:
 
 Vad visar mätningen?
 
-### Svar
+### 2.3. Svar
 
 Värdena skulle vara mellan 950 och 1050 Ohm! (du måste multiplicera det multimetern visar med 1000 ibland)
 Motstånd är inte perfekta, så det stämmer!
@@ -85,7 +85,7 @@ Vad visar mätningen?
 
 \pagebreak
 
-### Svar
+### 2.4. Svar
 
 Värdena skulle vara mellan 950 och 1050 Ohm!
 Riktningen på motståndet spelar ingen roll.
@@ -109,7 +109,7 @@ Vad visar mätningen?
 
 \pagebreak
 
-### Svar
+### 2.5. Svar
 
 Värdena skulle vara mellan 9 500 och 10 500 Ohm!
 Motstånd är inte perfekta, så det stämmer!
@@ -130,7 +130,7 @@ Vad visar mätningen?
 
 \pagebreak
 
-### Svar
+### 2.6. Svar
 
 Värdena skulle vara mellan 9 500 och 10 500 Ohm!
 Igen, riktningen på motståndet spelar ingen roll.
@@ -153,7 +153,7 @@ Vad visar mätningen? Lyser lysdioden litegrann?
 
 \pagebreak
 
-### Svar
+### 2.7. Svar
 
 Värdet är inte oändligt!
 Det betyder att el kan gå igenom en lysdiod.
@@ -176,7 +176,7 @@ Vad visar mätningen? Lyser lysdioden litegrann?
 
 \pagebreak
 
-### Svar
+### 2.8. Svar
 
 Värdet skulle vara oändligt.
 Det betyder att el inte kan gå igenom en lysdiod i den riktningen.

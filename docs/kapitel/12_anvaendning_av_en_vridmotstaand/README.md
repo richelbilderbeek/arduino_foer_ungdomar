@@ -2,7 +2,7 @@
 
 Under den här lektionen ska vi ansluta vridmotstånd till en Arduino!
 
-## 12.1: Krets 1
+## 12.1. Krets 1
 
 Bygg upp den här kretsen:
 
@@ -12,7 +12,7 @@ Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
 \pagebreak
 
-### Svar
+### 12.1. Svar
 
 Båda lysioder skulle hela tiden lysa.
 Båda vridmotstånd gör ingenting.
@@ -20,7 +20,7 @@ Nu är vi säkert att lysdioder funkar!
 
 Om inte, fråga om hjälp!
 
-## 12.2: Krets 2
+## 12.2. Krets 2
 
 Bygg upp den här kretsen:
 
@@ -30,7 +30,7 @@ Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
 \pagebreak
 
-### Svar
+### 12.2. Svar
 
 Lysdioden på höger skulle lysar om vridmotståndet på höger är vridat
 helt till vänster (dws. emot klockan).
@@ -40,7 +40,7 @@ Nu är vi säkert att vridmotstånd funkar!
 
 Om inte, fråga om hjälp!
 
-## 12.3: Krets 3
+## 12.3. Krets 3
 
 Bygg upp den här kretsen:
 
@@ -50,12 +50,12 @@ Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 
 \pagebreak
 
-### Svar
+### 12.3. Svar
 
 Lysdioden lyser aldrig, för den får ingen 5V.
 Båda vridmotstånd gör ingenting.
 
-## 12.4: Kod 1
+## 12.4. Kod 1
 
 Uploada den här koden:
 
@@ -82,7 +82,7 @@ Varför är det så?
 
 \pagebreak
 
-### Svar
+### 12.4. Svar
 
 ![Bild](anvaendning_av_en_vridmotstaand_serial_plot_1.png)
 
@@ -92,7 +92,7 @@ sammenkopplat till stiftet `A0`.
 
 Vridmotståndet åt höger gör ingenting: vi aldrig använder `A1` i programmet.
 
-## 12.3: Kod 2
+## 12.5. Kod 2
 
 Uploada den här koden:
 
@@ -115,7 +115,7 @@ Varför trodde du det?
 
 \pagebreak
 
-### Svar
+### 12.5. Svar
 
 ![Bild](anvaendning_av_en_vridmotstaand_serial_plot_2.png)
 
@@ -128,7 +128,7 @@ sammenkopplat till stiftet `A1`.
 Skillnad är att värder i Serial Plotter gå i annat riktning när du vrider
 vridmotståndet i relation med andra vridmotståndet.
 
-## 12.3: Kod 3
+## 12.6. Kod 3
 
 Uploada den här koden:
 
@@ -152,13 +152,13 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 12.6. Svar
 
 ![Bild](anvaendning_av_en_vridmotstaand_serial_plot_3.png)
 
 Nu ser du båda två linjer i Serial Plotter tillsammans.
 
-## 12.5: Krets 4
+## 12.7. Krets 4
 
 Bygg upp den här kretsen:
 
@@ -171,14 +171,14 @@ Kan du gissar hur Serial Plotter ser ut nu? Varför?
 
 \pagebreak
 
-### Svar
+### 12.7. Svar
 
 ![Bild](anvaendning_av_en_vridmotstaand_serial_plot_4.png)
 
 Nu har båda vridmotstånd samma effect på värde i Serial Plotter.
 På den här vis funkar vridmotstånd som man tror att det skulle.
 
-## 12.3: Krets 5
+## 12.8. Krets 5
 
 Bygg upp den här kretsen:
 
@@ -189,12 +189,12 @@ Kan du gissar vad lysdioder ska göra nu? Varför?
 
 \pagebreak
 
-### Svar
+### 12.8. Svar
 
 Lysdioder fortfarande gör ingenting, för at den är aldrig använd i koden.
 
 
-## 12.3: Kod 4
+## 12.9. Kod 4
 
 Uploada den här koden:
 
@@ -218,12 +218,12 @@ Vad gissar du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 12.9. Svar
 
 Nu funkar vänstra vridmotstånd som en dimmer för vänstra lysdioden.
 Det gäller för högra vridmotståndet och lysdioden också.
 
-## 12.13: Slutuppgift
+## 12.10: Slutuppgift
 
 Försammla:
 

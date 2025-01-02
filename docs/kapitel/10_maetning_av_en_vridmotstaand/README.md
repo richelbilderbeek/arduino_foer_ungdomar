@@ -24,7 +24,7 @@ Sätt på multimetern och koppla:
 
 \pagebreak
 
-### Svar
+### 10.1. Svar
 
 Så här funkar vridmotståndet bra! Mätningar skull vara så här (om inte: fråga hjälp!):
 
@@ -60,7 +60,7 @@ Sätt på multimetern och koppla:
 
 \pagebreak
 
-### Svar
+### 10.2. Svar
 
 Vad du än gör, skärmet visar högsta värd du har hittat under före mätningen.
 
@@ -88,7 +88,7 @@ Sätt på multimetern och koppla:
 
 \pagebreak
 
-### Svar
+### 10.3. Svar
 
 Nu mäter du tvartomna värd av första mätningar:
 
@@ -120,7 +120,7 @@ Vridar motstandet igen för att kontrollera dig själva!
 
 \pagebreak
 
-### Svar
+### 10.4. Svar
 
 Mätet motstand mellan stift 1 och 3 av vridmotståndet är **summan**
 av den andra två!

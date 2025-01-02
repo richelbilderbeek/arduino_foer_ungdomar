@@ -41,7 +41,7 @@ Vad tror du att koden gör? Vad händer? Varför?
 
 \pagebreak
 
-### Svar
+### 6.2. Svar
 
 Koden tänder lysdioden vid hål 11, 12 och 13,
 väntar en sekund (dvs. tusen millisekunder),
@@ -113,7 +113,7 @@ Vad ser du?
 
 \pagebreak
 
-### Svar
+### 6.6. Svar
 
 Mönstret upprepar:
 
@@ -124,7 +124,7 @@ Mönstret upprepar:
 * lysdioden i 12 och i 13 släcker
 * en sekund händer ingenting
 
-## 6.13: Knight Rider mönstret
+## 6.7: Knight Rider mönstret
 
 Förbered kod:
 
@@ -138,7 +138,7 @@ Det ska alltid vara exakt en LED som lyser.
 
 \pagebreak
 
-### Svar
+### 6.7. Svar
 
 ```c++
 void setup() 
@@ -167,7 +167,7 @@ void loop()
 
 \pagebreak
 
-## 6.13: Slutuppgift
+## 6.8. Slutuppgift
 
 Material som krävs:
 

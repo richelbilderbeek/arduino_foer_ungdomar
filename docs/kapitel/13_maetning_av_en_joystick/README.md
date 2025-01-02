@@ -29,7 +29,7 @@ Frågor:
 
 \pagebreak
 
-### Svar
+### 13.1. Svar
 
 ![Bild](maetening_av_en_joystick_verkligheten_1.jpg)
 
@@ -60,7 +60,7 @@ Hur ser den gula linjen ut nu?
 
 \pagebreak
 
-### Svar
+### 13.2. Svar
 
 Så här kan det se ut:
 
@@ -87,7 +87,7 @@ Hur ser gula linje ut nu? Dra också på joysticken för att se något coolt!
 
 \pagebreak
 
-### Svar
+### 13.3. Svar
 
 Så här kan det se ut:
 
@@ -120,7 +120,7 @@ Vad visar skopet? Vad händer om du rör på joysticken?
 
 \pagebreak
 
-### Svar
+### 13.4. Svar
 
 Så här kan det se ut:
 

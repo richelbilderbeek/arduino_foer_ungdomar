@@ -18,7 +18,7 @@ Det längsta benet på RGB ljusdioden ska kopplas till GND.
 
 \pagebreak
 
-### Svar
+### 14.1. Svar
 
 Rörandet på joysicken gör vad man kan föreställa sig:
 du ska ser att ljusdioder byter färg mellan röd, grön och en
@@ -37,7 +37,7 @@ Funkar knappen av joysticken nu?
 
 \pagebreak
 
-### Svar
+### 14.2. Svar
 
 Japp, nu funkar knappen av joysticken.
 
@@ -71,7 +71,7 @@ Gör:
 
 \pagebreak
 
-### Svar
+### 14.3. Svar
 
 Om du mäter motståndet mellan GND (av joysticken) och SW (av joysticken),
 mäter du:
@@ -79,7 +79,7 @@ mäter du:
 - om knapper är tryckt: en lite värd, typ 0,5 Ohm
 - om knapper är ej tryckt: 'Inf' eller en hög värd
 
-## 14.5. Slutuppgift
+## 14.4. Slutuppgift
 
 Ta bort alla sladdar.
 
@@ -92,4 +92,3 @@ Starta en timer och gör följande:
 1. Koppla allt tillsammans igen
 1. Visar att joystick funkar: båda om du vrider och om du trycker på knappen
 1. Berätta hur elen gå igenom kretsen om du trycker knappen eller ej
-
