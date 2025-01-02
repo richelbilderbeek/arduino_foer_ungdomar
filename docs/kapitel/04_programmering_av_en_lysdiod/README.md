@@ -249,13 +249,13 @@ På dator: har koden redo!
 
 Läs hela slutuppgiften noga först, efter det har du 5 minuter.
 
-1. Be någon om hjälp för att examinera.
+- Steg 1: Be någon om hjälp för att examinera.
 
 Starta en timer med 5 min och gör följande:
 
-2. Få lysdioden att lysa på `5V` hålet
+- Steg 2: Få lysdioden att lysa på `5V` hålet
 
-3. Examinerare väljer ett slumpmässigt hål med nummer mellan 2 och 11
-   (så 2 och 11 är också tilllåtna).
-   Du ska få lysdioden att blinka vid det valda hålet.
+- Steg 3: Examinerare väljer ett slumpmässigt hål med nummer mellan 2 och 11
+  (så 2 och 11 är också tilllåtna).
+  Du ska få lysdioden att blinka vid det valda hålet.
 

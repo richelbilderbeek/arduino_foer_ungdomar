@@ -346,14 +346,14 @@ Det långa benet av en lysdiod skall vara kopplat till 5V.
 
 Läs igenom slutuppgiften först, för du har 15 minuter på dig.
 
-1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+- Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
 Starta en timer och gör följande:
 
 Upprepa fem gånger:
 
-2. Examinerare väljer en ritning fråm den här lektionen och gömmer svaret.
-   Hen frågar om du tror att kretsen kommer att fungera, och du svarar ja eller nej.
-   Bygg upp kretsen för att kontrollera ditt svar.
+- Steg 2: Examinerare väljer en ritning fråm den här lektionen och gömmer svaret.
+  Hen frågar om du tror att kretsen kommer att fungera, och du svarar ja eller nej.
+  Bygg upp kretsen för att kontrollera ditt svar.
 
 Klarar du minst fyra av fem, har du klarat slutuppgiften!

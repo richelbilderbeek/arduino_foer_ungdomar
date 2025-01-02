@@ -26,10 +26,10 @@ Vilka av hålen är sammanlänkade?
 
 ### 5.1. Svar
 
-* 1 är sammanlänkat med 5
-* 2 är sammanlänkat med 6
-* 3 är sammanlänkat med 7
-* 4 är sammanlänkat med 8
+- 1 är sammanlänkat med 5
+- 2 är sammanlänkat med 6
+- 3 är sammanlänkat med 7
+- 4 är sammanlänkat med 8
 
 ## 5.2. Anslut motstånden och lysdioden
 
@@ -39,17 +39,17 @@ Kolla på den här bilden:
 
 Den fyra långa horisontella raderna av hål kallas 'skenor'.
 
-* Två skenor levererar 5V spänning.
+- Två skenor levererar 5V spänning.
    Ofta har de en röd linje brevid sig.
-* Två skenor fungerarar som jord eller GND.
+- Två skenor fungerarar som jord eller GND.
    Ofta har den en svart eller blå linje brevid sig
 
 Försök förklara:
 
-* Vad gör sladden mellan 5V på Arduino och kopplingsdäcket?
-* Vad gör sladden mellan GND på Arduino och kopplingsdäcket?
-* Vad gör sladden mellan +skenorna?
-* Vad gör sladden mellan -skenorna?
+- Vad gör sladden mellan 5V på Arduino och kopplingsdäcket?
+- Vad gör sladden mellan GND på Arduino och kopplingsdäcket?
+- Vad gör sladden mellan +skenorna?
+- Vad gör sladden mellan -skenorna?
 
 \pagebreak
 
@@ -72,9 +72,9 @@ Nu är det dags att bygga kretsen på riktigt:
 
 ![Bild](anslutning_av_flera_lysdioder_1.png)
 
-* Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
-* Montera kretsen enligt bild
-* Sätt tillbaka USB-kabeln i datorn
+- Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
+- Montera kretsen enligt bild
+- Sätt tillbaka USB-kabeln i datorn
 
 ![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
@@ -134,16 +134,18 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Material som krävs:
 
-* 1 dator
-* 1 Arduino
-* 1 USB sladd
-* 1 kopplingsdäck
-* 7 1.000 Ohm motstånd
-* 7 lysdioder
-* lagom många sladdar
+- 1 dator
+- 1 Arduino
+- 1 USB sladd
+- 1 kopplingsdäck
+- 7 1.000 Ohm motstånd
+- 7 lysdioder
+- lagom många sladdar
 
-1. Fråga någon för att examinera. Den personen får inte hjälpa dig.
+Läs hela slutuppgiften noga först, efter det har du 10 minuter.
+
+- Steg 1: Fråga någon för att examinera. Den personen får inte hjälpa dig.
 
 Starta en timer på 10 minuter och gör följande:
 
-2. Får 7 lysdioder att lysa
+- Steg 2: Får 7 lysdioder att lysa

@@ -183,8 +183,8 @@ På datorn: har koden redo!
 
 Läs slutuppgiften först, efter det har du 10 minuter på dig.
 
-1. Fråga någon för att examinera. Personen får inte hjälpa dig!
+- Steg 1: Fråga någon för att examinera. Personen får inte hjälpa dig!
 
 Starta en timer och gör följande:
 
-2. Bygg upp kretsen från början, ladda upp koden och visa Knight Rider mönstret!
+- Steg 2: Bygg upp kretsen från början, ladda upp koden och visa Knight Rider mönstret!

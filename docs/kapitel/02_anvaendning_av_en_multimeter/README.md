@@ -197,14 +197,14 @@ Hämta:
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 
-1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+- Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
 Starta en timer och gör följande:
 
-2. Visa exakta motståndet för ett 1.000 Ohms motstånd
+- Steg 2: Visa exakta motståndet för ett 1.000 Ohms motstånd
 
-3. Visa exakta motståndet för ett 10.000 Ohms motstånd
+- Steg 3: Visa exakta motståndet för ett 10.000 Ohms motstånd
 
-4. Visa exakta motståndet för det slumpmässigt valda motståndet
+- Steg 4: Visa exakta motståndet för det slumpmässigt valda motståndet
 
-5. Bevisa att riktningen på en lysdiod är antingen viktig eller oviktig
+- Steg 5: Bevisa att riktningen på en lysdiod är antingen viktig eller oviktig
