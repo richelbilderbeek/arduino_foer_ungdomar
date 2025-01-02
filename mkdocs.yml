@@ -24,7 +24,7 @@ theme:
   palette:
     primary: indigo
 
-  logo: logo/arduino.png
+  logo: logo/arduino_community_logo.png
 
   features:
     - toc.integrate
