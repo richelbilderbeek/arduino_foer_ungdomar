@@ -87,7 +87,5 @@ flowchart TD
     arduino_foer_ungomar[Arduino för ungdomar]:::sv_node
 
     aan_de_slag_met_arduino --> |Förenkling| arduino_voor_jonge_tieners
-    arduino_voor_jonge_tieners --> |Förbättring|arduino_voor_jonge_tieners
     arduino_voor_jonge_tieners --> |Översättning|arduino_foer_ungomar
-    arduino_foer_ungomar --> |Förbättring|arduino_foer_ungomar
 ```
