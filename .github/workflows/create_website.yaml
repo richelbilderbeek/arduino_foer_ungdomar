@@ -17,5 +17,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt natsort
 
+      - name: remove all pagebreaks
+        run: ./scripts/remove_all_pagebreaks.sh
+
       - name: Render HTML
         run: mkdocs gh-deploy --force
