@@ -1,5 +1,7 @@
 # Arduino för ungdomar
 
+[![DOI](https://zenodo.org/badge/495032889.svg)](https://doi.org/10.5281/zenodo.14591260)
+
 - [Go to the nicely rendered website](https://richelbilderbeek.github.io/arduino_foer_ungdomar/)
 
 ## Files used by continuous integration scripts
