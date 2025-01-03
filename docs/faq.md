@@ -29,7 +29,8 @@ Upphovsrätten till dessa böcker finns på:
 (C) Richèl Bilderbeek och alla lärare och alla elever
 ```
 
-Det här är många människor, så det här häftet kommer alltid att förbli gratis, gratis och öppet.
+Det här är många människor, så det här häftet kommer alltid
+att förbli gratis, gratis och öppet.
 
 ## Får jag distribuera dessa böcker?
 
