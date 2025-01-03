@@ -2,9 +2,9 @@
 
 Under den här lektionen ska vi mäta en servo!
 
-## 20.1. Att mäta motståndet av en servo med en multimeter
+## 20.1. Att mäta motståndet av en servo med en skop
 
-![Att mäta en servo med en multimeter](maetning_av_en_servo_1.png)
+![Att mäta en servo med en skop](maetning_av_en_servo_anslutning.jpg)
 
 Vrid vridknappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
