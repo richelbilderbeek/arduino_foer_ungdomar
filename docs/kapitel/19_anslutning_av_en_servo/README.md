@@ -4,23 +4,42 @@ Under den här lektionen ska vi ansluta en servo!
 
 ## 19.1. Att koppla en servo
 
-![Bild](anslutning_av_en_servo.png)
+![Anslutning av en servo, schematiskt](anslutning_av_en_servo.png)
 
 > Schemat av kopplingen
 
-Koppla tillsammans som schemat och koppla Arduino till en dator.
-Prober skulle gå till en signalgenerator.
+Koppla tillsammans som schemat. 
+Röda och svarta prob ska kopplas till signalgeneratorn
+Koppla Arduino till en dator.
+
+![Anslutning av en servo, realisiskt](anslutning_av_en_servo_anslutning.jpg)
 
 Servor har sladdor av olika färger, här är vad dem betyder:
 
-Färg       |Vad
+Färger     |Vad
 -----------|------
 Brun, svart|GND
 Röd        |5V
 Orange, gul|Signal
 
-Sät generator på blockspänning och tryck på knapp '1k'
-('1k' betyder 'ett tusen').
+![Anslutning av en servo, sladdar](anslutning_av_en_servo_sladdar.jpg)
+
+På signalgeneratorn:
+
+- sät spänning på blockspänning
+
+![Sät spänning på blockspänning](anslutning_av_en_servo_signal_generator_block.jpg)
+
+> Sät spänning på blockspänning
+
+- sät frekvens på 1k hertz. '1k' betyder 'ett tusen'. Ett tusen hertz
+  betyder ett tusen blockvågar per sekund
+
+![Sät frekvens på 1k hertz](anslutning_av_en_servo_signal_generator_1k.jpg)
+
+> Sät frekvens på 1k hertz
+
+![Signalgenerator settings](anslutning_av_en_servo_signal_generator.jpg)
 
 Vrid 'Frequency' knappen.
 
