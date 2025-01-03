@@ -8,7 +8,7 @@ I mappen '[boecker](boecker/README.md)'.
 
 Japp:
 
-- [Uppsala](https://github.com/richelbilderbeek/arduinokurs)
+- [Lördagskurserna i Uppsala](https://uppsala-makerspace.github.io/loerdagskurser/)
 
 ## Vad är licensen på böckerna?
 
@@ -33,17 +33,11 @@ Det här är många människor, så det här häftet kommer alltid att förbli g
 
 ## Får jag distribuera dessa böcker?
 
-Ja tack!
+Gjärna!
 
 ## Hur skickar jag in ett förslag?
 
-Trevlig!
-
-Det finns flera alternativ:
-
-- Skicka ett e-postmeddelande till @richelbilderbeek, sök efter "Richel Bilderbeek email"
-- Skapa en Issue
-- Skapa en Pull Request
+Trevlig! Ser [hur att bidra](CONTRIBUTING.md).
 
 ## Kan jag ändra dessa böcker?
 
@@ -52,7 +46,8 @@ och upprätthåller samma fria licens.
 
 ## Kan jag sälja dessa böcker?
 
-Att sälja är inte rätt ord här.
+- För en vinst-drivande företag: nej
+- För att täcka kostnader: ja
 
 Böckerna får tryckas fritt.
 Detta ger tryckkostnader.
@@ -63,7 +58,7 @@ Ingen vinst får göras på bokföringen.
 ## Varför finns Uppsala Makerspacets logotyp på omslaget?
 
 Dessa häften användes för första gången
-hos Uppsala Makerspace. Eftersom de trycker häften,
+hos Uppsala Makerspace. Eftersom dem trycker häften,
 denna logotyp finns på omslaget.
 
 Det är fullt möjligt att byta omslag, utan eller med annan logotyp.
@@ -96,4 +91,3 @@ flowchart TD
     arduino_voor_jonge_tieners --> |Översättning|arduino_foer_ungomar
     arduino_foer_ungomar --> |Förbättring|arduino_foer_ungomar
 ```
-

@@ -6,7 +6,7 @@ edit_uri: blob/main/docs/
 nav:
   - Kapitel: kapitel/README.md
   - Böcker: boecker/README.md
-  - Lektionkort: kapitel/lektionskort/README.md
+  - Lektionkort: lektionskort/README.md
   - Vanliga frågor: faq.md
   - Misc:
     - Bidragsgivarna: bidragsgivarna.md
