@@ -39,11 +39,11 @@ void loop()
 Detta är vad koden gör:
 
 - Två saker händer i "setup"-funktionen
-    * `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
-    * `Serial.begin(9600)`: den seriella monitorn skickar 9600 bitar ('nollor och ettor') per sekund
+    - `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
+    - `Serial.begin(9600)`: den seriella monitorn skickar 9600 bitar ('nollor och ettor') per sekund
 - Två saker händer i 'loop'-funktionen
-    * `Serial.println(analogRead(A0))`: läs stift `A0` och skriv det till seriell monitor
-    * `delay(100)`: vänta hundra millisekunder
+    - `Serial.println(analogRead(A0))`: läs stift `A0` och skriv det till seriell monitor
+    - `delay(100)`: vänta hundra millisekunder
 
 ## 10.3 Uppgifter
 
@@ -89,13 +89,13 @@ void loop()
 Detta är vad koden gör
 
 - Tre saker händer i "setup"-funktionen:
-    * `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
-    * `pinMode(9, OUTPUT)`: stift `9` är ett stift där ström kommer ut, en utgång
+    - `pinMode(A0, INPUT)`: stiftet `A0` är ett stift som läser, en ingång
+    - `pinMode(9, OUTPUT)`: stift `9` är ett stift där ström kommer ut, en utgång
 - Två saker händer i "loop"-funktionen:
-    * `analogWrite(9, analogRead(A0) / 8)`: sätt en spänning på stift 9
+    - `analogWrite(9, analogRead(A0) / 8)`: sätt en spänning på stift 9
      `analogRead(A0) / 8`. `analogRead(A0) / 8` betyder: läs värdet från A0
      dividerat med åtta ('/' är en divisionsstapel).
-    * `delay(100)`: vänta hundra millisekunder
+    - `delay(100)`: vänta hundra millisekunder
 
 ## 10.6 Uppdrag
 

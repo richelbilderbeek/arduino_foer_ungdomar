@@ -39,11 +39,11 @@ void loop()
 Dit doet de code:
 
 - In de `setup` functie gebeuren twee dingen
-    * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-    * `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
+    - `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
+    - `Serial.begin(9600)`: de seriele monitor stuurt 9600 bits ('nullen en enen') per seconde
 - In de `loop` functie gebeuren twee dingen
-    * `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
-    * `delay(100)`: wacht honderd milliseconden
+    - `Serial.println(analogRead(A0))`: lees de pin `A0` uit en schrijf deze naar de seriele monitor
+    - `delay(100)`: wacht honderd milliseconden
 
 ## Opdrachten
 
@@ -89,13 +89,13 @@ void loop()
 Dit doet de code
 
 - In de `setup` functie gebeuren drie dingen:
-    * `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
-    * `pinMode(9, OUTPUT)`: pin `9` is een pin waar stroom uitkomt, een output
+    - `pinMode(A0, INPUT)`: de pin `A0` is een pin die leest, een input
+    - `pinMode(9, OUTPUT)`: pin `9` is een pin waar stroom uitkomt, een output
 - In de `loop` functie gebeuren twee dingen:
-    * `analogWrite(9, analogRead(A0) / 8)`: zet op pin 9 een spanning van
+    - `analogWrite(9, analogRead(A0) / 8)`: zet op pin 9 een spanning van
      `analogRead(A0) / 8`. `analogRead(A0) / 8` betekent: de waarde gelezen van A0
      gedeeld door acht (de `/` is een deelstreep).
-    * `delay(100)`: wacht honderd milliseconden
+    - `delay(100)`: wacht honderd milliseconden
 
 ## Opdracht
 

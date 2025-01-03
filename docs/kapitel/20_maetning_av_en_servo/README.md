@@ -73,7 +73,7 @@ Vi fick 68 kOhm, dvs 68.000 Ohm.
 
 ## 16.4. Att mäta spänningen av en LDR med en multimeter
 
-Bygga elkretsen nadåt: 
+Bygga elkretsen nadåt:
 
 ![Att mäta en LDR med en skop](maetning_av_en_ldr_2.png)
 
@@ -123,7 +123,7 @@ Vi fick 0.28 volt.
 
 ## 16.7. Att mäta en LDR med en skop
 
-Bygga elkretsen nadåt: 
+Bygga elkretsen nadåt:
 
 ![Att mäta en LDR med en skop](maetning_av_en_ldr_2.png)
 
