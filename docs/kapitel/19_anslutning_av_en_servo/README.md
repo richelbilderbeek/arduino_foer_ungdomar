@@ -4,7 +4,7 @@ Under den här lektionen ska vi ansluta en servo!
 
 ## 19.1. Att koppla en servo
 
-![Bild](anslutning_av_en_servo_1.png)
+![Bild](anslutning_av_en_servo.png)
 
 > Schemat av kopplingen
 

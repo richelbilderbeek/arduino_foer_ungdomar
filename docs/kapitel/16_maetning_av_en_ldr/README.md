@@ -102,7 +102,12 @@ Bygga elkretsen nadåt:
 
 ![Att mäta en LDR med en skop](maetning_av_en_ldr_2.png)
 
-Röda proben gå till en oscilloskop.
+Så ser det ut:
+
+![Att mäta en LDR med en skop](maetning_av_en_ldr_med_skop.jpg)
+
+Probens röda sladd gå till mellan LDR och motstånd.
+Probens svarta sladd gå till GND.
 
 På skopen gör:
 
@@ -112,6 +117,8 @@ På skopen gör:
 Vilken spänning visar skopen?
 
 ### 16.7. Svar
+
+![Vanligt ljus](maetning_av_en_ldr_vanligt_ljus.jpg)
 
 Det skulle vara en spänning mellan 0 och 5 volt,
 för att detta är spänningen av Arduinon
@@ -125,6 +132,8 @@ Vilken spänning visar skopen nu?
 
 ### 16.8. Svar
 
+![Upplysning av en LDR](maetning_av_en_ldr_upplysing.jpg)
+
 Spänningen öker, men aldrig högre än 5 volt
 
 Vi fick 3.1 volt.
@@ -135,6 +144,8 @@ Ta bort ljuset till LDRen med, t.ex. din hand.
 Vilken spänning visar skopen nu?
 
 ### 16.9. Svar
+
+![Fördystring av LDR](maetning_av_en_ldr_foerdystring.jpg)
 
 Spänningen sänker,  men aldrig mindre än 0 volt
 
