@@ -8,7 +8,7 @@ Under den här lektionen ska vi ansluta en servo!
 
 > Schemat av kopplingen
 
-Koppla tillsammans som schemat. 
+Koppla tillsammans som schemat.
 Röda och svarta prob ska kopplas till signalgeneratorn
 Koppla Arduino till en dator.
 
