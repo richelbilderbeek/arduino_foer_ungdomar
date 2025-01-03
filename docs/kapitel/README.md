@@ -49,8 +49,8 @@ med den some vi redan känner.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 8**: LCD
-22 |[Anslutning av en LCD](22_anslutning_av_en_lcd/README.md)
-23 |[Mätning av en LCD](23_maetning_av_en_lcd/README.md)
+22 |Anslutning av en LCD
+23 |Mätning av en LCD
 24 |[Användning av en LCD](24_anvaendning_av_en_lcd/README.md)
 .  |**Vuxen bok 1**
 1  |[Blink](./x01_blink/README.md)
@@ -68,7 +68,6 @@ Kpt|Beskrivning
 11 |[FSR RGB](x11_fsr_rgb/README.md)
 12 |[LDR RGB](x12_ldr_rgb/README.md)
 .  |**Bok 4**
-13 |[Servo med seriell monitor](x13_servo_serial/README.md)
 14 |[Servo med potmeter](x14_servo_potmeter/README.md)
 15 |[FSR med servo](x15_servo_fsr/README.md)
 16 |[Servor](x16_servos/README.md)
@@ -85,10 +84,10 @@ Kpt|Beskrivning
 19 |[1-stift-7-parallella-motstånd-piano](x19_1_stift_7_parallella_motstaand_piano/README.md)
 20 |[1-stift-7-motstånd-i-serie-piano](x20_1_stift_7_motstaand_in_serie_piano/README.md)
 .  | **Bok 6**
-22 |[Theremin med LDR](22_theremin_ldr/README.md)
-23 |[Theremin med potmeter](23_theremin_potmeters/README.md)
-24 |[Theremin med infraröd](24_theremin_infraroed/README.md)
-25 |[Theremin med joystick](25_theremin_joystick/README.md)
+22 |[Theremin med LDR](x22_theremin_ldr/README.md)
+23 |[Theremin med potmeter](x23_theremin_potmeters/README.md)
+24 |[Theremin med infraröd](x24_theremin_infraroed/README.md)
+25 |[Theremin med joystick](x25_theremin_joystick/README.md)
 .  | **Bok 7**
 25 |[Kapacitiv sensor 1: ett](kapacitiv_sensor_1/README.md)
 26 |[Kapacitiv sensor 2: två seperata](kapacitiv_sensor_2/README.md)

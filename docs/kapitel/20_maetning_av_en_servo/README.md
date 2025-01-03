@@ -4,7 +4,7 @@ Under den här lektionen ska vi mäta en servo!
 
 ## 20.1. Att mäta motståndet av en servo med en multimeter
 
-![Att mäta en servo med en multimeter](maetning_av_en_ldr_1.png)
+![Att mäta en servo med en multimeter](maetning_av_en_servo_1.png)
 
 Vrid vridknappen på multimetern till Ohm symbolen.
 Sätt på multimetern och koppla:
@@ -77,7 +77,7 @@ Vi fick 68 kOhm, dvs 68.000 Ohm.
 
 Bygga elkretsen nadåt:
 
-![Att mäta en servo med en skop](maetning_av_en_ldr_2.png)
+![Att mäta en servo med en skop](maetning_av_en_servo_2.png)
 
 Röda proben gå till en oscilloskop.
 
@@ -127,7 +127,7 @@ Vi fick 0.28 volt.
 
 Bygga elkretsen nadåt:
 
-![Att mäta en servo med en skop](maetning_av_en_ldr_2.png)
+![Att mäta en servo med en skop](maetning_av_en_servo_2.png)
 
 Röda proben gå till en oscilloskop.
 

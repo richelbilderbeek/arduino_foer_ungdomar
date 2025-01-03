@@ -11,7 +11,6 @@ Nummer  |Bok           |Häfte
 5       |[5](bok_5.pdf)|[2](haefte_5.pdf)
 6       |[6](bok_6.pdf)|[2](haefte_6.pdf)
 7       |[7](bok_7.pdf)|[2](haefte_7.pdf)
-8       |[8](bok_8.pdf)|[2](haefte_8.pdf)
 
 ## Lektionskort 2
 
