@@ -1,4 +1,4 @@
-![Bok 6: 3D](framsida_6.png)
+![Bok 6: LDR](framsida_6.png)
 
 `#`|Beskriving
 ---|-----------------------

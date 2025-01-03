@@ -1,4 +1,4 @@
-![Bok 7: sinus en cosinus](framsida_7.png)
+![Bok 7: servo](framsida_7.png)
 
 `#`|Beskriving
 ---|-----------------------
