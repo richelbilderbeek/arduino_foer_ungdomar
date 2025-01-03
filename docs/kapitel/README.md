@@ -4,6 +4,12 @@ Här är alla kapitel av Arduinokursen.
 
 ### Lektionskort 1: Bas
 
+Under den här lektionerna lära vi oss saker för att förstå hur Arduino
+och elektronik och relaterade machiner (multimeter, oscilloskop,
+signalgenerator) funkar. Varje komponent har en kapittel för att
+at ansluta dem utan programmering, en kapittel för att mäta hur den
+funkar, och en kapittel för att använda den med Arduino.
+
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 1**: lysdiod 1
@@ -27,31 +33,31 @@ Kpt|Beskrivning
 14 |[Anslutning av en joystick](14_anslutning_av_en_joystick/README.md)
 15 |[Användning av en joystick](15_anvaendning_av_en_joystick/README.md)
 .  |**Bok 6**: LDR
-16 |[Mätning av en LDR](16_maetning_av_en_ldr/README.md) med en skop
+16 |[Mätning av en LDR](16_maetning_av_en_ldr/README.md)
 17 |[Anslutning av en LDR](17_anslutning_av_en_ldr/README.md)
 18 |[Användning av en LDR](18_anvaendning_av_en_ldr/README.md)
 .  |**Bok 7**: servo
 19 |[Anslutning av en servo](19_anslutning_av_en_servo/README.md)
 20 |[Mätning av en servo](20_maetning_av_en_servo/README.md)
 21 |[Användning av en servo](21_anvaendning_av_en_servo/README.md)
+
+### Lektionskort 2: Avancerad
+
+Under den här lektionerna blandar vi ihop nya komponenter
+med den some vi redan känner.
+
+Kpt|Beskrivning
+---|---------------------------------------------------------------
 .  |**Bok 8**: LCD
 22 |[Anslutning av en LCD](22_anslutning_av_en_lcd/README.md)
 23 |[Mätning av en LCD](23_maetning_av_en_lcd/README.md)
 24 |[Användning av en LCD](24_anvaendning_av_en_lcd/README.md)
-
-### Lektionskort 1: Bas
-
-:construction: This is the original lesson card. We teachers think book 1 is too hard,
-hence we split it up.
-
-Kpt|Beskrivning
----|---------------------------------------------------------------
-.  |**Bok 1**
+.  |**Vuxen bok 1**
 1  |[Blink](./x01_blink/README.md)
 2  |[Blink Blink Blink](./x02_blink_blink_blink/README.md)
 3  |[Knapp, `if`, `else`](./x03_knapp_if_else/README.md)
 4  |[Knapp flip](./x04_knapp_flip/README.md)
-.  |**Bok 2**
+.  |**Vuxen bok 2**
 5  |[Blink 4](x05_blink_4/README.md)
 6  |[Uppladdningsknapp](x06_uppladdningsknapp/README.md)
 7  |[Potmeter och joystick](x07_potmeter_och_joystick/README.md)
