@@ -102,9 +102,11 @@ Bygga elkretsen nadåt:
 
 ![Att mäta en LDR med en skop](maetning_av_en_ldr_2.png)
 
+\pagebreak
+
 Så ser det ut:
 
-![Att mäta en LDR med en skop](maetning_av_en_ldr_med_skop.jpg)
+![Att mäta en LDR med en skop](maetning_av_en_ldr_med_skop.png)
 
 Probens röda sladd gå till mellan LDR och motstånd.
 Probens svarta sladd gå till GND.
@@ -115,6 +117,8 @@ På skopen gör:
 - Sätt spänningsskalan till 2 volts
 
 Vilken spänning visar skopen?
+
+\pagebreak
 
 ### 16.7. Svar
 
@@ -130,9 +134,11 @@ Vi fick 2.12 volt
 Hålla LDRen nära en lampa.
 Vilken spänning visar skopen nu?
 
+\pagebreak
+
 ### 16.8. Svar
 
-![Upplysning av en LDR](maetning_av_en_ldr_upplysing.jpg)
+![Upplysning av en LDR](maetning_av_en_ldr_upplysing.png)
 
 Spänningen öker, men aldrig högre än 5 volt
 
@@ -143,13 +149,17 @@ Vi fick 3.1 volt.
 Ta bort ljuset till LDRen med, t.ex. din hand.
 Vilken spänning visar skopen nu?
 
+\pagebreak
+
 ### 16.9. Svar
 
-![Fördystring av LDR](maetning_av_en_ldr_foerdystring.jpg)
+![Fördystring av LDR](maetning_av_en_ldr_foerdystring.png)
 
 Spänningen sänker,  men aldrig mindre än 0 volt
 
 Vi fick 0.28 volt.
+
+\pagebreak
 
 ## 16.10. Slutuppgift
 
