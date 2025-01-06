@@ -4,11 +4,11 @@ Under den här lektionen ska vi mäta spänningen på en joystick med ett oscill
 
 ## 13.1. Att koppla en joystick till ett skop
 
-![en joystick](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
+![En joystick, framsida](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
 
-![en joystick i ett kopplingsdäck](maetening_av_en_joystick_verkligheten_anslutning.jpg)
+![En joystick i ett kopplingsdäck](maetening_av_en_joystick_verkligheten_anslutning.jpg)
 
-![ett oscilloskop](maetening_av_en_joystick_scope_verkligheten.jpg)
+![Ett oscilloskop](maetening_av_en_joystick_scope_verkligheten.jpg)
 
 ![Schemat på kopplingen](maetening_av_en_joystick_schema_1.png)
 
@@ -20,7 +20,7 @@ Gör foljande:
 - starta skopet
 - trycker på knapp 'CH1' i rutan 'Vertical' tills den lyser (ser en bild nedåt)
 
-![Bild](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
+![Trycker pa CH1 här](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
 Frågor:
 
@@ -31,14 +31,16 @@ Frågor:
 
 ### 13.1. Svar
 
-![Bild](maetening_av_en_joystick_verkligheten_1.jpg)
+![Att mäta en joystick med ett oscilloskop](maetening_av_en_joystick_verkligheten_1.jpg)
 
-> hur det ska ser ut
+> Hur det ska ser ut
+
+\pagebreak
 
 Vad skopet visar är svårt att förutspå.
 Kanske ser du en gul horisontell linje, som här:
 
-![Bild](maetening_av_en_joystick_bild_2_5v.jpg)
+![Skop med en horisontell gul linje](maetening_av_en_joystick_bild_2_5v.jpg)
 
 Om du drar joysticken i en specifik riktning, om du har tur,
 flyttas linjen uppåt och nedåt.
@@ -49,7 +51,7 @@ flyttas linjen uppåt och nedåt.
 
 Vad du ser beror på inställningen av tidskalan på skopet.
 
-![Bild](maetening_av_en_joystick_hor_skaleringsknapp.jpg)
+![Högre knappen här bestämmer tidskalan](maetening_av_en_joystick_hor_skaleringsknapp.jpg)
 
 Om du vridar den högre knapp av 'Horizontal' ändrar du tidskalan.
 Du kann också ser det på skärmen av skopen:
@@ -64,7 +66,7 @@ Hur ser den gula linjen ut nu?
 
 Så här kan det se ut:
 
-![Bild](maetening_av_en_joystick_bild.jpg)
+![Så här kan det se ut](maetening_av_en_joystick_bild.jpg)
 
 Lägg märke till texten 'M 1.00s', som betyder att varje ruta horisontellt betyder en sekund.
 Du kan se att den gula linjen långsamt rör sig.
@@ -75,7 +77,7 @@ Du kan se att den gula linjen långsamt rör sig.
 
 Vad du ser nu beror på spänningskalan på skopet också.
 
-![Bild](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
+![Högre kanppen bestämmer spänningsskalan](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
 Om du vrider den övre vänstra knappen i 'Vertical'
 ändrar du spänningsskalan.
@@ -91,7 +93,7 @@ Hur ser gula linje ut nu? Dra också på joysticken för att se något coolt!
 
 Så här kan det se ut:
 
-![Bild](maetening_av_en_joystick_bild.jpg)
+![Så här kan det se ut](maetening_av_en_joystick_bild.jpg)
 
 Lägg märke till texten 'CH1 2.00V', som betyder att varje ruta horisontellt
 betyder två volt spänning.
@@ -104,7 +106,8 @@ När du drar joysticken i olika riktningar rör sig den gula linjen uppåt och n
 
 Nu ska vi koppla ännu ett stift på joysticken till skopet:
 
-![Bild](maetening_av_en_joystick_schema_2.png)
+![Schemat på kopplingen](maetening_av_en_joystick_schema_2.png)
+
 > Schemat på kopplingen
 
 Leta efter ytterligare en prob.
@@ -124,7 +127,7 @@ Vad visar skopet? Vad händer om du rör på joysticken?
 
 Så här kan det se ut:
 
-![Bild](maetening_av_en_joystick_bild_2_chs.jpg)
+![Så här kan det se ut](maetening_av_en_joystick_bild_2_chs.jpg)
 
 Lägg märke till texten 'CH1 2.00V', som betyder att varje ruta horisontellt
 står för två volt spänning.
@@ -139,12 +142,14 @@ Ta bort alla sladdar.
 
 Läs igenom slutuppgiften först, efter det har du 10 minuter på dig att slutföra uppgiften.
 
-1. Be någon att kontrollera medan du gör provet. Den personen får inte hjälpa dig.
-1. Den personen vrider eller trycker fler gånger på alla dessa fem knappar:
+- Steg 1: Be någon att kontrollera medan du gör provet.
+  Den personen får inte hjälpa dig.
+- Steg 2: Den personen vrider eller trycker fler gånger på alla dessa fem knappar:
 
-![Bild](maetening_av_en_joystick_knappar_att_aendra.jpg)
+![Den här knappor får andras av dömaren](maetening_av_en_joystick_knappar_att_aendra.jpg)
 
 Starta en timer och gör följande:
 
-1. Koppla ihop allt på samma sätt som tidigare
-1. Mät sänningen över motstånden i joysticken i riktningarna VRx och VRy samtidigt, som i tidigare uppgifter
+- Steg 3: Koppla ihop allt på samma sätt som tidigare
+- Steg 4: Mät sänningen över motstånden i joysticken i
+  riktningarna `VRx` och `VRy` samtidigt, som i tidigare uppgifter

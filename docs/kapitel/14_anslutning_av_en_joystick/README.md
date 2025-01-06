@@ -4,7 +4,7 @@ Under den här lektionen ska vi ansluta en joystick till en RGB lysdiod!
 
 ## 14.1. Att koppla en joystick till en RGB ljusdiod
 
-![Bild](anslutning_av_en_joystick_naiv.png)
+![Schemat av kopplingen](anslutning_av_en_joystick_naiv.png)
 
 > Schemat av kopplingen
 
@@ -29,7 +29,9 @@ Det är för att knappen i joysticken funkar på ett annat sätt.
 
 ## 14.2. Att koppla en joystick till en RGB ljusdiod, igen
 
-![Bild](anslutning_av_en_joystick_smart.png)
+![Schemat av kopplingen](anslutning_av_en_joystick_smart.png)
+
+> Schemat av kopplingen
 
 Bygg om strömkretsen till den här bilden.
 
@@ -45,12 +47,16 @@ Japp, nu funkar knappen av joysticken.
 
 Kolla på den här bild:
 
-![Bild](anslutning_av_en_joystick_knapp_annotated.png)
+![Anslutning av en joystick](anslutning_av_en_joystick_knapp_annotated.png)
 
 > Allt el kommer igenom sladd 1.
 > Där väljer den den väg med lågsta motstånd.
-> Om knapper är tryckt, sladd 2 har lågsta motstånd.
-> Om knapper är inte tryckt, sladd 3 har lågsta motstånd.
+> Om knapper är tryckt, sladd 2 har lågsta motstånd:
+> el kan går genom knappen utan problem.
+> Om knapper är inte tryckt, sladd 3 har lågsta motstånd:
+> el kan inte genom knappen längre.
+
+\pagebreak
 
 Här kann du ser motstånd mellan SW (av joysticken)
 och GND (av joysticken), beroende om joysticken är tryckt:
@@ -85,10 +91,10 @@ Ta bort alla sladdar.
 
 Läs igenom slutuppgiften först, för du har 10 minuter på dig.
 
-1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+- Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
 Starta en timer och gör följande:
 
-1. Koppla allt tillsammans igen
-1. Visar att joystick funkar: båda om du vrider och om du trycker på knappen
-1. Berätta hur elen gå igenom kretsen om du trycker knappen eller ej
+- Steg 2: Koppla allt tillsammans igen
+- Steg 3: Visar att joystick funkar: båda om du vrider och om du trycker på knappen
+- Steg 4: Berätta hur elen gå igenom kretsen om du trycker knappen eller ej

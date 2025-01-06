@@ -4,7 +4,7 @@ Under den här lektionen ska vi använda en joystick!
 
 ## 15.1. Elkretsen
 
-![Bild](anvaendning_av_en_joystick_schema.png)
+![Schemat av kopplingen](anvaendning_av_en_joystick_schema.png)
 
 > Schemat av kopplingen
 
@@ -39,7 +39,9 @@ Kör koden och rör joysticken. Vad ser du?
 
 ### 15.2. Svar
 
-Om du inte rör joysticken är färgen [...].
+Om du inte rör joysticken är färgen röd, eller grön eller blå:
+det beror på typ av RGB lysdiod (bäst vore den röd, för att det
+skulle stämma med koden).
 Om du rör joysticken i ena rikting kan du ändra ljusstyrka.
 Om du rör joysticken i andra rikting ändrar färgen sig inte.
 
@@ -166,7 +168,7 @@ Lägga till:
 
 \pagebreak
 
-### Svar
+### 15.5. Svar
 
 ```c++
 const int pin_joy_x{A0};
@@ -207,9 +209,9 @@ Ta bort alla sladdar.
 
 Läs igenom slutuppgiften först, för du har 10 minuter på dig.
 
-1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
+- Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
 Starta en timer och gör följande:
 
-1. Koppla allt tillsammans igen
-1. Visar att joystick funkar: båda om du vrider och om du trycker på knappen
+- Steg 2: Koppla allt tillsammans igen
+- Steg 3: Visar att joystick funkar: båda om du vrider och om du trycker på knappen
