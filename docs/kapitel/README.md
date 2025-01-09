@@ -74,7 +74,7 @@ Kpt|Beskrivning
 19 |[Knapp som minns om den är tryckt](x19_knapp_som_minns_om_den_aer_tryckt/README.md)
 20 |[Knapp som minns om den är tryckt länge](x20_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
 
-### Lektionskort 2: Avancerade
+### Lektionskort 3: Avancerade
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------

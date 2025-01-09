@@ -110,7 +110,7 @@ Spänningen öker, men aldrig högre än 5 volt
 
 Vi fick 3.1 volt.
 
-## 20.4. Att mäta spänningen av en servo med en multimeter
+## 20.6. Att mäta spänningen av en servo med en multimeter
 
 Ta bort ljuset till servoen med, t.ex. din hand.
 Vilken spänning visar skopen nu?

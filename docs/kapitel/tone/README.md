@@ -41,14 +41,14 @@ De code laat 900 milliseconden de toon A horen, en heeft dan 100 milliseconden r
 
 ## Opdracht 1
 
- 1. Wat is de laagste toonhoogte die je kunt krijgen? Kan iedereen dit horen?
- 2. Wat is de hoogste toonhoogte die je kunt krijgen? Kan iedereen dit horen? Let op: als iemand er last van heeft, doe deze opdracht dan niet
+- Vraag 1: Wat is de laagste toonhoogte die je kunt krijgen? Kan iedereen dit horen?
+- Vraag 2: Wat is de hoogste toonhoogte die je kunt krijgen? Kan iedereen dit horen? Let op: als iemand er last van heeft, doe deze opdracht dan niet
 
 \pagebreak
 
 ## Oplossing 1
 
- 1. De laagste toon is 1 Hertz (bij 0 Hertz krijg je onzin). Hieronder staat de code
+- Antwoord 1: De laagste toon is 1 Hertz (bij 0 Hertz krijg je onzin). Hieronder staat de code
 
 
 ```c++
@@ -69,7 +69,7 @@ void loop()
 ![Sunglasses](EmojiSunglasses.png) | 1 Hertz kan iedereen nog horen
 :-------------:|:----------------------------------------:
 
- 2. De hoogste toon is 32767 Hertz. Hieronder staat de code
+- Antwoord 2: De hoogste toon is 32767 Hertz. Hieronder staat de code
 
 ```c++
 void setup()

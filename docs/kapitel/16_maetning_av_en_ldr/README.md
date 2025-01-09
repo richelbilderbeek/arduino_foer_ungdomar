@@ -83,7 +83,7 @@ Spänningen öker, men aldrig högre än 5 volt
 
 Vi fick 3.1 volt.
 
-## 16.4. Att mäta spänningen av en LDR med en multimeter
+## 16.6. Att mäta spänningen av en LDR med en multimeter
 
 Ta bort ljuset till LDRen med, t.ex. din hand.
 Vilken spänning visar skopen nu?

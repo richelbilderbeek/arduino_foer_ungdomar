@@ -2,7 +2,7 @@
 
 'Volume' is een bibliotheek, te downloaden op:
 
-```
+```text
 https://github.com/connornishijima/arduino-volume1
 ```
 
@@ -26,7 +26,7 @@ Er staan nu voorbeelden on 'Examples | Volume'.
 
 ## Errors
 
-```
+```text
 volume_1KHz.ino:4:50: fatal error: Volume.h: No such file or directory
 compilation terminated.
 ```

@@ -27,7 +27,7 @@ Sluit figuur 'Infrarood sensor' aan.
 
 ## Oplossing 1
 
- 1. Code van de lessen met een sensor, bijvoorbeeld onderstaande code van les '4. FSR':
+- Stap 1: Code van de lessen met een sensor, bijvoorbeeld onderstaande code van les '4. FSR':
 
 ```c++
 void setup() 
@@ -43,8 +43,8 @@ void loop()
 }
 ```
 
- 2. Als de sensorwaarde duidelijk reageert op een hand die ervoor heen en weer wordt bewogen
- 3. Hoe dichterbij je komt, hoe lager de getallen worden
+- Stap 2: Als de sensorwaarde duidelijk reageert op een hand die ervoor heen en weer wordt bewogen
+- Stap 3: Hoe dichterbij je komt, hoe lager de getallen worden
 
 ## LED met transistor
 
