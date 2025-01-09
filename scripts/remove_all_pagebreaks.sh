@@ -20,7 +20,8 @@ if [[ "$PWD" =~ scripts$ ]]; then
 fi
 
 
-find . -name "*.md" -type f | xargs sed -i -e '/\pagebreak/d'
+find . -name "*.md" -type f -print0 | xargs -0 sed -i -e '/\pagebreak/d'
+
 
 # for filename in $(find . -name "*.md" -type f)
 # do
