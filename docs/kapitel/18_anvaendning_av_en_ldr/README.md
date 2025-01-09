@@ -4,9 +4,7 @@ Under den här lektionen ska vi använda en LDR!
 
 ## 18.1. Elkretsen
 
-![Bild](anvaendning_av_en_ldr_3.png)
-
-> Schemat av kopplingen
+![Användning av en LDR](anvaendning_av_en_ldr_3.png)
 
 Koppla tillsammans som schemat och förbind Arduino till en dator.
 Det er den långsta ben av RGB ljusdiod som skulle kopplades till GND.
