@@ -2,7 +2,7 @@
 
 Här är alla kapitel av Arduinokursen.
 
-### Lektionskort 1: Bas
+## Lektionskort 1: Bas
 
 Under den här lektionerna lära vi oss saker för att förstå hur Arduino
 och elektronik och relaterade machiner (multimeter, oscilloskop,
@@ -41,7 +41,7 @@ Kpt|Beskrivning
 20 |[Mätning av en servo](20_maetning_av_en_servo/README.md)
 21 |[Användning av en servo](21_anvaendning_av_en_servo/README.md)
 
-### Lektionskort 2: Avancerad
+## Lektionskort 2: Avancerad
 
 Under den här lektionerna blandar vi ihop nya komponenter
 med den some vi redan känner.
@@ -74,7 +74,7 @@ Kpt|Beskrivning
 19 |[Knapp som minns om den är tryckt](x19_knapp_som_minns_om_den_aer_tryckt/README.md)
 20 |[Knapp som minns om den är tryckt länge](x20_knapp_som_minns_om_den_aer_tryckt_laenge/README.md)
 
-### Lektionskort 3: Avancerade
+## Lektionskort 3: Avanceradere
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
@@ -98,7 +98,7 @@ Kpt|Beskrivning
 31 |[LCD 2](LCD2/README.md)
 32 |[LCD 3](LCD3/README.md)
 
-### Lektionskort 3: Hi-Tech
+## Lektionskort 3: Hi-Tech
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------

@@ -55,7 +55,7 @@ Det finns många exempelprogram i Arduino IDE, under `File | Exempel | LiquidCry
 
 Det enklaste är `File | Exempel | LiquidCrystal | HelloWorld`:
 
-```
+```c++
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
@@ -77,7 +77,7 @@ Detta gör att du kan få text på skärmen.
 
 En svårare är `File | Exempel | LiquidCrystal | CustomCharacter`:
 
-```
+```c++
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);

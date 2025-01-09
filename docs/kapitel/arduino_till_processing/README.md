@@ -1,4 +1,4 @@
-# Arduino och bearbetning
+# 90. Arduino och bearbetning
 
 I lektionen kommer vi att lära oss hur en Arduino
 låt oss prata med Processing.
@@ -8,7 +8,7 @@ Detta görs i två steg:
 - Arduino måste prata med din dator
 - Bearbetning måste göra något med detta föredrag
 
-## Få Arduino att prata
+## 90.1. Få Arduino att prata
 
 Vi kommer att få Arduino att säga vad som står
 är från en potentiometer.
@@ -55,20 +55,20 @@ Detta är vad koden gör:
     - `Serial.write(analogRead(A0) / 4)`: mät spänningen på stiftet `A0`, dividera den med fyra och skicka den siffran genom seriekabeln
 - `delay(10)`: vänta tio millisekunder
 
-## Uppgifter
+## 90.2. Uppgifter
 
 - Stäng flödesschemat som bilden
 - Sätt koden på din Arduino
 - Kör koden och klicka på knappen `Serial Monitor` längst upp till höger. Vad ser du? Se till att Arduino skickar initialen till ditt förnamn
 - Om du inte ser något, kontrollera om numret längst ner till höger på den seriella monitorn är inställt på `9600`!
 
-## Får bearbetning att lyssna
+## 90.3. Får bearbetning att lyssna
 
 Om du inte har Processing ännu, ladda ner den [här!](https://processing.org/download)
 
 Detta är koden för bearbetning:
 
-```
+```processing
 import processing.serial.*;
 Serial port;
 
@@ -114,7 +114,7 @@ Detta är vad koden gör:
 - `background(number);` : läs `number` som en grå nyans och gör det till bakgrundsfärgen. Vid 0 är bakgrunden svart, vid 255 är den vit
 
 
-## Uppgifter
+## 90.4. Uppgifter 
 
 - Lägg koden i Processing
 - Kör din kod genom att trycka på play-knappen längst upp till vänster
