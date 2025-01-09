@@ -114,7 +114,7 @@ Detta är vad koden gör:
 - `background(number);` : läs `number` som en grå nyans och gör det till bakgrundsfärgen. Vid 0 är bakgrunden svart, vid 255 är den vit
 
 
-## 90.4. Uppgifter 
+## 90.4. Uppgifter
 
 - Lägg koden i Processing
 - Kör din kod genom att trycka på play-knappen längst upp till vänster
