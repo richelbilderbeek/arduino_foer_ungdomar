@@ -4,15 +4,22 @@ Under den här lektionen ska vi mäta en servo!
 
 ## 20.1. Att mäta motståndet av en servo med en skop
 
+Koppla en servo till en skop, så här:
+
 ![Att mäta en servo med en skop](maetning_av_en_servo_anslutning.jpg)
 
-Vrid vridknappen på multimetern till Ohm symbolen.
-Sätt på multimetern och koppla:
+Servor har sladdor av olika färger, här är vad dem betyder:
 
-- röda mätpinnen på den vänstra benen av servoen
-- svarta mätpinnen på den högra benen av servoen
+Färger     |Vad
+-----------|------
+Brun, svart|GND
+Röd        |5V
+Orange, gul|Signal
 
-Vad visar mätningen?
+\pagebreak
+
+
+Laddar upp följande kod på Arduinon:
 
 ```c++
 #include <Servo.h>
@@ -32,6 +39,13 @@ void loop()
   delay(1000);
 }
 ```
+
+
+- röda mätpinnen på den vänstra benen av servoen
+- svarta mätpinnen på den högra benen av servoen
+
+Vad visar mätningen?
+
 
 
 ![Mätning för noll grader](maetning_av_en_servo_0_annotated.png)
