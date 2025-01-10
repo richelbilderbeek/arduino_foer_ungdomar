@@ -47,7 +47,6 @@ void loop()
 Vad visar mätningen?
 
 
-
 ![Mätning för noll grader](maetning_av_en_servo_0_annotated.png)
 
 ![Mätning för 180 grader](maetning_av_en_servo_180_annotated.png)
