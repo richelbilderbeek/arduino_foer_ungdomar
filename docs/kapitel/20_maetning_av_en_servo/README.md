@@ -16,8 +16,10 @@ Brun, svart|GND
 Röd        |5V
 Orange, gul|Signal
 
-\pagebreak
+- röda mätpinnen på den signalingång av servoen
+- svarta mätpinnen på den GND av servoen
 
+\pagebreak
 
 Laddar upp följande kod på Arduinon:
 
@@ -40,12 +42,7 @@ void loop()
 }
 ```
 
-
-- röda mätpinnen på den vänstra benen av servoen
-- svarta mätpinnen på den högra benen av servoen
-
 Vad visar mätningen?
-
 
 ![Mätning för noll grader](maetning_av_en_servo_0_annotated.png)
 
@@ -53,57 +50,23 @@ Vad visar mätningen?
 
 ![Frekvens ändrar sig](maetning_av_en_servo_frekwens_aendrar_sig.jpg)
 
-
 \pagebreak
 
-### 20.1. Svar
-
-Multimetern visar en motstånd för vanligt ljus (om inte: fråga hjälp!).
-
-Vi fick 1.7 kOhm, dvs 1700 Ohm.
-
-## 20.2. Att mäta motståndet av en servo med en multimeter
-
-Hålla servoen nära en lampa. Vad visar mätningen?
-
-\pagebreak
-
-### 20.2. Svar
-
-Vi fick 0.68 kOhm, dvs 680 Ohm.
-
-I ljuset har en servo minsta motstånd
-
-## 20.3. Att mäta motståndet av en servo med en multimeter
-
-Ta bort ljuset till servoen med, t.ex. din hand. Vad visar mätningen?
-
-\pagebreak
-
-### 20.3. Svar
-
-I mörkret har en servo högsta motstånd
-
-Vi fick 68 kOhm, dvs 68.000 Ohm.
-
-## 20.10. Slutuppgift
+## 20.2. Slutuppgift
 
 Hämta:
 
-- 1 st multimeter
 - 1 st skop
 - 1 st servo
-- 4 st sladdar
-- 1 st 1000 Ohm motstånd (rött, brun, svart, guld)
+- sladdar
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 
 - Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
+- Steg 2: ta bort alla sladdar. Stäng av skopen.
+
 Starta en timer och gör följande:
 
-- Steg 2: Visar hur att öka och sänka motståndsvärde av servoen på multimetern
-
-- Steg 3: Visar hur att öka och sänka spänningen av servoen på multimetern
-
-- Steg 4: Visar hur att öka och sänka spänningen av servoen på oscilloskopen
+- Steg 3: Visar hur frekvens på skopen ändrar sig när Arduino skicker
+  en budskap till skopen.
