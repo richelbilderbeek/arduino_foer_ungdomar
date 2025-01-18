@@ -1,5 +1,6 @@
 # Bidragsgivarna
 
+- Alfred
 - [Aui Rönnemaa](https://github.com/auironnemaa)
 - [Björn Engström](https://github.com/bEPHen)
 - [Herman Berg](https://github.com/hha2011)
