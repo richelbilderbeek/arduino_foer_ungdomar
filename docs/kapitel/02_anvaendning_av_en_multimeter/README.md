@@ -9,12 +9,16 @@ Under den här lektionen ska vi använda en multimeter.
 
 ![Bild](anvaendning_av_en_multimeter_kortslutning.png)
 
-Leta efter en multimeter och två tillhörande mätkablar: en röd och en svart.
-Vrid knappen på multimetern till Ohm symbolen,
-och om det står nummer så ska du ha 20K.
-Koppla in den röda mätkabeln i det röda hålet på multimetern som har ett V och en
-Ohm symbol ovanför sig.
-Koppla in den svarta mätkabeln i det svarta hålet på multimetern som har ordet 'COM' ovanför sig.
+Leta efter en multimeter.
+
+Om du har en multimeter som behöver att ha kablar kopplades till:
+- letar efter två tillhörande mätkablar: en röd och en svart.
+- koppla in den röda mätkabeln i det röda hålet på multimeternsom
+  har ett V och en Ohm symbol ovanför sig.
+- koppla in den svarta mätkabeln i det svarta hålet på multimetern
+  som har ordet 'COM' ovanför sig.
+
+Vrid knappen på multimetern till Ohm symbolen.
 
 Sätt på multimetern och håll ihop den röda och svarta mätpinnen.
 Vad visar mätningen?
