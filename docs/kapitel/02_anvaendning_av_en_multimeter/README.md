@@ -12,6 +12,7 @@ Under den här lektionen ska vi använda en multimeter.
 Leta efter en multimeter.
 
 Om du har en multimeter som behöver att ha kablar kopplades till:
+
 - letar efter två tillhörande mätkablar: en röd och en svart.
 - koppla in den röda mätkabeln i det röda hålet på multimeternsom
   har ett V och en Ohm symbol ovanför sig.
