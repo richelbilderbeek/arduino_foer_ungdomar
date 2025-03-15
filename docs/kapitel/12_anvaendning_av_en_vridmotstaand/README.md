@@ -35,7 +35,7 @@ Skulle lysdioder lysa hela tiden? Gör vridmotstånd nåt?
 Lysdioden på höger skulle lysar om vridmotståndet på höger är vridat
 helt till vänster (dws. emot klockan).
 Lysdioden på vänster skulle lysar om vridmotståndet på vänster är vridat
-helt till vänster (dws. emot klockan).
+helt till höger (dws. med klockan).
 Nu är vi säkert att vridmotstånd funkar!
 
 Om inte, fråga om hjälp!
