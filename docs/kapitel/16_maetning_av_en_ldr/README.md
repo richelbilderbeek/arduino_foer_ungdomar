@@ -46,13 +46,13 @@ I mörkret har en LDR högsta motstånd
 
 Vi fick 68 kOhm, dvs 68.000 Ohm.
 
-## 16.4. Att mäta spänningen av en LDR med en multimeter
+## 16.4. Att mäta spänningen av en LDR med en skop
 
 Bygga elkretsen nadåt:
 
 ![Att mäta en LDR med en skop](maetning_av_en_ldr_2.png)
 
-Röda proben gå till en oscilloskop.
+Röda proben gå till en skop.
 
 På skopen gör:
 
@@ -70,7 +70,7 @@ för att detta är spänningen av Arduinon
 
 Vi fick 2.12 volt
 
-## 16.5. Att mäta spänningen av en LDR med en multimeter
+## 16.5. Att mäta spänningen av en LDR med en skop
 
 Hålla LDRen nära en lampa.
 Vilken spänning visar skopen nu?
@@ -83,7 +83,7 @@ Spänningen öker, men aldrig högre än 5 volt
 
 Vi fick 3.1 volt.
 
-## 16.6. Att mäta spänningen av en LDR med en multimeter
+## 16.6. Att mäta spänningen av en LDR med en skop
 
 Ta bort ljuset till LDRen med, t.ex. din hand.
 Vilken spänning visar skopen nu?
@@ -171,7 +171,7 @@ Hämta:
 - 4 st sladdar
 - 1 st 1000 Ohm motstånd (rött, brun, svart, guld)
 
-Läs igenom slutuppgiften först, för du har 5 minuter på dig.
+Läs igenom slutuppgiften först, för du har 10 minuter på dig.
 
 - Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
