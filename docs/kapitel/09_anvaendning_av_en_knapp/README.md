@@ -25,7 +25,7 @@ Bygg upp den här kretsen:
 
 ![Bild](anvaendning_av_en_knapp_2.png)
 
-Vila lysdioder skulle alltid lysa? Gör knapporna nåt?
+Vilka lysdioder skulle alltid lysa? Gör knapporna nåt?
 
 \pagebreak
 
