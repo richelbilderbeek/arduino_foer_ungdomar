@@ -171,7 +171,13 @@ Bygg ihop kretsen och kontrollera!
 
 ### 8.8. Svar
 
-Om du trycker en knapp, kommer alltid två lysdioder att lysa.
+Om du trycker en knapp, kommer alltid alla tre lysdioder att lysa.
+
+Du kanske tyckte att det skulle var två,
+till man inser att alla vänstersidor av
+knapporna är förbunda.
+Det betyder att när en av dem få el,
+kan elen gå till alla tre lysdioder.
 
 ## 8.9. Slutuppgift
 
@@ -192,4 +198,5 @@ Läs igenom slutuppgiften först, efter det har du 10 minuter på dig.
 
 Starta en timer på 10 minuter och gör följande:
 
-- Steg 2: Bygg upp den sista kretsen från början. När du trycker på knappen ska alltid två lysdioder lysa.
+- Steg 2: Bygg upp den sista kretsen från början.
+  När du trycker på en av den knappor ska alltid tre lysdioder lysa.
