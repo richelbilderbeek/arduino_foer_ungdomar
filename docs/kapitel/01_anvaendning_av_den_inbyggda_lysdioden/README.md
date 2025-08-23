@@ -92,7 +92,7 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 ## 1.4. Uppgift 2
 
-Få LEDen att blinka snabbt 10 gånger.
+Få LEDen att blinka 10 gånger snabbare.
 
 Tips: LED är nu på i 1000 millisekunder (1 sekund) och av i 1000 millisekunder (1 sekund).
 
