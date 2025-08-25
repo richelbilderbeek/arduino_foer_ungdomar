@@ -1,5 +1,5 @@
-# Check that there is correct markdown in all files
-name: Check markdown
+# Check that there is correct Markdown in all files
+name: Check Markdown
 
 # Check this on the 1st day of the month.
 # 1st as the first letter of this repo is the 1st letter in the alphabet.
