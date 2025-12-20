@@ -24,6 +24,13 @@ theme:
   palette:
     primary: blue
 
+  # Keyboard shortcuts for navigation, from https://www.mkdocs.org/user-guide/choosing-your-theme/
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+
   logo: logo/arduino_community_logo_white_background.png
 
   features:
