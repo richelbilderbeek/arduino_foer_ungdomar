@@ -41,17 +41,56 @@ Kpt|Beskrivning
 20 |[Mätning av en servo](20_maetning_av_en_servo/README.md)
 21 |[Användning av en servo](21_anvaendning_av_en_servo/README.md)
 
-## Lektionskort 2: Avancerad
+## Lektionskort 2: Avancerat
 
 Under den här lektionerna blandar vi ihop nya komponenter
 med den some vi redan känner.
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
-.  |**Bok 8**: LCD
-22 |Anslutning av en LCD
-23 |Mätning av en LCD
-24 |[Användning av en LCD](24_anvaendning_av_en_lcd/README.md)
+.  |**Bok 8**: Relais
+22 |[Mätning av en relais](22_maetning_av_en_relais/README.md)
+23 |[Anslutning av en relais](23_anslutning_av_en_relais/README.md)
+24 |[Användning av en relais](24_anvaendning_av_en_relais/README.md)
+.  |**Bok 9**: DC motor
+25 |[Mätning av en DC motor](25_maetning_av_en_dc_motor/README.md)
+26 |[Anslutning av en DC motor](26_anslutning_av_en_dc_motor/README.md): använd knappar och H-bridge, a relais openens upon GND (i.e. not 5V), the middle is connnected to one of the other pins
+27 |[Användning av en DC motor](27_anvaendning_av_en_dc_motor/README.md)
+.  |**Bok 10**: Avståndssensor
+28 |[Mätning av en avståndssensor](28_maetning_av_en_avstaandssensor/README.md)
+29 |[Anslutning av en avståndssensor](29_anslutning_av_en_avstaandssensor/README.md)
+30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md)
+.  |**Bok 11**: Neo pixels
+31 |[Mätning av neopixels](31_maetning_av_neopixels/README.md)
+32 |[Anslutning av neopixels](32_anslutning_av_en_avstaandssensor/README.md)
+33 |[Användning av neopixels](33_anvaendning_av_neopixels/README.md)
+.  |**Bok 12**: Kapacitiv knapp
+34 |[Mätning av en kapacitiv knapp](34_maetning_av_en_kapacitiv_knapp/README.md)
+35 |[Anslutning av en kapacitiv knapp](35_anslutning_av_en_kapacitiv_knapp/README.md)
+36 |[Användning av en kapacitiv knapp](36_anvaendning_av_en_kapacitiv_knapp/README.md)
+.  |**Bok 13**: LCD
+37 |[Mätning av en LCD](37_maetning_av_en_lcd/README.md)
+38 |[Anslutning av en LCD](38_anslutning_av_en_lcd/README.md)
+39 |[Användning av en LCD](39_anvaendning_av_en_lcd/README.md)
+.  |**Bok 14**: stegmotor (Store Björn)
+40 |[Mätning av en stegmotor](40_maetning_av_en_stegmotor/README.md)
+41 |[Anslutning av en stegmotor](41_anslutning_av_en_stegmotor/README.md) Anslutning, e.g. använd knappar och H-bridge
+42 |[Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md)
+
+
+Kpt|Beskrivning
+---|---------------------------------------------------------------
+.  |**Bok 99**
+998|[Arduino som ISP](arduino_som_isp/README.md)
+999|[Bare-bone Arduino](bare_bone_arduino/README.md)
+
+## Lektionskort X: Avancerad
+
+Under den här lektionerna blandar vi ihop nya komponenter
+med den some vi redan känner.
+
+Kpt|Beskrivning
+---|---------------------------------------------------------------
 .  |**Vuxen bok 1**
 1  |[Blink](./x01_blink/README.md)
 2  |[Blink Blink Blink](./x02_blink_blink_blink/README.md)
@@ -115,11 +154,5 @@ Kpt|Beskrivning
 40 |[NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
 .  | **Boek 11**
 33 |[DC motor med motstånd](dc_motor_met_transistor/README.md)
-34 |[DC motor med relä](dc_motor_met_relais/README.md)
 35 |[Vagn som undviker hinder](vagn_som_undviker_hinder/README.md)
 
-Kpt|Beskrivning
----|---------------------------------------------------------------
-.  |**Bok 99**
-998|[Arduino som ISP](arduino_som_isp/README.md)
-999|[Bare-bone Arduino](bare_bone_arduino/README.md)
