@@ -1,4 +1,4 @@
-# 7. DC Motor Met Relais
+# 24. Använding av en relais
 
 ![LED met transistor](7_dc_motor_met_relais_led.png)
 
