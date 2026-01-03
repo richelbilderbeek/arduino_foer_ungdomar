@@ -63,12 +63,12 @@ Koppla en relais så här:
 
 ![Koppla en relais](22_maetning_av_en_relais_connect.png)
 
-## 22.3. Mät mellan 2 och 3
+## 22.3. Mät mellan 1 och 2
 
 Med din multimeter, mäter motståndet mellan
-ingång två och tre av den fjärde relais, så här:
+ingång en och två av den första relais, så här:
 
-![22.3. Mät mellan 2 och 3](22_maetning_av_en_relais_connect_2_and_3.png)
+![22.3. Mät mellan 1 och 2](22_maetning_av_en_relais_connect_2_and_3.png)
 
 Multimetern behövs inte vara skruvad i ingångerna,
 att sticka den på skruvarna av ingånger
@@ -79,26 +79,26 @@ Vad är motståndet? Vad betyder det?
 ### 22.3. Svar
 
 Motstånded är noll Ohm.
-Det betyder att el kan ströma fritt mellan ingånger 2 och 3.
+Det betyder att el kan ströma fritt mellan ingånger 1 och 2.
 
-## 22.4. Mät mellan 1 och 2
+## 22.4. Mät mellan 2 och 3
 
 Med din multimeter, mäter motståndet mellan
-ingång en och två av den fjärde relais, så här:
+ingång två och tre av den första relais, så här:
 
-![22](22_maetning_av_en_relais_connect_1_and_2.png)
+![22](22_maetning_av_en_relais_connect_2_and_3.png)
 
 Vad är motståndet? Vad betyder det?
 
 ### 22.4. Svar
 
 Motstånded är oändligt Ohm.
-Det betyder att el kan inte ströma mellan ingånger 1 och 2.
+Det betyder att el kan inte ströma mellan ingånger 2 och 3.
 
 ## 22.5. Mät mellan 1 och 3
 
 Med din multimeter, mäter motståndet mellan
-ingång en och två av den fjärde relais, så här:
+ingång en och två av den första relais, så här:
 
 ![22](22_maetning_av_en_relais_connect_1_and_3.png)
 
@@ -113,9 +113,9 @@ Här är en översikt av vad vi har mått nu:
 
 Stift|Stift|Motsånd
 -----|-----|--------
-1    |2    |Noll
+1    |2    |Oändligt
 1    |3    |Oändligt
-2    |3    |Oändligt
+2    |3    |Noll
 
 ## 22.6. Sätt på en relais
 
