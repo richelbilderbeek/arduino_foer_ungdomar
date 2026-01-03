@@ -4,7 +4,42 @@ repo_url: https://github.com/richelbilderbeek/arduino_foer_ungdomar
 edit_uri: blob/main/docs/
 
 nav:
-  - Kapitel: kapitel/README.md
+  - Kapitel:
+    - Översiktet: kapitel/README.md
+    - 01_anvaendning_av_den_inbyggda_lysdioden/README.md
+    - 02_anvaendning_av_en_multimeter/README.md
+    - 03_anslutning_av_en_lysdiod/README.md
+    - 04_programmering_av_en_lysdiod/README.md
+    - 05_anslutning_av_flera_lysdioder/README.md
+    - 06_anvaendning_av_flera_lysdioder/README.md
+    - 07_maetning_av_en_knapp/README.md
+    - 08_anslutning_av_en_knapp/README.md
+    - 09_anvaendning_av_en_knapp/README.md
+    - 10_maetning_av_en_vridmotstaand/README.md
+    - 11_anslutning_av_en_vridmotstaand/README.md
+    - 12_anvaendning_av_en_vridmotstaand/README.md
+    - 13_maetning_av_en_joystick/README.md
+    - 14_anslutning_av_en_joystick/README.md
+    - 15_anvaendning_av_en_joystick/README.md
+    - 16_maetning_av_en_ldr/README.md
+    - 17_anslutning_av_en_ldr/README.md
+    - 18_anvaendning_av_en_ldr/README.md
+    - 19_anslutning_av_en_servo/README.md
+    - 20_maetning_av_en_servo/README.md
+    - 21_anvaendning_av_en_servo/README.md
+    - 22_maetning_av_en_relais/README.md
+    - 23_anslutning_av_en_relais/README.md
+    - 24_anvaendning_av_en_relais/README.md
+    - 25_maetning_av_en_dc_motor/README.md
+    - 26_anslutning_av_en_dc_motor/README.md
+    - 27_anvaendning_av_en_dc_motor/README.md
+    - 28_maetning_av_en_avstaandssensor/README.md
+    - 29_anslutning_av_en_avstaandssensor/README.md
+    - 30_anvaendning_av_en_avstaandssensor/README.md
+    - 31_maetning_av_neopixels/README.md
+    - 32_anslutning_av_en_avstaandssensor/README.md
+    - 33_anvaendning_av_neopixels/README.md
+    - 34_maetning_av_en_kapacitiv_knapp/README.md
   - Böcker: boecker/README.md
   - Lektionkort: lektionskort/README.md
   - Vanliga frågor: faq.md
@@ -41,13 +76,14 @@ theme:
     - navigation.path
     - navigation.footer
     - navigation.expand
+    - search.share      
     - search.suggest
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
     - content.action.edit
     - content.action.view
-      
+
 markdown_extensions:
   - toc:
       toc_depth: 2
