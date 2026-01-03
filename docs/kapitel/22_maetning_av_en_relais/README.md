@@ -16,57 +16,152 @@ https://fritzing.org/projects/smd-4-x-relay-board
 
 -->
 
-Connect:
+En relais är liksom en knapp som kan blir tryckt elektroniskt.
+Vi behöver relais om vi vill skydda vär kära Arduino emot,
+bland annat, DC motorer.
 
-![22](22_maetning_av_en_relais_connect.png)
+Vi använder en 4-relais kort: en kretskort som har fyra relais.
+So ser en 4-relais kort ut:
 
-Set the multimeter to beeping.
+![En 4-relais kort](22_maetning_av_en_relais_relais_1.jpg)
 
-Check the multimeter by connecting the probes. It should beep.
+![En 4-relais kort](22_maetning_av_en_relais_relais_2.jpg)
 
-What does it means if it beeps?
+## 22.1. Förbereda multimetern
 
-- That electricity can freely flow between the probes
+Tar en multimeter.
+Sätt den på att mäta motstånd.
+Sätter mätpennorna emot varann,
+likadant den här figur:
 
-Measure 2 and 3. You can put the probes on the screws.
+![](22_maetning_av_en_relais_multimeter_r_0.png)
 
-![22](22_maetning_av_en_relais_connect_2_and_3.png)
+Vad bör du mäta om multimetern funkar väl?
+Varför är det så?
+Vad kan du göra om multimetern ger fel värd?
 
-Does it beep? What does that mean?
+\pagebreak
 
-- Yes, it should beep
-- It means that electricity can freely flow between 2 and 3.
+### Svar
+
+Du bör mäta noll Ohm.
+Det är så för att det finns ingen (elektriskt)
+motstånd mellan mätpennorna när dem är emot varann.
+
+Om multimetern ger fel värd betyder det ofta:
+
+- mätstiftarna är inte i korrekta hålar ov multimetern
+- mätstiftarna har en glappkontakt till multimetern:
+  vrida stifterna tills motståndet blir noll
+- multimetern har illa om batteri
 
 
-Measure 1 and 2:
+
+## 22.2. Koppling av en relais
+
+Koppla en relais så här:
+
+![Koppla en relais](22_maetning_av_en_relais_connect.png)
+
+## 22.3. Mät mellan 2 och 3
+
+Med din multimeter, mäter motståndet mellan
+ingång två och tre av den fjärde relais, så här:
+
+![22.3. Mät mellan 2 och 3](22_maetning_av_en_relais_connect_2_and_3.png)
+
+Multimetern behövs inte vara skruvad i ingångerna,
+att sticka den på skruvarna av ingånger
+funkar just så bra.
+
+Vad är motståndet? Vad betyder det?
+
+### 22.3. Svar
+
+Motstånded är noll Ohm.
+Det betyder att el kan ströma fritt mellan ingånger 2 och 3.
+
+## 22.4. Mät mellan 1 och 2
+
+Med din multimeter, mäter motståndet mellan
+ingång en och två av den fjärde relais, så här:
 
 ![22](22_maetning_av_en_relais_connect_1_and_2.png)
 
-Does it beep? What does that mean?
+Vad är motståndet? Vad betyder det?
 
-- No, it should not beep
-- It means that no electricity can flow between 1 and 2.
+### 22.4. Svar
 
-Measure 1 and 3:
+Motstånded är oändligt Ohm.
+Det betyder att el kan inte ströma mellan ingånger 1 och 2.
+
+## 22.5. Mät mellan 1 och 3
+
+Med din multimeter, mäter motståndet mellan
+ingång en och två av den fjärde relais, så här:
 
 ![22](22_maetning_av_en_relais_connect_1_and_3.png)
 
-Does it beep? What does that mean?
+Vad är motståndet? Vad betyder det?
 
-- No, it should not beep
-- It means that no electricity can flow between 1 and 3.
+### 22.5. Svar
 
-Now connect GND. You should hear a click. Also, an LED on the board should
-light up.
+Motstånded är oändligt Ohm.
+Det betyder att el kan inte ströma mellan ingånger 1 och 3.
 
-![22](22_maetning_av_en_relais_connect_gnd.png)
+Här är en översikt av vad vi har mått nu:
 
-Do the same measurements.
+Stift|Stift|Motsånd
+-----|-----|--------
+1    |2    |Noll
+1    |3    |Oändligt
+2    |3    |Oändligt
 
-Exam:
+## 22.6. Sätt på en relais
 
-- A relais is sometimes called a button that you can press electronically.
-  Why is that true?
-- A relais is used when more electricity is used.
-  Explain how this works.
+Koppla `GND` av Arduino med `IN1` av relaiskortan.
 
+Vad ser och hör du när du gör det?
+
+![Koppla `GND` av Arduino med `IN1` av relaiskortan](22_maetning_av_en_relais_connect_gnd.png)
+
+### 22.6. Svar
+
+Du hör ett klick och en lysdiod (med namnet `D5`)
+på kortan börjar att lysa.
+
+## 22.7. Gör igen
+
+Gör samma mätningar igen.
+Du får använda tabellen här:
+
+Stift|Stift|Motstånd
+-----|-----|--------
+1    |2    |?
+1    |3    |?
+2    |3    |?
+
+Bland vilka stiftar finns nu noll Ohm?
+
+## Slutuppgift
+
+Går igenom all sex mätningar, som i tabellen här:
+
+`GND` kopplat till `IN1`?|Stift|Stift|Motstånd
+-------------------------|-----|-----|--------
+Nej                      |1    |2    |?
+Nej                      |1    |3    |?
+Nej                      |2    |3    |?
+Ja                       |1    |2    |?
+Ja                       |1    |3    |?
+Ja                       |2    |3    |?
+
+För varje mätning:
+
+- förutspå vilken motstånd multimeter ska visar
+- visar det med en multimeter
+
+Fem av sex gånger skulle du förutspå rätt och visar rätt.
+
+Förklara varför en relais är liksom en knapp som kan blir tryckt
+elektronikt.
