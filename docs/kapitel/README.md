@@ -81,6 +81,7 @@ Kpt|Beskrivning
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 99**
+997|[Multimeter](multimeter/README.md)
 998|[Arduino som ISP](arduino_som_isp/README.md)
 999|[Bare-bone Arduino](bare_bone_arduino/README.md)
 
