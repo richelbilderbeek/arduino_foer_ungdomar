@@ -1,1 +1,1 @@
-# 41. Anslutning av en stegmotor
+# Lektion 41: Anslutning av en stegmotor

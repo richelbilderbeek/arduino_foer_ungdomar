@@ -1,1 +1,1 @@
-# 26. Anslutning av en DC motor
+# Lektion 26: Anslutning av en DC motor

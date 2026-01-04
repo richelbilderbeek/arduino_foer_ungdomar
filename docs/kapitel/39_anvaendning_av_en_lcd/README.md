@@ -1,4 +1,4 @@
-# 39. Användning av en LCD
+# Lektion 39: Användning av en LCD
 
 En LCD är en del för att visa något, som bokstäver och symboler.
 LCD betyder "Liquid Crystal Display", detta är engelska för "Liquid Crystal Screen"

@@ -1,1 +1,1 @@
-# 38. Anslutning av en LCD
+# Lektion 38: Anslutning av en LCD

@@ -1,4 +1,4 @@
-# 22. Mätning av en relais
+# Lektion 22: Mätning av en relais
 
 <!-- 
 

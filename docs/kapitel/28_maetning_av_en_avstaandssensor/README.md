@@ -1,1 +1,1 @@
-# 28. Mätning av en avståndssensor
+# Lektion 28: Mätning av en avståndssensor

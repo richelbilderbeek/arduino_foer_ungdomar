@@ -1,4 +1,4 @@
-# 23. Anslutning av en relais
+# Lektion 23: Anslutning av en relais
 
 Supply power to the relais:
 

@@ -1,1 +1,1 @@
-# 42. Användning av en stegmotor
+# Lektion 42: Användning av en stegmotor

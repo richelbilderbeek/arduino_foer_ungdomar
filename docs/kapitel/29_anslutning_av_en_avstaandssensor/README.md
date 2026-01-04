@@ -1,1 +1,1 @@
-# 29. Anslutning av en avståndssensor
+# Lektion 29: Anslutning av en avståndssensor
