@@ -63,6 +63,15 @@ Koppla en relais så här:
 
 ![Koppla en relais](22_maetning_av_en_relais_connect.png)
 
+Vilken relais har numret 1? Hur såg du detta?
+
+### 22.2. Svar
+
+Relais som är mest ner är relais numret 1.
+Vi kan ser det på texten på kretskort:
+det står `K1` (på vänster sida i bilden)
+nära relais-utgången.
+
 ## 22.3. Mät mellan 1 och 2
 
 Med din multimeter, mäter motståndet mellan
