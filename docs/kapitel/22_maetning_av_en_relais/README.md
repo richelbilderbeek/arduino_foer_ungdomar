@@ -20,6 +20,8 @@ En relais är liksom en knapp som kan blir tryckt elektroniskt.
 Vi behöver relais om vi vill skydda vär kära Arduino emot,
 bland annat, DC motorer.
 
+Under den här lektion **mäter** vi hur den fungerar.
+
 Vi använder en 4-relais kort: en kretskort som har fyra relais.
 So ser en 4-relais kort ut:
 
