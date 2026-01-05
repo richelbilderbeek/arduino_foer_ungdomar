@@ -1,6 +1,6 @@
-# Lektion 22: Mätning av en relais
+# Lektion 22: Mätning av ett relä
 
-<!-- 
+<!--
 
 Downloaded the Fritzing file at
 
@@ -12,134 +12,134 @@ https://github.com/KAST-Tech/fritzing-parts/raw/refs/heads/main/4-Channel%205v%2
 
 This does not work:
 
-https://fritzing.org/projects/smd-4-x-relay-board 
+https://fritzing.org/projects/smd-4-x-relay-board
 
 -->
 
-En relais är liksom en knapp som kan blir tryckt elektroniskt.
-Vi behöver relais om vi vill skydda vär kära Arduino emot,
-bland annat, DC motorer.
+Ett relä är som en knapp som kan styras elektroniskt.
+Vi använder relä för att skydda vår kära Arduino när vi styr kraftiga komponenter,
+till exempel DC-motorer.
 
-Under den här lektion **mäter** vi hur den fungerar.
+Under den här lektionen **mäter** vi hur den fungerar.
 
-Vi använder en 4-relais kort: en kretskort som har fyra relais.
-So ser en 4-relais kort ut:
+Vi använder ett 4-relä kort: ett kretskort som har fyra relän.
+Så här ser ett 4-relä kort ut:
 
-![En 4-relais kort](22_maetning_av_en_relais_relais_1.jpg)
+![Ett 4-relä kort](22_maetning_av_en_relais_relais_1.jpg)
 
-![En 4-relais kort](22_maetning_av_en_relais_relais_2.jpg)
+![Ett 4-relä kort](22_maetning_av_en_relais_relais_2.jpg)
 
 ## 22.1. Förbereda multimetern
 
-Tar en multimeter.
-Sätt den på att mäta motstånd.
-Sätter mätpennorna emot varann,
-likadant den här figur:
+Ta en multimeter.
+Ställ in den på att mäta motstånd.
+Sätt mätpennorna mot varandra,
+som i den här figuren:
 
 ![](22_maetning_av_en_relais_multimeter_r_0.png)
 
-Vad bör du mäta om multimetern funkar väl?
+Vad bör du mäta om multimetern fungerar väl?
 Varför är det så?
-Vad kan du göra om multimetern ger fel värd?
+Vad kan du göra om multimetern ger fel värde?
 
 \pagebreak
 
 ### Svar
 
 Du bör mäta noll Ohm.
-Det är så för att det finns ingen (elektriskt)
-motstånd mellan mätpennorna när dem är emot varann.
+Det är så för att det inte finns något (elektriskt)
+motstånd mellan mätpennorna när de är mot varandra.
 
-Om multimetern ger fel värd betyder det ofta:
+Om multimetern visar fel värde betyder det ofta:
 
-- mätstiftarna är inte i korrekta hålar ov multimetern
-- mätstiftarna har en glappkontakt till multimetern:
-  vrida stifterna tills motståndet blir noll
-- multimetern har illa om batteri
+- mätstiften är inte i rätt hål på multimetern
+- mätstiften har dålig kontakt till multimetern:
+  vrid stiften tills motståndet blir noll
+- multimetern har dåligt batteri
 
 
 
-## 22.2. Koppling av en relais
+## 22.2. Koppling av ett relä
 
-Koppla en relais så här:
+Koppla ett relä så här:
 
-![Koppla en relais](22_maetning_av_en_relais_connect.png)
+![Koppla ett relä](22_maetning_av_en_relais_connect.png)
 
-Vilken relais har numret 1? Hur såg du detta?
+Vilket relä har numret 1? Hur såg du det?
 
 ### 22.2. Svar
 
-Relais som är mest ner är relais numret 1.
-Vi kan ser det på texten på kretskort:
+Reläet som är längst ner är relä nummer 1.
+Vi kan se det på texten på kretskortet:
 det står `K1` (på vänster sida i bilden)
-nära relais-utgången.
+nära reläets utgång.
 
 ## 22.3. Mät mellan 1 och 2
 
-Med din multimeter, mäter motståndet mellan
-ingång en och två av den första relais, så här:
+Med din multimeter, mät motståndet mellan
+ingång ett och två på det första reläet, så här:
 
-![22.3. Mät mellan 1 och 2](22_maetning_av_en_relais_connect_2_and_3.png)
+![22.3. Mät mellan 1 och 2](22_maetning_av_en_relais_connect_1_and_2.png)
 
-Multimetern behövs inte vara skruvad i ingångerna,
-att sticka den på skruvarna av ingånger
-funkar just så bra.
+Multimetern behöver inte vara inskruvad i ingångarna,
+att sticka in den på skruvarna
+fungerar lika bra.
 
 Vad är motståndet? Vad betyder det?
 
 ### 22.3. Svar
 
-Motstånded är noll Ohm.
-Det betyder att el kan ströma fritt mellan ingånger 1 och 2.
+Motståndet är noll Ohm.
+Det betyder att el kan strömma fritt mellan ingång 1 och 2.
 
 ## 22.4. Mät mellan 2 och 3
 
-Med din multimeter, mäter motståndet mellan
-ingång två och tre av den första relais, så här:
+Med din multimeter, mät motståndet mellan
+ingång två och tre på det första reläet, så här:
 
-![22](22_maetning_av_en_relais_connect_2_and_3.png)
+![22.4. Mät mellan 2 och 3](22_maetning_av_en_relais_connect_2_and_3.png)
 
 Vad är motståndet? Vad betyder det?
 
 ### 22.4. Svar
 
-Motstånded är oändligt Ohm.
-Det betyder att el kan inte ströma mellan ingånger 2 och 3.
+Motståndet är oändligt Ohm.
+Det betyder att el inte kan strömma mellan ingång 2 och 3.
 
 ## 22.5. Mät mellan 1 och 3
 
-Med din multimeter, mäter motståndet mellan
-ingång en och två av den första relais, så här:
+Med din multimeter, mät motståndet mellan
+ingång ett och tre på det första reläet, så här:
 
-![22](22_maetning_av_en_relais_connect_1_and_3.png)
+![22.5. Mät mellan 1 och 3](22_maetning_av_en_relais_connect_1_and_3.png)
 
 Vad är motståndet? Vad betyder det?
 
 ### 22.5. Svar
 
-Motstånded är oändligt Ohm.
-Det betyder att el kan inte ströma mellan ingånger 1 och 3.
+Motståndet är oändligt Ohm.
+Det betyder att el inte kan strömma mellan ingång 1 och 3.
 
-Här är en översikt av vad vi har mått nu:
+Här är en översikt av vad vi har mätt nu:
 
-Stift|Stift|Motsånd
+Stift|Stift|Motstånd
 -----|-----|--------
-1    |2    |Oändligt
+1    |2    |Noll
 1    |3    |Oändligt
-2    |3    |Noll
+2    |3    |Oändligt
 
-## 22.6. Sätt på en relais
+## 22.6. Sätt på ett relä
 
-Koppla `GND` av Arduino med `IN1` av relaiskortan.
+Koppla `GND` på Arduino med `IN1` på reläkortet.
 
 Vad ser och hör du när du gör det?
 
-![Koppla `GND` av Arduino med `IN1` av relaiskortan](22_maetning_av_en_relais_connect_gnd.png)
+![Koppla `GND` på Arduino med `IN1` på reläkortet](22_maetning_av_en_relais_connect_gnd.png)
 
 ### 22.6. Svar
 
 Du hör ett klick och en lysdiod (med namnet `D5`)
-på kortan börjar att lysa.
+på kortet börjar att lysa.
 
 ## 22.7. Gör igen
 
@@ -152,11 +152,11 @@ Stift|Stift|Motstånd
 1    |3    |?
 2    |3    |?
 
-Bland vilka stiftar finns nu noll Ohm?
+Mellan vilka stift finns nu noll Ohm?
 
 ## Slutuppgift
 
-Går igenom all sex mätningar, som i tabellen här:
+Gå igenom alla sex mätningar, som i tabellen här:
 
 `GND` kopplat till `IN1`?|Stift|Stift|Motstånd
 -------------------------|-----|-----|--------
@@ -169,10 +169,10 @@ Ja                       |2    |3    |?
 
 För varje mätning:
 
-- förutspå vilken motstånd multimeter ska visar
-- visar det med en multimeter
+- förutspå vilket motstånd multimetern ska visa
+- visa det med en multimeter
 
-Fem av sex gånger skulle du förutspå rätt och visar rätt.
+Fem av sex gånger ska du förutspå rätt och visa rätt.
 
-Förklara varför en relais är liksom en knapp som kan blir tryckt
-elektronikt.
+Förklara varför ett relä är som en knapp som kan styras
+elektroniskt.
