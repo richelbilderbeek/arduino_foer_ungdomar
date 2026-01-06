@@ -74,6 +74,6 @@ Breadboard power supply, battery|[Strömförsörjning för kopplingsdäck 3.3/5V
 Breadboard power supply, USB-C  |[Strömförsörjning för kopplingsdäck 3.3/5V USB-C, art nr: 41024241](https://www.electrokit.com/stromforsorjning-for-kopplingsdack-3.3/5v-usb-c)         |79         |Good
 USB-A to UBS-C cable            |[USB-C kabel till USB-A 2.0 15W 0.1m](https://www.electrokit.com/usb-kabel-a-hane-c-hane-0.1m)                                                          |29         |Good
 Servomotor                      |[Micro servo TS90 / SG90 1.2 kg](https://www.electrokit.com/micro-servo-ts90-sg90-1.2kg)                                                                |49         |Good
-Distance sensor                 |[Avståndssensor IR 2-20cm, art nr: 41032790, Joy-It - SEN-KY032IR](https://www.electrokit.com/avstandssensor-ir-2-20cm)                                 |
+Distance sensor                 |[Avståndssensor IR 2-20cm, art nr: 41032790, Joy-It - SEN-KY032IR](https://www.electrokit.com/avstandssensor-ir-2-20cm)                                 |.          |.
 
 <!-- markdownlint-enable MD013 -->

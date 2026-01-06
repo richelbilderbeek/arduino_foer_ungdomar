@@ -49,10 +49,10 @@ Detta är vad koden gör:
 - `Serial.begin(9600)`: Arduino skickar 9600 tecken per sekund genom seriekabeln
 - `void loop() {}`: `loop`-funktionen är en funktion som körs hela tiden efter uppstart. Det som händer är mellan hängslen
 - `Serial.write(analogRead(A0) / 4)`: Jag gör detta i bitar:
-  - `Serial.write()`: skicka ett tecken till seriekabeln
-  - `analogRead(A0)`: mäter spänningen på stift `A0`. En spänning på 5 volt blir siffran `1023`
-  - `analogRead(A0) / 4`: Mät spänningen på stift `A0` och dividera den med fyra. En spänning på 5 volt blir ett nummer "255", detta är ett praktiskt nummer att använda i bearbetning
-  - `Serial.write(analogRead(A0) / 4)`: mät spänningen på stiftet `A0`, dividera den med fyra och skicka den siffran genom seriekabeln
+    - `Serial.write()`: skicka ett tecken till seriekabeln
+    - `analogRead(A0)`: mäter spänningen på stift `A0`. En spänning på 5 volt blir siffran `1023`
+    - `analogRead(A0) / 4`: Mät spänningen på stift `A0` och dividera den med fyra. En spänning på 5 volt blir ett nummer "255", detta är ett praktiskt nummer att använda i bearbetning
+    - `Serial.write(analogRead(A0) / 4)`: mät spänningen på stiftet `A0`, dividera den med fyra och skicka den siffran genom seriekabeln
 - `delay(10)`: vänta tio millisekunder
 
 ## 90.2. Uppgifter

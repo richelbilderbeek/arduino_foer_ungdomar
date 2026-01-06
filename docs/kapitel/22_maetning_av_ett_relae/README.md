@@ -36,7 +36,7 @@ Ställ in den på att mäta motstånd.
 Sätt mätpennorna mot varandra,
 som i den här figuren:
 
-![](22_maetning_av_en_relais_multimeter_r_0.png)
+![22.1. Förbereda multimetern](22_maetning_av_en_relais_multimeter_r_0.png)
 
 Vad bör du mäta om multimetern fungerar väl?
 Varför är det så?
@@ -61,7 +61,7 @@ Om multimetern visar fel värde betyder det ofta:
 
 Koppla ett relä så här:
 
-![Koppla ett relä](22_maetning_av_en_relais_connect.png)
+![22.2. Koppling av ett relä](22_maetning_av_en_relais_connect.png)
 
 Vilket relä har numret 1? Hur såg du det?
 
