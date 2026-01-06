@@ -2,7 +2,7 @@
 
 Under den här lektionen ska vi mäta spänningen på en joystick med ett oscilloskop!
 
-## 13.1. Att koppla en joystick till ett skop
+## 13.1. Att koppla en joystick till ett oscilloskop
 
 ![En joystick, framsida](maetening_av_en_joystick_verkligheten_isometriskt.jpg)
 
@@ -17,14 +17,14 @@ Under den här lektionen ska vi mäta spänningen på en joystick med ett oscill
 Gör foljande:
 
 - koppla ihop efter schemat ovanpå.
-- starta skopet
+- starta oscilloskopet
 - trycker på knapp 'CH1' i rutan 'Vertical' tills den lyser (ser en bild nedåt)
 
 ![Trycker pa CH1 här](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
 Frågor:
 
-- Vad visar skopet?
+- Vad visar oscilloskopet?
 - Vad händer om du drar joysticken i olika riktningar?
 
 \pagebreak
@@ -37,7 +37,7 @@ Frågor:
 
 \pagebreak
 
-Vad skopet visar är svårt att förutspå.
+Vad oscilloskopet visar är svårt att förutspå.
 Kanske ser du en gul horisontell linje, som här:
 
 ![Skop med en horisontell gul linje](maetening_av_en_joystick_bild_2_5v.jpg)
@@ -47,14 +47,14 @@ flyttas linjen uppåt och nedåt.
 
 \pagebreak
 
-## 13.2. Att välja tidskalan av skopen
+## 13.2. Att välja tidskalan av oscilloskopen
 
-Vad du ser beror på inställningen av tidskalan på skopet.
+Vad du ser beror på inställningen av tidskalan på oscilloskopet.
 
 ![Högre knappen här bestämmer tidskalan](maetening_av_en_joystick_hor_skaleringsknapp.jpg)
 
 Om du vridar den högre knapp av 'Horizontal' ändrar du tidskalan.
-Du kann också ser det på skärmen av skopen:
+Du kann också ser det på skärmen av oscilloskopen:
 om du vridar knappen änder sig vita text på nedåt av skärmen.
 
 Vrid på den översta knappen i rutan 'Horizontal' tills att den visar 'M 1.00s'.
@@ -73,15 +73,15 @@ Du kan se att den gula linjen långsamt rör sig.
 
 \pagebreak
 
-## 13.3. Att välja spänningskalan av skopen
+## 13.3. Att välja spänningskalan av oscilloskopen
 
-Vad du ser nu beror på spänningskalan på skopet också.
+Vad du ser nu beror på spänningskalan på oscilloskopet också.
 
 ![Högre kanppen bestämmer spänningsskalan](maetening_av_en_joystick_ver_skaleringsknapp_1.jpg)
 
 Om du vrider den övre vänstra knappen i 'Vertical'
 ändrar du spänningsskalan.
-Du kan också se det på skärmen på skopet:
+Du kan också se det på skärmen på oscilloskopet:
 om du vrider knappen änras den gula texten i botten av skärmen.
 
 Vrid den övre vänstra knappen i 'Vertical' tills att den visar 'CH1 2.00V'.
@@ -102,9 +102,9 @@ När du drar joysticken i olika riktningar rör sig den gula linjen uppåt och n
 
 \pagebreak
 
-## 13.4. Att koppla joysticken igen till skopet
+## 13.4. Att koppla joysticken igen till oscilloskopet
 
-Nu ska vi koppla ännu ett stift på joysticken till skopet:
+Nu ska vi koppla ännu ett stift på joysticken till oscilloskopet:
 
 ![Schemat på kopplingen](maetening_av_en_joystick_schema_2.png)
 
@@ -119,7 +119,7 @@ Starta ocilloskopet.
 Tryck på knappen 'CH2' i 'Vertical' tills den lyser.
 Vridar den övre högra knappen i 'Vertical' tills den visar 'CH2 2.00V'.
 
-Vad visar skopet? Vad händer om du rör på joysticken?
+Vad visar oscilloskopet? Vad händer om du rör på joysticken?
 
 \pagebreak
 

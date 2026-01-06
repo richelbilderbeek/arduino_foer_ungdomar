@@ -46,20 +46,20 @@ I mörkret har en LDR högsta motstånd
 
 Vi fick 68 kOhm, dvs 68.000 Ohm.
 
-## 16.4. Att mäta spänningen av en LDR med en skop
+## 16.4. Att mäta spänningen av en LDR med en oscilloskop
 
 Bygga elkretsen nadåt:
 
-![Att mäta en LDR med en skop](maetning_av_en_ldr_2.png)
+![Att mäta en LDR med en oscilloskop](maetning_av_en_ldr_2.png)
 
-Röda proben gå till en skop.
+Röda proben gå till en oscilloskop.
 
-På skopen gör:
+På oscilloskopen gör:
 
 - Sätt tidskalan till 1 sekund
 - Sätt spänningsskalan till 2 volts
 
-Vilken spänning visar skopen?
+Vilken spänning visar oscilloskopen?
 
 \pagebreak
 
@@ -70,10 +70,10 @@ för att detta är spänningen av Arduinon
 
 Vi fick 2.12 volt
 
-## 16.5. Att mäta spänningen av en LDR med en skop
+## 16.5. Att mäta spänningen av en LDR med en oscilloskop
 
 Hålla LDRen nära en lampa.
-Vilken spänning visar skopen nu?
+Vilken spänning visar oscilloskopen nu?
 
 \pagebreak
 
@@ -83,10 +83,10 @@ Spänningen öker, men aldrig högre än 5 volt
 
 Vi fick 3.1 volt.
 
-## 16.6. Att mäta spänningen av en LDR med en skop
+## 16.6. Att mäta spänningen av en LDR med en oscilloskop
 
 Ta bort ljuset till LDRen med, t.ex. din hand.
-Vilken spänning visar skopen nu?
+Vilken spänning visar oscilloskopen nu?
 
 \pagebreak
 
@@ -96,27 +96,27 @@ Spänningen sänker,  men aldrig mindre än 0 volt
 
 Vi fick 0.28 volt.
 
-## 16.7. Att mäta en LDR med en skop
+## 16.7. Att mäta en LDR med en oscilloskop
 
 Bygga elkretsen nadåt:
 
-![Att mäta en LDR med en skop](maetning_av_en_ldr_2.png)
+![Att mäta en LDR med en oscilloskop](maetning_av_en_ldr_2.png)
 
 \pagebreak
 
 Så ser det ut:
 
-![Att mäta en LDR med en skop](maetning_av_en_ldr_med_skop.png)
+![Att mäta en LDR med en oscilloskop](maetning_av_en_ldr_med_skop.png)
 
 Probens röda sladd gå till mellan LDR och motstånd.
 Probens svarta sladd gå till GND.
 
-På skopen gör:
+På oscilloskopen gör:
 
 - Sätt tidskalan till 1 sekund
 - Sätt spänningsskalan till 2 volts
 
-Vilken spänning visar skopen?
+Vilken spänning visar oscilloskopen?
 
 \pagebreak
 
@@ -129,10 +129,10 @@ för att detta är spänningen av Arduinon
 
 Vi fick 2.12 volt
 
-## 16.8. Att mäta en LDR med en skop
+## 16.8. Att mäta en LDR med en oscilloskop
 
 Hålla LDRen nära en lampa.
-Vilken spänning visar skopen nu?
+Vilken spänning visar oscilloskopen nu?
 
 \pagebreak
 
@@ -144,10 +144,10 @@ Spänningen öker, men aldrig högre än 5 volt
 
 Vi fick 3.1 volt.
 
-## 16.9. Att mäta en LDR med en skop
+## 16.9. Att mäta en LDR med en oscilloskop
 
 Ta bort ljuset till LDRen med, t.ex. din hand.
-Vilken spänning visar skopen nu?
+Vilken spänning visar oscilloskopen nu?
 
 \pagebreak
 
@@ -166,7 +166,7 @@ Vi fick 0.28 volt.
 Hämta:
 
 - 1 st multimeter
-- 1 st skop
+- 1 st oscilloskop
 - 1 st LDR
 - 4 st sladdar
 - 1 st 1000 Ohm motstånd (rött, brun, svart, guld)

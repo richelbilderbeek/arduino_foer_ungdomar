@@ -2,11 +2,11 @@
 
 Under den här lektionen ska vi mäta en servo!
 
-## 20.1. Att mäta motståndet av en servo med en skop
+## 20.1. Att mäta motståndet av en servo med en oscilloskop
 
-Koppla en servo till en skop, så här:
+Koppla en servo till en oscilloskop, så här:
 
-![Att mäta en servo med en skop](maetning_av_en_servo_anslutning.jpg)
+![Att mäta en servo med en oscilloskop](maetning_av_en_servo_anslutning.jpg)
 
 Servor har sladdor av olika färger, här är vad dem betyder:
 
@@ -56,7 +56,7 @@ Vad visar mätningen?
 
 Hämta:
 
-- 1 st skop
+- 1 st oscilloskop
 - 1 st servo
 - sladdar
 
@@ -64,9 +64,9 @@ Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 
 - Steg 1: Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
-- Steg 2: ta bort alla sladdar. Stäng av skopen.
+- Steg 2: ta bort alla sladdar. Stäng av oscilloskopen.
 
 Starta en timer och gör följande:
 
-- Steg 3: Visar hur frekvens på skopen ändrar sig när Arduino skicker
-  en budskap till skopen.
+- Steg 3: Visar hur frekvens på oscilloskopen ändrar sig när Arduino skicker
+  en budskap till oscilloskopen.
