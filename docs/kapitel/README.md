@@ -49,12 +49,12 @@ med den some vi redan känner.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 8**: Relais
-22 |[Mätning av en relais](22_maetning_av_en_relais/README.md)
-23 |[Anslutning av en relais](23_anslutning_av_en_relais/README.md)
-24 |[Användning av en relais](24_anvaendning_av_en_relais/README.md)
+22 |[Mätning av en relä](22_maetning_av_en_relae/README.md)
+23 |[Anslutning av en relä](23_anslutning_av_en_relae/README.md)
+24 |[Användning av en relä](24_anvaendning_av_en_relae/README.md)
 .  |**Bok 9**: DC motor
 25 |[Mätning av en DC motor](25_maetning_av_en_dc_motor/README.md)
-26 |[Anslutning av en DC motor](26_anslutning_av_en_dc_motor/README.md): använd knappar och H-bridge, a relais openens upon GND (i.e. not 5V), the middle is connnected to one of the other pins
+26 |[Anslutning av en DC motor](26_anslutning_av_en_dc_motor/README.md): använd knappar och H-bridge, a relä openens upon GND (i.e. not 5V), the middle is connnected to one of the other pins
 27 |[Användning av en DC motor](27_anvaendning_av_en_dc_motor/README.md)
 .  |**Bok 10**: Avståndssensor
 28 |[Mätning av en avståndssensor](28_maetning_av_en_avstaandssensor/README.md)
