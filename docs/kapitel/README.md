@@ -12,6 +12,8 @@ funkar, och en kapittel för att använda den med Arduino.
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
+.  |**Bok 0**: Arduino
+0  |[Installera Arduino IDEn](00_installera_arduino_iden/README.md)
 .  |**Bok 1**: lysdiod 1
 1  |[Användning av den inbyggda lysdioden](01_anvaendning_av_den_inbyggda_lysdioden/README.md)
 2  |[Användning av en multimeter](02_anvaendning_av_en_multimeter/README.md)

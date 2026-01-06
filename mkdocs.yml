@@ -7,6 +7,7 @@ nav:
   - Välkommen: index.md
   - Kapitel:
     - Översiktet: kapitel/README.md
+    - kapitel/00_installera_arduino_iden/README.md
     - kapitel/01_anvaendning_av_den_inbyggda_lysdioden/README.md
     - kapitel/02_anvaendning_av_en_multimeter/README.md
     - kapitel/03_anslutning_av_en_lysdiod/README.md
