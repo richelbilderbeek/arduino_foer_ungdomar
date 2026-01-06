@@ -11,7 +11,7 @@ Ik denk dat dit wel moet lukken :-)
 ## Code: seriele monitor
 
 ```c++
-void setup() 
+void setup()
 {
   Serial.begin(9600);
 }
@@ -59,7 +59,7 @@ Eerst sluiten we alleen een LDR aan:
 Met deze code meten we de waarde van de LDR:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
@@ -114,7 +114,7 @@ Nu sluiten we ook een LED aan:
 Nu gaan we het LEDje laten reageren op de LDR:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
@@ -158,7 +158,7 @@ void loop()
     Zet `Serial.println("UIT");` in het tweede gedeelte van het `if` statement.
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
@@ -198,7 +198,7 @@ Als je de LDR helemaal donker maakt twee.
 De getallen in de `if` statement moeten goed ingesteld worden.
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(12, OUTPUT);

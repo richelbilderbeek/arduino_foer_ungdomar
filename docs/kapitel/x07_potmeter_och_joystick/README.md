@@ -38,7 +38,7 @@ Höger ben     | GND
 ```c++
 const int vantatid = 100; //milliseconden
 
-void setup() 
+void setup()
 {
   Serial.begin(9600);
 }
@@ -50,10 +50,10 @@ void visar_potmeter()
 
 void vanta_lite()
 {
-  delay(vantatid);  
+  delay(vantatid);
 }
 
-void loop() 
+void loop()
 {
   visar_potmeter();
   vanta_lite();
@@ -86,7 +86,7 @@ int lasa_potmeter()
 const int potmeter_stift = A0;
 //...
 
-void setup() 
+void setup()
 {
   // ...
   pinMode(potmeter_stift, INPUT);
@@ -128,7 +128,7 @@ analogWrite(led_stift, lasa_potmeter());
 // ...
 const int led_stift = 11;
 
-void setup() 
+void setup()
 {
   // ...
   pinMode(led_stift, OUTPUT);
@@ -212,7 +212,7 @@ använd 'Replace All' ("Ersätt alla").
 const int vertikal_joystick_stift = A0;
 // ...
 
-void setup() 
+void setup()
 {
   pinMode(vertikal_joystick_stift, INPUT);
   // ...
@@ -229,7 +229,7 @@ void visar_joystick_vertikalt()
   analogWrite(led_stift, lasa_joystick_vertikalt() / 4);
 }
 
-void loop() 
+void loop()
 {
   visar_joystick_vertikalt();
   // ...

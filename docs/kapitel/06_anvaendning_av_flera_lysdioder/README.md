@@ -17,14 +17,14 @@ Alla lysdioder ska lysa. Om de inte gör det, be om hjälp!
 Ladda upp denna kod:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(11, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(11, HIGH);
   digitalWrite(12, HIGH);
@@ -88,14 +88,14 @@ Den tre lysdioderna skall blinka. Om inte, fråga om hjälp!
 Ändra koden till koden nedan:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(11, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(11, HIGH);
   digitalWrite(12, HIGH);
@@ -141,14 +141,14 @@ Det ska alltid vara exakt en LED som lyser.
 ### 6.7. Svar
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(11, OUTPUT);
   pinMode(12, OUTPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(11, HIGH);
   delay(1000);

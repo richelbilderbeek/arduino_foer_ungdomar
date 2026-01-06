@@ -60,13 +60,13 @@ Båda vridmotstånd gör ingenting.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
   Serial.println(analogRead(A0));
 }
@@ -97,13 +97,13 @@ Vridmotståndet åt höger gör ingenting: vi aldrig använder `A1` i programmet
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A1, INPUT);
   Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
   Serial.println(analogRead(A1));
 }
@@ -133,14 +133,14 @@ vridmotståndet i relation med andra vridmotståndet.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
   Serial.print(analogRead(A0));
   Serial.print(",");
@@ -198,7 +198,7 @@ Lysdioder fortfarande gör ingenting, för at den är aldrig använd i koden.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
@@ -206,7 +206,7 @@ void setup()
   pinMode(11, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   analogWrite(10, analogRead(A0));
   analogWrite(11, analogRead(A1));

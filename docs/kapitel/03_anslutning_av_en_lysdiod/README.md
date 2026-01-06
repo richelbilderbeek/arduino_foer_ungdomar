@@ -53,18 +53,21 @@ Nu är det dags att bygga kretsen på riktigt:
 - Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
 - Montera kretsen enligt bild:
 
-  - Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster
+    - Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster
       i kopplingsdäcket
-  - Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden i kopplingsdäcket.
+    - Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden
+      i kopplingsdäcket.
       Det ska finnas en tomt hål mellan det långa benet på lysdioden och
       den röda sladden i kopplingsdäcket.
-  - Sätt det korta benet på lysdioden i hålet till höger om det långa benet
-  - Koppla in sidan med brun rand på ett motstånd ett hål ovanför det korta benet på lysdioden
-  - Koppla in sidan med guldig rand på ett motstånd fyra hål till höger om
+    - Sätt det korta benet på lysdioden i hålet till höger om det långa benet
+    - Koppla in sidan med brun rand på ett motstånd ett hål ovanför det korta
+      benet på lysdioden
+    - Koppla in sidan med guldig rand på ett motstånd fyra hål till höger om
       motståndet med brun rand.
-      Det ska finnas tre tomma hål mellan båda sidorna av motstånden i kopplingsdäcket.
-  - Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
-      till GND-hålet i Arduino
+      Det ska finnas tre tomma hål mellan båda sidorna av motstånden i
+      kopplingsdäcket.
+    - Koppla in en svart sladd ett hål ovanför sidan med guldig rand på
+      motståndet till GND-hålet i Arduino
 
 - Sätt tillbaka USB-kabeln i datorn
 
@@ -232,7 +235,9 @@ Bygg upp kretsen och kontrollera!
 
 ### 3.11. Svar
 
-Nej, det funkar inte. Elen går ej genom lysdioden, utan tar den kortare vägen direkt genom motståndet. Stackars lysdioden!
+Nej, det funkar inte.
+Elen går ej genom lysdioden, utan tar den kortare vägen
+direkt genom motståndet. Stackars lysdioden!
 
 ## 3.12. Krets 10
 
@@ -268,7 +273,8 @@ Bygg upp kretsen och kontrollera!
 ### 3.13. Svar
 
 Lysdioden ska inte lysa, för att riktningen av lysdioden är fel.
-Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet. Att motståndet är kopplat framför gör ingen skillnad.
+Därför kan elen inte gå från `5V` till `GND` igenom lysdioden och motståndet.
+Att motståndet är kopplat framför gör ingen skillnad.
 
 Det långa benet av en lysdiod skall vara kopplat till 5V.
 
@@ -355,7 +361,8 @@ Starta en timer och gör följande:
 Upprepa fem gånger:
 
 - Steg 2: Examinerare väljer en ritning fråm den här lektionen och gömmer svaret.
-  Hen frågar om du tror att kretsen kommer att fungera, och du svarar ja eller nej.
+  Hen frågar om du tror att kretsen kommer att fungera,
+  och du svarar ja eller nej.
   Bygg upp kretsen för att kontrollera ditt svar.
 
 Klarar du minst fyra av fem, har du klarat slutuppgiften!

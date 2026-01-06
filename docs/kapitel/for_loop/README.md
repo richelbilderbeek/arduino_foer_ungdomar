@@ -54,7 +54,7 @@ Verander het `setup` gedeelte naar een for loop.
 ```c++
 void setup()
 {
-  for (int i=2; i<4; ++i) 
+  for (int i=2; i<4; ++i)
   {
     pinMode(i, OUTPUT);
   }
@@ -85,7 +85,7 @@ Laat nu de LEDjes aan gaan met een for loop.
 ```c++
 void setup()
 {
-  for (int i=2; i<4; ++i) 
+  for (int i=2; i<4; ++i)
   {
     pinMode(i, OUTPUT);
   }
@@ -93,7 +93,7 @@ void setup()
 
 void loop()
 {
-  for (int i=2; i<4; ++i) 
+  for (int i=2; i<4; ++i)
   {
     digitalWrite(i, HIGH);
   }
@@ -118,7 +118,7 @@ Laat nu de LEDjes uit gaan met een for loop
 ```c++
 void setup()
 {
-  for (int i=2; i<4; ++i) 
+  for (int i=2; i<4; ++i)
   {
     pinMode(i, OUTPUT);
   }
@@ -126,12 +126,12 @@ void setup()
 
 void loop()
 {
-  for (int i=2; i<4; ++i) 
+  for (int i=2; i<4; ++i)
   {
     digitalWrite(i, HIGH);
   }
   delay(1000);
-  for (int i=2; i<4; ++i) 
+  for (int i=2; i<4; ++i)
   {
     digitalWrite(i, LOW);
   }
@@ -155,7 +155,7 @@ Als het goed is, gaan alle lampjes aan, dan alle lampjes uit.
 ```c++
 void setup()
 {
-  for (int i=2; i<8; ++i) 
+  for (int i=2; i<8; ++i)
   {
     pinMode(i, OUTPUT);
   }
@@ -163,12 +163,12 @@ void setup()
 
 void loop()
 {
-  for (int i=2; i<8; ++i) 
+  for (int i=2; i<8; ++i)
   {
     digitalWrite(i, HIGH);
   }
   delay(1000);
-  for (int i=2; i<8; ++i) 
+  for (int i=2; i<8; ++i)
   {
     digitalWrite(i, LOW);
   }
@@ -194,7 +194,7 @@ Je hebt hiervoor een `for` loop nodig.
 ```c++
 void setup()
 {
-  for (int i=2; i<8; ++i) 
+  for (int i=2; i<8; ++i)
   {
     pinMode(i, OUTPUT);
   }
@@ -202,7 +202,7 @@ void setup()
 
 void loop()
 {
-  for (int i=2; i<8; ++i) 
+  for (int i=2; i<8; ++i)
   {
     digitalWrite(i, HIGH);
     delay(1000);
@@ -226,7 +226,7 @@ Laat nu de lampjes omstebeurt aan en uit gaan, van rechts naar links.
 ```c++
 void setup()
 {
-  for (int i=2; i<8; ++i) 
+  for (int i=2; i<8; ++i)
   {
     pinMode(i, OUTPUT);
   }
@@ -234,7 +234,7 @@ void setup()
 
 void loop()
 {
-  for (int i=2; i<8; ++i) 
+  for (int i=2; i<8; ++i)
   {
     digitalWrite(7 - i, HIGH);
     delay(1000);

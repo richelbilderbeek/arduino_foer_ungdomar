@@ -14,12 +14,12 @@ Här är `Blink`s kod på ett annat sätt:
 ```c++
 const int led_stift = 13;
 
-void setup() 
+void setup()
 {
   pinMode(led_stift, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(led_stift, HIGH);
   delay(1000);
@@ -52,12 +52,12 @@ Du behöver bara ändra en rad:
 ```c++
 const int led_stift = 12;
 
-void setup() 
+void setup()
 {
   // ...
 }
 
-void loop() 
+void loop()
 {
   // ...
 }
@@ -80,12 +80,12 @@ Använd `vantetid` som värde i `delay`.
 // ... [ange led_stift att vara 12]
 const int vantetid = 1000;
 
-void setup() 
+void setup()
 {
   // ...
 }
 
-void loop() 
+void loop()
 {
   // ... [sätter spänning på led_stift]
   delay(vantetid);
@@ -122,12 +122,12 @@ och se till att det har rätt startvärde.
 const int led_stift_1 = 11;
 // ... [väntetid]
 
-void setup() 
+void setup()
 {
   pinMode(led_stift_1, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(led_stift_1, HIGH);
   // [vänta vantetid millisekunder]
@@ -165,13 +165,13 @@ const int led_stift_1 = 11;
 const int led_stift_2 = 10;
 // ...
 
-void setup() 
+void setup()
 {
   pinMode(led_stift_1, OUTPUT);
   pinMode(led_stift_2, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(led_stift_1, HIGH);
   // ... [vänta vantetid millisekunder]
@@ -205,13 +205,13 @@ Få nu alla lampor blinka samtidigt: alla på, sedan alla av.
 // ... [skapa vantetid, led_stift_1 och led_stift_2]
 const int led_stift_3 = 9;
 
-void setup() 
+void setup()
 {
   // ... [led_stift_1 och led_stift_2 avger spänning]
   pinMode(led_stift_3, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   // ... [sätter spänning på LED 1 och 2]
   digitalWrite(led_stift_3, HIGH);

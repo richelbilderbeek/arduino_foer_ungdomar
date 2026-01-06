@@ -24,7 +24,7 @@ Och vi använder den här koden:
 const int led_stift = 13;
 const int knapp_stift = 2;
 
-void setup() 
+void setup()
 {
   pinMode(led_stift, OUTPUT);
   pinMode(knapp_stift, INPUT);
@@ -118,7 +118,7 @@ När du trycker på knappen lyser LEDen för alltid.
 ## 4.4. Knappflipp: Uppgift 2, låt lampan vara fortsatt tänd eller släckt
 
 Vi ska nu programmera att:
-  
+
 - När du trycker på knappen tänds LEDen och förblir tänd
 - När du sedan trycker på knappen igen kommer LEDen att släckas och förbli släckt
 - När du sedan trycker på knappen igen kommer LEDen att tändas och förbli tänd
@@ -254,7 +254,7 @@ if (vilken_led_pa == 1)
 }
 if (vilken_led_pa == 2)
 {
-  // Släcker röda LEDen, tänder gröna LEDen, 
+  // Släcker röda LEDen, tänder gröna LEDen,
 }
 ```
 
@@ -272,7 +272,7 @@ const int led_stift_gron = 12;
 const int knapp_stift = 2;
 int vilken_led_pa = 1;
 
-void setup() 
+void setup()
 {
   pinMode(led_stift_rod, OUTPUT);
   pinMode(led_stift_gron, OUTPUT);
@@ -291,7 +291,7 @@ void loop()
 
     // ... [vänta 200 millisecond]
   }
-  
+
   if (vilken_led_pa == 1)
   {
     digitalWrite(led_stift_rod, HIGH);

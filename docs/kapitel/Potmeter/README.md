@@ -23,7 +23,7 @@ Ik denk dat dit wel moet lukken :-)
 Met deze code meten we de stand van de potmeter:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
@@ -73,7 +73,7 @@ Let op:
 Nu gaan we het LEDje laten reageren op de potmeter:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(9, OUTPUT);

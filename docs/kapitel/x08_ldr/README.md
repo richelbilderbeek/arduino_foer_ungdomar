@@ -24,16 +24,16 @@ Programmerar:
 ```
 const int potmeter_stift = A0;
 
-void setup() 
+void setup()
 {
   pinMode(potmeter_stift, INPUT);
   Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
   Serial.print(analogRead(potmeter_stift));
-  delay(100);  
+  delay(100);
 }
 ```
 
@@ -54,8 +54,8 @@ Addera till `visar_potmeter`:
 if (analogRead(potmeter_stift) < 512)
 {
   Serial.print("Potmeter ar till vanster");
-} 
-else 
+}
+else
 {
   Serial.print("Potmeter ar till hoger");
 }
@@ -75,26 +75,26 @@ else
 ```
 const int potmeter_stift = A0;
 
-void setup() 
+void setup()
 {
   pinMode(potmeter_stift, INPUT);
   Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
   visar_potmeter();
-  delay(100);  
+  delay(100);
 }
 
-void visar_potmeter() 
+void visar_potmeter()
 {
   Serial.print(analogRead(potmeter_stift));
   if (analogRead(potmeter_stift) < 512)
   {
     Serial.print("Potmeter ar till vanster");
-  } 
-  else 
+  }
+  else
   {
     Serial.print("Potmeter ar till hoger");
   }

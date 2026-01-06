@@ -66,7 +66,7 @@ flowchart TD
     can_use_an_if_statement --> lesson_can_respond_to_a_button
     can_use_the_serial_monitor --> lesson_can_respond_to_a_button
     end
-    
+
     subgraph sub_connect_potmeter[7. Connect potmeter]
     lesson_can_connect_a_led_and_potmeter_in_series[Lesson x: Connect a LED and potmeter]:::electronics_lesson_node
     can_connect_a_potmeter_to_5v[Can connect a potmeter to 5V]:::electronics_skill_node
@@ -130,19 +130,19 @@ flowchart TD
     lesson_can_respond_to_a_button_on_action ~~~ lesson_can_respond_to_a_button_in_time
     end
 
-    sub_connect_a_led --> 
-    sub_control_a_led --> 
-    sub_connect_many_leds --> 
-    sub_control_many_leds --> 
-    sub_connect_led_and_button --> 
-    sub_control_led_and_button --> 
-    sub_connect_potmeter --> 
-    sub_use_potmeter --> 
-    sub_connect_joystick --> 
-    sub_use_joystick --> 
-    sub_connect_ldr --> 
-    sub_use_ldr --> 
-    sub_respond_to_button_on_action --> 
+    sub_connect_a_led -->
+    sub_control_a_led -->
+    sub_connect_many_leds -->
+    sub_control_many_leds -->
+    sub_connect_led_and_button -->
+    sub_control_led_and_button -->
+    sub_connect_potmeter -->
+    sub_use_potmeter -->
+    sub_connect_joystick -->
+    sub_use_joystick -->
+    sub_connect_ldr -->
+    sub_use_ldr -->
+    sub_respond_to_button_on_action -->
     sub_respond_to_button_in_time
 
     lesson_can_connect_a_led ~~~

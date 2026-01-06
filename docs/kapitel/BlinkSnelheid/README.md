@@ -73,8 +73,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(led, HIGH); // geeft 86.2 kHz 
-  digitalWrite(led, LOW);     
+  digitalWrite(led, HIGH); // geeft 86.2 kHz
+  digitalWrite(led, LOW);
 }
 ```
 
@@ -89,8 +89,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(led, HIGH); // geeft 96.1 kHz 
-  digitalWrite(led, LOW);     
+  digitalWrite(led, HIGH); // geeft 96.1 kHz
+  digitalWrite(led, LOW);
 }
 ```
 
@@ -107,7 +107,7 @@ void setup() {
 
 void loop() {
   digitalWrite(led, HIGH);
-  digitalWrite(led, LOW);     
+  digitalWrite(led, LOW);
 }
 ```
 

@@ -36,16 +36,16 @@ Kollar på Serial Monitor eller Serial Plotter:
 ```c++
 const int microfon_stift = A0;
 
-void setup() 
+void setup()
 {
   pinMode(microfon_stift, INPUT);
   Serial.begin(9600);
 }
 
-void loop() 
+void loop()
 {
   Serial.println(analogRead(microfon_stift));
-  delay(100);  
+  delay(100);
 }
 ```
 
@@ -80,7 +80,7 @@ Andra din kod till följande:
 ```c++
 // ...
 
-void setup() 
+void setup()
 {
   // ...
 }
@@ -89,7 +89,7 @@ void loop()
 {
   const int vard = analogRead(microfon_stift)
   Serial.print(vard);
-  if (vard < 512) 
+  if (vard < 512)
   {
     Serial.println(", saa det aer tyst");
   }
@@ -97,7 +97,7 @@ void loop()
   {
     Serial.println(", saa et aer inte tyst");
   }
-  delay(100);  
+  delay(100);
 }
 ```
 
@@ -110,7 +110,7 @@ void loop()
 const int microfon_stift = A0;
 const int led_stift = 13;
 
-void setup() 
+void setup()
 {
   pinMode(microfon_stift, INPUT);
   pinMode(led_stift, OUTPUT);
@@ -121,7 +121,7 @@ void loop()
 {
   const int vard = analogRead(microfon_stift);
   Serial.print(vard);
-  if (vard < 512) 
+  if (vard < 512)
   {
     digitalWrite(led_stift, LOW);
   }
@@ -129,7 +129,7 @@ void loop()
   {
     digitalWrite(led_stift, HIGH);
   }
-  delay(100);  
+  delay(100);
 }
 ```
 
@@ -141,7 +141,7 @@ const int microfon_stift = A0;
 const int led_stift_roed = 13;
 const int led_stift_groen = 12;
 
-void setup() 
+void setup()
 {
   pinMode(microfon_stift, INPUT);
   pinMode(led_stift_roed, OUTPUT);
@@ -153,7 +153,7 @@ void loop()
 {
   const int vard = analogRead(microfon_stift);
   Serial.print(vard);
-  if (vard < 512) 
+  if (vard < 512)
   {
     digitalWrite(led_stift_groen, LOW);
     digitalWrite(led_stift_roed, LOW);
@@ -168,7 +168,7 @@ void loop()
     digitalWrite(led_stift_groen, HIGH);
     digitalWrite(led_stift_roed, HIGH);
   }
-  delay(100);  
+  delay(100);
 }
 ```
 
@@ -178,7 +178,7 @@ void loop()
 const int microfon_stift = A0;
 const int piezo_stift = 11;
 
-void setup() 
+void setup()
 {
   pinMode(microfon_stift, INPUT);
   pinMode(piezo_stift, OUTPUT);

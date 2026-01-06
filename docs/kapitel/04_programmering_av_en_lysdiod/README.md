@@ -45,12 +45,12 @@ Det vet vi inte än! Det beror på om det finns ett program i Arduinon som anvä
 Starta Arduino IDEn och använd dig av denna kod:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(1000);
@@ -106,7 +106,7 @@ void setup()
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(100);
@@ -134,7 +134,7 @@ void setup()
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(1);
@@ -196,12 +196,12 @@ Tip: ändra `13` till `12` för tre gånger.
 ### 4.7. Svar
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(12, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(12, HIGH);
   delay(1000);
@@ -219,12 +219,12 @@ Se nu till att lysdioden på stift 12 börjar blinka dubbelt så fort.
 ### 4.8. Svar
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(12, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(12, HIGH);
   delay(100);

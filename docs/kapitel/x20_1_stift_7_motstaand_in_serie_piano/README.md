@@ -26,7 +26,7 @@ const int piano_pin = A0;
 
 void setup()
 {
-  Serial.begin(9600);  
+  Serial.begin(9600);
   pinMode(A0, INPUT);
 }
 
@@ -77,7 +77,7 @@ const int piano_pin = A0;
 
 void setup()
 {
-  Serial.begin(9600);  
+  Serial.begin(9600);
   pinMode(A0, INPUT);
 }
 
@@ -117,7 +117,7 @@ const int piano_pin = A0;
 
 void setup()
 {
-  Serial.begin(9600);  
+  Serial.begin(9600);
   pinMode(A0, INPUT);
 }
 
@@ -161,7 +161,7 @@ const int piano_pin = A0;
 
 void setup()
 {
-  Serial.begin(9600);  
+  Serial.begin(9600);
   pinMode(A0, INPUT);
 }
 
@@ -212,7 +212,7 @@ const int piano_pin = A0;
 
 void setup()
 {
-  Serial.begin(9600);  
+  Serial.begin(9600);
   pinMode(A0, INPUT);
 }
 

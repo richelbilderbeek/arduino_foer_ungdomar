@@ -30,7 +30,7 @@ Sluit figuur 'Infrarood sensor' aan.
 - Stap 1: Code van de lessen met een sensor, bijvoorbeeld onderstaande code van les '4. FSR':
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);

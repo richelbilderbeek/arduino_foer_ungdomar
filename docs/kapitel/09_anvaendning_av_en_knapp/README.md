@@ -42,14 +42,14 @@ Om inte, fråga om hjälp!
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   if (digitalRead(A0)) {
     digitalWrite(13, HIGH);
@@ -72,14 +72,14 @@ Högerknappen gör ingenting.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   if (digitalRead(A1)) {
     digitalWrite(13, HIGH);
@@ -102,7 +102,7 @@ Vänsterknappen gör ingenting.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
@@ -110,7 +110,7 @@ void setup()
   digitalWrite(13, HIGH);
 }
 
-void loop() 
+void loop()
 {
   if (digitalRead(A0)) {
     digitalWrite(13, LOW);
@@ -133,14 +133,14 @@ Högerknappen gör ingenting.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   if (digitalRead(A0)) {
     digitalWrite(13, LOW);
@@ -166,14 +166,14 @@ Om du du trycker på högerknappen, släcker lysdioden för evigt.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, LOW);
   if (digitalRead(A0)) {
@@ -197,14 +197,14 @@ Högerknappen gör ingenting.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, LOW);
   if (digitalRead(A0)) {
@@ -229,14 +229,14 @@ Om du du trycker på båda knappor, lyser lysdioden så länge du håller båda 
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, LOW);
   if (digitalRead(A0)) {
@@ -263,14 +263,14 @@ lyser lysdioden så länge du håller en av båda intryckt.
 Uploada den här koden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(A1, INPUT);
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   if (digitalRead(A0)) {

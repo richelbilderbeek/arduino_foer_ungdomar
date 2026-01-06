@@ -51,14 +51,14 @@ Als de bibliotheek is geinstalleerd, kunnen we een capacitieve sensor uitlezen:
 
 const int pin_sensor = 2;
 const int pin_hulp = 4;
-CapacitiveSensor cap_sensor = CapacitiveSensor(pin_hulp, pin_sensor);        
+CapacitiveSensor cap_sensor = CapacitiveSensor(pin_hulp, pin_sensor);
 
-void setup()                    
+void setup()
 {
   Serial.begin(9600);
 }
 
-void loop()                    
+void loop()
 {
   const int aantal_metingen = 30;
   const int waarde = cap_sensor.capacitiveSensor(aantal_metingen);
@@ -108,14 +108,14 @@ Het LEDje moet aan gaan als je op de knop drukt
 const int pin_sensor = 2;
 const int pin_hulp = 4;
 const int pin_led = 13;
-CapacitiveSensor cap_sensor = CapacitiveSensor(pin_hulp, pin_sensor);        
+CapacitiveSensor cap_sensor = CapacitiveSensor(pin_hulp, pin_sensor);
 
-void setup()                    
+void setup()
 {
   pinMode(pin_led, OUTPUT);
 }
 
-void loop()                    
+void loop()
 {
   const int aantal_metingen = 30;
   const int waarde = cap_sensor.capacitiveSensor(aantal_metingen);

@@ -23,7 +23,7 @@ Jag tycker att det här borde fungera :-)
 Vi mäter potentiometerns position med denna kod:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
@@ -73,7 +73,7 @@ OBS:
 Nu ska vi få lysdioden att reagera på potentiometern:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(9, OUTPUT);

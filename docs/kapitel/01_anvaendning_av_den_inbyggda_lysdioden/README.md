@@ -50,12 +50,12 @@ Nu ser du Arduino IDEn:
 Här är kod för Arduino:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(1000);
@@ -106,7 +106,7 @@ void setup()
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(100);
@@ -134,7 +134,7 @@ void setup()
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(1);

@@ -39,7 +39,7 @@ void setup() {
 void loop() {
   digitalWrite(10, HIGH);
   delay(1000);
-  digitalWrite(10, LOW); 
+  digitalWrite(10, LOW);
   delay(5000);
 }
 ```
@@ -77,8 +77,8 @@ void loop() {
   digitalWrite(10, HIGH);
   digitalWrite(11, HIGH);
   delay(1000);
-  digitalWrite(10, LOW); 
-  digitalWrite(11, LOW); 
+  digitalWrite(10, LOW);
+  digitalWrite(11, LOW);
   delay(5000);
 }
 ```
@@ -105,3 +105,7 @@ Skriv ett program som få lysdioden att blinka så här:
 - släcker allt 1 sekund
 - lyser gröna lysdioden 1 sekund
 - släcker allt 1 sekund
+
+Förklar varför det är viktigt at allt är släckt mellan lysningen?
+Vad kan hända om vi det snabbare?
+

@@ -31,16 +31,16 @@ const int pin_hulp     = 4;
 const int pin_sensor_2 = 6;
 const int pin_led      = 13;
 
-CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp,pin_sensor_1);        
-CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp,pin_sensor_2);        
+CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp,pin_sensor_1);
+CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp,pin_sensor_2);
 
-void setup()                    
+void setup()
 {
   pinMode(pin_led,OUTPUT);
   Serial.begin(9600);
 }
 
-void loop()                    
+void loop()
 {
   //Hoe hoger 'samples', hoe nauwkeuriger de sensor meet
   const int samples = 30;
@@ -57,10 +57,10 @@ void loop()
   // - te laag: dan zal het programma vaker denken dat je de sensor aanraakt, terwijl je dat niet doet
   // - te hoog: dan zal het programma minder vaak denken dat je de sensor aanraakt, terwijl je dat wel doet
   const int drempelwaarde = 100;
-  
+
   //Als je de sensor aanraakt, gaat het LEDje op pin 'pin_led' branden
-  const bool is_hoog_1 = waarde_1 >= drempelwaarde; 
-  const bool is_hoog_2 = waarde_2 >= drempelwaarde; 
+  const bool is_hoog_1 = waarde_1 >= drempelwaarde;
+  const bool is_hoog_2 = waarde_2 >= drempelwaarde;
   digitalWrite(pin_led,is_hoog_1 && is_hoog_2 ? HIGH : LOW);
 
   delay(100);

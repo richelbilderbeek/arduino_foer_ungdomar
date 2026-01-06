@@ -12,11 +12,11 @@ Sluit zoveel Arduino's aan in een cirkel als volgt:
 
 ```
 /*
-Van links ontvang je 
+Van links ontvang je
 
 A0: TX (verbind met 2 van je linkerbuur)
 A1: RX (verbind met 3 van je linkerbuur)
- 
+
 Naar rechts stuur je
 
 2: RX (verbind met A0 van je rechterbuur)
@@ -28,7 +28,7 @@ Naar rechts stuur je
 SoftwareSerial links(A1,A0); // RX, TX
 SoftwareSerial rechts(2,3);  // RX, TX
 
-void setup()  
+void setup()
 {
   Serial.begin(9600);
   links.begin(9600);
@@ -43,7 +43,7 @@ String LeesLinks()
   {
     s += static_cast<char>(links.read());
   }
-  return s;  
+  return s;
 }
 
 String LeesSerial()
@@ -65,7 +65,7 @@ String LeesSerial()
 
 void loop()
 {
-  //Luister of links wat te 
+  //Luister of links wat te
   links.listen();
   //Geef boodschap van links door
   if (links.available())
@@ -73,7 +73,7 @@ void loop()
     const String s = LeesLinks();
     Serial.print("Ik lees van links: ");
     Serial.println(s);
-    
+
     //Ga piepen als de eerste, tweede of derde letter een A is
     if ( (s.length() >= 1 && s.substring(0, 1) == "A")
       || (s.length() >= 2 && s.substring(1, 1) == "A")
@@ -83,14 +83,14 @@ void loop()
       tone(8,440,100);
       delay(100);
     }
-    
+
     if (s.length() > 1)
     {
       Serial.print("Ik stuur door naar rechts: ");
-      const String t 
+      const String t
         = s.substring(0,s.length() - 1);
       Serial.println(t);
-      rechts.print(t); 
+      rechts.print(t);
     }
     delay(100);
   }
@@ -101,7 +101,7 @@ void loop()
     Serial.print(
       "Ik lees van de seriele monitor: ");
     Serial.println(s);
-    rechts.print(s); 
+    rechts.print(s);
     delay(100);
   }
   delay(100);

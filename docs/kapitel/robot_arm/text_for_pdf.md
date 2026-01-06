@@ -8,7 +8,7 @@ Under den här lektionen ska vi programmera denna coola robotarm
 
 ## Styra robotarmen
 
-Bilden nedan är en schematisk vy över robotarmens koppling.  
+Bilden nedan är en schematisk vy över robotarmens koppling.
 Observera att du **INTE** behöver koppla något, det är bara att ansluta roboten till datorn via en USB-sladd.
 
 ![Sketch](robot_uno_sketch_bb.png)
@@ -40,14 +40,14 @@ void setup() {
   Serial.begin(115200); // Startar seriell kommunikation med 115200 baud-rate
 }
 
-void loop() { 
+void loop() {
   // Kommenterar intervallet för respektive servo
   // 6 - Styrservo med ett spann av 50-230
   // 9 - Joint-servo med ett spann av 120-255
   // 10 - Joint-servo med ett spann av 100-255
   // 11 - Styr öppen/stängd position med ett spann av 170-255
 
-  // Kör koden varje sekund (millis() % 1000 == 0) 
+  // Kör koden varje sekund (millis() % 1000 == 0)
   if (millis() % 1000 == 0) {
     // Loopar igenom alla sensorer
     for (int i = 0; i < 4; i++) {

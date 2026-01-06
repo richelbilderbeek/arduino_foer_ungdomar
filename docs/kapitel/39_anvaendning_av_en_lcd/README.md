@@ -109,7 +109,7 @@ void setup() {
   lcd.createChar(1, heart);
   lcd.createChar(2, smiley);
   lcd.begin(16, 2);
-  lcd.print("I "); 
+  lcd.print("I ");
   lcd.write(1);
   lcd.print(" Arduino! ");
   lcd.write(2);

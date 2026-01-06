@@ -17,7 +17,7 @@ Använd denna kod:
 
 Servo min_servo;
 
-void setup() 
+void setup()
 {
   Serial.begin(9600);
   min_servo.attach(9);

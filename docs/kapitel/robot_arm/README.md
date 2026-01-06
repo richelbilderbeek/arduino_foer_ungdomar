@@ -6,7 +6,7 @@ Under den här lektionen ska vi programmera denna coola robotarm
 
 ## Styra robotarmen
 
-Bilden nedan är en schematisk vy över robotarmens koppling.  
+Bilden nedan är en schematisk vy över robotarmens koppling.
 Observera att du **INTE** behöver koppla något, det är bara att ansluta roboten till datorn via en USB-sladd.
 
 ![Bild](robot_uno_sketch_bb.png)

@@ -25,7 +25,7 @@ Jag tycker att det här borde fungera :-)
 ### Kod: Serial Monitor
 
 ```c++
-void setup() 
+void setup()
 {
   Serial.begin(9600);
 }
@@ -85,7 +85,7 @@ Först ansluter vi bara en FSR:
 Med denna kod mäter vi värdet på FSR:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
@@ -146,7 +146,7 @@ Nu ansluter vi även en LED:
 Nu ska vi få lysdioden att reagera på lysdioden:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
@@ -191,7 +191,7 @@ void loop()
     Sätt `Serial.println("OFF");` i den andra delen av `if`-satsen.
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
@@ -222,7 +222,7 @@ void loop()
 Nu ska vi få lysdioden att reagera på lysdioden. Denna gång *dimper* lysdioden.
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode( 9, OUTPUT);
@@ -276,7 +276,7 @@ en LED tänds. Om du trycker hårt på FSR, två.
 Siffrorna i "if"-satsen måste vara korrekt inställda.
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(12, OUTPUT);
@@ -325,7 +325,7 @@ Du kan också få en LED att reagera på en FSR genom att bleka/dimma den
  7. Se nedan. Glöm inte att sätta en lysdiod på stift 11
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(11, OUTPUT);

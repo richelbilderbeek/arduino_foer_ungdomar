@@ -24,7 +24,7 @@ när knappen trycks in:
 const int led_stift = 13;
 const int knapp_stift = 2;
 
-void setup() 
+void setup()
 {
   pinMode(led_stift, OUTPUT);
   pinMode(knapp_stift, INPUT);
@@ -97,7 +97,7 @@ Annars (`else`) stänger Arduino av spänningen på `led_stift`.
 Detta är exempelkoden, som inte är helt färdig:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(4, INPUT );
   pinMode(5, OUTPUT);
@@ -134,7 +134,7 @@ void loop()
 ```c++
 // ...
 
-void setup() 
+void setup()
 {
   // ...
 }
@@ -190,7 +190,7 @@ const int led_stift_gron = 12;
 // ...
 
 
-void setup() 
+void setup()
 {
   pinMode(led_stift_rod, OUTPUT);
   pinMode(led_stift_gron, OUTPUT);

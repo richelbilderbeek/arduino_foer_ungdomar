@@ -77,7 +77,7 @@ Denna kod låter servo svara på knappen:
 
 Servo min_servo;
 
-void setup() 
+void setup()
 {
   min_servo.attach(8);
   pinMode(A0, INPUT);
@@ -140,7 +140,7 @@ Anslut nu en extra servomotor, som figuren 'Servomotorer på batteri med knapp'.
 Servo min_servo_1;
 Servo min_servo_2;
 
-void setup() 
+void setup()
 {
   min_servo_1.attach(8);
   min_servo_2.attach(9);

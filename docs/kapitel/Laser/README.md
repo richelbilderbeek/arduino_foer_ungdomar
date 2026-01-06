@@ -71,14 +71,14 @@ void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
-  Serial.begin(9600);  
+  Serial.begin(9600);
 }
 
 void loop()
 {
   const int n = analogRead(A0);
   Serial.println(n);
-  digitalWrite(13, n > 150 ? LOW : HIGH);  
+  digitalWrite(13, n > 150 ? LOW : HIGH);
   delay(100);
 }
 ```

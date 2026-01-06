@@ -21,15 +21,15 @@ const int pin_hulp_1   = 4;
 const int pin_sensor_2 = 6;
 const int pin_hulp_2   = 8;
 
-CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1, pin_sensor_1);        
-CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2, pin_sensor_2);        
+CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1, pin_sensor_1);
+CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2, pin_sensor_2);
 
-void setup()                    
+void setup()
 {
   Serial.begin(9600);
 }
 
-void loop()                    
+void loop()
 {
   const int aantal_metingen = 30;
   const int waarde_1 = mijn_cap_sensor_1.capacitiveSensor(aantal_metingen);
@@ -66,15 +66,15 @@ const int pin_hulp_1   = 4;
 const int pin_sensor_2 = 6;
 const int pin_hulp_2   = 8;
 const int pin_led      = 13;
-CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1, pin_sensor_1);        
-CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2, pin_sensor_2);        
+CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1, pin_sensor_1);
+CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2, pin_sensor_2);
 
-void setup()                    
+void setup()
 {
   pinMode(pin_led, OUTPUT);
 }
 
-void loop()                    
+void loop()
 {
   const int aantal_metingen = 30;
   const int waarde_1 = mijn_cap_sensor_1.capacitiveSensor(aantal_metingen);
@@ -109,16 +109,16 @@ const int pin_sensor_2 = 6;
 const int pin_hulp_2   = 8;
 const int pin_led_1    = 12;
 const int pin_led_2    = 13;
-CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1, pin_sensor_1);        
-CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2, pin_sensor_2);        
+CapacitiveSensor mijn_cap_sensor_1 = CapacitiveSensor(pin_hulp_1, pin_sensor_1);
+CapacitiveSensor mijn_cap_sensor_2 = CapacitiveSensor(pin_hulp_2, pin_sensor_2);
 
-void setup()                    
+void setup()
 {
   pinMode(pin_led_1, OUTPUT);
   pinMode(pin_led_2, OUTPUT);
 }
 
-void loop()                    
+void loop()
 {
   const int aantal_metingen = 30;
   const int waarde_1 = mijn_cap_sensor_1.capacitiveSensor(aantal_metingen);
@@ -200,17 +200,17 @@ const int pin_hulp   = 8;
 const int pin_led_1  = 11;
 const int pin_led_2  = 12;
 const int pin_led_3  = 13;
-CapacitiveSensor mijn_cap_sensor = CapacitiveSensor(pin_hulp, pin_sensor);        
+CapacitiveSensor mijn_cap_sensor = CapacitiveSensor(pin_hulp, pin_sensor);
 int welke_led = 1;
 
-void setup()                    
+void setup()
 {
   pinMode(pin_led_1, OUTPUT);
   pinMode(pin_led_2, OUTPUT);
   pinMode(pin_led_3, OUTPUT);
 }
 
-void loop()                    
+void loop()
 {
   const int aantal_metingen = 30;
   const int waarde = mijn_cap_sensor.capacitiveSensor(aantal_metingen);
@@ -220,7 +220,7 @@ void loop()
   }
   if (welke_led == 4)
   {
-    welke_led = 1;  
+    welke_led = 1;
   }
   digitalWrite(pin_led_1, LOW);
   digitalWrite(pin_led_2, LOW);

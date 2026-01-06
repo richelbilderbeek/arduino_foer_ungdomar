@@ -56,12 +56,12 @@ Nu ser du Arduino IDEn:
 Detta är (en version av) koden för `Blink`:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(13, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(1000);
@@ -100,7 +100,7 @@ void setup()
   // ...
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(100);
@@ -144,7 +144,7 @@ void setup()
   // ...
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(13, HIGH);
   delay(1);
@@ -224,12 +224,12 @@ Se nu till att LEDen på stift 12 börjar blinka dubbel så fort.
 ## 1.13 Blink: Lösning 5
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(12, OUTPUT);
 }
 
-void loop() 
+void loop()
 {
   digitalWrite(12, HIGH);
   delay(100);

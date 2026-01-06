@@ -20,7 +20,7 @@ Först ansluter vi bara en FSR:
 Med denna kod mäter vi värdet på FSR:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
@@ -78,7 +78,7 @@ Använd denna kod:
 
 Servo mijn_servo;
 
-void setup() 
+void setup()
 {
   Serial.begin(9600);
   mijn_servo.attach(9);

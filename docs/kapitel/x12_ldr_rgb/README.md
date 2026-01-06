@@ -11,7 +11,7 @@ Jag tycker att det här borde fungera :-)
 ## 12.2 Kod: Serial Monitor
 
 ```c++
-void setup() 
+void setup()
 {
   Serial.begin(9600);
 }
@@ -59,7 +59,7 @@ Först ansluter vi bara en LDR:
 Med den här koden mäter vi värdet på LDR:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   Serial.begin(9600);
@@ -114,7 +114,7 @@ Nu ansluter vi även en LED:
 Nu ska vi få lysdioden att reagera på LDR:
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
@@ -158,7 +158,7 @@ void loop()
     Sätt `Serial.println("OFF");` i den andra delen av `if`-satsen.
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(13, OUTPUT);
@@ -197,7 +197,7 @@ Om du gör LDR helt mörk två.
 Siffrorna i `if`-satsen måste vara korrekt inställda.
 
 ```c++
-void setup() 
+void setup()
 {
   pinMode(A0, INPUT);
   pinMode(12, OUTPUT);
