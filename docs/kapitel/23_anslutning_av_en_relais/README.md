@@ -102,6 +102,16 @@ kolla på den schematiskt ritning här:
 
 <!-- Image from https://www.build-electronic-circuits.com/h-bridge/ -->
 
+Jag har tagit schemat från [en Engelska Arduino kurs](https://www.build-electronic-circuits.com/h-bridge/)
+och den är lite mer formellt:
+
+Tecken|Betydelse
+------|----------------------------------------------------------------
+`VCC` |Matspänningen, t.ex. `5V` av en Arduino, eller `+` av en batteri
+
+
+
+
 Schemat ser litegrann ut som bokstavet `H`. Elen går, som alltid,
 från plus (dvs `5V`) till minus (dvs `GND`). Den sladdar med numrarna
 kan vara kopplade ja eller nej, likadant effect som att en knapp
