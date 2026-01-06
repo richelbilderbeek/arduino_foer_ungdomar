@@ -38,7 +38,6 @@ De code laat 900 milliseconden de toon A horen, en heeft dan 100 milliseconden r
 ![Sunglasses](EmojiSunglasses.png) | De `A` is de toon met toonhoogte 220 Hertz
 :-------------:|:----------------------------------------:
 
-
 ## Opdracht 1
 
 - Vraag 1: Wat is de laagste toonhoogte die je kunt krijgen? Kan iedereen dit horen?
@@ -49,7 +48,6 @@ De code laat 900 milliseconden de toon A horen, en heeft dan 100 milliseconden r
 ## Oplossing 1
 
 - Antwoord 1: De laagste toon is 1 Hertz (bij 0 Hertz krijg je onzin). Hieronder staat de code
-
 
 ```c++
 void setup()

@@ -10,20 +10,17 @@ Dit komt erg precies!
 
 - Opdracht: ga naar buiten en ga allemaal op een lijn staan. Iedereen is een stroomdeeltje.
 - Vragen:
-    - Hoe moet iedereen bewegen?
-    - Want, stroom gaat van ...?
-
+  - Hoe moet iedereen bewegen?
+  - Want, stroom gaat van ...?
 
 Stroom gaat van plus naar min.
 
 De min van een Arduino is de `GND`, ook wel 'Ground' of 'Aarde' genoemd. Deze is nul volt.
 
-
 - Opdracht: kies iemand die de min/`GND` speelt
 - Vragen:
-    - Hoe moet iedereen bewegen?
-    - Want, stroom gaat van ...?
-
+  - Hoe moet iedereen bewegen?
+  - Want, stroom gaat van ...?
 
 Stroom gaat van plus naar min.
 
@@ -32,12 +29,12 @@ De plus van een Arduino is de `5V`, ook wel 'de vijf volt' genoemd, Deze is (ver
 - Opdracht: kies iemand die de plus/`5V` speelt. Als hij/zij de hand niet opsteekt, is de Arduino uit en is hij ook nul volt. Als hij/zij de hand opsteekt, is de Arduino aan en is hij vijf volt.
 - De plus houdt eerst de hand laag
 - Vragen:
-    - Hoe moet iedereen bewegen?
-    - Want, stroom gaat van ...?
+  - Hoe moet iedereen bewegen?
+  - Want, stroom gaat van ...?
 - De plus houdt nu de hand omhoog
 - Vragen:
-    - Hoe moet iedereen bewegen?
-    - Want, stroom gaat van ...?
+  - Hoe moet iedereen bewegen?
+  - Want, stroom gaat van ...?
 
 Als het goed is, staat iedereen bij de min. Dat is goed: stroom gaat van plus naar min.
 
@@ -83,4 +80,3 @@ Je kunt nu een stroomdeeltje spelen, en weet nu:
 - Stroom gaat van plus naar min
 - De snelheid van een stroomdeeltje is altijd hetzelfde
 - Spanning gaat gelijkmatig van vijf volt naar nul volt
-

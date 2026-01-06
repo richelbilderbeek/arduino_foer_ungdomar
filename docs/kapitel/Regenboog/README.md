@@ -209,4 +209,3 @@ void loop()
 Maak nu de regenboog af.
 
 ![Regenboog](1c_MeerKleurFadeMetFor_regenboog.png)
-

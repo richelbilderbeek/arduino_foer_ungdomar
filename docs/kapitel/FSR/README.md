@@ -115,7 +115,6 @@ void loop()
 ![Sunglasses](EmojiSunglasses.png) | De weerstand tussen A0 en LDR een 'Pull Down' weerstand genoemd
 :-------------:|:----------------------------------------:
 
-
 \pagebreak
 
 ## Oplossingen 2

@@ -258,4 +258,3 @@ Starta en timer med 5 min och gör följande:
 - Steg 3: Examinerare väljer ett slumpmässigt hål med nummer mellan 2 och 11
   (så 2 och 11 är också tilllåtna).
   Du ska få lysdioden att blinka vid det valda hålet.
-

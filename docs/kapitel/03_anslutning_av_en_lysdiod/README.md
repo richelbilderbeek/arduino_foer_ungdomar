@@ -53,17 +53,17 @@ Nu är det dags att bygga kretsen på riktigt:
 - Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
 - Montera kretsen enligt bild:
 
-    - Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster
+  - Koppla en röd sladd från 5V-hålet till hålet högst upp till vänster
       i kopplingsdäcket
-    - Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden i kopplingsdäcket.
+  - Koppla in det långa benet på lysdioden **två** hål nedanför röda sladden i kopplingsdäcket.
       Det ska finnas en tomt hål mellan det långa benet på lysdioden och
       den röda sladden i kopplingsdäcket.
-    - Sätt det korta benet på lysdioden i hålet till höger om det långa benet
-    - Koppla in sidan med brun rand på ett motstånd ett hål ovanför det korta benet på lysdioden
-    - Koppla in sidan med guldig rand på ett motstånd fyra hål till höger om
+  - Sätt det korta benet på lysdioden i hålet till höger om det långa benet
+  - Koppla in sidan med brun rand på ett motstånd ett hål ovanför det korta benet på lysdioden
+  - Koppla in sidan med guldig rand på ett motstånd fyra hål till höger om
       motståndet med brun rand.
       Det ska finnas tre tomma hål mellan båda sidorna av motstånden i kopplingsdäcket.
-    - Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
+  - Koppla in en svart sladd ett hål ovanför sidan med guldig rand på motståndet
       till GND-hålet i Arduino
 
 - Sätt tillbaka USB-kabeln i datorn

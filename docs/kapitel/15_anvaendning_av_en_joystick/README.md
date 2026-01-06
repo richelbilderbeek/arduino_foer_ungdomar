@@ -60,7 +60,6 @@ const int pin_joy_x{A0};
 > Kära dator, minns en variabel kallades `pin_joy_x`, som
 > är en helvärtstal som kan inte ändrar sig, med initiälvärd `A0`
 
-
 ```c++
 const int pin_led_r{9};
 ```
@@ -96,7 +95,6 @@ void loop() {}
 > Kära dator, göra detta mellan parantheser
 > för evigt, efter `setup` är färdigt
 
-
 ```c++
 const int joy_x{analogRead(pin_joy_x)};
 ```
@@ -112,7 +110,6 @@ const int ljus_styrka_r{joy_x / 4};
 > Kära dator, minns en variabel kallades `ljus_styrka_r`, som
 > är en helvärtstal som kan inte ändrar sig, med initiälvärd
 > `ljus_styrka_r` delad med fyra
-
 
 ```c++
 analogWrite(pin_led_r, ljus_styrka_r);

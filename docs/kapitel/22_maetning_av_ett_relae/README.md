@@ -57,8 +57,6 @@ Om multimetern visar fel värde betyder det ofta:
   vrid stiften tills motståndet blir noll
 - multimetern har dåligt batteri
 
-
-
 ## 22.2. Koppling av ett relä
 
 Koppla ett relä så här:

@@ -188,4 +188,3 @@ Läs igenom slutuppgiften först, för du har 10 minuter på dig.
 Start en timer på 10 minuten och gör följande:
 
 - Steg 2: Bygga up sista krets från början och visar att den funkar
-

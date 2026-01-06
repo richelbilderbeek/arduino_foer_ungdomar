@@ -49,4 +49,3 @@ Hier zie je een broodplank, waarbij ik sommige gaten gemarkeerd heb:
 ![Broodplank met gaten](BreadboardMetGaten.png)
 
 - Vind uit welke gaten met elkaar verbonden zijn. Doe dit door de draadeindes in verschillende gaten te steken. Hoe zitten de gaten verbonden in een broodplank?
-

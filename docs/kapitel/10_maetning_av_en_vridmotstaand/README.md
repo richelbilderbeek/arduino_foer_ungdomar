@@ -154,4 +154,3 @@ Starta en timer och gör följande:
 - Steg 3: Visar när vridmotstånden är användt på fel sätt
 
 - Steg 4: Visar hur tre värd man kann mäta av en vridmotstånd forhålla sig med varann
-

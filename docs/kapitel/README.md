@@ -77,7 +77,6 @@ Kpt|Beskrivning
 41 |[Anslutning av en stegmotor](41_anslutning_av_en_stegmotor/README.md) Anslutning, e.g. använd knappar och H-bridge
 42 |[Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md)
 
-
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 99**
@@ -155,4 +154,3 @@ Kpt|Beskrivning
 40 |[NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
 .  | **Boek 11**
 35 |[Vagn som undviker hinder](vagn_som_undviker_hinder/README.md)
-

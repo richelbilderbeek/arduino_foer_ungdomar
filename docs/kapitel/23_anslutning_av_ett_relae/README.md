@@ -30,7 +30,7 @@ Koppla en lysdiod till reläe 1 som här:
 - Koppla `5V` av batteriet till den långa benen av lysdioden
 - Koppla korta benen av lysdioden till den ena sida av en 1000 Ohm motstånd
 - Koppla den andra sidan av motståndet till hål 3 (den hål mest uppe på figuren)
-  av relä 1 
+  av relä 1
   (den relä mest nere på figuren)
 - Koppla `GND` av batteriet med hål 2 av relä 1
 
@@ -98,7 +98,7 @@ den tvärtomma <!-- en bra gissning, eller hur! --> ben.
 
 ## 23.5. En schematiskt H brygga
 
-Vi ska nästan bygga en H brygga. 
+Vi ska nästan bygga en H brygga.
 En H brygga gör det möjligt att el kan styras att går åt båda hål
 i en elkrets. Den behöver vi för en DC motor som kan gå fram
 och tillbaka!
@@ -157,7 +157,6 @@ En H brygga är farligt för att det är lätt möjligt att får kortslutning.
 ![Bild](EmojiBowtie.png) | Om din elkrets blir varmt, stäng av elen genast!
 :-------------:|:----------------------------------------:
 
- 
 ## 23.6. En H brygga
 
 Nu byggar vi H bryggan på riktigt:

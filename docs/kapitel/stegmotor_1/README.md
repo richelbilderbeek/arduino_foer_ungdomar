@@ -22,4 +22,3 @@ Wire on Arduino  |Connect to
 13               | PUL- (PUL)
 GND              | DIR+ (+5V)
 GND              | DIR- (DIR)
-

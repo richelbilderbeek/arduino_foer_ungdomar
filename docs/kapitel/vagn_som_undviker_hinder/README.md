@@ -117,4 +117,3 @@ Upload de code van 'Blink' op de Arduino.
 
 - Maak de schakeling af, volgens figuur 'Eindopdracht'
 - Programmeer de code zelf: als er niks voor de sensor zit, moet de auto vooruit gaan. Anders moet de auto draaien
-

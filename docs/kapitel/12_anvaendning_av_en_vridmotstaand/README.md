@@ -193,7 +193,6 @@ Kan du gissar vad lysdioder ska göra nu? Varför?
 
 Lysdioder fortfarande gör ingenting, för at den är aldrig använd i koden.
 
-
 ## 12.9. Kod 4
 
 Uploada den här koden:
@@ -245,4 +244,3 @@ Läs slutuppgift först, för att du har 15 minuten.
 Start en timer och gör följande:
 
 - Steg 2: Bygg upp sista krets från början, uploada koden och visar att allt funkar
-

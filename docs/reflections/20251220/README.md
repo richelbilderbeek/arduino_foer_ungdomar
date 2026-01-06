@@ -1,6 +1,6 @@
 # Reflection 2025-12-20
 
-The first 7 Arduino books are reasonably good. 
+The first 7 Arduino books are reasonably good.
 However, there are some problem, as pointed out by my studious learners:
 
 ![Notes](notes.jpg)
@@ -43,6 +43,7 @@ Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 8**: Relais
 .  |**Bok 9**: DC motor
+
     9.1 använd knappar och H-bridge
     A relais openens upon GND (i.e. not 5V)
     The middle is connnected to one of the other pins
@@ -77,7 +78,3 @@ Breadboard power supply, USB-C  |[Strömförsörjning för kopplingsdäck 3.3/5V
 USB-A to UBS-C cable            |[USB-C kabel till USB-A 2.0 15W 0.1m](https://www.electrokit.com/usb-kabel-a-hane-c-hane-0.1m)                                                          |29         |Good
 Servomotor                      |[Micro servo TS90 / SG90 1.2 kg](https://www.electrokit.com/micro-servo-ts90-sg90-1.2kg)                                                                |49         |Good
 Distance sensor                 |[Avståndssensor IR 2-20cm, art nr: 41032790, Joy-It - SEN-KY032IR](https://www.electrokit.com/avstandssensor-ir-2-20cm)                                 |
-
-
-
-

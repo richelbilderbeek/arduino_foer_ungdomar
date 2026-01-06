@@ -2,7 +2,6 @@
 
 How the topics relate
 
-
 ```mermaid
 flowchart TD
 

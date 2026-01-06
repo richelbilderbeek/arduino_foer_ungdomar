@@ -12,4 +12,3 @@ Name                                                 |Description
 [create_book_4.sh](create_book_4.sh)                 |Creates book 4
 [create_book_99.sh](create_book_99.sh)               |Creates book 99
 [create_front_pages.sh](create_front_pages.sh)       |Creates the front pages
-

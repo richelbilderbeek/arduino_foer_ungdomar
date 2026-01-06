@@ -188,7 +188,6 @@ if (welke_led == 4)
 }
 ```
 
-
 ## Oplossing 3
 
 ![Oplossing 3](CapacitieveSensor2_3.png)
@@ -245,4 +244,3 @@ void loop()
 ## Eindopdracht
 
 - Laat het brandende LEDje nu de andere kant op lopen met de linker knop
-
