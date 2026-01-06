@@ -154,6 +154,5 @@ Kpt|Beskrivning
 39 |[NeoPixels 1: blink](neo_pixel_1/README.md)
 40 |[NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
 .  | **Boek 11**
-33 |[DC motor med motstånd](dc_motor_met_transistor/README.md)
 35 |[Vagn som undviker hinder](vagn_som_undviker_hinder/README.md)
 

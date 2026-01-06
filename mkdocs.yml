@@ -4,6 +4,7 @@ repo_url: https://github.com/richelbilderbeek/arduino_foer_ungdomar
 edit_uri: blob/main/docs/
 
 nav:
+  - Välkommen: index.md
   - Kapitel:
     - Översiktet: kapitel/README.md
     - kapitel/01_anvaendning_av_den_inbyggda_lysdioden/README.md
@@ -40,6 +41,45 @@ nav:
     - kapitel/32_anslutning_av_en_avstaandssensor/README.md
     - kapitel/33_anvaendning_av_neopixels/README.md
     - kapitel/34_maetning_av_en_kapacitiv_knapp/README.md
+    - kapitel/35_anslutning_av_en_kapacitiv_knapp/README.md
+    - kapitel/36_anvaendning_av_en_kapacitiv_knapp/README.md
+    - kapitel/37_maetning_av_en_lcd/README.md
+    - kapitel/38_anslutning_av_en_lcd/README.md
+    - kapitel/39_anvaendning_av_en_lcd/README.md
+    - kapitel/40_maetning_av_en_stegmotor/README.md
+    - kapitel/41_anslutning_av_en_stegmotor/README.md
+    - kapitel/42_anvaendning_av_en_stegmotor/README.md
+  - Andra kapitel:
+    - kapitel/arduino_till_processing/README.md
+    - kapitel/kapacitiv_sensor_1/README.md
+    - kapitel/kapacitiv_sensor_2/README.md
+    - kapitel/kapacitiv_sensor_3/README.md
+    - kapitel/ky-038_mic/README.md
+    - kapitel/multimeter/README.md
+    - kapitel/neo_pixel_1/README.md
+    - kapitel/robot_arm/README.md
+    - kapitel/robot_arm/text_for_pdf.md
+    - kapitel/sju_segment_display/README.md
+    - kapitel/stegmotor_1/README.md
+    - kapitel/vagn_som_undviker_hinder/README.md
+    - kapitel/FSR/README.md
+    - kapitel/LCD2/README.md
+    - kapitel/LCD3/README.md
+    - kapitel/LCD3/dutch.md
+    - kapitel/LDR/README.md
+    - kapitel/Laser/README.md
+    - kapitel/NeoPixel2/README.md
+    - kapitel/Potmeter/README.md
+    - kapitel/RFID1/README.md
+    - kapitel/RFID2/README.md
+    - kapitel/SerialMonitor1/README.md
+    - kapitel/arduino_som_isp/README.md
+    - kapitel/bare_bone_arduino/README.md
+    - kapitel/breadboard/README.md
+    - kapitel/chatroom/README.md
+    - kapitel/foerord/README.md
+    - kapitel/for_loop/README.md
+    - kapitel/tone/README.md
   - Böcker: boecker/README.md
   - Lektionkort: lektionskort/README.md
   - Vanliga frågor: faq.md
@@ -47,8 +87,21 @@ nav:
     - Bidragsgivarna: bidragsgivarna.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
+    - learning_line.md
     - Licence: LICENSE
+    - logo/README.md
     - Scripts: scripts/README.md
+
+not_in_nav: |
+  scripts/build/*.md
+  kapitel/x*
+  kapitel/framsidor/framsida_*
+  kapitel/BlinkSnelheid/README.md
+  kapitel/tone/README.md
+  reflections/2*
+  kapitel/BlinkSnelheid/README.md
+  kapitel/Regenboog/README.md
+  kapitel/StroomdeeltjeSpelen1/README.md
 
 theme:
   name: material
