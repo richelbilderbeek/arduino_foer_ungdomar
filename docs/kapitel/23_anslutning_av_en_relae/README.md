@@ -12,14 +12,14 @@ Vi använder en 4-relä kort: en kretskort som har fyra relä.
 
 Koppla spänning till relä så här:
 
-![23](23_ansluting_av_en_relä_power.png)
+![23](23_ansluting_av_en_relae_power.png)
 
 - Koppla `5V` av Arduino med `VCC` av kretskortet
 - Koppla `GND` av Arduino med `GND` av kretskortet
 
 Koppla en lysdiod till reläen som här:
 
-![23](23_ansluting_av_en_relä_one_led.png)
+![23](23_ansluting_av_en_relae_one_led.png)
 
 ![Bild](EmojiSunglasses.png) | Vi kann koppla nästan allt till en relä: elkretsar är separata!
 :-------------:|:----------------------------------------:
@@ -48,7 +48,7 @@ Koppla `GND` av Arduino med `IN1` av reläkortan.
 
 Vad ser och hör du när du gör det?
 
-![Koppla `GND` av Arduino med `IN1` av reläkortan](23_ansluting_av_en_relä_connect_1_pin.png)
+![Koppla `GND` av Arduino med `IN1` av reläkortan](23_ansluting_av_en_relae_connect_1_pin.png)
 
 \pagebreak
 
@@ -63,7 +63,7 @@ Också lysdioden vi har kopplat lyser nu!
 
 Bygg den kretsen här:
 
-![](23_ansluting_av_en_relä_pre_h_bridge.png)
+![](23_ansluting_av_en_relae_pre_h_bridge.png)
 
 - Koppla `5V` av batteriet till den ena sida av en 1000 Ohm motstånd
 - Koppla den andra sidan av motståndet till det långa benet
@@ -106,7 +106,7 @@ och tillbaka!
 För att förstå en H brygga,
 kolla på den schematiskt ritning här:
 
-![23](23_ansluting_av_en_relä_h_bridge_schematic_2.png)
+![23](23_ansluting_av_en_relae_h_bridge_schematic_2.png)
 
 <!-- Image from https://www.build-electronic-circuits.com/h-bridge/ -->
 
@@ -162,7 +162,7 @@ En H brygga är farligt för att det är lätt möjligt att får kortslutning.
 
 Nu byggar vi H bryggan på riktigt:
 
-![23](23_ansluting_av_en_relä_h_bridge_numbered_wires.png)
+![23](23_ansluting_av_en_relae_h_bridge_numbered_wires.png)
 
 Vilken relä tillhör vilken sladd i schemat i senaste frågan?
 Det är den blåa lysdiod som är viktigast.
