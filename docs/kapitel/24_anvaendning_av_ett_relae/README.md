@@ -1,4 +1,4 @@
-# Lektion 24: Använding av en relais
+# Lektion 24: Använding av ett relais
 
 Connect the relais to the Arduino. How many pins of the relais will
 be controlled by the Arduino? Which pin is it?

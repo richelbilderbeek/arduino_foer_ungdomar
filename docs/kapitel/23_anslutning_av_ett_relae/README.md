@@ -1,7 +1,7 @@
-# Lektion 23: Anslutning av en relä
+# Lektion 23: Anslutning av ett relä
 
-En relä är liksom en knapp som kan blir tryckt elektroniskt.
-Vi behöver relä om vi vill skydda vär kära Arduino emot,
+Ett relä är liksom en knapp som kan blir tryckt elektroniskt.
+Vi behöver reläer om vi vill skydda vär kära Arduino emot,
 bland annat, DC motorer.
 
 Under den här lektion ska vi ser hur den fungerar.
@@ -10,24 +10,24 @@ Vi använder en 4-relä kort: en kretskort som har fyra relä.
 
 ## 23.1. Koppla spänning till kretskorter
 
-Koppla spänning till relä så här:
+Koppla spänning till reläer så här:
 
-![23](23_ansluting_av_en_relae_power.png)
+![23.1. Koppla spänning till kretskorter](23_ansluting_av_en_relae_power.png)
 
 - Koppla `5V` av Arduino med `VCC` av kretskortet
 - Koppla `GND` av Arduino med `GND` av kretskortet
 
-Koppla en lysdiod till reläen som här:
+Koppla en lysdiod till reläe 1 som här:
 
 ![23](23_ansluting_av_en_relae_one_led.png)
 
-![Bild](EmojiSunglasses.png) | Vi kann koppla nästan allt till en relä: elkretsar är separata!
+![Bild](EmojiSunglasses.png) | Vi kann koppla nästan allt till ett relä: elkretsar är separata!
 :-------------:|:----------------------------------------:
 
 ![Bild](EmojiBowtie.png) | Självklart använder *vi* bara spänning under 12 volt!
 :-------------:|:----------------------------------------:
 
-- Koppla `5V` av batteriet till den långa benen av lysdiodedn
+- Koppla `5V` av batteriet till den långa benen av lysdioden
 - Koppla korta benen av lysdioden till den ena sida av en 1000 Ohm motstånd
 - Koppla den andra sidan av motståndet till hål 3 (den hål mest uppe på figuren)
   av relä 1 
@@ -42,7 +42,7 @@ Lyser lysdioden? Varför?
 
 Nej, den lyser inte. Vi har sett det i före lektion också.
 
-## 23.2.
+## 23.2. Koppla GND till ingånger av reläkortan
 
 Koppla `GND` av Arduino med `IN1` av reläkortan.
 
@@ -63,7 +63,7 @@ Också lysdioden vi har kopplat lyser nu!
 
 Bygg den kretsen här:
 
-![](23_ansluting_av_en_relae_pre_h_bridge.png)
+![23.3 Två lysdioder](23_ansluting_av_en_relae_pre_h_bridge.png)
 
 - Koppla `5V` av batteriet till den ena sida av en 1000 Ohm motstånd
 - Koppla den andra sidan av motståndet till det långa benet
@@ -96,7 +96,7 @@ Det finns två sladdar kopplat till lysdiodernas ben. Bytta
 sladdarna för att vara kopplat till
 den tvärtomma <!-- en bra gissning, eller hur! --> ben.
 
-## 23.5. En H brygga
+## 23.5. En schematiskt H brygga
 
 Vi ska nästan bygga en H brygga. 
 En H brygga gör det möjligt att el kan styras att går åt båda hål
@@ -106,7 +106,7 @@ och tillbaka!
 För att förstå en H brygga,
 kolla på den schematiskt ritning här:
 
-![23](23_ansluting_av_en_relae_h_bridge_schematic_cc_by.png)
+![23.5. En schematiskt H brygga](23_ansluting_av_en_relae_h_bridge_schematic_cc_by.png)
 
 <!-- Image from https://www.build-electronic-circuits.com/h-bridge/ -->
 
@@ -162,7 +162,7 @@ En H brygga är farligt för att det är lätt möjligt att får kortslutning.
 
 Nu byggar vi H bryggan på riktigt:
 
-![23](23_ansluting_av_en_relae_h_bridge_numbered_wires.png)
+![23.6. En H brygga](23_ansluting_av_en_relae_h_bridge_numbered_wires.png)
 
 Vilken relä tillhör vilken sladd i schemat i senaste frågan?
 Det är den blåa lysdiod som är viktigast.
