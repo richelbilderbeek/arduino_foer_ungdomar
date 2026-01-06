@@ -88,64 +88,72 @@ Det finns två sladdar kopplat till lysdiodernas ben. Bytta
 sladdarna för att vara kopplat till
 den tvärtomma <!-- en bra gissning, eller hur! --> ben.
 
-## 23.5. En H bro
+## 23.5. En H brygga
 
-Vi ska nästan bygga en H bro. 
-En H bro gör det möjligt att el kan styras att går åt båda hål
+Vi ska nästan bygga en H brygga. 
+En H brygga gör det möjligt att el kan styras att går åt båda hål
 i en elkrets. Den behöver vi för en DC motor som kan gå fram
 och tillbaka!
 
-För att förstå en H bro,
+För att förstå en H brygga,
 kolla på den schematiskt ritning här:
 
 ![23](23_ansluting_av_en_relais_h_bridge_schematic_2.png)
 
 <!-- Image from https://www.build-electronic-circuits.com/h-bridge/ -->
 
+Schemat ser litegrann ut som bokstavet `H`.
+
 Jag har tagit schemat från [en Engelska Arduino kurs](https://www.build-electronic-circuits.com/h-bridge/)
 och den är lite mer formellt:
 
+<!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
+
 Tecken|Betydelse
-------|----------------------------------------------------------------
+------|------------------------------------------------------------------------------------------------
 `VCC` |Matspänningen, t.ex. `5V` av en Arduino, eller `+` av en batteri
+`S1`  |`S` är Engelska för 'switch', som är en knapp, relais eller något annat som kan vara på eller av
 
+<!-- markdownlint-enable MD013 -->
 
-
-
-Schemat ser litegrann ut som bokstavet `H`. Elen går, som alltid,
-från plus (dvs `5V`) till minus (dvs `GND`). Den sladdar med numrarna
+Elen går, som alltid,
+från plus (dvs `VCC`) till minus (dvs `GND`). Den sladdar med numrarna
 kan vara kopplade ja eller nej, likadant effect som att en knapp
 är tryckt eller ej.
 
-- I vilken riktning går elen när sladdar 1 och 4 är kopplade?
-- I vilken riktning går elen när sladdar 2 och 3 är kopplade?
-- Vad händer när bara sladd 1 och 3 är kopplade?
+- I vilken riktning går elen när S1 och S4 är kopplade?
+- I vilken riktning går elen när S2 och S3 är kopplade?
+- Vad händer när bara S1 och S3 är kopplade?
+- Vad händer när bara S2 och S4 är kopplade?
+- Varför är en H brygga 
 
 ### 23.5. Svar
 
-När sladdar 1 och 4 är kopplade går elen högeråt igenom
+När S1 och S4 är kopplade går elen högeråt igenom
 mittendelen.
 
-När sladdar 2 och 3 är kopplade går elen vänsteråt igenom
+När S2 och S3 är kopplade går elen vänsteråt igenom
 mittendelen.
 
-När sladdar 1 och 3 är kopplade har vi kortslutning!
+När S1 och S3 är kopplade har vi kortslutning!
+
+När S2 och S4 är kopplade har vi kortslutning!
  
-## 23.6. En H bro
+## 23.6. En H brygga
 
-Nu byggar vi H bron på riktigt:
+Nu byggar vi H bryggan på riktigt:
 
-![23](23_ansluting_av_en_relais_h_bridge.png)
+![23](23_ansluting_av_en_relais_h_bridge_numbered_wires.png)
 
 Vilken relais här är vilken sladd i schemat i senaste frågan?
 Det är den blåa lysdiod som är viktigast.
 
 Relais|Sladd
 ------|-----
-1     |?
-2     |?
-3     |?
-4     |?
+S1    |?
+S2    |?
+S3    |?
+S4    |?
 
 ### 23.6. Svar
 
@@ -160,6 +168,6 @@ Relais|Sladd |Varför
 
 20 minuter.
 
-- Bygg upp H bron från början
+- Bygg upp H bryggan från början
 - Lysa den blåa ljusdiod. Berätta hör elen går igenom elkretset
 - Lysa den gröna ljusdiod. Berätta hör elen går igenom elkretset
