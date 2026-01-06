@@ -36,6 +36,8 @@ Koppla en lysdiod till relaisen som här:
 
 Lyser lysdioden? Varför?
 
+\pagebreak
+
 ### 23.1. Svar
 
 Nej, den lyser inte. Vi har sett det i före lektion också.
@@ -47,6 +49,8 @@ Koppla `GND` av Arduino med `IN1` av relaiskortan.
 Vad ser och hör du när du gör det?
 
 ![Koppla `GND` av Arduino med `IN1` av relaiskortan](23_ansluting_av_en_relais_connect_1_pin.png)
+
+\pagebreak
 
 ### 22.2. Svar
 
@@ -72,6 +76,8 @@ Bygg den kretsen här:
 
 Hur mycket lysdioder ska lyser? Varför?
 
+\pagebreak
+
 ### 23.3. Svar
 
 En av dem två. Bara en lysdiod lyser för at el har bar en riktning at
@@ -81,6 +87,8 @@ kan bara en av dem lysa samtidigt.
 ## 23.4 Den andra lysdiod
 
 Andrar två sladder för att får den andra lysdiod att lysa.
+
+\pagebreak
 
 ### 23.4. Svar
 
@@ -125,19 +133,30 @@ kan vara kopplade ja eller nej, likadant effect som att en knapp
 - I vilken riktning går elen när S2 och S3 är kopplade?
 - Vad händer när bara S1 och S3 är kopplade?
 - Vad händer när bara S2 och S4 är kopplade?
-- Varför är en H brygga 
+- Varför är en H brygga farligt?
+
+\pagebreak
 
 ### 23.5. Svar
 
-När S1 och S4 är kopplade går elen högeråt igenom
-mittendelen.
+Kopplat 1|Kopplat 2|Effect
+---------|---------|--------------------------------------
+S1       |S4       |Elen går högeråt igenom mittendelen
+S2       |S3       |Elen går vänsteråt igenom mittendelen
+S1       |S3       |Kortslutning!
+S2       |S4       |Kortslutning!
 
-När S2 och S3 är kopplade går elen vänsteråt igenom
-mittendelen.
+En H brygga är farligt för att det är lätt möjligt att får kortslutning.
 
-När S1 och S3 är kopplade har vi kortslutning!
+![Bild](EmojiSmiley.png) | Kortslutning betyder att el kan går fritt (dvs utan motstånd) från plus till minus
+:-------------:|:----------------------------------------:
 
-När S2 och S4 är kopplade har vi kortslutning!
+![Bild](EmojiSunglasses.png) | Fritt gående el värmer upp sladderna
+:-------------:|:----------------------------------------:
+
+![Bild](EmojiBowtie.png) | Om din elkrets blir varmt, stäng av elen genast!
+:-------------:|:----------------------------------------:
+
  
 ## 23.6. En H brygga
 
@@ -145,7 +164,7 @@ Nu byggar vi H bryggan på riktigt:
 
 ![23](23_ansluting_av_en_relais_h_bridge_numbered_wires.png)
 
-Vilken relais här är vilken sladd i schemat i senaste frågan?
+Vilken relais tillhör vilken sladd i schemat i senaste frågan?
 Det är den blåa lysdiod som är viktigast.
 
 Relais|Sladd
@@ -155,14 +174,17 @@ S2    |?
 S3    |?
 S4    |?
 
+![Bild](EmojiSunglasses.png) | Det är förvirrande at 'S1' tillhör en relais (istället av en sladd). Inget problem för oss då!
+:-------------:|:----------------------------------------:
+
 ### 23.6. Svar
 
 Relais|Sladd |Varför
 ------|------|--------------------------------------------------------------------
-1     |4     |Kopplat till GND och korta benet av blåa motstånd
-2     |1     |Kopplat till 5V och långa benet av blåa motstånd
-3     |3     |Kopplat till GND och 'fel minus sida' (långa benet) av blåa motstånd
-4     |2     |Kopplat till 5V och 'fel plus sida' (korta benet) av blåa motstånd
+S1    |4     |Kopplat till GND och korta benet av blåa motstånd
+S2    |1     |Kopplat till 5V och långa benet av blåa motstånd
+S3    |3     |Kopplat till GND och 'fel minus sida' (långa benet) av blåa motstånd
+S4    |2     |Kopplat till 5V och 'fel plus sida' (korta benet) av blåa motstånd
 
 ## 23.7. Slutupgift
 
