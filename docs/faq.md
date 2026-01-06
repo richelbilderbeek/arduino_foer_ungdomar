@@ -35,13 +35,15 @@ att förbli gratis, gratis och öppet.
 ## Vad är licensen på bilderna?
 
 Nästan alla bilderna har en
-[CC0](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
+[CC-BY-NC-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
 
-![Licensen för bilderna](CC0.png)
+![Licensen för bilderna](CC-BY-NC-SA.png)
 
 Det finns några bilder som har en
-[CC-BY](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens,
-och den är märkta sådant.
+[CC-BY](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens
+(eller annotlunda `BY` licenser).
+Sådana filer är märkta sådant in filnamnet (t.e.x `some_image_cc_by.png`)
+och i närmaste `README.md` har en referens till bildkällan.
 
 ## Får jag distribuera dessa böcker?
 
