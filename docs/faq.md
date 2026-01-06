@@ -32,6 +32,17 @@ Upphovsrätten till dessa böcker finns på:
 Det här är många människor, så det här häftet kommer alltid
 att förbli gratis, gratis och öppet.
 
+## Vad är licensen på bilderna?
+
+Nästan alla bilderna har en
+[CC0](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
+
+![Licensen för bilderna](CC0.png)
+
+Det finns några bilder som har en
+[CC-BY](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens,
+och den är märkta sådant.
+
 ## Får jag distribuera dessa böcker?
 
 Gjärna!

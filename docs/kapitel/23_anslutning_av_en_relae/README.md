@@ -106,7 +106,7 @@ och tillbaka!
 För att förstå en H brygga,
 kolla på den schematiskt ritning här:
 
-![23](23_ansluting_av_en_relae_h_bridge_schematic_2.png)
+![23](23_ansluting_av_en_relae_h_bridge_schematic_cc_by.png)
 
 <!-- Image from https://www.build-electronic-circuits.com/h-bridge/ -->
 
