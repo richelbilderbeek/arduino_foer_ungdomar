@@ -3,13 +3,13 @@
 Connect the relais to the Arduino. How many pins of the relais will
 be controlled by the Arduino? Which pin is it?
 
-![](24_anvaendning_av_en_relais_1_pin_to_arduino.png)
+![](24_anvaendning_av_ett_relae_1_pin_to_arduino.png)
 
 - One, on pin 13.
 
 Connect one LED to 9V via the relais as such:
 
-![](24_ansluting_av_en_relais_one_led.png)
+![](24_ansluting_av_ett_relae_one_led.png)
 
 Use the Blink code to make the LED blink.
 
@@ -26,11 +26,11 @@ Does the LED go on or off with `digitalWrite(13, LOW)`? Why?
 
 Now, connect all four Arduino pins to the 4 relay input pins:
 
-![](24_anvaendning_av_en_relais_4_pins_to_arduino.png)
+![](24_anvaendning_av_ett_relae_4_pins_to_arduino.png)
 
 Then, build up the H bridge:
 
-![](24_ansluting_av_en_relais_h_bridge.png)
+![](24_ansluting_av_ett_relae_h_bridge.png)
 
 Exam:
 
