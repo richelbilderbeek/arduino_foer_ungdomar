@@ -98,7 +98,7 @@ och tillbaka!
 För att förstå en H bro,
 kolla på den schematiskt ritning här:
 
-![23](23_ansluting_av_en_relais_h_bridge_schematic.png)
+![23](23_ansluting_av_en_relais_h_bridge_schematic_2.png)
 
 <!-- Image from https://www.build-electronic-circuits.com/h-bridge/ -->
 
