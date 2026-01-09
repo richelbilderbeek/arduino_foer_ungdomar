@@ -29,6 +29,8 @@ Skriv ett program som få lysdioden att blinka så här:
 ![Bild](EmojiSunglasses.png) | Kanske saker är tvärtom mot dina föreväntningar
 :-------------:|:----------------------------------------:
 
+\pagebreak
+
 ### 24.1. Svar
 
 ```c++
@@ -66,6 +68,8 @@ Skriv ett program som få lysdioden att blinka så här:
 - lyser 5 sekund
 - släcker 1 sekund
 
+\pagebreak
+
 ### 24.2. Svar
 
 ```c++
@@ -85,6 +89,8 @@ void loop() {
 
 Nu behövs båda stift 10 och 11 av Arduino.
 
+\pagebreak
+
 ## 24.3. Slutupgift
 
 De här slutuppgift har ingen tajming.
@@ -94,6 +100,8 @@ en underskrift. Lyckas till!
 Anslut en Arduino till reläkortet som här:
 
 ![24.3. Anslut en Arduino till reläkortet](24_anvaendning_av_ett_relae_4_connections.png)
+
+\pagebreak
 
 Anslut andra del av reläkortet till en batteri som här:
 

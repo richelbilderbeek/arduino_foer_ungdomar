@@ -176,6 +176,8 @@ S4    |?
 ![Bild](EmojiSunglasses.png) | Det är förvirrande at 'S1' tillhör en relä (istället av en sladd). Inget problem för oss då!
 :-------------:|:----------------------------------------:
 
+\pagebreak
+
 ### 23.6. Svar
 
 Relais|Sladd |Varför

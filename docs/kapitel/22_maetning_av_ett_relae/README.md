@@ -25,9 +25,11 @@ Under den här lektionen **mäter** vi hur den fungerar.
 Vi använder ett 4-relä kort: ett kretskort som har fyra relän.
 Så här ser ett 4-relä kort ut:
 
-![Ett 4-relä kort](22_maetning_av_en_relais_relais_1.jpg)
+![Ett 4-relä kort](22_maetning_av_en_relais_relais_1.png)
 
-![Ett 4-relä kort](22_maetning_av_en_relais_relais_2.jpg)
+![Ett 4-relä kort](22_maetning_av_en_relais_relais_2.png)
+
+\pagebreak
 
 ## 22.1. Förbereda multimetern
 
@@ -65,6 +67,8 @@ Koppla ett relä så här:
 
 Vilket relä har numret 1? Hur såg du det?
 
+\pagebreak
+
 ### 22.2. Svar
 
 Reläet som är längst ner är relä nummer 1.
@@ -85,6 +89,8 @@ fungerar lika bra.
 
 Vad är motståndet? Vad betyder det?
 
+\pagebreak
+
 ### 22.3. Svar
 
 Motståndet är noll Ohm.
@@ -99,6 +105,8 @@ ingång två och tre på det första reläet, så här:
 
 Vad är motståndet? Vad betyder det?
 
+\pagebreak
+
 ### 22.4. Svar
 
 Motståndet är oändligt Ohm.
@@ -112,6 +120,8 @@ ingång ett och tre på det första reläet, så här:
 ![22.5. Mät mellan 1 och 3](22_maetning_av_en_relais_connect_1_and_3.png)
 
 Vad är motståndet? Vad betyder det?
+
+\pagebreak
 
 ### 22.5. Svar
 
@@ -134,6 +144,8 @@ Vad ser och hör du när du gör det?
 
 ![Koppla `GND` på Arduino med `IN1` på reläkortet](22_maetning_av_en_relais_connect_gnd.png)
 
+\pagebreak
+
 ### 22.6. Svar
 
 Du hör ett klick och en lysdiod (med namnet `D5`)
@@ -151,6 +163,8 @@ Stift|Stift|Motstånd
 2    |3    |?
 
 Mellan vilka stift finns nu noll Ohm?
+
+\pagebreak
 
 ## Slutuppgift
 
