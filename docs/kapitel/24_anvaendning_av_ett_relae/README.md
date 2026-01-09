@@ -59,7 +59,7 @@ Anslut en Arduino till reläkortet som här:
 
 Anslut andra del av reläkortet till en batteri som här:
 
-![24.2. Anslut reläkortet till batteriet](24_anvaendning_av_ett_relae_led_2 _relays.png)
+![24.2. Anslut reläkortet till batteriet](24_anvaendning_av_ett_relae_led_2_relays.png)
 
 Skriv ett program som få lysdioden att blinka så här:
 
