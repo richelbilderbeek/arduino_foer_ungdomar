@@ -14,4 +14,6 @@ Nummer  |Bok           |Häfte
 
 ## Lektionskort 2
 
-Ingen ännu.
+Nummer  |Bok           |Häfte
+--------|--------------|-----------------
+8       |[8](bok_8.pdf)|[8](haefte_8.pdf)

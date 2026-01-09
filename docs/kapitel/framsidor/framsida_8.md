@@ -1,9 +1,7 @@
-![Bok 8](framsida_8.png)
+![Bok 8: relä](framsida_8.png)
 
 `#`|Beskriving
 ---|-----------------------
-29 |Muspekare i fyrkant
-30 |Muspekare i cirkel
-31 |Cirklar krockar
-32 |Fyrkanter krockar
-
+22 |Mätning av ett relä
+23 |Anslutning av en relä
+24 |Användning av en relä
