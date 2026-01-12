@@ -22,3 +22,4 @@ pandoc framsida_4.md -o ../../boecker/framsida_4.pdf
 pandoc framsida_5.md -o ../../boecker/framsida_5.pdf
 pandoc framsida_6.md -o ../../boecker/framsida_6.pdf
 pandoc framsida_7.md -o ../../boecker/framsida_7.pdf
+pandoc framsida_8.md -o ../../boecker/framsida_8.pdf

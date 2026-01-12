@@ -56,7 +56,7 @@ Kpt|Beskrivning
 24 |[Användning av ett relä](24_anvaendning_av_ett_relae/README.md)
 .  |**Bok 9**: DC motor
 25 |[Mätning av en DC motor](25_maetning_av_en_dc_motor/README.md)
-26 |[Anslutning av en DC motor](26_anslutning_av_en_dc_motor/README.md): använd knappar och H-bridge, a relä openens upon GND (i.e. not 5V), the middle is connnected to one of the other pins
+26 |[Anslutning av en DC motor](26_anslutning_av_en_dc_motor/README.md)
 27 |[Användning av en DC motor](27_anvaendning_av_en_dc_motor/README.md)
 .  |**Bok 10**: Avståndssensor
 28 |[Mätning av en avståndssensor](28_maetning_av_en_avstaandssensor/README.md)
@@ -74,9 +74,9 @@ Kpt|Beskrivning
 37 |[Mätning av en LCD](37_maetning_av_en_lcd/README.md)
 38 |[Anslutning av en LCD](38_anslutning_av_en_lcd/README.md)
 39 |[Användning av en LCD](39_anvaendning_av_en_lcd/README.md)
-.  |**Bok 14**: stegmotor (Store Björn)
+.  |**Bok 14**: stegmotor
 40 |[Mätning av en stegmotor](40_maetning_av_en_stegmotor/README.md)
-41 |[Anslutning av en stegmotor](41_anslutning_av_en_stegmotor/README.md) Anslutning, e.g. använd knappar och H-bridge
+41 |[Anslutning av en stegmotor](41_anslutning_av_en_stegmotor/README.md)
 42 |[Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md)
 
 Kpt|Beskrivning

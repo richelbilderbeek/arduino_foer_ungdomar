@@ -25,9 +25,11 @@ Under den här lektionen **mäter** vi hur det fungerar.
 Vi använder ett 4-relä kort: ett kretskort som har fyra reläer.
 Så här ser ett 4-relä kort ut:
 
-![Ett 4-relä kort](22_maetning_av_en_relais_relais_1.jpg)
+![Ett 4-relä kort](22_maetning_av_en_relais_relais_1.png)
 
-![Ett 4-relä kort](22_maetning_av_en_relais_relais_2.jpg)
+![Ett 4-relä kort](22_maetning_av_en_relais_relais_2.png)
+
+\pagebreak
 
 ## 22.1. Förbereda multimetern
 
