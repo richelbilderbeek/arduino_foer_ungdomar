@@ -17,12 +17,12 @@ https://fritzing.org/projects/smd-4-x-relay-board
 -->
 
 Ett relä är som en knapp som kan styras elektroniskt.
-Vi använder relä för att skydda vår kära Arduino när vi styr kraftiga komponenter,
+Vi använder reläer för att skydda vår kära Arduino när vi styr kraftiga komponenter,
 till exempel DC-motorer.
 
-Under den här lektionen **mäter** vi hur den fungerar.
+Under den här lektionen **mäter** vi hur det fungerar.
 
-Vi använder ett 4-relä kort: ett kretskort som har fyra relän.
+Vi använder ett 4-relä kort: ett kretskort som har fyra reläer.
 Så här ser ett 4-relä kort ut:
 
 ![Ett 4-relä kort](22_maetning_av_en_relais_relais_1.jpg)
@@ -44,7 +44,7 @@ Vad kan du göra om multimetern ger fel värde?
 
 \pagebreak
 
-### Svar
+### 22.1. Svar
 
 Du bör mäta noll Ohm.
 Det är så för att det inte finns något (elektriskt)
@@ -64,6 +64,8 @@ Koppla ett relä så här:
 ![22.2. Koppling av ett relä](22_maetning_av_en_relais_connect.png)
 
 Vilket relä har numret 1? Hur såg du det?
+
+\pagebreak
 
 ### 22.2. Svar
 
@@ -85,6 +87,8 @@ fungerar lika bra.
 
 Vad är motståndet? Vad betyder det?
 
+\pagebreak
+
 ### 22.3. Svar
 
 Motståndet är noll Ohm.
@@ -99,6 +103,8 @@ ingång två och tre på det första reläet, så här:
 
 Vad är motståndet? Vad betyder det?
 
+\pagebreak
+
 ### 22.4. Svar
 
 Motståndet är oändligt Ohm.
@@ -112,6 +118,8 @@ ingång ett och tre på det första reläet, så här:
 ![22.5. Mät mellan 1 och 3](22_maetning_av_en_relais_connect_1_and_3.png)
 
 Vad är motståndet? Vad betyder det?
+
+\pagebreak
 
 ### 22.5. Svar
 
@@ -134,10 +142,12 @@ Vad ser och hör du när du gör det?
 
 ![Koppla `GND` på Arduino med `IN1` på reläkortet](22_maetning_av_en_relais_connect_gnd.png)
 
+\pagebreak
+
 ### 22.6. Svar
 
-Du hör ett klick och en lysdiod (med namnet `D5`)
-på kortet börjar att lysa.
+Du hör ett klick och lysdioden `D5`
+på kortet börjar lysa.
 
 ## 22.7. Gör igen
 
@@ -152,7 +162,7 @@ Stift|Stift|Motstånd
 
 Mellan vilka stift finns nu noll Ohm?
 
-## Slutuppgift
+## 22.8. Slutuppgift
 
 Gå igenom alla sex mätningar, som i tabellen här:
 
