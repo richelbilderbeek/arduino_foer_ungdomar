@@ -17,12 +17,12 @@ https://fritzing.org/projects/smd-4-x-relay-board
 -->
 
 Ett relä är som en knapp som kan styras elektroniskt.
-Vi använder relä för att skydda vår kära Arduino när vi styr kraftiga komponenter,
+Vi använder reläer för att skydda vår kära Arduino när vi styr kraftiga komponenter,
 till exempel DC-motorer.
 
-Under den här lektionen **mäter** vi hur den fungerar.
+Under den här lektionen **mäter** vi hur det fungerar.
 
-Vi använder ett 4-relä kort: ett kretskort som har fyra relän.
+Vi använder ett 4-relä kort: ett kretskort som har fyra reläer.
 Så här ser ett 4-relä kort ut:
 
 ![Ett 4-relä kort](22_maetning_av_en_relais_relais_1.png)
@@ -46,7 +46,7 @@ Vad kan du göra om multimetern ger fel värde?
 
 \pagebreak
 
-### Svar
+### 22.1. Svar
 
 Du bör mäta noll Ohm.
 Det är så för att det inte finns något (elektriskt)
@@ -148,8 +148,8 @@ Vad ser och hör du när du gör det?
 
 ### 22.6. Svar
 
-Du hör ett klick och en lysdiod (med namnet `D5`)
-på kortet börjar att lysa.
+Du hör ett klick och lysdioden `D5`
+på kortet börjar lysa.
 
 ## 22.7. Gör igen
 
@@ -164,9 +164,7 @@ Stift|Stift|Motstånd
 
 Mellan vilka stift finns nu noll Ohm?
 
-\pagebreak
-
-## Slutuppgift
+## 22.8. Slutuppgift
 
 Gå igenom alla sex mätningar, som i tabellen här:
 

@@ -50,7 +50,7 @@ Tar notis om:
 - Vi använder `10` för det är stiftet av Arduinon som är kopplat till relä 1
 - Det ar `digitalWrite(10, LOW);` som sätter **på** lysdioden
 
-## 26.2. Två relän
+## 26.2. Två reläer
 
 Vi bygger upp en H brygga gradvis (som vanligt). Nu tar vi nästa steg!
 
