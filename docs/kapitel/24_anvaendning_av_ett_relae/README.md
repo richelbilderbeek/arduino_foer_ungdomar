@@ -1,32 +1,32 @@
-# Lektion 24: Använding av ett relais
+# Lektion 24: Användning av ett relä
 
-Ett relä är liksom en knapp som kan blir tryckt elektroniskt.
-Vi behöver reläer om vi vill skydda vär kära Arduino emot,
-bland annat, DC motorer.
+Ett relä är som en knapp som kan styras elektroniskt.
+Vi använder reläer för att skydda vår kära Arduino när vi styr kraftiga komponenter,
+till exempel DC-motorer.
 
-Under den här lektion ska vi använder en Arduino för att styra den.
+Under den här lektionen ska vi använda en Arduino för att styra det.
 
-Vi använder en 4-relä kort: en kretskort som har fyra relä.
+Vi använder ett 4-relä kort: ett kretskort som har fyra reläer.
 
 ## 24.1. Blink
 
-Anslut en Arduino till reläkortet som här:
+Anslut en Arduino till reläkortet så här:
 
 ![24.1. Anslut en Arduino till reläkortet](24_anvaendning_av_ett_relae_1_connection.png)
 
-Anslut andra del av reläkortet till en batteri som här:
+Anslut andra delen av reläkortet till ett batteri så här:
 
 ![24.1. Anslut reläkortet till batteriet](24_anvaendning_av_ett_relae_led_1_relay.png)
 
-Skriv ett program som få lysdioden att blinka så här:
+Skriv ett program som får lysdioden att blinka så här:
 
-- lyser 5 sekund
+- lyser 5 sekunder
 - släcker 1 sekund
 
-![Bild](EmojiBowtie.png) | Ser up: reläet är kopplat till `10`
+![Bild](EmojiBowtie.png) | Se upp: reläet är kopplat till `10`
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | Kanske saker är tvärtom mot dina föreväntningar
+![Bild](EmojiSunglasses.png) | Kanske är saker tvärtom mot dina förväntningar
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -46,26 +46,26 @@ void loop() {
 }
 ```
 
-Tar notis om:
+Notera:
 
-- Vi använder `10` för det är stiftet av Arduinon som är kopplat till relä 1
-- Det ar `digitalWrite(10, LOW);` som sätter **på** lysdioden
+- Vi använder `10` för det är stiftet på Arduinon som är kopplat till relä 1
+- Det är `digitalWrite(10, LOW);` som sätter **på** lysdioden
 
 ## 24.2. Två reläer
 
-Vi bygger upp en H brygga gradvis (som vanligt). Nu tar vi nästa steg!
+Vi bygger upp en H-brygga gradvis (som vanligt). Nu tar vi nästa steg!
 
-Anslut en Arduino till reläkortet som här:
+Anslut en Arduino till reläkortet så här:
 
 ![24.2. Anslut en Arduino till reläkortet](24_anvaendning_av_ett_relae_2_connections.png)
 
-Anslut andra del av reläkortet till en batteri som här:
+Anslut andra delen av reläkortet till ett batteri så här:
 
 ![24.2. Anslut reläkortet till batteriet](24_anvaendning_av_ett_relae_led_2_relays.png)
 
-Skriv ett program som få lysdioden att blinka så här:
+Skriv ett program som får lysdioden att blinka så här:
 
-- lyser 5 sekund
+- lyser 5 sekunder
 - släcker 1 sekund
 
 \pagebreak
@@ -87,33 +87,33 @@ void loop() {
 }
 ```
 
-Nu behövs båda stift 10 och 11 av Arduino.
+Nu behövs både stift 10 och 11 på Arduinon.
 
 \pagebreak
 
-## 24.3. Slutupgift
+## 24.3. Slutuppgift
 
-De här slutuppgift har ingen tajming.
-Bara visar resultatet till en persom som får ger
-en underskrift. Lyckas till!
+Den här slutuppgiften har ingen tidsgräns.
+Visa bara resultatet till en person som får ge
+en underskrift. Lycka till!
 
-Anslut en Arduino till reläkortet som här:
+Anslut en Arduino till reläkortet så här:
 
 ![24.3. Anslut en Arduino till reläkortet](24_anvaendning_av_ett_relae_4_connections.png)
 
 \pagebreak
 
-Anslut andra del av reläkortet till en batteri som här:
+Anslut andra delen av reläkortet till ett batteri så här:
 
 ![24.3. Anslut reläkortet till batteriet](24_anvaendning_av_ett_relae_led_4_relays.png)
 
-Skriv ett program som få lysdioden att blinka så här:
+Skriv ett program som får lysdioderna att blinka så här:
 
-- lyser blåa lysdioden 1 sekund
+- den blåa lysdioden lyser 1 sekund
 - släcker allt 1 sekund
-- lyser gröna lysdioden 1 sekund
+- den gröna lysdioden lyser 1 sekund
 - släcker allt 1 sekund
 
-Förklar varför det är viktigt at allt är släckt mellan lysningen?
-Vad kan hända om vi det snabbare?
+Förklara varför det är viktigt att allt är släckt mellan att man tänder de olika lysdioderna.
+Vad kan hända om vi gör det snabbare?
 
