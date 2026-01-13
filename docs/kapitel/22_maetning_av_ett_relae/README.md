@@ -164,8 +164,6 @@ Stift|Stift|Motstånd
 
 Mellan vilka stift finns nu noll Ohm?
 
-\pagebreak
-
 ## 22.8. Slutuppgift
 
 Gå igenom alla sex mätningar, som i tabellen här:
