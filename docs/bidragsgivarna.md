@@ -7,5 +7,5 @@
 - Fredrik
 - [Herman Adsten](https://github.com/hha2011)
 - Ilon
-- [`jmillert`](https://github.com/jmillert)
+- [Johan Millert](https://github.com/jmillert)
 - [Sofia Bryntse](https://github.com/Bryntse)
