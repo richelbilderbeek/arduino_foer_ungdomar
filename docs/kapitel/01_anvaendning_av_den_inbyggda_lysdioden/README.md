@@ -182,3 +182,28 @@ Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 
 4. Få lysdioden att blinka så snabbt som möjligt.
    Förklara varför vi kann inte ser det
+
+<!-- Notes to self, to be used in demos
+
+Using this program:
+
+void setup()
+{
+  pinMode(13, OUTPUT);  
+}
+
+void loop()
+{
+  // 14 microsec per loop 
+  digitalWrite(13, HIGH); // 150 nanosec
+  delay(0); // Removing this line has no effect
+  digitalWrite(13, LOW); // 150 nanosec
+  delay(0);
+}
+
+- A digitalWrite takes 150 nanosecs to go from LOW to HIGH.
+- Two digitalWrite after each other take 14 microseconds.
+  This may be due to some Arduino process.
+- Removing delay(0) has no effect
+
+-->
