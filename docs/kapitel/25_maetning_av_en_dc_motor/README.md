@@ -93,17 +93,17 @@ Vrida motor. Vad händer?
 
 När du vrider motorn ger det en spänning:
 
-![Mätning](25_maetning_av_en_dc_motor_dc_motor_fine_scale.jpg)
+![Mätning](25_maetning_av_en_dc_motor_dc_motor_osciloscope_fine_scale.jpg)
 
 Om du göra skalen lite bredare (t.ex. 100 mV) kan de ser bättre:
 
-![Mätning](25_maetning_av_en_dc_motor_dc_motor_wide_scale.jpg)
+![Mätning](25_maetning_av_en_dc_motor_dc_motor_oscilloscope_wide_scale.jpg)
 
 ## 25.4. Varför en DC motor gör skada till en Arduino
 
 Kolla igen på mätningen:
 
-![Mätning](25_maetning_av_en_dc_motor_dc_motor_wide_scale.jpg)
+![Mätning](25_maetning_av_en_dc_motor_dc_motor_oscilloscope_wide_scale.jpg)
 
 Det finns en vertikalt linje som går mycket ner, over hälften av höjden.
 Vad betyder detta?
