@@ -3,5 +3,5 @@
 `#`|Beskriving
 ---|-----------------------
 22 |Mätning av ett relä
-23 |Anslutning av en relä
-24 |Användning av en relä
+23 |Anslutning av ett relä
+24 |Användning av ett relä
