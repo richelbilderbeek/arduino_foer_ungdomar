@@ -89,6 +89,8 @@ Sätt oscilloskopen till att mäta spänning.
 
 Vrida motor. Vad händer? 
 
+\pagebreak
+
 ### 25.3. Svar
 
 När du vrider motorn ger det en spänning:
@@ -107,6 +109,8 @@ Kolla igen på mätningen:
 
 Det finns en vertikalt linje som går mycket ner, over hälften av höjden.
 Vad betyder detta?
+
+\pagebreak
 
 ### 25.4. Svar
 

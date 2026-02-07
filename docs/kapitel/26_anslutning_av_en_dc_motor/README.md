@@ -11,6 +11,8 @@ Under den här lektionen ska vi göra detta.
 
 Vi använder ett 4-relä kort: ett kretskort som har fyra reläer.
 
+\pagebreak
+
 ## 26.1. En knapp styr ett relä
 
 Koppla reläskortet till Arduinon så här:
@@ -31,6 +33,8 @@ Vad händer när man trycker på knappen? Varför?
 Reläet 1 klickar.
 
 Det är på grund av att stift `IN1` blir kopplat till `GND` om knappen är tryckt.
+
+\pagebreak
 
 ## 26.2. Ett relä styr en DC motor
 

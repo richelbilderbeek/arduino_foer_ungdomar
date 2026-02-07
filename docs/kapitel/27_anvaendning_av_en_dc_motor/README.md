@@ -15,6 +15,8 @@ Anslut en Arduino till reläkortet så här:
 
 ![27.1. Anslut en Arduino till reläkortet](27_anvaendning_av_en_dc_motor_1_connection.png)
 
+\pagebreak
+
 Anslut andra delen av reläkortet till ett batteri så här:
 
 ![27.1. Anslut reläkortet till batteriet](27_anvaendning_av_en_dc_motor_1.png)
