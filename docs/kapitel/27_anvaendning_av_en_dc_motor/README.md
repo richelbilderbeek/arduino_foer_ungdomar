@@ -1,15 +1,15 @@
-# Lektion 27: Användning av en DC motor
+# Lektion 27: Användning av en DC-motor
 
-En DC motor är en motor som framåt när den får spänning
-och åker bakåt när spänningen är trärtom.
+En DC-motor är en motor som snurrar framåt när den får spänning
+och bakåt när spänningen vänds om.
 
-Man får aldrig koppla en DC motor **direkt** till en Arduino,
-men en DC motor kan blir kopplad till ett relä (som är styrd av en Arduino).
+Man får aldrig koppla en DC-motor **direkt** till en Arduino,
+men en DC-motor kan kopplas till ett relä (som styrs av en Arduino).
 
-Under den här lektion ska vi koppla en DC motor till ett reläs
-(till en Arduino).
+Under den här lektionen ska vi koppla en DC-motor till ett relä
+(och därigenom till en Arduino).
 
-## 27.1. Blink
+## 27.1. Ett relä
 
 Anslut en Arduino till reläkortet så här:
 
@@ -21,7 +21,7 @@ Anslut andra delen av reläkortet till ett batteri så här:
 
 ![27.1. Anslut reläkortet till batteriet](27_anvaendning_av_en_dc_motor_1.png)
 
-Skriv ett program som får DC motorn att snurra så här:
+Skriv ett program som får DC-motorn att snurra så här:
 
 - snurrar 5 sekunder
 - stannar 1 sekund
@@ -51,8 +51,8 @@ void loop() {
 
 Notera:
 
-- Vi använder `10` för det är stiftet på Arduinon som är kopplat till relä 1
-- Det är `digitalWrite(10, LOW);` som sätter **på** DC motorn
+- Vi använder `10` för att det är stiftet på Arduinon som är kopplat till relä 1
+- Det är `digitalWrite(10, LOW);` som sätter **på** DC-motorn
 
 ## 27.2. Två reläer
 
@@ -66,7 +66,7 @@ Anslut andra delen av reläkortet till ett batteri så här:
 
 ![27.2. Anslut reläkortet till batteriet](27_anvaendning_av_en_dc_motor_2.png)
 
-Skriv ett program som får DC motorn att snurra så här:
+Skriv ett program som får DC-motorn att snurra så här:
 
 - snurrar 5 sekunder
 - stannar 1 sekund
@@ -78,6 +78,7 @@ Skriv ett program som får DC motorn att snurra så här:
 ```c++
 void setup() {
   pinMode(10, OUTPUT);
+  pinMode(11, OUTPUT);
 }
 
 void loop() {
@@ -97,7 +98,7 @@ Nu behövs både stift 10 och 11 på Arduinon.
 ## 27.3. Slutuppgift
 
 Den här slutuppgiften har ingen tidsgräns.
-Visa bara resultatet till en person som får ge
+Visa bara resultatet för en person som får ge
 en underskrift. Lycka till!
 
 Anslut en Arduino till reläkortet så här:
@@ -110,13 +111,13 @@ Anslut andra delen av reläkortet till ett batteri så här:
 
 ![27.3. Anslut reläkortet till batteriet](27_anvaendning_av_en_dc_motor_4.png)
 
-Skriv ett program som får DC motorn att snurra så här:
+Skriv ett program som får DC-motorn att snurra så här:
 
-- snurrar åt ena hål för 3 sekunder
+- snurrar åt ena hållet i 3 sekunder
 - stannar 1 sekund
-- snurrar åt ena andra hål för 3 sekunder
+- snurrar åt andra hållet i 3 sekunder
 - stannar 1 sekund
 
 Förklara varför det är viktigt att motorn vilar
-mellan att man låt den snurra.
+mellan varje gång man låter den snurra.
 Vad kan hända om vi gör det snabbare?

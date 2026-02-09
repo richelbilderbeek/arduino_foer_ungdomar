@@ -1,14 +1,14 @@
-# Lektion 25: Mätning av en DC motor
+# Lektion 25: Mätning av en DC-motor
 
-En DC motor är en motor som framåt när den får spänning
-och åker bakåt när spänningen är tvärtom.
+En DC-motor är en motor som snurrar framåt när den får spänning
+och bakåt när spänningen vänds om.
 
-Man får aldrig koppla en DC motor till en Arduino,
-även när motorn använder 5 volt!
+Man får aldrig koppla en DC-motor direkt till en Arduino,
+inte ens om motorn använder 5 volt!
 
-<!-- 
+<!--
 
-Maximum ström en Arduino stift får ger är 40 mA.
+Den maximala ström som ett Arduino‑stift får belastas med är 40 mA.
 
 U = I * R
 5V = 0.040 A * R
@@ -17,123 +17,115 @@ R = 5 V / 0.040 A = 125 Ohm
 -->
 
 Under den här lektionen **mäter** vi varför
-vi får aldrig koppla en DC motor till en Arduino.
+man aldrig får koppla en DC-motor direkt till en Arduino.
 
 <!-- För att en DC motor ger spänning! -->
 
-## 25.1. Att koppla en oscilloskop till en LDR
+## 25.1. Att koppla ett oscilloskop till en LDR
 
-Koppla en oscilloskop till samma ben av en LDR.
-Sätt oscilloskopen till att mäta spänning.
+Koppla ett oscilloskop till samma ben på en LDR.
+Ställ in oscilloskopet att mäta spänning.
 
 ![Schematiskt](25_maetning_av_en_dc_motor_koppling_1.png)
 
 ![På riktigt](25_maetning_av_en_dc_motor_ldr_1_real.jpg)
 
-Mäta spänningen. Försök förklara vad du mäter.
+Mät spänningen. Försök förklara vad du mäter.
 
-![Bild](EmojiBowtie.png) | Tips: oscilloskoper är inte perfekta!
+![Bild](EmojiBowtie.png) | Tips: oscilloskop är inte perfekta!
 :-------------:|:----------------------------------------:
 
 ### 25.1. Svar
 
 I grunden mäter du noll volt: en LDR ger ingen spänning.
 
-Men du ser ändå en spänning av 5 millivolt.
-Det är konstigt, för att en LDR ger ingen spänning...
+Men du ser ändå en spänning på cirka 5 millivolt.
+Det är konstigt, eftersom en LDR inte ger någon spänning...
 
 ![Mätning](25_maetning_av_en_dc_motor_ldr_1_oscilloscope.jpg)
 
-Men det är oscilloskopen som gör detta!
-Du mäter bakgrundsspänning av oscilloskopen:
-en oscilloskop är en maskin som är inte perfekt.
+Men det är oscilloskopet som orsakar detta!
+Du mäter bakgrundsspänning från oscilloskopet:
+ett oscilloskop är en maskin som inte är perfekt.
 
-## 25.2.
+## 25.2. Att koppla ett oscilloskop till båda benen på en LDR
 
-Koppla en oscilloskop till den båda ben av en LDR.
-Sätt oscilloskopen till att mäta spänning.
+Koppla ett oscilloskop till båda benen på en LDR.
+Ställ in oscilloskopet att mäta spänning.
 
 ![Schematiskt](25_maetning_av_en_dc_motor_koppling_2.png)
 
 ![På riktigt](25_maetning_av_en_dc_motor_ldr_2_real.jpg)
 
-Mäta spänningen under att du förljusa/förmörker ljusen. 
-Ser du en skilnad? Varför?
+Mät spänningen medan du lyser på/skuggar LDR:en.
+Ser du någon skillnad? Varför?
 
 ### 25.2. Svar
 
 I grunden mäter du noll volt: en LDR ger ingen spänning.
-Men, som sagt, du mäter ändå backgrundsspänning av oscilloskopen.
+Men, som sagt, du mäter ändå bakgrundsspänning från oscilloskopet.
 
 ![Mätning](25_maetning_av_en_dc_motor_ldr_2_oscilloscope.jpg)
 
-Om du ljuser eller förmörker LDR gör ingenting: båda med eller utan ljus 
+Om du lyser på eller skuggar LDR:en händer ingenting: både med och utan ljus
 ger en LDR ingen spänning.
 
-Andå, om du tar din hand nära finns en lite skilnad,
-men det beror inte på LDRen: det är på grund av din hand (!)
+Men om du håller din hand nära syns en liten skillnad,
+men det beror inte på LDR:en: det beror på din hand (!)
 
-![Bild](EmojiBowtie.png) | I boken 'Kapacitativ knapp' använder vi den här princip!
+![Bild](EmojiBowtie.png) | I boken 'Kapacitativ knapp' använder vi den här principen!
 :-------------:|:----------------------------------------:
 
 
-## 25.2. Att koppla en oscilloskop till en DC motor
+## 25.3. Att koppla ett oscilloskop till en DC-motor
 
-Koppla en oscilloskop till en DC motor.
+Koppla ett oscilloskop till en DC-motor.
 
-Sätt oscilloskopen till att mäta spänning.
+Ställ in oscilloskopet att mäta spänning.
 
 ![Schematiskt](25_maetning_av_en_dc_motor_koppling_3.png)
 
 ![På riktigt](25_maetning_av_en_dc_motor_dc_motor_real.jpg)
 
-Vrida motor. Vad händer? 
+Vrid motorn för hand. Vad händer?
 
 \pagebreak
 
 ### 25.3. Svar
 
-När du vrider motorn ger det en spänning:
+När du vrider motorn ger den en spänning:
 
 ![Mätning](25_maetning_av_en_dc_motor_dc_motor_osciloscope_fine_scale.jpg)
 
-Om du göra skalen lite bredare (t.ex. 100 mV) kan de ser bättre:
+Om du gör skalan lite bredare (t.ex. 100 mV) syns det bättre:
 
 ![Mätning](25_maetning_av_en_dc_motor_dc_motor_oscilloscope_wide_scale.jpg)
 
-## 25.4. Varför en DC motor gör skada till en Arduino
+## 25.4. Varför en DC-motor skadar en Arduino
 
-Kolla igen på mätningen:
+Titta igen på mätningen:
 
 ![Mätning](25_maetning_av_en_dc_motor_dc_motor_oscilloscope_wide_scale.jpg)
 
-Det finns en vertikalt linje som går mycket ner, over hälften av höjden.
+Det finns en vertikal linje som går mycket långt ner, över hälften av höjden.
 Vad betyder detta?
 
 \pagebreak
 
 ### 25.4. Svar
 
-Den vertikala linje betyder att spänningen ändrar sig från plus 150 millivolt
-till **minus** 30 millivolt. Det betyder att el går en annat riktning!
+Den vertikala linjen betyder att spänningen ändras från plus 150 millivolt
+till **minus** 30 millivolt. Det betyder att strömmen byter riktning!
 
-På grund av att elriktningen vrider om, gör en DC motor skada till en Arduino.
+Eftersom strömriktningen vänder kan en DC-motor skada en Arduino.
 
-![Bild](EmojiBowtie.png) | Alltid seperar en Arduino och en DC motor!
+![Bild](EmojiBowtie.png) | Koppla alltid Arduino och DC-motor separerade!
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | Användt reläer för att skyddar din Arduino
+![Bild](EmojiSunglasses.png) | Använd reläer för att skydda din Arduino
 :-------------:|:----------------------------------------:
 
-## 25.5 Slutupgift
+## 25.5 Slutuppgift
 
-- Visa bakgrundsspänning av en LDR
-- Visa hur en DC motor kan skada en Arduino
-
-
-
-
-
-
-
-
+- Visa bakgrundsspänning från en LDR
+- Visa hur en DC-motor kan skada en Arduino
