@@ -10,7 +10,7 @@ och använda den på att smidigt sätt.
 
 Anslut en Arduino till en avståndssensor och lysdiod så här:
 
-![30.1. Anslut en Arduino till avståndssensor och lysdiod](27_anvaendning_av_en_dc_motor_1_connection.png)
+![30.1. Anslut en Arduino till avståndssensor och lysdiod](30_anvaendning_av_en_avstaandssensor.png)
 
 Vi ser att utgången av avståndssensor är kopplat till stift 13.
 Vi vet att stift 13 är också kopplad till den lysdioden

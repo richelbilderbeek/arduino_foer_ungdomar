@@ -14,6 +14,8 @@ Nummer  |Bok           |Häfte
 
 ## Lektionskort 2
 
-Nummer  |Bok           |Häfte
---------|--------------|-----------------
-8       |[8](bok_8.pdf)|[8](haefte_8.pdf)
+Nummer  |Bok             |Häfte
+--------|----------------|-------------------
+8       |[8](bok_8.pdf)  |[8](haefte_8.pdf)
+9       |[9](bok_9.pdf)  |[9](haefte_9.pdf)
+10      |[10](bok_10.pdf)|[10](haefte_10.pdf)
