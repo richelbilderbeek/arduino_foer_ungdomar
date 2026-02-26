@@ -2,6 +2,6 @@
 
 `#`|Beskriving
 ---|-------------------------
-22 |Mätning av en DC motor
-23 |Anslutning av en DC motor
-24 |Användning av en DC motor
+25 |Mätning av en DC motor
+26 |Anslutning av en DC motor
+27 |Användning av en DC motor
