@@ -19,3 +19,4 @@ Nummer  |Bok             |Häfte
 8       |[8](bok_8.pdf)  |[8](haefte_8.pdf)
 9       |[9](bok_9.pdf)  |[9](haefte_9.pdf)
 10      |[10](bok_10.pdf)|[10](haefte_10.pdf)
+12      |[12](bok_12.pdf)|[12](haefte_12.pdf)
