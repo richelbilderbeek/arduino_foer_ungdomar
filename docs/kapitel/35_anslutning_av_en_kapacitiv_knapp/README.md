@@ -10,4 +10,6 @@ med det, är vi färdiga :-)
 
 ## 35.1 Slutuppgift
 
+Den här lektionen har ingen slutuppgift ännu. Kanske aldrig.
+
 - Visar att du har klarat av lektion 34 på din lektionkort
