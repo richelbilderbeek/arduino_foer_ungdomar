@@ -10,6 +10,8 @@ Gör kapitel 39 först.
 
 ## 38.2 Anslut till oscilloskop
 
+![Anslutning till oscilloskop](38_anslutning_av_en_lcd_anslutning.jpg)
+
 - Koppla en LCD skärm som i kapitel 39
 - Kör 'Hello World' programmet
 - Koppla 'RS' till kanal 1 av en oscilloskop
@@ -33,3 +35,7 @@ något.
 
 - Visar hur mycket delar en kommanda har på en oscilloskop.
   Tip: det finns en knapp 'Run | Stop' för att frysa oscilloskop skärmen
+
+![En möjligt resultat](38_anslutning_av_en_lcd_maetning_1.jpg)
+
+![En annan möjligt resultat](38_anslutning_av_en_lcd_maetning_2.jpg)
