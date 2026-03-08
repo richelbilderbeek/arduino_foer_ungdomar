@@ -10,7 +10,7 @@ som är engelska för 'flytande kristal skärm'.
 
 Anslut en LCD som här:
 
-![Ansluter LCD-väg 1](39_anvaendning_av_en_lcd_schematic)
+![Ansluter LCD-väg 1](39_anvaendning_av_en_lcd_schematic.png)
 
 - Den röda sladd, såklart, går till 5V
 
