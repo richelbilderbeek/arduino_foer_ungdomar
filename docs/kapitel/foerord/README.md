@@ -11,9 +11,9 @@ Denna bok lär dig att göra det.
 
 ## Om den här boken
 
-Denna bok är licensierad av CC-BY-NC-SA.
+Denna bok är licensierad av CC-BY-SA.
 
-![Licensen för denna bok](CC-BY-NC-SA.png)
+![Licensen för denna bok](CC-BY-SA.png)
 
 (C) Richèl Bilderbeek och alla lärare och alla elever
 

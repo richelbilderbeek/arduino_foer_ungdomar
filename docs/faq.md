@@ -12,9 +12,9 @@ Japp:
 
 ## Vad är licensen på böckerna?
 
-Böckerna har alla en [CC-BY-NC-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
+Böckerna har alla en [CC-BY-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
 
-![Licensen för den här boken](CC-BY-NC-SA.png)
+![Licensen för den här boken](CC-BY-SA.png)
 
 Bokstäver|Mening          |Översättning
 ---------|----------------|-----------------------------------------------
@@ -35,9 +35,9 @@ att förbli gratis, gratis och öppet.
 ## Vad är licensen på bilderna?
 
 Nästan alla bilderna har en
-[CC-BY-NC-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
+[CC-BY-SA](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens:
 
-![Licensen för bilderna](CC-BY-NC-SA.png)
+![Licensen för bilderna](CC-BY-SA.png)
 
 Det finns några bilder som har en
 [CC-BY](https://sv.wikipedia.org/wiki/Creative_Commons#Licenser)-licens
