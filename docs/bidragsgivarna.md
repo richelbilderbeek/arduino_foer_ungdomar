@@ -3,7 +3,7 @@
 - Alfred Eriksson Dahlqvist
 - [Aui Rönnemaa](https://github.com/auironnemaa)
 - [Björn Engström](https://github.com/bEPHen)
-- Gordii 
+- Gordii
 - Fredrik Eldh
 - [Herman Adsten](https://github.com/hha2011)
 - Ilon Pohjanen

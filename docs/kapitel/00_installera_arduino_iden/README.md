@@ -14,6 +14,3 @@ I en internet browser, surf till
 Söka efter 'Arduino IDE' eller gå direkt till
 [`https://www.arduino.cc/en/software/#ide`](https://www.arduino.cc/en/software/#ide).
 
-
-
-

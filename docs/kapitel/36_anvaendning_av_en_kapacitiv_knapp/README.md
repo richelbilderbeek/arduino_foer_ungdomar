@@ -14,7 +14,7 @@ kallad `CapacitiveSensor`.
 
 Kanske du har redan installerat den:
 i Arduino IDEn, gå till `Examples`.
-Om du ser `CapacitiveSensor`, är biblioteket redan installerat! 
+Om du ser `CapacitiveSensor`, är biblioteket redan installerat!
 
 ![Om du ser `CapacitiveSensor`, är biblioteket redan installerat! ](36_anvaendning_av_en_kapacitiv_knapp_examples.png)
 
@@ -44,7 +44,7 @@ Om `CapacitiveSensor` är inte installerat, gör så här:
 
 Koppla ett Arduino till två motstånd.
 Motständerna måste var 1 million Ohm (1 MOhm)
-och 1 tusen Ohm (1 kOhm). 
+och 1 tusen Ohm (1 kOhm).
 
 ![Stroomschema](36_anvaendning_av_en_kapacitiv_knapp_schematic.png)
 
@@ -104,11 +104,11 @@ kann dett finnas en möjligt förbättring.
 
 Att koppla sladden i mitten till en aluminiumfolie är en möjligt förbättring.
 
-![](36_anvaendning_av_en_kapacitiv_knapp_1.jpg)
+![Använder en aluminiumfolie](36_anvaendning_av_en_kapacitiv_knapp_1.jpg)
 
-![](36_anvaendning_av_en_kapacitiv_knapp_2.jpg)
+![Använder en aluminiumfolie](36_anvaendning_av_en_kapacitiv_knapp_2.jpg)
 
-![](36_anvaendning_av_en_kapacitiv_knapp_3.jpg)
+![Använder en aluminiumfolie](36_anvaendning_av_en_kapacitiv_knapp_3.jpg)
 
 ## 36.3.3. Använder en större motstånd
 

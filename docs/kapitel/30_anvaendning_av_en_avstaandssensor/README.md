@@ -21,7 +21,7 @@ för att koppla den röda lysioden)?
 
 \pagebreak
 
-## Svar
+### 30.1. Svar
 
 Det är klokt att koppla avståndssensorn till stift 13,
 så att vi kan ser **mer**: den inbyggda lysioden visar när
@@ -65,7 +65,7 @@ Vad händer?
 
 \pagebreak
 
-### Svar
+### 30.2. Svar
 
 Lysdioden lyser när inget är i närheten
 och släcker när något är nära.
@@ -86,7 +86,7 @@ n = 1000;
 
 Vad är annorlunda nu?
 
-### Svar
+### 30.3. Svar
 
 Det tar (10 gånger) längra för lysdioden att släcka efter
 en föremål har kommt för nära.
@@ -111,7 +111,7 @@ delay(10);
 
 Vad är annorlunda nu?
 
-### Svar
+### 30.4. Svar
 
 Det tar (10 gånger) längra för lysdioden att släcka efter
 en föremål har kommt för nära.
