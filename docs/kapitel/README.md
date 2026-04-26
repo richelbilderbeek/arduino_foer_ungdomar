@@ -64,7 +64,7 @@ Kpt|Beskrivning
 30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md)
 .  |**Bok 11**: Neo pixels
 31 |[Mätning av neopixels](31_maetning_av_neopixels/README.md)
-32 |[Anslutning av neopixels](32_anslutning_av_en_avstaandssensor/README.md)
+32 |[Anslutning av neopixels](32_anslutning_av_neopixels/README.md)
 33 |[Användning av neopixels](33_anvaendning_av_neopixels/README.md)
 .  |**Bok 12**: Kapacitiv knapp
 34 |[Mätning av en kapacitiv knapp](34_maetning_av_en_kapacitiv_knapp/README.md)
@@ -130,7 +130,7 @@ Kpt|Beskrivning
 24 |[Theremin med infraröd](x24_theremin_infraroed/README.md)
 25 |[Theremin med joystick](x25_theremin_joystick/README.md)
 .  | **Bok 7**
-25 |[Kapacitiv sensor 1: ett](kapacitiv_sensor_1/README.md)
+25 |Kapacitiv sensor 1: ett
 26 |[Kapacitiv sensor 2: två seperata](kapacitiv_sensor_2/README.md)
 27 |[Kapacitiv sensor 3: två kopplade](kapacitiv_sensor_3/README.md)
 28 |Kapacitiv sensor 4: tre kopplade för Arduino Invaders
