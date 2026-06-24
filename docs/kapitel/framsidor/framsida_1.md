@@ -2,6 +2,7 @@
 
 `#`|Beskriving
 ---|------------------------------------
+0  |Installera Arduino IDEn
 1  |Användning av den inbyggda lysdioden
 2  |Användning av en multimeter
 3  |Anslutning av en lysdiod

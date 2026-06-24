@@ -51,33 +51,33 @@ med den some vi redan känner.
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 8**: Relais
-22 |[Mätning av ett relä](22_maetning_av_ett_relae/README.md)
-23 |[Anslutning av ett relä](23_anslutning_av_ett_relae/README.md)
-24 |[Användning av ett relä](24_anvaendning_av_ett_relae/README.md)
+22 |[Mätning av ett relä](22_maetning_av_ett_relae/README.md) <!-- Done by W -->
+23 |[Anslutning av ett relä](23_anslutning_av_ett_relae/README.md) <!-- Done by W -->
+24 |[Användning av ett relä](24_anvaendning_av_ett_relae/README.md) <!-- Done by W -->
 .  |**Bok 9**: DC motor
-25 |[Mätning av en DC motor](25_maetning_av_en_dc_motor/README.md)
-26 |[Anslutning av en DC motor](26_anslutning_av_en_dc_motor/README.md)
-27 |[Användning av en DC motor](27_anvaendning_av_en_dc_motor/README.md)
+25 |[Mätning av en DC motor](25_maetning_av_en_dc_motor/README.md) <!-- Done by W -->
+26 |[Anslutning av en DC motor](26_anslutning_av_en_dc_motor/README.md) <!-- Done by W -->
+27 |[Användning av en DC motor](27_anvaendning_av_en_dc_motor/README.md) <!-- Done by W -->
 .  |**Bok 10**: Avståndssensor
-28 |[Mätning av en avståndssensor](28_maetning_av_en_avstaandssensor/README.md)
-29 |[Anslutning av en avståndssensor](29_anslutning_av_en_avstaandssensor/README.md)
-30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md)
+28 |[Mätning av en avståndssensor](28_maetning_av_en_avstaandssensor/README.md) <!-- Done by W -->
+29 |[Anslutning av en avståndssensor](29_anslutning_av_en_avstaandssensor/README.md) <!-- Done by W -->
+30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md) <!-- Done by W -->
 .  |**Bok 11**: Neo pixels
 31 |[Mätning av neopixels](31_maetning_av_neopixels/README.md)
 32 |[Anslutning av neopixels](32_anslutning_av_neopixels/README.md)
-33 |[Användning av neopixels](33_anvaendning_av_neopixels/README.md)
+33 |[Användning av neopixels](33_anvaendning_av_neopixels/README.md) <!-- Done by W someway-->
 .  |**Bok 12**: Kapacitiv knapp
 34 |[Mätning av en kapacitiv knapp](34_maetning_av_en_kapacitiv_knapp/README.md)
 35 |[Anslutning av en kapacitiv knapp](35_anslutning_av_en_kapacitiv_knapp/README.md)
 36 |[Användning av en kapacitiv knapp](36_anvaendning_av_en_kapacitiv_knapp/README.md)
 .  |**Bok 13**: LCD
-37 |[Mätning av en LCD](37_maetning_av_en_lcd/README.md)
+37 |[Mätning av en LCD](37_maetning_av_en_lcd/README.md) <!-- Done by W -->
 38 |[Anslutning av en LCD](38_anslutning_av_en_lcd/README.md)
-39 |[Användning av en LCD](39_anvaendning_av_en_lcd/README.md)
+39 |[Användning av en LCD](39_anvaendning_av_en_lcd/README.md) <!-- Done by W -->
 .  |**Bok 14**: stegmotor
 40 |[Mätning av en stegmotor](40_maetning_av_en_stegmotor/README.md)
 41 |[Anslutning av en stegmotor](41_anslutning_av_en_stegmotor/README.md)
-42 |[Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md)
+42 |[Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md) <!-- Done by W -->
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
