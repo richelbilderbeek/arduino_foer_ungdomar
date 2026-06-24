@@ -37,9 +37,18 @@ Kör koden och rör LDR:er. Vad ser du?
 
 ### 18.2. Svar
 
-Om du inte rör LDR:er är färgen svagt rött (men det kan bero på RGB lysdiod,
-så den kan också vara grönt eller blått).
-Om du fördystra eller lyser på den första LDR  kan du ändra ljusstyrka.
+Det är bara en lysdiod som ändrar sig.
+
+![Dator](EmojiComputer.png) | Det är som du har programmerat just nu!
+:-------------:|:----------------------------------------:
+
+Om du rör den första LDR:er, lyser första lysdioden mer eller mindre.
+
+![Bild](EmojiBowtie.png) | Det kann vara tufft att får all färger av ett RBG lysdiod att funkar!
+:-------------:|:----------------------------------------:
+
+![Bild](EmojiSunglasses.png) | Du kann invända tre vanliga motstånder också!
+:-------------:|:----------------------------------------:
 
 ## 18.3. Vad koden betyder
 
@@ -184,10 +193,10 @@ void setup() {
 void loop() {
   const int ldr_1{analogRead(pin_ldr_1)};
   const int ldr_2{analogRead(pin_ldr_2)};
-  const int joy_sw{analogRead(pin_ldr_3)};
+  const int ldr_3{analogRead(pin_ldr_3)};
   const int ljus_styrka_r{ldr_1 / 4};
   const int ljus_styrka_g{ldr_2 / 4};
-  const int ljus_styrka_b{joy_sw / 4};
+  const int ljus_styrka_b{ldr_3 / 4};
   analogWrite(pin_led_r, ljus_styrka_r);
   analogWrite(pin_led_g, ljus_styrka_g);
   analogWrite(pin_led_b, ljus_styrka_b);
