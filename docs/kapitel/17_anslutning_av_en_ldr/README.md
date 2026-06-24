@@ -7,11 +7,16 @@ Under den här lektionen ska vi ansluta en LDR till en lysdiod!
 ![Att koppla en LDR till en ljusdiod](anslutning_av_en_ldr_1.png)
 
 Koppla tillsammans som schemat och koppla Arduino till en dator.
-Det längsta benet på ljusdioden ska kopplas till GND.
 
 - Vad tror du kommer att hända?
 - Vad händer om du fördystrar LDRen?
 - Vad händer om du lyser nåt på LDRen?
+
+![Bild](EmojiBowtie.png) | Ser upp: LDRen har en annat motstånd
+:-------------:|:----------------------------------------:
+
+![Bild](EmojiSunglasses.png) | 10k är tio tusend
+:-------------:|:----------------------------------------:
 
 \pagebreak
 
@@ -26,14 +31,17 @@ Effekten av ljus är:
 
 ## 17.2. Att koppla en LDR till en ljusdiod
 
-![Att koppla en LDR till en ljusdiod](anslutning_av_en_ldr_2.png)
+![Att koppla en LDR till en ljusdiod](anslutning_av_en_ldr_2_1k.png)
 
 Bygg om strömkretsen till den här bilden.
 Den enstaka skillnad är att LDRen och motståndet har byts.
 
-Vad tror du kommer att hända?
-Vad händer om du fördystrar LDRen?
-Vad händer om du lyser nåt på LDRen?
+![Bild](EmojiBowtie.png) | Ser upp: LDRen har nu en vanligt motstånd
+:-------------:|:----------------------------------------:
+
+- Vad tror du kommer att hända?
+- Vad händer om du fördystrar LDRen?
+- Vad händer om du lyser nåt på LDRen?
 
 \pagebreak
 
