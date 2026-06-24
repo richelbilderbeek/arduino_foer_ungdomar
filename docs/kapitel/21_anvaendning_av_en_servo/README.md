@@ -1,6 +1,6 @@
 # Lektion 21: Användning av en servo
 
-En servo är en motor som man kan sätta i en viss vinkel.
+En servo är en motor som man kan sätta på en viss vinkel.
 
 ![Solglasögon](EmojiSunglasses.png) | Servon används ofta i robotar
 :-------------:|:----------------------------------------:
