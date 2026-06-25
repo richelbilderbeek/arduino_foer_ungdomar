@@ -8,6 +8,12 @@ Under den här lektion gör vi Blink med NeoPixels!
 
 \pagebreak
 
+
+TODO
+/home/richel/GitHubs/arduino_foer_ungdomar/docs/kapitel/33_anvaendning_av_neopixels/click_tools_manage_libraries.png
+/home/richel/GitHubs/arduino_foer_ungdomar/docs/kapitel/33_anvaendning_av_neopixels/install_library.png
+/home/richel/GitHubs/arduino_foer_ungdomar/docs/kapitel/33_anvaendning_av_neopixels/library_missing.png
+
 ## 33.1. Anslutning
 
 ![Bild](neo_pixel_1_connect.png)
@@ -16,9 +22,9 @@ Anslut en Arduino till NeoPixels så här:
 
 Stift NeoPixels | Stift Arduino
 ----------------|--------------
-GND             | GND
-5V              | 5V
-DIN             | 6
+GND         | GND
+5V          | 5V
+DIN         | 6
 
 \pagebreak
 
@@ -28,27 +34,27 @@ Detta är koden för 'Blink':
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 void loop()
 {
-   pixels.setPixelColor(0, pixels.Color(64, 0, 0));
-   pixels.show();
-   delay(1000);
-   pixels.setPixelColor(0, pixels.Color(0, 0, 0));
-   pixels.show();
-   delay(1000);
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.show();
+  delay(1000);
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0, 0));
+  pixlar.show();
+  delay(1000);
 }
 ```
 
@@ -61,13 +67,13 @@ void loop()
 
 Färg  |Röd|Grön|Blå
 ------|---|----|----
-Röd   |255|0   |0
-Gul   |255|255 |0
-Blå   |0  |0   |255
+Röd  |255|0  |0
+Gul  |255|255 |0
+Blå  |0  |0  |255
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:------------------------------------------------:
-`pixels.show()`|'Bästa dator, låt lysdioderna visa sina färger.'
+`pixlar.show()`|'Bästa dator, låt lysdioderna visa sina färger.'
 
 Skriv in koden i Arduino IDE och klicka på "Ladda upp".
 
@@ -77,6 +83,8 @@ Blinkar nu
 
 - den första lysdioden: en Arduino börjar räkna från noll
 - i rött: d.v.s. med ett roed_vaerde på 64, grönt värde på 0 och ett blaa_vaerde på 0
+
+## 33.1. Att blinka två lysdioder
 
 Gå nu
 
@@ -92,29 +100,29 @@ Gå nu
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 void loop()
 {
-   pixels.setPixelColor(0, pixels.Color(64, 0, 0));
-   pixels.show();
-   delay(1000);
-   pixels.setPixelColor(0, pixels.Color(0, 0, 0));
-   pixels.setPixelColor(1, pixels.Color(0, 64, 0));
-   pixels.show();
-   delay(1000);
-   pixels.setPixelColor(1, pixels.Color(0, 0, 0));
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0 , 0, 0));
+  pixlar.show();
+  delay(1000);
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0 , 0));
+  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 64, 0));
+  pixlar.show();
+  delay(1000);
 }
 ```
 
@@ -136,33 +144,36 @@ Gå nu
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 void loop()
 {
-   pixels.setPixelColor(0, pixels.Color(64, 0, 0));
-   pixels.show();
-   delay(1000);
-   pixels.setPixelColor(0, pixels.Color(0, 0, 0));
-   pixels.setPixelColor(1, pixels.Color(0, 64, 0));
-   pixels.show();
-   delay(1000);
-   pixels.setPixelColor(1, pixels.Color(0, 0, 0));
-   pixels.setPixelColor(2, pixels.Color(0, 0, 64));
-   pixels.show();
-   delay(1000);
-   pixels.setPixelColor(2, pixels.Color(0, 0, 0));
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0 , 0, 0));
+  pixlar.setPixelColor(2, Adafruit_NeoPixel::Color(0 , 0, 0));
+  pixlar.show();
+  delay(1000);
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0 , 0));
+  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 64, 0));
+  pixlar.setPixelColor(2, Adafruit_NeoPixel::Color(0, 0 , 0));
+  pixlar.show();
+  delay(1000);
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0, 0));
+  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 0, 0));
+  pixlar.setPixelColor(2, Adafruit_NeoPixel::Color(0, 0, 64));
+  pixlar.show();
+  delay(1000);
 }
 ```
 
@@ -176,26 +187,27 @@ Använd nu koden nedan, men gör lysdioderna blåa:
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
+
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(64, 0, 0));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
+  pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
 }
 ```
 
@@ -207,26 +219,27 @@ void loop()
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
+
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(0, 0, 64));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
+  pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 64));
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
 }
 ```
 
@@ -234,45 +247,52 @@ void loop()
 
 ## 33.4
 
-Använd nu inte ett blaa_vaerde på `64`, utan av `which_ledje`. Vad ser du?
+Använd nu inte ett blaa väde på `64`, utan av `vilken_led`. Vad ser du?
 
 \pagebreak
 
 ### Svar
 
+Koden blir så här:
+
 ```c++
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
 
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(0, 0, which_led));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
+  pixlar.setPixelColor(
+    vilken_led,
+    Adafruit_NeoPixel::Color(0, 0, vilken_led)
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
 }
 ```
+
+Du ser nu att lysdioderna lyser från mörkt blå till mer och mer ljusblå.
 
 \pagebreak
 
 ## 33.5.
 
-Använd nu inte ett roed_vaerde på `0`, utan av `64 - which_ledje`. Vad ser du?
+Använd nu inte ett röd vaerde på `0`, utan av `64 - vil`. Vad ser du?
 
 \pagebreak
 
@@ -282,40 +302,48 @@ Använd nu inte ett roed_vaerde på `0`, utan av `64 - which_ledje`. Vad ser du?
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
 
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(64 - which_led, 0, which_led));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
+  pixlar.setPixelColor(
+    vilken_led,
+    Adafruit_NeoPixel::Color(0 - vilken_led, 0, vilken_led)
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
 }
 ```
+
+Du ser nu att den blåa del av ljuset fortfarande blir lysare.
+Men nu också ser du att den röda del av ljuset börjar ljusröd och
+blir mer och mer mörkrart.
+Tillsammans heter färgen magenta.
 
 \pagebreak
 
 ## 33.6.
 
-Istället för att alltid göra 'which_ledje' högre,
-vi kan också göra det med en ny variabel: 'roed_vaerde'.
-Skapa en ny variabel, av typen "int", med namnet "redvalue" och initialvärdet noll.
-Använd 'roed_vaerde' där
+Istället för att alltid göra `vilken_led` högre,
+vi kan också göra det med en ny variabel: `roed_vaerde`.
+Skapa en ny variabel, av typen "int", med namnet `roed_vaerde` och initialvärdet noll.
+Använd `roed_vaerde` där
 du bestämmer det röda värdet på en lysdiod.
-Låt 'roed_vaerde' öka med 1 varje gång.
+Låt `roed_vaerde` öka med 1 varje gång.
 
 \pagebreak
 
@@ -325,17 +353,17 @@ Låt 'roed_vaerde' öka med 1 varje gång.
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
@@ -343,11 +371,14 @@ int roed_vaerde = 0;
 
 void loop()
 {
-   pixels.setPixelColor(vilken_led, pixlar.Färg(roed_vaerde, 0, vilken_led));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
-   roed_vaerde = roed_vaerde + 1;
+  pixlar.setPixelColor(
+    vilken_led,
+    Adafruit_NeoPixel::Color(roed_vaerde, 0, vilken_led)
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
+  roed_vaerde = roed_vaerde + 1;
 }
 ```
 
@@ -355,11 +386,11 @@ void loop()
 
 ## 33.7.
 
-Istället för att alltid göra 'which_ledje' högre,
-vi kan också göra det med en ny variabel: 'blaa_vaerde'.
-Skapa en ny variabel, av typen "int", med namnet "bluevalue" och initialvärdet "32".
-Använd 'blaa_vaerde' där du bestämmer det röda värdet på en lysdiod.
-Låt 'blaa_vaerde' öka med 1 varje gång.
+Istället för att alltid göra `vilken_led` högre,
+vi kan också göra det med en ny variabel: `blaa_vaerde`.
+Skapa en ny variabel, av typen "int", med namnet `blaa_vaerde` och initialvärdet 32.
+Använd `blaa_vaerde` där du bestämmer det blåa värdet på en lysdiod.
+Låt `blaa_vaerde` minska med 1 varje gång.
 
 \pagebreak
 
@@ -369,31 +400,34 @@ Låt 'blaa_vaerde' öka med 1 varje gång.
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
 int roed_vaerde = 0;
-int blaa_vaerde = 0;
+int blaa_vaerde = 32;
 
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(redvalue, 0, bluevalue));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
-   roed_vaerde = roed_vaerde + 1;
-   blaa_vaerde = blaa_vaerde + 1;
+  pixlar.setPixelColor(
+    vilken_led, 
+    Adafruit_NeoPixel::Color(roed_vaerde, 0, blaa_vaerde)
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
+  roed_vaerde = roed_vaerde + 1;
+  blaa_vaerde = blaa_vaerde - 1;
 }
 ```
 
@@ -401,11 +435,9 @@ void loop()
 
 ## 33.8.
 
-Istället för att göra det "röda värdet" högre och högre,
-vi kan alltid göra dessa två högre.
-Men vi vill inte att det "röda värdet" ska överstiga "64".
-Använd en "if"-sats: om "roed_vaerde" är större än "64",
-det "röda värdet" blir då noll.
+Vår maskin gör nu igenom all lysdioder bara en gång.
+Använd en `if`-sats: om `vilken_led` är större än `antal_pixlar`,
+så ska `vilken_led` blir noll igen.
 
 \pagebreak
 
@@ -415,35 +447,35 @@ det "röda värdet" blir då noll.
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
 int roed_vaerde = 0;
-int blaa_vaerde = 0;
+int blaa_vaerde = 32;
 
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(redvalue, 0, bluevalue));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
-   roed_vaerde = roed_vaerde + 2;
-   blaa_vaerde = blaa_vaerde + 1;
-   if (roed_vaerde > 64)
-   {
-     roed_vaerde = 0;
-   }
+  pixlar.setPixelColor(
+    vilken_led,
+    Adafruit_NeoPixel::Color(roed_vaerde, 0, blaa_vaerde)
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
+  roed_vaerde = roed_vaerde + 1;
+  blaa_vaerde = blaa_vaerde - 1;
+  if (vilken_led > antal_pixlar) vilken_led = 0;
 }
 ```
 
@@ -451,11 +483,10 @@ void loop()
 
 ## 33.9.
 
-Istället för att göra "blaa_vaerde" högre och högre,
-vi kan alltid göra dessa tre högre.
-Men vi vill inte att 'blaa_vaerde' överstiger '64'.
-Använd en "if"-sats: om "blaa_vaerde" är större än "64",
-att 'blaa_vaerde' då blir noll.
+I vårt program nu överstiger röttvärdet 255,
+även om det gör ingenting i praktiken.
+Använd en `if`-sats: om dett röda värdet är större än 32,
+att dett röda värdet blir noll.
 
 \pagebreak
 
@@ -465,39 +496,36 @@ att 'blaa_vaerde' då blir noll.
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
 int roed_vaerde = 0;
-int blaa_vaerde = 0;
+int blaa_vaerde = 32;
 
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(redvalue, 0, bluevalue));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
-   roed_vaerde = roed_vaerde + 2;
-   blaa_vaerde = blaa_vaerde + 3;
-   if (roed_vaerde > 64)
-   {
-     roed_vaerde = 0;
-   }
-   if (blaa_vaerde > 64)
-   {
-     blaa_vaerde = 0;
-   }
+  pixlar.setPixelColor(
+    vilken_led,
+    Adafruit_NeoPixel::Color(roed_vaerde, 0, blaa_vaerde)
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
+  roed_vaerde = roed_vaerde + 1;
+  blaa_vaerde = blaa_vaerde - 1;
+  if (vilken_led > antal_pixlar) vilken_led = 0;
+  if (roed_vaerde > 32) roed_vaerde = 0;
 }
 ```
 
@@ -505,9 +533,10 @@ void loop()
 
 ## 33.10
 
-`which_ledje` blir nu högre och högre.
-Lägg nu till ett `if`-sats: om `which_led` är större *eller lika* än `number_neopixels`,
-att `vilken_ledje` då blir noll.
+I vårt program nu gåt blåttvärdet under noll,
+även om det gör ingenting i praktiken.
+Använd en `if`-sats: om dett blåa värdet är mindre än noll,
+att dett blåa värdet blir 32.
 
 \pagebreak
 
@@ -517,43 +546,37 @@ att `vilken_ledje` då blir noll.
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixels = 6;
-const int antal_pixels = 60;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-   antal_pixels,
-   stift_neopixels,
-   NEO_GRB + NEO_KHZ800
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
 );
 
 void setup()
 {
-   pixels.begin();
+  pixlar.begin();
 }
 
 int vilken_led = 0;
 int roed_vaerde = 0;
-int blaa_vaerde = 0;
+int blaa_vaerde = 32;
 
 void loop()
 {
-   pixels.setPixelColor(which_led, pixels.Color(redvalue, 0, bluevalue));
-   pixels.show();
-   delay(100);
-   vilken_led = vilken_led + 1;
-   roed_vaerde = roed_vaerde + 2;
-   blaa_vaerde = blaa_vaerde + 3;
-   if (roed_vaerde > 64)
-   {
-     roed_vaerde = 0;
-   }
-   if (blaa_vaerde > 64)
-   {
-     blaa_vaerde = 0;
-   }
-   if (vilket_led >= antal_pixels)
-   {
-     vilken_led = 0;
-   }
+  pixlar.setPixelColor(
+    vilken_led,
+    Adafruit_NeoPixel::Color(roed_vaerde, 0, blaa_vaerde)
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
+  roed_vaerde = roed_vaerde + 1;
+  blaa_vaerde = blaa_vaerde - 1;
+  if (vilken_led > antal_pixlar) vilken_led = 0;
+  if (roed_vaerde > 32) roed_vaerde = 0;
+  if (blaa_vaerde < 0) blaa_vaerde = 32;
 }
 ```
 
@@ -561,5 +584,55 @@ void loop()
 
 ## 33.11. Slutuppgift
 
-Skapa en ny variabel "grönt värde", som bestämmer det gröna värdet för lysdioderna.
-Den här får hela tiden fyra till. Om 'grönt värde' är över 64, ställ in det på noll.
+Skapa en ny variabel `groent_vaerde`, som bestämmer det gröna värdet
+för lysdioderna.
+Den här får hela tiden gå med två (istället för ett).
+Om detta värdet är över 32, måste den blir noll igen.
+
+<!--
+
+
+#include <Adafruit_NeoPixel.h>
+
+const int stift_neopixels = 6;
+const int antal_pixlar = 8;
+
+Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
+  antal_pixlar,
+  stift_neopixels,
+  NEO_GRB + NEO_KHZ800
+);
+
+void setup()
+{
+  pixlar.begin();
+}
+
+int vilken_led = 0;
+int roed_vaerde = 0;
+int blaa_vaerde = 32;
+int groent_vaerde = 0;
+
+void loop()
+{
+  pixlar.setPixelColor(
+   vilken_led, 
+   Adafruit_NeoPixel::Color(
+     roed_vaerde, 
+     groent_vaerde,
+     blaa_vaerde
+    )
+  );
+  pixlar.show();
+  delay(100);
+  vilken_led = vilken_led + 1;
+  roed_vaerde = roed_vaerde + 1;
+  blaa_vaerde = blaa_vaerde - 1;
+  groent_vaerde = groent_vaerde + 2;
+  if (vilken_led > antal_pixlar) vilken_led = 0;
+  if (roed_vaerde > 32) roed_vaerde = 0;
+  if (groent_vaerde > 32) groent_vaerde = 0;
+  if (blaa_vaerde < 0) blaa_vaerde = 32;
+}
+
+-->

@@ -63,9 +63,9 @@ Kpt|Beskrivning
 29 |[Anslutning av en avståndssensor](29_anslutning_av_en_avstaandssensor/README.md)
 30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md)
 .  |**Bok 11**: Neo pixels
-31 |.
-32 |.
-33 |[Användning av neopixels](33_anvaendning_av_neopixels/README.md)
+31 |[Användning av neopixels](33_anvaendning_av_neopixels/README.md)
+32 |Lödning: bas
+33 |Att förlänga neopixels med att löda. Att styra neopixels med en joystick. Att visa mätningar (LDR och avståndssensor) med neopixels
 .  |**Bok 12**: Kapacitiv knapp
 34 |[Mätning av en kapacitiv knapp](34_maetning_av_en_kapacitiv_knapp/README.md)
 35 |.
