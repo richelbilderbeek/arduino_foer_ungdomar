@@ -8,7 +8,7 @@ Under den här lektion gör vi Blink med NeoPixels!
 
 \pagebreak
 
-## NeoPixels 1: uppgift 1, anslutning
+## 33.1. Anslutning
 
 ![Bild](neo_pixel_1_connect.png)
 
@@ -21,8 +21,6 @@ GND             | GND
 DIN             | 6
 
 \pagebreak
-
-## Neopixel 1: uppdrag 1, programmering
 
 Detta är koden för 'Blink':
 
@@ -75,8 +73,6 @@ Skriv in koden i Arduino IDE och klicka på "Ladda upp".
 
 \pagebreak
 
-## Neopixel 1: uppgift 2
-
 Blinkar nu
 
 - den första lysdioden: en Arduino börjar räkna från noll
@@ -90,7 +86,7 @@ Gå nu
 
 \pagebreak
 
-## Neopixel 1: lösning 2
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -124,7 +120,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 3
+## 33.2. 
 
 Gå nu
 
@@ -134,7 +130,7 @@ Gå nu
 
 \pagebreak
 
-## Neopixel 1: lösning 3
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -172,7 +168,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 4
+## 33.3.
 
 Använd nu koden nedan, men gör lysdioderna blåa:
 
@@ -205,7 +201,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: lösning 4
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -236,13 +232,13 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 5
+## 33.4
 
 Använd nu inte ett blaa_vaerde på `64`, utan av `which_ledje`. Vad ser du?
 
 \pagebreak
 
-## Neopixel 1: lösning 5
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -274,13 +270,13 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 5
+## 33.5.
 
 Använd nu inte ett roed_vaerde på `0`, utan av `64 - which_ledje`. Vad ser du?
 
 \pagebreak
 
-## Neopixel 1: lösning 5
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -312,7 +308,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 6
+## 33.6.
 
 Istället för att alltid göra 'which_ledje' högre,
 vi kan också göra det med en ny variabel: 'roed_vaerde'.
@@ -323,7 +319,7 @@ Låt 'roed_vaerde' öka med 1 varje gång.
 
 \pagebreak
 
-## Neopixel 1: lösning 6
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -357,7 +353,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 7
+## 33.7.
 
 Istället för att alltid göra 'which_ledje' högre,
 vi kan också göra det med en ny variabel: 'blaa_vaerde'.
@@ -367,7 +363,7 @@ Låt 'blaa_vaerde' öka med 1 varje gång.
 
 \pagebreak
 
-## Neopixel 1: lösning 7
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -403,7 +399,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 8
+## 33.8.
 
 Istället för att göra det "röda värdet" högre och högre,
 vi kan alltid göra dessa två högre.
@@ -413,7 +409,7 @@ det "röda värdet" blir då noll.
 
 \pagebreak
 
-## Neopixel 1: lösning 8
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -453,7 +449,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 9
+## 33.9.
 
 Istället för att göra "blaa_vaerde" högre och högre,
 vi kan alltid göra dessa tre högre.
@@ -463,7 +459,7 @@ att 'blaa_vaerde' då blir noll.
 
 \pagebreak
 
-## Neopixel 1: lösning 9
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -507,7 +503,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: uppgift 10
+## 33.10
 
 `which_ledje` blir nu högre och högre.
 Lägg nu till ett `if`-sats: om `which_led` är större *eller lika* än `number_neopixels`,
@@ -515,7 +511,7 @@ att `vilken_ledje` då blir noll.
 
 \pagebreak
 
-## Neopixel 1: lösning 10
+### Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -563,7 +559,7 @@ void loop()
 
 \pagebreak
 
-## Neopixel 1: slutuppgift
+## 33.11. Slutuppgift
 
 Skapa en ny variabel "grönt värde", som bestämmer det gröna värdet för lysdioderna.
 Den här får hela tiden fyra till. Om 'grönt värde' är över 64, ställ in det på noll.
