@@ -89,6 +89,8 @@ Vad ser du? Och vad gissar du att den nya koden betyder?
 
 Den första lysdioden blinkar.
 
+<!-- Images of emojis from https://github.com/ikatyang/emoji-cheat-sheet -->
+
 Steg|Hur det ser ut
 ----|--------------
 1   |![:red_circle:](EmojiRedCircle.png) 
