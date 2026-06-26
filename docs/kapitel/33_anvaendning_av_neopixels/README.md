@@ -89,6 +89,11 @@ Vad ser du? Och vad gissar du att den nya koden betyder?
 
 Den första lysdioden blinkar.
 
+Steg|Hur det ser ut
+----|--------------
+1   |:red_circle: 
+2   |:black_circle:
+
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:------------------------------------------------:
 `Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(...)`|'Bästa dator, skapa en NeoPixel objekt'
@@ -140,6 +145,11 @@ I koden nu blinkar den första lysdiod.
 
 Ändra koden nu så, att den andra lysdioden lyser
 grön när den röda lysdioden är släckt.
+
+Steg|Hur det ska ser ut
+----|--------------------------------------------------
+1   |:red_circle: :black_circle:
+2   |:black_circle: :large_green_circle:
 
 \pagebreak
 
