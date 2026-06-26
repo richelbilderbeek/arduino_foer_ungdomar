@@ -15,12 +15,12 @@ Försöker att ladda upp följande kod till Arduinon:
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -69,7 +69,7 @@ Leta efter 'Adafruit NeoPixel' och klicka på 'Install':
 
 Ladda up koden. Nu bör den funkar!
 
-## 33.2. Anslutning
+## 33.2. Anslutning och första intryck av koden
 
 ![Bild](neo_pixel_1_connect.png)
 
@@ -83,14 +83,43 @@ DIN             | 6
 
 \pagebreak
 
-Vad ser du?
+Vad ser du? Och vad gissar du att den nya koden betyder?
 
 ### Svar
 
 Den första lysdioden blinkar.
 
-## 33.3.
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(...)`|'Bästa dator, skapa en NeoPixel objekt'
 
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`Adafruit_NeoPixel(antal_pixlar, ..., ....)`|'Mina NeoPixlar har så mycket lysioder'
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`Adafruit_NeoPixel(..., stift_neopixlar, ...)`|'Mina NeoPixlar är kopplat till Arduinon med den här stift'
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`Adafruit_NeoPixel(..., ..., NEO_GRB + NEO_KHZ800)`|'Mina NeoPixlar är den här typ'
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`pixlar.begin()`|'Bästa dator, låt Arduino och NeoPixlar känna varann'
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`pixlar.setPixelColor(0, ...)`|'Bästa dator, sätt färgen av den nollde lysdioden'
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`Adafruit_NeoPixel::Color(32, 0, 0)`|'Bästa dator, färgen är rod'
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:------------------------------------------------:
+`pixlar.show()`|'Bästa dator, låt lysdioderna visa sina färger.'
 
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
 :-------------:|:----------------------------------------:
@@ -101,30 +130,16 @@ Den första lysdioden blinkar.
 
 Färg  |Röd|Grön|Blå
 ------|---|----|----
-Röd   |255|0   |0
-Gul   |255|255 |0
-Blå   |0  |0   |255
+Röd   |32 |0   |0
+Gul   |32 |32  |0
+Blå   |0  |0   |32 
 
-![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
-:-------------:|:------------------------------------------------:
-`pixlar.show()`|'Bästa dator, låt lysdioderna visa sina färger.'
+## 33.2. Att blinka två lysdioder
 
-Skriv in koden i Arduino IDE och klicka på "Ladda upp".
+I koden nu blinkar den första lysdiod.
 
-\pagebreak
-
-Blinkar nu
-
-- den första lysdioden: en Arduino börjar räkna från noll
-- i rött: d.v.s. med ett roed_vaerde på 32, grönt värde på 0 och ett blaa_vaerde på 0
-
-## 33.1. Att blinka två lysdioder
-
-Gå nu
-
-- den andra lysdioden
-- grön
-- blinka växelvis
+Ändra koden nu så, att den andra lysdioden lyser
+grön när den röda lysdioden är släckt.
 
 \pagebreak
 
@@ -133,12 +148,12 @@ Gå nu
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -162,13 +177,17 @@ void loop()
 
 \pagebreak
 
-## 33.2. 
+## 33.3. Att blinka tre lysdioder 
 
-Gå nu
+I koden nu blinkar den först två lysioder.
 
-- den tredje lysdioden
-  *blått
-- blinkar växelvis, efter rött och grönt
+Ändra koden nu så, att en tredje lysdioden lyser i blåt.
+
+Steg|Hur det ska ser ut
+----|--------------------------------------------------
+1   |:red_circle: :black_circle: :black_circle: 
+2   |:black_circle: :large_green_circle: :black_circle: 
+3   |:black_circle: :black_circle: :large_blue_circle: 
 
 \pagebreak
 
@@ -177,12 +196,12 @@ Gå nu
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -220,12 +239,12 @@ Använd nu koden nedan, men gör lysdioderna blåa:
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -252,12 +271,12 @@ void loop()
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -292,12 +311,12 @@ Koden blir så här:
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -335,12 +354,12 @@ Använd nu inte ett röd vaerde på `0`, utan av `32 - vil`. Vad ser du?
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -386,12 +405,12 @@ Låt `roed_vaerde` öka med 1 varje gång.
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -433,12 +452,12 @@ Låt `blaa_vaerde` minska med 1 varje gång.
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -480,12 +499,12 @@ så ska `vilken_led` blir noll igen.
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -529,12 +548,12 @@ att dett röda värdet blir noll.
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -579,12 +598,12 @@ att dett blåa värdet blir 32.
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
@@ -628,12 +647,12 @@ Om detta värdet är över 32, måste den blir noll igen.
 
 #include <Adafruit_NeoPixel.h>
 
-const int stift_neopixels = 6;
+const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
-  stift_neopixels,
+  stift_neopixlar,
   NEO_GRB + NEO_KHZ800
 );
 
