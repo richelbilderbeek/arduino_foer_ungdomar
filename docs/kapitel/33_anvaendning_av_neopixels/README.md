@@ -91,7 +91,7 @@ Den första lysdioden blinkar.
 
 Steg|Hur det ser ut
 ----|--------------
-1   |:red_circle: 
+1   |![:red_circle:](EmojiRedCircle.png) 
 2   |:black_circle:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -148,8 +148,8 @@ grön när den röda lysdioden är släckt.
 
 Steg|Hur det ska ser ut
 ----|--------------------------------------------------
-1   |:red_circle: :black_circle:
-2   |:black_circle: :large_green_circle:
+1   |![:red_circle:](EmojiRedCircle.png) :black_circle:
+2   |:black_circle: ![:green_circle:](EmojiGreenCircle.png)
 
 \pagebreak
 
@@ -195,9 +195,9 @@ I koden nu blinkar den först två lysioder.
 
 Steg|Hur det ska ser ut
 ----|--------------------------------------------------
-1   |:red_circle: :black_circle: :black_circle: 
-2   |:black_circle: :large_green_circle: :black_circle: 
-3   |:black_circle: :black_circle: :large_blue_circle: 
+1   |![:red_circle:](EmojiRedCircle.png) :black_circle: :black_circle: 
+2   |:black_circle: ![:green_circle:](EmojiGreenCircle.png) :black_circle: 
+3   |:black_circle: :black_circle: ![:blue_circle:](EmojiBlueCircle.png) 
 
 \pagebreak
 
