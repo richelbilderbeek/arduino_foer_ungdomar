@@ -1,7 +1,7 @@
 # Arduino för ungdomar
 
 [![DOI](https://zenodo.org/badge/495032889.svg)](https://doi.org/10.5281/zenodo.14591260)
-![CC-BY-SA](CC-BY-SA.png)
+![CC-BY-SA](CC-BY-SA_25.png)
 
 Kurs 'Arduino för ungdomar'.
 
