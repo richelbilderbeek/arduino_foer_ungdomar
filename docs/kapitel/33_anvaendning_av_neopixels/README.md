@@ -8,27 +8,9 @@ Under den här lektion gör vi Blink med NeoPixels!
 
 \pagebreak
 
+## 33.1. Att installera biblioteket
 
-TODO
-/home/richel/GitHubs/arduino_foer_ungdomar/docs/kapitel/33_anvaendning_av_neopixels/click_tools_manage_libraries.png
-/home/richel/GitHubs/arduino_foer_ungdomar/docs/kapitel/33_anvaendning_av_neopixels/install_library.png
-/home/richel/GitHubs/arduino_foer_ungdomar/docs/kapitel/33_anvaendning_av_neopixels/library_missing.png
-
-## 33.1. Anslutning
-
-![Bild](neo_pixel_1_connect.png)
-
-Anslut en Arduino till NeoPixels så här:
-
-Stift NeoPixels | Stift Arduino
-----------------|--------------
-GND         | GND
-5V          | 5V
-DIN         | 6
-
-\pagebreak
-
-Detta är koden för 'Blink':
+Försöker att ladda upp följande kod till Arduinon:
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -49,7 +31,7 @@ void setup()
 
 void loop()
 {
-  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(32, 0, 0));
   pixlar.show();
   delay(1000);
   pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0, 0));
@@ -57,6 +39,58 @@ void loop()
   delay(1000);
 }
 ```
+
+![Bild](EmojiBowtie.png) | Detta är koden likadant lektion 1
+:-------------:|:----------------------------------------:
+
+Kankse du får ett felmelding,
+`Adafruit_Neopixel.h: no such file or directory`:
+
+![Felmelding `Adafruit_Neopixel.h: no such file or directory`](library_missing.png)
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:-------------:|:----------------------------------------:
+`#include <Adafruit_NeoPixel.h>`|Ladda biblioteket för att använda neopixlar
+
+Lösningen är att installera biblioteket för att använda neopixlar.
+
+Klicka på 'Tools | Manage libraries':
+
+![Klicka på 'Tools | Manage libraries'](click_tools_manage_libraries.png)
+
+![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
+:--------------:|:----------------------------------------:
+Tools           | verktyg
+Manage libraries| Arbeta med bibliotekar
+
+Leta efter 'Adafruit NeoPixel' och klicka på 'Install':
+
+![Leta efter 'Adafruit NeoPixel' och klicka på 'Install'](install_library.png)
+
+Ladda up koden. Nu bör den funkar!
+
+## 33.2. Anslutning
+
+![Bild](neo_pixel_1_connect.png)
+
+Anslut en Arduino till NeoPixels så här:
+
+Stift NeoPixels | Stift Arduino
+----------------|--------------
+GND             | GND
+5V              | 5V
+DIN             | 6
+
+\pagebreak
+
+Vad ser du?
+
+### Svar
+
+Den första lysdioden blinkar.
+
+## 33.3.
+
 
 ![Solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
 :-------------:|:----------------------------------------:
@@ -67,9 +101,9 @@ void loop()
 
 Färg  |Röd|Grön|Blå
 ------|---|----|----
-Röd  |255|0  |0
-Gul  |255|255 |0
-Blå  |0  |0  |255
+Röd   |255|0   |0
+Gul   |255|255 |0
+Blå   |0  |0   |255
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:------------------------------------------------:
@@ -82,7 +116,7 @@ Skriv in koden i Arduino IDE och klicka på "Ladda upp".
 Blinkar nu
 
 - den första lysdioden: en Arduino börjar räkna från noll
-- i rött: d.v.s. med ett roed_vaerde på 64, grönt värde på 0 och ett blaa_vaerde på 0
+- i rött: d.v.s. med ett roed_vaerde på 32, grönt värde på 0 och ett blaa_vaerde på 0
 
 ## 33.1. Att blinka två lysdioder
 
@@ -115,12 +149,12 @@ void setup()
 
 void loop()
 {
-  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(32, 0, 0));
   pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0 , 0, 0));
   pixlar.show();
   delay(1000);
   pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0 , 0));
-  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 64, 0));
+  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 32, 0));
   pixlar.show();
   delay(1000);
 }
@@ -159,19 +193,19 @@ void setup()
 
 void loop()
 {
-  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(32, 0, 0));
   pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0 , 0, 0));
   pixlar.setPixelColor(2, Adafruit_NeoPixel::Color(0 , 0, 0));
   pixlar.show();
   delay(1000);
   pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0 , 0));
-  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 64, 0));
+  pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 32, 0));
   pixlar.setPixelColor(2, Adafruit_NeoPixel::Color(0, 0 , 0));
   pixlar.show();
   delay(1000);
   pixlar.setPixelColor(0, Adafruit_NeoPixel::Color(0, 0, 0));
   pixlar.setPixelColor(1, Adafruit_NeoPixel::Color(0, 0, 0));
-  pixlar.setPixelColor(2, Adafruit_NeoPixel::Color(0, 0, 64));
+  pixlar.setPixelColor(2, Adafruit_NeoPixel::Color(0, 0, 32));
   pixlar.show();
   delay(1000);
 }
@@ -204,7 +238,7 @@ int vilken_led = 0;
 
 void loop()
 {
-  pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(64, 0, 0));
+  pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(32, 0, 0));
   pixlar.show();
   delay(100);
   vilken_led = vilken_led + 1;
@@ -236,7 +270,7 @@ int vilken_led = 0;
 
 void loop()
 {
-  pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 64));
+  pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 32));
   pixlar.show();
   delay(100);
   vilken_led = vilken_led + 1;
@@ -247,7 +281,7 @@ void loop()
 
 ## 33.4
 
-Använd nu inte ett blaa väde på `64`, utan av `vilken_led`. Vad ser du?
+Använd nu inte ett blaa väde på `32`, utan av `vilken_led`. Vad ser du?
 
 \pagebreak
 
@@ -292,7 +326,7 @@ Du ser nu att lysdioderna lyser från mörkt blå till mer och mer ljusblå.
 
 ## 33.5.
 
-Använd nu inte ett röd vaerde på `0`, utan av `64 - vil`. Vad ser du?
+Använd nu inte ett röd vaerde på `0`, utan av `32 - vil`. Vad ser du?
 
 \pagebreak
 
