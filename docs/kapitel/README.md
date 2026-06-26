@@ -63,7 +63,7 @@ Kpt|Beskrivning
 29 |[Anslutning av en avståndssensor](29_anslutning_av_en_avstaandssensor/README.md)
 30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md)
 .  |**Bok 11**: Neo pixels
-31 |[Användning av neopixels](33_anvaendning_av_neopixels/README.md)
+31 |`[MOVED]` [Användning av neopixels](33_anvaendning_av_neopixels/README.md)
 32 |Lödning: bas
 33 |Att förlänga neopixels med att löda. Att styra neopixels med en joystick. Att visa mätningar (LDR och avståndssensor) med neopixels
 .  |**Bok 12**: Kapacitiv knapp
@@ -75,16 +75,14 @@ Kpt|Beskrivning
 38 |.
 39 |[Användning av en LCD](39_anvaendning_av_en_lcd/README.md)
 .  |**Bok 14**: stegmotor
-40 |.
-41 |.
-42 |[Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md)
+40 |`[MOVED]` [Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md)
+41 |`[MOVED]` [Arduino som ISP](arduino_som_isp/README.md)
+42 |`[MOVED]` [Bare-bone Arduino](bare_bone_arduino/README.md)
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
 .  |**Bok 99**
 997|[Multimeter](multimeter/README.md)
-998|[Arduino som ISP](arduino_som_isp/README.md)
-999|[Bare-bone Arduino](bare_bone_arduino/README.md)
 
 ## Lektionskort X: Avancerad
 
@@ -147,12 +145,8 @@ Kpt|Beskrivning
 33 |[RFID 1](RFID1/README.md)
 34 |[RFID 2](RFID2/README.md)
 34 |[Arduino till Processing](arduino_till_processing/README.md)
-35 |[Arduino som ISP](arduino_som_isp/README.md): bränner bootloader
-36 |[Bare-bone Arduino](bare_bone_arduino/README.md): bare bone Arduino
 .  | **Bok 10**
 37 |Skiftregister 1: en skiftregister
 38 |Skiftregister 2: två skiftregistrar
-39 |[NeoPixels 1: blink](neo_pixel_1/README.md)
-40 |[NeoPixels 2: ?regenboog op alle LEDjes](NeoPixel2/README.md)
 .  | **Boek 11**
 35 |[Vagn som undviker hinder](vagn_som_undviker_hinder/README.md)
