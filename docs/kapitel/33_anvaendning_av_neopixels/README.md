@@ -85,7 +85,7 @@ DIN             | 6
 
 Vad ser du? Och vad gissar du att den nya koden betyder?
 
-### Svar
+### 33.2. Svar
 
 Den första lysdioden blinkar.
 
@@ -93,7 +93,7 @@ Den första lysdioden blinkar.
 
 Steg|Hur det ser ut
 ----|--------------
-1   |![:red_circle:](EmojiRedCircle.png) 
+1   |![:red_circle:](EmojiRedCircle.png)
 2   |![:black_circle:](EmojiBlackCircle.png)
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -139,9 +139,9 @@ Färg  |Röd|Grön|Blå
 ------|---|----|----
 Röd   |32 |0   |0
 Gul   |32 |32  |0
-Blå   |0  |0   |32 
+Blå   |0  |0   |32
 
-## 33.2. Att blinka två lysdioder
+## 33.3. Att blinka två lysdioder
 
 I koden nu blinkar den första lysdiod.
 
@@ -155,7 +155,7 @@ Steg|Hur det ska ser ut
 
 \pagebreak
 
-### Svar
+### 33.3. Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -189,7 +189,7 @@ void loop()
 
 \pagebreak
 
-## 33.3. Att blinka tre lysdioder 
+## 33.4. Att blinka tre lysdioder
 
 I koden nu blinkar den först två lysioder.
 
@@ -197,13 +197,13 @@ I koden nu blinkar den först två lysioder.
 
 Steg|Hur det ska ser ut
 ----|--------------------------------------------------
-1   |![:red_circle:](EmojiRedCircle.png) ![:black_circle:](EmojiBlackCircle.png) ![:black_circle:](EmojiBlackCircle.png) 
-2   |![:black_circle:](EmojiBlackCircle.png) ![:green_circle:](EmojiGreenCircle.png) ![:black_circle:](EmojiBlackCircle.png) 
-3   |![:black_circle:](EmojiBlackCircle.png) ![:black_circle:](EmojiBlackCircle.png) ![:blue_circle:](EmojiBlueCircle.png) 
+1   |![:red_circle:](EmojiRedCircle.png) ![:black_circle:](EmojiBlackCircle.png) ![:black_circle:](EmojiBlackCircle.png)
+2   |![:black_circle:](EmojiBlackCircle.png) ![:green_circle:](EmojiGreenCircle.png) ![:black_circle:](EmojiBlackCircle.png)
+3   |![:black_circle:](EmojiBlackCircle.png) ![:black_circle:](EmojiBlackCircle.png) ![:blue_circle:](EmojiBlueCircle.png)
 
 \pagebreak
 
-### Svar
+### 33.4. Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -244,15 +244,16 @@ void loop()
 
 \pagebreak
 
-## 33.3.
+## 33.5. Att lysa mer pixlar
 
-Använd nu koden nedan, men gör lysdioderna blåa:
+Koden här nere lysar alla pixlar gradvis.
 
 ```c++
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixlar = 6;
 const int antal_pixlar = 8;
+int vilken_led = 0;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
@@ -264,8 +265,6 @@ void setup()
 {
   pixlar.begin();
 }
-
-int vilken_led = 0;
 
 void loop()
 {
@@ -276,36 +275,22 @@ void loop()
 }
 ```
 
+Andra koden att den gör lysdioderna blåa istället.
+
 \pagebreak
 
 ### Svar
 
+Dett finns bara en skillnad:
+
 ```c++
-#include <Adafruit_NeoPixel.h>
+pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(32, 0, 0));
+```
 
-const int stift_neopixlar = 6;
-const int antal_pixlar = 8;
+blir
 
-Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-  antal_pixlar,
-  stift_neopixlar,
-  NEO_GRB + NEO_KHZ800
-);
-
-void setup()
-{
-  pixlar.begin();
-}
-
-int vilken_led = 0;
-
-void loop()
-{
-  pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 32));
-  pixlar.show();
-  delay(100);
-  vilken_led = vilken_led + 1;
-}
+```c++
+pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 32));
 ```
 
 \pagebreak
@@ -318,80 +303,55 @@ Använd nu inte ett blaa väde på `32`, utan av `vilken_led`. Vad ser du?
 
 ### Svar
 
-Koden blir så här:
+Koden blir ändrat från ...
 
 ```c++
-#include <Adafruit_NeoPixel.h>
+pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 32));
+```
 
-const int stift_neopixlar = 6;
-const int antal_pixlar = 8;
+till den här:
 
-Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-  antal_pixlar,
-  stift_neopixlar,
-  NEO_GRB + NEO_KHZ800
+```c++
+pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, vilken_led));
+```
+
+För att där koden blir för långt, man skriver detta på flera rad:
+
+```c++
+pixlar.setPixelColor(
+  vilken_led,
+  Adafruit_NeoPixel::Color(0, 0, vilken_led)
 );
-
-void setup()
-{
-  pixlar.begin();
-}
-
-int vilken_led = 0;
-
-void loop()
-{
-  pixlar.setPixelColor(
-    vilken_led,
-    Adafruit_NeoPixel::Color(0, 0, vilken_led)
-  );
-  pixlar.show();
-  delay(100);
-  vilken_led = vilken_led + 1;
-}
 ```
 
 Du ser nu att lysdioderna lyser från mörkt blå till mer och mer ljusblå.
 
 \pagebreak
 
-## 33.5.
+## 33.5
 
-Använd nu inte ett röd vaerde på `0`, utan av `32 - vil`. Vad ser du?
+Använd nu inte ett röd vaerde på `0`, utan av `32 - vilken_led`. Vad ser du?
 
 \pagebreak
 
 ### Svar
 
+Koden blir från:
+
 ```c++
-#include <Adafruit_NeoPixel.h>
-
-const int stift_neopixlar = 6;
-const int antal_pixlar = 8;
-
-Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-  antal_pixlar,
-  stift_neopixlar,
-  NEO_GRB + NEO_KHZ800
+pixlar.setPixelColor(
+  vilken_led,
+  Adafruit_NeoPixel::Color(0, 0, vilken_led)
 );
+```
 
-void setup()
-{
-  pixlar.begin();
-}
+till
 
-int vilken_led = 0;
-
-void loop()
-{
-  pixlar.setPixelColor(
-    vilken_led,
-    Adafruit_NeoPixel::Color(0 - vilken_led, 0, vilken_led)
-  );
-  pixlar.show();
-  delay(100);
-  vilken_led = vilken_led + 1;
-}
+```c++
+pixlar.setPixelColor(
+  vilken_led,
+  Adafruit_NeoPixel::Color(32 - vilken_led, 0, vilken_led)
+);
 ```
 
 Du ser nu att den blåa del av ljuset fortfarande blir lysare.
@@ -401,7 +361,7 @@ Tillsammans heter färgen magenta.
 
 \pagebreak
 
-## 33.6.
+## 33.6
 
 Istället för att alltid göra `vilken_led` högre,
 vi kan också göra det med en ny variabel: `roed_vaerde`.
@@ -414,46 +374,59 @@ Låt `roed_vaerde` öka med 1 varje gång.
 
 ### Svar
 
+För att lägga till variablen `roed_vaerde`,
+koden blir från
+
+
 ```c++
-#include <Adafruit_NeoPixel.h>
+int vilken_led = 0;
+```
 
-const int stift_neopixlar = 6;
-const int antal_pixlar = 8;
+till
 
-Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-  antal_pixlar,
-  stift_neopixlar,
-  NEO_GRB + NEO_KHZ800
-);
-
-void setup()
-{
-  pixlar.begin();
-}
-
+```c++
 int vilken_led = 0;
 int roed_vaerde = 0;
+```
 
-void loop()
-{
-  pixlar.setPixelColor(
-    vilken_led,
-    Adafruit_NeoPixel::Color(roed_vaerde, 0, vilken_led)
-  );
-  pixlar.show();
-  delay(100);
-  vilken_led = vilken_led + 1;
-  roed_vaerde = roed_vaerde + 1;
-}
+För att använda den, från ...
+
+```c++
+pixlar.setPixelColor(
+  vilken_led,
+  Adafruit_NeoPixel::Color(32 - vilken_led, 0, vilken_led)
+);
+```
+
+till ...
+
+```c++
+pixlar.setPixelColor(
+  vilken_led,
+  Adafruit_NeoPixel::Color(roed_vaerde, 0, vilken_led)
+);
+```
+
+For att öka rödvärdet, ändra koden från ...
+
+```c++
+vilken_led = vilken_led + 1;
+```
+
+till ...
+
+```c++
+vilken_led = vilken_led + 1;
+roed_vaerde = roed_vaerde + 1;
 ```
 
 \pagebreak
 
-## 33.7.
+## 33.7
 
 Istället för att alltid göra `vilken_led` högre,
 vi kan också göra det med en ny variabel: `blaa_vaerde`.
-Skapa en ny variabel, av typen "int", med namnet `blaa_vaerde` och initialvärdet 32.
+Skapa en ny variabel, av typen `int`, med namnet `blaa_vaerde` och initialvärdet 32.
 Använd `blaa_vaerde` där du bestämmer det blåa värdet på en lysdiod.
 Låt `blaa_vaerde` minska med 1 varje gång.
 
@@ -461,44 +434,57 @@ Låt `blaa_vaerde` minska med 1 varje gång.
 
 ### Svar
 
+För att lägga till variablen `blaa_vaerde`
+med initialvärdet `32`,
+koden blir från ...
+
+
 ```c++
-#include <Adafruit_NeoPixel.h>
+int roed_vaerde = 0;
+```
 
-const int stift_neopixlar = 6;
-const int antal_pixlar = 8;
+till ...
 
-Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
-  antal_pixlar,
-  stift_neopixlar,
-  NEO_GRB + NEO_KHZ800
-);
-
-void setup()
-{
-  pixlar.begin();
-}
-
-int vilken_led = 0;
+```c++
 int roed_vaerde = 0;
 int blaa_vaerde = 32;
+```
 
-void loop()
-{
-  pixlar.setPixelColor(
-    vilken_led, 
-    Adafruit_NeoPixel::Color(roed_vaerde, 0, blaa_vaerde)
-  );
-  pixlar.show();
-  delay(100);
-  vilken_led = vilken_led + 1;
-  roed_vaerde = roed_vaerde + 1;
-  blaa_vaerde = blaa_vaerde - 1;
-}
+
+För att använda den, från ...
+
+```c++
+pixlar.setPixelColor(
+  vilken_led,
+  Adafruit_NeoPixel::Color(roed_vaerde, 0, vilken_led)
+);
+```
+
+till ...
+
+```c++
+pixlar.setPixelColor(
+  vilken_led,
+  Adafruit_NeoPixel::Color(roed_vaerde, 0, blaa_vaerde)
+);
+```
+
+For att minska blåvärdet, ändra koden från ...
+
+```c++
+roed_vaerde = roed_vaerde + 1;
+```
+
+till ...
+
+```c++
+roed_vaerde = roed_vaerde + 1;
+blaa_vaerde = blaa_vaerde - 1;
 ```
 
 \pagebreak
 
-## 33.8.
+## 33.8
 
 Vår maskin gör nu igenom all lysdioder bara en gång.
 Använd en `if`-sats: om `vilken_led` är större än `antal_pixlar`,
@@ -546,7 +532,7 @@ void loop()
 
 \pagebreak
 
-## 33.9.
+## 33.9
 
 I vårt program nu överstiger röttvärdet 255,
 även om det gör ingenting i praktiken.
