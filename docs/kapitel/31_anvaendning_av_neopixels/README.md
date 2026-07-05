@@ -1,6 +1,6 @@
-# Lektion 33: Användning av neopixels
+# Lektion 31: Användning av neopixels
 
-Under den här lektion gör vi Blink med NeoPixels!
+Under den här lektion gör vi Blink med NeoPixels.
 
 ![FLORAbrella, ett paraply med NeoPixels](florabrella-led-umbrella-with-ne.jpg)
 
@@ -8,7 +8,7 @@ Under den här lektion gör vi Blink med NeoPixels!
 
 \pagebreak
 
-## 33.1. Att installera biblioteket
+## 31.1. Att installera biblioteket
 
 Försöker att ladda upp följande kod till Arduinon:
 
@@ -69,7 +69,7 @@ Leta efter 'Adafruit NeoPixel' och klicka på 'Install':
 
 Ladda up koden. Nu bör den funkar!
 
-## 33.2. Anslutning och första intryck av koden
+## 31.2. Anslutning och första intryck av koden
 
 ![Bild](neo_pixel_1_connect.png)
 
@@ -85,7 +85,7 @@ DIN             | 6
 
 Vad ser du? Och vad gissar du att den nya koden betyder?
 
-### 33.2. Svar
+### 31.2. Svar
 
 Den första lysdioden blinkar.
 
@@ -141,7 +141,7 @@ Röd   |32 |0   |0
 Gul   |32 |32  |0
 Blå   |0  |0   |32
 
-## 33.3. Att blinka två lysdioder
+## 31.3. Att blinka två lysdioder
 
 I koden nu blinkar den första lysdiod.
 
@@ -155,7 +155,7 @@ Steg|Hur det ska ser ut
 
 \pagebreak
 
-### 33.3. Svar
+### 31.3. Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -189,7 +189,7 @@ void loop()
 
 \pagebreak
 
-## 33.4. Att blinka tre lysdioder
+## 31.4. Att blinka tre lysdioder
 
 I koden nu blinkar den först två lysioder.
 
@@ -203,7 +203,7 @@ Steg|Hur det ska ser ut
 
 \pagebreak
 
-### 33.4. Svar
+### 31.4. Svar
 
 ```c++
 #include <Adafruit_NeoPixel.h>
@@ -244,7 +244,7 @@ void loop()
 
 \pagebreak
 
-## 33.5. Att lysa mer pixlar
+## 31.5. Att lysa mer pixlar
 
 Koden här nere lysar alla pixlar gradvis.
 
@@ -279,7 +279,7 @@ Andra koden att den gör lysdioderna blåa istället.
 
 \pagebreak
 
-### 33.5. Svar
+### 31.5. Svar
 
 Dett finns bara en skillnad:
 
@@ -295,13 +295,13 @@ pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 32));
 
 \pagebreak
 
-## 33.6. Blå är med
+## 31.6. Blå är med
 
 Använd nu inte ett blaa väde på `32`, utan av `vilken_led`. Vad ser du?
 
 \pagebreak
 
-### 33.6. Svar
+### 31.6. Svar
 
 Koden blir ändrat från ...
 
@@ -328,13 +328,13 @@ Du ser nu att lysdioderna lyser från mörkt blå till mer och mer ljusblå.
 
 \pagebreak
 
-## 33.7. Röd är med
+## 31.7. Röd är med
 
 Använd nu inte ett röd vaerde på `0`, utan av `32 - vilken_led`. Vad ser du?
 
 \pagebreak
 
-### 33.7. Svar
+### 31.7. Svar
 
 Koden blir från:
 
@@ -361,7 +361,7 @@ Tillsammans heter färgen magenta.
 
 \pagebreak
 
-## 33.8. Röd ökar
+## 31.8. Röd ökar
 
 Istället för att alltid göra `vilken_led` högre,
 vi kan också göra det med en ny variabel: `roed_vaerde`.
@@ -372,7 +372,7 @@ Låt `roed_vaerde` öka med 1 varje gång.
 
 \pagebreak
 
-### 33.8. Svar
+### 31.8. Svar
 
 För att lägga till variablen `roed_vaerde`,
 koden blir från
@@ -422,7 +422,7 @@ roed_vaerde = roed_vaerde + 1;
 
 \pagebreak
 
-## 33.9. Blå minskar
+## 31.9. Blå minskar
 
 Istället för att alltid göra `vilken_led` högre,
 vi kan också göra det med en ny variabel: `blaa_vaerde`.
@@ -432,7 +432,7 @@ Låt `blaa_vaerde` minska med 1 varje gång.
 
 \pagebreak
 
-### 33.9. Svar
+### 31.9. Svar
 
 För att lägga till variablen `blaa_vaerde`
 med initialvärdet `32`,
@@ -484,7 +484,7 @@ blaa_vaerde = blaa_vaerde - 1;
 
 \pagebreak
 
-## 33.10. Pixlar loopar
+## 31.10. Pixlar loopar
 
 Vår maskin gör nu igenom all lysdioder bara en gång.
 Använd en `if`-sats: om `vilken_led` är större än `antal_pixlar`,
@@ -492,7 +492,7 @@ så ska `vilken_led` blir noll igen.
 
 \pagebreak
 
-### 33.10. Svar
+### 31.10. Svar
 
 Koden blär ändrat från ...
 
@@ -509,7 +509,7 @@ if (vilken_led > antal_pixlar) vilken_led = 0;
 
 \pagebreak
 
-## 33.11. Röd loopar
+## 31.11. Röd loopar
 
 I vårt program nu överstiger röttvärdet 32.
 Använd en `if`-sats: om dett röda värdet är större än 32,
@@ -534,7 +534,7 @@ if (roed_vaerde > 32) roed_vaerde = 0;
 
 \pagebreak
 
-## 33.12. Blå loopar
+## 31.12. Blå loopar
 
 I vårt program nu gåt blåttvärdet under noll,
 även om det gör ingenting i praktiken.
@@ -543,7 +543,7 @@ att dett blåa värdet blir 32.
 
 \pagebreak
 
-### 33.12. Svar
+### 31.12. Svar
 
 Koden blir från ...
 
@@ -560,7 +560,7 @@ if (blaa_vaerde < 0) blaa_vaerde = 32;
 
 \pagebreak
 
-## 33.13. Slutuppgift
+## 31.13. Slutuppgift
 
 Skapa en ny variabel `groent_vaerde`, som bestämmer det gröna värdet
 för lysdioderna.
