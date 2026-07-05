@@ -1,4 +1,4 @@
-![Bok 6: LDR](framsida_6.png)
+![Bok 6: LDR, 2026-06-05](framsida_6.png)
 
 `#`|Beskriving
 ---|-----------------------
