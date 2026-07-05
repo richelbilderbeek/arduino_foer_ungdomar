@@ -64,7 +64,7 @@ Kpt|Beskrivning
 30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md)
 .  |**Bok 11**: Neo pixels och stegmotor
 31 |`[MOVED]` [Användning av neopixels](31_anvaendning_av_neopixels/README.md)
-32 |`[NEW]` [Användning av mer neopixels](32_anvaendning_av_neopixels/README.md)
+32 |`[NEW]` [Användning av mer neopixels](32_anvaendning_av_mer_neopixels/README.md)
 33 |`[MOVED]` [Användning av en stegmotor](33_anvaendning_av_en_stegmotor/README.md)
 .  |**Bok 12**: Kapacitiv knapp
 34 |[Mätning av en kapacitiv knapp](34_maetning_av_en_kapacitiv_knapp/README.md)
