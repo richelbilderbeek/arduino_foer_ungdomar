@@ -158,8 +158,8 @@ Vad gissar du att koden gör? Vad händer? Varför?
 ### 9.6. Svar
 
 På början lyser lysdioden inte.
-Om du du trycker på vänsterknappen, lyser lysdioden för evigt.
-Om du du trycker på högerknappen, släcker lysdioden för evigt.
+Om du du trycker på vänsterknappen, släcker lysdioden för evigt.
+Om du du trycker på högerknappen, lyser lysdioden för evigt.
 
 ## 9.7. Kod 5
 
