@@ -154,32 +154,7 @@ kommer lysdioden att lysa.
 
 Så ja, det funkar! Om inte, fråga om hjälp!
 
-## 8.8. Krets 8
-
-Kolla på den här kretsen:
-
-![Bild](anslutning_av_en_knapp_8.png)
-
-Nu finns det två lysdioder till!
-
-Kan du förutspå när vilka av dem lyser?
-Varför tror du det?
-
-Bygg ihop kretsen och kontrollera!
-
-\pagebreak
-
-### 8.8. Svar
-
-Om du trycker en knapp, kommer alltid alla tre lysdioder att lysa.
-
-Du kanske tyckte att det skulle var två,
-till man inser att alla vänstersidor av
-knapporna är förbunda.
-Det betyder att när en av dem få el,
-kan elen gå till alla tre lysdioder.
-
-## 8.9. Slutuppgift
+## 8.8. Slutuppgift
 
 Material som krävs:
 
@@ -187,9 +162,9 @@ Material som krävs:
 - 1 Arduino
 - 1 USB sladd
 - 1 kopplingsdäck
-- 2 knapp
-- 3 1.000 Ohm motstånd
-- 3 lysdioder
+- 4 knapp
+- 2 1.000 Ohm motstånd
+- 2 lysdioder
 - lagom många sladdar
 
 Läs igenom slutuppgiften först, efter det har du 10 minuter på dig.
@@ -198,5 +173,8 @@ Läs igenom slutuppgiften först, efter det har du 10 minuter på dig.
 
 Starta en timer på 10 minuter och gör följande:
 
-- Steg 2: Bygg upp den sista kretsen från början.
-  När du trycker på en av den knappor ska alltid tre lysdioder lysa.
+- Steg 2: Bygg upp en krets med fyra knapper och två lysdioder.
+  Den vänstre lysdioden måste lysa nar du trycker på **atminstone en**
+  av den två mest vänstra knapper.
+  Den högre lysdioden måste lysa nar du trycker på **båda** av den
+  två mest vänstra knapper.
