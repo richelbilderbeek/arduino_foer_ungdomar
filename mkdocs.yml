@@ -38,18 +38,18 @@ nav:
     - kapitel/28_maetning_av_en_avstaandssensor/README.md
     - kapitel/29_anslutning_av_en_avstaandssensor/README.md
     - kapitel/30_anvaendning_av_en_avstaandssensor/README.md
-    - kapitel/31_maetning_av_neopixels/README.md
-    - kapitel/32_anslutning_av_en_avstaandssensor/README.md
-    - kapitel/33_anvaendning_av_neopixels/README.md
+    - kapitel/31_anvaendning_av_neopixels/README.md
+    - kapitel/32_anvaendning_av_mer_neopixels/README.md
+    - kapitel/33_anvaendning_av_en_stegmotor/README.md
     - kapitel/34_maetning_av_en_kapacitiv_knapp/README.md
-    - kapitel/35_anslutning_av_en_kapacitiv_knapp/README.md
-    - kapitel/36_anvaendning_av_en_kapacitiv_knapp/README.md
+    - kapitel/35_anvaendning_av_en_kapacitiv_knapp/README.md
+    - kapitel/36_att_loeda_saker/README.md
     - kapitel/37_maetning_av_en_lcd/README.md
-    - kapitel/38_anslutning_av_en_lcd/README.md
-    - kapitel/39_anvaendning_av_en_lcd/README.md
-    - kapitel/40_maetning_av_en_stegmotor/README.md
-    - kapitel/41_anslutning_av_en_stegmotor/README.md
-    - kapitel/42_anvaendning_av_en_stegmotor/README.md
+    - kapitel/38_anvaendning_av_en_lcd/README.md
+    - kapitel/39_att_loeda_en_arduino_shield/README.md
+    - kapitel/40_arduino_som_isp/README.md
+    - kapitel/41_bare_bone_arduino/README.md
+    - kapitel/42_att_loeda_en_bare_bone_arduino/README.md
   - Andra kapitel:
     - kapitel/arduino_till_processing/README.md
     - kapitel/kapacitiv_sensor_1/README.md

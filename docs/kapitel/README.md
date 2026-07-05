@@ -63,21 +63,21 @@ Kpt|Beskrivning
 29 |[Anslutning av en avståndssensor](29_anslutning_av_en_avstaandssensor/README.md)
 30 |[Användning av en avståndssensor](30_anvaendning_av_en_avstaandssensor/README.md)
 .  |**Bok 11**: Neo pixels och stegmotor
-31 |`[MOVED]` [Användning av neopixels](33_anvaendning_av_neopixels/README.md)
-32 |`[NEW]` Användning av mer neopixels med stromkälla
-33 |`[MOVED]` [Användning av en stegmotor](42_anvaendning_av_en_stegmotor/README.md)
+31 |`[MOVED]` [Användning av neopixels](31_anvaendning_av_neopixels/README.md)
+32 |`[NEW]` [Användning av mer neopixels](32_anvaendning_av_neopixels/README.md)
+33 |`[MOVED]` [Användning av en stegmotor](33_anvaendning_av_en_stegmotor/README.md)
 .  |**Bok 12**: Kapacitiv knapp
 34 |[Mätning av en kapacitiv knapp](34_maetning_av_en_kapacitiv_knapp/README.md)
-35 |`[MOVED]` [Användning av en kapacitiv knapp](36_anvaendning_av_en_kapacitiv_knapp/README.md)
-36 |[NEW] Lodning 1: att löda mycket
+36 |`[NEW]` [Att löda saker](36_att_loeda_saker/README.md)
+35 |`[MOVED]` [Användning av en kapacitiv knapp](35_anvaendning_av_en_kapacitiv_knapp/README.md)
 .  |**Bok 13**: LCD: point to point
 37 |[Mätning av en LCD](37_maetning_av_en_lcd/README.md)
-38 |[Användning av en LCD](39_anvaendning_av_en_lcd/README.md)
-39 |[NEW] Lodning 2: att löda en Arduino shield
+38 |[Användning av en LCD](38_anvaendning_av_en_lcd/README.md)
+39 |`[NEW]` [Att löda en Arduino shield](39_att_loeda_en_arduino_shield/README.md)
 .  |**Bok 14**: Ditt eget maskin
-40 |`[MOVED]` [Arduino som ISP](arduino_som_isp/README.md)
-41 |`[MOVED]` [Bare-bone Arduino](bare_bone_arduino/README.md)
-42 |[NEW] Lodning 3: att löda en bare-bone Arduino
+40 |`[MOVED]` [Arduino som ISP](40_arduino_som_isp/README.md)
+41 |`[MOVED]` [Bare-bone Arduino](41_bare_bone_arduino/README.md)
+42 |`[NEW]` [Att löda en bare-bone Arduino](42_att_loeda_en_bare_bone_arduino/README.md)
 
 Kpt|Beskrivning
 ---|---------------------------------------------------------------
