@@ -1,16 +1,25 @@
 # Lektion 32: Användning av mer neopixels
 
-Connect one neopixel
+## 32.1. Att koppla fler NeoPixlar
 
-![Connect](neo_pixel_2_connect.png)
+Koppla NeoPixlar till din Arduino:
 
-Upload:
+![En rad NeoPixlar kopplat till en Arduino](anvaendning_av_mer_neopixels_schematic_1.png)
+
+Syfted med en NeoPixlar är att man kann koppla NeoPixlar
+till fler NeoPixlar. Koppa en rad NeoPixlar till.
+
+![Två rad NeoPixlar kopplat till en Arduino](anvaendning_av_mer_neopixels_schematic.png)
+
+## 32.2. Att använda fler NeoPixlar
+
+Ladd upp den här kod:
 
 ```c++
 #include <Adafruit_NeoPixel.h>
 
 const int stift_neopixlar = 6;
-const int antal_pixlar = 24 + 8 + 8 + 8;
+const int antal_pixlar = 8;
 
 Adafruit_NeoPixel pixlar = Adafruit_NeoPixel(
   antal_pixlar,
@@ -37,6 +46,11 @@ void loop()
   if (vilken_led > antal_pixlar) vilken_led = 0;
 }
 ```
+
+Ändra koden så att all NeoPixlar blir använda.
+
+## 
+
 
 Connect a multimeter to Amp
 
