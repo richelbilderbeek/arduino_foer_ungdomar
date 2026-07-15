@@ -68,8 +68,8 @@ Kpt|Beskrivning
 33 |`[MOVED]` [Användning av en stegmotor](33_anvaendning_av_en_stegmotor/README.md)
 .  |**Bok 12**: Kapacitiv knapp
 34 |[Mätning av en kapacitiv knapp](34_maetning_av_en_kapacitiv_knapp/README.md)
-36 |`[NEW, DONE]` [Att löda saker](36_att_loeda_saker/README.md)
 35 |`[MOVED]` [Användning av en kapacitiv knapp](35_anvaendning_av_en_kapacitiv_knapp/README.md)
+36 |`[NEW, DONE]` [Att löda saker](36_att_loeda_saker/README.md)
 .  |**Bok 13**: LCD: point to point
 37 |[Mätning av en LCD](37_maetning_av_en_lcd/README.md)
 38 |[Användning av en LCD](38_anvaendning_av_en_lcd/README.md)

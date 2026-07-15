@@ -1,4 +1,4 @@
-# Lektion 36: Användning av en kapacitiv knapp
+# Lektion 35: Användning av en kapacitiv knapp
 
 En kapacitiv knapp är en inte en vanligt knapp,
 men en koppling för att trycka på avstånd (!).
@@ -7,7 +7,7 @@ Under den här lektionen använder vi en.
 
 \pagebreak
 
-## 36.1 Att installera biblioteket
+## 35.1 Att installera biblioteket
 
 Vi behöver en bibliotek (dvs kod skriven av andra)
 kallad `CapacitiveSensor`.
@@ -16,7 +16,7 @@ Kanske du har redan installerat den:
 i Arduino IDEn, gå till `Examples`.
 Om du ser `CapacitiveSensor`, är biblioteket redan installerat!
 
-![Om du ser `CapacitiveSensor`, är biblioteket redan installerat! ](36_anvaendning_av_en_kapacitiv_knapp_examples.png)
+![Om du ser `CapacitiveSensor`, är biblioteket redan installerat! ](anvaendning_av_en_kapacitiv_knapp_examples.png)
 
 \pagebreak
 
@@ -24,29 +24,29 @@ Om `CapacitiveSensor` är inte installerat, gör så här:
 
 - Klicka i Arduino IDEn på `Sketch | Import Library | Manage libraries`
 
-![Klicka i Arduino IDEn på `Sketch | Import Library | Manage libraries`](36_anvaendning_av_en_kapacitiv_knapp_manage_libraries.png)
+![Klicka i Arduino IDEn på `Sketch | Import Library | Manage libraries`](anvaendning_av_en_kapacitiv_knapp_manage_libraries.png)
 
 - Leta efter `CapacitiveSensor`:
 
-![Leta efter `CapacitiveSensor`](36_anvaendning_av_en_kapacitiv_knapp_search_capacitive.png)
+![Leta efter `CapacitiveSensor`](anvaendning_av_en_kapacitiv_knapp_search_capacitive.png)
 
 - Klicka på 'Install':
 
-![Klicka på 'Install'](36_anvaendning_av_en_kapacitiv_knapp_install_capacitive.png)
+![Klicka på 'Install'](anvaendning_av_en_kapacitiv_knapp_install_capacitive.png)
 
 - Nu är biblioteket installerat!
 
-![Nu är biblioteket installerat](36_anvaendning_av_en_kapacitiv_knapp_installed_capacitive.png)
+![Nu är biblioteket installerat](anvaendning_av_en_kapacitiv_knapp_installed_capacitive.png)
 
 \pagebreak
 
-## 36.2. Att använda en kapacitiv knapp
+## 35.2. Att använda en kapacitiv knapp
 
 Koppla ett Arduino till två motstånd.
 Motständerna måste var 1 million Ohm (1 MOhm)
 och 1 tusen Ohm (1 kOhm).
 
-![Stroomschema](36_anvaendning_av_en_kapacitiv_knapp_schematic.png)
+![Stroomschema](anvaendning_av_en_kapacitiv_knapp_schematic.png)
 
 Emellan motstånderna, har en sladd eller något annat som kan
 leda el (aluminiumfolie är kanon!).
@@ -83,34 +83,34 @@ Vad visar den 'Serial Plotter'?
 Om allt är väl, visar den 'Serial Plotter' en värde som
 går uppåt om du är nära och some går nere om du är längre fram:
 
-![Så bör det ser ut](36_anvaendning_av_en_kapacitiv_knapp_serial_plotter.png)
+![Så bör det ser ut](anvaendning_av_en_kapacitiv_knapp_serial_plotter.png)
 
 Det coola är att du inte behöver röra något! Bara att vara nära räcker!
 
-## 36.3. Att tweaka
+## 35.3. Att tweaka
 
 Antagligen ser din grafik annorlunda ut.
 
 Det finns några nätt att förbättra beteende av din krets:
 
-## 36.3.1. Tryck på resetknappen på Arduino och gå borta
+## 35.3.1. Tryck på resetknappen på Arduino och gå borta
 
 Om du tryck på resetknappen på Arduino,
 kalibrerar Arduinon.
 Om du snabbt gå borta efter du trycker,
 kann dett finnas en möjligt förbättring.
 
-## 36.3.2. Använder en aluminiumfolie
+## 35.3.2. Använder en aluminiumfolie
 
 Att koppla sladden i mitten till en aluminiumfolie är en möjligt förbättring.
 
-![Använder en aluminiumfolie](36_anvaendning_av_en_kapacitiv_knapp_1.jpg)
+![Använder en aluminiumfolie](anvaendning_av_en_kapacitiv_knapp_1.jpg)
 
-![Använder en aluminiumfolie](36_anvaendning_av_en_kapacitiv_knapp_2.jpg)
+![Använder en aluminiumfolie](anvaendning_av_en_kapacitiv_knapp_2.jpg)
 
-![Använder en aluminiumfolie](36_anvaendning_av_en_kapacitiv_knapp_3.jpg)
+![Använder en aluminiumfolie](anvaendning_av_en_kapacitiv_knapp_3.jpg)
 
-## 36.3.3. Använder en större motstånd
+## 35.3.3. Använder en större motstånd
 
 Istället av en 1 MOhm motstånd, använder en som är än större,
 t.ex. 100 MOhm (brun, svart, violet, guld),
