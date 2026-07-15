@@ -1,4 +1,4 @@
-# Lektion 32: Användning av mer neopixels
+# Lektion 32: Användning av fler neopixels
 
 ## 32.1. Att koppla fler NeoPixlar
 
@@ -10,6 +10,8 @@ Syfted med en NeoPixlar är att man kann koppla NeoPixlar
 till fler NeoPixlar. Koppa en rad NeoPixlar till.
 
 ![Två rad NeoPixlar kopplat till en Arduino](anvaendning_av_mer_neopixels_schematic_2.png)
+
+\pagebreak
 
 ## 32.2. Att använda fler NeoPixlar
 
@@ -49,6 +51,8 @@ void loop()
 
 Ändra koden så att all NeoPixlar blir använda.
 
+\pagebreak
+
 ### 32.2. Svar
 
 Raden som måste ändras är:
@@ -74,9 +78,16 @@ På grund av detta har multimetern en tredje ingång för just detta.
 
 Koppla multimetern i kretsen som här:
 
-![Koppla multimetern i kretsen](measuring_current.png)
+![Koppla multimetern i kretsen](anvaendning_av_mer_neopixels_schematic_3.png)
+
+Sätt multimetern i rätta stånd: en A (av Ampere) med två raka linjer
+ovanpå den:
+
+![Multimetern i rätta stånd](anvaendning_av_mer_neopixels_correct_multimeter_setting.png)
 
 Slå på Arduinon och kör programmet.
+
+\pagebreak
 
 ## 33.4. Slutuppgift
 
