@@ -1,14 +1,19 @@
-# Lektion 42: Användning av en stegmotor
+# Lektion 33: Användning av en stegmotor
 
 <!-- https://github.com/mgesteiro/fritzing-parts/tree/main/28BYJ-48-driver -->
 <!-- https://github.com/mgesteiro/fritzing-parts/tree/main/28BYJ-48-motor -->
 
+## 33.1. Att bygga elkretsen
+
 Bygg upp den här krets:
 
-![Schematiskt](42_anvaendning_av_en_stegmotor_schematic.png)
+![Schematiskt](anvaendning_av_en_stegmotor_schematic.png)
 
-![Schematiskt, zoom](42_anvaendning_av_en_stegmotor_schematic_zoom.png)
+![Schematiskt, zoom](anvaendning_av_en_stegmotor_schematic_zoom.png)
 
+\pagebreak
+
+## 33.2. Att ladda upp koden
 
 Ladda upp den här koden:
 
@@ -33,12 +38,14 @@ void loop()
 
 Om de inte har installerat `CheapStepper`, so får du en felmeldning så här:
 
-![Felmeldning om du inte har installerat `CheapStepper`](42_anvaendning_av_en_stegmotor_have_not_installed_cheapstepper.png)
+![Felmeldning om du inte har installerat `CheapStepper`](anvaendning_av_en_stegmotor_have_not_installed_cheapstepper.png)
 
 Installera `SteapStepper` so här:
 
-![Installera `SteapStepper`](42_anvaendning_av_en_stegmotor_install_cheapstepper.png)
+![Installera `SteapStepper`](anvaendning_av_en_stegmotor_install_cheapstepper.png)
 
-## Slutuppgift
+\pagebreak
 
-Får en stegmotor att fungerar med hjälp av den här information.
+## 33.3. Slutuppgift
+
+Får en stegmotor att fungerar.
