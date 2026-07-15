@@ -1,19 +1,19 @@
-# ArduinoISP
+# Lektion 40: ArduinoISP
 
 Under den här lektionen ska vi bränna en bootloader på en ATMega328 chip,
 med slutmålet att har en 'bare bone Arduino' (som är nästa lektion).
 
-## Ladda up ISP kod
+## 40.1. Ladda up ISP kod
 
-![Bild](arduino_ide_example.png)
+!['ArduinoISP' exempel code](arduino_ide_example.png)
 
 > Den 'ArduinoISP' exempel code
 
 Ladd up 'ArduinoISP' på en Arduino UNO.
 
-## Anslutning
+## 40.2. Anslutning
 
-![Bild](ansluting_allt.png)
+![Den hela stromkrets](ansluting_allt.png)
 
 > Den hela stromkrets
 
@@ -33,9 +33,9 @@ GND    |GND
 
 Glöm inte: mottagare skulle ha en löstagbar chip!
 
-## Bränna bootloader
+## 40.3. Bränna bootloader
 
-![Bild](arduino_ide_burn_bootloader.png)
+![Bränna bootloader](arduino_ide_burn_bootloader.png)
 
 > Bränna bootloader
 
@@ -44,6 +44,6 @@ Glöm inte: mottagare skulle ha en löstagbar chip!
 
 På botten skulle kommer ingen felmeldning.
 
-## Länker
+## 40.4. Slutuppgift
 
-- [https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP](https://docs.arduino.cc/built-in-examples/arduino-isp/ArduinoISP)
+Ladda upp en bootloader och övertyger att den funkade.

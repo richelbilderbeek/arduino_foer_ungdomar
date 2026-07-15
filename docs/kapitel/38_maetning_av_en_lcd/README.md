@@ -1,16 +1,12 @@
-# Lektion 37: Mätning av en LCD
+# Lektion 38: Mätning av en LCD
 
 En LCD är en del för att visa något, som bokstäver och symboler.
 LCD är en förkortning av 'Liquid Crystal Display',
 som är engelska för 'flytande kristal skärm'.
 
-## 37.1 Gör kapitel 39 först
+## 38.1. Anslut till oscilloskop
 
-Gör kapitel 39 först.
-
-## 37.2 Anslut till oscilloskop
-
-![Anslutning till oscilloskop](37_maetning_av_en_lcd_anslutning.jpg)
+![Anslutning till oscilloskop](maetning_av_en_lcd_anslutning.jpg)
 
 - Koppla en LCD skärm som i kapitel 39
 - Kör 'Hello World' programmet
@@ -31,12 +27,12 @@ En kommando är byggd av D4, D5, D6 och D7 delar: den här 4 stiftar
 formar kombinationer tillsammans och varje kombinationer betyder
 något.
 
-## 37.1 Slutuppgift
+## 38.2. Slutuppgift
 
 - Visar hur mycket delar en kommanda har på en oscilloskop.
   Tip: det finns en knapp 'Run | Stop' för att frysa oscilloskop skärmen
 
-![En möjligt resultat](37_maetning_av_en_lcd_maetning_1.jpg)
+![En möjligt resultat](maetning_av_en_lcd_maetning_1.jpg)
 
-![En annan möjligt resultat](37_maetning_av_en_lcd_maetning_2.jpg)
+![En annan möjligt resultat](maetning_av_en_lcd_maetning_2.jpg)
 

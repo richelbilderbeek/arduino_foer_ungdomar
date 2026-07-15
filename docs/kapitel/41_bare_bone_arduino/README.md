@@ -1,10 +1,10 @@
-# Bare-bone Arduino
+# Lektion 41: Bare-bone Arduino
 
 En bare bone Arduino
 
-## Ansluting
+## 41.1. Ansluting
 
-![Bild](bare_bone_anslutning.png)
+![Bare bone Arduino anslutning](bare_bone_anslutning.png)
 
 > Bare bone Arduino anslutning
 
@@ -26,3 +26,7 @@ Tips:
 
 - Du kann får 5V och GND från en vanligt Arduino som är anslutad till en dator
 - Chip toppen 10:e ar stift 13 :-)
+
+## 41.1. Slutuppgift
+
+Koppla på en bare-bone Arduino och övertyger att den funkar.

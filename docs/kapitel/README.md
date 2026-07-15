@@ -71,8 +71,8 @@ Kpt|Beskrivning
 35 |`[MOVED]` [Användning av en kapacitiv knapp](35_anvaendning_av_en_kapacitiv_knapp/README.md)
 36 |`[NEW, DONE]` [Att löda saker](36_att_loeda_saker/README.md)
 .  |**Bok 13**: LCD: point to point
-37 |[Mätning av en LCD](37_maetning_av_en_lcd/README.md)
-38 |[Användning av en LCD](38_anvaendning_av_en_lcd/README.md)
+37 | [MOVED] [Användning av en LCD](37_anvaendning_av_en_lcd/README.md)
+38 | [MOVED] [Mätning av en LCD  ](38_maetning_av_en_lcd/README.md)
 39 |`[NEW, DONE]` [Att löda en Arduino shield](39_att_loeda_en_arduino_shield/README.md)
 .  |**Bok 14**: Ditt eget maskin
 40 |`[MOVED]` [Arduino som ISP](40_arduino_som_isp/README.md)

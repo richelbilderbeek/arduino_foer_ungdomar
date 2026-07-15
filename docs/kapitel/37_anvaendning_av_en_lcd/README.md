@@ -1,4 +1,4 @@
-# Lektion 39: Användning av en LCD
+# Lektion 37: Användning av en LCD
 
 En LCD är en del för att visa något, som bokstäver och symboler.
 LCD är en förkortning av 'Liquid Crystal Display',
@@ -6,30 +6,30 @@ som är engelska för 'flytande kristal skärm'.
 
 ![ArduinoInvaders är ett spel som fungerar med en LCD](ArduinoInvaders.jpg)
 
-## 39.1 Anslut LCD
+## 37.1 Anslut LCD
 
 Anslut en LCD som här:
 
-![Ansluter LCD-väg 1](39_anvaendning_av_en_lcd_schematic.png)
+![Ansluter LCD-väg 1](anvaendning_av_en_lcd_schematic.png)
 
 - Den röda sladd, såklart, går till 5V
 
 Vridmotstånded är för att justera kontrasten på LCD schärmet.
 
-### 39.2. Installera `LiquidCrystal` biblioteket
+### 37.2. Installera `LiquidCrystal` biblioteket
 
 Installera `LiquidCrystal` biblioteket:
 
 Klick på 'Sketch | Include library | Manage libraries'.
 
-![Klick på 'Sketch | Include library | Manage libraries'.](39_anvaendning_av_en_lcd_manage_libraries.png)
+![Klick på 'Sketch | Include library | Manage libraries'.](anvaendning_av_en_lcd_manage_libraries.png)
 
 Skriv `LiquidCrystal` is sök-boxen (i toppen-högert hörnet) och klick
 på 'Install'
 
-![Skriv `LiquidCrystal` is sök-boxen och klick på 'Install'](39_anvaendning_av_en_lcd_install_liquidcrystal.png)
+![Skriv `LiquidCrystal` is sök-boxen och klick på 'Install'](anvaendning_av_en_lcd_install_liquidcrystal.png)
 
-### 39.3. programmera en LCD
+### 37.3. programmera en LCD
 
 Efter att du har installerat `LiquidCrystal` biblioteket,
 finns många exempelprogram i Arduino IDE, under `File | Exempel | LiquidCrystal`.
@@ -61,7 +61,7 @@ Detta gör att du kan få text på skärmen.
 :-------------:|:----------------------------------------:
 
 
-## 39.4. En egen karaktär
+## 37.4. En egen karaktär
 
 En svårare är `File | Exempel | LiquidCrystal | CustomCharacter`:
 
@@ -109,7 +109,7 @@ void loop() {}
 
 Detta gör att du kan få dina egna figurer på skärmen.
 
-## 39.5 Slutuppgift
+## 37.5 Slutuppgift
 
 - Får en Arduino och LCD att funkar
 - Skapar en program med en text och en enen karaktär
