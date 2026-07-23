@@ -3,15 +3,15 @@
 # Concatenate all Markdown files first, convert those to one PDF
 
 build_folder=build
+book_number=1
 
 rm -rf build
 mkdir build
 
-if [ ! -d $build_folder ]; then 
+if [ ! -d ${build_folder} ]; then 
   echo "Error: failed to create build folder"
   exit 1
 fi
-
 
 cp ../kapitel/foerord/*.*                                  $build_folder; mv $build_folder/README.md $build_folder/README_00.md
 cp ../kapitel/00_installera_arduino_iden/*.*               $build_folder; mv $build_folder/README.md $build_folder/README_01.md
@@ -37,13 +37,13 @@ cd "${build_folder}" || exit 41
 # Do not cut code blocks
 pandoc README.md -o bok.pdf --toc --toc-depth=1 --highlight-style=arduino_book_style.theme -V geometry:margin=0.5in
 
-cp bok.pdf ../../boecker/bok_1_utan_framsida.pdf
+cp bok.pdf ../../boecker/bok_${book_number}_utan_framsida.pdf
 
 cd ../../boecker || exit 42
-pdfunite framsida_1.pdf bok_1_utan_framsida.pdf bok_1.pdf
+pdfunite framsida_${book_number}.pdf bok_${book_number}_utan_framsida.pdf bok_${book_number}.pdf
 
 # Make booklet
-bookletimposer -a bok_1.pdf -o haefte_1.pdf
+bookletimposer -a bok_${book_number}.pdf -o haefte_${book_number}.pdf
 
 # Cleanup
-rm bok_1_utan_framsida.pdf
+rm bok_${book_number}_utan_framsida.pdf
