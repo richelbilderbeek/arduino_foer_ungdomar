@@ -1,15 +1,20 @@
 # Lektion 32: Användning av fler neopixels
 
+Syftet att NeoPixels är att man lätt kan koppla ihop dem.
+Under den her lektionen gör vi just detta.
+
 ## 32.1. Att koppla fler NeoPixlar
 
 Koppla NeoPixlar till din Arduino:
 
-![En rad NeoPixlar kopplat till en Arduino](anvaendning_av_mer_neopixels_schematic_1.png)
+![En rad NeoPixlar kopplat till en Arduino](anvaendning_av_fler_neopixels_schematic_1.png)
+
+\pagebreak
 
 Syfted med en NeoPixlar är att man kann koppla NeoPixlar
 till fler NeoPixlar. Koppa en rad NeoPixlar till.
 
-![Två rad NeoPixlar kopplat till en Arduino](anvaendning_av_mer_neopixels_schematic_2.png)
+![Två rad NeoPixlar kopplat till en Arduino](anvaendning_av_fler_neopixels_schematic_2.png)
 
 \pagebreak
 
@@ -76,14 +81,16 @@ eller 'En Arduino kan amvända maximalt 0,2 A'.
 För att mäta strömstyrkan, multimetern måste vara del av kretsen.
 På grund av detta har multimetern en tredje ingång för just detta.
 
+\pagebreak
+
 Koppla multimetern i kretsen som här:
 
-![Koppla multimetern i kretsen](anvaendning_av_mer_neopixels_schematic_3.png)
+![Koppla multimetern i kretsen](anvaendning_av_fler_neopixels_schematic_3.png)
 
 Sätt multimetern i rätta stånd: en A (av Ampere) med två raka linjer
 ovanpå den:
 
-![Multimetern i rätta stånd](anvaendning_av_mer_neopixels_correct_multimeter_setting.png)
+![Multimetern i rätta stånd](anvaendning_av_fler_neopixels_correct_multimeter_setting.png)
 
 Slå på Arduinon och kör programmet.
 

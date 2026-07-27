@@ -43,6 +43,8 @@ void loop()
 ![Bild](EmojiBowtie.png) | Detta är koden likadant lektion 1
 :-------------:|:----------------------------------------:
 
+\pagebreak
+
 Kankse du får ett felmelding,
 `Adafruit_Neopixel.h: no such file or directory`:
 
@@ -51,6 +53,8 @@ Kankse du får ett felmelding,
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------:
 `#include <Adafruit_NeoPixel.h>`|Ladda biblioteket för att använda neopixlar
+
+\pagebreak
 
 Lösningen är att installera biblioteket för att använda neopixlar.
 
@@ -63,11 +67,15 @@ Klicka på 'Tools | Manage libraries':
 Tools           | verktyg
 Manage libraries| Arbeta med bibliotekar
 
+\pagebreak
+
 Leta efter 'Adafruit NeoPixel' och klicka på 'Install':
 
 ![Leta efter 'Adafruit NeoPixel' och klicka på 'Install'](install_library.png)
 
 Ladda up koden. Nu bör den funkar!
+
+\pagebreak
 
 ## 31.2. Anslutning och första intryck av koden
 
@@ -81,9 +89,9 @@ GND             | GND
 5V              | 5V
 DIN             | 6
 
-\pagebreak
-
 Vad ser du? Och vad gissar du att den nya koden betyder?
+
+\pagebreak
 
 ### 31.2. Svar
 
@@ -140,6 +148,8 @@ Färg  |Röd|Grön|Blå
 Röd   |32 |0   |0
 Gul   |32 |32  |0
 Blå   |0  |0   |32
+
+\pagebreak
 
 ## 31.3. Att blinka två lysdioder
 
@@ -293,8 +303,6 @@ blir
 pixlar.setPixelColor(vilken_led, Adafruit_NeoPixel::Color(0, 0, 32));
 ```
 
-\pagebreak
-
 ## 31.6. Blå är med
 
 Använd nu inte ett blaa väde på `32`, utan av `vilken_led`. Vad ser du?
@@ -326,8 +334,6 @@ pixlar.setPixelColor(
 
 Du ser nu att lysdioderna lyser från mörkt blå till mer och mer ljusblå.
 
-\pagebreak
-
 ## 31.7. Röd är med
 
 Använd nu inte ett röd vaerde på `0`, utan av `32 - vilken_led`. Vad ser du?
@@ -358,8 +364,6 @@ Du ser nu att den blåa del av ljuset fortfarande blir lysare.
 Men nu också ser du att den röda del av ljuset börjar ljusröd och
 blir mer och mer mörkrart.
 Tillsammans heter färgen magenta.
-
-\pagebreak
 
 ## 31.8. Röd ökar
 
@@ -419,8 +423,6 @@ till ...
 vilken_led = vilken_led + 1;
 roed_vaerde = roed_vaerde + 1;
 ```
-
-\pagebreak
 
 ## 31.9. Blå minskar
 
@@ -482,8 +484,6 @@ roed_vaerde = roed_vaerde + 1;
 blaa_vaerde = blaa_vaerde - 1;
 ```
 
-\pagebreak
-
 ## 31.10. Pixlar loopar
 
 Vår maskin gör nu igenom all lysdioder bara en gång.
@@ -506,8 +506,6 @@ till ...
 blaa_vaerde = blaa_vaerde - 1;
 if (vilken_led > antal_pixlar) vilken_led = 0;
 ```
-
-\pagebreak
 
 ## 31.11. Röd loopar
 
@@ -532,8 +530,6 @@ if (vilken_led > antal_pixlar) vilken_led = 0;
 if (roed_vaerde > 32) roed_vaerde = 0;
 ```
 
-\pagebreak
-
 ## 31.12. Blå loopar
 
 I vårt program nu gåt blåttvärdet under noll,
@@ -557,8 +553,6 @@ till ...
 if (roed_vaerde > 32) roed_vaerde = 0;
 if (blaa_vaerde < 0) blaa_vaerde = 32;
 ```
-
-\pagebreak
 
 ## 31.13. Slutuppgift
 

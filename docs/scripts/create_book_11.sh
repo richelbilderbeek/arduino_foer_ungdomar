@@ -16,10 +16,10 @@ if [ ! -d $build_folder ]; then
 fi
 
 
-cp ../kapitel/foerord/*.*                         $build_folder; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/31_anvaendning_av_neopixels/*.*     $build_folder; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/32_anvaendning_av_mer_neopixels/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/33_anvaendning_av_en_stegmotor/*.*  $build_folder; mv $build_folder/README.md $build_folder/README_03.md
+cp ../kapitel/foerord/*.*                          $build_folder; mv $build_folder/README.md $build_folder/README_00.md
+cp ../kapitel/31_anvaendning_av_neopixels/*.*      $build_folder; mv $build_folder/README.md $build_folder/README_01.md
+cp ../kapitel/32_anvaendning_av_fler_neopixels/*.* $build_folder; mv $build_folder/README.md $build_folder/README_02.md
+cp ../kapitel/33_anvaendning_av_en_stegmotor/*.*   $build_folder; mv $build_folder/README.md $build_folder/README_03.md
 
 cp arduino_book_style.theme $build_folder
 

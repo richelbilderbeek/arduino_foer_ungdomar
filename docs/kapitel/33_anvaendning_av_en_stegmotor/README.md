@@ -1,13 +1,26 @@
 # Lektion 33: Användning av en stegmotor
 
-<!-- https://github.com/mgesteiro/fritzing-parts/tree/main/28BYJ-48-driver -->
-<!-- https://github.com/mgesteiro/fritzing-parts/tree/main/28BYJ-48-motor -->
+En stegmotor är en motor man kan driva nogrann, snurra rund
+och har mycket kraft.
+I jämförselse med en DC motor är en stegmotor nogrannare,
+för att man kan driva en stegmotor stegsvis.
+Olikt en servormotor kan en stegmotor snurra runt.
+Det finns servormotor då, som kan också snurra runt,
+men den är mindre kraftig än en stegmotor.
+
+Största nackdel med en stegmotor är att den behöver att har en **drivare**.
+En drivare, ofta en lite mönsterkort, försörjer och förenklar
+hur en stegmotor blir använd.
 
 ## 33.1. Att bygga elkretsen
 
-Bygg upp den här krets:
+Bygg upp den här krets (förstorning finns på nästa sida):
 
 ![Schematiskt](anvaendning_av_en_stegmotor_schematic.png)
+
+\pagebreak
+
+Här är förstorningen:
 
 ![Schematiskt, zoom](anvaendning_av_en_stegmotor_schematic_zoom.png)
 
@@ -36,15 +49,17 @@ void loop()
 }
 ```
 
+\pagebreak
+
 Om de inte har installerat `CheapStepper`, so får du en felmeldning så här:
 
 ![Felmeldning om du inte har installerat `CheapStepper`](anvaendning_av_en_stegmotor_have_not_installed_cheapstepper.png)
 
+\pagebreak
+
 Installera `SteapStepper` so här:
 
 ![Installera `SteapStepper`](anvaendning_av_en_stegmotor_install_cheapstepper.png)
-
-\pagebreak
 
 ## 33.3. Slutuppgift
 
