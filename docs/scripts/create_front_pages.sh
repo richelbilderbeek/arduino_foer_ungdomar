@@ -2,6 +2,8 @@
 
 # Concatenate all Markdown files first, convert those to one PDF
 
+cd ../../../arduino_foer_ungdomar/docs/scripts || echo "ERROR: Please run this script from the same folder as where it resides. Tip: 'cd scripts'" || exit 42
+
 build_folder="build"
 
 rm -rf "${build_folder}"
@@ -25,6 +27,6 @@ cd $build_folder || exit 42
 #pandoc framsida_8.md -o ../../boecker/framsida_8.pdf
 #pandoc framsida_9.md -o ../../boecker/framsida_9.pdf
 #pandoc framsida_10.md -o ../../boecker/framsida_10.pdf
-pandoc framsida_11.md -o ../../boecker/framsida_11.pdf
-#pandoc framsida_12.md -o ../../boecker/framsida_12.pdf
+#pandoc framsida_11.md -o ../../boecker/framsida_11.pdf
+pandoc framsida_12.md -o ../../boecker/framsida_12.pdf
 #pandoc framsida_13.md -o ../../boecker/framsida_13.pdf

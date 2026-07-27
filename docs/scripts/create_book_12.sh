@@ -5,6 +5,8 @@
 build_folder=build
 book_number=12
 
+cd ../../../arduino_foer_ungdomar/docs/scripts || echo "ERROR: Please run this script from the same folder as where it resides. Tip: 'cd scripts'" || exit 42
+
 rm -rf build
 mkdir build
 
@@ -15,8 +17,8 @@ fi
 
 cp ../kapitel/foerord/*.*                              $build_folder; mv $build_folder/README.md $build_folder/README_00.md
 cp ../kapitel/34_maetning_av_en_kapacitiv_knapp/*.*    $build_folder; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/35_anslutning_av_en_kapacitiv_knapp/*.*  $build_folder; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/36_anvaendning_av_en_kapacitiv_knapp/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
+cp ../kapitel/35_anvaendning_av_en_kapacitiv_knapp/*.*  $build_folder; mv $build_folder/README.md $build_folder/README_02.md
+cp ../kapitel/36_att_loeda_saker/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
 
 cp arduino_book_style.theme $build_folder
 
