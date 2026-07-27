@@ -1,11 +1,9 @@
 # Lektion 35: Användning av en kapacitiv knapp
 
 En kapacitiv knapp är en inte en vanligt knapp,
-men en koppling för att trycka på avstånd (!).
+men en koppling för att trycka utan mekaniska delar.
 
 Under den här lektionen använder vi en.
-
-\pagebreak
 
 ## 35.1 Att installera biblioteket
 
@@ -26,13 +24,19 @@ Om `CapacitiveSensor` är inte installerat, gör så här:
 
 ![Klicka i Arduino IDEn på `Sketch | Import Library | Manage libraries`](anvaendning_av_en_kapacitiv_knapp_manage_libraries.png)
 
+\pagebreak
+
 - Leta efter `CapacitiveSensor`:
 
 ![Leta efter `CapacitiveSensor`](anvaendning_av_en_kapacitiv_knapp_search_capacitive.png)
 
+\pagebreak
+
 - Klicka på 'Install':
 
 ![Klicka på 'Install'](anvaendning_av_en_kapacitiv_knapp_install_capacitive.png)
+
+\pagebreak
 
 - Nu är biblioteket installerat!
 
@@ -50,6 +54,8 @@ och 1 tusen Ohm (1 kOhm).
 
 Emellan motstånderna, har en sladd eller något annat som kan
 leda el (aluminiumfolie är kanon!).
+
+\pagebreak
 
 Ladd upp följande kod till Arduino:
 
@@ -78,7 +84,7 @@ Vad visar den 'Serial Plotter'?
 
 \pagebreak
 
-### Svar
+### 35.2. Svar
 
 Om allt är väl, visar den 'Serial Plotter' en värde som
 går uppåt om du är nära och some går nere om du är längre fram:
@@ -104,11 +110,9 @@ kann dett finnas en möjligt förbättring.
 
 Att koppla sladden i mitten till en aluminiumfolie är en möjligt förbättring.
 
-![Använder en aluminiumfolie](anvaendning_av_en_kapacitiv_knapp_1.jpg)
-
 ![Använder en aluminiumfolie](anvaendning_av_en_kapacitiv_knapp_2.jpg)
 
-![Använder en aluminiumfolie](anvaendning_av_en_kapacitiv_knapp_3.jpg)
+\pagebreak
 
 ## 35.3.3. Använder en större motstånd
 
@@ -116,7 +120,7 @@ Istället av en 1 MOhm motstånd, använder en som är än större,
 t.ex. 100 MOhm (brun, svart, violet, guld),
 är en möjligt förbättring.
 
-## Slutuppgift
+## 35.4. Slutuppgift
 
 - Lägga till en lysdiod. Skriv kod som gör något med den kapacitativa sensorn.
   Det behöver inte vara för tufft, t.ex. att lysdiod brinner

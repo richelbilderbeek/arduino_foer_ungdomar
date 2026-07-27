@@ -7,13 +7,18 @@ Under den här lektionen mäter vi hur den funkar.
 
 ## 34.1. Att koppla en oscilloskop till en avståndssensor
 
-
 Koppla ett oscilloskop till två motstånd.
 Motständerna måste var 1 million Ohm (1 MOhm)
 och 1 tusen Ohm (1 kOhm). Sätt proben i mitten
 och koppla 'sidoproben' till GND sida.
 
-![Schematiskt](34_maetning_av_en_kapacitiv_knapp_schematic.png)
+Så här ser det ut schematiskt (nästa sida visar hur det ser ut på riktigt):
+
+![Schematiskt](34_maetning_av_en_kapacitiv_knapp_schematic_2x_wider.png)
+
+\pagebreak
+
+Så här ser det ut på riktigt:
 
 ![På riktigt](34_maetning_av_en_kapacitiv_knapp_1.jpg)
 
@@ -32,12 +37,14 @@ motstånderna?
 
 Om du inte rör sladden, är spänningen stabilt:
 
-![Zoom](34_maetning_av_en_kapacitiv_knapp_3.jpg)
+![Ingen rör sladden](34_maetning_av_en_kapacitiv_knapp_3.jpg)
+
+\pagebreak
 
 Om du rör sladden, är spänningen mer instabilt:
 
-![Zoom](34_maetning_av_en_kapacitiv_knapp_2.jpg)
+![En männsika rör sladden](34_maetning_av_en_kapacitiv_knapp_2.jpg)
 
-## 34.2 Slutuppgift
+## 34.2. Slutuppgift
 
 - Förklara hur en kapacitiv knapp funkar och visar det på en oscilloskop
