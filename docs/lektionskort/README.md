@@ -4,12 +4,10 @@ Den här är lektionskort vi använder:
 
 <!-- markdownlint-disable MD013 --><!-- Table rows must be put on one line, hence 80 chars is unavoidable -->
 
-Kurs    |Kortnummer|Fil
---------|----------|---------------------------------------------------------------------
-Arduino |1         |[ODT](lektionskort_1.odt)
-Arduino |2         |[ODT](lektionskort_2.odt)
-Arduino |1 och 2   |[PDF](lektionskort_1_och_2.pdf)
-Lödning |1         |[PDF](lektionskort_1_loedning.pdf) [ODT](lektionskort_1_loedning.odt)
+Dokument för att ändra                    |Dokument för att skriva ut
+------------------------------------------|------------------------------------------
+[Lektionkort 1 (.odt)](lektionskort_1.odt)|[Lektionkort 1 (.pdf)](lektionskort_1.pdf)
+[Lektionkort 2 (.odt)](lektionskort_2.odt)|[Lektionkort 2 (.pdf)](lektionskort_2.pdf)
 
 <!-- markdownlint-enable MD013 -->
 
