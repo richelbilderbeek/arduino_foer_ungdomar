@@ -1,6 +1,10 @@
 # Lektion 41: Bare-bone Arduino
 
-En bare bone Arduino
+Om du vill bygga maskiner på riktigt,
+du vill inte längre att en hela Arduino ska sitta i innerste av maskinen.
+Istället, du vill bara använda det som är absolut nodvändigt.
+Den absolut minimumdel av en Arduino är kalled en 'bare-bone Arduino',
+en 'bara-ben Arduino'.
 
 ## 41.1. Ansluting
 
@@ -22,10 +26,20 @@ Kristal (16 MHz) andra sida      | Kondensator 2 (22 pF) ena sida
 Kondensator 1 (22 pF) andra sida | GND
 Kondensator 2 (22 pF) andra sida | GND
 
-Tips:
+För att får 5 volt potential, använder eller en Arduino eller
+en stromförsörjning för en kopplingsdäck.
 
-- Du kann får 5V och GND från en vanligt Arduino som är anslutad till en dator
-- Chip toppen 10:e ar stift 13 :-)
+Om du avänder en Arduino, koppla Arduinon till en dator och använder
+stiften `5V`för 5 volt och stiften `GND` för jord.
+
+Om du avänder en stromförsörjning för en
+kopplingsdäck, t.ex. Electro:kit's EKM008 (bild här nere),
+ser upp at `+` av försörjning är användt för 5 volt på kopplingsdäcket
+(och `-` måste blir användt för jord).
+
+![https://www.electrokit.com/en/stromforsorjning-for-kopplingsdack-3.3/5v-usb-c](de53_EKM008-1.png)
+
+> [Electro:kit's EKM008 stromförsörjning](https://www.electrokit.com/en/stromforsorjning-for-kopplingsdack-3.3/5v-usb-c)
 
 ## 41.1. Slutuppgift
 
