@@ -12,3 +12,11 @@ Arduino |1 och 2   |[PDF](lektionskort_1_och_2.pdf)
 Lödning |1         |[PDF](lektionskort_1_loedning.pdf) [ODT](lektionskort_1_loedning.odt)
 
 <!-- markdownlint-enable MD013 -->
+
+
+## Bilder
+
+- [Arduino Uno](arduino_uno.jpg) är från
+  [`https://commons.wikimedia.org/wiki/File:Arduino_Uno_-_R3.jpg`](https://commons.wikimedia.org/wiki/File:Arduino_Uno_-_R3.jpg)
+- [Arduino Mega](arduino_mega.jpg) är från
+  [`https://commons.wikimedia.org/wiki/File:Arduino_Mega.jpg`](https://commons.wikimedia.org/wiki/File:Arduino_Mega.jpg)
