@@ -29,10 +29,9 @@ något.
 
 ## 38.2. Slutuppgift
 
-- Visar hur mycket delar en kommanda har på en oscilloskop.
-  Tip: det finns en knapp 'Run | Stop' för att frysa oscilloskop skärmen
+Visar hur mycket delar en kommanda har på en oscilloskop.
+Tip: det finns en knapp 'Run | Stop' för att frysa oscilloskop skärmen.
+Här nere finns olika (men båda rätta!) möjliga resultater:
 
-![En möjligt resultat](maetning_av_en_lcd_maetning_1.jpg)
-
-![En annan möjligt resultat](maetning_av_en_lcd_maetning_2.jpg)
+![Möjligt resultater](maetning_av_en_lcd_maetning_1_och_2.jpg)
 

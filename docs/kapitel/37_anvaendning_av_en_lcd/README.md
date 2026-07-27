@@ -6,6 +6,8 @@ som är engelska för 'flytande kristal skärm'.
 
 ![ArduinoInvaders är ett spel som fungerar med en LCD](ArduinoInvaders.jpg)
 
+\pagebreak
+
 ## 37.1 Anslut LCD
 
 Anslut en LCD som här:
@@ -16,6 +18,8 @@ Anslut en LCD som här:
 
 Vridmotstånded är för att justera kontrasten på LCD schärmet.
 
+\pagebreak
+
 ### 37.2. Installera `LiquidCrystal` biblioteket
 
 Installera `LiquidCrystal` biblioteket:
@@ -23,6 +27,8 @@ Installera `LiquidCrystal` biblioteket:
 Klick på 'Sketch | Include library | Manage libraries'.
 
 ![Klick på 'Sketch | Include library | Manage libraries'.](anvaendning_av_en_lcd_manage_libraries.png)
+
+\pagebreak
 
 Skriv `LiquidCrystal` is sök-boxen (i toppen-högert hörnet) och klick
 på 'Install'
@@ -33,6 +39,8 @@ på 'Install'
 
 Efter att du har installerat `LiquidCrystal` biblioteket,
 finns många exempelprogram i Arduino IDE, under `File | Exempel | LiquidCrystal`.
+
+\pagebreak
 
 Kör den enklaste: `File | Exempel | LiquidCrystal | HelloWorld`:
 
@@ -61,9 +69,11 @@ Detta gör att du kan få text på skärmen.
 :-------------:|:----------------------------------------:
 
 
+\pagebreak
+
 ## 37.4. En egen karaktär
 
-En svårare är `File | Exempel | LiquidCrystal | CustomCharacter`:
+En svårare exampel är `File | Exempel | LiquidCrystal | CustomCharacter`:
 
 ```c++
 #include <LiquidCrystal.h>
@@ -91,8 +101,11 @@ byte smiley[8] = {
   0b01110,
   0b00000
 };
+```
 
+\pagebreak
 
+```c++
 void setup() {
   lcd.createChar(1, heart);
   lcd.createChar(2, smiley);
