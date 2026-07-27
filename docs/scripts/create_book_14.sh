@@ -5,7 +5,7 @@
 cd ../../../arduino_foer_ungdomar/docs/scripts || echo "ERROR: Please run this script from the same folder as where it resides. Tip: 'cd scripts'" || exit 42
 
 build_folder=build
-book_number=13
+book_number=14
 
 rm -rf build
 mkdir build
@@ -15,11 +15,11 @@ if [ ! -d $build_folder ]; then
   exit 1
 fi
 
-cp ../kapitel/foerord/*.*                        $build_folder; mv $build_folder/README.md $build_folder/README_00.md
-cp ../kapitel/37_anvaendning_av_en_lcd/*.*       $build_folder; mv $build_folder/README.md $build_folder/README_01.md
-cp ../kapitel/38_maetning_av_en_lcd/*.*          $build_folder; mv $build_folder/README.md $build_folder/README_02.md
-cp ../kapitel/39_att_loeda_en_arduino_shield/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
-cp arduino_book_style.theme                      $build_folder
+cp ../kapitel/foerord/*.*                           $build_folder; mv $build_folder/README.md $build_folder/README_00.md
+cp ../kapitel/40_arduino_som_isp/*.*                $build_folder; mv $build_folder/README.md $build_folder/README_01.md
+cp ../kapitel/41_bare_bone_arduino/*.*              $build_folder; mv $build_folder/README.md $build_folder/README_02.md
+cp ../kapitel/42_att_loeda_en_bare_bone_arduino/*.* $build_folder; mv $build_folder/README.md $build_folder/README_03.md
+cp arduino_book_style.theme                         $build_folder
 
 cd "${build_folder}" || exit 41
 

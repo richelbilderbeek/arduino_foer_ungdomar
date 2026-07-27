@@ -11,6 +11,8 @@ med slutmålet att har en 'bare bone Arduino' (som är nästa lektion).
 
 Ladd up 'ArduinoISP' på en Arduino UNO.
 
+\pagebreak
+
 ## 40.2. Anslutning
 
 ![Den hela stromkrets](ansluting_allt.png)
@@ -32,6 +34,8 @@ GND    |GND
 > Förbindningar
 
 Glöm inte: mottagare skulle ha en löstagbar chip!
+
+\pagebreak
 
 ## 40.3. Bränna bootloader
 

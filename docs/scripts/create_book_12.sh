@@ -2,10 +2,10 @@
 
 # Concatenate all Markdown files first, convert those to one PDF
 
+cd ../../../arduino_foer_ungdomar/docs/scripts || echo "ERROR: Please run this script from the same folder as where it resides. Tip: 'cd scripts'" || exit 42
+
 build_folder=build
 book_number=12
-
-cd ../../../arduino_foer_ungdomar/docs/scripts || echo "ERROR: Please run this script from the same folder as where it resides. Tip: 'cd scripts'" || exit 42
 
 rm -rf build
 mkdir build

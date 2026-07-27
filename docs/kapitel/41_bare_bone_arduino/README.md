@@ -8,9 +8,15 @@ en 'bara-ben Arduino'.
 
 ## 41.1. Ansluting
 
+Bygg den här elkretsen. Det finns ett anslutningschema på nästa sida också.
+
 ![Bare bone Arduino anslutning](bare_bone_anslutning.png)
 
 > Bare bone Arduino anslutning
+
+\pagebreak
+
+Anslutningschemat:
 
 Från                             | Till
 ---------------------------------|--------------------------------
@@ -26,6 +32,7 @@ Kristal (16 MHz) andra sida      | Kondensator 2 (22 pF) ena sida
 Kondensator 1 (22 pF) andra sida | GND
 Kondensator 2 (22 pF) andra sida | GND
 
+\pagebreak
 För att får 5 volt potential, använder eller en Arduino eller
 en stromförsörjning för en kopplingsdäck.
 
@@ -37,9 +44,7 @@ kopplingsdäck, t.ex. Electro:kit's EKM008 (bild här nere),
 ser upp at `+` av försörjning är användt för 5 volt på kopplingsdäcket
 (och `-` måste blir användt för jord).
 
-![https://www.electrokit.com/en/stromforsorjning-for-kopplingsdack-3.3/5v-usb-c](de53_EKM008-1.png)
-
-> [Electro:kit's EKM008 stromförsörjning](https://www.electrokit.com/en/stromforsorjning-for-kopplingsdack-3.3/5v-usb-c)
+![[Electro:kit's EKM008 stromförsörjning](https://www.electrokit.com/en/stromforsorjning-for-kopplingsdack-3.3/5v-usb-c)](de53_EKM008-1.png)
 
 ## 41.1. Slutuppgift
 
