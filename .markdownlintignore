@@ -12,3 +12,5 @@ docs/kapitel/neo_pixel_1/*
 docs/kapitel/Potmeter/*
 docs/kapitel/SerialMonitor1/*
 docs/scripts/build/*
+scripts/build/*
+docs/build/*
