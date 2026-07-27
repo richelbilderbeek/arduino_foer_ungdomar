@@ -1,18 +1,7 @@
 #!/bin/bash
-
 # Concatenate all Markdown files first, convert those to one PDF
 
-if [[ "$PWD" =~ scripts$ ]]; then
-    echo "FATAL ERROR."
-    echo "Please run the script from the project root. "
-    echo "Present working director: $PWD"
-    echo " "
-    echo "Tip: like this"
-    echo " "
-    echo "  ./scripts/create_book_1.sh"
-    echo " "
-    exit 42
-fi
+cd ../../../arduino_foer_ungdomar/docs/scripts || echo "ERROR: Please run this script from the same folder as where it resides. Tip: 'cd scripts'" || exit 42
 
 build_folder=build
 book_number=1
