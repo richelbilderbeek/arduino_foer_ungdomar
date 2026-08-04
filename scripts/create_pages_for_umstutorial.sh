@@ -18,6 +18,9 @@ if [[ "$PWD" =~ scripts$ ]]; then
     exit 42
 fi
 
+# Download a script that is needed
+wget -N --no-if-modified-since https://raw.githubusercontent.com/uppsala-makerspace/loerdagskurser/refs/heads/main/scripts/replace_rel_url_by_abs_url.R -O scripts/replace_rel_url_by_abs_url.R
+
 # Rscript -e 'splimata::split_tabs(input_file_name = "docs/kurserna/README.md", output_file_prefix = "docs/kurserna/generated")'
 cp docs/kapitel/00_installera_arduino_iden/README.md docs/kapitel/00_installera_arduino_iden/generated_sv.md
 sed -i '/^---$/,/^---$/d' docs/kapitel/00_installera_arduino_iden/generated_sv.md
