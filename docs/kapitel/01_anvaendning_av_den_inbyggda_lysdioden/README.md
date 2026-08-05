@@ -18,10 +18,10 @@ Anslut en USB-kabel till din Arduino och till din dator.
 
 ## 1.2. Startar Arduino IDE
 
-![Bild](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
+![Smiley with sunglasses](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
+![Smiley with bowtie](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
 :-------------:|:----------------------------------------:
 
 Starta Arduino IDE genom att:
