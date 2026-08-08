@@ -119,7 +119,7 @@ void loop()
 
 Få LEDen att blinka så snabbt du kan. Vad ser du?
 
-![Bild](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
+![Smiley med solglasögon](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -147,17 +147,17 @@ Du kommer inte längre att se lampan blinka.
 
 \pagebreak
 
-![Bild](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
+![Smiley med solglasögon](EmojiSunglasses.png) | Du kommer inte längre att se lampan blinka!
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Ljuset blinkar, men det blinkar för fort för att våra ögon ska kunna uppfatta det.
+![Smiley med fluga](EmojiBowtie.png) | Ljuset blinkar, men det blinkar för fort för att våra ögon ska kunna uppfatta det.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------:
 `digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
-![Bild](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
+![Smiley med fluga](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -170,10 +170,10 @@ Anslut nu lysdioden till Arduino stift `12`.
 
 \pagebreak
 
-![Bild](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
+![Smiley med solglasögon](EmojiSunglasses.png) | Det är en bra ide att använda stift 12 eller stift 13
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
+![Smiley med fluga](EmojiBowtie.png) | Använd inte stift 0 och 1 då de är speciella
 :-------------:|:----------------------------------------:
 
 Vad gör lysdioden? Vad gör den inbyggda lysdioden?

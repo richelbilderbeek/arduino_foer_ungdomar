@@ -21,10 +21,10 @@ Koppla en lysdiod till relä 1 så här:
 
 ![23](23_ansluting_av_en_relae_one_led.png)
 
-![Bild](EmojiSunglasses.png) | Vi kan koppla nästan vad som helst till ett relä: elkretsarna är separata!
+![Smiley med solglasögon](EmojiSunglasses.png) | Vi kan koppla nästan vad som helst till ett relä: elkretsarna är separata!
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Självklart använder *vi* bara spänning under 12 volt!
+![Smiley med fluga](EmojiBowtie.png) | Självklart använder *vi* bara spänning under 12 volt!
 :-------------:|:----------------------------------------:
 
 - Koppla `+` från 9V-batteriet till det långa benet på lysdioden
@@ -151,10 +151,10 @@ En H-brygga är farlig för att det är lätt att få kortslutning.
 ![Bild](EmojiSmiley.png) | Kortslutning betyder att el kan gå fritt (dvs utan motstånd) från plus till minus
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | Fritt gående el värmer upp sladdarna
+![Smiley med solglasögon](EmojiSunglasses.png) | Fritt gående el värmer upp sladdarna
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Om din elkrets blir varm, stäng av elen genast!
+![Smiley med fluga](EmojiBowtie.png) | Om din elkrets blir varm, stäng av elen genast!
 :-------------:|:----------------------------------------:
 
 ## 23.6. En H-brygga
@@ -173,7 +173,7 @@ S2  |?
 S3  |?
 S4  |?
 
-![Bild](EmojiSunglasses.png) | Det är förvirrande att 'S1' hör till ett relä (istället för en sladd). Inget problem för oss då!
+![Smiley med solglasögon](EmojiSunglasses.png) | Det är förvirrande att 'S1' hör till ett relä (istället för en sladd). Inget problem för oss då!
 :-------------:|:----------------------------------------:
 
 \pagebreak

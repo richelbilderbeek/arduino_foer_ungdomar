@@ -26,10 +26,10 @@ Skriv ett program som får DC-motorn att snurra så här:
 - snurrar 5 sekunder
 - stannar 1 sekund
 
-![Bild](EmojiBowtie.png) | Se upp: reläet är kopplat till `10`
+![Smiley med fluga](EmojiBowtie.png) | Se upp: reläet är kopplat till `10`
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | Kanske är saker tvärtom mot dina förväntningar
+![Smiley med solglasögon](EmojiSunglasses.png) | Kanske är saker tvärtom mot dina förväntningar
 :-------------:|:----------------------------------------:
 
 \pagebreak

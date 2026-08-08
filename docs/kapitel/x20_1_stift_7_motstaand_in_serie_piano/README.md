@@ -4,10 +4,10 @@ I den här lektionen ska vi göra ett piano som bara behöver en stift och 8 mot
 
 ![Med den här bråkserien kan du beräkna pi](20_leibniz.png)
 
-![Bowtie](EmojiSunglasses.png) | pi är ett känt tal mellan tre och fyra
+![Smiley med solglasögon](EmojiSunglasses.png) | pi är ett känt tal mellan tre och fyra
 :-------------:|:----------------------------------------:
 
-![Solglasögon](EmojiSunglasses.png) | Det har inget med pianon att göra...
+![Smiley med solglasögon](EmojiSunglasses.png) | Det har inget med pianon att göra...
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -64,7 +64,7 @@ Om knappen inte trycks in får du värdet 1023.
 När knappen trycks ned, gör piezopip i 250 millisekunder med en frekvens på 175 Hertz.
 I slutet av "loop", låt Arduino vänta i 1 millisekund.
 
-![Bowtie](EmojiBowtie.png) | Om du inte kommer ihåg detta, kolla föregående lektion!
+![Smiley med fluga](EmojiBowtie.png) | Om du inte kommer ihåg detta, kolla föregående lektion!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -94,7 +94,7 @@ void loop()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | Åh ja, det var så det fick bli!
+![Smiley med solglasögon](EmojiSunglasses.png) | Åh ja, det var så det fick bli!
 :-------------:|:----------------------------------------:
 
 \pagebreak

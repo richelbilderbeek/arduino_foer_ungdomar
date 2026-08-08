@@ -11,7 +11,7 @@ Så här fungerar en regnbåge:
 
 ![Rainbow](1c_MeerKleurFadeMetFor_regenboog.png)
 
-![Solglasögon](EmojiSunglasses.png) | Gult ljus är rött och grönt ljus tillsammans.
+![Smiley med solglasögon](EmojiSunglasses.png) | Gult ljus är rött och grönt ljus tillsammans.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -86,7 +86,7 @@ void loop()
 `analogWrite(9, 0)`|'Bästa dator, stäng av stift 9.'
 `analogWrite(9, i)`|'Bästa dator, låt stift 9 gå långsamt (måste ligga inom for-slingan ovan).'
 
-![Solglasögon](EmojiSunglasses.png) | Räknar till tre: '1, 2'. Räknar till tre: '1, 2, 3'
+![Smiley med solglasögon](EmojiSunglasses.png) | Räknar till tre: '1, 2'. Räknar till tre: '1, 2, 3'
 :-------------:|:----------------------------------------:
 
 \pagebreak

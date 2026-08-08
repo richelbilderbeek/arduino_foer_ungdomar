@@ -3,7 +3,7 @@
 Under den här lektionen ska vi programmera den inbyggda lysdioden
 i Arduino.
 
-![Bild](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
+![Smiley med solglasögon](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
 :-------------:|:----------------------------------------:
 
 ## 1.1. Ansluta en Arduino
@@ -40,7 +40,7 @@ Nu ser du Arduino IDEn:
 
 ![Arduino IDE](anvaendning_av_den_inbyggda_lysdioden_ide.png)
 
-![Solglasögon](EmojiSunglasses.png) | IDE betyder 'Integrated Development Environment', mjukvaran du använder för att programmera.
+![Smiley med solglasögon](EmojiSunglasses.png) | IDE betyder 'Integrated Development Environment', mjukvaran du använder för att programmera.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -90,7 +90,7 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 \pagebreak
 
-## 1.4. Uppgift 2
+## 1.4. 10 gånger snabbare
 
 Få LEDen att blinka 10 gånger snabbare.
 
@@ -98,7 +98,7 @@ Tips: LED är nu på i 1000 millisekunder (1 sekund) och av i 1000 millisekunder
 
 \pagebreak
 
-## 1.5. Lösning 2
+### 1.4. Svar
 
 ```c++
 void setup()
@@ -115,16 +115,16 @@ void loop()
 }
 ```
 
-## 1.6. Uppgift 3
+## 1.5. Så snabbt möjligt
 
 Få LEDen att blinka så snabbt du kan. Vad ser du?
 
-![Bild](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
+![Smiley med solglasögon](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------:
 
 \pagebreak
 
-## 1.7. Lösning 3
+### 1.5. Svar
 
 Det finns fler lösningar, det här är en:
 
@@ -145,24 +145,24 @@ void loop()
 
 Du kommer inte längre att kunna se lampan blinka.
 
-![Bild](EmojiSunglasses.png) | Du kommer inte längre att kunna se lampan blinka!
+![Smiley med solglasögon](EmojiSunglasses.png) | Du kommer inte längre att kunna se lampan blinka!
 :-------------:|:----------------------------------------:
 
 \pagebreak
 
-![Bild](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte uppfatta det tillräckligt snabbt för att se det.
+![Smiley med fluga](EmojiBowtie.png) | Ljuset blinkar, men våra ögon kan inte uppfatta det tillräckligt snabbt för att se det.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
 :-------------:|:----------------------------------------:
 `digitalWrite(13, LOW);`|'Ingen spänning på stift 13'
 
-![Bild](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
+![Smiley med fluga](EmojiBowtie.png) | Också bra: `delay(0);` eller ta bort raderna med `delay` helt.
 :-------------:|:----------------------------------------:
 
 \pagebreak
 
-## 1.8. Slutuppgift
+## 1.6. Slutuppgift
 
 Hämta:
 

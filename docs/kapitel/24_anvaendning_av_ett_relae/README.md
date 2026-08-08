@@ -23,10 +23,10 @@ Skriv ett program som får lysdioden att blinka så här:
 - lyser 5 sekunder
 - släcker 1 sekund
 
-![Bild](EmojiBowtie.png) | Se upp: reläet är kopplat till `10`
+![Smiley med fluga](EmojiBowtie.png) | Se upp: reläet är kopplat till `10`
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | Kanske är saker tvärtom mot dina förväntningar
+![Smiley med solglasögon](EmojiSunglasses.png) | Kanske är saker tvärtom mot dina förväntningar
 :-------------:|:----------------------------------------:
 
 \pagebreak

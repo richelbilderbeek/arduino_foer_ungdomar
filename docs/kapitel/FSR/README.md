@@ -2,7 +2,7 @@
 
 ## Seriele monitor
 
-![Sunglasses](EmojiSunglasses.png) | Seriele monitor: de plek waar je de Arduino kunt laten praten via een seriele poort
+![Smiley med solglasögon](EmojiSunglasses.png) | Seriele monitor: de plek waar je de Arduino kunt laten praten via een seriele poort
 :-------------:|:----------------------------------------:
 
 Met de seriele monitor kunnen we de Arduino laten praten.
@@ -17,7 +17,7 @@ Eerst sluiten we alleen een Arduino aan:
 
 Ik denk dat dit wel moet lukken :-)
 
-![Sunglasses](EmojiSunglasses.png) | De seriele monitor gaat via het USB snoer tussen Arduino naar computer
+![Smiley med solglasögon](EmojiSunglasses.png) | De seriele monitor gaat via het USB snoer tussen Arduino naar computer
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -68,14 +68,14 @@ void loop()
 
 ## Aansluiten FSR zonder LED
 
-![Sunglasses](EmojiSunglasses.png) | FSR betekent 'Force Sensitive Resistance'
+![Smiley med solglasögon](EmojiSunglasses.png) | FSR betekent 'Force Sensitive Resistance'
 :-------------:|:----------------------------------------:
 
 Eerst sluiten we alleen een FSR aan:
 
 ![Stroomschema](4_FSR.png)
 
-![Bowtie](EmojiBowtie.png) | Is er geen FSR, gebruik dan een LDR
+![Smiley med fluga](EmojiBowtie.png) | Is er geen FSR, gebruik dan een LDR
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -112,7 +112,7 @@ void loop()
  5. Haal de draad naar `A0` weg. Ja, haal de draad tussen `A0` en de LDR weg.
     Kijk op de seriele monitor. Wat zie je?
 
-![Sunglasses](EmojiSunglasses.png) | De weerstand tussen A0 en LDR een 'Pull Down' weerstand genoemd
+![Smiley med solglasögon](EmojiSunglasses.png) | De weerstand tussen A0 en LDR een 'Pull Down' weerstand genoemd
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -126,12 +126,12 @@ void loop()
     stuur naar je computer (4800), dan je computer de tekst leest (9600)
  5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
-![Sunglasses](EmojiSunglasses.png) | Een 'Pull Down' weerstand voorkomt een zwevende input
+![Smiley med solglasögon](EmojiSunglasses.png) | Een 'Pull Down' weerstand voorkomt een zwevende input
 :-------------:|:----------------------------------------:
 
 ## Aansluiten FSR met LED, aan/uit
 
-![Sunglasses](EmojiSunglasses.png) | 'Force Sensitive Resistance' betekent 'Kracht afhankelijke weerstand'
+![Smiley med solglasögon](EmojiSunglasses.png) | 'Force Sensitive Resistance' betekent 'Kracht afhankelijke weerstand'
 :-------------:|:----------------------------------------:
 
 Nu sluiten we ook een LED aan:
@@ -265,7 +265,7 @@ void loop()
 Sluit twee LEDjes aan op pinnen 12 en 13. Als de FSR in rust is, moet er geen LEDje branden. Als je de FSR zacht indrukt,
 gaat er een LEDje branden. Als je de FSR hard indrukt twee.
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik twee `if` statements
+![Smiley med fluga](EmojiBowtie.png) | Tip: gebruik twee `if` statements
 :-------------:|:----------------------------------------:
 
 \pagebreak

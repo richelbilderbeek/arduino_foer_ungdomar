@@ -32,7 +32,7 @@ Ställ in oscilloskopet att mäta spänning.
 
 Mät spänningen. Försök förklara vad du mäter.
 
-![Bild](EmojiBowtie.png) | Tips: oscilloskop är inte perfekta!
+![Smiley med fluga](EmojiBowtie.png) | Tips: oscilloskop är inte perfekta!
 :-------------:|:----------------------------------------:
 
 ### 25.1. Svar
@@ -73,7 +73,7 @@ ger en LDR ingen spänning.
 Men om du håller din hand nära syns en liten skillnad,
 men det beror inte på LDR:en: det beror på din hand (!)
 
-![Bild](EmojiBowtie.png) | I boken 'Kapacitativ knapp' använder vi den här principen!
+![Smiley med fluga](EmojiBowtie.png) | I boken 'Kapacitativ knapp' använder vi den här principen!
 :-------------:|:----------------------------------------:
 
 
@@ -119,10 +119,10 @@ till **minus** 30 millivolt. Det betyder att strömmen byter riktning!
 
 Eftersom strömriktningen vänder kan en DC-motor skada en Arduino.
 
-![Bild](EmojiBowtie.png) | Koppla alltid Arduino och DC-motor separerade!
+![Smiley med fluga](EmojiBowtie.png) | Koppla alltid Arduino och DC-motor separerade!
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | Använd reläer för att skydda din Arduino
+![Smiley med solglasögon](EmojiSunglasses.png) | Använd reläer för att skydda din Arduino
 :-------------:|:----------------------------------------:
 
 ## 25.5 Slutuppgift

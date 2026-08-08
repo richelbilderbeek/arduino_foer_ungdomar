@@ -2,7 +2,7 @@
 
 En servo är en motor som man kan sätta på en viss vinkel.
 
-![Solglasögon](EmojiSunglasses.png) | Servon används ofta i robotar
+![Smiley med solglasögon](EmojiSunglasses.png) | Servon används ofta i robotar
 :-------------:|:----------------------------------------:
 
 ## 21.1 Anslutning
@@ -11,7 +11,7 @@ Bilden visar hur man ansluter en servo:
 
 ![Anslut servomotor](anvaending_av_en_servo_servo_motor_1.png)
 
-![Solglasögon](EmojiSunglasses.png) | De flesta servon kan inte rotera
+![Smiley med solglasögon](EmojiSunglasses.png) | De flesta servon kan inte rotera
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -62,7 +62,7 @@ skicka nummer till Arduino. Du kan se detta på bilden
 
 ![Skicka nummer till Arduino](anvaending_av_en_servo_servo_motor_serial.png)
 
-![Solglasögon](EmojiSunglasses.png) | Såhär kan du prata med Arduino
+![Smiley med solglasögon](EmojiSunglasses.png) | Såhär kan du prata med Arduino
 :-------------:|:----------------------------------------:
 
 ## 21.4. Uppgift 1

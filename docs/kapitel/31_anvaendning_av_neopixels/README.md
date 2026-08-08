@@ -40,7 +40,7 @@ void loop()
 }
 ```
 
-![Bild](EmojiBowtie.png) | Detta är koden likadant lektion 1
+![Smiley med fluga](EmojiBowtie.png) | Detta är koden likadant lektion 1
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -136,7 +136,7 @@ Steg|Hur det ser ut
 :-------------:|:------------------------------------------------:
 `pixlar.show()`|'Bästa dator, låt lysdioderna visa sina färger.'
 
-![Solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
+![Smiley med solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
 :-------------:|:----------------------------------------:
 
 ![Bild](faergcirkel.png)

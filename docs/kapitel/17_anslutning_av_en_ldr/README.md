@@ -12,10 +12,10 @@ Koppla tillsammans som schemat och koppla Arduino till en dator.
 - Vad händer om du fördystrar LDRen?
 - Vad händer om du lyser nåt på LDRen?
 
-![Bild](EmojiBowtie.png) | Ser upp: LDRen har en annat motstånd
+![Smiley med fluga](EmojiBowtie.png) | Ser upp: LDRen har en annat motstånd
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | 10k är tio tusend
+![Smiley med solglasögon](EmojiSunglasses.png) | 10k är tio tusend
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -36,7 +36,7 @@ Effekten av ljus är:
 Bygg om strömkretsen till den här bilden.
 Den enstaka skillnad är att LDRen och motståndet har byts.
 
-![Bild](EmojiBowtie.png) | Ser upp: LDRen har nu en vanligt motstånd
+![Smiley med fluga](EmojiBowtie.png) | Ser upp: LDRen har nu en vanligt motstånd
 :-------------:|:----------------------------------------:
 
 - Vad tror du kommer att hända?

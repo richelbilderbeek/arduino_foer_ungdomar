@@ -49,7 +49,7 @@ Under noten finns texten, därunder tonhöjden i Hertz.
 
 > Fader Jacobs första ton
 
-![Solglasögon](EmojiSunglasses.png) | 131 Hertz är tonhöjden för tonen C.
+![Smiley med solglasögon](EmojiSunglasses.png) | 131 Hertz är tonhöjden för tonen C.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -93,7 +93,7 @@ void loop()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | 147 Hertz är tonhöjden för tonen D.
+![Smiley med solglasögon](EmojiSunglasses.png) | 147 Hertz är tonhöjden för tonen D.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -138,7 +138,7 @@ void loop()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | 165 Hertz är tonhöjden för noten E.
+![Smiley med solglasögon](EmojiSunglasses.png) | 165 Hertz är tonhöjden för noten E.
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -236,7 +236,7 @@ void loop()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
+![Smiley med solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
 :-------------:|:----------------------------------------:
 
 ![Dator](EmojiComputer.png) | ![Smiley](EmojiSmiley.png)
@@ -291,7 +291,7 @@ void loop()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
+![Smiley med solglasögon](EmojiSunglasses.png) | Du kan också lägga upprepningen i en 'för'-loop!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -340,7 +340,7 @@ void loop()
 }
 ```
 
-![Bowtie](EmojiBowtie.png) | (sjunger) Fader Jakob, Fader Jakob! (men inte särskilt bra)
+![Smiley med fluga](EmojiBowtie.png) | (sjunger) Fader Jakob, Fader Jakob! (men inte särskilt bra)
 :-------------:|:----------------------------------------:
 
 \pagebreak

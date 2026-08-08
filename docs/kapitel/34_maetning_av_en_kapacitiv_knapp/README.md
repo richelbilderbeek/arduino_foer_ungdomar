@@ -22,7 +22,7 @@ Så här ser det ut på riktigt:
 
 ![På riktigt](34_maetning_av_en_kapacitiv_knapp_1.jpg)
 
-![Bowtie emoji](EmojiBowtie.png) | Man kan också använda USB portet av oscilloskopen!
+![Smiley med fluga](EmojiBowtie.png) | Man kan också använda USB portet av oscilloskopen!
 :-------------:|:----------------------------------------:
 
 Emellan motstånderna, har en sladd eller något annat som kan

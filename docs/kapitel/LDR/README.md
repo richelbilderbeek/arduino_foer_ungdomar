@@ -23,7 +23,7 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+![Smiley med fluga](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
 :-------------:|:----------------------------------------:
 
 ### Opdrachten 1
@@ -45,7 +45,7 @@ void loop()
 
 ## Aansluiten LDR zonder LED
 
-![Sunglasses](EmojiSunglasses.png) | LDR betekent 'Light Dependent Resistance'
+![Smiley med solglasögon](EmojiSunglasses.png) | LDR betekent 'Light Dependent Resistance'
 :-------------:|:----------------------------------------:
 
 Eerst sluiten we alleen een LDR aan:
@@ -72,7 +72,7 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+![Smiley med fluga](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
 :-------------:|:----------------------------------------:
 
 ### Opdrachten 2
@@ -95,12 +95,12 @@ void loop()
     stuur naar je computer (4800), dan je computer de tekst leest (9600)
  5. Nu zie je het getal willekeurig veranderen. Dit wordt een zwevende input genoemd
 
-![Sunglasses](EmojiBowtie.png) | Heb je een zwevende input? Dan heb je vaak iets fout aangesloten
+![Smiley med fluga](EmojiBowtie.png) | Heb je een zwevende input? Dan heb je vaak iets fout aangesloten
 :-------------:|:----------------------------------------:
 
 ## Aansluiten LDR met LED
 
-![Sunglasses](EmojiSunglasses.png) | 'Light Dependent Resistance' betekent 'lichtafhankelijke weerstand'
+![Smiley med solglasögon](EmojiSunglasses.png) | 'Light Dependent Resistance' betekent 'lichtafhankelijke weerstand'
 :-------------:|:----------------------------------------:
 
 Nu sluiten we ook een LED aan:
@@ -134,7 +134,7 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
+![Smiley med fluga](EmojiBowtie.png) | Vergeten wat dit is? Ga naar les 4 'FSR'
 :-------------:|:----------------------------------------:
 
 ### Opdracht 3
@@ -188,7 +188,7 @@ Sluit een extra LEDje aan. Als de LDR in normaal licht is, moet er geen LEDje br
 Als je de LDR een beetje donkerder maakt met je hand, gaat er een LEDje branden.
 Als je de LDR helemaal donker maakt twee.
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik twee `if` statements
+![Smiley med fluga](EmojiBowtie.png) | Tip: gebruik twee `if` statements
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -233,5 +233,5 @@ void loop()
 
 ![LDR eindopdracht](9_LDR_eindopdracht.png)
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik drie of vier keer `if`
+![Smiley med fluga](EmojiBowtie.png) | Tip: gebruik drie of vier keer `if`
 :-------------:|:----------------------------------------:

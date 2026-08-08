@@ -10,7 +10,7 @@ Hier zie je hoe een regenboog werkt:
 
 ![Regenboog](1c_MeerKleurFadeMetFor_regenboog.png)
 
-![Sunglasses](EmojiSunglasses.png) | Geel licht is rood en groen licht samen.
+![Smiley med solglasögon](EmojiSunglasses.png) | Geel licht is rood en groen licht samen.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -88,7 +88,7 @@ void loop()
 `analogWrite(9, 0)`|'Lieve computer, zet pin 9 uit.'
 `analogWrite(9, i)`|'Lieve computer, laat pin 9 langzaam aan gaan (moet binnen de for-loop hierboven).'
 
-![Sunglasses](EmojiSunglasses.png) | Tellen tot drie: '1, 2'. Tellen tot en met drie: '1, 2, 3'
+![Smiley med solglasögon](EmojiSunglasses.png) | Tellen tot drie: '1, 2'. Tellen tot en met drie: '1, 2, 3'
 :-------------:|:----------------------------------------:
 
 \pagebreak

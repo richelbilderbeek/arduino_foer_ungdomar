@@ -2,7 +2,7 @@
 
 ## Seriell monitor
 
-![Solglasögon](EmojiSunglasses.png) | Seriell monitor: platsen där du kan få Arduino att prata genom en seriell port
+![Smiley med solglasögon](EmojiSunglasses.png) | Seriell monitor: platsen där du kan få Arduino att prata genom en seriell port
 :-------------:|:----------------------------------------:
 
 Den seriella monitorn låter oss få Arduino att prata.
@@ -17,7 +17,7 @@ Först ansluter vi bara en Arduino:
 
 Jag tycker att det här borde fungera :-)
 
-![Solglasögon](EmojiSunglasses.png) | Den seriella bildskärmen går via USB-kabeln mellan Arduino till dator
+![Smiley med solglasögon](EmojiSunglasses.png) | Den seriella bildskärmen går via USB-kabeln mellan Arduino till dator
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -68,14 +68,14 @@ void loop()
 
 ## Ansluter FSR utan LED
 
-![Solglasögon](EmojiSunglasses.png) | FSR betyder "Force Sensitive Resistance"
+![Smiley med solglasögon](EmojiSunglasses.png) | FSR betyder "Force Sensitive Resistance"
 :-------------:|:----------------------------------------:
 
 Först ansluter vi bara en FSR:
 
 ![Flödesschema](11_fsr_rbg_fsr_svenska.png)
 
-![Bowtie](EmojiBowtie.png) | Om det inte finns någon FSR, använd en LDR
+![Smiley med fluga](EmojiBowtie.png) | Om det inte finns någon FSR, använd en LDR
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -112,7 +112,7 @@ void loop()
  5. Ta bort kabeln till `A0`. Ja, ta bort kabeln mellan `A0` och LDR.
     Titta på den seriella monitorn. Vad ser du?
 
-![Solglasögon](EmojiSunglasses.png) | Motståndet mellan A0 och LDR kallas ett 'Pull Down'-motstånd
+![Smiley med solglasögon](EmojiSunglasses.png) | Motståndet mellan A0 och LDR kallas ett 'Pull Down'-motstånd
 :-------------:|:----------------------------------------:
 
 
@@ -127,12 +127,12 @@ void loop()
     skicka till din dator (4800), sedan läser din dator texten (9600)
  5. Nu kommer du att se siffran ändras slumpmässigt. Detta kallas en flytande ingång
 
-![Solglasögon](EmojiSunglasses.png) | Ett 'Pull Down'-motstånd förhindrar en flytande ingång
+![Smiley med solglasögon](EmojiSunglasses.png) | Ett 'Pull Down'-motstånd förhindrar en flytande ingång
 :-------------:|:----------------------------------------:
 
 ## Ansluter FSR med LED, på/av
 
-![Solglasögon](EmojiSunglasses.png) | "Kraftkänsligt motstånd" betyder "Kraftberoende motstånd"
+![Smiley med solglasögon](EmojiSunglasses.png) | "Kraftkänsligt motstånd" betyder "Kraftberoende motstånd"
 :-------------:|:----------------------------------------:
 
 Nu ansluter vi även en LED:
@@ -266,7 +266,7 @@ void loop()
 Anslut två lysdioder till stift 12 och 13. När FSR är i vila ska ingen lysdiod lysa. Om du trycker försiktigt på FSR,
 en LED tänds. Om du trycker hårt på FSR, två.
 
-![Bowtie](EmojiBowtie.png) | Tips: använd två `if`-satser
+![Smiley med fluga](EmojiBowtie.png) | Tips: använd två `if`-satser
 :-------------:|:----------------------------------------:
 
 \pagebreak

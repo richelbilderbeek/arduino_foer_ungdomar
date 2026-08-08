@@ -35,7 +35,7 @@ De code laat 900 milliseconden de toon A horen, en heeft dan 100 milliseconden r
 `tone(8,220)` |'Lieve computer, speel op pin `8` een toon met toonhoogte 220 Hertz. Dit is de toon `A`'.
 `noTone(8)`   |'Lieve computer, stop met het spelen van een toon op pin `8`'.
 
-![Sunglasses](EmojiSunglasses.png) | De `A` is de toon met toonhoogte 220 Hertz
+![Smiley med solglasögon](EmojiSunglasses.png) | De `A` is de toon met toonhoogte 220 Hertz
 :-------------:|:----------------------------------------:
 
 ## Opdracht 1
@@ -64,7 +64,7 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | 1 Hertz kan iedereen nog horen
+![Smiley med solglasögon](EmojiSunglasses.png) | 1 Hertz kan iedereen nog horen
 :-------------:|:----------------------------------------:
 
 - Antwoord 2: De hoogste toon is 32767 Hertz. Hieronder staat de code
@@ -84,10 +84,10 @@ void loop()
 }
 ```
 
-![Sunglasses](EmojiSunglasses.png) | 32767 Hertz kan iedereen nog horen
+![Smiley med solglasögon](EmojiSunglasses.png) | 32767 Hertz kan iedereen nog horen
 :-------------:|:----------------------------------------:
 
-![Bowtie](EmojiBowtie.png) | Hoge onhoorbare tonen worden ultrasoon genoemd
+![Smiley med fluga](EmojiBowtie.png) | Hoge onhoorbare tonen worden ultrasoon genoemd
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -103,7 +103,7 @@ We gaan nu muziek maken! Programmeer het volgende liedje:
 - Alle tonen duren 400 milliseconden
 - Na elke toon is er 100 milliseconden stilte
 
-![Sunglasses](EmojiSunglasses.png) | De toonhoogtes die hier gebruikt worden, zitten ook op een piano
+![Smiley med solglasögon](EmojiSunglasses.png) | De toonhoogtes die hier gebruikt worden, zitten ook op een piano
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -125,7 +125,7 @@ void loop()
 }
 ```
 
-![Bowtie](EmojiBowtie.png) | Herken je het liedje al?
+![Smiley med fluga](EmojiBowtie.png) | Herken je het liedje al?
 :-------------:|:----------------------------------------:
 
 ## Eindopdracht

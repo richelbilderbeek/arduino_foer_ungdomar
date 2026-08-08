@@ -62,10 +62,10 @@ void loop() {
 
 Detta gör att du kan få text på skärmen.
 
-![Bild](EmojiBowtie.png) | Det här är en så kallad 'Hello World' program
+![Smiley med fluga](EmojiBowtie.png) | Det här är en så kallad 'Hello World' program
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | En 'Hello World' program är användt för att testa om saker funkar
+![Smiley med solglasögon](EmojiSunglasses.png) | En 'Hello World' program är användt för att testa om saker funkar
 :-------------:|:----------------------------------------:
 
 

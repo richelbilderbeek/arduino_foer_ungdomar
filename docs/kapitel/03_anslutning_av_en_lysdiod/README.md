@@ -71,7 +71,7 @@ Nu är det dags att bygga kretsen på riktigt:
 
 - Sätt tillbaka USB-kabeln i datorn
 
-![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
+![Smiley med fluga](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
 
 Lyser lysdioden?

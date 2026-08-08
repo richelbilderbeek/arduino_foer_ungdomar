@@ -24,7 +24,7 @@ Anslut den första knappen enligt bilden. Sätt knappen i mitten av din brödbr�
 
 > Lösning 1
 
-![Bowtie](EmojiSunglasses.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
+![Smiley med solglasögon](EmojiSunglasses.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -57,7 +57,7 @@ void loop()
 }
 ```
 
-![Solglasögon](EmojiSunglasses.png) | '>' betyder 'större än'. Värdet `A0` är aldrig exakt en siffra. I seriemonitorn läser vi av siffran som motsvarar knappen och testar sedan efter en siffra som ligger strax under det.
+![Smiley med solglasögon](EmojiSunglasses.png) | '>' betyder 'större än'. Värdet `A0` är aldrig exakt en siffra. I seriemonitorn läser vi av siffran som motsvarar knappen och testar sedan efter en siffra som ligger strax under det.
 :-------------:|:----------------------------------------:
 
 Får du ett ljud när du trycker på knappen? Sedan kan du gå vidare till uppgift 2.
@@ -81,7 +81,7 @@ Anslut en andra knapp **till vänster** om den första, med två motstånd framf
 ![think](EmojiThinking.png) | Använd den seriella monitorn för att fastställa värdet på den nya knappen.
 :-------------:|:----------------------------------------:
 
-![Solglasögon](EmojiSunglasses.png) | Det nya värdet är högre än värdet på den andra knappen. Den nya if-satsen bör komma överst.
+![Smiley med solglasögon](EmojiSunglasses.png) | Det nya värdet är högre än värdet på den andra knappen. Den nya if-satsen bör komma överst.
 :-------------:|:----------------------------------------:
 
 ![think](EmojiThinking.png) | Vilken frekvens får den nya knappen?

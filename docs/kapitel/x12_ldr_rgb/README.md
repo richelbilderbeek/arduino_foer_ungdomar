@@ -45,7 +45,7 @@ void loop()
 
 ## 12.5 Ansluter LDR utan LED
 
-![Solglasögon](EmojiSunglasses.png) | LDR betyder "Ljusberoende motstånd"
+![Smiley med solglasögon](EmojiSunglasses.png) | LDR betyder "Ljusberoende motstånd"
 :-------------:|:----------------------------------------:
 
 Först ansluter vi bara en LDR:
@@ -100,7 +100,7 @@ void loop()
 
 ## 12.9 Ansluter LDR med LED
 
-![Solglasögon](EmojiSunglasses.png) | "Ljusberoende motstånd" betyder "ljusberoende motstånd"
+![Smiley med solglasögon](EmojiSunglasses.png) | "Ljusberoende motstånd" betyder "ljusberoende motstånd"
 :-------------:|:----------------------------------------:
 
 Nu ansluter vi även en LED:
@@ -187,7 +187,7 @@ void loop()
 Anslut en extra LED. Om LDR är i normalt ljus bör ingen lysdiod lysa.Om du gör LDR lite mörkare med handen kommer en lysdiod att tändas.
 Om du gör LDR helt mörk två.
 
-![Bowtie](EmojiBowtie.png) | Tips: använd två "om"-satser
+![Smiley med fluga](EmojiBowtie.png) | Tips: använd två "om"-satser
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -232,6 +232,6 @@ void loop()
 
 ![LDR final assignment](12_ldr_rgb_slutuppgift.png)
 
-![Bowtie](EmojiBowtie.png) | Tips: använd `if` tre eller fyra gånger
+![Smiley med fluga](EmojiBowtie.png) | Tips: använd `if` tre eller fyra gånger
 :-------------:|:----------------------------------------:
 

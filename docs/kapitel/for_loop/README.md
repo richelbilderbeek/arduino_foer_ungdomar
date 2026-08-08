@@ -8,7 +8,7 @@ Bouw dit:
 
 ![For loop nog een keer](1d_ForNogEenKeer.png)
 
-![Sunglasses](EmojiSunglasses.png) | We gaan de LEDjes enkel aan en uit zetten, dus hoeven we geen pinnen met golfjes `~` te gebruiken
+![Smiley med solglasögon](EmojiSunglasses.png) | We gaan de LEDjes enkel aan en uit zetten, dus hoeven we geen pinnen met golfjes `~` te gebruiken
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -38,7 +38,7 @@ void loop()
 
 Verander het `setup` gedeelte naar een for loop.
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik deze code
+![Smiley med fluga](EmojiBowtie.png) | Tip: gebruik deze code
 :--------------|:----------------------------------------:
 `for (int i=2; i<4; ++i)` |
 `{` |
@@ -75,7 +75,7 @@ void loop()
 
 Laat nu de LEDjes aan gaan met een for loop.
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik `digitalWrite(i, HIGH);`
+![Smiley med fluga](EmojiBowtie.png) | Tip: gebruik `digitalWrite(i, HIGH);`
 :--------------|:----------------------------------------:
 
 \pagebreak
@@ -108,7 +108,7 @@ void loop()
 
 Laat nu de LEDjes uit gaan met een for loop
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik `digitalWrite(i, LOW);`
+![Smiley med fluga](EmojiBowtie.png) | Tip: gebruik `digitalWrite(i, LOW);`
 :--------------|:----------------------------------------:
 
 \pagebreak
@@ -145,7 +145,7 @@ De zes lampjes zitten op pinnen 2 tot en met 7.
 Laat de for loops lopen van 2 tot 8.
 Als het goed is, gaan alle lampjes aan, dan alle lampjes uit.
 
-![Bowtie](EmojiBowtie.png) | Tip: je moet *drie* for loops aanpassen
+![Smiley med fluga](EmojiBowtie.png) | Tip: je moet *drie* for loops aanpassen
 :--------------|:----------------------------------------:
 
 \pagebreak
@@ -181,10 +181,10 @@ void loop()
 Laat nu de lampjes omstebeurt aan en uit gaan, van links naar rechts.
 Je hebt hiervoor een `for` loop nodig.
 
-![Bowtie](EmojiBowtie.png) | Je kunt tussen de accolades van een `for` loop meer regels zetten
+![Smiley med fluga](EmojiBowtie.png) | Je kunt tussen de accolades van een `for` loop meer regels zetten
 :--------------|:----------------------------------------:
 
-![Sunglasses](EmojiSunglasses.png) | Goed programmeurs zorgen dat alle code binnen de accolades van een `for` loop evenveel ingegesprongen is
+![Smiley med solglasögon](EmojiSunglasses.png) | Goed programmeurs zorgen dat alle code binnen de accolades van een `for` loop evenveel ingegesprongen is
 :--------------|:----------------------------------------:
 
 \pagebreak
@@ -216,7 +216,7 @@ void loop()
 
 Laat nu de lampjes omstebeurt aan en uit gaan, van rechts naar links.
 
-![Bowtie](EmojiBowtie.png) | Tip: gebruik niet `i`, maar `7 - i`.
+![Smiley med fluga](EmojiBowtie.png) | Tip: gebruik niet `i`, maar `7 - i`.
 :--------------|:----------------------------------------:
 
 \pagebreak
@@ -244,7 +244,7 @@ void loop()
 }
 ```
 
-![Bowtie](EmojiBowtie.png) | Als je een regel met `delay` weghaalt, krijg je al een heel ander patroon
+![Smiley med fluga](EmojiBowtie.png) | Als je een regel met `delay` weghaalt, krijg je al een heel ander patroon
 :--------------|:----------------------------------------:
 
 \pagebreak

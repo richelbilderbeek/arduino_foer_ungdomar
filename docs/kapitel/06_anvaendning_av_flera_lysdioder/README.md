@@ -131,7 +131,7 @@ Förbered kod:
 Få nu LEDs lysa i ett 'Knight Rider-mönster': 1-2-3-2.
 Det ska alltid vara exakt en LED som lyser.
 
-![Solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
+![Smiley med solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
 :-------------:|:----------------------------------------:
 
 ![Knight Rider](KnightRider.png)

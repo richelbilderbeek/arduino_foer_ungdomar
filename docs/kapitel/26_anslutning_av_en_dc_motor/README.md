@@ -44,10 +44,10 @@ Koppla den enkla kretsen som här:
 
 ![26.1](26_anslutning_av_en_dc_motor_1.png)
 
-![Bild](EmojiSunglasses.png) | Vi kan koppla nästan vad som helst till ett relä: elkretsarna är separerade!
+![Smiley med solglasögon](EmojiSunglasses.png) | Vi kan koppla nästan vad som helst till ett relä: elkretsarna är separerade!
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Ett batteri har inget problem med den negativa spänning som en DC-motor orsakar
+![Smiley med fluga](EmojiBowtie.png) | Ett batteri har inget problem med den negativa spänning som en DC-motor orsakar
 :-------------:|:----------------------------------------:
 
 Vad händer om man trycker på knappen? Varför?
@@ -104,7 +104,7 @@ Varför får man aldrig trycka på båda knapparna i en H-brygga?
 
 För att det orsakar kortslutning.
 
-![Bild](EmojiBowtie.png) | Om något blir hett, ta genast bort batteriet!
+![Smiley med fluga](EmojiBowtie.png) | Om något blir hett, ta genast bort batteriet!
 :-------------:|:----------------------------------------:
 
 ## 26.6. En H-brygga med en DC-motor
@@ -123,7 +123,7 @@ Nu kan du styra DC-motorn åt båda hållen! Grattis!
 
 För att det orsakar kortslutning.
 
-![Bild](EmojiBowtie.png) | Om något blir hett, ta genast bort batteriet!
+![Smiley med fluga](EmojiBowtie.png) | Om något blir hett, ta genast bort batteriet!
 :-------------:|:----------------------------------------:
 
 ## 26.7 Slutuppgift

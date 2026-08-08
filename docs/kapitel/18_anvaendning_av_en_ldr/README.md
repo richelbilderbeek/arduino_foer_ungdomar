@@ -44,10 +44,10 @@ Det är bara en lysdiod som ändrar sig.
 
 Om du rör den första LDR:er, lyser första lysdioden mer eller mindre.
 
-![Bild](EmojiBowtie.png) | Det kann vara tufft att får all färger av ett RBG lysdiod att funkar!
+![Smiley med fluga](EmojiBowtie.png) | Det kann vara tufft att får all färger av ett RBG lysdiod att funkar!
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiSunglasses.png) | Du kann invända tre vanliga motstånder också!
+![Smiley med solglasögon](EmojiSunglasses.png) | Du kann invända tre vanliga motstånder också!
 :-------------:|:----------------------------------------:
 
 ## 18.3. Vad koden betyder

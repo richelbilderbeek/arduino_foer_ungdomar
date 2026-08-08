@@ -69,7 +69,7 @@ Skapa en ny variabel för väntetiden, kallad `vantetid`, själv.
 `vantetid` är ett heltal med initialt värde `1000`.
 Använd `vantetid` som värde i `delay`.
 
-![Bild](EmojiSunglasses.png) | Smart! Om du läser `vantetid` vet du vad det är till för. Vid `1000` vet du inte det
+![Smiley med solglasögon](EmojiSunglasses.png) | Smart! Om du läser `vantetid` vet du vad det är till för. Vid `1000` vet du inte det
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -94,7 +94,7 @@ void loop()
 }
 ```
 
-![Bild](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom hårdparentes'
+![Smiley med fluga](EmojiBowtie.png)| `// ... [nåt]` betyder 'koden du redan har där som handlar om vad som står inom hårdparentes'
 :-------------:|:----------------------------------------:
 
 ## 2.6: Blink Blink Blink: Ansluter Blink Blink Blink
@@ -136,7 +136,7 @@ void loop()
 }
 ```
 
-![Bild](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå och ändra.
+![Smiley med solglasögon](EmojiSunglasses.png) | Programmerare använder många variabler eftersom det gör koden lättare att förstå och ändra.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -147,10 +147,10 @@ Skapa en ny variabel `led_stift_2`.
 Få först den första LEDen att tändas och släckas,
 få sedan den andra LEDen tändas och släckas efter den första.
 
-![Bild](EmojiSunglasses.png) | Sättet att skriva, med "_" i stället för mellanslag t.ex. 'led_stift_2' kallas 'snake case': 'snake' är engelska för orm
+![Smiley med solglasögon](EmojiSunglasses.png) | Sättet att skriva, med "_" i stället för mellanslag t.ex. 'led_stift_2' kallas 'snake case': 'snake' är engelska för orm
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för kamel
+![Smiley med fluga](EmojiBowtie.png) | Skulle du skriva `pinLed2`, heter det 'camel case': 'camel' är engelska för kamel
 :-------------:|:----------------------------------------:
 
 ![Bild](EmojiComputer.png) | Jag tänker båda är lika bra
@@ -191,10 +191,10 @@ void loop()
 Skapa en tredje variabel `led_stift_3`.
 Få nu alla lampor blinka samtidigt: alla på, sedan alla av.
 
-![Bild](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
+![Smiley med solglasögon](EmojiSunglasses.png) | Det här är ganska mycket att skriva! Senare får du lära dig hur detta kan göras smartare
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Korrekt! Arrays låter dig lagra flera tal i en variabel
+![Smiley med fluga](EmojiBowtie.png) | Korrekt! Arrays låter dig lagra flera tal i en variabel
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -229,7 +229,7 @@ void loop()
 Få nu LEDs lysa i ett 'Knight Rider-mönster': 1-2-3-2.
 Det måste alltid finnas exakt en LED som lyser.
 
-![Solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
+![Smiley med solglasögon](EmojiSunglasses.png) | Knight Rider var en TV-serie med en talande bil.
 :-------------:|:----------------------------------------:
 
 ![Knight Rider](KnightRider.png)

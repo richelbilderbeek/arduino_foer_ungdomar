@@ -2,7 +2,7 @@
 
 I den här lektionen låter vi Arduino ställa frågor till sig själv.
 
-![Bild](EmojiSunglasses.png) | Så Arduino blir en sorts filosof!
+![Smiley med solglasögon](EmojiSunglasses.png) | Så Arduino blir en sorts filosof!
 :-------------:|:----------------------------------------:
 
 
@@ -10,7 +10,7 @@ I den här lektionen låter vi Arduino ställa frågor till sig själv.
 
 ![Strömkretsen](3_knop_if_else.png)
 
-![Bild](EmojiSunglasses.png) | Motståndet till jord kallas ett 'Pull Down'-motstånd
+![Smiley med solglasögon](EmojiSunglasses.png) | Motståndet till jord kallas ett 'Pull Down'-motstånd
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -50,14 +50,14 @@ void loop()
 
 När du trycker på knappen, släcks eller tänds LEDen?
 
-![Bild](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
+![Smiley med fluga](EmojiBowtie.png) | 'Pull Down'-motståndet ser till att stift 2 är anslutet till GND när knappen inte trycks in
 :-------------:|:----------------------------------------:
 
 ## 3.4. Knapp if ... else: Svara
 
 LEDen tänds när du trycker på knappen.
 
-![Bild](EmojiSunglasses.png) | LEDen tänds när du trycker på knappen
+![Smiley med solglasögon](EmojiSunglasses.png) | LEDen tänds när du trycker på knappen
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -87,7 +87,7 @@ Annars (`else`) stänger Arduino av spänningen på `led_stift`.
  ![Smiley](EmojiSmiley.png) |'Kära dator, om det finns spänning på `knapp_stift`, gör det inom parentes'
 
 
-![Bild](EmojiSunglasses.png) | `=` kan tolkas som "blir". "==" kan tolkas som "är det lika med?"
+![Smiley med solglasögon](EmojiSunglasses.png) | `=` kan tolkas som "blir". "==" kan tolkas som "är det lika med?"
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -124,7 +124,7 @@ void loop()
 - om du inte trycker på knappen förblir lampan släckt
 - använd variabler för att namnge stiften
 
-![Bild](EmojiBowtie.png) | Det används inget semikolon efter de runda parenteserna för `if`.
+![Smiley med fluga](EmojiBowtie.png) | Det används inget semikolon efter de runda parenteserna för `if`.
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -152,7 +152,7 @@ void loop()
 }
 ```
 
-![Bild](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
+![Smiley med solglasögon](EmojiSunglasses.png)| `// ...` betyder 'koden du redan har där'
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -166,10 +166,10 @@ Anslut en andra grön LED. Ändra koden så att:
 - Namnge variabeln för stiftet på den röda LEDen `led_stift_rod`, för
    grön LED `led_stift_gron`
 
-![Bild](EmojiSunglasses.png)| Du kan skriva flera rader inom måsvingarna i en `if` sats. Precis som mellan måsvingarna i `setup` och `loop`!
+![Smiley med solglasögon](EmojiSunglasses.png)| Du kan skriva flera rader inom måsvingarna i en `if` sats. Precis som mellan måsvingarna i `setup` och `loop`!
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | Glöm inte `else` ('annars')!
+![Smiley med fluga](EmojiBowtie.png) | Glöm inte `else` ('annars')!
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -213,7 +213,7 @@ void loop()
 }
 ```
 
-![Bild](EmojiBowtie.png)| `/* ... */` betyder också 'koden du redan har där'
+![Smiley med fluga](EmojiBowtie.png)| `/* ... */` betyder också 'koden du redan har där'
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -229,9 +229,9 @@ Anslut en andra knapp. Ändra koden så att
 - om du trycker på den andra knappen slocknar den andra LEDen
 - om du inte trycker på den andra knappen tänds den andra LEDen
 
-![Bild](EmojiSunglasses.png)| Du kan änvanda mer än en `if` sats
+![Smiley med solglasögon](EmojiSunglasses.png)| Du kan änvanda mer än en `if` sats
 :-------------:|:----------------------------------------:
 
-![Bild](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm
+![Smiley med fluga](EmojiBowtie.png) | För en andra knapp behöver du ett andra motstånd på tio tusen ohm
 :-------------:|:----------------------------------------:
 

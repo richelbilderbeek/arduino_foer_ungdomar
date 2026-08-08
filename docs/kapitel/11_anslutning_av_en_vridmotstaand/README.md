@@ -12,7 +12,7 @@ Bygg den här kretsen:
 - Montera kretsen enligt bild
 - Sätt tillbaka USB-kabeln i datorn
 
-![Bild](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
+![Smiley med fluga](EmojiBowtie.png) | Det böjda benet i ritningen symboliserar det längre benet på en lysdiod
 :-------------:|:----------------------------------------:
 
 Lyser lysdioden? Gör vridmotstånden nåt? Varför tror du det?

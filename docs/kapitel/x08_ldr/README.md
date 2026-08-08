@@ -65,7 +65,7 @@ else
 :-------------:|:----------------------------------------:
 `<`|'litare än'
 
-![Bild](EmojiBowtie.png) | `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
+![Smiley med fluga](EmojiBowtie.png) | `512` är bara i mitten från alla möjliga värder `analogRead` kan ger
 :-------------:|:----------------------------------------:
 
 \pagebreak

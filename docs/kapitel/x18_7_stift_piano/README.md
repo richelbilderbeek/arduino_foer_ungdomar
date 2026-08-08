@@ -63,10 +63,10 @@ void loop()
 }
 ```
 
-![Bowtie](EmojiBowtie.png) | Ah, 'digitalRead' ska vara 'HIGH' istället för 'LOW'!
+![Smiley med fluga](EmojiBowtie.png) | Ah, 'digitalRead' ska vara 'HIGH' istället för 'LOW'!
 :-------------:|:----------------------------------------:
 
-![Solglasögon](EmojiSunglasses.png) | Om koden *fungerade*, vände du GND och 5V
+![Smiley med solglasögon](EmojiSunglasses.png) | Om koden *fungerade*, vände du GND och 5V
 :-------------:|:----------------------------------------:
 
 \pagebreak
@@ -77,10 +77,10 @@ Bygg en andra nyckel på stift 3.
 Den behöver också ett eget motstånd.
 Detta bör ha en tonhöjd på 196 Hertz.
 
-![Bowtie](EmojiBowtie.png) | Att bygga en andra knapp är precis som den första
+![Smiley med fluga](EmojiBowtie.png) | Att bygga en andra knapp är precis som den första
 :-------------:|:----------------------------------------:
 
-![Solglasögon](EmojiSunglasses.png) | Koden för den andra knappen går också som den första
+![Smiley med solglasögon](EmojiSunglasses.png) | Koden för den andra knappen går också som den första
 :-------------:|:----------------------------------------:
 
 \pagebreak

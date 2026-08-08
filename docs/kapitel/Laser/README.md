@@ -9,7 +9,7 @@ In deze les gaan we een laser aansluiten en gebruiken
 Op de cursus hebben we een categorie 2 laser. Deze is
 veilig als je niet expres in de laser kijkt.
 
-![Sunglasses](EmojiSunglasses.png) | Kijk nooit in de laser.
+![Smiley med solglasögon](EmojiSunglasses.png) | Kijk nooit in de laser.
 :-------------:|:----------------------------------------:
 
 ## Extra opdracht: welke weerstand?
@@ -44,7 +44,7 @@ Sluit een laser zo aan:
 
 ![Laser aansluiten](LaserBreadboard.png)
 
-![Sunglasses](EmojiSunglasses.png) | Zorg dat de laser niet ver kan schijnen.
+![Smiley med solglasögon](EmojiSunglasses.png) | Zorg dat de laser niet ver kan schijnen.
 :-------------:|:----------------------------------------:
 
 ## Opdracht

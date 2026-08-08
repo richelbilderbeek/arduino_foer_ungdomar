@@ -15,7 +15,7 @@ Koppla ett oscilloskop till en avståndssensor.
 
 ![På riktigt](28_maetning_av_en_avstaandssensor_real.jpg)
 
-![Bowtie emoji](EmojiBowtie.png) | Man kan också använda USB portet av oscilloskopen!
+![Smiley med fluga](EmojiBowtie.png) | Man kan också använda USB portet av oscilloskopen!
 :-------------:|:----------------------------------------:
 
 Man kan använda en kopplingsslad för att förbinda proben av
