@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok 11
+# Bok 11, v2.0
 
 ![Bok 11: neopixlar och stegmotor](framsida_11.png)
 

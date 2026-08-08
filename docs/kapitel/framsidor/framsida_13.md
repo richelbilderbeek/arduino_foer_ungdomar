@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok 13
+# Bok 13, v2.0
 
 ![Bok 13: LCD och Arduino shield](framsida_13.png)
 

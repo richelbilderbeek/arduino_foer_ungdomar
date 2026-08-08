@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok Minim
+# Bok Minim, v2.0
 
 ![Bok Minim](framsida_minim.png)
 

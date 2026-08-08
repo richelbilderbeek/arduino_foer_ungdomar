@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok 14
+# Bok 14, v2.0
 
 ![Bok 14: bare-bone Arduino](framsida_14.png)
 

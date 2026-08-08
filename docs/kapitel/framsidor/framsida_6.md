@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok 6
+# Bok 6, v2.0
 
 ![Bok 6: LDR, 2026-06-05](framsida_6.png)
 

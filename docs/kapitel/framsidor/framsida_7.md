@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok 7
+# Bok 7, v2.0
 
 ![Bok 7: servo](framsida_7.png)
 

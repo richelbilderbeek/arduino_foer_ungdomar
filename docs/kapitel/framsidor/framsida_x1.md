@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok X1
+# Bok X1, v2.0
 
 ![Bok 1](framsida_1.png)
 

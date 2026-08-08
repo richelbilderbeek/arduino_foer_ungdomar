@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok 12
+# Bok 12, v2.0
 
 ![Bok 12: kapacitiv knapp ochj lödning](framsida_12.png)
 

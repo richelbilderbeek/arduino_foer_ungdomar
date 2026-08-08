@@ -1,5 +1,5 @@
 # Arduino för ungdomar
-# Bok 8
+# Bok 8, v2.0
 
 ![Bok 8: relä](framsida_8.png)
 
