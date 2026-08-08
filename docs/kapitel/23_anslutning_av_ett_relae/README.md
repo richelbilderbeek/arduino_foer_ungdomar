@@ -148,7 +148,7 @@ S2       |S4       |Kortslutning!
 
 En H-brygga är farlig för att det är lätt att få kortslutning.
 
-![Bild](EmojiSmiley.png) | Kortslutning betyder att el kan gå fritt (dvs utan motstånd) från plus till minus
+![Smiley](EmojiSmiley.png) | Kortslutning betyder att el kan gå fritt (dvs utan motstånd) från plus till minus
 :-------------:|:----------------------------------------:
 
 ![Smiley med solglasögon](EmojiSunglasses.png) | Fritt gående el värmer upp sladdarna

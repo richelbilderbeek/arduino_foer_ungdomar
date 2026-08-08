@@ -6,7 +6,7 @@ Under den här lektionen ska vi ansluta en vridmotstånd till en Arduino!
 
 Bygg den här kretsen:
 
-![Bild](anslutning_av_en_vridmotstaand_1.png)
+![Krets 11.1](anslutning_av_en_vridmotstaand_1.png)
 
 - Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
 - Montera kretsen enligt bild
@@ -34,7 +34,7 @@ Vridmotstånd, dock, gör ingenting: vad du än gör, gör det ingen skillnad.
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_en_vridmotstaand_2.png)
+![Krets 11.2](anslutning_av_en_vridmotstaand_2.png)
 
 Nu är vridmotstånden användt!
 
@@ -57,7 +57,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_en_vridmotstaand_3.png)
+![Krets 11.3](anslutning_av_en_vridmotstaand_3.png)
 
 Nu får vridmotstånden el på vänstra ben
 och framföra elet med högra ben till lysdioden.
@@ -80,7 +80,7 @@ av vridmotståndet har alltid samma motstånd.
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_en_vridmotstaand_4.png)
+![Krets 11.4](anslutning_av_en_vridmotstaand_4.png)
 
 Nu får vridmotstånden el på mittna ben
 och framföra elet med högra ben till lysdioden.
@@ -104,7 +104,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_en_vridmotstaand_5.png)
+![Krets 11.5](anslutning_av_en_vridmotstaand_5.png)
 
 Nu finns det två vridmotstånd!
 
@@ -127,7 +127,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_en_vridmotstaand_6.png)
+![Krets 11.6](anslutning_av_en_vridmotstaand_6.png)
 
 Lyser lysdioden? Går vridmotståndorna nåt? Varför tror du det?
 
@@ -149,7 +149,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_en_vridmotstaand_7.png)
+![Krets 11.7](anslutning_av_en_vridmotstaand_7.png)
 
 Nu finns det två vridmotståndor med en annat sammanlänkning.
 

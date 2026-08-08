@@ -2,17 +2,17 @@
 
 Under den här lektionen ska vi programmera flera lysdioder med en Arduino!
 
-## 6.1: Anslutning
+## 6.1. Anslutning
 
 Bygg upp den här kretsen:
 
-![Bild](anvaendning_av_flera_lysdioder_0.png)
+![6.1. Elkrets](anvaendning_av_flera_lysdioder_0.png)
 
 Alla lysdioder ska lysa. Om de inte gör det, be om hjälp!
 
 \pagebreak
 
-## 6.2: Koden
+## 6.2. Koden
 
 Ladda upp denna kod:
 
@@ -53,37 +53,37 @@ Men ingenting händer, eftersom det inte sitter några sladdar i hålen.
 
 \pagebreak
 
-## 6.3: Anslutning 1
+## 6.3. Anslutning 1
 
 Bygg om till den här kretsen:
 
-![Bild](anvaendning_av_flera_lysdioder_1.png)
+![6.3. Elkrets](anvaendning_av_flera_lysdioder_1.png)
 
 Lysdioden till vänster skall blinka. Om inte, fråga om hjälp!
 
 \pagebreak
 
-## 6.4: Anslutning 2
+## 6.4. Anslutning 2
 
 Bygg om till den här kretsen:
 
-![Bild](anvaendning_av_flera_lysdioder_2.png)
+![6.4. Elkrets](anvaendning_av_flera_lysdioder_2.png)
 
 De två lysdioderna till vänster skall blinka. Om inte, fråga om hjälp!
 
 \pagebreak
 
-## 6.5: Anslutning 3
+## 6.5. Anslutning 3
 
 Bygg om till den här kretsen:
 
-![Bild](anvaendning_av_flera_lysdioder_3.png)
+![6.5. Elkrets](anvaendning_av_flera_lysdioder_3.png)
 
 Den tre lysdioderna skall blinka. Om inte, fråga om hjälp!
 
 \pagebreak
 
-## 6.6: Ett nytt mönster
+## 6.6. Ett nytt mönster
 
 Ändra koden till koden nedan:
 
@@ -124,7 +124,7 @@ Mönstret upprepar:
 - lysdioden i 12 och i 13 släcker
 - en sekund händer ingenting
 
-## 6.7: Knight Rider mönstret
+## 6.7. Knight Rider mönstret
 
 Förbered kod:
 

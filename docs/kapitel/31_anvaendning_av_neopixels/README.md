@@ -79,7 +79,7 @@ Ladda up koden. Nu bör den funkar!
 
 ## 31.2. Anslutning och första intryck av koden
 
-![Bild](neo_pixel_1_connect.png)
+![Krets 31.2](neo_pixel_1_connect.png)
 
 Anslut en Arduino till NeoPixels så här:
 
@@ -139,9 +139,9 @@ Steg|Hur det ser ut
 ![Smiley med solglasögon](EmojiSunglasses.png) | Har du glömt här ljusfärger smälta sammans? Se figuret nedåt
 :-------------:|:----------------------------------------:
 
-![Bild](faergcirkel.png)
+![Färgcirkeln](faergcirkel.png)
 
-> Färgcirkel. Här kan du ser att gul är en blandning av röd och grön.
+> Färgcirkeln. Här kan du ser att gul är en blandning av röd och grön.
 
 Färg  |Röd|Grön|Blå
 ------|---|----|----

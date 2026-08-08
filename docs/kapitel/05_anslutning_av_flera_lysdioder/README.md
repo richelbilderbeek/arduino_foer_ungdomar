@@ -8,17 +8,21 @@ Vi använder ett kopplingsdäck för att ansluta grejer till Arduino.
 
 Här ser vi ett:
 
-![Image from https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_flera_lysdioder_breadboard_frontside.jpg)
+![Ett kopplingsdäck](anslutning_av_flera_lysdioder_breadboard_frontside.jpg)
+
+<!-- Image from https://sti2d.ecolelamache.org/les_breadboard.html -->
 
 Och här är baksidan av samma kopplingsdäck:
 
-![Image from https://sti2d.ecolelamache.org/les_breadboard.html](anslutning_av_flera_lysdioder_breadboard_backside.jpg)
+![Baksidan av samma kopplingsdäck](anslutning_av_flera_lysdioder_breadboard_backside.jpg)
+
+<!-- Image from https://sti2d.ecolelamache.org/les_breadboard.html -->
 
 \pagebreak
 
 Kom ihåg hur baksidan av kopplingsdäcket såg ut och titta på det här:
 
-![Bild](anslutning_av_flera_lysdioder_breadboard_schematic_with_dots.png)
+![Att koppla flera lysdioder](anslutning_av_flera_lysdioder_breadboard_schematic_with_dots.png)
 
 Vilka av hålen är sammanlänkade?
 
@@ -35,7 +39,7 @@ Vilka av hålen är sammanlänkade?
 
 Kolla på den här bilden:
 
-![Bild](anslutning_av_flera_lysdioder_0.png)
+![Krets 5.2](anslutning_av_flera_lysdioder_0.png)
 
 Den fyra långa horisontella raderna av hål kallas 'skenor'.
 
@@ -70,7 +74,7 @@ så att båda skenorna kopplade dit är jordade.
 
 Nu är det dags att bygga kretsen på riktigt:
 
-![Bild](anslutning_av_flera_lysdioder_1.png)
+![Krets 5.3](anslutning_av_flera_lysdioder_1.png)
 
 - Koppla ur USB-kabeln från datorn, så att Arduino inte längre har ström
 - Montera kretsen enligt bild
@@ -94,7 +98,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_flera_lysdioder_2.png)
+![Krets 5.4](anslutning_av_flera_lysdioder_2.png)
 
 Nu finns två lysdioder!
 
@@ -114,7 +118,7 @@ Så ja, det funkar! Om inte, fråga om hjälp!
 
 Kolla på den här kretsen:
 
-![Bild](anslutning_av_flera_lysdioder_3.png)
+![Krets 5.5](anslutning_av_flera_lysdioder_3.png)
 
 Nu finns tre lysdioder!
 

@@ -6,7 +6,7 @@ Under den här lektionen ska vi programmera en lysdiod med en Arduino!
 
 Anslut en Arduino, lysdiod och motstånd så här:
 
-![Bild](programmering_av_en_lysdiod_5v.png)
+![4.1. Krets](programmering_av_en_lysdiod_5v.png)
 
 Avänd 5V hålet av Arduino. Funkar detta?
 
@@ -28,7 +28,7 @@ Här ska vi använda hål `13` som vi kan programmera att ge spännning eller ej
 
 Anslut en Arduino, lysdiod och motstånd så här:
 
-![Bild](programmering_av_en_lysdiod_13.png)
+![4.2. Krets](programmering_av_en_lysdiod_13.png)
 
 Nu är lysdioden kopplad till hålet `13` på Arduino.
 
@@ -166,7 +166,7 @@ Du kommer inte längre att se lampan blinka.
 
 Anslut nu lysdioden till Arduino stift `12`.
 
-![Bild](programmering_av_en_lysdiod_12.png)
+![4.6. Krets](programmering_av_en_lysdiod_12.png)
 
 \pagebreak
 

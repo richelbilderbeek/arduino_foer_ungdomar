@@ -6,7 +6,7 @@ Under den här lektionen ska vi ansluta knappar till en Arduino!
 
 Bygg upp den här kretsen:
 
-![Bild](anvaendning_av_en_knapp_1.png)
+![Krets 9.1](anvaendning_av_en_knapp_1.png)
 
 Vila lysdioder skulle alltid lysa? Gör knapporna nåt?
 
@@ -23,7 +23,7 @@ Om inte, fråga om hjälp!
 
 Bygg upp den här kretsen:
 
-![Bild](anvaendning_av_en_knapp_2.png)
+![Krets 9.2](anvaendning_av_en_knapp_2.png)
 
 Vilka lysdioder skulle alltid lysa? Gör knapporna nåt?
 

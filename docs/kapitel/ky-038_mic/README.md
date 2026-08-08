@@ -2,13 +2,13 @@
 
 Under den här lektionen använder vi en KY-038 microfon.
 
-![Bild](ky-038_microfon.png)
+![En KY-038 microfon](ky-038_microfon.png)
 
 ## X.1 Uppgift
 
 Bygg up den här kretsen:
 
-![Bild](ky-038_microfon_elkrets.png)
+![X.1. Krets](ky-038_microfon_elkrets.png)
 
 Programmerar:
 
@@ -19,19 +19,19 @@ Programmerar:
 
 Kollar på Serial Monitor eller Serial Plotter:
 
-![Bild](serial_monitor_menu_item.png)
+![Klicka på 'Serial Monitor'](serial_monitor_menu_item.png)
 
 > Serial Monitor är här
 
-![Bild](serial_plotter_menu_item.png)
+![Klicka på 'Serial Plotter'](serial_plotter_menu_item.png)
 
 > Serial Plotter är här
 
 \pagebreak
 
-## X.2 Lösning
+## X.2. Svar
 
-![Bild](08_potmeter.png)
+![X.2 Svar](08_potmeter.png)
 
 ```c++
 const int microfon_stift = A0;
@@ -52,12 +52,12 @@ void loop()
 Nadåt ser du en exempel hur Serial Monitor ser ut.
 Dina värd är annorlunda:
 
-![Bild](serial_monitor_vaerd.png)
+![X.2. Serial Monitor](serial_monitor_vaerd.png)
 
 Nadåt ser du en exempel hur Serial Plotter ser ut.
 Din ritning är annorlunda:
 
-![Bild](serial_plotter_graf.png)
+![X.2. Serial Plotter](serial_plotter_graf.png)
 
 \pagebreak
 
@@ -196,4 +196,4 @@ void loop()
 
 ## Hela stromkrets
 
-![Bild](stromkrets_allt.png)
+![Hela stromkrets](stromkrets_allt.png)

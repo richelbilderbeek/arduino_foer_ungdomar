@@ -38,7 +38,7 @@ Det stämmer: el kan gå från ena mätpunkten till den andra utan motstånd.
 
 ## 2.2. Mätning av oändligt motstånd
 
-![Bild](anvaendning_av_en_multimeter_luft.png)
+![Att mäta luft](anvaendning_av_en_multimeter_luft.png)
 
 Sätt på multimetern och håll den röda mätpinnen långt bort från den svarta mätpinnen.
 Vad visar mätningen?
@@ -57,7 +57,7 @@ Det är svårt för el att gå igenom luften!
 
 ## 2.3. Mätning av ett tusenohms motstånd
 
-![Bild](anvaendning_av_en_multimeter_1000_1.png)
+![Mätning av ett tusenohms motstånd](anvaendning_av_en_multimeter_1000_1.png)
 
 Leta efter ett 1000 ohms motstånd.
 Det har ränder i brunt, svart, röd och guld, i den ordningen.
@@ -79,7 +79,7 @@ Motstånd är inte perfekta, så det stämmer!
 
 ## 2.4. Mätning av ett tusenohms motstånd i andra riktningen
 
-![Bild](anvaendning_av_en_multimeter_1000_2.png)
+![Mätning av ett tusenohms motstånd i andra riktningen](anvaendning_av_en_multimeter_1000_2.png)
 
 Vänd på motståndet och mät motståndet igen:
 
@@ -100,7 +100,7 @@ Riktningen på motståndet spelar ingen roll.
 
 ## 2.5. Mätning av ett tiotusenohms motstånd
 
-![Bild](anvaendning_av_en_multimeter_10000_1.png)
+![Mätning av ett tiotusenohms motstånd](anvaendning_av_en_multimeter_10000_1.png)
 
 Leta efter ett **tio**-tusen Ohms motstånd.
 Det har ränder i brunt, svart, **orange** och guld, i den ordningen.
@@ -124,7 +124,7 @@ Motstånd är inte perfekta, så det stämmer!
 
 ## 2.6. Mätning av ett tiotusenohms motstånd i andra riktning
 
-![Bild](anvaendning_av_en_multimeter_10000_2.png)
+![Mätning av ett tiotusenohms motstånd i andra riktning](anvaendning_av_en_multimeter_10000_2.png)
 
 Vänd på motståndet och mät motståndet igen:
 
@@ -145,7 +145,7 @@ Igen, riktningen på motståndet spelar ingen roll.
 
 ## 2.7. Mätning av en lysdiod
 
-![Bild](anvaendning_av_en_multimeter_lysdiod_1.png)
+![Mätning av en lysdiod](anvaendning_av_en_multimeter_lysdiod_1.png)
 
 Leta efter en lysdiod.
 
@@ -170,7 +170,7 @@ Det är möjligt att lysdioden lyser litegrann!
 
 ## 2.8. Mätning av en lysdiod i andra riktningen
 
-![Bild](anvaendning_av_en_multimeter_lysdiod_2.png)
+![Mätning av en lysdiod i andra riktningen](anvaendning_av_en_multimeter_lysdiod_2.png)
 
 Vänd på lysdioden och mät motståndet igen:
 
