@@ -16,6 +16,8 @@ Name                                                 |Description
 [create_book_8.sh](create_book_8.sh)                 |Creates book 8
 [create_book_9.sh](create_book_9.sh)                 |Creates book 9
 [create_book_10.sh](create_book_10.sh)               |Creates book 10
+[create_book_11.sh](create_book_10.sh)               |Creates book 11
 [create_book_12.sh](create_book_12.sh)               |Creates book 12
-[create_book_99.sh](create_book_99.sh)               |Creates book 99
+[create_book_13.sh](create_book_10.sh)               |Creates book 13
+[create_book_14.sh](create_book_10.sh)               |Creates book 14
 [create_front_pages.sh](create_front_pages.sh)       |Creates the front pages
