@@ -91,6 +91,7 @@ nav:
     - learning_line.md
     - Licence: LICENSE
     - logo/README.md
+    - projects/rainbow_six_siege_drone.md
     - Scripts: scripts/README.md
 
 not_in_nav: |
