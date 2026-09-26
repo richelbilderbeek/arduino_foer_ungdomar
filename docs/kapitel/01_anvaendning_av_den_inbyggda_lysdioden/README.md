@@ -6,7 +6,7 @@ i Arduino.
 ![Smiley med solglasögon](EmojiSunglasses.png) | Arduino har redan en lampa som du kan programmera.
 :-------------:|:----------------------------------------:
 
-## 1.1. Ansluta en Arduino
+## 1.1. Att ansluta en Arduino
 
 Anslut en Arduino så här:
 
@@ -16,23 +16,23 @@ Anslut en USB-kabel till din Arduino och till din dator.
 
 \pagebreak
 
-## 1.2. Startar Arduino IDE
+## 1.2. Att starta Arduino IDE
 
-![Smiley with sunglasses](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
+![Smiley med solglasögon](EmojiSunglasses.png) | Vi programmerar Arduino med Arduino IDE
 :-------------:|:----------------------------------------:
 
-![Smiley with bowtie](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
+![Smiley med fluga](EmojiBowtie.png) | 'IDE' uttalas som 'i-d-ee'
 :-------------:|:----------------------------------------:
 
 Starta Arduino IDE genom att:
 
 - Klicka på genvägen på skrivbordet
-- Tryck på Windows-tangenten (nedre till vänster, mellan `Ctrl` och `Alt`). Skriv
-   sedan `arduino` (små bokstäver) och tryck sedan Enter
+- Tryck på Windows-tangenten (nere till vänster, mellan `Ctrl` och `Alt`). Skriv
+   sedan `arduino` (små bokstäver) och tryck Enter
 
 ![Logotyp för Arduino IDE](anvaendning_av_den_inbyggda_lysdioden_ide_logo.png)
 
-![Win tangent](anvaendning_av_den_inbyggda_lysdioden_win_tangent.jpg)
+![Windows-tangenten](anvaendning_av_den_inbyggda_lysdioden_win_tangent.jpg)
 
 \pagebreak
 
@@ -84,7 +84,7 @@ void loop()
 :-------------:|:----------------------------------------:
 `delay(1000);`|'Vänta 1000 millisekunder'
 
-Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
+Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda upp').
 
 ![Här kan du klicka på 'Upload'](anvaendning_av_den_inbyggda_lysdioden_upload.png)
 
@@ -92,9 +92,9 @@ Skriv in koden i Arduino IDE och klicka på 'Upload' ('Ladda up').
 
 ## 1.4. 10 gånger snabbare
 
-Få LEDen att blinka 10 gånger snabbare.
+Få LED:en (lysdioden) att blinka 10 gånger snabbare.
 
-Tips: LED är nu på i 1000 millisekunder (1 sekund) och av i 1000 millisekunder (1 sekund).
+Tips: LED:en är nu på i 1000 millisekunder (1 sekund) och av i 1000 millisekunder (1 sekund).
 
 \pagebreak
 
@@ -115,9 +115,9 @@ void loop()
 }
 ```
 
-## 1.5. Så snabbt möjligt
+## 1.5. Så snabbt som möjligt
 
-Få LEDen att blinka så snabbt du kan. Vad ser du?
+Få LED:en att blinka så snabbt du kan. Vad ser du?
 
 ![Smiley med solglasögon](EmojiSunglasses.png) | Det blir antagligen nåt du inte förväntade dig!
 :-------------:|:----------------------------------------:
@@ -126,7 +126,7 @@ Få LEDen att blinka så snabbt du kan. Vad ser du?
 
 ### 1.5. Svar
 
-Det finns fler lösningar, det här är en:
+Det finns flera lösningar, det här är en:
 
 ```c++
 void setup()
@@ -167,18 +167,18 @@ Du kommer inte längre att kunna se lampan blinka.
 Hämta:
 
 - 1 st dator
-- 1 st USB sladd
+- 1 st USB-sladd
 - 1 st Arduino
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 
 1. Fråga någon för att få göra provet. Den personen får inte hjälpa dig.
 
-2. Stäng av dator helt. Starta dator. Starta timern när Arduino IDE är startat
+2. Stäng av datorn helt. Starta datorn. Starta timern när Arduino IDE har startat
 
 3. Få lysdioden att blinka varje sekund,
    dvs lysdioden är på i 1 sekund och av i 1 sekund.
    Du får använda kod som redan finns!
 
 4. Få lysdioden att blinka så snabbt som möjligt.
-   Förklara varför vi kann inte ser det
+   Förklara varför vi inte kan se det
