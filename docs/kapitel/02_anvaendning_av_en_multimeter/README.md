@@ -143,11 +143,24 @@ Igen, riktningen på motståndet spelar ingen roll.
 ![Smiley med fluga](EmojiBowtie.png) | Riktningen på motståndet spelar ingen roll!
 :-------------:|:----------------------------------------:
 
-## 2.7. Mätning av en lysdiod
+## 2.7. Extra uppgift: Mätning av en lysdiod
 
-![Mätning av en lysdiod](anvaendning_av_en_multimeter_lysdiod_1.png)
+(Den här uppgiften och nästa är extra uppgifter.
+Gör dem bara om multimetern har ett diodtestläge.
+Då finns det en diodsymbol på vredet, som på bilden.
+I Ohm-läget är spänningen från multimetern för låg för att
+el ska kunna gå igenom en lysdiod, så då visar skärmen oändligt
+i båda riktningarna.
+I diodtestläget ger multimetern tillräckligt med spänning
+för att lysdioden ska släppa igenom el och lysa litegrann.
+Med vissa multimetrar lyser den så svagt att man knappt ser det, så titta noga!)
+
+![Mätning av en lysdiod](anvaendning_av_en_multimeter_lysdiod_diodtest_1.png)
 
 Leta efter en lysdiod.
+
+Vrid knappen på multimetern till diodsymbolen.
+Nu visar skärmen volt i stället för Ohm.
 
 Sätt på multimetern och koppla:
 
@@ -162,17 +175,20 @@ Vad visar mätningen? Lyser lysdioden litegrann?
 
 Värdet är inte oändligt!
 Det betyder att el kan gå igenom en lysdiod.
+Skärmen visar hur många volt lysdioden behöver, ungefär mellan 1,5 och 3 volt.
 
 Det är möjligt att lysdioden lyser litegrann!
 
-![Smiley med fluga](EmojiBowtie.png) | Exakta motståndet hos en lysdiod spelar inte så stor roll
+![Smiley med fluga](EmojiBowtie.png) | Exakta värdet hos en lysdiod spelar inte så stor roll
 :-------------:|:----------------------------------------:
 
-## 2.8. Mätning av en lysdiod i andra riktningen
+## 2.8. Extra uppgift: Mätning av en lysdiod i andra riktningen
 
-![Mätning av en lysdiod i andra riktningen](anvaendning_av_en_multimeter_lysdiod_2.png)
+(Extra uppgift: gör den bara om multimetern har ett diodtestläge.)
 
-Vänd på lysdioden och mät motståndet igen:
+![Mätning av en lysdiod i andra riktningen](anvaendning_av_en_multimeter_lysdiod_diodtest_2.png)
+
+Vänd på lysdioden och mät igen:
 
 - röda mätpinnen på det kortare benet på lysdioden
 - svarta mätpinnen på det andra benet
@@ -183,11 +199,11 @@ Vad visar mätningen? Lyser lysdioden litegrann?
 
 ### 2.8. Svar
 
-Värdet skulle vara oändligt.
+Värdet ska vara oändligt.
 Det betyder att el inte kan gå igenom en lysdiod i den riktningen.
 Lysdioden lyser inte.
 
-![Smiley med fluga](EmojiBowtie.png) | Riktningen på en lysdiod är viktigt!
+![Smiley med fluga](EmojiBowtie.png) | Riktningen på en lysdiod är viktig!
 :-------------:|:----------------------------------------:
 
 ## 2.9. Slutuppgift
@@ -198,7 +214,7 @@ Hämta:
 - 1 st 1000 Ohms motstånd
 - 1 st 10 000 Ohms motstånd
 - 1 st slumpmässigt motstånd
-- 1 st lysdiod
+- (1 st lysdiod, om multimetern har ett diodtestläge)
 
 Läs igenom slutuppgiften först, för du har 5 minuter på dig.
 
@@ -212,4 +228,4 @@ Starta en timer och gör följande:
 
 - Steg 4: Visa exakta motståndet för det slumpmässigt valda motståndet
 
-- Steg 5: Bevisa att riktningen på en lysdiod är antingen viktig eller oviktig
+- (Extra, om multimetern har ett diodtestläge. Steg 5: Bevisa att riktningen på en lysdiod är antingen viktig eller oviktig)
