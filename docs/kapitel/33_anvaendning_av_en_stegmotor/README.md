@@ -51,15 +51,15 @@ void loop()
 
 \pagebreak
 
-Om de inte har installerat `CheapStepper`, so får du en felmeldning så här:
+Om de inte har installerat `Stepper`, so får du en felmeldning så här:
 
-![Felmeldning om du inte har installerat `CheapStepper`](anvaendning_av_en_stegmotor_have_not_installed_cheapstepper.png)
+![Felmeldning om du inte har installerat `Stepper`](anvaendning_av_en_stegmotor_have_not_installed_stepper.png)
 
 \pagebreak
 
-Installera `SteapStepper` so här:
+Installera `Stepper` so här:
 
-![Installera `SteapStepper`](anvaendning_av_en_stegmotor_install_cheapstepper.png)
+![Installera `Stepper`](anvaendning_av_en_stegmotor_install_stepper.png)
 
 ## 33.3. Slutuppgift
 
